@@ -1,0 +1,24 @@
+{
+  "name": "perfect-team-dokkan-battke",
+  "version": "1.0.0",
+  "description": "This project will help you to create the perfect team for dokka battle with the perfect synergie for each champion",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/1lerochA/Perfect-Team-dokkan-battke.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/1lerochA/Perfect-Team-dokkan-battke/issues"
+  },
+  "homepage": "https://github.com/1lerochA/Perfect-Team-dokkan-battke#readme",
+  "dependencies": {
+    "node-fetch": "^3.3.2"
+  }
+}

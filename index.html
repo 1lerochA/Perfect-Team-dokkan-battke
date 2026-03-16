@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dokkan Team Builder</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #1e1e24; /* Un fond sombre un peu comme le jeu */
+            color: white;
+            padding: 20px;
+            max-width: 800px;
+            margin: auto;
+        }
+        h1 { color: #f39c12; text-align: center; }
+        button {
+            background-color: #e67e22;
+            color: white;
+            border: none;
+            padding: 15px 20px;
+            font-size: 16px;
+            font-weight: bold;
+            border-radius: 8px;
+            cursor: pointer;
+            width: 100%;
+            margin-bottom: 20px;
+        }
+        button:hover { background-color: #d35400; }
+        .character-card {
+            background-color: #2c3e50;
+            padding: 15px;
+            margin-bottom: 10px;
+            border-radius: 8px;
+            border-left: 5px solid #f1c40f;
+        }
+        .score { font-weight: bold; color: #f1c40f; }
+        .links { font-size: 0.9em; color: #bdc3c7; margin-top: 5px; }
+    </style>
+</head>
+<body>
+
+    <h1>🔮 Dokkan Team Builder</h1>
+    
+    <p>Leader sélectionné : <strong>Goku & Vegeta SSJ4 INT (11 ans)</strong></p>
+    
+    <button onclick="runApp()">Générer la meilleure équipe</button>
+
+    <div id="results"></div>
+
+    <script>
+        const fetchDokkanData = async () => {
+            return [
+                { id: 1, name: "Goku & Vegeta SSJ4 INT (11 ans)", categories: ["Héros de GT", "Famille de Goku"], links: ["Combat acharné", "Paré au combat", "Rugissement Saiyan", "GT"] },
+                { id: 2, name: "Goku SSJ4 FP INT LR", categories: ["Héros de GT", "Famille de Goku"], links: ["Combat acharné", "Paré au combat", "Rugissement Saiyan", "GT", "Super Saiyan"] },
+                { id: 3, name: "Pan (GT) END", categories: ["Héros de GT"], links: ["GT", "Lignée royale", "Innocence"] },
+                { id: 4, name: "Gogeta Blue AGI", categories: ["Héros de film", "Kamehameha"], links: ["Combat acharné", "Guerrier fusionné", "Paré au combat"] },
+                { id: 5, name: "Vegeta SSJ4 PUI", categories: ["Héros de GT", "Famille de Vegeta"], links: ["Combat acharné", "Paré au combat", "Rugissement Saiyan", "GT"] }
+            ];
+        };
+
+        const generateBestTeam = (leaderId, userBoxIds, allCharacters) => {
+            const leader = allCharacters.find(c => c.id === leaderId);
+            const userCharacters = allCharacters.filter(c => userBoxIds.includes(c.id));
+
+            const eligibleCharacters = userCharacters.filter(char => {
+                if (char.id === leader.id) return false; 
+                return char.categories.some(cat => leader.categories.includes(cat));
+            });
+
+            const scoredCharacters = eligibleCharacters.map(char => {
+                const sharedLinks = char.links.filter(link => leader.links.includes(link));
+                return { ...char, sharedLinks, score: sharedLinks.length * 10 };
+            });
+
+            scoredCharacters.sort((a, b) => b.score - a.score);
+            return scoredCharacters.slice(0, 4); // Retourne le top 4
+        };
+
+        // Fonction liée au clic du bouton
+        const runApp = async () => {
+            const resultsDiv = document.getElementById('results');
+            resultsDiv.innerHTML = "<p>Calcul en cours...</p>"; // Petit effet de chargement
+
+            const allCharacters = await fetchDokkanData();
+            const maBox = [1, 2, 3, 4, 5]; 
+            
+            const bestTeam = generateBestTeam(1, maBox, allCharacters);
+
+            // On efface le "Calcul en cours"
+            resultsDiv.innerHTML = "";
+
+            // On boucle sur les résultats pour créer les "cartes" en HTML
+            bestTeam.forEach(char => {
+                resultsDiv.innerHTML += `
+                    <div class="character-card">
+                        <h3>${char.name} <span class="score">(Score: ${char.score})</span></h3>
+                        <div class="links">🔗 Liens partagés : ${char.sharedLinks.join(', ')}</div>
+                    </div>
+                `;
+            });
+        };
+    </script>
+</body>
+</html>
