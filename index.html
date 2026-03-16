@@ -2,69 +2,69 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dokkan Team Builder</title>
+    <title>Générateur - Dokkan</title>
     <style>
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background-color: #1e1e24; /* Un fond sombre un peu comme le jeu */
-            color: white;
-            padding: 20px;
-            max-width: 800px;
-            margin: auto;
-        }
-        h1 { color: #f39c12; text-align: center; }
-        button {
-            background-color: #e67e22;
-            color: white;
-            border: none;
-            padding: 15px 20px;
-            font-size: 16px;
-            font-weight: bold;
-            border-radius: 8px;
-            cursor: pointer;
-            width: 100%;
-            margin-bottom: 20px;
-        }
-        button:hover { background-color: #d35400; }
-        .character-card {
-            background-color: #2c3e50;
-            padding: 15px;
-            margin-bottom: 10px;
-            border-radius: 8px;
-            border-left: 5px solid #f1c40f;
-        }
-        .score { font-weight: bold; color: #f1c40f; }
-        .links { font-size: 0.9em; color: #bdc3c7; margin-top: 5px; }
+        body { font-family: sans-serif; background: #1e1e24; color: white; padding: 20px; max-width: 800px; margin: auto; }
+        nav { text-align: center; margin-bottom: 20px; }
+        nav a { color: #f39c12; text-decoration: none; font-size: 18px; margin: 0 10px; font-weight: bold; }
+        
+        .controls { background: #2c3e50; padding: 20px; border-radius: 8px; margin-bottom: 20px; }
+        select { width: 100%; padding: 10px; font-size: 16px; margin-bottom: 15px; border-radius: 5px; background: #34495e; color: white; border: 1px solid #f39c12; }
+        
+        button { border: none; padding: 15px; font-size: 16px; font-weight: bold; border-radius: 8px; cursor: pointer; width: 48%; margin: 5px 1%; color: white; }
+        .btn-box { background: #e67e22; }
+        .btn-box:hover { background: #d35400; }
+        .btn-all { background: #9b59b6; }
+        .btn-all:hover { background: #8e44ad; }
+
+        .result-card { display: flex; align-items: center; background: #34495e; padding: 15px; margin-bottom: 10px; border-radius: 8px; border-left: 5px solid #f1c40f; }
+        .result-card img { width: 60px; height: 60px; border-radius: 8px; margin-right: 15px; }
+        .score { color: #f1c40f; font-weight: bold; }
+        .links { font-size: 0.9em; color: #bdc3c7; }
     </style>
 </head>
 <body>
+    <nav>
+        <a href="index.html">🔮 Générateur</a>
+        <a href="box.html">🎒 Gérer ma Box</a>
+    </nav>
 
-    <h1>🔮 Dokkan Team Builder</h1>
+    <h1 style="text-align: center;">🔮 Générateur d'équipe</h1>
     
-    <p>Leader sélectionné : <strong>Goku & Vegeta SSJ4 INT (11 ans)</strong></p>
-    
-    <button onclick="runApp()">Générer la meilleure équipe</button>
+    <div class="controls">
+        <label for="leaderSelect"><strong>1. Choisis ton Leader :</strong></label>
+        <select id="leaderSelect">
+            </select>
+
+        <strong>2. Construire l'équipe avec :</strong><br>
+        <div style="display: flex; justify-content: space-between; margin-top: 10px;">
+            <button class="btn-box" onclick="runApp(false)">🎒 MA Box Uniquement</button>
+            <button class="btn-all" onclick="runApp(true)">🌍 Tous les personnages</button>
+        </div>
+    </div>
 
     <div id="results"></div>
 
+    <script src="data.js"></script>
     <script>
-        const fetchDokkanData = async () => {
-            return [
-                { id: 1, name: "Goku & Vegeta SSJ4 INT (11 ans)", categories: ["Héros de GT", "Famille de Goku"], links: ["Combat acharné", "Paré au combat", "Rugissement Saiyan", "GT"] },
-                { id: 2, name: "Goku SSJ4 FP INT LR", categories: ["Héros de GT", "Famille de Goku"], links: ["Combat acharné", "Paré au combat", "Rugissement Saiyan", "GT", "Super Saiyan"] },
-                { id: 3, name: "Pan (GT) END", categories: ["Héros de GT"], links: ["GT", "Lignée royale", "Innocence"] },
-                { id: 4, name: "Gogeta Blue AGI", categories: ["Héros de film", "Kamehameha"], links: ["Combat acharné", "Guerrier fusionné", "Paré au combat"] },
-                { id: 5, name: "Vegeta SSJ4 PUI", categories: ["Héros de GT", "Famille de Vegeta"], links: ["Combat acharné", "Paré au combat", "Rugissement Saiyan", "GT"] }
-            ];
+        // Initialiser la liste déroulante au chargement
+        const initSelect = () => {
+            const select = document.getElementById('leaderSelect');
+            dokkanCharacters.forEach(char => {
+                select.innerHTML += `<option value="${char.id}">${char.name}</option>`;
+            });
         };
 
-        const generateBestTeam = (leaderId, userBoxIds, allCharacters) => {
-            const leader = allCharacters.find(c => c.id === leaderId);
-            const userCharacters = allCharacters.filter(c => userBoxIds.includes(c.id));
+        // Algorithme modifié pour accepter une liste d'ID spécifique
+        const generateBestTeam = (leaderId, poolIds) => {
+            // Attention : value du select est une string, on utilise == ou parseInt
+            const leader = dokkanCharacters.find(c => c.id == leaderId); 
+            
+            // On filtre les persos disponibles selon le choix de l'utilisateur (Box ou Tout le jeu)
+            const availableCharacters = dokkanCharacters.filter(c => poolIds.includes(c.id));
 
-            const eligibleCharacters = userCharacters.filter(char => {
-                if (char.id === leader.id) return false; 
+            const eligibleCharacters = availableCharacters.filter(char => {
+                if (char.id == leader.id) return false; 
                 return char.categories.some(cat => leader.categories.includes(cat));
             });
 
@@ -73,33 +73,52 @@
                 return { ...char, sharedLinks, score: sharedLinks.length * 10 };
             });
 
-            scoredCharacters.sort((a, b) => b.score - a.score);
-            return scoredCharacters.slice(0, 4); // Retourne le top 4
+            return scoredCharacters.sort((a, b) => b.score - a.score).slice(0, 4);
         };
 
-        // Fonction liée au clic du bouton
-        const runApp = async () => {
+        // Fonction déclenchée par les boutons (useAllCharacters est true ou false)
+        const runApp = (useAllCharacters) => {
             const resultsDiv = document.getElementById('results');
-            resultsDiv.innerHTML = "<p>Calcul en cours...</p>"; // Petit effet de chargement
-
-            const allCharacters = await fetchDokkanData();
-            const maBox = [1, 2, 3, 4, 5]; 
+            const leaderId = document.getElementById('leaderSelect').value;
             
-            const bestTeam = generateBestTeam(1, maBox, allCharacters);
+            let characterPool = [];
 
-            // On efface le "Calcul en cours"
-            resultsDiv.innerHTML = "";
+            if (useAllCharacters) {
+                // Si on veut l'équipe optimale, on prend tous les ID de la base
+                characterPool = dokkanCharacters.map(c => c.id);
+            } else {
+                // Sinon, on prend juste la box locale
+                characterPool = JSON.parse(localStorage.getItem('dokkanBox')) || [];
+                
+                if (characterPool.length === 0) {
+                    resultsDiv.innerHTML = "<p style='color: #e74c3c; text-align: center;'>Ta box est vide ! Va sur 'Gérer ma Box' ou choisis 'Tous les personnages'.</p>";
+                    return;
+                }
+            }
 
-            // On boucle sur les résultats pour créer les "cartes" en HTML
+            const bestTeam = generateBestTeam(leaderId, characterPool);
+            resultsDiv.innerHTML = `<h3>Résultats pour : ${dokkanCharacters.find(c => c.id == leaderId).name}</h3>`;
+            
+            if (bestTeam.length === 0) {
+                resultsDiv.innerHTML += "<p>Aucun partenaire compatible trouvé.</p>";
+                return;
+            }
+
             bestTeam.forEach(char => {
                 resultsDiv.innerHTML += `
-                    <div class="character-card">
-                        <h3>${char.name} <span class="score">(Score: ${char.score})</span></h3>
-                        <div class="links">🔗 Liens partagés : ${char.sharedLinks.join(', ')}</div>
+                    <div class="result-card">
+                        <img src="${char.img}">
+                        <div>
+                            <h3 style="margin: 0;">${char.name} <span class="score">(${char.score} pts)</span></h3>
+                            <div class="links">Liens : ${char.sharedLinks.join(', ')}</div>
+                        </div>
                     </div>
                 `;
             });
         };
+
+        // On lance la fonction pour remplir la liste déroulante
+        initSelect();
     </script>
 </body>
 </html>

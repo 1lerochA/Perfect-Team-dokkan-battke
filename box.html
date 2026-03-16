@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Ma Box - Dokkan</title>
+    <style>
+        body { font-family: sans-serif; background: #1e1e24; color: white; padding: 20px; text-align: center; }
+        nav { margin-bottom: 20px; }
+        nav a { color: #f39c12; text-decoration: none; font-size: 18px; margin: 0 10px; font-weight: bold; }
+        .box-container { display: flex; flex-wrap: wrap; gap: 15px; justify-content: center; background: #2c3e50; padding: 20px; border-radius: 8px; }
+        .char-icon { width: 80px; height: 80px; border-radius: 10px; cursor: pointer; opacity: 0.4; transition: 0.2s; border: 3px solid transparent; }
+        .char-icon.owned { opacity: 1; border-color: #2ecc71; }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="index.html">⬅️ Retour au Générateur</a>
+        <a href="box.html">🎒 Gérer ma Box</a>
+    </nav>
+
+    <h1>🎒 Gestion de ma Box</h1>
+    <p>Clique pour ajouter ou retirer un personnage.</p>
+    
+    <div id="virtual-box" class="box-container"></div>
+
+    <script src="data.js"></script>
+    <script>
+        // 1. On récupère la box sauvegardée dans le navigateur (ou un tableau vide si c'est la 1ère fois)
+        let maBoxIds = JSON.parse(localStorage.getItem('dokkanBox')) || [];
+
+        const renderBox = () => {
+            const boxDiv = document.getElementById('virtual-box');
+            boxDiv.innerHTML = '';
+            
+            dokkanCharacters.forEach(char => {
+                const isOwned = maBoxIds.includes(char.id) ? 'owned' : '';
+                boxDiv.innerHTML += `
+                    <img src="${char.img}" class="char-icon ${isOwned}" onclick="toggleCharacter(${char.id})">
+                `;
+            });
+        };
+
+        const toggleCharacter = (id) => {
+            if (maBoxIds.includes(id)) {
+                maBoxIds = maBoxIds.filter(boxId => boxId !== id);
+            } else {
+                maBoxIds.push(id);
+            }
+            // 2. On sauvegarde la nouvelle box dans le navigateur
+            localStorage.setItem('dokkanBox', JSON.stringify(maBoxIds));
+            renderBox();
+        };
+
+        renderBox();
+    </script>
+</body>
+</html>
