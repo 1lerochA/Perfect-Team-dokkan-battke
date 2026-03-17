@@ -198,10 +198,10 @@
     </div>
 
     <script src="data.js"></script>
-    <script src="cards.js"></script>
+    <script src="cards.js?v=999"></script>
     <script>
         let selectedLeader    = null;
-        let lastGeneratedTeam = null;
+        let generatedTeams    = [];
 
         const leaderInput    = document.getElementById('leaderInput');
         const suggestionsDiv = document.getElementById('suggestions');
@@ -259,7 +259,7 @@
 
         // ---- RESET ----
         window.resetLeader = function() {
-            selectedLeader = null; lastGeneratedTeam = null;
+            selectedLeader = null; generatedTeams = [];
             leaderInput.value = '';
             document.getElementById('search-section').style.display            = 'block';
             document.getElementById('selected-leader-container').style.display = 'none';
@@ -270,79 +270,181 @@
         // ---- GENERATE TEAM ----
         window.generateTeam = function(useFullGame) {
             const resultsDiv = document.getElementById('team-results');
-            resultsDiv.innerHTML = '<h2 class="dokkan-font" style="color:#f39c12;">⚡ ANALYSE DES LIENS EN COURS… ⚡</h2>';
+            resultsDiv.innerHTML = '<h2 class="dokkan-font" style="color:#f39c12;text-align:center;margin-top:40px;">⚡ CALCUL DES 5 MEILLEURES ÉQUIPES EN COURS… ⚡</h2>';
 
             const poolIds = useFullGame
                 ? dokkanCharacters.map(c => c.id)
                 : (JSON.parse(localStorage.getItem('dokkanBox')) || []);
 
             if (!useFullGame && !poolIds.length) {
-                resultsDiv.innerHTML = '<p style="color:#e74c3c;font-size:1.1rem;">Ta box est vide ! Va dans "Ma Box" pour ajouter des personnages.</p>';
+                resultsDiv.innerHTML = '<p style="color:#e74c3c;font-size:1.1rem;text-align:center;">Ta box est vide ! Va dans "Ma Box" pour ajouter des personnages.</p>';
                 return;
             }
 
-            const candidates = dokkanCharacters
+            // Extraction des catégories du Leader Skill (mots entre guillemets)
+            const catRegex = /"([^"]+)"/g;
+            const categoriesFound = [];
+            let match;
+            while ((match = catRegex.exec(selectedLeader.leaderSkill)) !== null) {
+                categoriesFound.push(match[1]);
+            }
+
+            // Ami Leader (le même par défaut)
+            const friendLeader = selectedLeader;
+            const myBoxIds = JSON.parse(localStorage.getItem('dokkanBox')) || [];
+
+            // Pré-calcul des scores pour tous les candidats
+            const allCandidates = dokkanCharacters
                 .filter(c => poolIds.includes(c.id) && c.id !== selectedLeader.id)
                 .map(char => {
                     let score = 0;
                     const sharedLinks = (char.links || []).filter(l => (selectedLeader.links || []).includes(l));
-                    score += sharedLinks.length * 15;
-                    if (char.alignment === selectedLeader.alignment) score += 20;
-                    const sharedCats = (char.categories || []).filter(cat => (selectedLeader.categories || []).includes(cat));
-                    score += sharedCats.length * 10;
-                    return { ...char, score, sharedLinksCount: sharedLinks.length };
-                })
-                .sort((a, b) => b.score - a.score)
-                .slice(0, 6);
+                    score += sharedLinks.length * 20; // Gros bonus liens avec leader
 
-            lastGeneratedTeam = {
-                leader   : selectedLeader,
-                members  : candidates,
-                source   : useFullGame ? 'Tout le jeu' : 'Ma Box',
-                date     : new Date().toLocaleDateString('fr-FR')
-            };
+                    if (char.alignment === selectedLeader.alignment) score += 30; // Bonus même alignement
+                    
+                    // Bonus si le nom contient un mot clé de catégorie
+                    categoriesFound.forEach(cat => {
+                        if (char.name.toLowerCase().includes(cat.toLowerCase())) score += 50;
+                        if (char.leaderSkill && char.leaderSkill.includes(cat)) score += 40;
+                    });
 
+                    return { ...char, baseScore: score, sharedLinksWithLeader: sharedLinks.length };
+                });
+
+            generatedTeams = [];
+
+            // Génération de 5 équipes différentes
+            for (let i = 0; i < 5; i++) {
+                // On mélange un peu les scores pour la variété (sauf pour la première équipe)
+                const teamCandidates = [...allCandidates].map(c => ({
+                    ...c,
+                    finalScore: c.baseScore + (i === 0 ? 0 : Math.random() * 40)
+                })).sort((a, b) => b.finalScore - a.finalScore);
+
+                const members = [];
+                const usedIds = new Set([selectedLeader.id]);
+
+                // On prend les 5 meilleurs uniques
+                for (let c of teamCandidates) {
+                    if (members.length < 5 && !usedIds.has(c.id)) {
+                        members.push(c);
+                        usedIds.add(c.id);
+                    }
+                }
+
+                generatedTeams.push({
+                    id: Date.now() + i,
+                    leader: selectedLeader,
+                    friend: friendLeader,
+                    members: members,
+                    source: useFullGame ? 'Tout le jeu' : 'Ma Box',
+                    date: new Date().toLocaleDateString('fr-FR')
+                });
+            }
+
+            renderGeneratedTeams();
+        };
+
+        function renderGeneratedTeams() {
+            const resultsDiv = document.getElementById('team-results');
             resultsDiv.innerHTML = '';
 
-            const headerBar = document.createElement('div');
-            headerBar.className = 'team-header-bar';
-            headerBar.innerHTML = `
-                <h2 class="dokkan-font" style="color:#2ecc71;margin:0;">
-                    ÉQUIPE OPTIMISÉE POUR ${selectedLeader.name}
-                </h2>
-                <button class="btn-action btn-like" onclick="likeTeam()">❤️ SAUVEGARDER L'ÉQUIPE</button>`;
-            resultsDiv.appendChild(headerBar);
+            generatedTeams.forEach((team, tIndex) => {
+                const teamSection = document.createElement('div');
+                teamSection.className = 'team-result';
+                teamSection.style.marginBottom = '60px';
+                teamSection.style.padding = '20px';
+                teamSection.style.background = 'rgba(255,255,255,0.02)';
+                teamSection.style.borderRadius = '20px';
+                teamSection.style.border = '1px solid rgba(255,255,255,0.05)';
 
-            candidates.forEach(char => {
-                const row = document.createElement('div');
-                row.className = 'member-row';
+                const headerBar = document.createElement('div');
+                headerBar.className = 'team-header-bar';
+                headerBar.innerHTML = `
+                    <h2 class="dokkan-font" style="color:var(--accent-gold);margin:0;font-size:2rem;">
+                        ÉQUIPE #${tIndex + 1}
+                    </h2>
+                    <button class="btn-action btn-like" onclick="likeTeam(${tIndex})">❤️ SAUVEGARDER CETTE ÉQUIPE</button>`;
+                teamSection.appendChild(headerBar);
 
-                const wrap = document.createElement('div');
-                wrap.className = 'member-card-wrap';
-                wrap.innerHTML = createDokkanCard(char, { size: 'md' });
-                row.appendChild(wrap);
+                // Ligne des 7 personnages (Leader, 5 membres, Ami)
+                const unitsRow = document.createElement('div');
+                unitsRow.style.display = 'flex';
+                unitsRow.style.gap = '10px';
+                unitsRow.style.flexWrap = 'wrap';
+                unitsRow.style.justifyContent = 'center';
+                unitsRow.style.marginBottom = '30px';
 
-                const details = document.createElement('div');
-                details.className = 'member-details';
-                details.innerHTML = `
-                    <h3>${char.name}</h3>
-                    <div class="synergy-pills">
-                        <span class="pill">🔗 ${char.sharedLinksCount} Liens communs</span>
-                        <span class="pill">${char.alignment === selectedLeader.alignment ? '🤝 Même Classe' : '⚔️ Classe opposée'}</span>
-                        <span class="pill score">Score : ${char.score} pts</span>
+                const myBoxIds = JSON.parse(localStorage.getItem('dokkanBox')) || [];
+
+                // 1. Leader
+                unitsRow.innerHTML += `
+                    <div style="display:flex;flex-direction:column;align-items:center;gap:5px;">
+                        ${createDokkanCard(team.leader, { isInBox: myBoxIds.includes(team.leader.id) })}
+                        <span style="font-size:0.7rem;color:var(--accent-gold);font-weight:900;">LEADER</span>
                     </div>`;
-                row.appendChild(details);
-                resultsDiv.appendChild(row);
+
+                // 2. Members
+                team.members.forEach(m => {
+                    unitsRow.innerHTML += `
+                        <div style="display:flex;flex-direction:column;align-items:center;gap:5px;">
+                            ${createDokkanCard(m, { isInBox: myBoxIds.includes(m.id) })}
+                            <span style="font-size:0.7rem;color:#aaa;">MEMBRE</span>
+                        </div>`;
+                });
+
+                // 3. Ami Leader
+                unitsRow.innerHTML += `
+                    <div style="display:flex;flex-direction:column;align-items:center;gap:5px;">
+                        ${createDokkanCard(team.friend, { isFriend: true, isInBox: myBoxIds.includes(team.friend.id) })}
+                        <span style="font-size:0.7rem;color:var(--accent-blue);font-weight:900;">AMI</span>
+                    </div>`;
+
+                teamSection.appendChild(unitsRow);
+
+                // Détails des synergies
+                const detailsList = document.createElement('div');
+                team.members.forEach(m => {
+                    const row = document.createElement('div');
+                    row.className = 'member-row';
+                    row.style.padding = '8px 15px';
+                    row.style.marginBbottom = '8px';
+
+                    const wrap = document.createElement('div');
+                    wrap.className = 'member-card-wrap';
+                    wrap.style.width = '70px';
+                    wrap.style.height = '70px';
+                    wrap.innerHTML = createDokkanCard(m, { size: 'sm', isInBox: myBoxIds.includes(m.id) });
+                    row.appendChild(wrap);
+
+                    const details = document.createElement('div');
+                    details.className = 'member-details';
+                    details.style.marginLeft = '12px';
+                    details.innerHTML = `
+                        <h3 style="font-size:1.1rem;margin:0;">${m.name}</h3>
+                        <div class="synergy-pills">
+                            <span class="pill">🔗 ${m.sharedLinksWithLeader} Liens avec Leader</span>
+                            <span class="pill score">Score : ${Math.floor(m.finalScore)} pts</span>
+                        </div>`;
+                    row.appendChild(details);
+                    detailsList.appendChild(row);
+                });
+                teamSection.appendChild(detailsList);
+
+                resultsDiv.appendChild(teamSection);
             });
         };
 
         // ---- SAVE TEAM ----
-        window.likeTeam = function() {
+        window.likeTeam = function(index) {
+            const lastGeneratedTeam = generatedTeams[index];
             if (!lastGeneratedTeam) return;
+            
             const teams = JSON.parse(localStorage.getItem('dokkanSavedTeams')) || [];
             teams.push({
                 id       : Date.now(),
-                name     : 'Équipe ' + lastGeneratedTeam.leader.name,
+                name     : 'Équipe ' + lastGeneratedTeam.leader.name + ' #' + (index + 1),
                 leaderId : lastGeneratedTeam.leader.id,
                 memberIds: lastGeneratedTeam.members.map(m => m.id),
                 source   : lastGeneratedTeam.source,
@@ -350,13 +452,14 @@
             });
             localStorage.setItem('dokkanSavedTeams', JSON.stringify(teams));
 
-            const btn = document.querySelector('.btn-like');
+            const btns = document.querySelectorAll('.btn-like');
+            const btn = btns[index];
             if (btn) {
                 btn.textContent = '✅ SAUVEGARDÉE !';
                 btn.style.background = 'linear-gradient(135deg,#27ae60,#145c33)';
                 btn.disabled = true;
                 setTimeout(() => {
-                    btn.textContent = "❤️ SAUVEGARDER L'ÉQUIPE";
+                    btn.textContent = "❤️ SAUVEGARDER CETTE ÉQUIPE";
                     btn.style.background = '';
                     btn.disabled = false;
                 }, 2500);

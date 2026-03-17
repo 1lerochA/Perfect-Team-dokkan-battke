@@ -153,35 +153,8 @@ nav a.active, nav a:hover {
 .unit-card.rarity-ur .card-frame.frame-pui { box-shadow: inset 0 0 0 3px #ec7063, inset 0 0 0 6px #c0392b, 0 0 10px rgba(231,76,60,0.5); }
 .unit-card.rarity-ur .card-frame.frame-end { box-shadow: inset 0 0 0 3px #f0b27a, inset 0 0 0 6px #e67e22, 0 0 10px rgba(230,126,34,0.5); }
 
-/* LR animated rainbow border */
-.unit-card.lr-frame::before {
-    content: '';
-    position: absolute;
-    inset: -3px;
-    border-radius: 9px;
-    background: linear-gradient(45deg, #f1c40f, #e74c3c, #9b59b6, #3498db, #2ecc71, #f1c40f);
-    background-size: 300% 300%;
-    animation: lr-rainbow 3s linear infinite;
-    z-index: -1;
-}
-
-.unit-card.lr-frame::after {
-    content: '';
-    position: absolute;
-    inset: -1px;
-    border-radius: 7px;
-    background: #000;
-    z-index: 0;
-}
-
 /* Make all LR card children sit above the ::after mask */
 .unit-card.lr-frame > * { position: relative; z-index: 3; }
-
-@keyframes lr-rainbow {
-    0%   { background-position: 0% 50%; filter: hue-rotate(0deg); }
-    50%  { background-position: 100% 50%; }
-    100% { background-position: 0% 50%; filter: hue-rotate(360deg); }
-}
 
 /* ---- RARITY BADGE (bottom-left) ---- */
 .rarity-badge {
@@ -320,4 +293,39 @@ nav a.active, nav a:hover {
     transform: translateY(-3px);
     box-shadow: 0 4px 10px rgba(0,0,0,0.5);
     outline: 2px solid white;
+}
+/* ============ TEAM SPECIAL BADGES ============ */
+.friend-banner {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(-15deg);
+    background: linear-gradient(135deg, #3498db, #2980b9);
+    color: white;
+    font-family: 'Bangers', cursive;
+    font-size: 14px;
+    padding: 2px 10px;
+    border-radius: 4px;
+    border: 2px solid white;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.5);
+    z-index: 20;
+    pointer-events: none;
+    letter-spacing: 1px;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.8);
+    white-space: nowrap;
+}
+
+.box-badge {
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    background: rgba(46, 204, 113, 0.9);
+    color: white;
+    font-size: 8px;
+    font-weight: 900;
+    padding: 1px 4px;
+    border-radius: 3px;
+    z-index: 10;
+    border: 1px solid white;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.3);
 }

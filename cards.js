@@ -1,94 +1,94 @@
 // ============================================================
-// DOKKAN PRO — Composant de carte partagé
+// DOKKAN PRO — Composant de carte avec VRAIS ASSETS DOKKAN
 // ============================================================
 
-/**
- * Génère le HTML d'une carte Dokkan authentique.
- * La carte est TOUJOURS un élément autonome 90×90 avec position:relative.
- * Aucun wrapper externe n'est nécessaire pour le bon affichage des badges.
- *
- * @param {Object} char  - Objet personnage depuis dokkanCharacters
- * @param {Object} opts  - { isInBox: bool, size: 'sm'|'md'|'lg' }
- */
 function createDokkanCard(char, opts = {}) {
     if (!char) return '';
 
     const { isInBox = false, size = 'md' } = opts;
 
-    const typeClass = (char.type || 'agi').toLowerCase();
-    const rarity    = char.rarity || 'SSR';
+    const typeClass = (char.type || 'AGI').toUpperCase();
+    const rarity    = (char.rarity || 'SSR').toUpperCase();
+    const alignment = (char.alignment || '').toUpperCase();
+
     const isLR      = rarity === 'LR';
     const isUR      = rarity === 'UR';
 
-    // Alignement : 'S' pour Super, 'E' pour Extrême, '' sinon
-    const alignLetter = char.alignment === 'SUPER'   ? 'S'
-                      : char.alignment === 'EXTRÊME' ? 'E'
-                      : '';
-
-    // Dimensions selon la taille demandée
     const sizeMap = { sm: 50, md: 90, lg: 110 };
     const px = sizeMap[size] || 90;
-
-    // Classes CSS sur la carte racine
     const inBoxClass = isInBox ? ' in-box' : '';
     const lrClass    = isLR   ? ' lr-frame' : '';
 
-    // Badge rareté : texte multicolore pour UR, gold animé pour LR
-    const rarityInner = isUR
-        ? `<span class="rarity-ur-text">${rarity}</span>`
-        : rarity;
+    // --- DÉCODAGE CORRIGÉ DES ASSETS ---
+    
+    // 1. Types (AGI=00, TEC=01, INT=02, PUI=03, END=04)
+    let typeNum = 0;
+    if (typeClass === "AGI") typeNum = 0;
+    if (typeClass === "TEC") typeNum = 1;
+    if (typeClass === "INT") typeNum = 2;
+    if (typeClass === "PUI") typeNum = 3;
+    if (typeClass === "END") typeNum = 4;
 
-    // Badge de possession (box)
-    const boxBadge = isInBox 
-        ? `<div class="box-badge">BOX</div>` 
-        : '';
+    const bgType = String(typeNum).padStart(2, '0'); // Ex: "02" pour INT
+
+    // 2. Alignement pour le Macaron (Super = +10, Extrême = +20)
+    let alignOffset = 0; 
+    if (alignment === "SUPER") alignOffset = 10;
+    if (alignment === "EXTRÊME") alignOffset = 20;
+
+    const typeIconId = String(alignOffset + typeNum).padStart(2, '0');
+
+    // 3. Rareté pour le fond (N=00, R=01, SR=02, SSR=03, UR=04, LR=05)
+    let rarityNum = 3; // SSR par défaut
+    if (rarity === "N") rarityNum = 0;
+    if (rarity === "R") rarityNum = 1;
+    if (rarity === "SR") rarityNum = 2;
+    if (rarity === "SSR") rarityNum = 3;
+    if (rarity === "UR") rarityNum = 4;
+    if (rarity === "LR") rarityNum = 5;
+
+    const bgRarity = String(rarityNum).padStart(2, '0'); // Ex: "05" pour LR
+
+    // --- CRÉATION DES URLS ---
+    const baseUrl = "https://dokkan.wiki/assets/global/en/layout/en/image/character";
     
-    // 🎯 LE FALLBACK ULTIME AVEC PROXY ANTI-BLOCAGE
-    const targetId = char.thumbId || char.id; 
+    // 🎯 LA CORRECTION EST ICI : L'ordre exact est TYPE puis RARETÉ !
+    const bgUrl = `${baseUrl}/character_thumb_bg/cha_base_${bgType}_${bgRarity}.png`;
     
-    // 1. Dokkan.fyi (La base officielle, rapide et fiable)
-    const f1 = `https://cdn.dokkan.fyi/assets/en/character/thumb/card_${targetId}_thumb.png`;
+    const rarityUrl = `${baseUrl}/cha_rare_sm_${rarity.toLowerCase()}.png`;
+    const typeUrl = `${baseUrl}/cha_type_icon_${typeIconId}.png`;
+
+    // 4. L'image du perso (avec le sous-dossier)
+    const targetId = char.thumbId || (char.id.toString().slice(0, -1) + '0'); 
+    const fileName = `card_${targetId}_thumb`;
+
+    const charUrls = [
+        `https://cdn.dokkan.fyi/assets/en/character/thumb/${fileName}.png`,
+        `https://dokkan.wiki/assets/global/en/character/thumb/${fileName}/${fileName}.png`,
+        `https://dokkan.wiki/assets/japan/character/thumb/${fileName}/${fileName}.png`,
+        `https://placehold.co/${px}x${px}/111/FFF?text=X`
+    ];
     
-    // 2. Le Proxy vers DokkanInfo (Global) - Contourne la sécurité !
-    const f2 = `https://wsrv.nl/?url=dokkaninfo.com/assets/global/character/thumb/card_${targetId}_thumb.png`;
-    
-    // 3. Le Proxy vers DokkanInfo (Japonais) - Pour les persos tout récents !
-    const f3 = `https://wsrv.nl/?url=dokkaninfo.com/assets/japan/character/thumb/card_${targetId}_thumb.png`;
-    
-    // 4. La croix par défaut
-    const f4 = `https://placehold.co/${px}x${px}/1e1e24/FFF?text=X`; 
-    
-    const errorChain = `this.onerror=null; this.src='${f1}'; this.onerror=function(){this.src='${f2}'; this.onerror=function(){this.src='${f3}'; this.onerror=function(){this.src='${f4}'};};};`;
-    
+    const errorChain = `this.onerror=null; this.src='${charUrls[1]}'; this.onerror=function(){this.src='${charUrls[2]}'; this.onerror=function(){this.src='${charUrls[3]}'};};`;
+
+    const boxBadge = isInBox ? `<div class="box-badge" style="position:absolute;bottom:0;right:0;background:rgba(0,0,0,0.8);color:white;font-size:10px;padding:2px 4px;border-radius:4px;z-index:10;font-weight:bold;">BOX</div>` : '';
+
     return `<div
-    class="unit-card${lrClass}${inBoxClass} rarity-${rarity.toLowerCase()}"
+    class="unit-card${lrClass}${inBoxClass}"
     id="unit-${char.id}"
     onclick="handleUnitClick(${char.id})"
     title="${char.name.replace(/"/g, '&quot;')}"
-    style="width:${px}px;height:${px}px;position:relative;display:inline-block;vertical-align:top;flex-shrink:0;">
+    style="width:${px}px;height:${px}px;position:relative;display:inline-block;vertical-align:top;flex-shrink:0;border-radius:6px;">
 
-    <img class="unit-img"
-         src="${char.img}"
-         alt=""
-         loading="lazy"
-         onerror="${errorChain}"
-         style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center top;border-radius:5px;display:block;background:#111;">
+    <img src="${bgUrl}" loading="lazy" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;border-radius:6px;z-index:1;">
 
-    <div class="card-frame frame-${typeClass}${isUR ? ' frame-ur' : ''}"
-         style="position:absolute;inset:0;border-radius:6px;pointer-events:none;z-index:2;"></div>
+    <img src="${charUrls[0]}" onerror="${errorChain}" referrerpolicy="no-referrer" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;border-radius:6px;z-index:2;transform:scale(1.05);">
 
-    <div class="rarity-badge rarity-${rarity.toLowerCase()} badge-${typeClass}"
-         style="position:absolute;bottom:-5px;left:-5px;z-index:5;">
-        ${rarityInner}
-    </div>
+    <img src="${typeUrl}" loading="lazy" style="position:absolute;top:-10px;right:-10px;width:38%;height:auto;z-index:4;filter:drop-shadow(1px 1px 2px rgba(0,0,0,0.8));">
+
+    <img src="${rarityUrl}" loading="lazy" style="position:absolute;bottom:-8px;left:-8px;width:55%;height:auto;z-index:4;filter:drop-shadow(1px 1px 2px rgba(0,0,0,0.8));">
 
     ${boxBadge}
-
-    <div class="type-badge bg-${typeClass}"
-         style="position:absolute;top:-8px;right:-8px;z-index:6;pointer-events:none;">
-        <span class="class-text">${alignLetter}</span>
-        <span class="type-text">${char.type || ''}</span>
-    </div>
 
 </div>`;
 }
