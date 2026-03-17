@@ -63,7 +63,7 @@ const dokkanCharacters = [
     {
         "id": 1033011,
         "thumbId": 1033010,
-        "name": "Dabura",
+        "name": "Dabra",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1033010_thumb.png",
         "type": "TEC",
         "rarity": "UR",
@@ -903,7 +903,7 @@ const dokkanCharacters = [
     {
         "id": 1032641,
         "thumbId": 1032640,
-        "name": "Frieza (Final Form)",
+        "name": "Freezer (Final Form)",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1032640_thumb.png",
         "type": "INT",
         "rarity": "UR",
@@ -943,7 +943,7 @@ const dokkanCharacters = [
     {
         "id": 1032661,
         "thumbId": 1032660,
-        "name": "Majin Buu (Good)",
+        "name": "Majin Boo (Good)",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1032660_thumb.png",
         "type": "AGI",
         "rarity": "UR",
@@ -1463,7 +1463,7 @@ const dokkanCharacters = [
     {
         "id": 1024511,
         "thumbId": 1024510,
-        "name": "Golden Frieza",
+        "name": "Golden Freezer",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1024510_thumb.png",
         "type": "AGI",
         "rarity": "LR",
@@ -1483,7 +1483,7 @@ const dokkanCharacters = [
     {
         "id": 1031721,
         "thumbId": 1031720,
-        "name": "Golden Frieza + Gogeta",
+        "name": "Golden Freezer + Gogeta",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1031720_thumb.png",
         "type": "TEC",
         "rarity": "LR",
@@ -1903,7 +1903,7 @@ const dokkanCharacters = [
     {
         "id": 1023591,
         "thumbId": 1023590,
-        "name": "Syn Shenron",
+        "name": "Li Shenron",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1023590_thumb.png",
         "type": "TEC",
         "rarity": "UR",
@@ -2103,7 +2103,7 @@ const dokkanCharacters = [
     {
         "id": 1009331,
         "thumbId": 1009330,
-        "name": "Super Saiyan God SS Vegito",
+        "name": "Super Saiyan God SS Vegetto",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1009330_thumb.png",
         "type": "END",
         "rarity": "UR",
@@ -2423,7 +2423,7 @@ const dokkanCharacters = [
     {
         "id": 1024731,
         "thumbId": 1024730,
-        "name": "Tien",
+        "name": "Tenshinhan",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1024730_thumb.png",
         "type": "INT",
         "rarity": "LR",
@@ -2443,7 +2443,7 @@ const dokkanCharacters = [
     {
         "id": 1031361,
         "thumbId": 1031360,
-        "name": "Chiaotzu",
+        "name": "Chaozu",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1031360_thumb.png",
         "type": "INT",
         "rarity": "UR",
@@ -2483,7 +2483,7 @@ const dokkanCharacters = [
     {
         "id": 1031281,
         "thumbId": 1031280,
-        "name": "Tien",
+        "name": "Tenshinhan",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1031280_thumb.png",
         "type": "PUI",
         "rarity": "LR",
@@ -2503,7 +2503,7 @@ const dokkanCharacters = [
     {
         "id": 1023771,
         "thumbId": 1023770,
-        "name": "Captain Ginyu",
+        "name": "Capitaine Ginyu",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1023770_thumb.png",
         "type": "AGI",
         "rarity": "UR",
@@ -2523,7 +2523,7 @@ const dokkanCharacters = [
     {
         "id": 1023731,
         "thumbId": 1023730,
-        "name": "Jeice & Burter",
+        "name": "Jiece & Barta",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1023730_thumb.png",
         "type": "INT",
         "rarity": "UR",
@@ -2543,7 +2543,7 @@ const dokkanCharacters = [
     {
         "id": 1023751,
         "thumbId": 1023750,
-        "name": "Recoome & Guldo",
+        "name": "Reacum & Ghourd",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1023750_thumb.png",
         "type": "PUI",
         "rarity": "UR",
@@ -2563,7 +2563,7 @@ const dokkanCharacters = [
     {
         "id": 1031301,
         "thumbId": 1031300,
-        "name": "Mercenary Tao",
+        "name": "Tao Pai Pai",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1031300_thumb.png",
         "type": "END",
         "rarity": "UR",
@@ -2643,7 +2643,7 @@ const dokkanCharacters = [
     {
         "id": 1022341,
         "thumbId": 1022340,
-        "name": "Mercenary Tao",
+        "name": "Tao Pai Pai",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1022340_thumb.png",
         "type": "PUI",
         "rarity": "LR",
@@ -2663,7 +2663,7 @@ const dokkanCharacters = [
     {
         "id": 1021111,
         "thumbId": 1021110,
-        "name": "Tien",
+        "name": "Tenshinhan",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1021110_thumb.png",
         "type": "PUI",
         "rarity": "UR",
@@ -2683,7 +2683,7 @@ const dokkanCharacters = [
     {
         "id": 1030991,
         "thumbId": 1030990,
-        "name": "Mecha Frieza",
+        "name": "Mecha Freezer",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1030990_thumb.png",
         "type": "TEC",
         "rarity": "UR",
@@ -3062,7 +3062,7 @@ const dokkanCharacters = [
     {
         "id": 1030301,
         "thumbId": 1030300,
-        "name": "Krillin (Youth)",
+        "name": "Krilin (Youth)",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1030300_thumb.png",
         "type": "TEC",
         "rarity": "UR",
@@ -3141,7 +3141,7 @@ const dokkanCharacters = [
     {
         "id": 1030300,
         "thumbId": 1030300,
-        "name": "Krillin (Youth)",
+        "name": "Krilin (Youth)",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1030300_thumb.png",
         "type": "TEC",
         "rarity": "SSR",
@@ -3379,7 +3379,7 @@ const dokkanCharacters = [
     {
         "id": 1030791,
         "thumbId": 1030790,
-        "name": "Demon King Piccolo (Elder)",
+        "name": "Démon Piccolo (Elder)",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1030790_thumb.png",
         "type": "AGI",
         "rarity": "LR",
@@ -3499,7 +3499,7 @@ const dokkanCharacters = [
     {
         "id": 1030531,
         "thumbId": 1030530,
-        "name": "Frieza (Final Form) (Angel) + Goku",
+        "name": "Freezer (Final Form) (Angel) + Goku",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1030530_thumb.png",
         "type": "INT",
         "rarity": "LR",
@@ -3579,7 +3579,7 @@ const dokkanCharacters = [
     {
         "id": 1022751,
         "thumbId": 1022750,
-        "name": "Frieza (Full Power)",
+        "name": "Freezer (Full Power)",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1022750_thumb.png",
         "type": "AGI",
         "rarity": "LR",
@@ -3638,7 +3638,7 @@ const dokkanCharacters = [
     {
         "id": 1006791,
         "thumbId": 1006790,
-        "name": "Super Vegito",
+        "name": "Super Vegetto",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1006790_thumb.png",
         "type": "AGI",
         "rarity": "UR",
@@ -3658,7 +3658,7 @@ const dokkanCharacters = [
     {
         "id": 1008091,
         "thumbId": 1008090,
-        "name": "Majin Buu (Ultimate Gohan)",
+        "name": "Majin Boo (Ultimate Gohan)",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1008090_thumb.png",
         "type": "INT",
         "rarity": "UR",
@@ -3738,7 +3738,7 @@ const dokkanCharacters = [
     {
         "id": 1030731,
         "thumbId": 1030730,
-        "name": "Hercule",
+        "name": "Mr. Satan",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1030730_thumb.png",
         "type": "PUI",
         "rarity": "UR",
@@ -3778,7 +3778,7 @@ const dokkanCharacters = [
     {
         "id": 1023491,
         "thumbId": 1023490,
-        "name": "Buu (Kid)",
+        "name": "Boo (Kid)",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1023490_thumb.png",
         "type": "PUI",
         "rarity": "UR",
@@ -3910,7 +3910,7 @@ const dokkanCharacters = [
     {
         "id": 1019921,
         "thumbId": 1019920,
-        "name": "Grandpa Gohan",
+        "name": "Grand-père Gohan",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1019920_thumb.png",
         "type": "AGI",
         "rarity": "UR",
@@ -4109,7 +4109,7 @@ const dokkanCharacters = [
     {
         "id": 1029981,
         "thumbId": 1029980,
-        "name": "Majin Buu (Ultimate Gohan)",
+        "name": "Majin Boo (Ultimate Gohan)",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1029980_thumb.png",
         "type": "TEC",
         "rarity": "UR",
@@ -4189,7 +4189,7 @@ const dokkanCharacters = [
     {
         "id": 1019371,
         "thumbId": 1019370,
-        "name": "Majin Buu (Shape-Up)",
+        "name": "Majin Boo (Shape-Up)",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1019370_thumb.png",
         "type": "AGI",
         "rarity": "UR",
@@ -4269,7 +4269,7 @@ const dokkanCharacters = [
     {
         "id": 1029851,
         "thumbId": 1029850,
-        "name": "Frieza (Final Form)/Cooler (Final Form)",
+        "name": "Freezer (Final Form)/Cooler (Final Form)",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1029850_thumb.png",
         "type": "END",
         "rarity": "UR",
@@ -4746,7 +4746,7 @@ const dokkanCharacters = [
     {
         "id": 1022941,
         "thumbId": 1022940,
-        "name": "Krillin & Gohan (Kid)",
+        "name": "Krilin & Gohan (Kid)",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1022940_thumb.png",
         "type": "AGI",
         "rarity": "LR",
@@ -4786,7 +4786,7 @@ const dokkanCharacters = [
     {
         "id": 1029141,
         "thumbId": 1029140,
-        "name": "Master Roshi",
+        "name": "Tortue Géniale",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1029140_thumb.png",
         "type": "PUI",
         "rarity": "UR",
@@ -4906,7 +4906,7 @@ const dokkanCharacters = [
     {
         "id": 1030061,
         "thumbId": 1030060,
-        "name": "Krillin",
+        "name": "Krilin",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1030060_thumb.png",
         "type": "INT",
         "rarity": "UR",
@@ -4926,7 +4926,7 @@ const dokkanCharacters = [
     {
         "id": 1030101,
         "thumbId": 1030100,
-        "name": "Tien",
+        "name": "Tenshinhan",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1030100_thumb.png",
         "type": "TEC",
         "rarity": "UR",
@@ -4946,7 +4946,7 @@ const dokkanCharacters = [
     {
         "id": 1030121,
         "thumbId": 1030120,
-        "name": "Chiaotzu",
+        "name": "Chaozu",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1030120_thumb.png",
         "type": "END",
         "rarity": "UR",
@@ -5006,7 +5006,7 @@ const dokkanCharacters = [
     {
         "id": 1029511,
         "thumbId": 1029510,
-        "name": "Grandpa Gohan",
+        "name": "Grand-père Gohan",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1029510_thumb.png",
         "type": "TEC",
         "rarity": "LR",
@@ -5026,7 +5026,7 @@ const dokkanCharacters = [
     {
         "id": 1017781,
         "thumbId": 1017780,
-        "name": "Demon King Piccolo (Elder)",
+        "name": "Démon Piccolo (Elder)",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1017780_thumb.png",
         "type": "TEC",
         "rarity": "LR",
@@ -5185,7 +5185,7 @@ const dokkanCharacters = [
     {
         "id": 1004251,
         "thumbId": 1004250,
-        "name": "Frieza (Full Power)",
+        "name": "Freezer (Full Power)",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1004250_thumb.png",
         "type": "END",
         "rarity": "UR",
@@ -5841,7 +5841,7 @@ const dokkanCharacters = [
     {
         "id": 1021431,
         "thumbId": 1021430,
-        "name": "Golden Frieza (Angel) & Android #17",
+        "name": "Golden Freezer (Angel) & Android #17",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1021430_thumb.png",
         "type": "END",
         "rarity": "LR",
@@ -5981,7 +5981,7 @@ const dokkanCharacters = [
     {
         "id": 1028601,
         "thumbId": 1028600,
-        "name": "Frieza (1st Form)",
+        "name": "Freezer (1st Form)",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1028600_thumb.png",
         "type": "INT",
         "rarity": "UR",
@@ -6041,7 +6041,7 @@ const dokkanCharacters = [
     {
         "id": 1028471,
         "thumbId": 1028470,
-        "name": "Krillin & Android #18",
+        "name": "Krilin & Android #18",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1028470_thumb.png",
         "type": "AGI",
         "rarity": "UR",
@@ -6081,7 +6081,7 @@ const dokkanCharacters = [
     {
         "id": 1017441,
         "thumbId": 1017440,
-        "name": "Tien",
+        "name": "Tenshinhan",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1017440_thumb.png",
         "type": "INT",
         "rarity": "UR",
@@ -6141,7 +6141,7 @@ const dokkanCharacters = [
     {
         "id": 1019691,
         "thumbId": 1019690,
-        "name": "Vegito",
+        "name": "Vegetto",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1019690_thumb.png",
         "type": "AGI",
         "rarity": "UR",
@@ -6281,7 +6281,7 @@ const dokkanCharacters = [
     {
         "id": 1028231,
         "thumbId": 1028230,
-        "name": "Golden Frieza",
+        "name": "Golden Freezer",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1028230_thumb.png",
         "type": "INT",
         "rarity": "UR",
@@ -6421,7 +6421,7 @@ const dokkanCharacters = [
     {
         "id": 1018661,
         "thumbId": 1018660,
-        "name": "Mr. Buu",
+        "name": "Mr. Boo",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1018660_thumb.png",
         "type": "TEC",
         "rarity": "UR",
@@ -6441,7 +6441,7 @@ const dokkanCharacters = [
     {
         "id": 1029001,
         "thumbId": 1029000,
-        "name": "Krillin",
+        "name": "Krilin",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1029000_thumb.png",
         "type": "AGI",
         "rarity": "UR",
@@ -6480,7 +6480,7 @@ const dokkanCharacters = [
     {
         "id": 1028721,
         "thumbId": 1028720,
-        "name": "Captain Ginyu (Ginyu Force)",
+        "name": "Capitaine Ginyu (Ginyu Force)",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1028720_thumb.png",
         "type": "INT",
         "rarity": "LR",
@@ -6560,7 +6560,7 @@ const dokkanCharacters = [
     {
         "id": 1018591,
         "thumbId": 1018590,
-        "name": "Babidi & Dabura",
+        "name": "Babidi & Dabra",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1018590_thumb.png",
         "type": "AGI",
         "rarity": "LR",
@@ -6600,7 +6600,7 @@ const dokkanCharacters = [
     {
         "id": 1028921,
         "thumbId": 1028920,
-        "name": "Goku (Youth) & Krillin (Youth) & Bulma (Youth)",
+        "name": "Goku (Youth) & Krilin (Youth) & Bulma (Youth)",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1028920_thumb.png",
         "type": "TEC",
         "rarity": "LR",
@@ -6620,7 +6620,7 @@ const dokkanCharacters = [
     {
         "id": 1028571,
         "thumbId": 1028570,
-        "name": "Frieza (1st Form)",
+        "name": "Freezer (1st Form)",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1028570_thumb.png",
         "type": "AGI",
         "rarity": "UR",
@@ -6680,7 +6680,7 @@ const dokkanCharacters = [
     {
         "id": 1003311,
         "thumbId": 1003310,
-        "name": "Buu (Kid)",
+        "name": "Boo (Kid)",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1003310_thumb.png",
         "type": "END",
         "rarity": "UR",
@@ -6720,7 +6720,7 @@ const dokkanCharacters = [
     {
         "id": 1015101,
         "thumbId": 1015100,
-        "name": "Hercule",
+        "name": "Mr. Satan",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1015100_thumb.png",
         "type": "INT",
         "rarity": "UR",
@@ -6740,7 +6740,7 @@ const dokkanCharacters = [
     {
         "id": 1015111,
         "thumbId": 1015110,
-        "name": "Majin Buu (Good)",
+        "name": "Majin Boo (Good)",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1015110_thumb.png",
         "type": "PUI",
         "rarity": "UR",
@@ -6800,7 +6800,7 @@ const dokkanCharacters = [
     {
         "id": 1012001,
         "thumbId": 1012000,
-        "name": "Majin Buu (Gotenks)",
+        "name": "Majin Boo (Gotenks)",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1012000_thumb.png",
         "type": "END",
         "rarity": "UR",
@@ -6840,7 +6840,7 @@ const dokkanCharacters = [
     {
         "id": 1021011,
         "thumbId": 1021010,
-        "name": "Babidi & Majin Buu (Good)",
+        "name": "Babidi & Majin Boo (Good)",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1021010_thumb.png",
         "type": "END",
         "rarity": "LR",
@@ -6880,7 +6880,7 @@ const dokkanCharacters = [
     {
         "id": 1019591,
         "thumbId": 1019590,
-        "name": "Majin Buu (Good)/Majin Buu (Pure Evil)",
+        "name": "Majin Boo (Good)/Majin Boo (Pure Evil)",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1019590_thumb.png",
         "type": "TEC",
         "rarity": "UR",
@@ -6900,7 +6900,7 @@ const dokkanCharacters = [
     {
         "id": 1027471,
         "thumbId": 1027470,
-        "name": "Cell (Perfect Form) (GT) & \nFrieza (Final Form) (GT)",
+        "name": "Cell (Perfect Form) (GT) & \nFreezer (Final Form) (GT)",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1027470_thumb.png",
         "type": "END",
         "rarity": "LR",
@@ -6940,7 +6940,7 @@ const dokkanCharacters = [
     {
         "id": 1020371,
         "thumbId": 1020370,
-        "name": "Majin Buu (Gotenks)",
+        "name": "Majin Boo (Gotenks)",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1020370_thumb.png",
         "type": "END",
         "rarity": "LR",
@@ -6980,7 +6980,7 @@ const dokkanCharacters = [
     {
         "id": 1028811,
         "thumbId": 1028810,
-        "name": "Majin Buu (Good)",
+        "name": "Majin Boo (Good)",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1028810_thumb.png",
         "type": "INT",
         "rarity": "UR",
@@ -7000,7 +7000,7 @@ const dokkanCharacters = [
     {
         "id": 1028851,
         "thumbId": 1028850,
-        "name": "Majin Buu (Pure Evil)",
+        "name": "Majin Boo (Pure Evil)",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1028850_thumb.png",
         "type": "TEC",
         "rarity": "UR",
@@ -7220,7 +7220,7 @@ const dokkanCharacters = [
     {
         "id": 1015141,
         "thumbId": 1015140,
-        "name": "Tien",
+        "name": "Tenshinhan",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1015140_thumb.png",
         "type": "TEC",
         "rarity": "UR",
@@ -7300,7 +7300,7 @@ const dokkanCharacters = [
     {
         "id": 1015251,
         "thumbId": 1015250,
-        "name": "Buu (Super)",
+        "name": "Boo (Super)",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1015250_thumb.png",
         "type": "END",
         "rarity": "UR",
@@ -7799,7 +7799,7 @@ const dokkanCharacters = [
     {
         "id": 1017321,
         "thumbId": 1017320,
-        "name": "Mecha Frieza & King Cold",
+        "name": "Mecha Freezer & King Cold",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1017320_thumb.png",
         "type": "PUI",
         "rarity": "LR",
@@ -7979,7 +7979,7 @@ const dokkanCharacters = [
     {
         "id": 1012131,
         "thumbId": 1012130,
-        "name": "Tien & Chiaotzu",
+        "name": "Tenshinhan & Chaozu",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1012130_thumb.png",
         "type": "AGI",
         "rarity": "LR",
@@ -8019,7 +8019,7 @@ const dokkanCharacters = [
     {
         "id": 1013301,
         "thumbId": 1013300,
-        "name": "Buu (Super)",
+        "name": "Boo (Super)",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1013300_thumb.png",
         "type": "END",
         "rarity": "UR",
@@ -8218,7 +8218,7 @@ const dokkanCharacters = [
     {
         "id": 1027541,
         "thumbId": 1027540,
-        "name": "Krillin (Youth)",
+        "name": "Krilin (Youth)",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1027540_thumb.png",
         "type": "INT",
         "rarity": "UR",
@@ -8378,7 +8378,7 @@ const dokkanCharacters = [
     {
         "id": 1014331,
         "thumbId": 1014330,
-        "name": "Frieza (Final Form) (GT)",
+        "name": "Freezer (Final Form) (GT)",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1014330_thumb.png",
         "type": "END",
         "rarity": "UR",
@@ -8537,7 +8537,7 @@ const dokkanCharacters = [
     {
         "id": 1007971,
         "thumbId": 1007970,
-        "name": "Demon King Piccolo",
+        "name": "Démon Piccolo",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1007970_thumb.png",
         "type": "TEC",
         "rarity": "UR",
@@ -8917,7 +8917,7 @@ const dokkanCharacters = [
     {
         "id": 1020651,
         "thumbId": 1020650,
-        "name": "Super Saiyan 4 Vegito (Xeno)",
+        "name": "Super Saiyan 4 Vegetto (Xeno)",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1020650_thumb.png",
         "type": "END",
         "rarity": "UR",
@@ -8977,7 +8977,7 @@ const dokkanCharacters = [
     {
         "id": 1020911,
         "thumbId": 1020910,
-        "name": "Demon God Dabura (Xeno)",
+        "name": "Demon God Dabra (Xeno)",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1020910_thumb.png",
         "type": "AGI",
         "rarity": "UR",
@@ -9056,7 +9056,7 @@ const dokkanCharacters = [
     {
         "id": 1027711,
         "thumbId": 1027710,
-        "name": "Super Full Power Saiyan 4 Limit Breaker Vegito (Xeno)",
+        "name": "Super Full Power Saiyan 4 Limit Breaker Vegetto (Xeno)",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1027710_thumb.png",
         "type": "AGI",
         "rarity": "UR",
@@ -9216,7 +9216,7 @@ const dokkanCharacters = [
     {
         "id": 1025231,
         "thumbId": 1025230,
-        "name": "Dabura (Angel)",
+        "name": "Dabra (Angel)",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1025230_thumb.png",
         "type": "END",
         "rarity": "UR",
@@ -9916,7 +9916,7 @@ const dokkanCharacters = [
     {
         "id": 1019531,
         "thumbId": 1019530,
-        "name": "Krillin",
+        "name": "Krilin",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1019530_thumb.png",
         "type": "END",
         "rarity": "LR",
@@ -10016,7 +10016,7 @@ const dokkanCharacters = [
     {
         "id": 1018651,
         "thumbId": 1018650,
-        "name": "Vegito",
+        "name": "Vegetto",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1018650_thumb.png",
         "type": "TEC",
         "rarity": "LR",
@@ -10056,7 +10056,7 @@ const dokkanCharacters = [
     {
         "id": 1026331,
         "thumbId": 1026330,
-        "name": "Hercule",
+        "name": "Mr. Satan",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1026330_thumb.png",
         "type": "END",
         "rarity": "UR",
@@ -10116,7 +10116,7 @@ const dokkanCharacters = [
     {
         "id": 1015051,
         "thumbId": 1015050,
-        "name": "Buu (Super)",
+        "name": "Boo (Super)",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1015050_thumb.png",
         "type": "PUI",
         "rarity": "UR",
@@ -10136,7 +10136,7 @@ const dokkanCharacters = [
     {
         "id": 1012381,
         "thumbId": 1012380,
-        "name": "Super Vegito",
+        "name": "Super Vegetto",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1012380_thumb.png",
         "type": "END",
         "rarity": "UR",
@@ -10292,7 +10292,7 @@ const dokkanCharacters = [
     {
         "id": 1007981,
         "thumbId": 1007980,
-        "name": "Demon King Piccolo (Elder)",
+        "name": "Démon Piccolo (Elder)",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1007980_thumb.png",
         "type": "INT",
         "rarity": "UR",
@@ -10352,7 +10352,7 @@ const dokkanCharacters = [
     {
         "id": 1026431,
         "thumbId": 1026430,
-        "name": "Buu (Super)",
+        "name": "Boo (Super)",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1026430_thumb.png",
         "type": "AGI",
         "rarity": "LR",
@@ -10631,7 +10631,7 @@ const dokkanCharacters = [
     {
         "id": 1026581,
         "thumbId": 1026580,
-        "name": "Krillin",
+        "name": "Krilin",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1026580_thumb.png",
         "type": "PUI",
         "rarity": "UR",
@@ -10651,7 +10651,7 @@ const dokkanCharacters = [
     {
         "id": 1021311,
         "thumbId": 1021310,
-        "name": "Tien",
+        "name": "Tenshinhan",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1021310_thumb.png",
         "type": "END",
         "rarity": "UR",
@@ -11367,7 +11367,7 @@ const dokkanCharacters = [
     {
         "id": 1026051,
         "thumbId": 1026050,
-        "name": "Tien",
+        "name": "Tenshinhan",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1026050_thumb.png",
         "type": "AGI",
         "rarity": "UR",
@@ -11446,7 +11446,7 @@ const dokkanCharacters = [
     {
         "id": 1010971,
         "thumbId": 1010970,
-        "name": "Krillin",
+        "name": "Krilin",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1010970_thumb.png",
         "type": "TEC",
         "rarity": "UR",
@@ -11486,7 +11486,7 @@ const dokkanCharacters = [
     {
         "id": 1010951,
         "thumbId": 1010950,
-        "name": "Master Roshi (Max Power)",
+        "name": "Tortue Géniale (Max Power)",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1010950_thumb.png",
         "type": "PUI",
         "rarity": "UR",
@@ -11506,7 +11506,7 @@ const dokkanCharacters = [
     {
         "id": 1010981,
         "thumbId": 1010980,
-        "name": "Dabura",
+        "name": "Dabra",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1010980_thumb.png",
         "type": "INT",
         "rarity": "UR",
@@ -11624,7 +11624,7 @@ const dokkanCharacters = [
     {
         "id": 1024091,
         "thumbId": 1024090,
-        "name": "Grandpa Gohan",
+        "name": "Grand-père Gohan",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1024090_thumb.png",
         "type": "PUI",
         "rarity": "UR",
@@ -11644,7 +11644,7 @@ const dokkanCharacters = [
     {
         "id": 1021081,
         "thumbId": 1021080,
-        "name": "Golden Frieza & Sorbet",
+        "name": "Golden Freezer & Sorbet",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1021080_thumb.png",
         "type": "TEC",
         "rarity": "UR",
@@ -11940,7 +11940,7 @@ const dokkanCharacters = [
     {
         "id": 1012741,
         "thumbId": 1012740,
-        "name": "Super Saiyan God SS Vegito",
+        "name": "Super Saiyan God SS Vegetto",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1012740_thumb.png",
         "type": "TEC",
         "rarity": "UR",
@@ -12456,7 +12456,7 @@ const dokkanCharacters = [
     {
         "id": 1012031,
         "thumbId": 1012030,
-        "name": "Golden Frieza (Angel)",
+        "name": "Golden Freezer (Angel)",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1012030_thumb.png",
         "type": "INT",
         "rarity": "UR",
@@ -12576,7 +12576,7 @@ const dokkanCharacters = [
     {
         "id": 1024271,
         "thumbId": 1024270,
-        "name": "Mecha Frieza",
+        "name": "Mecha Freezer",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1024270_thumb.png",
         "type": "END",
         "rarity": "UR",
@@ -12596,7 +12596,7 @@ const dokkanCharacters = [
     {
         "id": 1011681,
         "thumbId": 1011680,
-        "name": "Super Saiyan God SS Vegito",
+        "name": "Super Saiyan God SS Vegetto",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1011680_thumb.png",
         "type": "PUI",
         "rarity": "LR",
@@ -12995,7 +12995,7 @@ const dokkanCharacters = [
     {
         "id": 1024971,
         "thumbId": 1024970,
-        "name": "Krillin & Gohan (Youth)",
+        "name": "Krilin & Gohan (Youth)",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1024970_thumb.png",
         "type": "TEC",
         "rarity": "UR",
@@ -13135,7 +13135,7 @@ const dokkanCharacters = [
     {
         "id": 1015571,
         "thumbId": 1015570,
-        "name": "Frieza (Full Power)",
+        "name": "Freezer (Full Power)",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1015570_thumb.png",
         "type": "PUI",
         "rarity": "LR",
@@ -13791,7 +13791,7 @@ const dokkanCharacters = [
     {
         "id": 1009631,
         "thumbId": 1009630,
-        "name": "Captain Ginyu (Ginyu Force)",
+        "name": "Capitaine Ginyu (Ginyu Force)",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1009630_thumb.png",
         "type": "END",
         "rarity": "LR",
@@ -14091,7 +14091,7 @@ const dokkanCharacters = [
     {
         "id": 1010831,
         "thumbId": 1010830,
-        "name": "Buu (Super)",
+        "name": "Boo (Super)",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1010830_thumb.png",
         "type": "TEC",
         "rarity": "UR",
@@ -14111,7 +14111,7 @@ const dokkanCharacters = [
     {
         "id": 1008431,
         "thumbId": 1008430,
-        "name": "Vegito",
+        "name": "Vegetto",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1008430_thumb.png",
         "type": "INT",
         "rarity": "UR",
@@ -14130,7 +14130,7 @@ const dokkanCharacters = [
     {
         "id": 1008421,
         "thumbId": 1008420,
-        "name": "Vegito",
+        "name": "Vegetto",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1008420_thumb.png",
         "type": "TEC",
         "rarity": "UR",
@@ -15277,7 +15277,7 @@ const dokkanCharacters = [
     {
         "id": 1016781,
         "thumbId": 1016780,
-        "name": "Buu (Kid) (Babidi)",
+        "name": "Boo (Kid) (Babidi)",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1016780_thumb.png",
         "type": "INT",
         "rarity": "UR",
@@ -15595,7 +15595,7 @@ const dokkanCharacters = [
     {
         "id": 1021901,
         "thumbId": 1021900,
-        "name": "Frieza (Final Form) & Army of the Dead",
+        "name": "Freezer (Final Form) & Army of the Dead",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1021900_thumb.png",
         "type": "PUI",
         "rarity": "UR",
@@ -15653,7 +15653,7 @@ const dokkanCharacters = [
     {
         "id": 1006331,
         "thumbId": 1006330,
-        "name": "Syn Shenron",
+        "name": "Li Shenron",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1006330_thumb.png",
         "type": "END",
         "rarity": "UR",
@@ -15692,7 +15692,7 @@ const dokkanCharacters = [
     {
         "id": 1022311,
         "thumbId": 1022310,
-        "name": "Piccolo & Krillin",
+        "name": "Piccolo & Krilin",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1022310_thumb.png",
         "type": "PUI",
         "rarity": "UR",
@@ -15852,7 +15852,7 @@ const dokkanCharacters = [
     {
         "id": 1013091,
         "thumbId": 1013090,
-        "name": "Captain Ginyu",
+        "name": "Capitaine Ginyu",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1013090_thumb.png",
         "type": "INT",
         "rarity": "UR",
@@ -15891,7 +15891,7 @@ const dokkanCharacters = [
     {
         "id": 1022881,
         "thumbId": 1022880,
-        "name": "Krillin/Vegeta",
+        "name": "Krilin/Vegeta",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1022880_thumb.png",
         "type": "INT",
         "rarity": "UR",
@@ -15931,7 +15931,7 @@ const dokkanCharacters = [
     {
         "id": 1022981,
         "thumbId": 1022980,
-        "name": "Frieza (1st Form)",
+        "name": "Freezer (1st Form)",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1022980_thumb.png",
         "type": "INT",
         "rarity": "UR",
@@ -15950,7 +15950,7 @@ const dokkanCharacters = [
     {
         "id": 1013051,
         "thumbId": 1013050,
-        "name": "Burter",
+        "name": "Barta",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1013050_thumb.png",
         "type": "AGI",
         "rarity": "UR",
@@ -15969,7 +15969,7 @@ const dokkanCharacters = [
     {
         "id": 1013031,
         "thumbId": 1013030,
-        "name": "Jeice",
+        "name": "Jiece",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1013030_thumb.png",
         "type": "PUI",
         "rarity": "UR",
@@ -16007,7 +16007,7 @@ const dokkanCharacters = [
     {
         "id": 1022980,
         "thumbId": 1022980,
-        "name": "Frieza (1st Form)",
+        "name": "Freezer (1st Form)",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1022980_thumb.png",
         "type": "INT",
         "rarity": "SSR",
@@ -16045,7 +16045,7 @@ const dokkanCharacters = [
     {
         "id": 1014821,
         "thumbId": 1014820,
-        "name": "Frieza (1st Form)",
+        "name": "Freezer (1st Form)",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1014820_thumb.png",
         "type": "TEC",
         "rarity": "UR",
@@ -16103,7 +16103,7 @@ const dokkanCharacters = [
     {
         "id": 1022471,
         "thumbId": 1022470,
-        "name": "Frieza (3rd Form)",
+        "name": "Freezer (3rd Form)",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1022470_thumb.png",
         "type": "INT",
         "rarity": "UR",
@@ -16123,7 +16123,7 @@ const dokkanCharacters = [
     {
         "id": 1013011,
         "thumbId": 1013010,
-        "name": "Recoome",
+        "name": "Reacum",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1013010_thumb.png",
         "type": "END",
         "rarity": "UR",
@@ -16142,7 +16142,7 @@ const dokkanCharacters = [
     {
         "id": 1013071,
         "thumbId": 1013070,
-        "name": "Guldo",
+        "name": "Ghourd",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1013070_thumb.png",
         "type": "TEC",
         "rarity": "UR",
@@ -16201,7 +16201,7 @@ const dokkanCharacters = [
     {
         "id": 1021621,
         "thumbId": 1021620,
-        "name": "Master Roshi",
+        "name": "Tortue Géniale",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1021620_thumb.png",
         "type": "END",
         "rarity": "LR",
@@ -16221,7 +16221,7 @@ const dokkanCharacters = [
     {
         "id": 1014971,
         "thumbId": 1014970,
-        "name": "Goku & Frieza (Final Form) (Angel)",
+        "name": "Goku & Freezer (Final Form) (Angel)",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1014970_thumb.png",
         "type": "TEC",
         "rarity": "LR",
@@ -16261,7 +16261,7 @@ const dokkanCharacters = [
     {
         "id": 1021641,
         "thumbId": 1021640,
-        "name": "Krillin & Android #18",
+        "name": "Krilin & Android #18",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1021640_thumb.png",
         "type": "INT",
         "rarity": "UR",
@@ -16281,7 +16281,7 @@ const dokkanCharacters = [
     {
         "id": 1021541,
         "thumbId": 1021540,
-        "name": "Master Roshi & Tien",
+        "name": "Tortue Géniale & Tenshinhan",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1021540_thumb.png",
         "type": "TEC",
         "rarity": "UR",
@@ -16321,7 +16321,7 @@ const dokkanCharacters = [
     {
         "id": 1021371,
         "thumbId": 1021370,
-        "name": "Golden Frieza (Angel) & Ultimate Gohan",
+        "name": "Golden Freezer (Angel) & Ultimate Gohan",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1021370_thumb.png",
         "type": "PUI",
         "rarity": "UR",
@@ -16477,7 +16477,7 @@ const dokkanCharacters = [
     {
         "id": 1021871,
         "thumbId": 1021870,
-        "name": "Krillin",
+        "name": "Krilin",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1021870_thumb.png",
         "type": "TEC",
         "rarity": "UR",
@@ -16616,7 +16616,7 @@ const dokkanCharacters = [
     {
         "id": 1021101,
         "thumbId": 1021100,
-        "name": "Grandpa Gohan & Pan (GT)",
+        "name": "Grand-père Gohan & Pan (GT)",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1021100_thumb.png",
         "type": "PUI",
         "rarity": "UR",
@@ -17051,7 +17051,7 @@ const dokkanCharacters = [
     {
         "id": 1009381,
         "thumbId": 1009380,
-        "name": "Frieza (1st Form)",
+        "name": "Freezer (1st Form)",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1009380_thumb.png",
         "type": "PUI",
         "rarity": "LR",
@@ -17171,7 +17171,7 @@ const dokkanCharacters = [
     {
         "id": 1021451,
         "thumbId": 1021450,
-        "name": "Krillin",
+        "name": "Krilin",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1021450_thumb.png",
         "type": "PUI",
         "rarity": "UR",
@@ -17251,7 +17251,7 @@ const dokkanCharacters = [
     {
         "id": 1009641,
         "thumbId": 1009640,
-        "name": "Buu (Kid)",
+        "name": "Boo (Kid)",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1009640_thumb.png",
         "type": "INT",
         "rarity": "UR",
@@ -17291,7 +17291,7 @@ const dokkanCharacters = [
     {
         "id": 1020591,
         "thumbId": 1020590,
-        "name": "Frieza (Final Form) (Angel)",
+        "name": "Freezer (Final Form) (Angel)",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1020590_thumb.png",
         "type": "TEC",
         "rarity": "UR",
@@ -17311,7 +17311,7 @@ const dokkanCharacters = [
     {
         "id": 1020501,
         "thumbId": 1020500,
-        "name": "Frieza (Final Form) (Angel)",
+        "name": "Freezer (Final Form) (Angel)",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1020500_thumb.png",
         "type": "END",
         "rarity": "UR",
@@ -17481,7 +17481,7 @@ const dokkanCharacters = [
     {
         "id": 1020031,
         "thumbId": 1020030,
-        "name": "Krillin",
+        "name": "Krilin",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1020030_thumb.png",
         "type": "AGI",
         "rarity": "UR",
@@ -17560,7 +17560,7 @@ const dokkanCharacters = [
     {
         "id": 1007121,
         "thumbId": 1007120,
-        "name": "Majin Buu (Good)",
+        "name": "Majin Boo (Good)",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1007120_thumb.png",
         "type": "END",
         "rarity": "UR",
@@ -17600,7 +17600,7 @@ const dokkanCharacters = [
     {
         "id": 1020151,
         "thumbId": 1020150,
-        "name": "Frieza (Final Form)",
+        "name": "Freezer (Final Form)",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1020150_thumb.png",
         "type": "INT",
         "rarity": "UR",
@@ -17659,7 +17659,7 @@ const dokkanCharacters = [
     {
         "id": 1018501,
         "thumbId": 1018500,
-        "name": "Vegito (Candy)",
+        "name": "Vegetto (Candy)",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1018500_thumb.png",
         "type": "TEC",
         "rarity": "UR",
@@ -17719,7 +17719,7 @@ const dokkanCharacters = [
     {
         "id": 1008131,
         "thumbId": 1008130,
-        "name": "Majin Buu (South Supreme Kai)",
+        "name": "Majin Boo (South Supreme Kai)",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1008130_thumb.png",
         "type": "TEC",
         "rarity": "UR",
@@ -17895,7 +17895,7 @@ const dokkanCharacters = [
     {
         "id": 1010901,
         "thumbId": 1010900,
-        "name": "Hercule",
+        "name": "Mr. Satan",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1010900_thumb.png",
         "type": "TEC",
         "rarity": "LR",
@@ -17935,7 +17935,7 @@ const dokkanCharacters = [
     {
         "id": 1020771,
         "thumbId": 1020770,
-        "name": "Hercule/Majin Buu (Good)",
+        "name": "Mr. Satan/Majin Boo (Good)",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1020770_thumb.png",
         "type": "AGI",
         "rarity": "UR",
@@ -17955,7 +17955,7 @@ const dokkanCharacters = [
     {
         "id": 1020281,
         "thumbId": 1020280,
-        "name": "Tien",
+        "name": "Tenshinhan",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1020280_thumb.png",
         "type": "END",
         "rarity": "UR",
@@ -17975,7 +17975,7 @@ const dokkanCharacters = [
     {
         "id": 1020531,
         "thumbId": 1020530,
-        "name": "Majin Buu (Piccolo)",
+        "name": "Majin Boo (Piccolo)",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1020530_thumb.png",
         "type": "AGI",
         "rarity": "UR",
@@ -18053,7 +18053,7 @@ const dokkanCharacters = [
     {
         "id": 1014431,
         "thumbId": 1014430,
-        "name": "Frieza (Final Form)",
+        "name": "Freezer (Final Form)",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1014430_thumb.png",
         "type": "END",
         "rarity": "UR",
@@ -18108,7 +18108,7 @@ const dokkanCharacters = [
     {
         "id": 1014430,
         "thumbId": 1014430,
-        "name": "Frieza (Final Form)",
+        "name": "Freezer (Final Form)",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1014430_thumb.png",
         "type": "END",
         "rarity": "SSR",
@@ -18145,7 +18145,7 @@ const dokkanCharacters = [
     {
         "id": 1008751,
         "thumbId": 1008750,
-        "name": "Golden Frieza",
+        "name": "Golden Freezer",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1008750_thumb.png",
         "type": "INT",
         "rarity": "UR",
@@ -18165,7 +18165,7 @@ const dokkanCharacters = [
     {
         "id": 1008741,
         "thumbId": 1008740,
-        "name": "Golden Frieza",
+        "name": "Golden Freezer",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1008740_thumb.png",
         "type": "AGI",
         "rarity": "UR",
@@ -18343,7 +18343,7 @@ const dokkanCharacters = [
     {
         "id": 1018681,
         "thumbId": 1018680,
-        "name": "Dabura",
+        "name": "Dabra",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1018680_thumb.png",
         "type": "END",
         "rarity": "UR",
@@ -18693,7 +18693,7 @@ const dokkanCharacters = [
     {
         "id": 1009901,
         "thumbId": 1009900,
-        "name": "Majin Buu (Pure Evil)",
+        "name": "Majin Boo (Pure Evil)",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1009900_thumb.png",
         "type": "PUI",
         "rarity": "UR",
@@ -18911,7 +18911,7 @@ const dokkanCharacters = [
     {
         "id": 1007391,
         "thumbId": 1007390,
-        "name": "Golden Frieza",
+        "name": "Golden Freezer",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1007390_thumb.png",
         "type": "TEC",
         "rarity": "UR",
@@ -19140,7 +19140,7 @@ const dokkanCharacters = [
     {
         "id": 1017161,
         "thumbId": 1017160,
-        "name": "Frieza (2nd Form)",
+        "name": "Freezer (2nd Form)",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1017160_thumb.png",
         "type": "END",
         "rarity": "UR",
@@ -19160,7 +19160,7 @@ const dokkanCharacters = [
     {
         "id": 1017221,
         "thumbId": 1017220,
-        "name": "Frieza (Final Form)",
+        "name": "Freezer (Final Form)",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1017220_thumb.png",
         "type": "AGI",
         "rarity": "UR",
@@ -19276,7 +19276,7 @@ const dokkanCharacters = [
     {
         "id": 1017821,
         "thumbId": 1017820,
-        "name": "Krillin",
+        "name": "Krilin",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1017820_thumb.png",
         "type": "INT",
         "rarity": "UR",
@@ -19316,7 +19316,7 @@ const dokkanCharacters = [
     {
         "id": 1017861,
         "thumbId": 1017860,
-        "name": "Hercule",
+        "name": "Mr. Satan",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1017860_thumb.png",
         "type": "PUI",
         "rarity": "UR",
@@ -19354,7 +19354,7 @@ const dokkanCharacters = [
     {
         "id": 1017860,
         "thumbId": 1017860,
-        "name": "Hercule",
+        "name": "Mr. Satan",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1017860_thumb.png",
         "type": "PUI",
         "rarity": "SSR",
@@ -19683,7 +19683,7 @@ const dokkanCharacters = [
     {
         "id": 1016651,
         "thumbId": 1016650,
-        "name": "Master Roshi",
+        "name": "Tortue Géniale",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1016650_thumb.png",
         "type": "TEC",
         "rarity": "UR",
@@ -19703,7 +19703,7 @@ const dokkanCharacters = [
     {
         "id": 1016631,
         "thumbId": 1016630,
-        "name": "Demon King Piccolo",
+        "name": "Démon Piccolo",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1016630_thumb.png",
         "type": "PUI",
         "rarity": "UR",
@@ -19900,7 +19900,7 @@ const dokkanCharacters = [
     {
         "id": 1005001,
         "thumbId": 1005000,
-        "name": "Buu (Kid)",
+        "name": "Boo (Kid)",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1005000_thumb.png",
         "type": "AGI",
         "rarity": "UR",
@@ -19998,7 +19998,7 @@ const dokkanCharacters = [
     {
         "id": 1016151,
         "thumbId": 1016150,
-        "name": "Golden Frieza",
+        "name": "Golden Freezer",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1016150_thumb.png",
         "type": "END",
         "rarity": "UR",
@@ -20078,7 +20078,7 @@ const dokkanCharacters = [
     {
         "id": 1006731,
         "thumbId": 1006730,
-        "name": "Majin Buu (Pure Evil)",
+        "name": "Majin Boo (Pure Evil)",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1006730_thumb.png",
         "type": "END",
         "rarity": "UR",
@@ -20117,7 +20117,7 @@ const dokkanCharacters = [
     {
         "id": 1006730,
         "thumbId": 1006730,
-        "name": "Majin Buu (Pure Evil)",
+        "name": "Majin Boo (Pure Evil)",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1006730_thumb.png",
         "type": "END",
         "rarity": "SSR",
@@ -20248,7 +20248,7 @@ const dokkanCharacters = [
     {
         "id": 1014301,
         "thumbId": 1014300,
-        "name": "Frieza (Final Form) (GT)",
+        "name": "Freezer (Final Form) (GT)",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1014300_thumb.png",
         "type": "INT",
         "rarity": "UR",
@@ -20286,7 +20286,7 @@ const dokkanCharacters = [
     {
         "id": 1014300,
         "thumbId": 1014300,
-        "name": "Frieza (Final Form) (GT)",
+        "name": "Freezer (Final Form) (GT)",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1014300_thumb.png",
         "type": "INT",
         "rarity": "SSR",
@@ -20382,7 +20382,7 @@ const dokkanCharacters = [
     {
         "id": 1013311,
         "thumbId": 1013310,
-        "name": "Krillin",
+        "name": "Krilin",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1013310_thumb.png",
         "type": "TEC",
         "rarity": "SSR",
@@ -20434,7 +20434,7 @@ const dokkanCharacters = [
     {
         "id": 1013310,
         "thumbId": 1013310,
-        "name": "Krillin",
+        "name": "Krilin",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1013310_thumb.png",
         "type": "TEC",
         "rarity": "SR",
@@ -20654,7 +20654,7 @@ const dokkanCharacters = [
     {
         "id": 1014391,
         "thumbId": 1014390,
-        "name": "Frieza (Final Form)",
+        "name": "Freezer (Final Form)",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1014390_thumb.png",
         "type": "PUI",
         "rarity": "UR",
@@ -20694,7 +20694,7 @@ const dokkanCharacters = [
     {
         "id": 1012561,
         "thumbId": 1012560,
-        "name": "Chiaotzu",
+        "name": "Chaozu",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1012560_thumb.png",
         "type": "END",
         "rarity": "SSR",
@@ -20712,7 +20712,7 @@ const dokkanCharacters = [
     {
         "id": 1012560,
         "thumbId": 1012560,
-        "name": "Chiaotzu",
+        "name": "Chaozu",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1012560_thumb.png",
         "type": "END",
         "rarity": "SR",
@@ -21407,7 +21407,7 @@ const dokkanCharacters = [
     {
         "id": 1012221,
         "thumbId": 1012220,
-        "name": "Frieza (Final Form) (Angel)",
+        "name": "Freezer (Final Form) (Angel)",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1012220_thumb.png",
         "type": "AGI",
         "rarity": "UR",
@@ -21426,7 +21426,7 @@ const dokkanCharacters = [
     {
         "id": 1012220,
         "thumbId": 1012220,
-        "name": "Frieza (Final Form) (Angel)",
+        "name": "Freezer (Final Form) (Angel)",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1012220_thumb.png",
         "type": "AGI",
         "rarity": "SSR",
@@ -21445,7 +21445,7 @@ const dokkanCharacters = [
     {
         "id": 1011981,
         "thumbId": 1011980,
-        "name": "Golden Frieza (Angel)",
+        "name": "Golden Freezer (Angel)",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1011980_thumb.png",
         "type": "PUI",
         "rarity": "UR",
@@ -21465,7 +21465,7 @@ const dokkanCharacters = [
     {
         "id": 1011980,
         "thumbId": 1011980,
-        "name": "Golden Frieza (Angel)",
+        "name": "Golden Freezer (Angel)",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1011980_thumb.png",
         "type": "PUI",
         "rarity": "SSR",
@@ -21679,7 +21679,7 @@ const dokkanCharacters = [
     {
         "id": 1012591,
         "thumbId": 1012590,
-        "name": "Vegito",
+        "name": "Vegetto",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1012590_thumb.png",
         "type": "PUI",
         "rarity": "SSR",
@@ -21698,7 +21698,7 @@ const dokkanCharacters = [
     {
         "id": 1012590,
         "thumbId": 1012590,
-        "name": "Vegito",
+        "name": "Vegetto",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1012590_thumb.png",
         "type": "PUI",
         "rarity": "SR",
@@ -21989,7 +21989,7 @@ const dokkanCharacters = [
     {
         "id": 1007901,
         "thumbId": 1007900,
-        "name": "Krillin",
+        "name": "Krilin",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1007900_thumb.png",
         "type": "END",
         "rarity": "SSR",
@@ -22008,7 +22008,7 @@ const dokkanCharacters = [
     {
         "id": 1007900,
         "thumbId": 1007900,
-        "name": "Krillin",
+        "name": "Krilin",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1007900_thumb.png",
         "type": "END",
         "rarity": "SR",
@@ -22027,7 +22027,7 @@ const dokkanCharacters = [
     {
         "id": 1010601,
         "thumbId": 1010600,
-        "name": "Buu (Kid)",
+        "name": "Boo (Kid)",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1010600_thumb.png",
         "type": "PUI",
         "rarity": "UR",
@@ -22047,7 +22047,7 @@ const dokkanCharacters = [
     {
         "id": 1010600,
         "thumbId": 1010600,
-        "name": "Buu (Kid)",
+        "name": "Boo (Kid)",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1010600_thumb.png",
         "type": "PUI",
         "rarity": "SSR",
@@ -22226,7 +22226,7 @@ const dokkanCharacters = [
     {
         "id": 1004101,
         "thumbId": 1004100,
-        "name": "Hercule",
+        "name": "Mr. Satan",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1004100_thumb.png",
         "type": "AGI",
         "rarity": "UR",
@@ -22244,7 +22244,7 @@ const dokkanCharacters = [
     {
         "id": 1004100,
         "thumbId": 1004100,
-        "name": "Hercule",
+        "name": "Mr. Satan",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1004100_thumb.png",
         "type": "AGI",
         "rarity": "SSR",
@@ -22625,7 +22625,7 @@ const dokkanCharacters = [
     {
         "id": 1010041,
         "thumbId": 1010040,
-        "name": "Frieza (1st Form)",
+        "name": "Freezer (1st Form)",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1010040_thumb.png",
         "type": "TEC",
         "rarity": "UR",
@@ -22643,7 +22643,7 @@ const dokkanCharacters = [
     {
         "id": 1010040,
         "thumbId": 1010040,
-        "name": "Frieza (1st Form)",
+        "name": "Freezer (1st Form)",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1010040_thumb.png",
         "type": "TEC",
         "rarity": "SSR",
@@ -22809,7 +22809,7 @@ const dokkanCharacters = [
     {
         "id": 1009071,
         "thumbId": 1009070,
-        "name": "Mercenary Tao",
+        "name": "Tao Pai Pai",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1009070_thumb.png",
         "type": "TEC",
         "rarity": "UR",
@@ -22965,7 +22965,7 @@ const dokkanCharacters = [
     {
         "id": 1009070,
         "thumbId": 1009070,
-        "name": "Mercenary Tao",
+        "name": "Tao Pai Pai",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1009070_thumb.png",
         "type": "TEC",
         "rarity": "SSR",
@@ -23383,7 +23383,7 @@ const dokkanCharacters = [
     {
         "id": 1008121,
         "thumbId": 1008120,
-        "name": "Majin Buu (Piccolo)",
+        "name": "Majin Boo (Piccolo)",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1008120_thumb.png",
         "type": "INT",
         "rarity": "UR",
@@ -23403,7 +23403,7 @@ const dokkanCharacters = [
     {
         "id": 1008111,
         "thumbId": 1008110,
-        "name": "Majin Buu (Gotenks)",
+        "name": "Majin Boo (Gotenks)",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1008110_thumb.png",
         "type": "PUI",
         "rarity": "UR",
@@ -23423,7 +23423,7 @@ const dokkanCharacters = [
     {
         "id": 1008120,
         "thumbId": 1008120,
-        "name": "Majin Buu (Piccolo)",
+        "name": "Majin Boo (Piccolo)",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1008120_thumb.png",
         "type": "INT",
         "rarity": "SSR",
@@ -23443,7 +23443,7 @@ const dokkanCharacters = [
     {
         "id": 1008110,
         "thumbId": 1008110,
-        "name": "Majin Buu (Gotenks)",
+        "name": "Majin Boo (Gotenks)",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1008110_thumb.png",
         "type": "PUI",
         "rarity": "SSR",
@@ -23463,7 +23463,7 @@ const dokkanCharacters = [
     {
         "id": 1003561,
         "thumbId": 1003560,
-        "name": "Majin Buu (Ultimate Gohan)",
+        "name": "Majin Boo (Ultimate Gohan)",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1003560_thumb.png",
         "type": "PUI",
         "rarity": "SSR",
@@ -23481,7 +23481,7 @@ const dokkanCharacters = [
     {
         "id": 1003560,
         "thumbId": 1003560,
-        "name": "Majin Buu (Ultimate Gohan)",
+        "name": "Majin Boo (Ultimate Gohan)",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1003560_thumb.png",
         "type": "PUI",
         "rarity": "SR",
@@ -23573,7 +23573,7 @@ const dokkanCharacters = [
     {
         "id": 1009850,
         "thumbId": 1009850,
-        "name": "Master Roshi (Santa)",
+        "name": "Tortue Géniale (Santa)",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1009850_thumb.png",
         "type": "TEC",
         "rarity": "SSR",
@@ -24311,7 +24311,7 @@ const dokkanCharacters = [
     {
         "id": 1002911,
         "thumbId": 1002910,
-        "name": "Chiaotzu",
+        "name": "Chaozu",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1002910_thumb.png",
         "type": "AGI",
         "rarity": "UR",
@@ -24366,7 +24366,7 @@ const dokkanCharacters = [
     {
         "id": 1002910,
         "thumbId": 1002910,
-        "name": "Chiaotzu",
+        "name": "Chaozu",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1002910_thumb.png",
         "type": "AGI",
         "rarity": "SSR",
@@ -25037,7 +25037,7 @@ const dokkanCharacters = [
     {
         "id": 1004411,
         "thumbId": 1004410,
-        "name": "Buu (Super)",
+        "name": "Boo (Super)",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1004410_thumb.png",
         "type": "TEC",
         "rarity": "UR",
@@ -25057,7 +25057,7 @@ const dokkanCharacters = [
     {
         "id": 1004461,
         "thumbId": 1004460,
-        "name": "Krillin",
+        "name": "Krilin",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1004460_thumb.png",
         "type": "INT",
         "rarity": "SSR",
@@ -25076,7 +25076,7 @@ const dokkanCharacters = [
     {
         "id": 1004410,
         "thumbId": 1004410,
-        "name": "Buu (Super)",
+        "name": "Boo (Super)",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1004410_thumb.png",
         "type": "TEC",
         "rarity": "SSR",
@@ -25115,7 +25115,7 @@ const dokkanCharacters = [
     {
         "id": 1004460,
         "thumbId": 1004460,
-        "name": "Krillin",
+        "name": "Krilin",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1004460_thumb.png",
         "type": "INT",
         "rarity": "SR",
@@ -25189,7 +25189,7 @@ const dokkanCharacters = [
     {
         "id": 1004831,
         "thumbId": 1004830,
-        "name": "Master Roshi (Max Power)",
+        "name": "Tortue Géniale (Max Power)",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1004830_thumb.png",
         "type": "INT",
         "rarity": "SSR",
@@ -25261,7 +25261,7 @@ const dokkanCharacters = [
     {
         "id": 1004830,
         "thumbId": 1004830,
-        "name": "Master Roshi (Max Power)",
+        "name": "Tortue Géniale (Max Power)",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1004830_thumb.png",
         "type": "INT",
         "rarity": "SR",
@@ -25371,7 +25371,7 @@ const dokkanCharacters = [
     {
         "id": 2000851,
         "thumbId": 2000770,
-        "name": "Golden Frieza",
+        "name": "Golden Freezer",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_2000770_thumb.png",
         "type": "AGI",
         "rarity": "UR",
@@ -25389,7 +25389,7 @@ const dokkanCharacters = [
     {
         "id": 2000841,
         "thumbId": 2000770,
-        "name": "Golden Frieza",
+        "name": "Golden Freezer",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_2000770_thumb.png",
         "type": "INT",
         "rarity": "UR",
@@ -25407,7 +25407,7 @@ const dokkanCharacters = [
     {
         "id": 2000831,
         "thumbId": 2000770,
-        "name": "Golden Frieza",
+        "name": "Golden Freezer",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_2000770_thumb.png",
         "type": "AGI",
         "rarity": "UR",
@@ -25425,7 +25425,7 @@ const dokkanCharacters = [
     {
         "id": 2000821,
         "thumbId": 2000770,
-        "name": "Golden Frieza",
+        "name": "Golden Freezer",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_2000770_thumb.png",
         "type": "TEC",
         "rarity": "UR",
@@ -25443,7 +25443,7 @@ const dokkanCharacters = [
     {
         "id": 2000811,
         "thumbId": 2000770,
-        "name": "Golden Frieza",
+        "name": "Golden Freezer",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_2000770_thumb.png",
         "type": "TEC",
         "rarity": "UR",
@@ -25461,7 +25461,7 @@ const dokkanCharacters = [
     {
         "id": 2000801,
         "thumbId": 2000770,
-        "name": "Golden Frieza",
+        "name": "Golden Freezer",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_2000770_thumb.png",
         "type": "PUI",
         "rarity": "UR",
@@ -25479,7 +25479,7 @@ const dokkanCharacters = [
     {
         "id": 2000791,
         "thumbId": 2000770,
-        "name": "Golden Frieza",
+        "name": "Golden Freezer",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_2000770_thumb.png",
         "type": "INT",
         "rarity": "UR",
@@ -25497,7 +25497,7 @@ const dokkanCharacters = [
     {
         "id": 2000781,
         "thumbId": 2000770,
-        "name": "Golden Frieza",
+        "name": "Golden Freezer",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_2000770_thumb.png",
         "type": "PUI",
         "rarity": "UR",
@@ -25515,7 +25515,7 @@ const dokkanCharacters = [
     {
         "id": 2000771,
         "thumbId": 2000770,
-        "name": "Golden Frieza",
+        "name": "Golden Freezer",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_2000770_thumb.png",
         "type": "PUI",
         "rarity": "UR",
@@ -25533,7 +25533,7 @@ const dokkanCharacters = [
     {
         "id": 1003531,
         "thumbId": 1003530,
-        "name": "Master Roshi (Max Power)",
+        "name": "Tortue Géniale (Max Power)",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1003530_thumb.png",
         "type": "AGI",
         "rarity": "UR",
@@ -25551,7 +25551,7 @@ const dokkanCharacters = [
     {
         "id": 1002351,
         "thumbId": 1002350,
-        "name": "Master Roshi (Max Power)",
+        "name": "Tortue Géniale (Max Power)",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1002350_thumb.png",
         "type": "TEC",
         "rarity": "UR",
@@ -25958,7 +25958,7 @@ const dokkanCharacters = [
     {
         "id": 1000891,
         "thumbId": 1000890,
-        "name": "Krillin",
+        "name": "Krilin",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1000890_thumb.png",
         "type": "TEC",
         "rarity": "SSR",
@@ -25975,7 +25975,7 @@ const dokkanCharacters = [
     {
         "id": 1000111,
         "thumbId": 1000110,
-        "name": "Krillin",
+        "name": "Krilin",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1000110_thumb.png",
         "type": "TEC",
         "rarity": "SSR",
@@ -26045,7 +26045,7 @@ const dokkanCharacters = [
     {
         "id": 1002601,
         "thumbId": 1002600,
-        "name": "Tien",
+        "name": "Tenshinhan",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1002600_thumb.png",
         "type": "INT",
         "rarity": "SSR",
@@ -26063,7 +26063,7 @@ const dokkanCharacters = [
     {
         "id": 1001771,
         "thumbId": 1001770,
-        "name": "Tien",
+        "name": "Tenshinhan",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1001770_thumb.png",
         "type": "AGI",
         "rarity": "SSR",
@@ -26081,7 +26081,7 @@ const dokkanCharacters = [
     {
         "id": 1001451,
         "thumbId": 1001450,
-        "name": "Tien",
+        "name": "Tenshinhan",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1001450_thumb.png",
         "type": "END",
         "rarity": "SSR",
@@ -26099,7 +26099,7 @@ const dokkanCharacters = [
     {
         "id": 1000911,
         "thumbId": 1000910,
-        "name": "Tien",
+        "name": "Tenshinhan",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1000910_thumb.png",
         "type": "PUI",
         "rarity": "SSR",
@@ -26117,7 +26117,7 @@ const dokkanCharacters = [
     {
         "id": 1000131,
         "thumbId": 1000130,
-        "name": "Tien",
+        "name": "Tenshinhan",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1000130_thumb.png",
         "type": "TEC",
         "rarity": "SSR",
@@ -26135,7 +26135,7 @@ const dokkanCharacters = [
     {
         "id": 1001461,
         "thumbId": 1001460,
-        "name": "Chiaotzu",
+        "name": "Chaozu",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1001460_thumb.png",
         "type": "PUI",
         "rarity": "SSR",
@@ -26153,7 +26153,7 @@ const dokkanCharacters = [
     {
         "id": 1000921,
         "thumbId": 1000920,
-        "name": "Chiaotzu",
+        "name": "Chaozu",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1000920_thumb.png",
         "type": "TEC",
         "rarity": "SSR",
@@ -26171,7 +26171,7 @@ const dokkanCharacters = [
     {
         "id": 1000141,
         "thumbId": 1000140,
-        "name": "Chiaotzu",
+        "name": "Chaozu",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1000140_thumb.png",
         "type": "INT",
         "rarity": "SSR",
@@ -26379,7 +26379,7 @@ const dokkanCharacters = [
     {
         "id": 1000951,
         "thumbId": 1000950,
-        "name": "Captain Ginyu",
+        "name": "Capitaine Ginyu",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1000950_thumb.png",
         "type": "INT",
         "rarity": "SSR",
@@ -26397,7 +26397,7 @@ const dokkanCharacters = [
     {
         "id": 1000191,
         "thumbId": 1000190,
-        "name": "Captain Ginyu",
+        "name": "Capitaine Ginyu",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1000190_thumb.png",
         "type": "INT",
         "rarity": "SSR",
@@ -26612,7 +26612,7 @@ const dokkanCharacters = [
     {
         "id": 1000251,
         "thumbId": 1000250,
-        "name": "Master Roshi",
+        "name": "Tortue Géniale",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1000250_thumb.png",
         "type": "PUI",
         "rarity": "SSR",
@@ -26631,7 +26631,7 @@ const dokkanCharacters = [
     {
         "id": 1000261,
         "thumbId": 1000260,
-        "name": "Mercenary Tao",
+        "name": "Tao Pai Pai",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1000260_thumb.png",
         "type": "AGI",
         "rarity": "SSR",
@@ -26681,7 +26681,7 @@ const dokkanCharacters = [
     {
         "id": 1001061,
         "thumbId": 1001060,
-        "name": "Recoome",
+        "name": "Reacum",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1001060_thumb.png",
         "type": "END",
         "rarity": "SSR",
@@ -26699,7 +26699,7 @@ const dokkanCharacters = [
     {
         "id": 1001071,
         "thumbId": 1001070,
-        "name": "Guldo",
+        "name": "Ghourd",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1001070_thumb.png",
         "type": "TEC",
         "rarity": "SSR",
@@ -26717,7 +26717,7 @@ const dokkanCharacters = [
     {
         "id": 1001081,
         "thumbId": 1001080,
-        "name": "Burter",
+        "name": "Barta",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1001080_thumb.png",
         "type": "AGI",
         "rarity": "SSR",
@@ -26734,7 +26734,7 @@ const dokkanCharacters = [
     {
         "id": 1001091,
         "thumbId": 1001090,
-        "name": "Jeice",
+        "name": "Jiece",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1001090_thumb.png",
         "type": "PUI",
         "rarity": "SSR",
@@ -26766,7 +26766,7 @@ const dokkanCharacters = [
     {
         "id": 1000821,
         "thumbId": 1000820,
-        "name": "Hercule",
+        "name": "Mr. Satan",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1000820_thumb.png",
         "type": "INT",
         "rarity": "SSR",
@@ -26921,7 +26921,7 @@ const dokkanCharacters = [
     {
         "id": 2000850,
         "thumbId": 2000770,
-        "name": "Golden Frieza",
+        "name": "Golden Freezer",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_2000770_thumb.png",
         "type": "AGI",
         "rarity": "SSR",
@@ -26939,7 +26939,7 @@ const dokkanCharacters = [
     {
         "id": 2000840,
         "thumbId": 2000770,
-        "name": "Golden Frieza",
+        "name": "Golden Freezer",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_2000770_thumb.png",
         "type": "INT",
         "rarity": "SSR",
@@ -26957,7 +26957,7 @@ const dokkanCharacters = [
     {
         "id": 2000830,
         "thumbId": 2000770,
-        "name": "Golden Frieza",
+        "name": "Golden Freezer",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_2000770_thumb.png",
         "type": "AGI",
         "rarity": "SSR",
@@ -26975,7 +26975,7 @@ const dokkanCharacters = [
     {
         "id": 2000820,
         "thumbId": 2000770,
-        "name": "Golden Frieza",
+        "name": "Golden Freezer",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_2000770_thumb.png",
         "type": "TEC",
         "rarity": "SSR",
@@ -26993,7 +26993,7 @@ const dokkanCharacters = [
     {
         "id": 2000810,
         "thumbId": 2000770,
-        "name": "Golden Frieza",
+        "name": "Golden Freezer",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_2000770_thumb.png",
         "type": "TEC",
         "rarity": "SSR",
@@ -27011,7 +27011,7 @@ const dokkanCharacters = [
     {
         "id": 2000800,
         "thumbId": 2000770,
-        "name": "Golden Frieza",
+        "name": "Golden Freezer",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_2000770_thumb.png",
         "type": "PUI",
         "rarity": "SSR",
@@ -27029,7 +27029,7 @@ const dokkanCharacters = [
     {
         "id": 2000790,
         "thumbId": 2000770,
-        "name": "Golden Frieza",
+        "name": "Golden Freezer",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_2000770_thumb.png",
         "type": "INT",
         "rarity": "SSR",
@@ -27047,7 +27047,7 @@ const dokkanCharacters = [
     {
         "id": 2000780,
         "thumbId": 2000770,
-        "name": "Golden Frieza",
+        "name": "Golden Freezer",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_2000770_thumb.png",
         "type": "PUI",
         "rarity": "SSR",
@@ -27065,7 +27065,7 @@ const dokkanCharacters = [
     {
         "id": 2000770,
         "thumbId": 2000770,
-        "name": "Golden Frieza",
+        "name": "Golden Freezer",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_2000770_thumb.png",
         "type": "PUI",
         "rarity": "SSR",
@@ -27136,7 +27136,7 @@ const dokkanCharacters = [
     {
         "id": 1003530,
         "thumbId": 1003530,
-        "name": "Master Roshi (Max Power)",
+        "name": "Tortue Géniale (Max Power)",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1003530_thumb.png",
         "type": "AGI",
         "rarity": "SSR",
@@ -27154,7 +27154,7 @@ const dokkanCharacters = [
     {
         "id": 1002350,
         "thumbId": 1002350,
-        "name": "Master Roshi (Max Power)",
+        "name": "Tortue Géniale (Max Power)",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1002350_thumb.png",
         "type": "TEC",
         "rarity": "SSR",
@@ -27172,7 +27172,7 @@ const dokkanCharacters = [
     {
         "id": 1002221,
         "thumbId": 1002220,
-        "name": "Master Roshi (Max Power)",
+        "name": "Tortue Géniale (Max Power)",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1002220_thumb.png",
         "type": "PUI",
         "rarity": "SSR",
@@ -27190,7 +27190,7 @@ const dokkanCharacters = [
     {
         "id": 1003821,
         "thumbId": 1003820,
-        "name": "Dabura",
+        "name": "Dabra",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1003820_thumb.png",
         "type": "PUI",
         "rarity": "SSR",
@@ -27209,7 +27209,7 @@ const dokkanCharacters = [
     {
         "id": 1001981,
         "thumbId": 1001980,
-        "name": "Dabura",
+        "name": "Dabra",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1001980_thumb.png",
         "type": "AGI",
         "rarity": "SSR",
@@ -27584,7 +27584,7 @@ const dokkanCharacters = [
     {
         "id": 1002341,
         "thumbId": 1002340,
-        "name": "Krillin (Youth)",
+        "name": "Krilin (Youth)",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1002340_thumb.png",
         "type": "PUI",
         "rarity": "SSR",
@@ -27601,7 +27601,7 @@ const dokkanCharacters = [
     {
         "id": 1003331,
         "thumbId": 1003330,
-        "name": "Mr. Buu",
+        "name": "Mr. Boo",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1003330_thumb.png",
         "type": "INT",
         "rarity": "SSR",
@@ -28187,7 +28187,7 @@ const dokkanCharacters = [
     {
         "id": 1001681,
         "thumbId": 1001680,
-        "name": "Krillin",
+        "name": "Krilin",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1001680_thumb.png",
         "type": "AGI",
         "rarity": "SR",
@@ -28205,7 +28205,7 @@ const dokkanCharacters = [
     {
         "id": 1001161,
         "thumbId": 1001160,
-        "name": "Krillin",
+        "name": "Krilin",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1001160_thumb.png",
         "type": "PUI",
         "rarity": "SR",
@@ -28222,7 +28222,7 @@ const dokkanCharacters = [
     {
         "id": 1000890,
         "thumbId": 1000890,
-        "name": "Krillin",
+        "name": "Krilin",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1000890_thumb.png",
         "type": "TEC",
         "rarity": "SR",
@@ -28239,7 +28239,7 @@ const dokkanCharacters = [
     {
         "id": 1000291,
         "thumbId": 1000290,
-        "name": "Krillin",
+        "name": "Krilin",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1000290_thumb.png",
         "type": "END",
         "rarity": "SR",
@@ -28257,7 +28257,7 @@ const dokkanCharacters = [
     {
         "id": 1000110,
         "thumbId": 1000110,
-        "name": "Krillin",
+        "name": "Krilin",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1000110_thumb.png",
         "type": "TEC",
         "rarity": "SR",
@@ -28381,7 +28381,7 @@ const dokkanCharacters = [
     {
         "id": 1002600,
         "thumbId": 1002600,
-        "name": "Tien",
+        "name": "Tenshinhan",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1002600_thumb.png",
         "type": "INT",
         "rarity": "SR",
@@ -28399,7 +28399,7 @@ const dokkanCharacters = [
     {
         "id": 1002231,
         "thumbId": 1002230,
-        "name": "Tien",
+        "name": "Tenshinhan",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1002230_thumb.png",
         "type": "PUI",
         "rarity": "SR",
@@ -28411,7 +28411,7 @@ const dokkanCharacters = [
     {
         "id": 1001770,
         "thumbId": 1001770,
-        "name": "Tien",
+        "name": "Tenshinhan",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1001770_thumb.png",
         "type": "AGI",
         "rarity": "SR",
@@ -28429,7 +28429,7 @@ const dokkanCharacters = [
     {
         "id": 1001450,
         "thumbId": 1001450,
-        "name": "Tien",
+        "name": "Tenshinhan",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1001450_thumb.png",
         "type": "END",
         "rarity": "SR",
@@ -28447,7 +28447,7 @@ const dokkanCharacters = [
     {
         "id": 1001181,
         "thumbId": 1001180,
-        "name": "Tien",
+        "name": "Tenshinhan",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1001180_thumb.png",
         "type": "END",
         "rarity": "SR",
@@ -28465,7 +28465,7 @@ const dokkanCharacters = [
     {
         "id": 1000910,
         "thumbId": 1000910,
-        "name": "Tien",
+        "name": "Tenshinhan",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1000910_thumb.png",
         "type": "PUI",
         "rarity": "SR",
@@ -28483,7 +28483,7 @@ const dokkanCharacters = [
     {
         "id": 1000311,
         "thumbId": 1000310,
-        "name": "Tien",
+        "name": "Tenshinhan",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1000310_thumb.png",
         "type": "AGI",
         "rarity": "SR",
@@ -28501,7 +28501,7 @@ const dokkanCharacters = [
     {
         "id": 1000130,
         "thumbId": 1000130,
-        "name": "Tien",
+        "name": "Tenshinhan",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1000130_thumb.png",
         "type": "TEC",
         "rarity": "SR",
@@ -28519,7 +28519,7 @@ const dokkanCharacters = [
     {
         "id": 1001460,
         "thumbId": 1001460,
-        "name": "Chiaotzu",
+        "name": "Chaozu",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1001460_thumb.png",
         "type": "PUI",
         "rarity": "SR",
@@ -28537,7 +28537,7 @@ const dokkanCharacters = [
     {
         "id": 1001191,
         "thumbId": 1001190,
-        "name": "Chiaotzu",
+        "name": "Chaozu",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1001190_thumb.png",
         "type": "TEC",
         "rarity": "SR",
@@ -28555,7 +28555,7 @@ const dokkanCharacters = [
     {
         "id": 1000920,
         "thumbId": 1000920,
-        "name": "Chiaotzu",
+        "name": "Chaozu",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1000920_thumb.png",
         "type": "TEC",
         "rarity": "SR",
@@ -28573,7 +28573,7 @@ const dokkanCharacters = [
     {
         "id": 1000321,
         "thumbId": 1000320,
-        "name": "Chiaotzu",
+        "name": "Chaozu",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1000320_thumb.png",
         "type": "TEC",
         "rarity": "SR",
@@ -28591,7 +28591,7 @@ const dokkanCharacters = [
     {
         "id": 1000140,
         "thumbId": 1000140,
-        "name": "Chiaotzu",
+        "name": "Chaozu",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1000140_thumb.png",
         "type": "INT",
         "rarity": "SR",
@@ -28954,7 +28954,7 @@ const dokkanCharacters = [
     {
         "id": 1001221,
         "thumbId": 1001220,
-        "name": "Captain Ginyu",
+        "name": "Capitaine Ginyu",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1001220_thumb.png",
         "type": "INT",
         "rarity": "SR",
@@ -28972,7 +28972,7 @@ const dokkanCharacters = [
     {
         "id": 1000950,
         "thumbId": 1000950,
-        "name": "Captain Ginyu",
+        "name": "Capitaine Ginyu",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1000950_thumb.png",
         "type": "INT",
         "rarity": "SR",
@@ -28990,7 +28990,7 @@ const dokkanCharacters = [
     {
         "id": 1000371,
         "thumbId": 1000370,
-        "name": "Captain Ginyu",
+        "name": "Capitaine Ginyu",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1000370_thumb.png",
         "type": "PUI",
         "rarity": "SR",
@@ -29008,7 +29008,7 @@ const dokkanCharacters = [
     {
         "id": 1000190,
         "thumbId": 1000190,
-        "name": "Captain Ginyu",
+        "name": "Capitaine Ginyu",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1000190_thumb.png",
         "type": "INT",
         "rarity": "SR",
@@ -29415,7 +29415,7 @@ const dokkanCharacters = [
     {
         "id": 1000250,
         "thumbId": 1000250,
-        "name": "Master Roshi",
+        "name": "Tortue Géniale",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1000250_thumb.png",
         "type": "PUI",
         "rarity": "SR",
@@ -29434,7 +29434,7 @@ const dokkanCharacters = [
     {
         "id": 1001031,
         "thumbId": 1001030,
-        "name": "Mercenary Tao",
+        "name": "Tao Pai Pai",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1001030_thumb.png",
         "type": "AGI",
         "rarity": "SR",
@@ -29452,7 +29452,7 @@ const dokkanCharacters = [
     {
         "id": 1000441,
         "thumbId": 1000440,
-        "name": "Mercenary Tao",
+        "name": "Tao Pai Pai",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1000440_thumb.png",
         "type": "INT",
         "rarity": "SR",
@@ -29469,7 +29469,7 @@ const dokkanCharacters = [
     {
         "id": 1000260,
         "thumbId": 1000260,
-        "name": "Mercenary Tao",
+        "name": "Tao Pai Pai",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1000260_thumb.png",
         "type": "AGI",
         "rarity": "SR",
@@ -29634,7 +29634,7 @@ const dokkanCharacters = [
     {
         "id": 1001301,
         "thumbId": 1001300,
-        "name": "Recoome",
+        "name": "Reacum",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1001300_thumb.png",
         "type": "PUI",
         "rarity": "SR",
@@ -29652,7 +29652,7 @@ const dokkanCharacters = [
     {
         "id": 1001060,
         "thumbId": 1001060,
-        "name": "Recoome",
+        "name": "Reacum",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1001060_thumb.png",
         "type": "END",
         "rarity": "SR",
@@ -29670,7 +29670,7 @@ const dokkanCharacters = [
     {
         "id": 1000521,
         "thumbId": 1000520,
-        "name": "Recoome",
+        "name": "Reacum",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1000520_thumb.png",
         "type": "END",
         "rarity": "SR",
@@ -29687,7 +29687,7 @@ const dokkanCharacters = [
     {
         "id": 1001671,
         "thumbId": 1001670,
-        "name": "Guldo",
+        "name": "Ghourd",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1001670_thumb.png",
         "type": "END",
         "rarity": "SR",
@@ -29705,7 +29705,7 @@ const dokkanCharacters = [
     {
         "id": 1001311,
         "thumbId": 1001310,
-        "name": "Guldo",
+        "name": "Ghourd",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1001310_thumb.png",
         "type": "TEC",
         "rarity": "SR",
@@ -29723,7 +29723,7 @@ const dokkanCharacters = [
     {
         "id": 1001070,
         "thumbId": 1001070,
-        "name": "Guldo",
+        "name": "Ghourd",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1001070_thumb.png",
         "type": "TEC",
         "rarity": "SR",
@@ -29741,7 +29741,7 @@ const dokkanCharacters = [
     {
         "id": 1000531,
         "thumbId": 1000530,
-        "name": "Guldo",
+        "name": "Ghourd",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1000530_thumb.png",
         "type": "INT",
         "rarity": "SR",
@@ -29759,7 +29759,7 @@ const dokkanCharacters = [
     {
         "id": 1001321,
         "thumbId": 1001320,
-        "name": "Burter",
+        "name": "Barta",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1001320_thumb.png",
         "type": "AGI",
         "rarity": "SR",
@@ -29776,7 +29776,7 @@ const dokkanCharacters = [
     {
         "id": 1001080,
         "thumbId": 1001080,
-        "name": "Burter",
+        "name": "Barta",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1001080_thumb.png",
         "type": "AGI",
         "rarity": "SR",
@@ -29793,7 +29793,7 @@ const dokkanCharacters = [
     {
         "id": 1000541,
         "thumbId": 1000540,
-        "name": "Burter",
+        "name": "Barta",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1000540_thumb.png",
         "type": "AGI",
         "rarity": "SR",
@@ -29810,7 +29810,7 @@ const dokkanCharacters = [
     {
         "id": 1001331,
         "thumbId": 1001330,
-        "name": "Jeice",
+        "name": "Jiece",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1001330_thumb.png",
         "type": "TEC",
         "rarity": "SR",
@@ -29826,7 +29826,7 @@ const dokkanCharacters = [
     {
         "id": 1001090,
         "thumbId": 1001090,
-        "name": "Jeice",
+        "name": "Jiece",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1001090_thumb.png",
         "type": "PUI",
         "rarity": "SR",
@@ -29842,7 +29842,7 @@ const dokkanCharacters = [
     {
         "id": 1000551,
         "thumbId": 1000550,
-        "name": "Jeice",
+        "name": "Jiece",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1000550_thumb.png",
         "type": "PUI",
         "rarity": "SR",
@@ -29956,7 +29956,7 @@ const dokkanCharacters = [
     {
         "id": 1000820,
         "thumbId": 1000820,
-        "name": "Hercule",
+        "name": "Mr. Satan",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1000820_thumb.png",
         "type": "INT",
         "rarity": "SR",
@@ -29974,7 +29974,7 @@ const dokkanCharacters = [
     {
         "id": 1000581,
         "thumbId": 1000580,
-        "name": "Hercule",
+        "name": "Mr. Satan",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1000580_thumb.png",
         "type": "INT",
         "rarity": "SR",
@@ -30382,7 +30382,7 @@ const dokkanCharacters = [
     {
         "id": 1002181,
         "thumbId": 1002180,
-        "name": "Krillin (Police Officer)",
+        "name": "Krilin (Police Officer)",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1002180_thumb.png",
         "type": "END",
         "rarity": "SR",
@@ -30454,7 +30454,7 @@ const dokkanCharacters = [
     {
         "id": 1002220,
         "thumbId": 1002220,
-        "name": "Master Roshi (Max Power)",
+        "name": "Tortue Géniale (Max Power)",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1002220_thumb.png",
         "type": "PUI",
         "rarity": "SR",
@@ -30489,7 +30489,7 @@ const dokkanCharacters = [
     {
         "id": 1003820,
         "thumbId": 1003820,
-        "name": "Dabura",
+        "name": "Dabra",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1003820_thumb.png",
         "type": "PUI",
         "rarity": "SR",
@@ -30508,7 +30508,7 @@ const dokkanCharacters = [
     {
         "id": 1001980,
         "thumbId": 1001980,
-        "name": "Dabura",
+        "name": "Dabra",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1001980_thumb.png",
         "type": "AGI",
         "rarity": "SR",
@@ -30945,7 +30945,7 @@ const dokkanCharacters = [
     {
         "id": 1002340,
         "thumbId": 1002340,
-        "name": "Krillin (Youth)",
+        "name": "Krilin (Youth)",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1002340_thumb.png",
         "type": "PUI",
         "rarity": "SR",
@@ -30962,7 +30962,7 @@ const dokkanCharacters = [
     {
         "id": 1003330,
         "thumbId": 1003330,
-        "name": "Mr. Buu",
+        "name": "Mr. Boo",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1003330_thumb.png",
         "type": "INT",
         "rarity": "SR",
@@ -31191,7 +31191,7 @@ const dokkanCharacters = [
     {
         "id": 1003061,
         "thumbId": 1003060,
-        "name": "Hercule (GT)",
+        "name": "Mr. Satan (GT)",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1003060_thumb.png",
         "type": "END",
         "rarity": "SR",
@@ -31394,7 +31394,7 @@ const dokkanCharacters = [
     {
         "id": 1001881,
         "thumbId": 1001880,
-        "name": "Krillin",
+        "name": "Krilin",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1001880_thumb.png",
         "type": "END",
         "rarity": "R",
@@ -31406,7 +31406,7 @@ const dokkanCharacters = [
     {
         "id": 1001880,
         "thumbId": 1001880,
-        "name": "Krillin",
+        "name": "Krilin",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1001880_thumb.png",
         "type": "END",
         "rarity": "R",
@@ -31418,7 +31418,7 @@ const dokkanCharacters = [
     {
         "id": 1001680,
         "thumbId": 1001680,
-        "name": "Krillin",
+        "name": "Krilin",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1001680_thumb.png",
         "type": "AGI",
         "rarity": "R",
@@ -31436,7 +31436,7 @@ const dokkanCharacters = [
     {
         "id": 1001160,
         "thumbId": 1001160,
-        "name": "Krillin",
+        "name": "Krilin",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1001160_thumb.png",
         "type": "PUI",
         "rarity": "R",
@@ -31453,7 +31453,7 @@ const dokkanCharacters = [
     {
         "id": 1000290,
         "thumbId": 1000290,
-        "name": "Krillin",
+        "name": "Krilin",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1000290_thumb.png",
         "type": "END",
         "rarity": "R",
@@ -31525,7 +31525,7 @@ const dokkanCharacters = [
     {
         "id": 1002230,
         "thumbId": 1002230,
-        "name": "Tien",
+        "name": "Tenshinhan",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1002230_thumb.png",
         "type": "PUI",
         "rarity": "R",
@@ -31537,7 +31537,7 @@ const dokkanCharacters = [
     {
         "id": 1001901,
         "thumbId": 1001900,
-        "name": "Tien",
+        "name": "Tenshinhan",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1001900_thumb.png",
         "type": "PUI",
         "rarity": "R",
@@ -31552,7 +31552,7 @@ const dokkanCharacters = [
     {
         "id": 1001180,
         "thumbId": 1001180,
-        "name": "Tien",
+        "name": "Tenshinhan",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1001180_thumb.png",
         "type": "END",
         "rarity": "R",
@@ -31570,7 +31570,7 @@ const dokkanCharacters = [
     {
         "id": 1000310,
         "thumbId": 1000310,
-        "name": "Tien",
+        "name": "Tenshinhan",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1000310_thumb.png",
         "type": "AGI",
         "rarity": "R",
@@ -31588,7 +31588,7 @@ const dokkanCharacters = [
     {
         "id": 1001911,
         "thumbId": 1001910,
-        "name": "Chiaotzu",
+        "name": "Chaozu",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1001910_thumb.png",
         "type": "INT",
         "rarity": "R",
@@ -31603,7 +31603,7 @@ const dokkanCharacters = [
     {
         "id": 1001190,
         "thumbId": 1001190,
-        "name": "Chiaotzu",
+        "name": "Chaozu",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1001190_thumb.png",
         "type": "TEC",
         "rarity": "R",
@@ -31621,7 +31621,7 @@ const dokkanCharacters = [
     {
         "id": 1000320,
         "thumbId": 1000320,
-        "name": "Chiaotzu",
+        "name": "Chaozu",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1000320_thumb.png",
         "type": "TEC",
         "rarity": "R",
@@ -31833,7 +31833,7 @@ const dokkanCharacters = [
     {
         "id": 1001220,
         "thumbId": 1001220,
-        "name": "Captain Ginyu",
+        "name": "Capitaine Ginyu",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1001220_thumb.png",
         "type": "INT",
         "rarity": "R",
@@ -31851,7 +31851,7 @@ const dokkanCharacters = [
     {
         "id": 1000370,
         "thumbId": 1000370,
-        "name": "Captain Ginyu",
+        "name": "Capitaine Ginyu",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1000370_thumb.png",
         "type": "PUI",
         "rarity": "R",
@@ -32061,7 +32061,7 @@ const dokkanCharacters = [
     {
         "id": 1001030,
         "thumbId": 1001030,
-        "name": "Mercenary Tao",
+        "name": "Tao Pai Pai",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1001030_thumb.png",
         "type": "AGI",
         "rarity": "R",
@@ -32079,7 +32079,7 @@ const dokkanCharacters = [
     {
         "id": 1000440,
         "thumbId": 1000440,
-        "name": "Mercenary Tao",
+        "name": "Tao Pai Pai",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1000440_thumb.png",
         "type": "INT",
         "rarity": "R",
@@ -32211,7 +32211,7 @@ const dokkanCharacters = [
     {
         "id": 1001300,
         "thumbId": 1001300,
-        "name": "Recoome",
+        "name": "Reacum",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1001300_thumb.png",
         "type": "PUI",
         "rarity": "R",
@@ -32229,7 +32229,7 @@ const dokkanCharacters = [
     {
         "id": 1000520,
         "thumbId": 1000520,
-        "name": "Recoome",
+        "name": "Reacum",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1000520_thumb.png",
         "type": "END",
         "rarity": "R",
@@ -32246,7 +32246,7 @@ const dokkanCharacters = [
     {
         "id": 1001670,
         "thumbId": 1001670,
-        "name": "Guldo",
+        "name": "Ghourd",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1001670_thumb.png",
         "type": "END",
         "rarity": "R",
@@ -32264,7 +32264,7 @@ const dokkanCharacters = [
     {
         "id": 1001310,
         "thumbId": 1001310,
-        "name": "Guldo",
+        "name": "Ghourd",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1001310_thumb.png",
         "type": "TEC",
         "rarity": "R",
@@ -32282,7 +32282,7 @@ const dokkanCharacters = [
     {
         "id": 1000530,
         "thumbId": 1000530,
-        "name": "Guldo",
+        "name": "Ghourd",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1000530_thumb.png",
         "type": "INT",
         "rarity": "R",
@@ -32300,7 +32300,7 @@ const dokkanCharacters = [
     {
         "id": 1001320,
         "thumbId": 1001320,
-        "name": "Burter",
+        "name": "Barta",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1001320_thumb.png",
         "type": "AGI",
         "rarity": "R",
@@ -32317,7 +32317,7 @@ const dokkanCharacters = [
     {
         "id": 1000540,
         "thumbId": 1000540,
-        "name": "Burter",
+        "name": "Barta",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1000540_thumb.png",
         "type": "AGI",
         "rarity": "R",
@@ -32334,7 +32334,7 @@ const dokkanCharacters = [
     {
         "id": 1001330,
         "thumbId": 1001330,
-        "name": "Jeice",
+        "name": "Jiece",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1001330_thumb.png",
         "type": "TEC",
         "rarity": "R",
@@ -32350,7 +32350,7 @@ const dokkanCharacters = [
     {
         "id": 1000550,
         "thumbId": 1000550,
-        "name": "Jeice",
+        "name": "Jiece",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1000550_thumb.png",
         "type": "PUI",
         "rarity": "R",
@@ -32448,7 +32448,7 @@ const dokkanCharacters = [
     {
         "id": 1000641,
         "thumbId": 1000640,
-        "name": "Hercule",
+        "name": "Mr. Satan",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1000640_thumb.png",
         "type": "INT",
         "rarity": "R",
@@ -32466,7 +32466,7 @@ const dokkanCharacters = [
     {
         "id": 1000580,
         "thumbId": 1000580,
-        "name": "Hercule",
+        "name": "Mr. Satan",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1000580_thumb.png",
         "type": "INT",
         "rarity": "R",
@@ -32967,7 +32967,7 @@ const dokkanCharacters = [
     {
         "id": 3000601,
         "thumbId": 1000790,
-        "name": "Frieza Soldier",
+        "name": "Freezer Soldier",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1000790_thumb.png",
         "type": "END",
         "rarity": "R",
@@ -32981,7 +32981,7 @@ const dokkanCharacters = [
     {
         "id": 3000591,
         "thumbId": 1000790,
-        "name": "Frieza Soldier",
+        "name": "Freezer Soldier",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1000790_thumb.png",
         "type": "PUI",
         "rarity": "R",
@@ -32995,7 +32995,7 @@ const dokkanCharacters = [
     {
         "id": 3000581,
         "thumbId": 1000790,
-        "name": "Frieza Soldier",
+        "name": "Freezer Soldier",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1000790_thumb.png",
         "type": "INT",
         "rarity": "R",
@@ -33009,7 +33009,7 @@ const dokkanCharacters = [
     {
         "id": 3000561,
         "thumbId": 1000790,
-        "name": "Frieza Soldier",
+        "name": "Freezer Soldier",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1000790_thumb.png",
         "type": "AGI",
         "rarity": "R",
@@ -33023,7 +33023,7 @@ const dokkanCharacters = [
     {
         "id": 1000791,
         "thumbId": 1000790,
-        "name": "Frieza Soldier",
+        "name": "Freezer Soldier",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1000790_thumb.png",
         "type": "TEC",
         "rarity": "R",
@@ -33192,7 +33192,7 @@ const dokkanCharacters = [
     {
         "id": 1002180,
         "thumbId": 1002180,
-        "name": "Krillin (Police Officer)",
+        "name": "Krilin (Police Officer)",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1002180_thumb.png",
         "type": "END",
         "rarity": "R",
@@ -33518,7 +33518,7 @@ const dokkanCharacters = [
     {
         "id": 1003060,
         "thumbId": 1003060,
-        "name": "Hercule (GT)",
+        "name": "Mr. Satan (GT)",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1003060_thumb.png",
         "type": "END",
         "rarity": "R",
@@ -33602,7 +33602,7 @@ const dokkanCharacters = [
     {
         "id": 1001900,
         "thumbId": 1001900,
-        "name": "Tien",
+        "name": "Tenshinhan",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1001900_thumb.png",
         "type": "PUI",
         "rarity": "N",
@@ -33617,7 +33617,7 @@ const dokkanCharacters = [
     {
         "id": 1001910,
         "thumbId": 1001910,
-        "name": "Chiaotzu",
+        "name": "Chaozu",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1001910_thumb.png",
         "type": "INT",
         "rarity": "N",
@@ -33647,7 +33647,7 @@ const dokkanCharacters = [
     {
         "id": 1000640,
         "thumbId": 1000640,
-        "name": "Hercule",
+        "name": "Mr. Satan",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1000640_thumb.png",
         "type": "INT",
         "rarity": "N",
@@ -33997,7 +33997,7 @@ const dokkanCharacters = [
     {
         "id": 3000600,
         "thumbId": 1000790,
-        "name": "Frieza Soldier",
+        "name": "Freezer Soldier",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1000790_thumb.png",
         "type": "END",
         "rarity": "N",
@@ -34011,7 +34011,7 @@ const dokkanCharacters = [
     {
         "id": 3000590,
         "thumbId": 1000790,
-        "name": "Frieza Soldier",
+        "name": "Freezer Soldier",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1000790_thumb.png",
         "type": "PUI",
         "rarity": "N",
@@ -34025,7 +34025,7 @@ const dokkanCharacters = [
     {
         "id": 3000580,
         "thumbId": 1000790,
-        "name": "Frieza Soldier",
+        "name": "Freezer Soldier",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1000790_thumb.png",
         "type": "INT",
         "rarity": "N",
@@ -34039,7 +34039,7 @@ const dokkanCharacters = [
     {
         "id": 3000560,
         "thumbId": 1000790,
-        "name": "Frieza Soldier",
+        "name": "Freezer Soldier",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1000790_thumb.png",
         "type": "AGI",
         "rarity": "N",
@@ -34053,7 +34053,7 @@ const dokkanCharacters = [
     {
         "id": 1000790,
         "thumbId": 1000790,
-        "name": "Frieza Soldier",
+        "name": "Freezer Soldier",
         "img": "https://cdn.dokkan.fyi/assets/en/character/thumb/card_1000790_thumb.png",
         "type": "TEC",
         "rarity": "N",

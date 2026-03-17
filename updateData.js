@@ -1,5 +1,44 @@
 const fs = require('fs');
 
+// 🌍 NOTRE DICTIONNAIRE DE TRADUCTION DOKKAN
+const dictionary = {
+    "Frieza": "Freezer",
+    "Tien": "Tenshinhan",
+    "Master Roshi": "Tortue Géniale",
+    "Hercule": "Mr. Satan",
+    "Buu": "Boo",
+    "Vegito": "Vegetto",
+    "Coora": "Cooler",
+    "Pikkon": "Paikuhan",
+    "Krillin": "Krilin",
+    "Chiaotzu": "Chaozu",
+    "Mercenary Tao": "Tao Pai Pai",
+    "Captain Ginyu": "Capitaine Ginyu",
+    "Burter": "Barta",
+    "Jeice": "Jiece",
+    "Guldo": "Ghourd",
+    "Recoome": "Reacum",
+    "Dabura": "Dabra",
+    "Syn Shenron": "Li Shenron",
+    "Demon King Piccolo": "Démon Piccolo",
+    "Grandpa Gohan": "Grand-père Gohan"
+};
+
+// Fonction qui scanne le nom et traduit les mots connus
+function translateName(name) {
+    if (!name) return "";
+    let translated = name;
+    
+    // On parcourt tout notre dictionnaire
+    for (const [english, french] of Object.entries(dictionary)) {
+        // Cette petite formule mathématique cherche le mot anglais exact dans le texte
+        const regex = new RegExp("\\b" + english + "\\b", "gi");
+        translated = translated.replace(regex, french);
+    }
+    
+    return translated;
+}
+
 console.log("⏳ Ajout des classes Super/Extrême...");
 
 try {
@@ -18,7 +57,7 @@ try {
         return {
             id: char.id,
             thumbId: char.thumbnail_id, // 🎯 NOUVEAU : On sauvegarde l'ID exact de l'image !
-            name: char.name,
+            name: translateName(char.name),
             img: imageUrl,
             type: typeTraduction[char.type] || "INCONNU",
             rarity: rarityTraduction[char.rarity] || "SSR", 
