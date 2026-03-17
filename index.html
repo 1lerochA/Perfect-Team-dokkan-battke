@@ -210,7 +210,6 @@
             document.getElementById('btn-all')
         ];
 
-        // ---- AUTOCOMPLETE ----
         leaderInput.addEventListener('input', e => {
             const q = e.target.value.toLowerCase().trim();
             if (q.length < 2) { suggestionsDiv.style.display = 'none'; return; }
@@ -239,7 +238,6 @@
             if (!e.target.closest('#search-section')) suggestionsDiv.style.display = 'none';
         });
 
-        // ---- SELECT LEADER ----
         window.selectLeader = function(id) {
             selectedLeader = dokkanCharacters.find(c => c.id === id);
             if (!selectedLeader) return;
@@ -257,7 +255,6 @@
             actionButtons.forEach(btn => btn.disabled = false);
         };
 
-        // ---- RESET ----
         window.resetLeader = function() {
             selectedLeader = null; generatedTeams = [];
             leaderInput.value = '';
@@ -267,10 +264,10 @@
             actionButtons.forEach(btn => btn.disabled = true);
         };
 
-        // ---- GENERATE TEAM ----
+
         window.generateTeam = function(useFullGame) {
             const resultsDiv = document.getElementById('team-results');
-            resultsDiv.innerHTML = '<h2 class="dokkan-font" style="color:#f39c12;text-align:center;margin-top:40px;">⚡ CALCUL DES 5 MEILLEURES ÉQUIPES EN COURS… ⚡</h2>';
+            resultsDiv.innerHTML = '<h2 class="dokkan-font" style="color:#f39c12;text-align:center;margin-top:40px;">⚡ CALCUL DES ÉQUIPES EN COURS… ⚡</h2>';
 
             const poolIds = useFullGame
                 ? dokkanCharacters.map(c => c.id)
@@ -281,51 +278,84 @@
                 return;
             }
 
-            // Extraction des catégories du Leader Skill (mots entre guillemets)
             const catRegex = /"([^"]+)"/g;
             const categoriesFound = [];
             let match;
             while ((match = catRegex.exec(selectedLeader.leaderSkill)) !== null) {
-                categoriesFound.push(match[1]);
+                if (!categoriesFound.includes(match[1])) categoriesFound.push(match[1]);
             }
 
-            // Ami Leader (le même par défaut)
             const friendLeader = selectedLeader;
-            const myBoxIds = JSON.parse(localStorage.getItem('dokkanBox')) || [];
-
-            // Pré-calcul des scores pour tous les candidats
-            const allCandidates = dokkanCharacters
-                .filter(c => poolIds.includes(c.id) && c.id !== selectedLeader.id)
-                .map(char => {
-                    let score = 0;
-                    const sharedLinks = (char.links || []).filter(l => (selectedLeader.links || []).includes(l));
-                    score += sharedLinks.length * 20; // Gros bonus liens avec leader
-
-                    if (char.alignment === selectedLeader.alignment) score += 30; // Bonus même alignement
-                    
-                    // Bonus si le nom contient un mot clé de catégorie
-                    categoriesFound.forEach(cat => {
-                        if (char.name.toLowerCase().includes(cat.toLowerCase())) score += 50;
-                        if (char.leaderSkill && char.leaderSkill.includes(cat)) score += 40;
-                    });
-
-                    return { ...char, baseScore: score, sharedLinksWithLeader: sharedLinks.length };
-                });
-
             generatedTeams = [];
 
-            // Génération de 5 équipes différentes
+            const teamConfigs = [];
+            
+            if (categoriesFound.length === 0) {
+                for(let i=0; i<5; i++) teamConfigs.push({ type: 'MIX', name: "TEAM " + selectedLeader.name.toUpperCase() });
+            
+            } else if (categoriesFound.length === 1) {
+                teamConfigs.push({ type: 'CAT', cat: categoriesFound[0], name: "TEAM " + categoriesFound[0].toUpperCase() });
+                teamConfigs.push({ type: 'CAT', cat: categoriesFound[0], name: "TEAM " + categoriesFound[0].toUpperCase() });
+                teamConfigs.push({ type: 'CAT', cat: categoriesFound[0], name: "TEAM " + categoriesFound[0].toUpperCase() });
+                teamConfigs.push({ type: 'MIX', name: "TEAM ALTERNATIVE" });
+                teamConfigs.push({ type: 'MIX', name: "TEAM FULL LIENS" });
+            
+            } else if (categoriesFound.length === 2) {
+                teamConfigs.push({ type: 'CAT', cat: categoriesFound[0], name: "TEAM " + categoriesFound[0].toUpperCase() });
+                teamConfigs.push({ type: 'CAT', cat: categoriesFound[0], name: "TEAM " + categoriesFound[0].toUpperCase() });
+                teamConfigs.push({ type: 'CAT', cat: categoriesFound[1], name: "TEAM " + categoriesFound[1].toUpperCase() });
+                teamConfigs.push({ type: 'CAT', cat: categoriesFound[1], name: "TEAM " + categoriesFound[1].toUpperCase() });
+                teamConfigs.push({ type: 'MIX', name: "TEAM HYBRIDE (MIX)" });
+            
+            } else {
+                teamConfigs.push({ type: 'CAT', cat: categoriesFound[0], name: "TEAM " + categoriesFound[0].toUpperCase() });
+                teamConfigs.push({ type: 'CAT', cat: categoriesFound[1], name: "TEAM " + categoriesFound[1].toUpperCase() });
+                teamConfigs.push({ type: 'CAT', cat: categoriesFound[2], name: "TEAM " + categoriesFound[2].toUpperCase() });
+                teamConfigs.push({ type: 'CAT', cat: categoriesFound[categoriesFound.length > 3 ? 3 : 0], name: "TEAM " + categoriesFound[categoriesFound.length > 3 ? 3 : 0].toUpperCase() });
+                teamConfigs.push({ type: 'MIX', name: "TEAM HYBRIDE (MIX)" });
+            }
+
             for (let i = 0; i < 5; i++) {
-                // On mélange un peu les scores pour la variété (sauf pour la première équipe)
-                const teamCandidates = [...allCandidates].map(c => ({
-                    ...c,
-                    finalScore: c.baseScore + (i === 0 ? 0 : Math.random() * 40)
-                })).sort((a, b) => b.finalScore - a.finalScore);
+                const config = teamConfigs[i];
+
+                let teamCandidates = dokkanCharacters
+                    .filter(c => poolIds.includes(c.id) && c.id !== selectedLeader.id)
+                    .map(char => {
+                        let score = 0;
+                        const sharedLinks = (char.links || []).filter(l => (selectedLeader.links || []).includes(l));
+                        score += sharedLinks.length * 20;
+
+                        if (char.alignment === selectedLeader.alignment) score += 30;
+                        if (char.type === selectedLeader.type) score += 10;
+                        
+                        if (config.type === 'CAT') {
+                            if (char.name.toLowerCase().includes(config.cat.toLowerCase())) score += 80;
+                            if (char.leaderSkill && char.leaderSkill.includes(config.cat)) score += 60;
+                            
+                            categoriesFound.forEach(c => {
+                                if(c !== config.cat) {
+                                   if (char.name.toLowerCase().includes(c.toLowerCase())) score += 15;
+                                   if (char.leaderSkill && char.leaderSkill.includes(c)) score += 10;
+                                }
+                            });
+                        } else {
+                            categoriesFound.forEach(c => {
+                                if (char.name.toLowerCase().includes(c.toLowerCase())) score += 35;
+                                if (char.leaderSkill && char.leaderSkill.includes(c)) score += 25;
+                            });
+                            score += sharedLinks.length * 15; 
+                        }
+
+                        const rngBonus = (i === 1 || i === 3 || config.type === 'MIX') ? Math.random() * 90 : Math.random() * 20;
+
+                        return { ...char, finalScore: score + rngBonus, sharedLinksWithLeader: sharedLinks.length };
+                    });
+
+                teamCandidates.sort((a, b) => b.finalScore - a.finalScore);
 
                 const members = [];
                 const usedIds = new Set([selectedLeader.id]);
 
-                // On prend les 5 meilleurs uniques
                 for (let c of teamCandidates) {
                     if (members.length < 5 && !usedIds.has(c.id)) {
                         members.push(c);
@@ -335,6 +365,7 @@
 
                 generatedTeams.push({
                     id: Date.now() + i,
+                    teamName: config.name, 
                     leader: selectedLeader,
                     friend: friendLeader,
                     members: members,
@@ -344,6 +375,15 @@
             }
 
             renderGeneratedTeams();
+        };
+
+        window.toggleDetails = function(teamId) {
+            const detailsDiv = document.getElementById('details-' + teamId);
+            if (detailsDiv.style.display === 'none') {
+                detailsDiv.style.display = 'block';
+            } else {
+                detailsDiv.style.display = 'none';
+            }
         };
 
         function renderGeneratedTeams() {
@@ -363,29 +403,28 @@
                 headerBar.className = 'team-header-bar';
                 headerBar.innerHTML = `
                     <h2 class="dokkan-font" style="color:var(--accent-gold);margin:0;font-size:2rem;">
-                        ÉQUIPE #${tIndex + 1}
+                        ${team.teamName} <span style="font-size:1.2rem;color:#888;">(Option #${tIndex + 1})</span>
                     </h2>
-                    <button class="btn-action btn-like" onclick="likeTeam(${tIndex})">❤️ SAUVEGARDER CETTE ÉQUIPE</button>`;
+                    <div style="display:flex; gap:10px;">
+                        <button class="btn-action btn-reset" onclick="toggleDetails(${team.id})">👁️ Détails</button>
+                        <button class="btn-action btn-like" onclick="likeTeam(${tIndex})">❤️ SAUVEGARDER</button>
+                    </div>`;
                 teamSection.appendChild(headerBar);
 
-                // Ligne des 7 personnages (Leader, 5 membres, Ami)
                 const unitsRow = document.createElement('div');
                 unitsRow.style.display = 'flex';
                 unitsRow.style.gap = '10px';
                 unitsRow.style.flexWrap = 'wrap';
                 unitsRow.style.justifyContent = 'center';
-                unitsRow.style.marginBottom = '30px';
 
                 const myBoxIds = JSON.parse(localStorage.getItem('dokkanBox')) || [];
 
-                // 1. Leader
                 unitsRow.innerHTML += `
                     <div style="display:flex;flex-direction:column;align-items:center;gap:5px;">
                         ${createDokkanCard(team.leader, { isInBox: myBoxIds.includes(team.leader.id) })}
                         <span style="font-size:0.7rem;color:var(--accent-gold);font-weight:900;">LEADER</span>
                     </div>`;
 
-                // 2. Members
                 team.members.forEach(m => {
                     unitsRow.innerHTML += `
                         <div style="display:flex;flex-direction:column;align-items:center;gap:5px;">
@@ -394,7 +433,6 @@
                         </div>`;
                 });
 
-                // 3. Ami Leader
                 unitsRow.innerHTML += `
                     <div style="display:flex;flex-direction:column;align-items:center;gap:5px;">
                         ${createDokkanCard(team.friend, { isFriend: true, isInBox: myBoxIds.includes(team.friend.id) })}
@@ -403,13 +441,18 @@
 
                 teamSection.appendChild(unitsRow);
 
-                // Détails des synergies
                 const detailsList = document.createElement('div');
+                detailsList.id = 'details-' + team.id; 
+                detailsList.style.display = 'none';
+                detailsList.style.marginTop = '20px';
+                detailsList.style.borderTop = '1px solid rgba(255,255,255,0.1)';
+                detailsList.style.paddingTop = '15px';
+
                 team.members.forEach(m => {
                     const row = document.createElement('div');
                     row.className = 'member-row';
                     row.style.padding = '8px 15px';
-                    row.style.marginBbottom = '8px';
+                    row.style.marginBottom = '8px';
 
                     const wrap = document.createElement('div');
                     wrap.className = 'member-card-wrap';
@@ -425,18 +468,16 @@
                         <h3 style="font-size:1.1rem;margin:0;">${m.name}</h3>
                         <div class="synergy-pills">
                             <span class="pill">🔗 ${m.sharedLinksWithLeader} Liens avec Leader</span>
-                            <span class="pill score">Score : ${Math.floor(m.finalScore)} pts</span>
+                            <span class="pill score">Score de Synergie : ${Math.floor(m.finalScore)} pts</span>
                         </div>`;
                     row.appendChild(details);
                     detailsList.appendChild(row);
-                });
+                });                
                 teamSection.appendChild(detailsList);
-
                 resultsDiv.appendChild(teamSection);
             });
         };
 
-        // ---- SAVE TEAM ----
         window.likeTeam = function(index) {
             const lastGeneratedTeam = generatedTeams[index];
             if (!lastGeneratedTeam) return;

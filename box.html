@@ -139,12 +139,10 @@
                 const char = dokkanCharacters.find(c => c.id === id);
                 const isInBox = maBoxIds.includes(id);
                 
-                // On crée une nouvelle carte avec le bon état (pour avoir le badge BOX)
                 const tempDiv = document.createElement('div');
                 tempDiv.innerHTML = createDokkanCard(char, { isInBox });
                 const newCard = tempDiv.firstElementChild;
                 
-                // On remplace l'ancienne par la nouvelle
                 oldCard.parentNode.replaceChild(newCard, oldCard);
                 updateStats();
             }

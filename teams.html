@@ -7,7 +7,6 @@
     <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Nunito:wght@400;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
     <style>
-        /* ============ TEAM CARD ============ */
         .team-card {
             background: rgba(255,255,255,0.04);
             border: 1px solid rgba(255,255,255,0.1);
@@ -127,7 +126,6 @@
         .btn-save-name { background: rgba(52,152,219,0.7); }
         .btn-save-name:hover { background: #3498db; }
 
-        /* ============ UNIT PICKER MODAL ============ */
         .modal-overlay {
             display: none;
             position: fixed;
@@ -176,7 +174,6 @@
         }
         .close-modal:hover { opacity: 1; transform: rotate(90deg); }
 
-        /* ============ CREATE TEAM BUTTON ============ */
         .btn-create-team {
             background: linear-gradient(135deg, #f39c12, #e67e22);
             border: none;
@@ -223,16 +220,12 @@
         <h1 class="dokkan-font" style="font-size:3.5rem;color:var(--accent-gold);text-shadow:3px 3px 0 #000;">MES ÉQUIPES</h1>
         <p style="color:#888;font-style:italic;margin-bottom:40px;">Retrouve tes équipes sauvegardées et crée les tiennes.</p>
 
-        <!-- CREATE CUSTOM TEAM -->
         <button class="btn-create-team" onclick="createCustomTeam()">➕ CRÉER UNE NOUVELLE ÉQUIPE</button>
 
-        <!-- TEAMS LIST -->
         <div id="teams-container">
-            <!-- Injected by JS -->
         </div>
     </div>
 
-    <!-- UNIT PICKER MODAL -->
     <div id="modal" class="modal-overlay">
         <div class="modal-box">
             <button class="close-modal" onclick="closeModal()">✕</button>
@@ -245,17 +238,14 @@
     <script src="data.js"></script>
     <script src="cards.js?v=999"></script>
     <script>
-        // ============ STATE ============
         let savedTeams = JSON.parse(localStorage.getItem('dokkanSavedTeams')) || [];
         let modalTargetTeamId = null;
         let modalSearchQuery = '';
 
-        // ============ PERSIST ============
         function persist() {
             localStorage.setItem('dokkanSavedTeams', JSON.stringify(savedTeams));
         }
 
-        // ============ RENDER ALL TEAMS ============
         function renderTeams() {
             const container = document.getElementById('teams-container');
             container.innerHTML = '';
@@ -281,13 +271,11 @@
             });
         }
 
-        // ============ BUILD A TEAM CARD ============
         function buildTeamCard(team) {
             const card = document.createElement('div');
             card.className = 'team-card';
             card.id = 'team-card-' + team.id;
 
-            // Header
             const header = document.createElement('div');
             header.className = 'team-card-header';
             header.innerHTML = `
@@ -301,14 +289,12 @@
                 </div>`;
             card.appendChild(header);
 
-            // Units row
             const row = document.createElement('div');
             row.className = 'team-units-row';
             row.id = 'units-row-' + team.id;
             renderUnitsRow(row, team);
             card.appendChild(row);
 
-            // Actions
             const actions = document.createElement('div');
             actions.className = 'team-actions';
             actions.innerHTML = `
@@ -318,7 +304,6 @@
             return card;
         }
 
-        // ============ RENDER UNITS IN A ROW ============
         function renderUnitsRow(rowEl, team) {
             rowEl.innerHTML = '';
 
@@ -335,7 +320,6 @@
                 const tmp = document.createElement('div');
                 tmp.innerHTML = createDokkanCard(char, { isInBox: myBoxIds.includes(char.id) });
                 const cardEl = tmp.firstElementChild;
-                // Disable click on units inside team view
                 cardEl.onclick = null;
                 cardEl.style.cursor = 'default';
                 wrapper.appendChild(cardEl);
@@ -355,7 +339,6 @@
                 rowEl.appendChild(wrapper);
             });
 
-            // Add slot (max 7 = 1 leader + 6 members)
             if (allIds.length < 7) {
                 const slot = document.createElement('div');
                 slot.className = 'add-unit-slot';
@@ -366,7 +349,6 @@
             }
         }
 
-        // ============ TEAM ACTIONS ============
         function renameTeam(teamId, newName) {
             const team = savedTeams.find(t => t.id === teamId);
             if (team) { team.name = newName; persist(); }
@@ -388,7 +370,6 @@
                 team.memberIds = (team.memberIds || []).filter(id => id !== charId);
             }
             persist();
-            // Re-render just the units row
             const rowEl = document.getElementById('units-row-' + teamId);
             if (rowEl) renderUnitsRow(rowEl, team);
         }
@@ -405,11 +386,9 @@
             savedTeams.unshift(newTeam);
             persist();
             renderTeams();
-            // Scroll to top
             window.scrollTo({ top: 0, behavior: 'smooth' });
         }
 
-        // ============ MODAL ============
         function openModal(teamId) {
             modalTargetTeamId = teamId;
             modalSearchQuery = '';
@@ -429,12 +408,10 @@
 
             const myBoxIds = JSON.parse(localStorage.getItem('dokkanBox')) || [];
 
-            // Show box units first, then all, filter by search
             let pool = query.length > 1
                 ? dokkanCharacters.filter(c => c.name.toLowerCase().includes(query.toLowerCase()))
                 : dokkanCharacters.filter(c => myBoxIds.includes(c.id));
 
-            // If box empty and no search, show all
             if (pool.length === 0 && query.length <= 1) pool = dokkanCharacters;
 
             pool = pool.slice(0, 50);
@@ -466,7 +443,6 @@
             const team = savedTeams.find(t => t.id === modalTargetTeamId);
             if (!team) return;
 
-            // If no leader yet, set as leader
             if (!team.leaderId) {
                 team.leaderId = charId;
             } else if ((team.memberIds || []).length < 6) {
@@ -482,7 +458,6 @@
             if (rowEl) renderUnitsRow(rowEl, team);
         }
 
-        // ============ UTILS ============
         function escapeHtml(str) {
             return String(str)
                 .replace(/&/g, '&amp;')
@@ -491,10 +466,8 @@
                 .replace(/"/g, '&quot;');
         }
 
-        // Disable card clicks globally on this page (handled per-card)
         window.handleUnitClick = function() {};
 
-        // ============ INIT ============
         renderTeams();
     </script>
 </body>

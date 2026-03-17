@@ -1,6 +1,5 @@
 const fs = require('fs');
 
-// 🌍 NOTRE DICTIONNAIRE DE TRADUCTION DOKKAN
 const dictionary = {
     "Frieza": "Freezer",
     "Tien": "Tenshinhan",
@@ -24,14 +23,12 @@ const dictionary = {
     "Grandpa Gohan": "Grand-père Gohan"
 };
 
-// Fonction qui scanne le nom et traduit les mots connus
+
 function translateName(name) {
     if (!name) return "";
     let translated = name;
     
-    // On parcourt tout notre dictionnaire
     for (const [english, french] of Object.entries(dictionary)) {
-        // Cette petite formule mathématique cherche le mot anglais exact dans le texte
         const regex = new RegExp("\\b" + english + "\\b", "gi");
         translated = translated.replace(regex, french);
     }
@@ -56,7 +53,7 @@ try {
 
         return {
             id: char.id,
-            thumbId: char.thumbnail_id, // 🎯 NOUVEAU : On sauvegarde l'ID exact de l'image !
+            thumbId: char.thumbnail_id, 
             name: translateName(char.name),
             img: imageUrl,
             type: typeTraduction[char.type] || "INCONNU",

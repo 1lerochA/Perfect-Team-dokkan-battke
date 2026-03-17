@@ -28,7 +28,6 @@ body {
 
 h1, h2, .dokkan-font { font-family: 'Bangers', cursive; letter-spacing: 2px; }
 
-/* --- Navigation --- */
 nav {
     display: flex;
     justify-content: center;
@@ -60,10 +59,8 @@ nav a.active, nav a:hover {
     box-shadow: 0 0 15px var(--accent-gold);
 }
 
-/* --- Container --- */
 .container { max-width: 1200px; margin: 40px auto; padding: 0 20px; }
 
-/* --- Search & Filters --- */
 .controls {
     background: rgba(255,255,255,0.05);
     padding: 25px;
@@ -90,10 +87,6 @@ nav a.active, nav a:hover {
     box-shadow: 0 0 10px rgba(52,152,219,0.5);
 }
 
-/* ============================================================
-   DOKKAN CARD — Authentic game-inspired frames
-   ============================================================ */
-
 .dokkan-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(90px, 1fr));
@@ -101,7 +94,6 @@ nav a.active, nav a:hover {
     justify-items: center;
 }
 
-/* Base card */
 .unit-card {
     position: relative;
     width: 90px;
@@ -110,13 +102,11 @@ nav a.active, nav a:hover {
     cursor: pointer;
     transition: transform 0.2s ease, box-shadow 0.2s ease;
     user-select: none;
-    /* On enlève le fond noir pour que l'image soit la seule chose visible */
     background: transparent;
 }
 
 .unit-card:hover { transform: scale(1.12); z-index: 10; }
 
-/* Image fills the entire card square */
 .unit-img {
     position: absolute;
     inset: 0;
@@ -126,11 +116,9 @@ nav a.active, nav a:hover {
     object-position: center top;
     border-radius: 5px;
     display: block;
-    /* On s'assure que l'image est bien au-dessus de tout fond éventuel */
     background: transparent;
 }
 
-/* Frame overlay — gives the colored border effect */
 .card-frame {
     position: absolute;
     inset: 0;
@@ -139,24 +127,20 @@ nav a.active, nav a:hover {
     z-index: 2;
 }
 
-/* Default frame borders by type */
 .frame-agi { box-shadow: inset 0 0 0 3px #2980b9, inset 0 0 0 5px #0d2d4a; }
 .frame-tec { box-shadow: inset 0 0 0 3px #27ae60, inset 0 0 0 5px #0d3d20; }
 .frame-int { box-shadow: inset 0 0 0 3px #8e44ad, inset 0 0 0 5px #3a0d5a; }
 .frame-pui { box-shadow: inset 0 0 0 3px #c0392b, inset 0 0 0 5px #4a0d0d; }
 .frame-end { box-shadow: inset 0 0 0 3px #e67e22, inset 0 0 0 5px #5a2800; }
 
-/* UR frames: stronger border + glow */
 .unit-card.rarity-ur .card-frame.frame-agi { box-shadow: inset 0 0 0 3px #5dade2, inset 0 0 0 6px #2980b9, 0 0 10px rgba(52,152,219,0.5); }
 .unit-card.rarity-ur .card-frame.frame-tec { box-shadow: inset 0 0 0 3px #58d68d, inset 0 0 0 6px #27ae60, 0 0 10px rgba(46,204,113,0.5); }
 .unit-card.rarity-ur .card-frame.frame-int { box-shadow: inset 0 0 0 3px #bb8fce, inset 0 0 0 6px #8e44ad, 0 0 10px rgba(155,89,182,0.5); }
 .unit-card.rarity-ur .card-frame.frame-pui { box-shadow: inset 0 0 0 3px #ec7063, inset 0 0 0 6px #c0392b, 0 0 10px rgba(231,76,60,0.5); }
 .unit-card.rarity-ur .card-frame.frame-end { box-shadow: inset 0 0 0 3px #f0b27a, inset 0 0 0 6px #e67e22, 0 0 10px rgba(230,126,34,0.5); }
 
-/* Make all LR card children sit above the ::after mask */
 .unit-card.lr-frame > * { position: relative; z-index: 3; }
 
-/* ---- RARITY BADGE (bottom-left) ---- */
 .rarity-badge {
     position: absolute;
     bottom: -5px;
@@ -175,7 +159,6 @@ nav a.active, nav a:hover {
     line-height: 1.4;
 }
 
-/* LR badge — animated gold shine */
 .rarity-badge.rarity-lr {
     background: linear-gradient(135deg, #7a4e00, #ffd700, #b8860b, #ff8c00, #ffd700);
     background-size: 300% 300%;
@@ -192,7 +175,6 @@ nav a.active, nav a:hover {
     100% { background-position: 0% 50%; }
 }
 
-/* UR badge — multicolor text (Dokkan Essential effect) */
 .rarity-badge.rarity-ur { padding: 1px 8px; }
 .rarity-ur-text {
     background: linear-gradient(to bottom, #fff 0%, #fff 20%, #f1c40f 45%, #e67e22 65%, #e74c3c 100%);
@@ -204,20 +186,17 @@ nav a.active, nav a:hover {
     font-size: 15px;
 }
 
-/* UR badge backgrounds by type */
 .rarity-ur.badge-pui { background: linear-gradient(180deg, #c0392b, #6b1010); }
 .rarity-ur.badge-agi { background: linear-gradient(180deg, #2980b9, #0d2d4a); }
 .rarity-ur.badge-tec { background: linear-gradient(180deg, #27ae60, #0d3d20); }
 .rarity-ur.badge-int { background: linear-gradient(180deg, #8e44ad, #3a0d5a); }
 .rarity-ur.badge-end { background: linear-gradient(180deg, #e67e22, #5a2800); }
 
-/* SSR badge */
 .rarity-badge.rarity-ssr { background: linear-gradient(180deg, #b8860b, #7a5900); border-color: #f1c40f; }
 .rarity-badge.rarity-sr  { background: #555; border-color: #888; }
 .rarity-badge.rarity-r   { background: #333; border-color: #666; }
 .rarity-badge.rarity-n   { background: #222; border-color: #555; }
 
-/* ---- TYPE BADGE (top-right) ---- */
 .type-badge {
     position: absolute;
     top: -8px;
@@ -241,14 +220,12 @@ nav a.active, nav a:hover {
 .class-text { font-size: 7px; font-weight: 900; text-transform: uppercase; line-height: 1; letter-spacing: -0.5px; }
 .type-text  { font-size: 8.5px; font-weight: 900; line-height: 1; }
 
-/* Type gradient circles */
 .bg-agi { background: radial-gradient(circle at 40% 35%, #5dade2, #2980b9 60%, #1a5a8a); }
 .bg-tec { background: radial-gradient(circle at 40% 35%, #58d68d, #27ae60 60%, #145c33); }
 .bg-int { background: radial-gradient(circle at 40% 35%, #bb8fce, #8e44ad 60%, #4a1a6b); }
 .bg-pui { background: radial-gradient(circle at 40% 35%, #ec7063, #c0392b 60%, #6b1010); }
 .bg-end { background: radial-gradient(circle at 40% 35%, #f0b27a, #e67e22 60%, #7a3a00); }
 
-/* ---- CARD NAME (optional) ---- */
 .card-name {
     position: absolute;
     bottom: -20px;
@@ -265,9 +242,6 @@ nav a.active, nav a:hover {
     z-index: 4;
 }
 
-/* ============================================================
-   FILTER BUTTONS
-   ============================================================ */
 .filter-group {
     display: flex;
     gap: 10px;
@@ -294,7 +268,6 @@ nav a.active, nav a:hover {
     box-shadow: 0 4px 10px rgba(0,0,0,0.5);
     outline: 2px solid white;
 }
-/* ============ TEAM SPECIAL BADGES ============ */
 .friend-banner {
     position: absolute;
     top: 50%;
