@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mes Équipes - Dokkan Pro</title>
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Nunito:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* ============ TEAM CARD ============ */
+        .team-card {
+            background: rgba(255,255,255,0.04);
+            border: 1px solid rgba(255,255,255,0.1);
+            border-radius: 16px;
+            padding: 20px;
+            margin-bottom: 20px;
+            transition: 0.3s;
+            position: relative;
+        }
+        .team-card:hover { background: rgba(255,255,255,0.07); border-color: rgba(255,255,255,0.2); }
+
+        .team-card-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin-bottom: 16px;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .team-title-input {
+            background: transparent;
+            border: none;
+            border-bottom: 2px solid rgba(255,255,255,0.2);
+            color: var(--accent-gold);
+            font-family: 'Bangers', cursive;
+            font-size: 1.8rem;
+            letter-spacing: 2px;
+            outline: none;
+            transition: 0.2s;
+            min-width: 200px;
+            width: 100%;
+            max-width: 500px;
+        }
+        .team-title-input:focus { border-bottom-color: var(--accent-gold); }
+
+        .team-meta { font-size: 0.8rem; color: #888; margin-top: 4px; }
+
+        .team-units-row {
+            display: flex;
+            gap: 14px;
+            flex-wrap: wrap;
+            align-items: flex-start;
+        }
+
+        .team-unit-wrapper {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 4px;
+        }
+
+        .team-unit-wrapper .unit-label {
+            font-size: 8px;
+            color: #888;
+            text-align: center;
+            max-width: 90px;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+        }
+
+        .remove-unit-btn {
+            background: rgba(231,76,60,0.7);
+            border: none;
+            color: white;
+            font-size: 10px;
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: 0.2s;
+        }
+        .remove-unit-btn:hover { background: #e74c3c; transform: scale(1.1); }
+
+        .add-unit-slot {
+            width: 90px;
+            height: 90px;
+            border: 2px dashed rgba(255,255,255,0.2);
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            transition: 0.2s;
+            font-size: 1.8rem;
+            color: rgba(255,255,255,0.2);
+            flex-shrink: 0;
+        }
+        .add-unit-slot:hover { border-color: var(--accent-gold); color: var(--accent-gold); background: rgba(243,156,18,0.05); }
+
+        .team-actions {
+            display: flex;
+            gap: 10px;
+            margin-top: 14px;
+            flex-wrap: wrap;
+        }
+
+        .btn-sm {
+            padding: 8px 16px;
+            font-size: 0.85rem;
+            font-family: 'Bangers', cursive;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: 0.2s;
+            color: white;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+        }
+        .btn-sm:hover { transform: translateY(-2px); }
+        .btn-delete { background: rgba(231,76,60,0.7); }
+        .btn-delete:hover { background: #e74c3c; }
+        .btn-save-name { background: rgba(52,152,219,0.7); }
+        .btn-save-name:hover { background: #3498db; }
+
+        /* ============ UNIT PICKER MODAL ============ */
+        .modal-overlay {
+            display: none;
+            position: fixed;
+            inset: 0;
+            background: rgba(0,0,0,0.85);
+            z-index: 2000;
+            backdrop-filter: blur(4px);
+            justify-content: center;
+            align-items: flex-start;
+            padding: 40px 20px;
+        }
+        .modal-overlay.open { display: flex; }
+
+        .modal-box {
+            background: #111820;
+            border: 2px solid var(--accent-gold);
+            border-radius: 20px;
+            padding: 30px;
+            max-width: 700px;
+            width: 100%;
+            max-height: 80vh;
+            overflow-y: auto;
+            position: relative;
+        }
+
+        .modal-box h2 { margin-top: 0; color: var(--accent-gold); font-family: 'Bangers', cursive; font-size: 2rem; letter-spacing: 2px; }
+
+        .modal-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(90px, 1fr));
+            gap: 16px;
+            margin-top: 20px;
+        }
+
+        .close-modal {
+            position: absolute;
+            top: 15px;
+            right: 20px;
+            background: none;
+            border: none;
+            color: #fff;
+            font-size: 1.8rem;
+            cursor: pointer;
+            opacity: 0.7;
+            transition: 0.2s;
+        }
+        .close-modal:hover { opacity: 1; transform: rotate(90deg); }
+
+        /* ============ CREATE TEAM BUTTON ============ */
+        .btn-create-team {
+            background: linear-gradient(135deg, #f39c12, #e67e22);
+            border: none;
+            color: #000;
+            font-family: 'Bangers', cursive;
+            font-size: 1.5rem;
+            letter-spacing: 2px;
+            padding: 18px 40px;
+            border-radius: 12px;
+            cursor: pointer;
+            transition: 0.3s;
+            box-shadow: 0 4px 20px rgba(243,156,18,0.4);
+            text-transform: uppercase;
+            display: block;
+            margin: 0 auto 40px auto;
+        }
+        .btn-create-team:hover { transform: translateY(-4px); box-shadow: 0 8px 30px rgba(243,156,18,0.6); }
+
+        .empty-state {
+            text-align: center;
+            padding: 60px 20px;
+            color: #555;
+        }
+        .empty-state .icon { font-size: 4rem; margin-bottom: 15px; }
+        .empty-state p { font-size: 1.1rem; line-height: 1.7; }
+
+        .section-divider {
+            border: none;
+            border-top: 1px solid rgba(255,255,255,0.08);
+            margin: 40px 0;
+        }
+
+        .saved-count { color: #888; font-size: 0.9rem; margin-bottom: 20px; }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="index.html">🔮 Générateur</a>
+        <a href="box.html">🎒 Ma Box</a>
+        <a href="teams.html" class="active">⭐ Mes Équipes</a>
+    </nav>
+
+    <div class="container">
+        <h1 class="dokkan-font" style="font-size:3.5rem;color:var(--accent-gold);text-shadow:3px 3px 0 #000;">MES ÉQUIPES</h1>
+        <p style="color:#888;font-style:italic;margin-bottom:40px;">Retrouve tes équipes sauvegardées et crée les tiennes.</p>
+
+        <!-- CREATE CUSTOM TEAM -->
+        <button class="btn-create-team" onclick="createCustomTeam()">➕ CRÉER UNE NOUVELLE ÉQUIPE</button>
+
+        <!-- TEAMS LIST -->
+        <div id="teams-container">
+            <!-- Injected by JS -->
+        </div>
+    </div>
+
+    <!-- UNIT PICKER MODAL -->
+    <div id="modal" class="modal-overlay">
+        <div class="modal-box">
+            <button class="close-modal" onclick="closeModal()">✕</button>
+            <h2>CHOISIR UNE UNITÉ</h2>
+            <input type="text" id="modal-search" class="search-bar" placeholder="🔍 Rechercher..." style="margin-bottom:0;">
+            <div id="modal-grid" class="modal-grid"></div>
+        </div>
+    </div>
+
+    <script src="data.js"></script>
+    <script src="cards.js"></script>
+    <script>
+        // ============ STATE ============
+        let savedTeams = JSON.parse(localStorage.getItem('dokkanSavedTeams')) || [];
+        let modalTargetTeamId = null;
+        let modalSearchQuery = '';
+
+        // ============ PERSIST ============
+        function persist() {
+            localStorage.setItem('dokkanSavedTeams', JSON.stringify(savedTeams));
+        }
+
+        // ============ RENDER ALL TEAMS ============
+        function renderTeams() {
+            const container = document.getElementById('teams-container');
+            container.innerHTML = '';
+
+            if (savedTeams.length === 0) {
+                container.innerHTML = `
+                    <div class="empty-state">
+                        <div class="icon">🐉</div>
+                        <p>Aucune équipe sauvegardée pour l'instant.<br>
+                        Génère une équipe depuis le <a href="index.html" style="color:var(--accent-gold)">Générateur</a>
+                        et clique ❤️ pour la sauvegarder,<br>ou crée-en une manuellement ci-dessus !</p>
+                    </div>`;
+                return;
+            }
+
+            const countEl = document.createElement('p');
+            countEl.className = 'saved-count';
+            countEl.textContent = savedTeams.length + ' équipe(s) sauvegardée(s)';
+            container.appendChild(countEl);
+
+            savedTeams.forEach(team => {
+                container.appendChild(buildTeamCard(team));
+            });
+        }
+
+        // ============ BUILD A TEAM CARD ============
+        function buildTeamCard(team) {
+            const card = document.createElement('div');
+            card.className = 'team-card';
+            card.id = 'team-card-' + team.id;
+
+            // Header
+            const header = document.createElement('div');
+            header.className = 'team-card-header';
+            header.innerHTML = `
+                <div style="flex:1;min-width:200px;">
+                    <input class="team-title-input" value="${escapeHtml(team.name)}"
+                           onchange="renameTeam(${team.id}, this.value)" />
+                    <div class="team-meta">
+                        ${team.source ? '🔮 ' + team.source + ' · ' : ''}
+                        📅 ${team.date || ''}
+                    </div>
+                </div>`;
+            card.appendChild(header);
+
+            // Units row
+            const row = document.createElement('div');
+            row.className = 'team-units-row';
+            row.id = 'units-row-' + team.id;
+            renderUnitsRow(row, team);
+            card.appendChild(row);
+
+            // Actions
+            const actions = document.createElement('div');
+            actions.className = 'team-actions';
+            actions.innerHTML = `
+                <button class="btn-sm btn-delete" onclick="deleteTeam(${team.id})">🗑️ Supprimer</button>`;
+            card.appendChild(actions);
+
+            return card;
+        }
+
+        // ============ RENDER UNITS IN A ROW ============
+        function renderUnitsRow(rowEl, team) {
+            rowEl.innerHTML = '';
+
+            const myBoxIds = JSON.parse(localStorage.getItem('dokkanBox')) || [];
+            const allIds = [team.leaderId, ...(team.memberIds || [])].filter(Boolean);
+
+            allIds.forEach((charId, index) => {
+                const char = dokkanCharacters.find(c => c.id === charId);
+                if (!char) return;
+
+                const wrapper = document.createElement('div');
+                wrapper.className = 'team-unit-wrapper';
+
+                const tmp = document.createElement('div');
+                tmp.innerHTML = createDokkanCard(char, { isInBox: myBoxIds.includes(char.id) });
+                const cardEl = tmp.firstElementChild;
+                // Disable click on units inside team view
+                cardEl.onclick = null;
+                cardEl.style.cursor = 'default';
+                wrapper.appendChild(cardEl);
+
+                const label = document.createElement('div');
+                label.className = 'unit-label';
+                label.textContent = index === 0 ? '⭐ Leader' : char.name;
+                wrapper.appendChild(label);
+
+                const removeBtn = document.createElement('button');
+                removeBtn.className = 'remove-unit-btn';
+                removeBtn.title = 'Retirer';
+                removeBtn.textContent = '✕';
+                removeBtn.onclick = () => removeUnitFromTeam(team.id, charId, index === 0);
+                wrapper.appendChild(removeBtn);
+
+                rowEl.appendChild(wrapper);
+            });
+
+            // Add slot (max 7 = 1 leader + 6 members)
+            if (allIds.length < 7) {
+                const slot = document.createElement('div');
+                slot.className = 'add-unit-slot';
+                slot.title = 'Ajouter une unité';
+                slot.textContent = '+';
+                slot.onclick = () => openModal(team.id);
+                rowEl.appendChild(slot);
+            }
+        }
+
+        // ============ TEAM ACTIONS ============
+        function renameTeam(teamId, newName) {
+            const team = savedTeams.find(t => t.id === teamId);
+            if (team) { team.name = newName; persist(); }
+        }
+
+        function deleteTeam(teamId) {
+            if (!confirm('Supprimer cette équipe ?')) return;
+            savedTeams = savedTeams.filter(t => t.id !== teamId);
+            persist();
+            renderTeams();
+        }
+
+        function removeUnitFromTeam(teamId, charId, isLeader) {
+            const team = savedTeams.find(t => t.id === teamId);
+            if (!team) return;
+            if (isLeader) {
+                team.leaderId = null;
+            } else {
+                team.memberIds = (team.memberIds || []).filter(id => id !== charId);
+            }
+            persist();
+            // Re-render just the units row
+            const rowEl = document.getElementById('units-row-' + teamId);
+            if (rowEl) renderUnitsRow(rowEl, team);
+        }
+
+        function createCustomTeam() {
+            const newTeam = {
+                id: Date.now(),
+                name: 'Ma nouvelle équipe',
+                leaderId: null,
+                memberIds: [],
+                source: 'Personnalisée',
+                date: new Date().toLocaleDateString('fr-FR')
+            };
+            savedTeams.unshift(newTeam);
+            persist();
+            renderTeams();
+            // Scroll to top
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+
+        // ============ MODAL ============
+        function openModal(teamId) {
+            modalTargetTeamId = teamId;
+            modalSearchQuery = '';
+            document.getElementById('modal-search').value = '';
+            document.getElementById('modal').classList.add('open');
+            renderModalGrid('');
+        }
+
+        function closeModal() {
+            document.getElementById('modal').classList.remove('open');
+            modalTargetTeamId = null;
+        }
+
+        function renderModalGrid(query) {
+            const gridEl = document.getElementById('modal-grid');
+            gridEl.innerHTML = '';
+
+            const myBoxIds = JSON.parse(localStorage.getItem('dokkanBox')) || [];
+
+            // Show box units first, then all, filter by search
+            let pool = query.length > 1
+                ? dokkanCharacters.filter(c => c.name.toLowerCase().includes(query.toLowerCase()))
+                : dokkanCharacters.filter(c => myBoxIds.includes(c.id));
+
+            // If box empty and no search, show all
+            if (pool.length === 0 && query.length <= 1) pool = dokkanCharacters;
+
+            pool = pool.slice(0, 50);
+
+            pool.forEach(char => {
+                const tmp = document.createElement('div');
+                tmp.innerHTML = createDokkanCard(char, { isInBox: myBoxIds.includes(char.id) });
+                const cardEl = tmp.firstElementChild;
+                cardEl.onclick = () => addUnitToTeam(char.id);
+                cardEl.style.cursor = 'pointer';
+                gridEl.appendChild(cardEl);
+            });
+
+            if (pool.length === 0) {
+                gridEl.innerHTML = '<p style="color:#888;grid-column:1/-1;">Aucune unité trouvée.</p>';
+            }
+        }
+
+        document.getElementById('modal-search').addEventListener('input', e => {
+            modalSearchQuery = e.target.value;
+            renderModalGrid(modalSearchQuery);
+        });
+
+        document.getElementById('modal').addEventListener('click', e => {
+            if (e.target === document.getElementById('modal')) closeModal();
+        });
+
+        function addUnitToTeam(charId) {
+            const team = savedTeams.find(t => t.id === modalTargetTeamId);
+            if (!team) return;
+
+            // If no leader yet, set as leader
+            if (!team.leaderId) {
+                team.leaderId = charId;
+            } else if ((team.memberIds || []).length < 6) {
+                if (!team.memberIds.includes(charId) && charId !== team.leaderId) {
+                    team.memberIds.push(charId);
+                }
+            }
+
+            persist();
+            closeModal();
+
+            const rowEl = document.getElementById('units-row-' + team.id);
+            if (rowEl) renderUnitsRow(rowEl, team);
+        }
+
+        // ============ UTILS ============
+        function escapeHtml(str) {
+            return String(str)
+                .replace(/&/g, '&amp;')
+                .replace(/</g, '&lt;')
+                .replace(/>/g, '&gt;')
+                .replace(/"/g, '&quot;');
+        }
+
+        // Disable card clicks globally on this page (handled per-card)
+        window.handleUnitClick = function() {};
+
+        // ============ INIT ============
+        renderTeams();
+    </script>
+</body>
+</html>

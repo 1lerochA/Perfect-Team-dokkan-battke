@@ -2,123 +2,372 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <title>Générateur - Dokkan</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Générateur d'Équipe - Dokkan Pro</title>
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Nunito:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
     <style>
-        body { font-family: sans-serif; background: #1e1e24; color: white; padding: 20px; max-width: 800px; margin: auto; }
-        nav { text-align: center; margin-bottom: 20px; }
-        nav a { color: #f39c12; text-decoration: none; font-size: 18px; margin: 0 10px; font-weight: bold; }
-        
-        .controls { background: #2c3e50; padding: 20px; border-radius: 8px; margin-bottom: 20px; }
-        select { width: 100%; padding: 10px; font-size: 16px; margin-bottom: 15px; border-radius: 5px; background: #34495e; color: white; border: 1px solid #f39c12; }
-        
-        button { border: none; padding: 15px; font-size: 16px; font-weight: bold; border-radius: 8px; cursor: pointer; width: 48%; margin: 5px 1%; color: white; }
-        .btn-box { background: #e67e22; }
-        .btn-box:hover { background: #d35400; }
-        .btn-all { background: #9b59b6; }
-        .btn-all:hover { background: #8e44ad; }
+        .selected-leader-display {
+            display: none;
+            align-items: center;
+            gap: 24px;
+            background: rgba(0,0,0,0.45);
+            padding: 22px 26px;
+            border-radius: 15px;
+            border: 1px solid var(--accent-gold);
+            box-sizing: border-box;
+        }
 
-        .result-card { display: flex; align-items: center; background: #34495e; padding: 15px; margin-bottom: 10px; border-radius: 8px; border-left: 5px solid #f1c40f; }
-        .result-card img { width: 60px; height: 60px; border-radius: 8px; margin-right: 15px; }
-        .score { color: #f1c40f; font-weight: bold; }
-        .links { font-size: 0.9em; color: #bdc3c7; }
+        /* Espace suffisant pour la carte + débordement des badges (8px de chaque côté) */
+        #leader-card-placeholder {
+            width: 106px;
+            height: 106px;
+            flex-shrink: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 8px;
+            box-sizing: border-box;
+        }
+
+        .leader-info h2 { margin: 0; color: var(--accent-gold); font-family: 'Bangers', cursive; font-size: 2rem; letter-spacing: 2px; }
+        .leader-info p  { margin: 6px 0 0 0; font-size: 0.85rem; color: #ccc; font-style: italic; line-height: 1.5; }
+
+        .suggestions-list {
+            position: absolute;
+            top: calc(100% + 4px);
+            left: 0;
+            right: 0;
+            background: #13181f;
+            border-radius: 12px;
+            max-height: 340px;
+            overflow-y: auto;
+            z-index: 200;
+            box-shadow: 0 12px 40px rgba(0,0,0,0.9);
+            border: 1px solid #2a2a2a;
+        }
+
+        .suggestion-item {
+            display: flex;
+            align-items: center;
+            gap: 16px;
+            padding: 10px 18px;
+            cursor: pointer;
+            transition: background 0.15s;
+            border-bottom: 1px solid #1c1c1c;
+        }
+        .suggestion-item:last-child { border-bottom: none; }
+        .suggestion-item:hover { background: #1e242d; }
+
+        /* Wrapper pour miniature dans suggestion : padding pour les badges débordants */
+        .suggestion-thumb {
+            width: 66px;
+            height: 66px;
+            flex-shrink: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 8px;
+            box-sizing: border-box;
+        }
+
+        .suggestion-info .s-name { font-weight: 900; color: var(--accent-gold); font-size: 1rem; }
+        .suggestion-info .s-meta { font-size: 0.78rem; color: #777; margin-top: 3px; }
+
+        .btn-action {
+            padding: 14px 28px;
+            font-size: 1.2rem;
+            font-family: 'Bangers', cursive;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: 0.25s;
+            text-transform: uppercase;
+            color: white;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.35);
+            letter-spacing: 1px;
+        }
+        .btn-generate-box { background: linear-gradient(135deg, #e67e22, #d35400); }
+        .btn-generate-all { background: linear-gradient(135deg, #9b59b6, #8e44ad); }
+        .btn-reset        { background: #3a3a3a; font-size: 0.9rem; padding: 9px 18px; }
+        .btn-like         { background: linear-gradient(135deg, #e74c3c, #c0392b); font-size: 1rem; padding: 12px 24px; }
+
+        .btn-action:hover    { transform: translateY(-3px); box-shadow: 0 7px 22px rgba(0,0,0,0.55); }
+        .btn-action:disabled { opacity: 0.3; cursor: not-allowed; transform: none; box-shadow: none; }
+
+        .team-result { margin-top: 40px; }
+
+        .member-row {
+            display: flex;
+            align-items: center;
+            background: rgba(255,255,255,0.03);
+            padding: 14px 18px;
+            border-radius: 12px;
+            border-left: 5px solid var(--accent-blue);
+            transition: 0.25s;
+            margin-bottom: 12px;
+        }
+        .member-row:hover { background: rgba(255,255,255,0.07); transform: translateX(8px); }
+
+        /* Wrapper carte membre : espace pour badges débordants */
+        .member-card-wrap {
+            width: 106px;
+            height: 106px;
+            flex-shrink: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 8px;
+            box-sizing: border-box;
+        }
+
+        .member-details { margin-left: 16px; flex-grow: 1; text-align: left; }
+        .member-details h3 { margin: 0; color: var(--accent-blue); font-family: 'Bangers', cursive; font-size: 1.4rem; }
+
+        .synergy-pills { display: flex; gap: 8px; margin-top: 8px; flex-wrap: wrap; }
+        .pill {
+            font-size: 0.75rem;
+            padding: 4px 10px;
+            border-radius: 20px;
+            background: rgba(52,152,219,0.18);
+            border: 1px solid var(--accent-blue);
+            font-weight: bold;
+        }
+        .pill.score { background: rgba(46,204,113,0.18); border-color: #2ecc71; color: #2ecc71; }
+
+        .team-header-bar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 12px;
+            margin-bottom: 20px;
+        }
     </style>
 </head>
 <body>
     <nav>
-        <a href="index.html">🔮 Générateur</a>
-        <a href="box.html">🎒 Gérer ma Box</a>
+        <a href="index.html" class="active">🔮 Générateur</a>
+        <a href="box.html">🎒 Ma Box</a>
+        <a href="teams.html">⭐ Mes Équipes</a>
     </nav>
 
-    <h1 style="text-align: center;">🔮 Générateur d'équipe</h1>
-    
-    <div class="controls">
-        <label for="leaderSelect"><strong>1. Choisis ton Leader :</strong></label>
-        <select id="leaderSelect">
-            </select>
+    <div class="container">
+        <h1 class="dokkan-font" style="font-size:4rem;color:var(--accent-gold);text-shadow:4px 4px 0 #000;margin-bottom:10px;">
+            DOKKAN TEAM BUILDER
+        </h1>
+        <p style="font-style:italic;color:#aaa;margin-bottom:40px;">
+            Crée l'équipe parfaite basée sur tes liens et ton alignement.
+        </p>
 
-        <strong>2. Construire l'équipe avec :</strong><br>
-        <div style="display: flex; justify-content: space-between; margin-top: 10px;">
-            <button class="btn-box" onclick="runApp(false)">🎒 MA Box Uniquement</button>
-            <button class="btn-all" onclick="runApp(true)">🌍 Tous les personnages</button>
+        <div class="controls" style="position:relative;">
+
+            <div id="search-section">
+                <h3 class="dokkan-font" style="text-align:left;margin-bottom:10px;font-size:1.4rem;">
+                    1. CHOISIS TON LEADER
+                </h3>
+                <input type="text" id="leaderInput" class="search-bar"
+                       placeholder="🔍 Tape le nom de ton leader...">
+                <div id="suggestions" class="suggestions-list" style="display:none;"></div>
+            </div>
+
+            <div id="selected-leader-container" class="selected-leader-display">
+                <div id="leader-card-placeholder"></div>
+                <div class="leader-info">
+                    <h2 id="display-leader-name"></h2>
+                    <p  id="display-leader-skill"></p>
+                    <button class="btn-reset btn-action" style="margin-top:12px;"
+                            onclick="resetLeader()">Changer de leader</button>
+                </div>
+            </div>
+
+            <div id="action-section"
+                 style="margin-top:28px;display:flex;gap:16px;justify-content:center;flex-wrap:wrap;">
+                <button id="btn-box" class="btn-action btn-generate-box"
+                        disabled onclick="generateTeam(false)">
+                    ⚔️ Générer avec MA BOX
+                </button>
+                <button id="btn-all" class="btn-action btn-generate-all"
+                        disabled onclick="generateTeam(true)">
+                    🌍 Générer avec TOUT LE JEU
+                </button>
+            </div>
         </div>
+
+        <div id="team-results" class="team-result"></div>
     </div>
 
-    <div id="results"></div>
-
     <script src="data.js"></script>
+    <script src="cards.js"></script>
     <script>
-        // Initialiser la liste déroulante au chargement
-        const initSelect = () => {
-            const select = document.getElementById('leaderSelect');
-            dokkanCharacters.forEach(char => {
-                select.innerHTML += `<option value="${char.id}">${char.name}</option>`;
-            });
+        let selectedLeader    = null;
+        let lastGeneratedTeam = null;
+
+        const leaderInput    = document.getElementById('leaderInput');
+        const suggestionsDiv = document.getElementById('suggestions');
+        const actionButtons  = [
+            document.getElementById('btn-box'),
+            document.getElementById('btn-all')
+        ];
+
+        // ---- AUTOCOMPLETE ----
+        leaderInput.addEventListener('input', e => {
+            const q = e.target.value.toLowerCase().trim();
+            if (q.length < 2) { suggestionsDiv.style.display = 'none'; return; }
+
+            const myBoxIds = JSON.parse(localStorage.getItem('dokkanBox')) || [];
+            const matches = dokkanCharacters
+                .filter(c => c.name.toLowerCase().includes(q))
+                .slice(0, 10);
+
+            if (!matches.length) { suggestionsDiv.style.display = 'none'; return; }
+
+            suggestionsDiv.innerHTML = matches.map(c => `
+                <div class="suggestion-item" onclick="selectLeader(${c.id})">
+                    <div class="suggestion-thumb">
+                        ${createDokkanCard(c, { size: 'sm', isInBox: myBoxIds.includes(c.id) })}
+                    </div>
+                    <div class="suggestion-info">
+                        <div class="s-name">${c.name}</div>
+                        <div class="s-meta">${c.rarity} · ${c.type} · ${c.alignment || ''}</div>
+                    </div>
+                </div>
+            `).join('');
+            suggestionsDiv.style.display = 'block';
+        });
+
+        document.addEventListener('click', e => {
+            if (!e.target.closest('#search-section')) suggestionsDiv.style.display = 'none';
+        });
+
+        // ---- SELECT LEADER ----
+        window.selectLeader = function(id) {
+            selectedLeader = dokkanCharacters.find(c => c.id === id);
+            if (!selectedLeader) return;
+
+            const myBoxIds = JSON.parse(localStorage.getItem('dokkanBox')) || [];
+
+            document.getElementById('leader-card-placeholder').innerHTML =
+                createDokkanCard(selectedLeader, { size: 'md', isInBox: myBoxIds.includes(selectedLeader.id) });
+
+            document.getElementById('display-leader-name').textContent = selectedLeader.name;
+            document.getElementById('display-leader-skill').textContent =
+                'Leader Skill : ' + (selectedLeader.leaderSkill || 'Non disponible');
+
+            document.getElementById('search-section').style.display          = 'none';
+            document.getElementById('selected-leader-container').style.display = 'flex';
+            suggestionsDiv.style.display = 'none';
+            actionButtons.forEach(btn => btn.disabled = false);
         };
 
-        // Algorithme modifié pour accepter une liste d'ID spécifique
-        const generateBestTeam = (leaderId, poolIds) => {
-            // Attention : value du select est une string, on utilise == ou parseInt
-            const leader = dokkanCharacters.find(c => c.id == leaderId); 
-            
-            // On filtre les persos disponibles selon le choix de l'utilisateur (Box ou Tout le jeu)
-            const availableCharacters = dokkanCharacters.filter(c => poolIds.includes(c.id));
-
-            const eligibleCharacters = availableCharacters.filter(char => {
-                if (char.id == leader.id) return false; 
-                return char.categories.some(cat => leader.categories.includes(cat));
-            });
-
-            const scoredCharacters = eligibleCharacters.map(char => {
-                const sharedLinks = char.links.filter(link => leader.links.includes(link));
-                return { ...char, sharedLinks, score: sharedLinks.length * 10 };
-            });
-
-            return scoredCharacters.sort((a, b) => b.score - a.score).slice(0, 4);
+        // ---- RESET ----
+        window.resetLeader = function() {
+            selectedLeader = null; lastGeneratedTeam = null;
+            leaderInput.value = '';
+            document.getElementById('search-section').style.display            = 'block';
+            document.getElementById('selected-leader-container').style.display = 'none';
+            document.getElementById('team-results').innerHTML = '';
+            actionButtons.forEach(btn => btn.disabled = true);
         };
 
-        // Fonction déclenchée par les boutons (useAllCharacters est true ou false)
-        const runApp = (useAllCharacters) => {
-            const resultsDiv = document.getElementById('results');
-            const leaderId = document.getElementById('leaderSelect').value;
-            
-            let characterPool = [];
+        // ---- GENERATE TEAM ----
+        window.generateTeam = function(useFullGame) {
+            const resultsDiv = document.getElementById('team-results');
+            resultsDiv.innerHTML = '<h2 class="dokkan-font" style="color:#f39c12;">⚡ ANALYSE DES LIENS EN COURS… ⚡</h2>';
 
-            if (useAllCharacters) {
-                // Si on veut l'équipe optimale, on prend tous les ID de la base
-                characterPool = dokkanCharacters.map(c => c.id);
-            } else {
-                // Sinon, on prend juste la box locale
-                characterPool = JSON.parse(localStorage.getItem('dokkanBox')) || [];
-                
-                if (characterPool.length === 0) {
-                    resultsDiv.innerHTML = "<p style='color: #e74c3c; text-align: center;'>Ta box est vide ! Va sur 'Gérer ma Box' ou choisis 'Tous les personnages'.</p>";
-                    return;
-                }
-            }
+            const myBoxIds = JSON.parse(localStorage.getItem('dokkanBox')) || [];
+            const poolIds = useFullGame
+                ? dokkanCharacters.map(c => c.id)
+                : myBoxIds;
 
-            const bestTeam = generateBestTeam(leaderId, characterPool);
-            resultsDiv.innerHTML = `<h3>Résultats pour : ${dokkanCharacters.find(c => c.id == leaderId).name}</h3>`;
-            
-            if (bestTeam.length === 0) {
-                resultsDiv.innerHTML += "<p>Aucun partenaire compatible trouvé.</p>";
+            if (!useFullGame && !poolIds.length) {
+                resultsDiv.innerHTML = '<p style="color:#e74c3c;font-size:1.1rem;">Ta box est vide ! Va dans "Ma Box" pour ajouter des personnages.</p>';
                 return;
             }
 
-            bestTeam.forEach(char => {
-                resultsDiv.innerHTML += `
-                    <div class="result-card">
-                        <img src="${char.img}">
-                        <div>
-                            <h3 style="margin: 0;">${char.name} <span class="score">(${char.score} pts)</span></h3>
-                            <div class="links">Liens : ${char.sharedLinks.join(', ')}</div>
-                        </div>
-                    </div>
-                `;
+            const candidates = dokkanCharacters
+                .filter(c => poolIds.includes(c.id) && c.id !== selectedLeader.id)
+                .map(char => {
+                    let score = 0;
+                    const sharedLinks = (char.links || []).filter(l => (selectedLeader.links || []).includes(l));
+                    score += sharedLinks.length * 15;
+                    if (char.alignment === selectedLeader.alignment) score += 20;
+                    const sharedCats = (char.categories || []).filter(cat => (selectedLeader.categories || []).includes(cat));
+                    score += sharedCats.length * 10;
+                    return { ...char, score, sharedLinksCount: sharedLinks.length };
+                })
+                .sort((a, b) => b.score - a.score)
+                .slice(0, 6);
+
+            lastGeneratedTeam = {
+                leader   : selectedLeader,
+                members  : candidates,
+                source   : useFullGame ? 'Tout le jeu' : 'Ma Box',
+                date     : new Date().toLocaleDateString('fr-FR')
+            };
+
+            resultsDiv.innerHTML = '';
+
+            const headerBar = document.createElement('div');
+            headerBar.className = 'team-header-bar';
+            headerBar.innerHTML = `
+                <h2 class="dokkan-font" style="color:#2ecc71;margin:0;">
+                    ÉQUIPE OPTIMISÉE POUR ${selectedLeader.name}
+                </h2>
+                <button class="btn-action btn-like" onclick="likeTeam()">❤️ SAUVEGARDER L'ÉQUIPE</button>`;
+            resultsDiv.appendChild(headerBar);
+
+            candidates.forEach(char => {
+                const row = document.createElement('div');
+                row.className = 'member-row';
+
+                const wrap = document.createElement('div');
+                wrap.className = 'member-card-wrap';
+                wrap.innerHTML = createDokkanCard(char, { size: 'md', isInBox: myBoxIds.includes(char.id) });
+                row.appendChild(wrap);
+
+                const details = document.createElement('div');
+                details.className = 'member-details';
+                details.innerHTML = `
+                    <h3>${char.name}</h3>
+                    <div class="synergy-pills">
+                        <span class="pill">🔗 ${char.sharedLinksCount} Liens communs</span>
+                        <span class="pill">${char.alignment === selectedLeader.alignment ? '🤝 Même Classe' : '⚔️ Classe opposée'}</span>
+                        <span class="pill score">Score : ${char.score} pts</span>
+                    </div>`;
+                row.appendChild(details);
+                resultsDiv.appendChild(row);
             });
         };
 
-        // On lance la fonction pour remplir la liste déroulante
-        initSelect();
+        // ---- SAVE TEAM ----
+        window.likeTeam = function() {
+            if (!lastGeneratedTeam) return;
+            const teams = JSON.parse(localStorage.getItem('dokkanSavedTeams')) || [];
+            teams.push({
+                id       : Date.now(),
+                name     : 'Équipe ' + lastGeneratedTeam.leader.name,
+                leaderId : lastGeneratedTeam.leader.id,
+                memberIds: lastGeneratedTeam.members.map(m => m.id),
+                source   : lastGeneratedTeam.source,
+                date     : lastGeneratedTeam.date
+            });
+            localStorage.setItem('dokkanSavedTeams', JSON.stringify(teams));
+
+            const btn = document.querySelector('.btn-like');
+            if (btn) {
+                btn.textContent = '✅ SAUVEGARDÉE !';
+                btn.style.background = 'linear-gradient(135deg,#27ae60,#145c33)';
+                btn.disabled = true;
+                setTimeout(() => {
+                    btn.textContent = "❤️ SAUVEGARDER L'ÉQUIPE";
+                    btn.style.background = '';
+                    btn.disabled = false;
+                }, 2500);
+            }
+        };
+
+        window.handleUnitClick = function() {};
     </script>
 </body>
 </html>

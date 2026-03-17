@@ -1,59 +1,38 @@
-// updateData.js
 const fs = require('fs');
 
-// L'URL d'une API communautaire ou d'un fichier JSON brut sur GitHub
-// (Ici, on utilise une URL fictive pour l'exemple, tu devras trouver un dump JSON réel comme ceux de DokkanInfo ou GitHub)
-const DOKKAN_DATA_URL = 'https://raw.githubusercontent.com/ton-depot/dokkan-data-dump/main/characters.json';
+console.log("⏳ Ajout des classes Super/Extrême...");
 
-console.log("⏳ Début de la récupération des données Dokkan...");
+try {
+    const rawData = fs.readFileSync('./fyi_data_full.json', 'utf8');
+    const personnagesBruts = JSON.parse(rawData);
 
-const fetchAndFormatData = async () => {
-    try {
-        // 1. Récupération des données brutes
-        // Pour le test sans vraie URL, on va simuler la réponse de l'API avec des données complexes
-        /* const response = await fetch(DOKKAN_DATA_URL);
-        const rawData = await response.json(); 
-        */
+    const formattedCharacters = personnagesBruts.map(char => {
+        const imageUrl = `https://cdn.dokkan.fyi/assets/en/character/thumb/card_${char.thumbnail_id}_thumb.png`;
+        const typeTraduction = { 0: "AGI", 1: "TEC", 2: "INT", 3: "PUI", 4: "END" };
+        const rarityTraduction = { 0: "N", 1: "R", 2: "SR", 3: "SSR", 4: "UR", 5: "LR" };
+        
+        let alignement = "";
+        if (char.awakening_type_text === "Super") alignement = "SUPER";
+        if (char.awakening_type_text === "Extreme") alignement = "EXTRÊME";
 
-        // --- SIMULATION DES DONNÉES BRUTES (Ce que tu recevrais du serveur) ---
-        const rawData = [
-            { card_id: 10245, name: "Goku & Vegeta SSJ4 INT", type: "Super INT", rarity: "LR", categories: [12, 45], links: [4, 5, 8], thumb: "url_image_1.png" },
-            { card_id: 10100, name: "Gogeta Blue AGI", type: "Super AGI", rarity: "UR", categories: [12, 18], links: [4, 9, 10], thumb: "url_image_2.png" },
-            // ... imagine 2000 personnages ici ...
-        ];
+        return {
+            id: char.id,
+            thumbId: char.thumbnail_id, // 🎯 NOUVEAU : On sauvegarde l'ID exact de l'image !
+            name: char.name,
+            img: imageUrl,
+            type: typeTraduction[char.type] || "INCONNU",
+            rarity: rarityTraduction[char.rarity] || "SSR", 
+            alignment: alignement,
+            leaderSkill: char.leader_skill ? char.leader_skill.description : "Aucun Leader Skill",
+            links: char.link_skill_ids || [], 
+            categories: [] 
+        };
+    });
 
-        // Fausse base de données de correspondance pour traduire les ID en texte
-        const categoryMap = { 12: "Héros de film", 18: "Kamehameha", 45: "Héros de GT" };
-        const linkMap = { 4: "Combat acharné", 5: "Rugissement Saiyan", 8: "GT", 9: "Guerrier fusionné", 10: "Paré au combat" };
-        // ----------------------------------------------------------------------
+    const fileContent = `// Base de données Dokkan Pro\nconst dokkanCharacters = ${JSON.stringify(formattedCharacters, null, 4)};`;
+    fs.writeFileSync('./data.js', fileContent, 'utf8');
+    console.log("🎉 data.js mis à jour avec le Super/Extrême !");
 
-        console.log(`✅ ${rawData.length} personnages bruts récupérés !`);
-        console.log("⚙️ Formatage des données pour l'application...");
-
-        // 2. On transforme les données brutes dans NOTRE format
-        const formattedCharacters = rawData.map(char => {
-            return {
-                id: char.card_id,
-                name: char.name,
-                // On ajoute une image par défaut si elle n'existe pas
-                img: `https://placehold.co/80x80/34495e/FFF?text=${char.name.substring(0,4)}`, 
-                // On traduit les IDs en vrai texte
-                categories: char.categories.map(catId => categoryMap[catId] || "Inconnue"),
-                links: char.links.map(linkId => linkMap[linkId] || "Inconnu")
-            };
-        });
-
-        // 3. On crée le contenu texte de notre futur fichier data.js
-        const fileContent = `// Fichier généré automatiquement le ${new Date().toLocaleDateString()}\n\nconst dokkanCharacters = ${JSON.stringify(formattedCharacters, null, 4)};`;
-
-        // 4. On écrit (ou écrase) le fichier data.js physiquement sur ton ordinateur
-        fs.writeFileSync('data.js', fileContent, 'utf8');
-
-        console.log("🎉 Succès ! Le fichier data.js a été généré avec les vraies données.");
-
-    } catch (error) {
-        console.error("❌ Erreur lors de la mise à jour :", error);
-    }
-};
-
-fetchAndFormatData();
+} catch (error) {
+    console.error("❌ Erreur :", error);
+}
