@@ -60,7 +60,12 @@ function createDokkanCard(char, opts = {}) {
     
     const errorChain = `this.onerror=null; this.src='${charUrls[1]}'; this.onerror=function(){this.src='${charUrls[2]}'; this.onerror=function(){this.src='${charUrls[3]}'};};`;
 
-    const boxBadge = isInBox ? `<div class="box-badge" style="position:absolute;bottom:0;right:0;background:rgba(0,0,0,0.8);color:white;font-size:10px;padding:2px 4px;border-radius:4px;z-index:10;font-weight:bold;">BOX</div>` : '';
+    const boxBadge = isInBox ? `
+        <div style="position:absolute; top:-6px; left:-6px; background:linear-gradient(135deg, #2ecc71, #27ae60); color:white; font-size:12px; font-family:'Bangers', cursive; letter-spacing:1px; padding:4px 10px; border-radius:8px; z-index:15; border:2px solid #145c33; box-shadow:0 4px 10px rgba(0,0,0,0.6); transform:rotate(-10deg);">
+            ✅ ACQUIS
+        </div>
+        <div style="position:absolute; inset:0; border:3px solid #2ecc71; border-radius:6px; z-index:9; pointer-events:none; box-shadow:inset 0 0 20px rgba(46,204,113,0.6);"></div>
+    ` : '';
 
     return `<div
     class="unit-card${lrClass}${inBoxClass}"

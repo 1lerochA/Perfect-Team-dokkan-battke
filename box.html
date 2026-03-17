@@ -7,16 +7,6 @@
     <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Nunito:wght@400;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
     <style>
-        .unit-card {
-            transition: 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-        }
-        .unit-card.in-box {
-            outline: 3px solid #27ae60;
-            outline-offset: 2px;
-            box-shadow: 0 0 15px rgba(39, 174, 96, 0.5);
-        }
-        .unit-card.in-box:hover { transform: scale(1.15) !important; }
-
         .stats-bar {
             display: flex;
             justify-content: space-around;
@@ -30,6 +20,56 @@
             gap: 10px;
         }
         .stat-item span { color: var(--accent-gold); font-size: 1.3rem; font-family: 'Bangers', cursive; }
+
+        .btn-add {
+            background: linear-gradient(135deg, #27ae60, #1e8449);
+            border: none;
+            color: white;
+            font-family: 'Bangers', cursive;
+            font-size: 1.5rem;
+            letter-spacing: 2px;
+            padding: 15px 35px;
+            border-radius: 12px;
+            cursor: pointer;
+            transition: 0.3s;
+            box-shadow: 0 4px 15px rgba(39,174,96,0.4);
+            display: block;
+            margin: 0 auto 30px auto;
+        }
+        .btn-add:hover { transform: translateY(-3px); box-shadow: 0 6px 20px rgba(39,174,96,0.6); }
+
+        .box-unit-wrapper { position: relative; display: inline-block; }
+        .remove-btn {
+            position: absolute;
+            top: -5px; left: -5px;
+            background: #e74c3c; color: white;
+            border: 2px solid #111; border-radius: 50%;
+            width: 24px; height: 24px;
+            font-size: 12px; font-weight: bold;
+            cursor: pointer; z-index: 20;
+            display: flex; align-items: center; justify-content: center;
+            transition: 0.2s;
+        }
+        .remove-btn:hover { background: #c0392b; transform: scale(1.1); }
+
+        .modal-overlay {
+            display: none; position: fixed; inset: 0;
+            background: rgba(0,0,0,0.85); z-index: 2000;
+            backdrop-filter: blur(4px); justify-content: center;
+            align-items: flex-start; padding: 40px 20px;
+        }
+        .modal-overlay.open { display: flex; }
+        .modal-box {
+            background: #111820; border: 2px solid var(--accent-gold);
+            border-radius: 20px; padding: 30px;
+            max-width: 800px; width: 100%; max-height: 80vh; overflow-y: auto; position: relative;
+        }
+        .close-modal {
+            position: absolute; top: 15px; right: 20px;
+            background: none; border: none; color: #fff; font-size: 1.8rem; cursor: pointer; transition: 0.2s;
+        }
+        .close-modal:hover { color: #e74c3c; transform: rotate(90deg); }
+        .modal-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(90px, 1fr)); gap: 16px; margin-top: 20px; }
     </style>
 </head>
 <body>
@@ -41,25 +81,9 @@
 
     <div class="container">
         <h1 class="dokkan-font" style="font-size:3.5rem;color:var(--accent-gold);text-shadow:3px 3px 0 #000;">MON INVENTAIRE</h1>
-        <p style="color:#888;font-style:italic;margin-bottom:30px;">Clique sur une unité pour l'ajouter ou la retirer de ta box.</p>
+        <p style="color:#888;font-style:italic;margin-bottom:30px;">Voici ta collection personnelle. Génère des équipes avec ces unités !</p>
 
-        <div class="controls">
-            <input type="text" id="searchInput" class="search-bar" placeholder="🔍 Rechercher (ex: UI Goku, Beast Gohan...)">
-            <div class="filter-group">
-                <button class="btn-type active" data-type="ALL" style="background:#333;">TOUT</button>
-                <button class="btn-type bg-agi" data-type="AGI">AGI</button>
-                <button class="btn-type bg-tec" data-type="TEC">TEC</button>
-                <button class="btn-type bg-int" data-type="INT">INT</button>
-                <button class="btn-type bg-pui" data-type="PUI">PUI</button>
-                <button class="btn-type bg-end" data-type="END">END</button>
-            </div>
-            <div class="filter-group" style="margin-top:10px;">
-                <button class="btn-type active" data-rarity="ALL" style="background:#555;font-size:0.8rem;">TOUTES RARETÉS</button>
-                <button class="btn-type" data-rarity="LR" style="background:linear-gradient(135deg,#7a4e00,#ffd700,#b8860b);font-size:0.8rem;">LR</button>
-                <button class="btn-type" data-rarity="UR" style="background:#333;border:1px solid #888;font-size:0.8rem;">UR</button>
-                <button class="btn-type" data-rarity="SSR" style="background:#7a5900;font-size:0.8rem;">SSR</button>
-            </div>
-        </div>
+        <button class="btn-add" onclick="openModal()">➕ AJOUTER DES PERSONNAGES</button>
 
         <div class="stats-bar">
             <div class="stat-item">DANS LA BOX : <span id="count-box">0</span></div>
@@ -68,110 +92,194 @@
             <div class="stat-item">SSR : <span id="count-ssr">0</span></div>
         </div>
 
+        <div class="controls" style="margin-bottom: 20px;">
+            <input type="text" id="searchInput" class="search-bar" placeholder="🔍 Rechercher dans ma box...">
+            <div class="filter-group">
+                <button class="btn-type active" data-type="ALL" style="background:#333;">TOUT</button>
+                <button class="btn-type bg-agi" data-type="AGI">AGI</button>
+                <button class="btn-type bg-tec" data-type="TEC">TEC</button>
+                <button class="btn-type bg-int" data-type="INT">INT</button>
+                <button class="btn-type bg-pui" data-type="PUI">PUI</button>
+                <button class="btn-type bg-end" data-type="END">END</button>
+            </div>
+        </div>
+
         <div id="dokkan-grid" class="dokkan-grid"></div>
+    </div>
+
+    <div id="modal" class="modal-overlay">
+        <div class="modal-box">
+            <button class="close-modal" onclick="closeModal()">✕</button>
+            <h2 class="dokkan-font" style="color:var(--accent-gold); font-size:2rem; margin-top:0;">BASE DE DONNÉES</h2>
+            <p style="color:#aaa; font-size:0.9rem; margin-bottom:15px;">Clique sur un personnage pour l'ajouter à ta box.</p>
+            <input type="text" id="modal-search" class="search-bar" placeholder="🔍 Rechercher (ex: Freezer, UI Goku...)" style="margin-bottom:0;">
+            <div id="modal-grid" class="modal-grid"></div>
+        </div>
     </div>
 
     <script src="data.js"></script>
     <script src="cards.js?v=999"></script>
     <script>
+
         let maBoxIds = JSON.parse(localStorage.getItem('dokkanBox')) || [];
+        maBoxIds = maBoxIds.filter(id => dokkanCharacters.some(char => char.id === id));
+        localStorage.setItem('dokkanBox', JSON.stringify(maBoxIds));
+
         let currentTypeFilter = 'ALL';
-        let currentRarityFilter = 'ALL';
         let searchQuery = '';
+        let modalQuery = '';
 
         const grid = document.getElementById('dokkan-grid');
 
-        function render() {
+        function renderBox() {
             grid.innerHTML = '';
-            const sorted = [...dokkanCharacters].sort((a, b) => {
-                const aO = maBoxIds.includes(a.id), bO = maBoxIds.includes(b.id);
-                if (aO && !bO) return -1;
-                if (!aO && bO) return 1;
-                const order = ['LR','UR','SSR','SR','R','N'];
-                return order.indexOf(a.rarity) - order.indexOf(b.rarity);
-            });
+            
+            let ownedChars = dokkanCharacters.filter(c => maBoxIds.includes(c.id));
 
-            const filtered = sorted.filter(c => {
+            ownedChars = ownedChars.filter(c => {
                 const mt = currentTypeFilter === 'ALL' || c.type === currentTypeFilter;
-                const mr = currentRarityFilter === 'ALL' || c.rarity === currentRarityFilter;
                 const ms = c.name.toLowerCase().includes(searchQuery.toLowerCase());
-                return mt && mr && ms;
+                return mt && ms;
             });
 
-            const LIMIT = 60;
-            const toDisplay = filtered.slice(0, LIMIT);
+            const order = ['LR','UR','SSR','SR','R','N'];
+            ownedChars.sort((a, b) => order.indexOf(a.rarity) - order.indexOf(b.rarity));
 
-            if (filtered.length > LIMIT) {
-                const info = document.createElement('div');
-                info.style.cssText = "grid-column:1/-1;color:#888;font-style:italic;margin:10px 0;font-size:0.9rem;";
-                info.textContent = `${LIMIT} premiers sur ${filtered.length}. Affine ta recherche pour voir plus.`;
-                grid.appendChild(info);
+            if (ownedChars.length === 0) {
+                grid.innerHTML = '<p style="grid-column:1/-1; text-align:center; color:#888;">Ta box est vide (ou aucun personnage ne correspond au filtre).</p>';
             }
 
-            toDisplay.forEach(char => {
-                const isInBox = maBoxIds.includes(char.id);
+            ownedChars.forEach(char => {
+                const wrapper = document.createElement('div');
+                wrapper.className = 'box-unit-wrapper';
+
                 const tmp = document.createElement('div');
-                tmp.innerHTML = createDokkanCard(char, { isInBox });
-                grid.appendChild(tmp.firstElementChild);
+                tmp.innerHTML = createDokkanCard(char, { size: 'md' });
+                
+                const removeBtn = document.createElement('button');
+                removeBtn.className = 'remove-btn';
+                removeBtn.textContent = '✕';
+                removeBtn.onclick = () => removeFromBox(char.id);
+
+                wrapper.appendChild(tmp.firstElementChild);
+                wrapper.appendChild(removeBtn);
+                grid.appendChild(wrapper);
             });
 
             updateStats();
         }
 
-        function updateStats() {
+       function updateStats() {
             const owned = dokkanCharacters.filter(c => maBoxIds.includes(c.id));
-            document.getElementById('count-box').textContent = maBoxIds.length;
+            document.getElementById('count-box').textContent = owned.length;
             document.getElementById('count-lr').textContent = owned.filter(c => c.rarity === 'LR').length;
             document.getElementById('count-ur').textContent = owned.filter(c => c.rarity === 'UR').length;
             document.getElementById('count-ssr').textContent = owned.filter(c => c.rarity === 'SSR').length;
         }
 
-        window.handleUnitClick = function(id) {
-            if (maBoxIds.includes(id)) {
-                maBoxIds = maBoxIds.filter(b => b !== id);
-            } else {
+        function removeFromBox(id) {
+            maBoxIds = maBoxIds.filter(b => b !== id);
+            localStorage.setItem('dokkanBox', JSON.stringify(maBoxIds));
+            renderBox();
+        }
+
+        function openModal() {
+            document.getElementById('modal').classList.add('open');
+            document.getElementById('modal-search').value = '';
+            modalQuery = '';
+            renderModal();
+        }
+
+        function closeModal() {
+            document.getElementById('modal').classList.remove('open');
+            renderBox(); 
+        }
+
+        function renderModal() {
+            const modalGrid = document.getElementById('modal-grid');
+            modalGrid.innerHTML = '';
+
+            let pool = dokkanCharacters.filter(c => !maBoxIds.includes(c.id));
+
+            if (modalQuery.length > 1) {
+                pool = pool.filter(c => c.name.toLowerCase().includes(modalQuery.toLowerCase()));
+            }
+
+            const toDisplay = pool.slice(0, 50);
+
+            toDisplay.forEach(char => {
+                const isInBox = maBoxIds.includes(char.id);
+                const tmp = document.createElement('div');
+                
+                tmp.innerHTML = createDokkanCard(char, { isInBox: isInBox });
+                const cardEl = tmp.firstElementChild;
+                
+                cardEl.style.cursor = 'pointer';
+                cardEl.onclick = () => toggleInBoxFromModal(char.id);
+                
+                modalGrid.appendChild(cardEl);
+            });
+            
+            if (pool.length === 0) {
+                modalGrid.innerHTML = '<p style="color:#888; grid-column:1/-1;">Aucun personnage trouvé.</p>';
+            }
+        }
+
+        function toggleInBoxFromModal(id) {
+            const isAdding = !maBoxIds.includes(id);
+            
+            if (isAdding) {
                 maBoxIds.push(id);
+            } else {
+                maBoxIds = maBoxIds.filter(b => b !== id);
             }
             localStorage.setItem('dokkanBox', JSON.stringify(maBoxIds));
             
-            const oldCard = document.getElementById('unit-' + id);
+            const char = dokkanCharacters.find(c => c.id === id);
+            const oldCard = document.querySelector(`#modal-grid #unit-${id}`);
+            
             if (oldCard) {
-                const char = dokkanCharacters.find(c => c.id === id);
-                const isInBox = maBoxIds.includes(id);
+                const tmp = document.createElement('div');
+                tmp.innerHTML = createDokkanCard(char, { isInBox: isAdding });
+                const newCard = tmp.firstElementChild;
                 
-                const tempDiv = document.createElement('div');
-                tempDiv.innerHTML = createDokkanCard(char, { isInBox });
-                const newCard = tempDiv.firstElementChild;
+                newCard.style.cursor = 'pointer';
+                newCard.onclick = () => toggleInBoxFromModal(id);
                 
                 oldCard.parentNode.replaceChild(newCard, oldCard);
-                updateStats();
             }
-        };
+
+            updateStats(); 
+        }
 
         document.getElementById('searchInput').addEventListener('input', e => {
             searchQuery = e.target.value;
-            render();
+            renderBox();
         });
 
-        document.querySelectorAll('[data-type]').forEach(btn => {
+        document.getElementById('modal-search').addEventListener('input', e => {
+            modalQuery = e.target.value;
+            renderModal();
+        });
+
+        document.querySelectorAll('.filter-group .btn-type').forEach(btn => {
             btn.addEventListener('click', () => {
-                document.querySelectorAll('[data-type]').forEach(b => b.classList.remove('active'));
+                document.querySelectorAll('.filter-group .btn-type').forEach(b => b.classList.remove('active'));
                 btn.classList.add('active');
                 currentTypeFilter = btn.dataset.type;
-                render();
+                renderBox();
             });
         });
 
-        document.querySelectorAll('[data-rarity]').forEach(btn => {
-            btn.addEventListener('click', () => {
-                document.querySelectorAll('[data-rarity]').forEach(b => b.classList.remove('active'));
-                btn.classList.add('active');
-                currentRarityFilter = btn.dataset.rarity;
-                render();
-            });
+        document.getElementById('modal').addEventListener('click', e => {
+            if (e.target === document.getElementById('modal')) closeModal();
         });
 
-        render();
+        window.handleUnitClick = function() {
+            console.log("Préparation de la future fiche détaillée !");
+        };
+
+        renderBox();
     </script>
 </body>
 </html>
