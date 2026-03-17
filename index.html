@@ -481,13 +481,19 @@
         window.likeTeam = function(index) {
             const lastGeneratedTeam = generatedTeams[index];
             if (!lastGeneratedTeam) return;
-            
+
             const teams = JSON.parse(localStorage.getItem('dokkanSavedTeams')) || [];
+            const allMembers = lastGeneratedTeam.members.map(m => m.id);
+            
+            if (lastGeneratedTeam.friend) {
+                allMembers.push(lastGeneratedTeam.friend.id);
+            }
+
             teams.push({
                 id       : Date.now(),
-                name     : 'Équipe ' + lastGeneratedTeam.leader.name + ' #' + (index + 1),
+                name     : lastGeneratedTeam.teamName || ('Équipe de ' + lastGeneratedTeam.leader.name),
                 leaderId : lastGeneratedTeam.leader.id,
-                memberIds: lastGeneratedTeam.members.map(m => m.id),
+                memberIds: allMembers,
                 source   : lastGeneratedTeam.source,
                 date     : lastGeneratedTeam.date
             });
@@ -500,7 +506,7 @@
                 btn.style.background = 'linear-gradient(135deg,#27ae60,#145c33)';
                 btn.disabled = true;
                 setTimeout(() => {
-                    btn.textContent = "❤️ SAUVEGARDER CETTE ÉQUIPE";
+                    btn.textContent = "❤️ SAUVEGARDER";
                     btn.style.background = '';
                     btn.disabled = false;
                 }, 2500);
