@@ -222,41 +222,21 @@ nav a.active, nav a:hover {
 /* UR badge — multicolor text (Dokkan Essential effect) */
 .rarity-badge.rarity-ur { padding: 1px 8px; }
 .rarity-ur-text {
-    background: linear-gradient(to bottom, #fff 0%, #fff 25%, #ffeb3b 45%, #f39c12 75%, #e67e22 100%);
+    background: linear-gradient(to bottom, #fff 0%, #fff 20%, #f1c40f 45%, #e67e22 65%, #e74c3c 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
-    color: #fff; /* Fallback */
-    filter: drop-shadow(1px 1px 0px rgba(0,0,0,1));
+    filter: drop-shadow(1px 1px 0px rgba(0,0,0,0.9));
     font-weight: 900;
     font-size: 15px;
-    -webkit-text-stroke: 0.2px rgba(255, 255, 255, 0.2);
 }
 
 /* UR badge backgrounds by type */
 .rarity-ur.badge-pui { background: linear-gradient(180deg, #c0392b, #6b1010); }
 .rarity-ur.badge-agi { background: linear-gradient(180deg, #2980b9, #0d2d4a); }
 .rarity-ur.badge-tec { background: linear-gradient(180deg, #27ae60, #0d3d20); }
-.rarity-ur.badge-int { background: linear-gradient(180deg, #a569bd, #4a148c); } /* Plus clair que l'original */
+.rarity-ur.badge-int { background: linear-gradient(180deg, #8e44ad, #3a0d5a); }
 .rarity-ur.badge-end { background: linear-gradient(180deg, #e67e22, #5a2800); }
-
-/* Box badge indicator */
-.box-badge {
-    position: absolute;
-    bottom: -5px;
-    right: -5px;
-    z-index: 5;
-    background: linear-gradient(180deg, #27ae60, #1e8449);
-    color: white;
-    padding: 1px 5px;
-    border-radius: 4px;
-    font-size: 10px;
-    font-weight: 900;
-    font-family: 'Nunito', sans-serif;
-    border: 1.5px solid rgba(255,255,255,0.7);
-    box-shadow: 1px 2px 4px rgba(0,0,0,0.5);
-    text-transform: uppercase;
-}
 
 /* SSR badge */
 .rarity-badge.rarity-ssr { background: linear-gradient(180deg, #b8860b, #7a5900); border-color: #f1c40f; }

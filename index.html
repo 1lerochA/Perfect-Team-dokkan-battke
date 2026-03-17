@@ -215,7 +215,6 @@
             const q = e.target.value.toLowerCase().trim();
             if (q.length < 2) { suggestionsDiv.style.display = 'none'; return; }
 
-            const myBoxIds = JSON.parse(localStorage.getItem('dokkanBox')) || [];
             const matches = dokkanCharacters
                 .filter(c => c.name.toLowerCase().includes(q))
                 .slice(0, 10);
@@ -225,7 +224,7 @@
             suggestionsDiv.innerHTML = matches.map(c => `
                 <div class="suggestion-item" onclick="selectLeader(${c.id})">
                     <div class="suggestion-thumb">
-                        ${createDokkanCard(c, { size: 'sm', isInBox: myBoxIds.includes(c.id) })}
+                        ${createDokkanCard(c, { size: 'sm' })}
                     </div>
                     <div class="suggestion-info">
                         <div class="s-name">${c.name}</div>
@@ -245,10 +244,8 @@
             selectedLeader = dokkanCharacters.find(c => c.id === id);
             if (!selectedLeader) return;
 
-            const myBoxIds = JSON.parse(localStorage.getItem('dokkanBox')) || [];
-
             document.getElementById('leader-card-placeholder').innerHTML =
-                createDokkanCard(selectedLeader, { size: 'md', isInBox: myBoxIds.includes(selectedLeader.id) });
+                createDokkanCard(selectedLeader, { size: 'md' });
 
             document.getElementById('display-leader-name').textContent = selectedLeader.name;
             document.getElementById('display-leader-skill').textContent =
@@ -275,10 +272,9 @@
             const resultsDiv = document.getElementById('team-results');
             resultsDiv.innerHTML = '<h2 class="dokkan-font" style="color:#f39c12;">⚡ ANALYSE DES LIENS EN COURS… ⚡</h2>';
 
-            const myBoxIds = JSON.parse(localStorage.getItem('dokkanBox')) || [];
             const poolIds = useFullGame
                 ? dokkanCharacters.map(c => c.id)
-                : myBoxIds;
+                : (JSON.parse(localStorage.getItem('dokkanBox')) || []);
 
             if (!useFullGame && !poolIds.length) {
                 resultsDiv.innerHTML = '<p style="color:#e74c3c;font-size:1.1rem;">Ta box est vide ! Va dans "Ma Box" pour ajouter des personnages.</p>';
@@ -323,7 +319,7 @@
 
                 const wrap = document.createElement('div');
                 wrap.className = 'member-card-wrap';
-                wrap.innerHTML = createDokkanCard(char, { size: 'md', isInBox: myBoxIds.includes(char.id) });
+                wrap.innerHTML = createDokkanCard(char, { size: 'md' });
                 row.appendChild(wrap);
 
                 const details = document.createElement('div');

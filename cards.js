@@ -42,15 +42,24 @@ function createDokkanCard(char, opts = {}) {
     const boxBadge = isInBox 
         ? `<div class="box-badge">BOX</div>` 
         : '';
-
-    // 🎯 LE FALLBACK ULTIME POUR LES IMAGES MANQUANTES ET RÉCENTES
-    const targetId = char.thumbId || char.id; // On utilise thumbId en priorité
+    
+    // 🎯 LE FALLBACK ULTIME AVEC PROXY ANTI-BLOCAGE
+    const targetId = char.thumbId || char.id; 
+    
+    // 1. Dokkan.fyi (La base officielle, rapide et fiable)
     const f1 = `https://cdn.dokkan.fyi/assets/en/character/thumb/card_${targetId}_thumb.png`;
-    const f2 = `https://dokkaninfo.com/assets/global/character/thumb/card_${targetId}_thumb.png`;
-    const f3 = `https://dokkaninfo.com/assets/japan/character/thumb/card_${targetId}_thumb.png`;
+    
+    // 2. Le Proxy vers DokkanInfo (Global) - Contourne la sécurité !
+    const f2 = `https://wsrv.nl/?url=dokkaninfo.com/assets/global/character/thumb/card_${targetId}_thumb.png`;
+    
+    // 3. Le Proxy vers DokkanInfo (Japonais) - Pour les persos tout récents !
+    const f3 = `https://wsrv.nl/?url=dokkaninfo.com/assets/japan/character/thumb/card_${targetId}_thumb.png`;
+    
+    // 4. La croix par défaut
     const f4 = `https://placehold.co/${px}x${px}/1e1e24/FFF?text=X`; 
+    
     const errorChain = `this.onerror=null; this.src='${f1}'; this.onerror=function(){this.src='${f2}'; this.onerror=function(){this.src='${f3}'; this.onerror=function(){this.src='${f4}'};};};`;
-
+    
     return `<div
     class="unit-card${lrClass}${inBoxClass} rarity-${rarity.toLowerCase()}"
     id="unit-${char.id}"
