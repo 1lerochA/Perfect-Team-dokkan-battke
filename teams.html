@@ -293,6 +293,7 @@
             const actions = document.createElement('div');
             actions.className = 'team-actions';
             actions.innerHTML = `
+                <button style="background:linear-gradient(135deg, #3498db, #2980b9); color:white; border:none; padding:8px 15px; border-radius:8px; cursor:pointer; font-weight:bold; font-family:'Bangers', cursive; font-size:1.1rem;" onclick="analyzeTeam('${team.id}')">📊 ANALYSER</button>
                 <button class="btn-sm btn-delete" onclick="deleteTeam(${team.id})">🗑️ Supprimer</button>`;
             card.appendChild(actions);
 
@@ -315,8 +316,11 @@
                 const tmp = document.createElement('div');
                 tmp.innerHTML = createDokkanCard(char, { isInBox: false });
                 const cardEl = tmp.firstElementChild;
-                cardEl.onclick = null;
-                cardEl.style.cursor = 'default';
+                cardEl.onclick = () => {
+                    if (typeof handleUnitClick === 'function') handleUnitClick(char.id);
+                };
+                cardEl.style.cursor = 'pointer';
+                
                 wrapper.appendChild(cardEl);
 
                 const label = document.createElement('div');
@@ -464,7 +468,148 @@
                 .replace(/>/g, '&gt;')
                 .replace(/"/g, '&quot;');
         }
+        const analyzerHTML = `
+        <div id="analyzer-modal" style="display:none; position:fixed; inset:0; background:rgba(0,0,0,0.9); z-index:9999; backdrop-filter:blur(10px); justify-content:center; align-items:center; padding:20px;">
+            <div style="background:#111820; border:2px solid #3498db; border-radius:20px; width:100%; max-width:800px; max-height:90vh; overflow-y:auto; position:relative; box-shadow:0 20px 60px rgba(0,0,0,0.9); padding:40px;">
+                <button onclick="closeAnalyzer()" style="position:absolute; top:20px; right:25px; background:rgba(255,255,255,0.1); border:none; color:#fff; font-size:1.5rem; cursor:pointer; width:40px; height:40px; border-radius:50%; transition:0.2s;">✕</button>
+                
+                <div style="text-align:center; border-bottom:1px solid rgba(255,255,255,0.1); padding-bottom:20px; margin-bottom:30px;">
+                    <h2 style="font-family:'Bangers', cursive; font-size:3rem; color:#3498db; margin:0; letter-spacing:2px;">📊 RAPPORT DU COACH DOKKAN</h2>
+                    <p style="color:#aaa; font-style:italic; margin-top:5px;" id="analyzer-team-name"></p>
+                </div>
+                
+                <div id="analyzer-content" style="display:flex; flex-direction:column; gap:20px;">
+                    </div>
+            </div>
+        </div>
+        `;
+        document.body.insertAdjacentHTML('beforeend', analyzerHTML);
 
+        window.closeAnalyzer = function() {
+            document.getElementById('analyzer-modal').style.display = 'none';
+        };
+
+        // 2. Le Cerveau de l'IA (V2 - Impitoyable)
+        window.analyzeTeam = function(teamId) {
+            const savedTeams = JSON.parse(localStorage.getItem('dokkanSavedTeams')) || [];
+            const team = savedTeams.find(t => t.id == teamId); 
+            if (!team) return;
+
+            const leader = dokkanCharacters.find(c => c.id === team.leaderId);
+            const members = team.memberIds.map(id => dokkanCharacters.find(c => c.id === id)).filter(c => c);
+
+            if (!leader) {
+                alert("Leader introuvable pour cette équipe !");
+                return;
+            }
+
+            document.getElementById('analyzer-team-name').textContent = team.name;
+
+            // --- ANALYSE DES STATS ---
+            let tankCount = 0;
+            let supportCount = 0;
+            let totalLinks = 0;
+            let offLeaderCatCount = 0; // Compteur des "intrus" hors du Leader Skill
+            let fullTeam = [leader, ...members];
+
+            // 1. Vérification du Leader Skill
+            let leaderCats = [];
+            if (leader.leaderSkill) {
+                const catRegex = /"([^"]+)"/g;
+                let match;
+                while ((match = catRegex.exec(leader.leaderSkill)) !== null) {
+                    leaderCats.push(match[1]);
+                }
+            }
+
+            members.forEach(m => {
+                let isCovered = false;
+                if (leaderCats.length > 0) {
+                    leaderCats.forEach(c => {
+                        if (m.categories.includes(c) || m.name.toLowerCase().includes(c.toLowerCase())) isCovered = true;
+                    });
+                    if (leader.leaderSkill.includes("Super Type") && m.alignment === "SUPER") isCovered = true;
+                    if (leader.leaderSkill.includes("Extreme Type") && m.alignment === "EXTRÊME") isCovered = true;
+                    if (leader.leaderSkill.includes("All Types")) isCovered = true;
+                    
+                    if (!isCovered) offLeaderCatCount++; // ALERTE INTRUS !
+                }
+            });
+
+            // 2. Vérification des Rôles
+            fullTeam.forEach(m => {
+                if (m.roles && m.roles.includes("TANK")) tankCount++;
+                if (m.roles && m.roles.includes("SUPPORT")) supportCount++;
+            });
+
+            // 3. Vérification des Liens (21 paires croisées)
+            for (let x = 0; x < fullTeam.length; x++) {
+                for (let y = x + 1; y < fullTeam.length; y++) {
+                    if (fullTeam[x].links && fullTeam[y].links) {
+                        totalLinks += fullTeam[x].links.filter(l => fullTeam[y].links.includes(l)).length;
+                    }
+                }
+            }
+
+            // --- GÉNÉRATION DES COMMENTAIRES ---
+            let commentsHTML = "";
+
+            // CRITÈRE 0 : LEADER SKILL (Le plus important !)
+            if (offLeaderCatCount > 0) {
+                commentsHTML += createAnalysisBlock("C", "ERREUR DE LEADER SKILL", `Alerte rouge ! <b>${offLeaderCatCount} personnage(s)</b> ne bénéficient d'aucun bonus du leader. Cette équipe va se faire écraser.`, "#e74c3c");
+            } else {
+                commentsHTML += createAnalysisBlock("Z", "Cohésion d'Équipe", `Tous les membres de l'équipe bénéficient du Leader Skill. C'est la base d'une équipe gagnante !`, "#e74c3c"); // Couleur rouge Z
+            }
+
+            // CRITÈRE 1 : SYNERGIE (Les Liens)
+            if (totalLinks >= 120) {
+                commentsHTML += createAnalysisBlock("Z", "Synergie Divine", `L'équipe partage la somme folle de <b>${totalLinks} liens</b>. C'est le sommet de la méta Dokkan, les attaques spéciales vont pleuvoir.`, "#e74c3c");
+            } else if (totalLinks >= 80) {
+                commentsHTML += createAnalysisBlock("S", "Synergie Parfaite", `L'équipe partage <b>${totalLinks} liens</b>. La cohésion est absolue !`, "#f39c12");
+            } else if (totalLinks >= 50) {
+                commentsHTML += createAnalysisBlock("A", "Bonne Synergie", `L'équipe partage <b>${totalLinks} liens</b>. C'est solide, mais gère bien tes rotations.`, "#2ecc71");
+            } else {
+                commentsHTML += createAnalysisBlock("B", "Problème de Ki", `L'équipe ne partage que <b>${totalLinks} liens</b>. Tu vas galérer à rassembler assez de Ki.`, "#bdc3c7");
+            }
+
+            // CRITÈRE 2 : SURVIE (Les Tanks)
+            if (tankCount >= 4) {
+                commentsHTML += createAnalysisBlock("Z", "Forteresse Imprenable", `Tu as <b>${tankCount} personnages défensifs (Tanks)</b>. Tu es littéralement immortel face aux pires Red Zones.`, "#e74c3c");
+            } else if (tankCount >= 2) {
+                commentsHTML += createAnalysisBlock("S", "Mur de Fer", `Tu as <b>${tankCount} personnages défensifs</b>. C'est un excellent équilibre pour la survie.`, "#f39c12");
+            } else if (tankCount === 1) {
+                commentsHTML += createAnalysisBlock("A", "Défense Légère", `Tu n'as qu'<b>un seul vrai Tank</b>. Il va falloir le placer en première position pour protéger la rotation.`, "#2ecc71");
+            } else {
+                commentsHTML += createAnalysisBlock("C", "Danger de Mort", `<b>Aucun Tank détecté !</b> C'est une équipe kamikaze, tu n'as pas le droit à l'erreur.`, "#e74c3c");
+            }
+
+            // CRITÈRE 3 : UTILITAIRE (Les Supports)
+            if (supportCount >= 3) {
+                commentsHTML += createAnalysisBlock("Z", "Soutien Divin", `Avec <b>${supportCount} Support(s)</b>, tes attaquants vont atteindre des valeurs de dégâts astronomiques.`, "#e74c3c");
+            } else if (supportCount >= 1) {
+                commentsHTML += createAnalysisBlock("S", "Soutien Actif", `Tu as <b>${supportCount} Support(s)</b> dans l'équipe pour fluidifier la rotation. Excellent choix.`, "#f39c12");
+            } else {
+                commentsHTML += createAnalysisBlock("A", "Force Brute", `Tu n'as <b>aucun Support</b>. L'équipe est centrée sur la performance pure de chaque personnage.`, "#2ecc71");
+            }
+
+            document.getElementById('analyzer-content').innerHTML = commentsHTML;
+            document.getElementById('analyzer-modal').style.display = 'flex';
+        };
+
+        // Fonction utilitaire pour dessiner les blocs d'analyse
+        function createAnalysisBlock(note, titre, texte, couleur) {
+            return `
+                <div style="display:flex; align-items:flex-start; gap:20px; background:rgba(255,255,255,0.03); padding:20px; border-radius:12px; border-left:5px solid ${couleur};">
+                    <div style="background:${couleur}; color:#fff; font-family:'Bangers', cursive; font-size:1.8rem; width:45px; height:45px; display:flex; align-items:center; justify-content:center; border-radius:8px; flex-shrink:0; text-shadow:2px 2px 0 #000;">
+                        ${note}
+                    </div>
+                    <div>
+                        <h3 style="margin:0 0 8px 0; color:${couleur}; font-family:'Bangers', cursive; font-size:1.5rem; letter-spacing:1px;">${titre}</h3>
+                        <p style="margin:0; color:#ddd; line-height:1.6;">${texte}</p>
+                    </div>
+                </div>
+            `;
+        }
         renderTeams();
     </script>
 </body>

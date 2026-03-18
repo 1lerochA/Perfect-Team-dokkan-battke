@@ -532,6 +532,9 @@
             generatedTeams.sort((a, b) => b.score - a.score);
 
             renderGeneratedTeams();
+            sessionStorage.setItem('dokkanTempTeams', JSON.stringify(generatedTeams));
+            sessionStorage.setItem('dokkanTempLeaderId', selectedLeader ? selectedLeader.id : null);
+            sessionStorage.setItem('dokkanTempFriendId', friendLeader ? friendLeader.id : null);
         };
 
         window.toggleDetails = function(teamId) {
@@ -558,6 +561,9 @@
 
                 const headerBar = document.createElement('div');
                 headerBar.className = 'team-header-bar';
+                const isSaved = team.savedId != null;
+                const btnText = isSaved ? '✅ SAUVEGARDÉE !' : '❤️ SAUVEGARDER';
+                const btnBg = isSaved ? 'linear-gradient(135deg,#27ae60,#145c33)' : '#e74c3c';
                 headerBar.innerHTML = `
                     <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:15px; border-bottom:1px solid rgba(255,255,255,0.1); padding-bottom:15px; flex-wrap:wrap; gap:15px;">
                         
@@ -573,85 +579,100 @@
                         <div style="display:flex; gap:10px; margin-left:auto;">
                             <button style="background:rgba(255,255,255,0.05); border:1px solid rgba(255,255,255,0.2); padding:10px 15px; border-radius:8px; color:#fff; cursor:pointer; font-weight:bold; transition:0.2s;" onmouseover="this.style.background='rgba(255,255,255,0.15)'" onmouseout="this.style.background='rgba(255,255,255,0.05)'" onclick="toggleDetails(${team.id})">👁️ DÉTAILS</button>
                             
-                            <button class="btn-like" style="background:#e74c3c; color:#fff; padding:10px 15px; border:none; border-radius:8px; font-weight:bold; cursor:pointer; font-family:'Bangers', cursive; font-size:1.1rem; letter-spacing:1px;" onclick="likeTeam(${tIndex})">❤️ SAUVEGARDER</button>
+                            <button class="btn-like" style="background:${btnBg}; color:#fff; padding:10px 15px; border:none; border-radius:8px; font-weight:bold; cursor:pointer; font-family:'Bangers', cursive; font-size:1.1rem; letter-spacing:1px;" onclick="likeTeam(${tIndex})">${btnText}</button>
                         </div>
                     </div>
                 `;
                 teamSection.appendChild(headerBar);
 
+                // ==========================================
+                // 1. LA LIGNE PRINCIPALE (Avec les petites cartes)
+                // ==========================================
                 const unitsRow = document.createElement('div');
                 unitsRow.className = 'team-units-row';
                 unitsRow.style.display = 'flex';
                 unitsRow.style.gap = '10px';
                 unitsRow.style.flexWrap = 'wrap';
-                unitsRow.style.justifyContent = 'center';
-
-                const myBoxIds = JSON.parse(localStorage.getItem('dokkanBox')) || [];
                 
-                // 🎯 RÈGLE : On cache le badge "ACQUIS" si l'équipe vient de la Box
                 const isFromBox = team.source === 'Ma Box';
+                const myBoxIds = JSON.parse(localStorage.getItem('dokkanBox')) || [];
 
-                const showLeaderBadge = isFromBox ? false : myBoxIds.includes(team.leader.id);
-                unitsRow.innerHTML += `
-                    <div style="display:flex;flex-direction:column;align-items:center;gap:5px;">
-                        ${createDokkanCard(team.leader, { isInBox: showLeaderBadge })}
-                        <span style="font-size:0.7rem;color:var(--accent-gold);font-weight:900;">LEADER</span>
-                    </div>`;
+                // Leader
+                unitsRow.innerHTML += `<div style="display:flex;flex-direction:column;align-items:center;gap:5px;">${createDokkanCard(team.leader, { isInBox: isFromBox ? false : myBoxIds.includes(team.leader.id) })}<span style="font-size:0.7rem;color:var(--accent-gold);font-weight:900;">LEADER</span></div>`;
 
+                // Members
                 team.members.forEach(m => {
-                    const showMemberBadge = isFromBox ? false : myBoxIds.includes(m.id);
-                    unitsRow.innerHTML += `
-                        <div style="display:flex;flex-direction:column;align-items:center;gap:5px;">
-                            ${createDokkanCard(m, { isInBox: showMemberBadge })}
-                            <span style="font-size:0.7rem;color:#aaa;">MEMBRE</span>
-                        </div>`;
+                    unitsRow.innerHTML += `<div style="display:flex;flex-direction:column;align-items:center;gap:5px;">${createDokkanCard(m, { isInBox: isFromBox ? false : myBoxIds.includes(m.id) })}<span style="font-size:0.7rem;color:#aaa;">MEMBRE</span></div>`;
                 });
 
-                const showFriendBadge = isFromBox ? false : myBoxIds.includes(team.friend.id);
-                unitsRow.innerHTML += `
-                    <div style="display:flex;flex-direction:column;align-items:center;gap:5px;">
-                        ${createDokkanCard(team.friend, { isFriend: true, isInBox: showFriendBadge })}
-                        <span style="font-size:0.7rem;color:var(--accent-blue);font-weight:900;">AMI</span>
-                    </div>`;
+                // Ami Leader
+                unitsRow.innerHTML += `<div style="display:flex;flex-direction:column;align-items:center;gap:5px;">${createDokkanCard(team.friend, { isFriend: true, isInBox: isFromBox ? false : myBoxIds.includes(team.friend.id) })}<span style="font-size:0.7rem;color:var(--accent-blue);font-weight:900;">AMI</span></div>`;
 
+
+                // ==========================================
+                // 2. LA ZONE DÉTAILS (Leader, Membres et Ami !)
+                // ==========================================
+                const detailsDiv = document.createElement('div');
+                detailsDiv.className = 'team-details';
+                detailsDiv.id = 'details-' + team.id;
+                detailsDiv.style.display = 'none'; // Caché par défaut
+                detailsDiv.style.marginTop = '20px';
+
+                let detailsHtml = '';
+                
+                // 🎯 CORRECTION : On rassemble TOUTE l'équipe pour la liste !
+                const allUnits = [team.leader, ...team.members, team.friend];
+
+                allUnits.forEach((m, uIndex) => {
+                    if(!m) return;
+                    
+                    // 🎯 CORRECTION : On cache le badge "Acquis" si ça vient de la box
+                    const showBadge = isFromBox ? false : myBoxIds.includes(m.id);
+                    
+                    let roleText = "MEMBRE";
+                    let roleColor = "#aaa";
+                    if(uIndex === 0) { roleText = "LEADER"; roleColor = "var(--accent-gold)"; }
+                    else if(uIndex === allUnits.length - 1) { roleText = "AMI LEADER"; roleColor = "var(--accent-blue)"; }
+
+                    let sharedLinks = 0;
+                    if (m.id !== team.leader.id && m.links && team.leader.links) {
+                        sharedLinks = m.links.filter(l => team.leader.links.includes(l)).length;
+                    }
+
+                    detailsHtml += `
+                        <div style="display:flex; align-items:center; gap:20px; background:rgba(255,255,255,0.03); padding:15px; border-radius:12px; margin-bottom:10px; border-left:4px solid ${roleColor};">
+                            <div style="flex-shrink:0;">
+                                ${createDokkanCard(m, { size: 'md', isInBox: showBadge })}
+                            </div>
+                            <div style="flex:1;">
+                                <h4 style="margin:0 0 5px 0; color:#fff; font-family:'Bangers', cursive; font-size:1.4rem; letter-spacing:1px;">
+                                    ${m.name} <span style="font-size:0.9rem; color:${roleColor};">(${roleText})</span>
+                                </h4>
+                                
+                                <div style="display:flex; gap:10px; flex-wrap:wrap; margin-top:10px;">
+                                    ${(m.id !== team.leader.id) 
+                                        ? `<span style="background:rgba(255,255,255,0.1); padding:4px 10px; border-radius:20px; font-size:0.85rem; color:#ddd;">🔗 ${sharedLinks} Liens avec Leader</span>` 
+                                        : `<span style="background:rgba(243,156,18,0.2); padding:4px 10px; border-radius:20px; font-size:0.85rem; color:var(--accent-gold);">👑 Personnage Référent</span>`
+                                    }
+                                    
+                                    ${(m.roles && m.roles.length > 0) 
+                                        ? m.roles.map(r => `<span style="background:rgba(52, 152, 219, 0.2); border:1px solid #3498db; color:#3498db; padding:4px 10px; border-radius:20px; font-size:0.85rem; font-weight:bold;">${r}</span>`).join('') 
+                                        : ''
+                                    }
+                                </div>
+                            </div>
+                        </div>
+                    `;
+                });
+
+                detailsDiv.innerHTML = detailsHtml;
+
+                // On accroche tout ça à la carte de l'équipe !
                 teamSection.appendChild(unitsRow);
-
-                const detailsList = document.createElement('div');
-                detailsList.id = 'details-' + team.id; 
-                detailsList.style.display = 'none';
-                detailsList.style.marginTop = '20px';
-                detailsList.style.borderTop = '1px solid rgba(255,255,255,0.1)';
-                detailsList.style.paddingTop = '15px';
-
-                team.members.forEach(m => {
-                    const row = document.createElement('div');
-                    row.className = 'member-row';
-                    row.style.padding = '8px 15px';
-                    row.style.marginBottom = '8px';
-
-                    const wrap = document.createElement('div');
-                    wrap.className = 'member-card-wrap';
-                    wrap.style.width = '70px';
-                    wrap.style.height = '70px';
-                    wrap.innerHTML = createDokkanCard(m, { size: 'sm', isInBox: myBoxIds.includes(m.id) });
-                    row.appendChild(wrap);
-
-                    const details = document.createElement('div');
-                    details.className = 'member-details';
-                    details.style.marginLeft = '12px';
-                    details.innerHTML = `
-                        <h3 style="font-size:1.1rem;margin:0;">${m.name}</h3>
-                        <div class="synergy-pills">
-                            <span class="pill">🔗 ${m.sharedLinksWithLeader} Liens avec Leader</span>
-                            <span class="pill score">Score de Synergie : ${Math.floor(m.finalScore)} pts</span>
-                        </div>`;
-                    row.appendChild(details);
-                    detailsList.appendChild(row);
-                });                
-                teamSection.appendChild(detailsList);
+                teamSection.appendChild(detailsDiv);
                 resultsDiv.appendChild(teamSection);
             });
-        };
+        }
 
         // ---- SAVE TEAM ----
         // ---- SAVE / UNSAVE TEAM (Interrupteur) ----
@@ -713,7 +734,25 @@
                     btn.style.color = '#ffffff';
                 }
             }
+            sessionStorage.setItem('dokkanTempTeams', JSON.stringify(generatedTeams));
+            sessionStorage.setItem('dokkanTempLeaderId', selectedLeader ? selectedLeader.id : null);
+            sessionStorage.setItem('dokkanTempFriendId', friendLeader ? friendLeader.id : null);
         };
+        window.addEventListener('DOMContentLoaded', () => {
+            // 1. On restaure les équipes générées
+            const tempTeams = sessionStorage.getItem('dokkanTempTeams');
+            if (tempTeams) {
+                generatedTeams = JSON.parse(tempTeams);
+                renderGeneratedTeams();
+            }
+
+            // 2. On restaure le Leader sélectionné (La magie opère ici !)
+            const savedLeaderId = sessionStorage.getItem('dokkanTempLeaderId');
+            if (savedLeaderId && savedLeaderId !== "null") {
+                // On appelle ta propre fonction qui affiche la grosse carte et cache la recherche !
+                selectLeader(parseInt(savedLeaderId));
+            }
+        });
         
     </script>
 </body>

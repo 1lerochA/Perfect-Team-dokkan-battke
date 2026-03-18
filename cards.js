@@ -351,19 +351,20 @@ window.handleUnitClick = function(id) {
                     <p>${formatText(char.activeSkill)}</p>
                 </div>` : ''}
 
-                <div class="skill-block" style="border-left-color: #9b59b6;">
+                <div class="skill-block" style="border-left-color: var(--accent-gold);">
+                    <h3 style="color: var(--accent-gold);">🏷️ CATEGORIES</h3>
+                    <div class="tags-container">
+                        ${categoriesHTML}
+                    </div>
+
+                </div>
+                    <div class="skill-block" style="border-left-color: #9b59b6;">
                     <h3 style="color: #9b59b6;">🔗 LINKS</h3>
                     <div class="tags-container">
                         ${linksHTML}
                     </div>
                 </div>
                 
-                <div class="skill-block" style="border-left-color: var(--accent-gold);">
-                    <h3 style="color: var(--accent-gold);">🏷️ CATEGORIES</h3>
-                    <div class="tags-container">
-                        ${categoriesHTML}
-                    </div>
-                </div>
             </div>
         </div>
     `;
