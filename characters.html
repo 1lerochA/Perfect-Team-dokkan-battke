@@ -14,6 +14,39 @@
             margin-bottom: 30px;
             border: 1px solid rgba(255,255,255,0.05);
         }
+        .pagination-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+            margin-top: 40px;
+            margin-bottom: 40px;
+        }
+        .btn-page {
+            background: rgba(0,0,0,0.6);
+            border: 2px solid var(--accent-gold);
+            color: var(--accent-gold);
+            padding: 10px 20px;
+            border-radius: 8px;
+            font-family: 'Bangers', cursive;
+            font-size: 1.5rem;
+            cursor: pointer;
+            transition: 0.2s;
+        }
+        .btn-page:hover:not(:disabled) {
+            background: var(--accent-gold);
+            color: #000;
+        }
+        .btn-page:disabled {
+            border-color: #555;
+            color: #555;
+            cursor: not-allowed;
+        }
+        .page-info {
+            font-size: 1.2rem;
+            font-weight: bold;
+            color: white;
+        }
     </style>
 </head>
 <body>
@@ -56,16 +89,16 @@
         let currentRarityFilter = 'ALL';
         let searchQuery = '';
         
-        
-        // On récupère ta Box pour afficher le badge "ACQUIS" sur les persos que tu as déjà !
-        const myBoxIds = JSON.parse(localStorage.getItem('dokkanBox')) || [];
+        let pageActuelle = 1;
+        const persosParPage = 150; 
 
+        const myBoxIds = JSON.parse(localStorage.getItem('dokkanBox')) || [];
         const grid = document.getElementById('dokkan-grid');
 
         function renderCharacters() {
+            if (!grid) return;
             grid.innerHTML = '';
             
-            // 1. Filtrage multiple
             let filtered = dokkanCharacters.filter(c => {
                 const matchType = currentTypeFilter === 'ALL' || c.type === currentTypeFilter;
                 const matchRarity = currentRarityFilter === 'ALL' || c.rarity === currentRarityFilter;
@@ -73,39 +106,27 @@
                 return matchType && matchRarity && matchSearch;
             });
 
-            // 2. Tri (les plus récents en premier grâce à l'ID qui décroît)
-            // 2. Tri par Rareté d'abord, puis par nouveauté (ID)
             const rarityOrder = ['LR', 'UR', 'SSR', 'SR', 'R', 'N'];
             filtered.sort((a, b) => {
                 const rankA = rarityOrder.indexOf(a.rarity);
                 const rankB = rarityOrder.indexOf(b.rarity);
-                
-                // S'ils n'ont pas la même rareté, on met le meilleur grade (LR) en premier
-                if (rankA !== rankB) {
-                    return rankA - rankB; 
-                }
-                // S'ils ont la même rareté (ex: deux LR), on met le plus récent en premier
+                if (rankA !== rankB) return rankA - rankB; 
                 return b.id - a.id;
             });
 
-            // 3. Affichage du compteur
-            document.getElementById('results-count').innerHTML = `<strong style="color:var(--accent-gold)">${filtered.length}</strong> personnage(s) trouvé(s)`;
-
-            // 4. On limite l'affichage à 100 personnages simultanés pour ne pas faire lagger le navigateur
-            const LIMIT = 100;
-            const toDisplay = filtered.slice(0, LIMIT);
-
-            if (filtered.length > LIMIT) {
-                const info = document.createElement('p');
-                info.style.cssText = "grid-column:1/-1; text-align:center; color:#888; font-style:italic; margin-bottom: 15px;";
-                info.textContent = `Affichage des ${LIMIT} premiers résultats. Utilise la recherche pour affiner.`;
-                grid.appendChild(info);
+            const countEl = document.getElementById('results-count');
+            if (countEl) {
+                countEl.innerHTML = `<strong style="color:var(--accent-gold)">${filtered.length}</strong> personnage(s) trouvé(s)`;
             }
 
-            // 5. Création des cartes
+            const totalDesPages = Math.ceil(filtered.length / persosParPage) || 1;
+            if (pageActuelle > totalDesPages) pageActuelle = totalDesPages;
+
+            const startIndex = (pageActuelle - 1) * persosParPage;
+            const toDisplay = filtered.slice(startIndex, startIndex + persosParPage);
+
             toDisplay.forEach(char => {
                 const tmp = document.createElement('div');
-                // L'astuce : On lui passe isInBox pour que tu voies directement ceux qu'il te manque !
                 tmp.innerHTML = createDokkanCard(char, { size: 'md', isInBox: myBoxIds.includes(char.id) });
                 const cardEl = tmp.firstElementChild;
                 
@@ -118,11 +139,36 @@
             if (filtered.length === 0) {
                 grid.innerHTML = '<p style="grid-column:1/-1; text-align:center; color:#888;">Aucun personnage ne correspond à tes critères.</p>';
             }
+
+            renderPagination(totalDesPages);
         }
 
-        // --- ÉCOUTEURS D'ÉVÉNEMENTS POUR LES FILTRES ---
+        function renderPagination(totalDesPages) {
+            let oldPagination = document.getElementById('pagination-controls');
+            if (oldPagination) oldPagination.remove();
+
+            const paginationDiv = document.createElement('div');
+            paginationDiv.id = 'pagination-controls';
+            paginationDiv.className = 'pagination-container';
+            
+            paginationDiv.innerHTML = `
+                <button class="btn-page" onclick="changePage(-1)" ${pageActuelle === 1 ? 'disabled' : ''}>⬅️ PRÉCÉDENT</button>
+                <span class="page-info">PAGE ${pageActuelle} / ${totalDesPages}</span>
+                <button class="btn-page" onclick="changePage(1)" ${pageActuelle === totalDesPages ? 'disabled' : ''}>SUIVANT ➡️</button>
+            `;
+
+            grid.parentNode.insertBefore(paginationDiv, grid.nextSibling);
+        }
+
+        window.changePage = function(direction) {
+            pageActuelle += direction;
+            renderCharacters();
+            window.scrollTo({ top: 0, behavior: 'smooth' }); 
+        };
+
         document.getElementById('searchInput').addEventListener('input', e => {
             searchQuery = e.target.value;
+            pageActuelle = 1;
             renderCharacters();
         });
 
@@ -131,6 +177,7 @@
                 document.querySelectorAll('[data-type]').forEach(b => b.classList.remove('active'));
                 btn.classList.add('active');
                 currentTypeFilter = btn.dataset.type;
+                pageActuelle = 1; 
                 renderCharacters();
             });
         });
@@ -140,11 +187,11 @@
                 document.querySelectorAll('[data-rarity]').forEach(b => b.classList.remove('active'));
                 btn.classList.add('active');
                 currentRarityFilter = btn.dataset.rarity;
+                pageActuelle = 1; 
                 renderCharacters();
             });
         });
 
-        // On lance le premier affichage
         renderCharacters();
     </script>
 </body>

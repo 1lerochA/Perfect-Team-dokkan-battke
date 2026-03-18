@@ -348,9 +348,6 @@
 
                 teamCandidates.sort((a, b) => b.finalScore - a.finalScore);
 
-                // ==========================================
-                // 🧠 LE CERVEAU IA DU GÉNÉRATEUR (V2 - Strict Catégorie)
-                // ==========================================
                 let members = [];
                 let usedIds = new Set([selectedLeader.id]); 
                 if (friendLeader) usedIds.add(friendLeader.id);
@@ -367,24 +364,20 @@
                     });
 
                     let bestCandidate = null;
-                    let bestScore = -99999; // On démarre très bas pour éliminer les mauvais
+                    let bestScore = -99999;
 
                     for (let candidate of teamCandidates) {
                         if (usedIds.has(candidate.id)) continue;
 
                         let score = 0;
 
-                        // 🥇 RÈGLE ABSOLUE N°1 : Toutes les Catégories du Leader Skill
                         let isCatMatch = false;
 
-                        // Si on génère via une catégorie ciblée (Bouton "CATÉGORIE")
                         if (config.type === 'CAT') {
                             isCatMatch = candidate.categories.includes(config.cat) || 
                                          candidate.name.toLowerCase().includes(config.cat.toLowerCase());
                         } 
-                        // Si on génère via un Leader précis (Bouton "PERSONNAGE")
                         else if (selectedLeader.leaderSkill) {
-                            // On extrait TOUTES les catégories du Leader Skill (ex: "DAIMA", "Battle of Fate", "Goku's Family")
                             const catRegex = /"([^"]+)" Category/g;
                             let match;
                             let leaderCategories = [];
@@ -392,12 +385,10 @@
                                 leaderCategories.push(match[1]);
                             }
 
-                            // Si le Leader a un skill générique (Super Type, Extrême Type...)
                             if (selectedLeader.leaderSkill.includes("Super Type") && candidate.alignment === "SUPER") isCatMatch = true;
                             if (selectedLeader.leaderSkill.includes("Extreme Type") && candidate.alignment === "EXTRÊME") isCatMatch = true;
                             if (selectedLeader.leaderSkill.includes("All Types")) isCatMatch = true;
 
-                            // On vérifie si le candidat appartient à au moins UNE des catégories du leader
                             leaderCategories.forEach(cat => {
                                 if (candidate.categories.includes(cat) || candidate.name.toLowerCase().includes(cat.toLowerCase())) {
                                     isCatMatch = true;
@@ -405,26 +396,23 @@
                             });
                         }
 
-                        // Attribution des points : Le candidat entre dans le Leader Skill
                         if (isCatMatch) {
                             score += 5000;
                         } else {
-                            score -= 2000; // S'il ne rentre dans AUCUNE condition du Leader, c'est mort !
+                            score -= 2000; 
                         }
 
-                        // 🥈 RÈGLE N°2 : Le calcul du 200% (Le bonus additionnel)
                         if (selectedLeader.leaderSkill) {
                             const additionalRegex = /additional HP, ATK & DEF \+\d+% for characters who also belong to the "([^"]+)"/i;
                             const match = selectedLeader.leaderSkill.match(additionalRegex);
                             if (match && match[1]) {
                                 const bonusCat = match[1];
                                 if (candidate.categories.includes(bonusCat)) {
-                                    score += 1500; // Le perso prend le bonus complet !
+                                    score += 1500; 
                                 }
                             }
                         }
 
-                        // 🥉 RÈGLE N°3 : La Synergie des Liens
                         let sharedLinks = 0;
                         if (candidate.links) {
                             currentTeam.forEach(member => {
@@ -433,9 +421,8 @@
                                 }
                             });
                         }
-                        score += (sharedLinks * 50); // Important !
+                        score += (sharedLinks * 50);
 
-                        // 🎖️ LES BONUS TACTIQUES : Rôles & Couleurs
                         if (!hasTank && candidate.roles && candidate.roles.includes("TANK")) {
                             score += 200; 
                         }
@@ -460,9 +447,6 @@
                     }
                 }
 
-                // ==========================================
-                // 📊 LE CALCULATEUR DE RANG ET DE SCORE GLOBAL
-                // ==========================================
                 let fullTeam = [selectedLeader, ...members];
                 if (friendLeader) fullTeam.push(friendLeader);
 
@@ -472,12 +456,10 @@
                 let count200 = 0;
                 let totalLinks = 0;
 
-                // 1. Analyse des stats de l'équipe
                 fullTeam.forEach(m => {
                     if (m.roles && m.roles.includes("TANK")) hasTank = true;
                     if (m.roles && m.roles.includes("SUPPORT")) hasSupport = true;
-                    
-                    // Vérification du 200%
+
                     if (selectedLeader.leaderSkill) {
                         const addRegex = /additional HP, ATK & DEF \+\d+% for characters who also belong to the "([^"]+)"/i;
                         const match = selectedLeader.leaderSkill.match(addRegex);
@@ -487,7 +469,6 @@
                     }
                 });
 
-                // 2. Calcul des liens partagés dans toute l'équipe
                 for (let x = 0; x < fullTeam.length; x++) {
                     for (let y = x + 1; y < fullTeam.length; y++) {
                         if (fullTeam[x].links && fullTeam[y].links) {
@@ -496,24 +477,20 @@
                     }
                 }
 
-                // 3. Le Barème de points
                 teamScore = (totalLinks * 10) + (count200 * 50) + (hasTank ? 150 : 0) + (hasSupport ? 100 : 0);
 
                 let rank = "B";
-                let rankColor = "#bdc3c7"; // Gris
-                if (teamScore >= 1200) { rank = "Z"; rankColor = "#e74c3c"; } // Rouge : Team Parfaite
-                else if (teamScore >= 900) { rank = "S"; rankColor = "#f39c12"; } // Doré : Excellente
-                else if (teamScore >= 600) { rank = "A"; rankColor = "#2ecc71"; } // Vert : Bonne
+                let rankColor = "#bdc3c7"; 
+                if (teamScore >= 1200) { rank = "Z"; rankColor = "#e74c3c"; } 
+                else if (teamScore >= 900) { rank = "S"; rankColor = "#f39c12"; } 
+                else if (teamScore >= 600) { rank = "A"; rankColor = "#2ecc71"; } 
 
-                // 5. La correction du NOM de la Team !
                 let finalTeamName = "TEAM " + (config.type === 'CAT' ? config.cat.toUpperCase() : selectedLeader.name.toUpperCase());
                 
-                // Si la team est vraiment nulle (Rank B), on l'appelle Alternative
                 if (teamScore < 350) {
                     finalTeamName = "TEAM ALTERNATIVE (" + selectedLeader.name.toUpperCase() + ")";
                 }
 
-                // 6. Sauvegarde de l'équipe générée
                 generatedTeams.push({
                     id: Date.now() + i,
                     teamName: finalTeamName,
@@ -526,9 +503,8 @@
                     source: useFullGame ? 'Tout le jeu' : 'Ma Box',
                     date: new Date().toLocaleDateString('fr-FR')
                 });
-            } // Fin de la boucle for (let i = 0; i < optionsCount; i++)
+            } 
 
-            // On trie les équipes générées : Les Rangs Z en premier, les Rangs B en dernier !
             generatedTeams.sort((a, b) => b.score - a.score);
 
             renderGeneratedTeams();
@@ -585,9 +561,6 @@
                 `;
                 teamSection.appendChild(headerBar);
 
-                // ==========================================
-                // 1. LA LIGNE PRINCIPALE (Avec les petites cartes)
-                // ==========================================
                 const unitsRow = document.createElement('div');
                 unitsRow.className = 'team-units-row';
                 unitsRow.style.display = 'flex';
@@ -597,36 +570,27 @@
                 const isFromBox = team.source === 'Ma Box';
                 const myBoxIds = JSON.parse(localStorage.getItem('dokkanBox')) || [];
 
-                // Leader
                 unitsRow.innerHTML += `<div style="display:flex;flex-direction:column;align-items:center;gap:5px;">${createDokkanCard(team.leader, { isInBox: isFromBox ? false : myBoxIds.includes(team.leader.id) })}<span style="font-size:0.7rem;color:var(--accent-gold);font-weight:900;">LEADER</span></div>`;
 
-                // Members
                 team.members.forEach(m => {
                     unitsRow.innerHTML += `<div style="display:flex;flex-direction:column;align-items:center;gap:5px;">${createDokkanCard(m, { isInBox: isFromBox ? false : myBoxIds.includes(m.id) })}<span style="font-size:0.7rem;color:#aaa;">MEMBRE</span></div>`;
                 });
 
-                // Ami Leader
                 unitsRow.innerHTML += `<div style="display:flex;flex-direction:column;align-items:center;gap:5px;">${createDokkanCard(team.friend, { isFriend: true, isInBox: isFromBox ? false : myBoxIds.includes(team.friend.id) })}<span style="font-size:0.7rem;color:var(--accent-blue);font-weight:900;">AMI</span></div>`;
 
-
-                // ==========================================
-                // 2. LA ZONE DÉTAILS (Leader, Membres et Ami !)
-                // ==========================================
                 const detailsDiv = document.createElement('div');
                 detailsDiv.className = 'team-details';
                 detailsDiv.id = 'details-' + team.id;
-                detailsDiv.style.display = 'none'; // Caché par défaut
+                detailsDiv.style.display = 'none';
                 detailsDiv.style.marginTop = '20px';
 
                 let detailsHtml = '';
-                
-                // 🎯 CORRECTION : On rassemble TOUTE l'équipe pour la liste !
+
                 const allUnits = [team.leader, ...team.members, team.friend];
 
                 allUnits.forEach((m, uIndex) => {
                     if(!m) return;
-                    
-                    // 🎯 CORRECTION : On cache le badge "Acquis" si ça vient de la box
+
                     const showBadge = isFromBox ? false : myBoxIds.includes(m.id);
                     
                     let roleText = "MEMBRE";
@@ -667,15 +631,12 @@
 
                 detailsDiv.innerHTML = detailsHtml;
 
-                // On accroche tout ça à la carte de l'équipe !
                 teamSection.appendChild(unitsRow);
                 teamSection.appendChild(detailsDiv);
                 resultsDiv.appendChild(teamSection);
             });
         }
 
-        // ---- SAVE TEAM ----
-        // ---- SAVE / UNSAVE TEAM (Interrupteur) ----
         window.likeTeam = function(index) {
             const lastGeneratedTeam = generatedTeams[index];
             if (!lastGeneratedTeam) return;
@@ -690,7 +651,6 @@
             const btns = document.querySelectorAll('.btn-like');
             const btn = btns[index];
 
-            // SI L'ÉQUIPE N'EST PAS ENCORE SAUVEGARDÉE
             if (!lastGeneratedTeam.savedId) {
                 const allMembers = lastGeneratedTeam.members.map(m => m.id);
                 if (lastGeneratedTeam.friend) allMembers.push(lastGeneratedTeam.friend.id);
@@ -708,26 +668,20 @@
                 
                 localStorage.setItem('dokkanSavedTeams', JSON.stringify(teams));
                 
-                // On mémorise l'ID pour savoir qu'elle est sauvegardée
                 lastGeneratedTeam.savedId = newTeamId; 
 
-                // On passe le bouton en VERT
                 if (btn) {
                     btn.innerHTML = '✅ SAUVEGARDÉE !';
                     btn.style.background = 'linear-gradient(135deg,#27ae60,#145c33)';
-                    btn.style.color = '#ffffff'; // Texte bien blanc
+                    btn.style.color = '#ffffff';
                 }
             } 
-            // SI L'ÉQUIPE ÉTAIT DÉJÀ SAUVEGARDÉE (On annule !)
             else {
-                // On filtre pour retirer l'équipe de la mémoire
                 teams = teams.filter(t => t.id !== lastGeneratedTeam.savedId);
                 localStorage.setItem('dokkanSavedTeams', JSON.stringify(teams));
                 
-                // On oublie l'ID
                 lastGeneratedTeam.savedId = null;
 
-                // On remet le bouton en ROUGE
                 if (btn) {
                     btn.innerHTML = '❤️ SAUVEGARDER';
                     btn.style.background = '#e74c3c';
@@ -739,17 +693,14 @@
             sessionStorage.setItem('dokkanTempFriendId', friendLeader ? friendLeader.id : null);
         };
         window.addEventListener('DOMContentLoaded', () => {
-            // 1. On restaure les équipes générées
             const tempTeams = sessionStorage.getItem('dokkanTempTeams');
             if (tempTeams) {
                 generatedTeams = JSON.parse(tempTeams);
                 renderGeneratedTeams();
             }
 
-            // 2. On restaure le Leader sélectionné (La magie opère ici !)
             const savedLeaderId = sessionStorage.getItem('dokkanTempLeaderId');
             if (savedLeaderId && savedLeaderId !== "null") {
-                // On appelle ta propre fonction qui affiche la grosse carte et cache la recherche !
                 selectLeader(parseInt(savedLeaderId));
             }
         });

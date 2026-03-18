@@ -277,7 +277,6 @@ const pokedexHTML = `
 
 document.body.insertAdjacentHTML('beforeend', pokedexHTML);
 
-// 3. L'action magique
 window.handleUnitClick = function(id) {
     const char = dokkanCharacters.find(c => c.id === id);
     if(!char) return;
@@ -286,7 +285,6 @@ window.handleUnitClick = function(id) {
     
     const formatText = text => text ? text.replace(/\n/g, '<br>') : '<span style="color:#666;font-style:italic;">Data not available.</span>';
     
-    // Catégories
     let categories = char.categories || [];
     if (categories.length === 0 && char.leaderSkill) {
         const catRegex = /"([^"]+)"/g;
@@ -299,7 +297,6 @@ window.handleUnitClick = function(id) {
         ? categories.map(cat => `<span class="tag-pill category">${cat}</span>`).join('') 
         : '<span style="color:#888;font-style:italic;">No Categories</span>';
 
-    // Liens (Anglais)
     const linksHTML = (char.links && char.links.length > 0)
         ? char.links.map(linkId => {
             const linkName = linkDictionary[linkId] || ("Link ID: " + linkId);
@@ -307,7 +304,6 @@ window.handleUnitClick = function(id) {
         }).join('')
         : '<span style="color:#888;font-style:italic;">No Links</span>';
 
-    // Remplissage en Anglais
     content.innerHTML = `
         <div class="pokedex-grid">
             
@@ -376,6 +372,13 @@ window.closePokedex = function() {
     document.getElementById('pokedex-modal').classList.remove('open');
 };
 
-document.addEventListener('click', e => {
-    if (e.target.id === 'pokedex-modal') window.closePokedex();
+document.addEventListener('keydown', function(event) {
+    if (event.key === 'Escape') {
+        if (typeof window.closePokedex === 'function') {
+            window.closePokedex();
+        }
+        if (typeof window.closeModal === 'function') {
+            window.closeModal();
+        }
+    }
 });

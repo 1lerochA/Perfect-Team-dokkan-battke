@@ -40,10 +40,8 @@ const categoriesToFetch = [
 async function startMassScraping() {
     console.log("🚀 Lancement du Scraper de Masse...");
     
-    // On crée un dictionnaire : "ID_PERSO" -> ["CAT1", "CAT2"]
     let charToCatMap = {};
 
-    // Si on a déjà un fichier, on le charge pour compléter
     if (fs.existsSync('wiki_categories_dict.json')) {
         charToCatMap = JSON.parse(fs.readFileSync('wiki_categories_dict.json', 'utf8'));
     }
@@ -52,7 +50,6 @@ async function startMassScraping() {
         console.log(`📥 Récupération de la catégorie : ${cat.name}...`);
         
         try {
-            // Cette URL du Wiki donne TOUS les persos d'une catégorie d'un coup !
             const response = await fetch(`https://dokkan.wiki/api/categories/${cat.id}`, {
                 headers: {
                     'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/122.0.0.0 Safari/537.36',
@@ -67,11 +64,9 @@ async function startMassScraping() {
 
             const data = await response.json();
             
-            // On parcourt tous les personnages renvoyés pour cette catégorie
             if (data.cards && Array.isArray(data.cards)) {
                 data.cards.forEach(card => {
                     if (!charToCatMap[card.id]) charToCatMap[card.id] = [];
-                    // On ajoute le nom de la catégorie si le perso ne l'a pas déjà
                     if (!charToCatMap[card.id].includes(cat.name)) {
                         charToCatMap[card.id].push(cat.name);
                     }
@@ -79,7 +74,6 @@ async function startMassScraping() {
                 console.log(`✅ ${data.cards.length} personnages trouvés pour ${cat.name}`);
             }
 
-            // Pause de 2 secondes entre chaque catégorie pour être invisible
             await new Promise(r => setTimeout(r, 2000));
 
         } catch (error) {

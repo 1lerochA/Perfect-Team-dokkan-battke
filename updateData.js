@@ -33,24 +33,19 @@ function translateName(name) {
     return translated;
 }
 
-// 🤖 L'IA QUI LIT LES PASSIFS ET DÉTECTE LES RÔLES
 function detectRoles(passiveText, activeText) {
     const roles = [];
     const fullText = (passiveText + " " + activeText).toLowerCase();
 
-    // 🛡️ TANK : Garde ou Réduction de dégâts
     if (fullText.includes("guard") || fullText.includes("damage reduction") || fullText.includes("reduces damage")) {
         roles.push("TANK");
     }
-    // 🚑 HEALER : Récupération de PV
     if (fullText.includes("recovers") && fullText.includes("hp")) {
         roles.push("HEALER");
     }
-    // 🤝 SUPPORT : Donne du Ki ou de l'ATK/DEF aux alliés
     if (fullText.includes("allies' ki") || fullText.includes("allies' atk") || fullText.includes("allies' def")) {
         roles.push("SUPPORT");
     }
-    // 💥 NUKER / CRIT : Changeur de sphères ou gros critiques
     if (fullText.includes("critical hit") || fullText.includes("changes ki spheres")) {
         roles.push("DPS / NUKER");
     }
@@ -58,13 +53,12 @@ function detectRoles(passiveText, activeText) {
     return roles;
 }
 
-// 🧽 LE NETTOYEUR MAGIQUE : Transforme le code Dokkan en texte propre et émojis !
 function cleanApiText(text) {
     if (!text) return "";
     return text
-        .replace(/\{passiveImg:up_g\}/g, " ⬆️")      // Flèche verte
-        .replace(/\{passiveImg:down_r\}/g, " ⬇️")    // Flèche rouge
-        .replace(/\{passiveImg:[^}]+\}/g, "")        // Efface les autres codes bizarres
+        .replace(/\{passiveImg:up_g\}/g, " ⬆️")      
+        .replace(/\{passiveImg:down_r\}/g, " ⬇️")    
+        .replace(/\{passiveImg:[^}]+\}/g, "")       
         .trim();
 }
 
@@ -74,7 +68,6 @@ try {
     const rawData = fs.readFileSync('./fyi_data_full.json', 'utf8');
     const personnagesBruts = JSON.parse(rawData);
 
-    // 🎯 AJOUT UNIQUE N°1 : Chargement de ton dictionnaire de catégories
     const catDict = JSON.parse(fs.readFileSync('./wiki_categories_dict.json', 'utf8'));
 
     const formattedCharacters = personnagesBruts.map(char => {
@@ -86,7 +79,6 @@ try {
         if (char.awakening_type_text === "Super") alignement = "SUPER";
         if (char.awakening_type_text === "Extreme") alignement = "EXTRÊME";
 
-        // 🎯 GESTION DE L'ATTAQUE SPÉCIALE (Toujours en recherche)
         let superAttackText = "Aucune attaque spéciale";
         if (char.super_attack_skill_set && char.super_attack_skill_set.length > 0) {
             superAttackText = char.super_attack_skill_set.map(sa => `[${sa.name}] ${sa.description}`).join('\n\n');
@@ -96,7 +88,6 @@ try {
             superAttackText = `[${char.super_attack.name}] ${char.super_attack.description}`;
         }
 
-        // 🎯 GESTION DE L'APTITUDE PASSIVE
         let passiveText = "Aucune aptitude passive";
         if (char.passive_skill) {
             passiveText = char.passive_skill.description;
@@ -104,7 +95,6 @@ try {
             passiveText = char.passive_skill_set[0].description;
         }
 
-        // 🎯 GESTION DE L'ACTIVE SKILL (Design amélioré)
         let activeText = "Aucun Active Skill";
         if (char.active_skills && char.active_skills.length > 0) {
             activeText = char.active_skills.map(act => 
@@ -127,7 +117,6 @@ try {
             activeSkill: activeText,
             
             links: char.link_skill_ids || [], 
-            // 🎯 AJOUT UNIQUE N°2 : Injection des catégories !
             categories: catDict[char.id] || [],
             roles: detectRoles(passiveText, activeText) 
         };
