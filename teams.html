@@ -210,12 +210,6 @@
     </style>
 </head>
 <body>
-    <nav>
-        <a href="index.html">🔮 Générateur</a>
-        <a href="box.html">🎒 Ma Box</a>
-        <a href="teams.html" class="active">⭐ Mes Équipes</a>
-    </nav>
-
     <div class="container">
         <h1 class="dokkan-font" style="font-size:3.5rem;color:var(--accent-gold);text-shadow:3px 3px 0 #000;">MES ÉQUIPES</h1>
         <p style="color:#888;font-style:italic;margin-bottom:40px;">Retrouve tes équipes sauvegardées et crée les tiennes.</p>
@@ -236,6 +230,7 @@
     </div>
 
     <script src="data.js"></script>
+    <script src="nav.js"></script>
     <script src="cards.js?v=999"></script>
     <script>
         let savedTeams = JSON.parse(localStorage.getItem('dokkanSavedTeams')) || [];

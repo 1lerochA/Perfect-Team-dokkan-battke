@@ -146,12 +146,6 @@
     </style>
 </head>
 <body>
-    <nav>
-        <a href="index.html" class="active">🔮 Générateur</a>
-        <a href="box.html">🎒 Ma Box</a>
-        <a href="teams.html">⭐ Mes Équipes</a>
-    </nav>
-
     <div class="container">
         <h1 class="dokkan-font" style="font-size:4rem;color:var(--accent-gold);text-shadow:4px 4px 0 #000;margin-bottom:10px;">
             DOKKAN TEAM BUILDER
@@ -198,6 +192,7 @@
     </div>
 
     <script src="data.js"></script>
+    <script src="nav.js"></script>
     <script src="cards.js?v=999"></script>
     <script>
         let selectedLeader    = null;
@@ -356,6 +351,7 @@
                 const members = [];
                 const usedIds = new Set([selectedLeader.id]);
 
+                // On sélectionne le Top 5 unique
                 for (let c of teamCandidates) {
                     if (members.length < 5 && !usedIds.has(c.id)) {
                         members.push(c);
@@ -363,16 +359,34 @@
                     }
                 }
 
+                // 🎯 LE DÉTECTEUR DE MENSONGE POUR LE NOM DE L'ÉQUIPE
+                let finalTeamName = config.name;
+                if (config.type === 'CAT') {
+                    let catCount = 0;
+                    members.forEach(m => {
+                        // On compte combien de membres font vraiment partie de la catégorie
+                        if (m.name.toLowerCase().includes(config.cat.toLowerCase()) || 
+                           (m.leaderSkill && m.leaderSkill.includes(config.cat))) {
+                            catCount++;
+                        }
+                    });
+                    
+                    // S'il y a moins de 3 vrais membres de la catégorie, on renomme l'équipe !
+                    if (catCount < 3) {
+                        finalTeamName = "TEAM ALTERNATIVE (" + selectedLeader.name.toUpperCase() + ")";
+                    }
+                }
+
                 generatedTeams.push({
                     id: Date.now() + i,
-                    teamName: config.name, 
+                    teamName: finalTeamName, // On utilise le nom vérifié
                     leader: selectedLeader,
                     friend: friendLeader,
                     members: members,
                     source: useFullGame ? 'Tout le jeu' : 'Ma Box',
                     date: new Date().toLocaleDateString('fr-FR')
                 });
-            }
+            } // Fin de la boucle for (let i = 0...)
 
             renderGeneratedTeams();
         };
@@ -418,24 +432,30 @@
                 unitsRow.style.justifyContent = 'center';
 
                 const myBoxIds = JSON.parse(localStorage.getItem('dokkanBox')) || [];
+                
+                // 🎯 RÈGLE : On cache le badge "ACQUIS" si l'équipe vient de la Box
+                const isFromBox = team.source === 'Ma Box';
 
+                const showLeaderBadge = isFromBox ? false : myBoxIds.includes(team.leader.id);
                 unitsRow.innerHTML += `
                     <div style="display:flex;flex-direction:column;align-items:center;gap:5px;">
-                        ${createDokkanCard(team.leader, { isInBox: myBoxIds.includes(team.leader.id) })}
+                        ${createDokkanCard(team.leader, { isInBox: showLeaderBadge })}
                         <span style="font-size:0.7rem;color:var(--accent-gold);font-weight:900;">LEADER</span>
                     </div>`;
 
                 team.members.forEach(m => {
+                    const showMemberBadge = isFromBox ? false : myBoxIds.includes(m.id);
                     unitsRow.innerHTML += `
                         <div style="display:flex;flex-direction:column;align-items:center;gap:5px;">
-                            ${createDokkanCard(m, { isInBox: myBoxIds.includes(m.id) })}
+                            ${createDokkanCard(m, { isInBox: showMemberBadge })}
                             <span style="font-size:0.7rem;color:#aaa;">MEMBRE</span>
                         </div>`;
                 });
 
+                const showFriendBadge = isFromBox ? false : myBoxIds.includes(team.friend.id);
                 unitsRow.innerHTML += `
                     <div style="display:flex;flex-direction:column;align-items:center;gap:5px;">
-                        ${createDokkanCard(team.friend, { isFriend: true, isInBox: myBoxIds.includes(team.friend.id) })}
+                        ${createDokkanCard(team.friend, { isFriend: true, isInBox: showFriendBadge })}
                         <span style="font-size:0.7rem;color:var(--accent-blue);font-weight:900;">AMI</span>
                     </div>`;
 
@@ -478,41 +498,48 @@
             });
         };
 
+        // ---- SAVE TEAM ----
         window.likeTeam = function(index) {
             const lastGeneratedTeam = generatedTeams[index];
             if (!lastGeneratedTeam) return;
-
-            const teams = JSON.parse(localStorage.getItem('dokkanSavedTeams')) || [];
-            const allMembers = lastGeneratedTeam.members.map(m => m.id);
             
+            // 1. Lecture de la mémoire
+            let teams = [];
+            try {
+                teams = JSON.parse(localStorage.getItem('dokkanSavedTeams')) || [];
+            } catch(e) {
+                teams = []; 
+            }
+            
+            // 2. On récupère TOUS les persos (Leader + Membres + Ami)
+            const allMembers = lastGeneratedTeam.members.map(m => m.id);
             if (lastGeneratedTeam.friend) {
                 allMembers.push(lastGeneratedTeam.friend.id);
             }
 
+            // 3. On crée la sauvegarde
             teams.push({
-                id       : Date.now(),
-                name     : lastGeneratedTeam.teamName || ('Équipe de ' + lastGeneratedTeam.leader.name),
+                id       : Date.now() + Math.floor(Math.random() * 1000),
+                name     : lastGeneratedTeam.teamName || ('Équipe ' + lastGeneratedTeam.leader.name),
                 leaderId : lastGeneratedTeam.leader.id,
                 memberIds: allMembers,
-                source   : lastGeneratedTeam.source,
-                date     : lastGeneratedTeam.date
+                source   : lastGeneratedTeam.source || 'Générateur',
+                date     : lastGeneratedTeam.date || new Date().toLocaleDateString('fr-FR')
             });
+            
+            // 4. On force l'enregistrement
             localStorage.setItem('dokkanSavedTeams', JSON.stringify(teams));
-
+            
+            // 5. On bloque le bouton définitivement en vert (Fini les 3 secondes !)
             const btns = document.querySelectorAll('.btn-like');
             const btn = btns[index];
             if (btn) {
                 btn.textContent = '✅ SAUVEGARDÉE !';
                 btn.style.background = 'linear-gradient(135deg,#27ae60,#145c33)';
-                btn.disabled = true;
-                setTimeout(() => {
-                    btn.textContent = "❤️ SAUVEGARDER";
-                    btn.style.background = '';
-                    btn.disabled = false;
-                }, 2500);
+                btn.disabled = true; // On désactive le clic
             }
         };
-
+        
         window.handleUnitClick = function() {};
     </script>
 </body>

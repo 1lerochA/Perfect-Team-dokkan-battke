@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encyclopédie - Dokkan Pro</title>
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Nunito:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .filter-section {
+            background: rgba(0,0,0,0.4);
+            padding: 20px;
+            border-radius: 12px;
+            margin-bottom: 30px;
+            border: 1px solid rgba(255,255,255,0.05);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="dokkan-font" style="font-size:3.5rem;color:var(--accent-gold);text-shadow:3px 3px 0 #000;">ENCYCLOPÉDIE</h1>
+        <p style="color:#888;font-style:italic;margin-bottom:30px;">La base de données complète de tous les personnages du jeu.</p>
+
+        <div class="filter-section controls">
+            <input type="text" id="searchInput" class="search-bar" placeholder="🔍 Rechercher un personnage (ex: Gogeta, Broly...)">
+            
+            <div class="filter-group" style="margin-top: 15px;">
+                <button class="btn-type active" data-type="ALL" style="background:#333;">TOUT</button>
+                <button class="btn-type bg-agi" data-type="AGI">AGI</button>
+                <button class="btn-type bg-tec" data-type="TEC">TEC</button>
+                <button class="btn-type bg-int" data-type="INT">INT</button>
+                <button class="btn-type bg-pui" data-type="PUI">PUI</button>
+                <button class="btn-type bg-end" data-type="END">END</button>
+            </div>
+
+            <div class="filter-group" style="margin-top: 10px;">
+                <button class="btn-type active" data-rarity="ALL" style="background:#555;font-size:0.8rem;">TOUTES RARETÉS</button>
+                <button class="btn-type" data-rarity="LR" style="background:linear-gradient(135deg,#7a4e00,#ffd700,#b8860b);font-size:0.8rem;">LR</button>
+                <button class="btn-type" data-rarity="UR" style="background:#333;border:1px solid #888;font-size:0.8rem;">UR</button>
+                <button class="btn-type" data-rarity="SSR" style="background:#7a5900;font-size:0.8rem;">SSR</button>
+            </div>
+        </div>
+
+        <div class="stats-bar" style="display:flex; justify-content:space-between; margin-bottom: 20px; color:#aaa;">
+            <span id="results-count">0 résultat(s)</span>
+        </div>
+
+        <div id="dokkan-grid" class="dokkan-grid"></div>
+    </div>
+
+    <script src="data.js"></script>
+    <script src="nav.js"></script>
+    <script src="cards.js?v=999"></script>
+    <script>
+        let currentTypeFilter = 'ALL';
+        let currentRarityFilter = 'ALL';
+        let searchQuery = '';
+        
+        
+        // On récupère ta Box pour afficher le badge "ACQUIS" sur les persos que tu as déjà !
+        const myBoxIds = JSON.parse(localStorage.getItem('dokkanBox')) || [];
+
+        const grid = document.getElementById('dokkan-grid');
+
+        function renderCharacters() {
+            grid.innerHTML = '';
+            
+            // 1. Filtrage multiple
+            let filtered = dokkanCharacters.filter(c => {
+                const matchType = currentTypeFilter === 'ALL' || c.type === currentTypeFilter;
+                const matchRarity = currentRarityFilter === 'ALL' || c.rarity === currentRarityFilter;
+                const matchSearch = c.name.toLowerCase().includes(searchQuery.toLowerCase());
+                return matchType && matchRarity && matchSearch;
+            });
+
+            // 2. Tri (les plus récents en premier grâce à l'ID qui décroît)
+            // 2. Tri par Rareté d'abord, puis par nouveauté (ID)
+            const rarityOrder = ['LR', 'UR', 'SSR', 'SR', 'R', 'N'];
+            filtered.sort((a, b) => {
+                const rankA = rarityOrder.indexOf(a.rarity);
+                const rankB = rarityOrder.indexOf(b.rarity);
+                
+                // S'ils n'ont pas la même rareté, on met le meilleur grade (LR) en premier
+                if (rankA !== rankB) {
+                    return rankA - rankB; 
+                }
+                // S'ils ont la même rareté (ex: deux LR), on met le plus récent en premier
+                return b.id - a.id;
+            });
+
+            // 3. Affichage du compteur
+            document.getElementById('results-count').innerHTML = `<strong style="color:var(--accent-gold)">${filtered.length}</strong> personnage(s) trouvé(s)`;
+
+            // 4. On limite l'affichage à 100 personnages simultanés pour ne pas faire lagger le navigateur
+            const LIMIT = 100;
+            const toDisplay = filtered.slice(0, LIMIT);
+
+            if (filtered.length > LIMIT) {
+                const info = document.createElement('p');
+                info.style.cssText = "grid-column:1/-1; text-align:center; color:#888; font-style:italic; margin-bottom: 15px;";
+                info.textContent = `Affichage des ${LIMIT} premiers résultats. Utilise la recherche pour affiner.`;
+                grid.appendChild(info);
+            }
+
+            // 5. Création des cartes
+            toDisplay.forEach(char => {
+                const tmp = document.createElement('div');
+                // L'astuce : On lui passe isInBox pour que tu voies directement ceux qu'il te manque !
+                tmp.innerHTML = createDokkanCard(char, { size: 'md', isInBox: myBoxIds.includes(char.id) });
+                const cardEl = tmp.firstElementChild;
+                
+                cardEl.style.cursor = 'pointer';
+                cardEl.onclick = () => window.handleUnitClick(char.id);
+                
+                grid.appendChild(cardEl);
+            });
+            
+            if (filtered.length === 0) {
+                grid.innerHTML = '<p style="grid-column:1/-1; text-align:center; color:#888;">Aucun personnage ne correspond à tes critères.</p>';
+            }
+        }
+
+        // --- ÉCOUTEURS D'ÉVÉNEMENTS POUR LES FILTRES ---
+        document.getElementById('searchInput').addEventListener('input', e => {
+            searchQuery = e.target.value;
+            renderCharacters();
+        });
+
+        document.querySelectorAll('[data-type]').forEach(btn => {
+            btn.addEventListener('click', () => {
+                document.querySelectorAll('[data-type]').forEach(b => b.classList.remove('active'));
+                btn.classList.add('active');
+                currentTypeFilter = btn.dataset.type;
+                renderCharacters();
+            });
+        });
+
+        document.querySelectorAll('[data-rarity]').forEach(btn => {
+            btn.addEventListener('click', () => {
+                document.querySelectorAll('[data-rarity]').forEach(b => b.classList.remove('active'));
+                btn.classList.add('active');
+                currentRarityFilter = btn.dataset.rarity;
+                renderCharacters();
+            });
+        });
+
+        // 🎯 C'EST ICI QU'ON FERA APPARAÎTRE LA FICHE TECHNIQUE À LA PROCHAINE ÉTAPE !
+        window.handleUnitClick = function(id) {
+            console.log("Clic sur l'unité " + id + " : La fiche technique arrivera bientôt !");
+        };
+
+        // On lance le premier affichage
+        renderCharacters();
+    </script>
+</body>
+</html>
