@@ -23,20 +23,52 @@ const dictionary = {
     "Grandpa Gohan": "Grand-père Gohan"
 };
 
-
 function translateName(name) {
     if (!name) return "";
     let translated = name;
-    
     for (const [english, french] of Object.entries(dictionary)) {
         const regex = new RegExp("\\b" + english + "\\b", "gi");
         translated = translated.replace(regex, french);
     }
-    
     return translated;
 }
 
-console.log("⏳ Ajout des classes Super/Extrême...");
+// 🤖 L'IA QUI LIT LES PASSIFS ET DÉTECTE LES RÔLES
+function detectRoles(passiveText, activeText) {
+    const roles = [];
+    const fullText = (passiveText + " " + activeText).toLowerCase();
+
+    // 🛡️ TANK : Garde ou Réduction de dégâts
+    if (fullText.includes("guard") || fullText.includes("damage reduction") || fullText.includes("reduces damage")) {
+        roles.push("TANK");
+    }
+    // 🚑 HEALER : Récupération de PV
+    if (fullText.includes("recovers") && fullText.includes("hp")) {
+        roles.push("HEALER");
+    }
+    // 🤝 SUPPORT : Donne du Ki ou de l'ATK/DEF aux alliés
+    if (fullText.includes("allies' ki") || fullText.includes("allies' atk") || fullText.includes("allies' def")) {
+        roles.push("SUPPORT");
+    }
+    // 💥 NUKER / CRIT : Changeur de sphères ou gros critiques
+    if (fullText.includes("critical hit") || fullText.includes("changes ki spheres")) {
+        roles.push("DPS / NUKER");
+    }
+
+    return roles;
+}
+
+// 🧽 LE NETTOYEUR MAGIQUE : Transforme le code Dokkan en texte propre et émojis !
+function cleanApiText(text) {
+    if (!text) return "";
+    return text
+        .replace(/\{passiveImg:up_g\}/g, " ⬆️")      // Flèche verte
+        .replace(/\{passiveImg:down_r\}/g, " ⬇️")    // Flèche rouge
+        .replace(/\{passiveImg:[^}]+\}/g, "")        // Efface les autres codes bizarres
+        .trim();
+}
+
+console.log("⏳ Ajout des Attaques Spéciales et Passifs (Version Propre)...");
 
 try {
     const rawData = fs.readFileSync('./fyi_data_full.json', 'utf8');
@@ -51,6 +83,32 @@ try {
         if (char.awakening_type_text === "Super") alignement = "SUPER";
         if (char.awakening_type_text === "Extreme") alignement = "EXTRÊME";
 
+        // 🎯 GESTION DE L'ATTAQUE SPÉCIALE (Toujours en recherche)
+        let superAttackText = "Aucune attaque spéciale";
+        if (char.super_attack_skill_set && char.super_attack_skill_set.length > 0) {
+            superAttackText = char.super_attack_skill_set.map(sa => `[${sa.name}] ${sa.description}`).join('\n\n');
+        } else if (char.super_attacks && char.super_attacks.length > 0) {
+            superAttackText = char.super_attacks.map(sa => `[${sa.name}] ${sa.description}`).join('\n\n');
+        } else if (char.super_attack) {
+            superAttackText = `[${char.super_attack.name}] ${char.super_attack.description}`;
+        }
+
+        // 🎯 GESTION DE L'APTITUDE PASSIVE
+        let passiveText = "Aucune aptitude passive";
+        if (char.passive_skill) {
+            passiveText = char.passive_skill.description;
+        } else if (char.passive_skill_set && char.passive_skill_set[0]) {
+            passiveText = char.passive_skill_set[0].description;
+        }
+
+        // 🎯 GESTION DE L'ACTIVE SKILL (Design amélioré)
+        let activeText = "Aucun Active Skill";
+        if (char.active_skills && char.active_skills.length > 0) {
+            activeText = char.active_skills.map(act => 
+                `✨ ${act.name.toUpperCase()} ✨\nCondition: ${act.condition}\nEffet: ${act.description}`
+            ).join('\n\n');
+        }
+
         return {
             id: char.id,
             thumbId: char.thumbnail_id, 
@@ -59,15 +117,21 @@ try {
             type: typeTraduction[char.type] || "INCONNU",
             rarity: rarityTraduction[char.rarity] || "SSR", 
             alignment: alignement,
-            leaderSkill: char.leader_skill ? char.leader_skill.description : "Aucun Leader Skill",
+            
+            leaderSkill: char.leader_skill ? cleanApiText(char.leader_skill.description) : "Aucun Leader Skill",
+            superAttack: cleanApiText(superAttackText),
+            passive: cleanApiText(passiveText),
+            activeSkill: activeText,
+            
             links: char.link_skill_ids || [], 
-            categories: [] 
+            categories: char.category_ids || [],
+            roles: detectRoles(passiveText, activeText) 
         };
     });
 
     const fileContent = `// Base de données Dokkan Pro\nconst dokkanCharacters = ${JSON.stringify(formattedCharacters, null, 4)};`;
     fs.writeFileSync('./data.js', fileContent, 'utf8');
-    console.log("🎉 data.js mis à jour avec le Super/Extrême !");
+    console.log("🎉 data.js mis à jour et nettoyé !");
 
 } catch (error) {
     console.error("❌ Erreur :", error);

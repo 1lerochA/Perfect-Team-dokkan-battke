@@ -348,45 +348,188 @@
 
                 teamCandidates.sort((a, b) => b.finalScore - a.finalScore);
 
-                const members = [];
-                const usedIds = new Set([selectedLeader.id]);
+                // ==========================================
+                // 🧠 LE CERVEAU IA DU GÉNÉRATEUR (V2 - Strict Catégorie)
+                // ==========================================
+                let members = [];
+                let usedIds = new Set([selectedLeader.id]); 
+                if (friendLeader) usedIds.add(friendLeader.id);
 
-                // On sélectionne le Top 5 unique
-                for (let c of teamCandidates) {
-                    if (members.length < 5 && !usedIds.has(c.id)) {
-                        members.push(c);
-                        usedIds.add(c.id);
-                    }
-                }
-
-                // 🎯 LE DÉTECTEUR DE MENSONGE POUR LE NOM DE L'ÉQUIPE
-                let finalTeamName = config.name;
-                if (config.type === 'CAT') {
-                    let catCount = 0;
-                    members.forEach(m => {
-                        // On compte combien de membres font vraiment partie de la catégorie
-                        if (m.name.toLowerCase().includes(config.cat.toLowerCase()) || 
-                           (m.leaderSkill && m.leaderSkill.includes(config.cat))) {
-                            catCount++;
-                        }
-                    });
+                while (members.length < 5 && teamCandidates.length > 0) {
                     
-                    // S'il y a moins de 3 vrais membres de la catégorie, on renomme l'équipe !
-                    if (catCount < 3) {
-                        finalTeamName = "TEAM ALTERNATIVE (" + selectedLeader.name.toUpperCase() + ")";
+                    let currentTeam = [selectedLeader, ...members];
+                    let hasTank = currentTeam.some(m => m.roles && m.roles.includes("TANK"));
+                    let hasSupport = currentTeam.some(m => m.roles && m.roles.includes("SUPPORT"));
+                    
+                    let typeCounts = {};
+                    currentTeam.forEach(m => {
+                        typeCounts[m.type] = (typeCounts[m.type] || 0) + 1;
+                    });
+
+                    let bestCandidate = null;
+                    let bestScore = -99999; // On démarre très bas pour éliminer les mauvais
+
+                    for (let candidate of teamCandidates) {
+                        if (usedIds.has(candidate.id)) continue;
+
+                        let score = 0;
+
+                        // 🥇 RÈGLE ABSOLUE N°1 : Toutes les Catégories du Leader Skill
+                        let isCatMatch = false;
+
+                        // Si on génère via une catégorie ciblée (Bouton "CATÉGORIE")
+                        if (config.type === 'CAT') {
+                            isCatMatch = candidate.categories.includes(config.cat) || 
+                                         candidate.name.toLowerCase().includes(config.cat.toLowerCase());
+                        } 
+                        // Si on génère via un Leader précis (Bouton "PERSONNAGE")
+                        else if (selectedLeader.leaderSkill) {
+                            // On extrait TOUTES les catégories du Leader Skill (ex: "DAIMA", "Battle of Fate", "Goku's Family")
+                            const catRegex = /"([^"]+)" Category/g;
+                            let match;
+                            let leaderCategories = [];
+                            while ((match = catRegex.exec(selectedLeader.leaderSkill)) !== null) {
+                                leaderCategories.push(match[1]);
+                            }
+
+                            // Si le Leader a un skill générique (Super Type, Extrême Type...)
+                            if (selectedLeader.leaderSkill.includes("Super Type") && candidate.alignment === "SUPER") isCatMatch = true;
+                            if (selectedLeader.leaderSkill.includes("Extreme Type") && candidate.alignment === "EXTRÊME") isCatMatch = true;
+                            if (selectedLeader.leaderSkill.includes("All Types")) isCatMatch = true;
+
+                            // On vérifie si le candidat appartient à au moins UNE des catégories du leader
+                            leaderCategories.forEach(cat => {
+                                if (candidate.categories.includes(cat) || candidate.name.toLowerCase().includes(cat.toLowerCase())) {
+                                    isCatMatch = true;
+                                }
+                            });
+                        }
+
+                        // Attribution des points : Le candidat entre dans le Leader Skill
+                        if (isCatMatch) {
+                            score += 5000;
+                        } else {
+                            score -= 2000; // S'il ne rentre dans AUCUNE condition du Leader, c'est mort !
+                        }
+
+                        // 🥈 RÈGLE N°2 : Le calcul du 200% (Le bonus additionnel)
+                        if (selectedLeader.leaderSkill) {
+                            const additionalRegex = /additional HP, ATK & DEF \+\d+% for characters who also belong to the "([^"]+)"/i;
+                            const match = selectedLeader.leaderSkill.match(additionalRegex);
+                            if (match && match[1]) {
+                                const bonusCat = match[1];
+                                if (candidate.categories.includes(bonusCat)) {
+                                    score += 1500; // Le perso prend le bonus complet !
+                                }
+                            }
+                        }
+
+                        // 🥉 RÈGLE N°3 : La Synergie des Liens
+                        let sharedLinks = 0;
+                        if (candidate.links) {
+                            currentTeam.forEach(member => {
+                                if (member.links) {
+                                    sharedLinks += candidate.links.filter(link => member.links.includes(link)).length;
+                                }
+                            });
+                        }
+                        score += (sharedLinks * 50); // Important !
+
+                        // 🎖️ LES BONUS TACTIQUES : Rôles & Couleurs
+                        if (!hasTank && candidate.roles && candidate.roles.includes("TANK")) {
+                            score += 200; 
+                        }
+                        if (!hasSupport && candidate.roles && candidate.roles.includes("SUPPORT")) {
+                            score += 150; 
+                        }
+                        if (typeCounts[candidate.type] >= 2) {
+                            score -= 100;
+                        }
+
+                        if (score > bestScore) {
+                            bestScore = score;
+                            bestCandidate = candidate;
+                        }
+                    }
+
+                    if (bestCandidate) {
+                        members.push(bestCandidate);
+                        usedIds.add(bestCandidate.id);
+                    } else {
+                        break; 
                     }
                 }
 
+                // ==========================================
+                // 📊 LE CALCULATEUR DE RANG ET DE SCORE GLOBAL
+                // ==========================================
+                let fullTeam = [selectedLeader, ...members];
+                if (friendLeader) fullTeam.push(friendLeader);
+
+                let teamScore = 0;
+                let hasTank = false;
+                let hasSupport = false;
+                let count200 = 0;
+                let totalLinks = 0;
+
+                // 1. Analyse des stats de l'équipe
+                fullTeam.forEach(m => {
+                    if (m.roles && m.roles.includes("TANK")) hasTank = true;
+                    if (m.roles && m.roles.includes("SUPPORT")) hasSupport = true;
+                    
+                    // Vérification du 200%
+                    if (selectedLeader.leaderSkill) {
+                        const addRegex = /additional HP, ATK & DEF \+\d+% for characters who also belong to the "([^"]+)"/i;
+                        const match = selectedLeader.leaderSkill.match(addRegex);
+                        if (match && match[1] && m.categories.includes(match[1])) {
+                            count200++;
+                        }
+                    }
+                });
+
+                // 2. Calcul des liens partagés dans toute l'équipe
+                for (let x = 0; x < fullTeam.length; x++) {
+                    for (let y = x + 1; y < fullTeam.length; y++) {
+                        if (fullTeam[x].links && fullTeam[y].links) {
+                            totalLinks += fullTeam[x].links.filter(l => fullTeam[y].links.includes(l)).length;
+                        }
+                    }
+                }
+
+                // 3. Le Barème de points
+                teamScore = (totalLinks * 10) + (count200 * 50) + (hasTank ? 150 : 0) + (hasSupport ? 100 : 0);
+
+                let rank = "B";
+                let rankColor = "#bdc3c7"; // Gris
+                if (teamScore >= 1200) { rank = "Z"; rankColor = "#e74c3c"; } // Rouge : Team Parfaite
+                else if (teamScore >= 900) { rank = "S"; rankColor = "#f39c12"; } // Doré : Excellente
+                else if (teamScore >= 600) { rank = "A"; rankColor = "#2ecc71"; } // Vert : Bonne
+
+                // 5. La correction du NOM de la Team !
+                let finalTeamName = "TEAM " + (config.type === 'CAT' ? config.cat.toUpperCase() : selectedLeader.name.toUpperCase());
+                
+                // Si la team est vraiment nulle (Rank B), on l'appelle Alternative
+                if (teamScore < 350) {
+                    finalTeamName = "TEAM ALTERNATIVE (" + selectedLeader.name.toUpperCase() + ")";
+                }
+
+                // 6. Sauvegarde de l'équipe générée
                 generatedTeams.push({
                     id: Date.now() + i,
-                    teamName: finalTeamName, // On utilise le nom vérifié
+                    teamName: finalTeamName,
+                    rank: rank,             
+                    rankColor: rankColor,  
+                    score: teamScore,     
                     leader: selectedLeader,
                     friend: friendLeader,
                     members: members,
                     source: useFullGame ? 'Tout le jeu' : 'Ma Box',
                     date: new Date().toLocaleDateString('fr-FR')
                 });
-            } // Fin de la boucle for (let i = 0...)
+            } // Fin de la boucle for (let i = 0; i < optionsCount; i++)
+
+            // On trie les équipes générées : Les Rangs Z en premier, les Rangs B en dernier !
+            generatedTeams.sort((a, b) => b.score - a.score);
 
             renderGeneratedTeams();
         };
@@ -416,16 +559,28 @@
                 const headerBar = document.createElement('div');
                 headerBar.className = 'team-header-bar';
                 headerBar.innerHTML = `
-                    <h2 class="dokkan-font" style="color:var(--accent-gold);margin:0;font-size:2rem;">
-                        ${team.teamName} <span style="font-size:1.2rem;color:#888;">(Option #${tIndex + 1})</span>
-                    </h2>
-                    <div style="display:flex; gap:10px;">
-                        <button class="btn-action btn-reset" onclick="toggleDetails(${team.id})">👁️ Détails</button>
-                        <button class="btn-action btn-like" onclick="likeTeam(${tIndex})">❤️ SAUVEGARDER</button>
-                    </div>`;
+                    <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:15px; border-bottom:1px solid rgba(255,255,255,0.1); padding-bottom:15px; flex-wrap:wrap; gap:15px;">
+                        
+                        <div style="display:flex; align-items:center; gap:15px; flex:1; min-width:300px;">
+                            <div style="background:linear-gradient(135deg, ${team.rankColor}, #222); color:#fff; font-family:'Bangers', cursive; font-size:2.2rem; width:55px; height:55px; display:flex; align-items:center; justify-content:center; border-radius:12px; border:2px solid ${team.rankColor}; box-shadow:0 4px 10px rgba(0,0,0,0.5); text-shadow:2px 2px 0 #000;" title="Score Global : ${team.score} points">
+                                ${team.rank}
+                            </div>
+                            <h2 style="margin:0; font-family:'Bangers', cursive; font-size:1.8rem; color:var(--accent-gold); text-shadow:2px 2px 0 #000; letter-spacing:1px;">
+                                ${team.teamName} <span style="font-size:1rem; color:#aaa; font-family:'Nunito', sans-serif;">(Option #${tIndex + 1})</span>
+                            </h2>
+                        </div>
+
+                        <div style="display:flex; gap:10px; margin-left:auto;">
+                            <button style="background:rgba(255,255,255,0.05); border:1px solid rgba(255,255,255,0.2); padding:10px 15px; border-radius:8px; color:#fff; cursor:pointer; font-weight:bold; transition:0.2s;" onmouseover="this.style.background='rgba(255,255,255,0.15)'" onmouseout="this.style.background='rgba(255,255,255,0.05)'" onclick="toggleDetails(${team.id})">👁️ DÉTAILS</button>
+                            
+                            <button class="btn-like" style="background:#e74c3c; color:#fff; padding:10px 15px; border:none; border-radius:8px; font-weight:bold; cursor:pointer; font-family:'Bangers', cursive; font-size:1.1rem; letter-spacing:1px;" onclick="likeTeam(${tIndex})">❤️ SAUVEGARDER</button>
+                        </div>
+                    </div>
+                `;
                 teamSection.appendChild(headerBar);
 
                 const unitsRow = document.createElement('div');
+                unitsRow.className = 'team-units-row';
                 unitsRow.style.display = 'flex';
                 unitsRow.style.gap = '10px';
                 unitsRow.style.flexWrap = 'wrap';
@@ -499,44 +654,64 @@
         };
 
         // ---- SAVE TEAM ----
+        // ---- SAVE / UNSAVE TEAM (Interrupteur) ----
         window.likeTeam = function(index) {
             const lastGeneratedTeam = generatedTeams[index];
             if (!lastGeneratedTeam) return;
             
-            // 1. Lecture de la mémoire
             let teams = [];
             try {
                 teams = JSON.parse(localStorage.getItem('dokkanSavedTeams')) || [];
             } catch(e) {
                 teams = []; 
             }
-            
-            // 2. On récupère TOUS les persos (Leader + Membres + Ami)
-            const allMembers = lastGeneratedTeam.members.map(m => m.id);
-            if (lastGeneratedTeam.friend) {
-                allMembers.push(lastGeneratedTeam.friend.id);
-            }
 
-            // 3. On crée la sauvegarde
-            teams.push({
-                id       : Date.now() + Math.floor(Math.random() * 1000),
-                name     : lastGeneratedTeam.teamName || ('Équipe ' + lastGeneratedTeam.leader.name),
-                leaderId : lastGeneratedTeam.leader.id,
-                memberIds: allMembers,
-                source   : lastGeneratedTeam.source || 'Générateur',
-                date     : lastGeneratedTeam.date || new Date().toLocaleDateString('fr-FR')
-            });
-            
-            // 4. On force l'enregistrement
-            localStorage.setItem('dokkanSavedTeams', JSON.stringify(teams));
-            
-            // 5. On bloque le bouton définitivement en vert (Fini les 3 secondes !)
             const btns = document.querySelectorAll('.btn-like');
             const btn = btns[index];
-            if (btn) {
-                btn.textContent = '✅ SAUVEGARDÉE !';
-                btn.style.background = 'linear-gradient(135deg,#27ae60,#145c33)';
-                btn.disabled = true; // On désactive le clic
+
+            // SI L'ÉQUIPE N'EST PAS ENCORE SAUVEGARDÉE
+            if (!lastGeneratedTeam.savedId) {
+                const allMembers = lastGeneratedTeam.members.map(m => m.id);
+                if (lastGeneratedTeam.friend) allMembers.push(lastGeneratedTeam.friend.id);
+
+                const newTeamId = Date.now() + Math.floor(Math.random() * 1000);
+                
+                teams.push({
+                    id       : newTeamId,
+                    name     : lastGeneratedTeam.teamName,
+                    leaderId : lastGeneratedTeam.leader.id,
+                    memberIds: allMembers,
+                    source   : lastGeneratedTeam.source || 'Générateur',
+                    date     : lastGeneratedTeam.date || new Date().toLocaleDateString('fr-FR')
+                });
+                
+                localStorage.setItem('dokkanSavedTeams', JSON.stringify(teams));
+                
+                // On mémorise l'ID pour savoir qu'elle est sauvegardée
+                lastGeneratedTeam.savedId = newTeamId; 
+
+                // On passe le bouton en VERT
+                if (btn) {
+                    btn.innerHTML = '✅ SAUVEGARDÉE !';
+                    btn.style.background = 'linear-gradient(135deg,#27ae60,#145c33)';
+                    btn.style.color = '#ffffff'; // Texte bien blanc
+                }
+            } 
+            // SI L'ÉQUIPE ÉTAIT DÉJÀ SAUVEGARDÉE (On annule !)
+            else {
+                // On filtre pour retirer l'équipe de la mémoire
+                teams = teams.filter(t => t.id !== lastGeneratedTeam.savedId);
+                localStorage.setItem('dokkanSavedTeams', JSON.stringify(teams));
+                
+                // On oublie l'ID
+                lastGeneratedTeam.savedId = null;
+
+                // On remet le bouton en ROUGE
+                if (btn) {
+                    btn.innerHTML = '❤️ SAUVEGARDER';
+                    btn.style.background = '#e74c3c';
+                    btn.style.color = '#ffffff';
+                }
             }
         };
         

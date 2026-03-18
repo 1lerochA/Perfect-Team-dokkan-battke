@@ -313,7 +313,7 @@
                 wrapper.className = 'team-unit-wrapper';
 
                 const tmp = document.createElement('div');
-                tmp.innerHTML = createDokkanCard(char, { isInBox: myBoxIds.includes(char.id) });
+                tmp.innerHTML = createDokkanCard(char, { isInBox: false });
                 const cardEl = tmp.firstElementChild;
                 cardEl.onclick = null;
                 cardEl.style.cursor = 'default';
@@ -411,9 +411,13 @@
 
             pool = pool.slice(0, 50);
 
+            const isSearching = query.length > 1; 
+
             pool.forEach(char => {
                 const tmp = document.createElement('div');
-                tmp.innerHTML = createDokkanCard(char, { isInBox: myBoxIds.includes(char.id) });
+                const showBadge = isSearching ? myBoxIds.includes(char.id) : false;
+                
+                tmp.innerHTML = createDokkanCard(char, { isInBox: showBadge });
                 const cardEl = tmp.firstElementChild;
                 cardEl.onclick = () => addUnitToTeam(char.id);
                 cardEl.style.cursor = 'pointer';

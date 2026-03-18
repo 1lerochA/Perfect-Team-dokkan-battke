@@ -310,6 +310,7 @@ window.handleUnitClick = function(id) {
     // Remplissage en Anglais
     content.innerHTML = `
         <div class="pokedex-grid">
+            
             <div class="pokedex-left">
                 ${createDokkanCard(char, { size: 'lg' })}
                 <h2 class="pokedex-name">${char.name}</h2>
@@ -318,11 +319,17 @@ window.handleUnitClick = function(id) {
                 <div class="pokedex-meta">
                     <div style="margin-bottom: 10px;"><strong>Unit ID:</strong> <span style="color:var(--accent-gold);">${char.id}</span></div>
                     <div style="margin-bottom: 10px;"><strong>Type:</strong> ${char.alignment || ''} ${char.type || ''}</div>
-                    <div><strong>Rarity:</strong> ${char.rarity || 'Unknown'}</div>
+                    <div style="margin-bottom: 15px;"><strong>Rarity:</strong> ${char.rarity || 'Unknown'}</div>
+                    
+                    <div style="border-top: 1px solid rgba(255,255,255,0.1); padding-top: 10px; margin-top: 10px;">
+                        <strong style="color:var(--accent-blue); display:block; margin-bottom:8px;">ROLES :</strong>
+                        ${(char.roles && char.roles.length > 0) 
+                            ? char.roles.map(r => `<span style="background:rgba(52, 152, 219, 0.2); border:1px solid #3498db; color:#3498db; padding:4px 10px; border-radius:12px; font-size:0.8rem; font-weight:bold; margin-right:5px; display:inline-block; margin-bottom:5px;">${r}</span>`).join('')
+                            : '<span style="color:#888; font-style:italic;">Aucun rôle spécifique</span>'
+                        }
+                    </div>
                 </div>
-            </div>
-            
-            <div class="pokedex-right">
+            </div> <div class="pokedex-right">
                 <div class="skill-block">
                     <h3>👑 LEADER SKILL</h3>
                     <p>${formatText(char.leaderSkill)}</p>
@@ -338,6 +345,12 @@ window.handleUnitClick = function(id) {
                     <p>${formatText(char.passive)}</p>
                 </div>
                 
+                ${(char.activeSkill && char.activeSkill !== "Aucun Active Skill") ? `
+                <div class="skill-block" style="border-left-color: #f39c12;">
+                    <h3 style="color: #f39c12;">🔥 ACTIVE SKILL</h3>
+                    <p>${formatText(char.activeSkill)}</p>
+                </div>` : ''}
+
                 <div class="skill-block" style="border-left-color: #9b59b6;">
                     <h3 style="color: #9b59b6;">🔗 LINKS</h3>
                     <div class="tags-container">
