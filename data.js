@@ -21,7 +21,21 @@ const dokkanCharacters = [
             1003,
             125
         ],
-        "categories": [],
+        "categories": [
+            "Majin Buu Saga",
+            "Pure Saiyans",
+            "Goku's Family",
+            "Final Trump Card",
+            "Connected Hope",
+            "Turtle School",
+            "Bond of Friendship",
+            "Accelerated Battle",
+            "Battle of Fate",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters",
+            "Power of Wishes",
+            "Earth-Protecting Heroes"
+        ],
         "roles": [
             "HEALER"
         ]
@@ -47,7 +61,15 @@ const dokkanCharacters = [
             118,
             125
         ],
-        "categories": [],
+        "categories": [
+            "Resurrected Warriors",
+            "Majin Buu Saga",
+            "Terrifying Conquerors",
+            "Inhuman Deeds",
+            "Corroded Body and Mind",
+            "Demonic Power",
+            "Uncontrollable Power"
+        ],
         "roles": [
             "SUPPORT"
         ]
@@ -73,7 +95,14 @@ const dokkanCharacters = [
             7,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Majin Buu Saga",
+            "Terrifying Conquerors",
+            "Inhuman Deeds",
+            "Corroded Body and Mind",
+            "Demonic Power",
+            "Mission Execution"
+        ],
         "roles": [
             "HEALER",
             "SUPPORT",
@@ -101,7 +130,15 @@ const dokkanCharacters = [
             7,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Majin Buu Saga",
+            "Siblings' Bond",
+            "Terrifying Conquerors",
+            "Corroded Body and Mind",
+            "Demonic Power",
+            "Successors",
+            "Mission Execution"
+        ],
         "roles": []
     },
     {
@@ -125,7 +162,27 @@ const dokkanCharacters = [
             117,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Universe Survival Saga",
+            "Realm of Gods",
+            "Pure Saiyans",
+            "Representatives of Universe 7",
+            "Transformation Boost",
+            "Goku's Family",
+            "Kamehameha",
+            "Turtle School",
+            "Miraculous Awakening",
+            "Powerful Comeback",
+            "Legendary Existence",
+            "Bond of Friendship",
+            "Accelerated Battle",
+            "Entrusted Will",
+            "Battle of Fate",
+            "Bond of Parent and Child",
+            "Super Heroes",
+            "Earth-Bred Fighters",
+            "Tournament Participants"
+        ],
         "roles": []
     },
     {
@@ -149,7 +206,21 @@ const dokkanCharacters = [
             109,
             125
         ],
-        "categories": [],
+        "categories": [
+            "Majin Buu Saga",
+            "Pure Saiyans",
+            "Joined Forces",
+            "Final Trump Card",
+            "All-Out Struggle",
+            "Battle of Wits",
+            "Connected Hope",
+            "Mastered Evolution",
+            "Battle of Fate",
+            "Power Beyond Super Saiyan",
+            "Bond of Parent and Child",
+            "Power of Wishes",
+            "Earth-Protecting Heroes"
+        ],
         "roles": [
             "DPS / NUKER"
         ]
@@ -175,7 +246,20 @@ const dokkanCharacters = [
             109,
             125
         ],
-        "categories": [],
+        "categories": [
+            "Shadow Dragon Saga",
+            "Pure Saiyans",
+            "Joined Forces",
+            "Final Trump Card",
+            "All-Out Struggle",
+            "Connected Hope",
+            "Powerful Comeback",
+            "GT Heroes",
+            "Battle of Fate",
+            "Bond of Parent and Child",
+            "Power of Wishes",
+            "Earth-Protecting Heroes"
+        ],
         "roles": [
             "TANK"
         ]
@@ -201,7 +285,22 @@ const dokkanCharacters = [
             97,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Realm of Gods",
+            "Pure Saiyans",
+            "Movie Heroes",
+            "Goku's Family",
+            "Bond of Master and Disciple",
+            "Turtle School",
+            "Mastered Evolution",
+            "Bond of Friendship",
+            "Accelerated Battle",
+            "Battle of Fate",
+            "Power Beyond Super Saiyan",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters",
+            "Earth-Protecting Heroes"
+        ],
         "roles": []
     },
     {
@@ -225,7 +324,33 @@ const dokkanCharacters = [
             109,
             125
         ],
-        "categories": [],
+        "categories": [
+            "Shadow Dragon Saga",
+            "Pure Saiyans",
+            "Goku's Family",
+            "Vegeta's Family",
+            "Worthy Rivals",
+            "Kamehameha",
+            "Final Trump Card",
+            "All-Out Struggle",
+            "Saviors",
+            "Giant Ape Power",
+            "Connected Hope",
+            "Turtle School",
+            "Miraculous Awakening",
+            "Powerful Comeback",
+            "Gifted Warriors",
+            "GT Heroes",
+            "Bond of Friendship",
+            "Accelerated Battle",
+            "Battle of Fate",
+            "Power Beyond Super Saiyan",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters",
+            "Power of Wishes",
+            "Earth-Protecting Heroes",
+            "Successors"
+        ],
         "roles": [
             "TANK",
             "SUPPORT",
@@ -253,7 +378,33 @@ const dokkanCharacters = [
             109,
             125
         ],
-        "categories": [],
+        "categories": [
+            "Universe Survival Saga",
+            "Realm of Gods",
+            "Pure Saiyans",
+            "Full Power",
+            "Representatives of Universe 7",
+            "Goku's Family",
+            "Vegeta's Family",
+            "Siblings' Bond",
+            "Worthy Rivals",
+            "Kamehameha",
+            "Bond of Master and Disciple",
+            "All-Out Struggle",
+            "Turtle School",
+            "Miraculous Awakening",
+            "Powerful Comeback",
+            "Gifted Warriors",
+            "Legendary Existence",
+            "Bond of Friendship",
+            "Accelerated Battle",
+            "Power Beyond Super Saiyan",
+            "Bond of Parent and Child",
+            "Super Heroes",
+            "Earth-Bred Fighters",
+            "Tournament Participants",
+            "Successors"
+        ],
         "roles": [
             "TANK",
             "SUPPORT",
@@ -281,7 +432,23 @@ const dokkanCharacters = [
             97,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Realm of Gods",
+            "Pure Saiyans",
+            "Future Saga",
+            "Time Travelers",
+            "Vegeta's Family",
+            "Siblings' Bond",
+            "Worthy Rivals",
+            "Bond of Master and Disciple",
+            "Exploding Rage",
+            "Gifted Warriors",
+            "Mastered Evolution",
+            "Power Beyond Super Saiyan",
+            "Bond of Parent and Child",
+            "Super Heroes",
+            "Successors"
+        ],
         "roles": []
     },
     {
@@ -305,7 +472,18 @@ const dokkanCharacters = [
             95,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Hybrid Saiyans",
+            "Dragon Ball Seekers",
+            "Goku's Family",
+            "Youth",
+            "Kamehameha",
+            "Space-Traveling Warriors",
+            "GT Heroes",
+            "Bond of Friendship",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters"
+        ],
         "roles": [
             "TANK",
             "DPS / NUKER"
@@ -332,7 +510,10 @@ const dokkanCharacters = [
             95,
             109
         ],
-        "categories": [],
+        "categories": [
+            "GT Bosses",
+            "Mission Execution"
+        ],
         "roles": [
             "TANK",
             "DPS / NUKER"
@@ -359,7 +540,12 @@ const dokkanCharacters = [
             39,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Storied Figures",
+            "Demonic Power",
+            "Mission Execution",
+            "DAIMA"
+        ],
         "roles": [
             "TANK",
             "SUPPORT",
@@ -387,7 +573,12 @@ const dokkanCharacters = [
             39,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Storied Figures",
+            "Demonic Power",
+            "Mission Execution",
+            "DAIMA"
+        ],
         "roles": [
             "TANK",
             "SUPPORT",
@@ -415,7 +606,12 @@ const dokkanCharacters = [
             39,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Storied Figures",
+            "Demonic Power",
+            "Mission Execution",
+            "DAIMA"
+        ],
         "roles": [
             "SUPPORT"
         ]
@@ -441,7 +637,18 @@ const dokkanCharacters = [
             109,
             125
         ],
-        "categories": [],
+        "categories": [
+            "Pure Saiyans",
+            "Full Power",
+            "Goku's Family",
+            "Kamehameha",
+            "Final Trump Card",
+            "Turtle School",
+            "Bond of Friendship",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters",
+            "Power of Wishes"
+        ],
         "roles": [
             "TANK",
             "HEALER",
@@ -469,7 +676,18 @@ const dokkanCharacters = [
             109,
             125
         ],
-        "categories": [],
+        "categories": [
+            "Hybrid Saiyans",
+            "Goku's Family",
+            "Youth",
+            "Bond of Master and Disciple",
+            "Giant Ape Power",
+            "Saiyan Saga",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters",
+            "Demonic Power",
+            "Uncontrollable Power"
+        ],
         "roles": [
             "TANK"
         ]
@@ -495,7 +713,20 @@ const dokkanCharacters = [
             118,
             125
         ],
-        "categories": [],
+        "categories": [
+            "Hybrid Saiyans",
+            "Future Saga",
+            "Time Travelers",
+            "Vegeta's Family",
+            "Super Saiyans",
+            "Androids/Cell Saga",
+            "Bond of Master and Disciple",
+            "Saviors",
+            "Battle of Wits",
+            "Entrusted Will",
+            "Earth-Bred Fighters",
+            "Earth-Protecting Heroes"
+        ],
         "roles": [
             "DPS / NUKER"
         ]
@@ -521,7 +752,17 @@ const dokkanCharacters = [
             73,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Dragon Ball Seekers",
+            "Siblings' Bond",
+            "Majin Power",
+            "Saviors",
+            "Battle of Wits",
+            "Battle of Fate",
+            "Demonic Power",
+            "Mission Execution",
+            "DAIMA"
+        ],
         "roles": [
             "TANK",
             "SUPPORT",
@@ -549,7 +790,25 @@ const dokkanCharacters = [
             109,
             125
         ],
-        "categories": [],
+        "categories": [
+            "Pure Saiyans",
+            "Full Power",
+            "Transformation Boost",
+            "Dragon Ball Seekers",
+            "Time Travelers",
+            "Goku's Family",
+            "Kamehameha",
+            "Giant Ape Power",
+            "Turtle School",
+            "Mastered Evolution",
+            "Bond of Friendship",
+            "Accelerated Battle",
+            "Battle of Fate",
+            "Power Beyond Super Saiyan",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters",
+            "DAIMA"
+        ],
         "roles": [
             "TANK",
             "SUPPORT",
@@ -577,7 +836,24 @@ const dokkanCharacters = [
             109,
             125
         ],
-        "categories": [],
+        "categories": [
+            "Super Saiyan 3",
+            "Pure Saiyans",
+            "Full Power",
+            "Transformation Boost",
+            "Dragon Ball Seekers",
+            "Time Travelers",
+            "Vegeta's Family",
+            "Worthy Rivals",
+            "Gifted Warriors",
+            "Mastered Evolution",
+            "Accelerated Battle",
+            "Battle of Fate",
+            "Power Beyond Super Saiyan",
+            "Bond of Parent and Child",
+            "Successors",
+            "DAIMA"
+        ],
         "roles": [
             "TANK",
             "SUPPORT",
@@ -605,7 +881,16 @@ const dokkanCharacters = [
             30,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Pure Saiyans",
+            "Goku's Family",
+            "Kamehameha",
+            "Turtle School",
+            "Bond of Friendship",
+            "Accelerated Battle",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters"
+        ],
         "roles": [
             "TANK",
             "SUPPORT",
@@ -633,7 +918,14 @@ const dokkanCharacters = [
             42,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Dragon Ball Seekers",
+            "Siblings' Bond",
+            "Majin Power",
+            "Demonic Power",
+            "Mission Execution",
+            "DAIMA"
+        ],
         "roles": [
             "TANK",
             "HEALER",
@@ -661,7 +953,20 @@ const dokkanCharacters = [
             109,
             125
         ],
-        "categories": [],
+        "categories": [
+            "Pure Saiyans",
+            "Goku's Family",
+            "Super Saiyans",
+            "Kamehameha",
+            "Battle of Wits",
+            "Connected Hope",
+            "Turtle School",
+            "Bond of Friendship",
+            "Accelerated Battle",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters",
+            "Earth-Protecting Heroes"
+        ],
         "roles": [
             "TANK",
             "SUPPORT",
@@ -689,7 +994,25 @@ const dokkanCharacters = [
             47,
             125
         ],
-        "categories": [],
+        "categories": [
+            "Hybrid Saiyans",
+            "Full Power",
+            "Transformation Boost",
+            "Movie Heroes",
+            "Goku's Family",
+            "Siblings' Bond",
+            "Kamehameha",
+            "Bond of Master and Disciple",
+            "Exploding Rage",
+            "Connected Hope",
+            "Miraculous Awakening",
+            "Battle of Fate",
+            "Bond of Parent and Child",
+            "Super Heroes",
+            "Earth-Bred Fighters",
+            "Demonic Power",
+            "Earth-Protecting Heroes"
+        ],
         "roles": [
             "TANK"
         ]
@@ -715,7 +1038,28 @@ const dokkanCharacters = [
             123,
             125
         ],
-        "categories": [],
+        "categories": [
+            "Giant Form",
+            "Namekians",
+            "Full Power",
+            "Transformation Boost",
+            "Movie Heroes",
+            "Worthy Rivals",
+            "Bond of Master and Disciple",
+            "Revenge",
+            "Rapid Growth",
+            "Battle of Wits",
+            "Connected Hope",
+            "Powerful Comeback",
+            "Gifted Warriors",
+            "Battle of Fate",
+            "Fused Fighters",
+            "Super Heroes",
+            "Earth-Bred Fighters",
+            "Power of Wishes",
+            "Demonic Power",
+            "Successors"
+        ],
         "roles": [
             "TANK",
             "HEALER",
@@ -743,7 +1087,17 @@ const dokkanCharacters = [
             94,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Androids",
+            "Movie Heroes",
+            "Artificial Life Forms",
+            "Worthy Rivals",
+            "Special Pose",
+            "Defenders of Justice",
+            "Accelerated Battle",
+            "Super Heroes",
+            "Mission Execution"
+        ],
         "roles": [
             "TANK",
             "SUPPORT",
@@ -771,7 +1125,17 @@ const dokkanCharacters = [
             94,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Androids",
+            "Movie Heroes",
+            "Artificial Life Forms",
+            "Worthy Rivals",
+            "Special Pose",
+            "Defenders of Justice",
+            "Accelerated Battle",
+            "Super Heroes",
+            "Mission Execution"
+        ],
         "roles": [
             "SUPPORT",
             "DPS / NUKER"
@@ -798,7 +1162,25 @@ const dokkanCharacters = [
             39,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Hybrid Saiyans",
+            "Androids",
+            "Movie Heroes",
+            "Goku's Family",
+            "Artificial Life Forms",
+            "Siblings' Bond",
+            "Worthy Rivals",
+            "Bond of Master and Disciple",
+            "Special Pose",
+            "Defenders of Justice",
+            "Accelerated Battle",
+            "Battle of Fate",
+            "Bond of Parent and Child",
+            "Super Heroes",
+            "Earth-Bred Fighters",
+            "Demonic Power",
+            "Mission Execution"
+        ],
         "roles": [
             "TANK",
             "HEALER",
@@ -827,7 +1209,28 @@ const dokkanCharacters = [
             60,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Namekians",
+            "Androids",
+            "Movie Heroes",
+            "Artificial Life Forms",
+            "Worthy Rivals",
+            "Bond of Master and Disciple",
+            "Special Pose",
+            "Rapid Growth",
+            "Battle of Wits",
+            "Gifted Warriors",
+            "Defenders of Justice",
+            "Accelerated Battle",
+            "Battle of Fate",
+            "Fused Fighters",
+            "Super Heroes",
+            "Earth-Bred Fighters",
+            "Power of Wishes",
+            "Demonic Power",
+            "Successors",
+            "Mission Execution"
+        ],
         "roles": [
             "TANK",
             "SUPPORT",
@@ -855,7 +1258,17 @@ const dokkanCharacters = [
             109,
             125
         ],
-        "categories": [],
+        "categories": [
+            "Hybrid Saiyans",
+            "Future Saga",
+            "Joined Forces",
+            "Androids/Cell Saga",
+            "Bond of Master and Disciple",
+            "All-Out Struggle",
+            "Connected Hope",
+            "Powerful Comeback",
+            "Earth-Bred Fighters"
+        ],
         "roles": [
             "TANK",
             "DPS / NUKER"
@@ -882,7 +1295,21 @@ const dokkanCharacters = [
             109,
             125
         ],
-        "categories": [],
+        "categories": [
+            "Hybrid Saiyans",
+            "Future Saga",
+            "Goku's Family",
+            "Super Saiyans",
+            "Androids/Cell Saga",
+            "Bond of Master and Disciple",
+            "All-Out Struggle",
+            "Connected Hope",
+            "Powerful Comeback",
+            "Entrusted Will",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters",
+            "Demonic Power"
+        ],
         "roles": [
             "TANK",
             "SUPPORT",
@@ -910,7 +1337,18 @@ const dokkanCharacters = [
             118,
             125
         ],
-        "categories": [],
+        "categories": [
+            "World Tournament",
+            "Full Power",
+            "DB Saga",
+            "Kamehameha",
+            "Earthlings",
+            "Battle of Wits",
+            "Planetary Destruction",
+            "Accelerated Battle",
+            "Earth-Bred Fighters",
+            "Tournament Participants"
+        ],
         "roles": [
             "TANK",
             "SUPPORT",
@@ -938,7 +1376,19 @@ const dokkanCharacters = [
             66,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Hybrid Saiyans",
+            "Future Saga",
+            "Time Travelers",
+            "Movie Heroes",
+            "Vegeta's Family",
+            "Bond of Master and Disciple",
+            "Battle of Wits",
+            "Entrusted Will",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters",
+            "Tournament Participants"
+        ],
         "roles": [
             "SUPPORT",
             "DPS / NUKER"
@@ -965,7 +1415,21 @@ const dokkanCharacters = [
             102,
             118
         ],
-        "categories": [],
+        "categories": [
+            "World Tournament",
+            "Namekians",
+            "Terrifying Conquerors",
+            "Target: Goku",
+            "Revenge",
+            "Gifted Warriors",
+            "Entrusted Will",
+            "Worldwide Chaos",
+            "Battle of Fate",
+            "Earth-Bred Fighters",
+            "Tournament Participants",
+            "Demonic Power",
+            "Successors"
+        ],
         "roles": []
     },
     {
@@ -989,7 +1453,21 @@ const dokkanCharacters = [
             60,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Hybrid Saiyans",
+            "Future Saga",
+            "Transformation Boost",
+            "Time Travelers",
+            "Vegeta's Family",
+            "Super Saiyans",
+            "Androids/Cell Saga",
+            "Bond of Master and Disciple",
+            "Saviors",
+            "Battle of Wits",
+            "Entrusted Will",
+            "Earth-Bred Fighters",
+            "Earth-Protecting Heroes"
+        ],
         "roles": []
     },
     {
@@ -1013,7 +1491,15 @@ const dokkanCharacters = [
             66,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Future Saga",
+            "Androids",
+            "Joined Forces",
+            "Siblings' Bond",
+            "Androids/Cell Saga",
+            "Worldwide Chaos",
+            "Uncontrollable Power"
+        ],
         "roles": [
             "DPS / NUKER"
         ]
@@ -1039,7 +1525,13 @@ const dokkanCharacters = [
             120,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Androids",
+            "Joined Forces",
+            "Androids/Cell Saga",
+            "Target: Goku",
+            "Power Absorption"
+        ],
         "roles": [
             "TANK",
             "HEALER",
@@ -1067,7 +1559,17 @@ const dokkanCharacters = [
             120,
             125
         ],
-        "categories": [],
+        "categories": [
+            "Movie Bosses",
+            "Transformation Boost",
+            "Dragon Ball Seekers",
+            "Terrifying Conquerors",
+            "Revenge",
+            "Powerful Comeback",
+            "Entrusted Will",
+            "Power of Wishes",
+            "Demonic Power"
+        ],
         "roles": [
             "TANK",
             "SUPPORT",
@@ -1095,7 +1597,15 @@ const dokkanCharacters = [
             60,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Universe Survival Saga",
+            "Androids",
+            "Siblings' Bond",
+            "Worthy Rivals",
+            "Battle of Wits",
+            "Defenders of Justice",
+            "Super Heroes"
+        ],
         "roles": [
             "TANK",
             "SUPPORT",
@@ -1123,7 +1633,15 @@ const dokkanCharacters = [
             37,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Androids",
+            "Artificial Life Forms",
+            "Androids/Cell Saga",
+            "Target: Goku",
+            "Saviors",
+            "Uncontrollable Power",
+            "Mission Execution"
+        ],
         "roles": [
             "TANK",
             "SUPPORT",
@@ -1151,7 +1669,19 @@ const dokkanCharacters = [
             109,
             125
         ],
-        "categories": [],
+        "categories": [
+            "Giant Form",
+            "Full Power",
+            "Transformation Boost",
+            "Dragon Ball Seekers",
+            "Terrifying Conquerors",
+            "Final Trump Card",
+            "Accelerated Battle",
+            "Battle of Fate",
+            "Demonic Power",
+            "Successors",
+            "DAIMA"
+        ],
         "roles": [
             "TANK",
             "HEALER",
@@ -1179,7 +1709,20 @@ const dokkanCharacters = [
             97,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Pure Saiyans",
+            "Dragon Ball Seekers",
+            "Vegeta's Family",
+            "Terrifying Conquerors",
+            "Inhuman Deeds",
+            "Space-Traveling Warriors",
+            "Gifted Warriors",
+            "Planetary Destruction",
+            "Accelerated Battle",
+            "Battle of Fate",
+            "Saiyan Saga",
+            "Successors"
+        ],
         "roles": [
             "TANK",
             "DPS / NUKER"
@@ -1206,7 +1749,18 @@ const dokkanCharacters = [
             56,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Hybrid Saiyans",
+            "Goku's Family",
+            "Youth",
+            "Bond of Master and Disciple",
+            "Planetary Destruction",
+            "Heavenly Events",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters",
+            "Demonic Power",
+            "Earth-Protecting Heroes"
+        ],
         "roles": [
             "TANK",
             "HEALER",
@@ -1234,7 +1788,19 @@ const dokkanCharacters = [
             119,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Planet Namek Saga",
+            "Transformation Boost",
+            "Wicked Bloodline",
+            "Terrifying Conquerors",
+            "Inhuman Deeds",
+            "Space-Traveling Warriors",
+            "Gifted Warriors",
+            "Planetary Destruction",
+            "Sworn Enemies",
+            "Accelerated Battle",
+            "Successors"
+        ],
         "roles": [
             "TANK",
             "SUPPORT",
@@ -1262,7 +1828,28 @@ const dokkanCharacters = [
             97,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Hybrid Saiyans",
+            "Full Power",
+            "Transformation Boost",
+            "Goku's Family",
+            "Youth",
+            "Androids/Cell Saga",
+            "Kamehameha",
+            "Bond of Master and Disciple",
+            "Super Saiyan 2",
+            "Exploding Rage",
+            "All-Out Struggle",
+            "Miraculous Awakening",
+            "Entrusted Will",
+            "Battle of Fate",
+            "Power Beyond Super Saiyan",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters",
+            "Tournament Participants",
+            "Demonic Power",
+            "Earth-Protecting Heroes"
+        ],
         "roles": [
             "TANK",
             "DPS / NUKER"
@@ -1289,7 +1876,26 @@ const dokkanCharacters = [
             1004,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Resurrected Warriors",
+            "Majin Buu Saga",
+            "Full Power",
+            "Transformation Boost",
+            "Time Travelers",
+            "Artificial Life Forms",
+            "Exploding Rage",
+            "Inhuman Deeds",
+            "Majin Power",
+            "Power Absorption",
+            "Gifted Warriors",
+            "Storied Figures",
+            "Legendary Existence",
+            "Sworn Enemies",
+            "Worldwide Chaos",
+            "Demonic Power",
+            "Uncontrollable Power",
+            "Mission Execution"
+        ],
         "roles": [
             "TANK",
             "HEALER",
@@ -1317,7 +1923,22 @@ const dokkanCharacters = [
             102,
             118
         ],
-        "categories": [],
+        "categories": [
+            "World Tournament",
+            "Giant Form",
+            "Namekians",
+            "Terrifying Conquerors",
+            "Target: Goku",
+            "Revenge",
+            "Gifted Warriors",
+            "Entrusted Will",
+            "Worldwide Chaos",
+            "Battle of Fate",
+            "Earth-Bred Fighters",
+            "Tournament Participants",
+            "Demonic Power",
+            "Successors"
+        ],
         "roles": [
             "TANK",
             "SUPPORT"
@@ -1344,7 +1965,23 @@ const dokkanCharacters = [
             97,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Low-Class Warrior",
+            "Pure Saiyans",
+            "Full Power",
+            "Goku's Family",
+            "Kamehameha",
+            "All-Out Struggle",
+            "Turtle School",
+            "Bond of Friendship",
+            "Accelerated Battle",
+            "Battle of Fate",
+            "Saiyan Saga",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters",
+            "Power of Wishes",
+            "Earth-Protecting Heroes"
+        ],
         "roles": [
             "SUPPORT"
         ]
@@ -1370,7 +2007,18 @@ const dokkanCharacters = [
             97,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Pure Saiyans",
+            "Dragon Ball Seekers",
+            "Goku's Family",
+            "Kamehameha",
+            "Turtle School",
+            "Bond of Friendship",
+            "Accelerated Battle",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters",
+            "DAIMA"
+        ],
         "roles": [
             "SUPPORT",
             "DPS / NUKER"
@@ -1397,7 +2045,17 @@ const dokkanCharacters = [
             97,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Pure Saiyans",
+            "Dragon Ball Seekers",
+            "Time Travelers",
+            "Vegeta's Family",
+            "Worthy Rivals",
+            "Gifted Warriors",
+            "Bond of Parent and Child",
+            "Successors",
+            "DAIMA"
+        ],
         "roles": [
             "TANK",
             "SUPPORT",
@@ -1425,7 +2083,14 @@ const dokkanCharacters = [
             76,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Dragon Ball Seekers",
+            "Battle of Wits",
+            "Accelerated Battle",
+            "Demonic Power",
+            "Mission Execution",
+            "DAIMA"
+        ],
         "roles": [
             "TANK",
             "SUPPORT",
@@ -1453,7 +2118,13 @@ const dokkanCharacters = [
             76,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Dragon Ball Seekers",
+            "Youth",
+            "Battle of Wits",
+            "Demonic Power",
+            "DAIMA"
+        ],
         "roles": [
             "SUPPORT",
             "DPS / NUKER"
@@ -1480,7 +2151,26 @@ const dokkanCharacters = [
             47,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Pure Saiyans",
+            "Full Power",
+            "Transformation Boost",
+            "Dragon Ball Seekers",
+            "Time Travelers",
+            "Goku's Family",
+            "Kamehameha",
+            "Giant Ape Power",
+            "Turtle School",
+            "Miraculous Awakening",
+            "Bond of Friendship",
+            "Accelerated Battle",
+            "Battle of Fate",
+            "Power Beyond Super Saiyan",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters",
+            "Demonic Power",
+            "DAIMA"
+        ],
         "roles": [
             "TANK",
             "SUPPORT",
@@ -1508,7 +2198,21 @@ const dokkanCharacters = [
             30,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Namekians",
+            "Dragon Ball Seekers",
+            "Time Travelers",
+            "Worthy Rivals",
+            "Bond of Master and Disciple",
+            "Battle of Wits",
+            "Gifted Warriors",
+            "Battle of Fate",
+            "Fused Fighters",
+            "Earth-Bred Fighters",
+            "Demonic Power",
+            "Successors",
+            "DAIMA"
+        ],
         "roles": [
             "TANK",
             "SUPPORT",
@@ -1536,7 +2240,18 @@ const dokkanCharacters = [
             23,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Hybrid Saiyans",
+            "Joined Forces",
+            "Goku's Family",
+            "Youth",
+            "Siblings' Bond",
+            "Kamehameha",
+            "Gifted Warriors",
+            "Bond of Friendship",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters"
+        ],
         "roles": [
             "TANK",
             "HEALER",
@@ -1564,7 +2279,10 @@ const dokkanCharacters = [
             129,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Joined Forces",
+            "Otherworld Warriors"
+        ],
         "roles": [
             "TANK",
             "HEALER",
@@ -1592,7 +2310,13 @@ const dokkanCharacters = [
             118,
             125
         ],
-        "categories": [],
+        "categories": [
+            "Peppy Gals",
+            "Goku's Family",
+            "Earthlings",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters"
+        ],
         "roles": [
             "SUPPORT",
             "DPS / NUKER"
@@ -1619,7 +2343,17 @@ const dokkanCharacters = [
             90,
             118
         ],
-        "categories": [],
+        "categories": [
+            "World Tournament",
+            "Low-Class Warrior",
+            "Pure Saiyans",
+            "Goku's Family",
+            "Turtle School",
+            "Bond of Friendship",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters",
+            "Tournament Participants"
+        ],
         "roles": [
             "DPS / NUKER"
         ]
@@ -1645,7 +2379,12 @@ const dokkanCharacters = [
             120,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Androids",
+            "Artificial Life Forms",
+            "Target: Goku",
+            "Mission Execution"
+        ],
         "roles": [
             "SUPPORT"
         ]
@@ -1671,7 +2410,22 @@ const dokkanCharacters = [
             118,
             125
         ],
-        "categories": [],
+        "categories": [
+            "Resurrected Warriors",
+            "Majin Buu Saga",
+            "Pure Saiyans",
+            "Vegeta's Family",
+            "Worthy Rivals",
+            "Super Saiyan 2",
+            "Final Trump Card",
+            "All-Out Struggle",
+            "Connected Hope",
+            "Corroded Body and Mind",
+            "Gifted Warriors",
+            "Power Beyond Super Saiyan",
+            "Bond of Parent and Child",
+            "Uncontrollable Power"
+        ],
         "roles": []
     },
     {
@@ -1695,7 +2449,16 @@ const dokkanCharacters = [
             109,
             125
         ],
-        "categories": [],
+        "categories": [
+            "Hybrid Saiyans",
+            "Joined Forces",
+            "Super Saiyans",
+            "Kamehameha",
+            "Terrifying Conquerors",
+            "Corroded Body and Mind",
+            "Earth-Bred Fighters",
+            "Mission Execution"
+        ],
         "roles": [
             "SUPPORT"
         ]
@@ -1721,7 +2484,15 @@ const dokkanCharacters = [
             47,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Hybrid Saiyans",
+            "Super Saiyans",
+            "Kamehameha",
+            "Terrifying Conquerors",
+            "Corroded Body and Mind",
+            "Earth-Bred Fighters",
+            "Mission Execution"
+        ],
         "roles": [
             "TANK",
             "SUPPORT",
@@ -1749,7 +2520,15 @@ const dokkanCharacters = [
             47,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Hybrid Saiyans",
+            "Super Saiyans",
+            "Kamehameha",
+            "Terrifying Conquerors",
+            "Corroded Body and Mind",
+            "Earth-Bred Fighters",
+            "Mission Execution"
+        ],
         "roles": [
             "TANK",
             "SUPPORT",
@@ -1777,7 +2556,14 @@ const dokkanCharacters = [
             29,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Hybrid Saiyans",
+            "Super Saiyans",
+            "Terrifying Conquerors",
+            "Corroded Body and Mind",
+            "Earth-Bred Fighters",
+            "Mission Execution"
+        ],
         "roles": [
             "TANK",
             "SUPPORT",
@@ -1805,7 +2591,18 @@ const dokkanCharacters = [
             109,
             125
         ],
-        "categories": [],
+        "categories": [
+            "Androids",
+            "Artificial Life Forms",
+            "Target: Goku",
+            "Inhuman Deeds",
+            "Power Absorption",
+            "GT Bosses",
+            "Battle of Fate",
+            "Fused Fighters",
+            "Uncontrollable Power",
+            "Mission Execution"
+        ],
         "roles": [
             "TANK"
         ]
@@ -1831,7 +2628,21 @@ const dokkanCharacters = [
             119,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Giant Form",
+            "Transformation Boost",
+            "Artificial Life Forms",
+            "Terrifying Conquerors",
+            "Target: Goku",
+            "Final Trump Card",
+            "Revenge",
+            "Inhuman Deeds",
+            "Giant Ape Power",
+            "Space-Traveling Warriors",
+            "Corroded Body and Mind",
+            "GT Bosses",
+            "Battle of Fate"
+        ],
         "roles": [
             "TANK",
             "SUPPORT"
@@ -1858,7 +2669,13 @@ const dokkanCharacters = [
             115,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Hybrid Saiyans",
+            "Terrifying Conquerors",
+            "Corroded Body and Mind",
+            "Earth-Bred Fighters",
+            "Mission Execution"
+        ],
         "roles": [
             "TANK",
             "SUPPORT"
@@ -1885,7 +2702,20 @@ const dokkanCharacters = [
             109,
             125
         ],
-        "categories": [],
+        "categories": [
+            "Resurrected Warriors",
+            "Movie Bosses",
+            "Pure Saiyans",
+            "Full Power",
+            "Target: Goku",
+            "Exploding Rage",
+            "Revenge",
+            "Inhuman Deeds",
+            "Planetary Destruction",
+            "Legendary Existence",
+            "Power Beyond Super Saiyan",
+            "Uncontrollable Power"
+        ],
         "roles": []
     },
     {
@@ -1909,7 +2739,12 @@ const dokkanCharacters = [
             97,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Movie Bosses",
+            "Pure Saiyans",
+            "Gifted Warriors",
+            "Super Bosses"
+        ],
         "roles": [
             "TANK",
             "HEALER"
@@ -1936,7 +2771,17 @@ const dokkanCharacters = [
             109,
             125
         ],
-        "categories": [],
+        "categories": [
+            "Movie Bosses",
+            "Pure Saiyans",
+            "Exploding Rage",
+            "Rapid Growth",
+            "Giant Ape Power",
+            "Gifted Warriors",
+            "Super Bosses",
+            "Uncontrollable Power",
+            "Mission Execution"
+        ],
         "roles": [
             "TANK",
             "DPS / NUKER"
@@ -1963,7 +2808,16 @@ const dokkanCharacters = [
             97,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Pure Saiyans",
+            "Vegeta's Family",
+            "Youth",
+            "Terrifying Conquerors",
+            "Space-Traveling Warriors",
+            "Gifted Warriors",
+            "Successors",
+            "Mission Execution"
+        ],
         "roles": [
             "DPS / NUKER"
         ]
@@ -1989,7 +2843,24 @@ const dokkanCharacters = [
             109,
             125
         ],
-        "categories": [],
+        "categories": [
+            "Resurrected Warriors",
+            "Movie Bosses",
+            "Full Power",
+            "Transformation Boost",
+            "Wicked Bloodline",
+            "Terrifying Conquerors",
+            "Target: Goku",
+            "Revenge",
+            "Inhuman Deeds",
+            "Gifted Warriors",
+            "Planetary Destruction",
+            "Mastered Evolution",
+            "Sworn Enemies",
+            "Battle of Fate",
+            "Power of Wishes",
+            "Successors"
+        ],
         "roles": [
             "TANK"
         ]
@@ -2015,7 +2886,33 @@ const dokkanCharacters = [
             109,
             125
         ],
-        "categories": [],
+        "categories": [
+            "Fusion",
+            "Movie Bosses",
+            "Full Power",
+            "Transformation Boost",
+            "Wicked Bloodline",
+            "Dragon Ball Seekers",
+            "Movie Heroes",
+            "Kamehameha",
+            "Terrifying Conquerors",
+            "Target: Goku",
+            "Final Trump Card",
+            "Revenge",
+            "Inhuman Deeds",
+            "Space-Traveling Warriors",
+            "Powerful Comeback",
+            "Gifted Warriors",
+            "Time Limit",
+            "Mastered Evolution",
+            "Sworn Enemies",
+            "Accelerated Battle",
+            "Fused Fighters",
+            "Super Heroes",
+            "Super Bosses",
+            "Earth-Protecting Heroes",
+            "Successors"
+        ],
         "roles": [
             "TANK",
             "DPS / NUKER"
@@ -2042,7 +2939,18 @@ const dokkanCharacters = [
             97,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Pure Saiyans",
+            "Movie Heroes",
+            "Vegeta's Family",
+            "Siblings' Bond",
+            "Worthy Rivals",
+            "Bond of Master and Disciple",
+            "Gifted Warriors",
+            "Bond of Parent and Child",
+            "Super Heroes",
+            "Successors"
+        ],
         "roles": [
             "TANK",
             "DPS / NUKER"
@@ -2069,7 +2977,17 @@ const dokkanCharacters = [
             102,
             118
         ],
-        "categories": [],
+        "categories": [
+            "World Tournament",
+            "DB Saga",
+            "Worthy Rivals",
+            "Kamehameha",
+            "Bond of Master and Disciple",
+            "Earthlings",
+            "Turtle School",
+            "Earth-Bred Fighters",
+            "Tournament Participants"
+        ],
         "roles": [
             "TANK",
             "DPS / NUKER"
@@ -2096,7 +3014,17 @@ const dokkanCharacters = [
             130,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Peppy Gals",
+            "Universe Survival Saga",
+            "Pure Saiyans",
+            "Universe 6",
+            "Rapid Growth",
+            "Gifted Warriors",
+            "Bond of Friendship",
+            "Tournament Participants",
+            "Super Bosses"
+        ],
         "roles": [
             "DPS / NUKER"
         ]
@@ -2122,7 +3050,16 @@ const dokkanCharacters = [
             130,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Peppy Gals",
+            "Universe Survival Saga",
+            "Pure Saiyans",
+            "Universe 6",
+            "Rapid Growth",
+            "Bond of Friendship",
+            "Tournament Participants",
+            "Super Bosses"
+        ],
         "roles": [
             "TANK",
             "SUPPORT"
@@ -2149,7 +3086,11 @@ const dokkanCharacters = [
             102,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Peppy Gals",
+            "Realm of Gods",
+            "Giant Form"
+        ],
         "roles": [
             "HEALER",
             "SUPPORT"
@@ -2176,7 +3117,17 @@ const dokkanCharacters = [
             64,
             118
         ],
-        "categories": [],
+        "categories": [
+            "World Tournament",
+            "Peppy Gals",
+            "Majin Buu Saga",
+            "Earthlings",
+            "Powerful Comeback",
+            "Defenders of Justice",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters",
+            "Tournament Participants"
+        ],
         "roles": [
             "TANK",
             "DPS / NUKER"
@@ -2203,7 +3154,15 @@ const dokkanCharacters = [
             97,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Peppy Gals",
+            "Low-Class Warrior",
+            "Pure Saiyans",
+            "Team Bardock",
+            "Space-Traveling Warriors",
+            "Storied Figures",
+            "Mission Execution"
+        ],
         "roles": [
             "TANK"
         ]
@@ -2229,7 +3188,14 @@ const dokkanCharacters = [
             42,
             118
         ],
-        "categories": [],
+        "categories": [
+            "World Tournament",
+            "Peppy Gals",
+            "DB Saga",
+            "Earthlings",
+            "Earth-Bred Fighters",
+            "Tournament Participants"
+        ],
         "roles": [
             "TANK",
             "SUPPORT"
@@ -2256,7 +3222,11 @@ const dokkanCharacters = [
             8,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Peppy Gals",
+            "Space-Traveling Warriors",
+            "Bond of Friendship"
+        ],
         "roles": [
             "HEALER",
             "SUPPORT",
@@ -2284,7 +3254,26 @@ const dokkanCharacters = [
             118,
             125
         ],
-        "categories": [],
+        "categories": [
+            "Hybrid Saiyans",
+            "Full Power",
+            "Movie Heroes",
+            "Goku's Family",
+            "Youth",
+            "Bond of Master and Disciple",
+            "Super Saiyan 2",
+            "Exploding Rage",
+            "All-Out Struggle",
+            "Miraculous Awakening",
+            "Powerful Comeback",
+            "Entrusted Will",
+            "Power Beyond Super Saiyan",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters",
+            "Tournament Participants",
+            "Demonic Power",
+            "Earth-Protecting Heroes"
+        ],
         "roles": [
             "DPS / NUKER"
         ]
@@ -2310,7 +3299,26 @@ const dokkanCharacters = [
             118,
             125
         ],
-        "categories": [],
+        "categories": [
+            "Fusion",
+            "World Tournament",
+            "Hybrid Saiyans",
+            "Majin Buu Saga",
+            "Joined Forces",
+            "Youth",
+            "Special Pose",
+            "Rapid Growth",
+            "Gifted Warriors",
+            "Heavenly Events",
+            "Time Limit",
+            "Bond of Friendship",
+            "Entrusted Will",
+            "Power Beyond Super Saiyan",
+            "Fused Fighters",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters",
+            "Tournament Participants"
+        ],
         "roles": []
     },
     {
@@ -2334,7 +3342,26 @@ const dokkanCharacters = [
             109,
             125
         ],
-        "categories": [],
+        "categories": [
+            "Fusion",
+            "Hybrid Saiyans",
+            "Majin Buu Saga",
+            "Joined Forces",
+            "Goku's Family",
+            "Youth",
+            "Siblings' Bond",
+            "Super Saiyans",
+            "Kamehameha",
+            "Special Pose",
+            "Gifted Warriors",
+            "Defenders of Justice",
+            "Time Limit",
+            "Bond of Friendship",
+            "Fused Fighters",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters",
+            "Demonic Power"
+        ],
         "roles": [
             "TANK",
             "SUPPORT",
@@ -2362,7 +3389,16 @@ const dokkanCharacters = [
             42,
             109
         ],
-        "categories": [],
+        "categories": [
+            "World Tournament",
+            "Majin Buu Saga",
+            "Terrifying Conquerors",
+            "Earthlings",
+            "Corroded Body and Mind",
+            "Earth-Bred Fighters",
+            "Tournament Participants",
+            "Mission Execution"
+        ],
         "roles": [
             "TANK",
             "DPS / NUKER"
@@ -2389,7 +3425,16 @@ const dokkanCharacters = [
             109,
             125
         ],
-        "categories": [],
+        "categories": [
+            "Future Saga",
+            "Time Travelers",
+            "Joined Forces",
+            "Vegeta's Family",
+            "Bond of Master and Disciple",
+            "Battle of Fate",
+            "Bond of Parent and Child",
+            "Super Heroes"
+        ],
         "roles": [
             "TANK",
             "SUPPORT",
@@ -2417,7 +3462,20 @@ const dokkanCharacters = [
             112,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Fusion",
+            "Shadow Dragon Saga",
+            "Kamehameha",
+            "Final Trump Card",
+            "Giant Ape Power",
+            "GT Heroes",
+            "Time Limit",
+            "Accelerated Battle",
+            "Battle of Fate",
+            "Power Beyond Super Saiyan",
+            "Fused Fighters",
+            "Earth-Protecting Heroes"
+        ],
         "roles": []
     },
     {
@@ -2441,7 +3499,11 @@ const dokkanCharacters = [
             50,
             125
         ],
-        "categories": [],
+        "categories": [
+            "Shadow Dragon Saga",
+            "Joined Forces",
+            "GT Bosses"
+        ],
         "roles": [
             "SUPPORT"
         ]
@@ -2467,7 +3529,17 @@ const dokkanCharacters = [
             47,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Shadow Dragon Saga",
+            "Hybrid Saiyans",
+            "Goku's Family",
+            "Youth",
+            "Kamehameha",
+            "GT Heroes",
+            "Bond of Friendship",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters"
+        ],
         "roles": [
             "SUPPORT"
         ]
@@ -2493,7 +3565,19 @@ const dokkanCharacters = [
             97,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Shadow Dragon Saga",
+            "Hybrid Saiyans",
+            "Vegeta's Family",
+            "Siblings' Bond",
+            "Super Saiyans",
+            "Battle of Wits",
+            "GT Heroes",
+            "Bond of Friendship",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters",
+            "Successors"
+        ],
         "roles": []
     },
     {
@@ -2517,7 +3601,19 @@ const dokkanCharacters = [
             95,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Super Saiyan 3",
+            "Pure Saiyans",
+            "Goku's Family",
+            "Kamehameha",
+            "Turtle School",
+            "GT Heroes",
+            "Bond of Friendship",
+            "Accelerated Battle",
+            "Power Beyond Super Saiyan",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters"
+        ],
         "roles": []
     },
     {
@@ -2541,7 +3637,14 @@ const dokkanCharacters = [
             127,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Shadow Dragon Saga",
+            "Full Power",
+            "Inhuman Deeds",
+            "Power Absorption",
+            "GT Bosses",
+            "Battle of Fate"
+        ],
         "roles": []
     },
     {
@@ -2565,7 +3668,11 @@ const dokkanCharacters = [
             60,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Shadow Dragon Saga",
+            "Inhuman Deeds",
+            "GT Bosses"
+        ],
         "roles": [
             "TANK",
             "DPS / NUKER"
@@ -2592,7 +3699,22 @@ const dokkanCharacters = [
             95,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Pure Saiyans",
+            "Goku's Family",
+            "Kamehameha",
+            "Giant Ape Power",
+            "Turtle School",
+            "Miraculous Awakening",
+            "GT Heroes",
+            "Bond of Friendship",
+            "Accelerated Battle",
+            "Battle of Fate",
+            "Power Beyond Super Saiyan",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters",
+            "Earth-Protecting Heroes"
+        ],
         "roles": []
     },
     {
@@ -2616,7 +3738,22 @@ const dokkanCharacters = [
             95,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Shadow Dragon Saga",
+            "Pure Saiyans",
+            "Vegeta's Family",
+            "Worthy Rivals",
+            "Saviors",
+            "Giant Ape Power",
+            "Miraculous Awakening",
+            "Gifted Warriors",
+            "GT Heroes",
+            "Battle of Fate",
+            "Power Beyond Super Saiyan",
+            "Bond of Parent and Child",
+            "Earth-Protecting Heroes",
+            "Successors"
+        ],
         "roles": []
     },
     {
@@ -2640,7 +3777,23 @@ const dokkanCharacters = [
             124,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Super Saiyan 3",
+            "Giant Form",
+            "Pure Saiyans",
+            "Goku's Family",
+            "Kamehameha",
+            "Revenge",
+            "Giant Ape Power",
+            "Turtle School",
+            "GT Heroes",
+            "Bond of Friendship",
+            "Accelerated Battle",
+            "Power Beyond Super Saiyan",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters",
+            "Uncontrollable Power"
+        ],
         "roles": [
             "SUPPORT"
         ]
@@ -2666,7 +3819,21 @@ const dokkanCharacters = [
             50,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Giant Form",
+            "Transformation Boost",
+            "Artificial Life Forms",
+            "Terrifying Conquerors",
+            "Target: Goku",
+            "Final Trump Card",
+            "Revenge",
+            "Inhuman Deeds",
+            "Giant Ape Power",
+            "Space-Traveling Warriors",
+            "Corroded Body and Mind",
+            "GT Bosses",
+            "Battle of Fate"
+        ],
         "roles": []
     },
     {
@@ -2690,7 +3857,15 @@ const dokkanCharacters = [
             109,
             125
         ],
-        "categories": [],
+        "categories": [
+            "Shadow Dragon Saga",
+            "Full Power",
+            "Inhuman Deeds",
+            "Power Absorption",
+            "GT Bosses",
+            "Worldwide Chaos",
+            "Battle of Fate"
+        ],
         "roles": [
             "TANK",
             "SUPPORT",
@@ -2718,7 +3893,11 @@ const dokkanCharacters = [
             127,
             125
         ],
-        "categories": [],
+        "categories": [
+            "Shadow Dragon Saga",
+            "GT Bosses",
+            "Accelerated Battle"
+        ],
         "roles": [
             "TANK",
             "DPS / NUKER"
@@ -2745,7 +3924,20 @@ const dokkanCharacters = [
             109,
             125
         ],
-        "categories": [],
+        "categories": [
+            "Fusion",
+            "Shadow Dragon Saga",
+            "Kamehameha",
+            "Final Trump Card",
+            "Giant Ape Power",
+            "GT Heroes",
+            "Time Limit",
+            "Accelerated Battle",
+            "Battle of Fate",
+            "Power Beyond Super Saiyan",
+            "Fused Fighters",
+            "Earth-Protecting Heroes"
+        ],
         "roles": [
             "TANK",
             "SUPPORT",
@@ -2773,7 +3965,16 @@ const dokkanCharacters = [
             4,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Shadow Dragon Saga",
+            "Hybrid Saiyans",
+            "Goku's Family",
+            "Youth",
+            "GT Heroes",
+            "Bond of Friendship",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters"
+        ],
         "roles": [
             "TANK",
             "SUPPORT",
@@ -2801,7 +4002,19 @@ const dokkanCharacters = [
             109,
             125
         ],
-        "categories": [],
+        "categories": [
+            "Realm of Gods",
+            "Potara",
+            "Future Saga",
+            "Time Travelers",
+            "Final Trump Card",
+            "Worldwide Chaos",
+            "Battle of Fate",
+            "Fused Fighters",
+            "Power of Wishes",
+            "Super Bosses",
+            "Successors"
+        ],
         "roles": [
             "TANK",
             "HEALER",
@@ -2829,7 +4042,21 @@ const dokkanCharacters = [
             89,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Realm of Gods",
+            "Potara",
+            "Future Saga",
+            "Time Travelers",
+            "Kamehameha",
+            "Final Trump Card",
+            "Battle of Wits",
+            "Time Limit",
+            "Accelerated Battle",
+            "Battle of Fate",
+            "Power Beyond Super Saiyan",
+            "Fused Fighters",
+            "Super Heroes"
+        ],
         "roles": [
             "TANK"
         ]
@@ -2855,7 +4082,20 @@ const dokkanCharacters = [
             50,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Realm of Gods",
+            "Potara",
+            "Future Saga",
+            "Time Travelers",
+            "Inhuman Deeds",
+            "Corroded Body and Mind",
+            "Accelerated Battle",
+            "Worldwide Chaos",
+            "Power Beyond Super Saiyan",
+            "Power of Wishes",
+            "Super Bosses",
+            "Successors"
+        ],
         "roles": [
             "SUPPORT"
         ]
@@ -2881,7 +4121,19 @@ const dokkanCharacters = [
             118,
             125
         ],
-        "categories": [],
+        "categories": [
+            "Realm of Gods",
+            "Potara",
+            "Future Saga",
+            "Dragon Ball Seekers",
+            "Time Travelers",
+            "Inhuman Deeds",
+            "Corroded Body and Mind",
+            "Worldwide Chaos",
+            "Power of Wishes",
+            "Super Bosses",
+            "Successors"
+        ],
         "roles": []
     },
     {
@@ -2905,7 +4157,34 @@ const dokkanCharacters = [
             109,
             125
         ],
-        "categories": [],
+        "categories": [
+            "Realm of Gods",
+            "Potara",
+            "Pure Saiyans",
+            "Future Saga",
+            "Time Travelers",
+            "Goku's Family",
+            "Vegeta's Family",
+            "Siblings' Bond",
+            "Worthy Rivals",
+            "Kamehameha",
+            "Bond of Master and Disciple",
+            "Final Trump Card",
+            "Exploding Rage",
+            "Turtle School",
+            "Gifted Warriors",
+            "Time Limit",
+            "Mastered Evolution",
+            "Bond of Friendship",
+            "Accelerated Battle",
+            "Battle of Fate",
+            "Power Beyond Super Saiyan",
+            "Fused Fighters",
+            "Bond of Parent and Child",
+            "Super Heroes",
+            "Earth-Bred Fighters",
+            "Successors"
+        ],
         "roles": [
             "TANK"
         ]
@@ -2931,7 +4210,25 @@ const dokkanCharacters = [
             109,
             125
         ],
-        "categories": [],
+        "categories": [
+            "Realm of Gods",
+            "Potara",
+            "Future Saga",
+            "Time Travelers",
+            "Kamehameha",
+            "Final Trump Card",
+            "Inhuman Deeds",
+            "Corroded Body and Mind",
+            "Gifted Warriors",
+            "Accelerated Battle",
+            "Worldwide Chaos",
+            "Battle of Fate",
+            "Power Beyond Super Saiyan",
+            "Fused Fighters",
+            "Power of Wishes",
+            "Super Bosses",
+            "Successors"
+        ],
         "roles": [
             "TANK",
             "DPS / NUKER"
@@ -2958,7 +4255,16 @@ const dokkanCharacters = [
             60,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Realm of Gods",
+            "Dragon Ball Seekers",
+            "Universe 6",
+            "Siblings' Bond",
+            "Bond of Master and Disciple",
+            "Space-Traveling Warriors",
+            "Planetary Destruction",
+            "Successors"
+        ],
         "roles": [
             "TANK",
             "SUPPORT",
@@ -2986,7 +4292,19 @@ const dokkanCharacters = [
             33,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Realm of Gods",
+            "Future Saga",
+            "Time Travelers",
+            "Inhuman Deeds",
+            "Corroded Body and Mind",
+            "Accelerated Battle",
+            "Worldwide Chaos",
+            "Power Beyond Super Saiyan",
+            "Power of Wishes",
+            "Super Bosses",
+            "Successors"
+        ],
         "roles": [
             "SUPPORT",
             "DPS / NUKER"
@@ -3013,7 +4331,19 @@ const dokkanCharacters = [
             33,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Realm of Gods",
+            "Future Saga",
+            "Time Travelers",
+            "Inhuman Deeds",
+            "Corroded Body and Mind",
+            "Accelerated Battle",
+            "Worldwide Chaos",
+            "Power Beyond Super Saiyan",
+            "Power of Wishes",
+            "Super Bosses",
+            "Successors"
+        ],
         "roles": [
             "SUPPORT",
             "DPS / NUKER"
@@ -3040,7 +4370,19 @@ const dokkanCharacters = [
             33,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Realm of Gods",
+            "Future Saga",
+            "Time Travelers",
+            "Inhuman Deeds",
+            "Corroded Body and Mind",
+            "Accelerated Battle",
+            "Worldwide Chaos",
+            "Power Beyond Super Saiyan",
+            "Power of Wishes",
+            "Super Bosses",
+            "Successors"
+        ],
         "roles": [
             "TANK",
             "DPS / NUKER"
@@ -3067,7 +4409,19 @@ const dokkanCharacters = [
             33,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Realm of Gods",
+            "Future Saga",
+            "Time Travelers",
+            "Inhuman Deeds",
+            "Corroded Body and Mind",
+            "Accelerated Battle",
+            "Worldwide Chaos",
+            "Power Beyond Super Saiyan",
+            "Power of Wishes",
+            "Super Bosses",
+            "Successors"
+        ],
         "roles": [
             "TANK",
             "DPS / NUKER"
@@ -3094,7 +4448,19 @@ const dokkanCharacters = [
             33,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Realm of Gods",
+            "Future Saga",
+            "Time Travelers",
+            "Inhuman Deeds",
+            "Corroded Body and Mind",
+            "Accelerated Battle",
+            "Worldwide Chaos",
+            "Power Beyond Super Saiyan",
+            "Power of Wishes",
+            "Super Bosses",
+            "Successors"
+        ],
         "roles": [
             "TANK",
             "HEALER",
@@ -3123,7 +4489,19 @@ const dokkanCharacters = [
             33,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Realm of Gods",
+            "Future Saga",
+            "Time Travelers",
+            "Inhuman Deeds",
+            "Corroded Body and Mind",
+            "Accelerated Battle",
+            "Worldwide Chaos",
+            "Power Beyond Super Saiyan",
+            "Power of Wishes",
+            "Super Bosses",
+            "Successors"
+        ],
         "roles": [
             "TANK",
             "HEALER",
@@ -3152,7 +4530,19 @@ const dokkanCharacters = [
             33,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Realm of Gods",
+            "Future Saga",
+            "Time Travelers",
+            "Inhuman Deeds",
+            "Corroded Body and Mind",
+            "Accelerated Battle",
+            "Worldwide Chaos",
+            "Power Beyond Super Saiyan",
+            "Power of Wishes",
+            "Super Bosses",
+            "Successors"
+        ],
         "roles": [
             "TANK",
             "DPS / NUKER"
@@ -3179,7 +4569,19 @@ const dokkanCharacters = [
             33,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Realm of Gods",
+            "Future Saga",
+            "Time Travelers",
+            "Inhuman Deeds",
+            "Corroded Body and Mind",
+            "Accelerated Battle",
+            "Worldwide Chaos",
+            "Power Beyond Super Saiyan",
+            "Power of Wishes",
+            "Super Bosses",
+            "Successors"
+        ],
         "roles": [
             "TANK",
             "DPS / NUKER"
@@ -3206,7 +4608,19 @@ const dokkanCharacters = [
             33,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Realm of Gods",
+            "Future Saga",
+            "Time Travelers",
+            "Inhuman Deeds",
+            "Corroded Body and Mind",
+            "Accelerated Battle",
+            "Worldwide Chaos",
+            "Power Beyond Super Saiyan",
+            "Power of Wishes",
+            "Super Bosses",
+            "Successors"
+        ],
         "roles": [
             "TANK",
             "SUPPORT",
@@ -3234,7 +4648,19 @@ const dokkanCharacters = [
             33,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Realm of Gods",
+            "Future Saga",
+            "Time Travelers",
+            "Inhuman Deeds",
+            "Corroded Body and Mind",
+            "Accelerated Battle",
+            "Worldwide Chaos",
+            "Power Beyond Super Saiyan",
+            "Power of Wishes",
+            "Super Bosses",
+            "Successors"
+        ],
         "roles": [
             "TANK",
             "SUPPORT",
@@ -3262,7 +4688,14 @@ const dokkanCharacters = [
             118,
             125
         ],
-        "categories": [],
+        "categories": [
+            "Worthy Rivals",
+            "Final Trump Card",
+            "Earthlings",
+            "Bond of Friendship",
+            "Saiyan Saga",
+            "Earth-Bred Fighters"
+        ],
         "roles": [
             "DPS / NUKER"
         ]
@@ -3288,7 +4721,16 @@ const dokkanCharacters = [
             102,
             118
         ],
-        "categories": [],
+        "categories": [
+            "World Tournament",
+            "Youth",
+            "DB Saga",
+            "Bond of Master and Disciple",
+            "Earthlings",
+            "Bond of Friendship",
+            "Earth-Bred Fighters",
+            "Tournament Participants"
+        ],
         "roles": [
             "TANK",
             "DPS / NUKER"
@@ -3315,7 +4757,14 @@ const dokkanCharacters = [
             47,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Worthy Rivals",
+            "Kamehameha",
+            "Earthlings",
+            "Turtle School",
+            "Saiyan Saga",
+            "Earth-Bred Fighters"
+        ],
         "roles": [
             "DPS / NUKER"
         ]
@@ -3341,7 +4790,16 @@ const dokkanCharacters = [
             109,
             125
         ],
-        "categories": [],
+        "categories": [
+            "World Tournament",
+            "DB Saga",
+            "Bond of Master and Disciple",
+            "Final Trump Card",
+            "Earthlings",
+            "Bond of Friendship",
+            "Earth-Bred Fighters",
+            "Tournament Participants"
+        ],
         "roles": [
             "TANK",
             "SUPPORT"
@@ -3368,7 +4826,16 @@ const dokkanCharacters = [
             94,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Planet Namek Saga",
+            "Ginyu Force",
+            "Dragon Ball Seekers",
+            "Terrifying Conquerors",
+            "Special Pose",
+            "Space-Traveling Warriors",
+            "Corroded Body and Mind",
+            "Mission Execution"
+        ],
         "roles": [
             "SUPPORT"
         ]
@@ -3394,7 +4861,16 @@ const dokkanCharacters = [
             73,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Planet Namek Saga",
+            "Ginyu Force",
+            "Dragon Ball Seekers",
+            "Joined Forces",
+            "Terrifying Conquerors",
+            "Special Pose",
+            "Space-Traveling Warriors",
+            "Mission Execution"
+        ],
         "roles": [
             "SUPPORT"
         ]
@@ -3420,7 +4896,16 @@ const dokkanCharacters = [
             73,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Planet Namek Saga",
+            "Ginyu Force",
+            "Dragon Ball Seekers",
+            "Joined Forces",
+            "Terrifying Conquerors",
+            "Special Pose",
+            "Space-Traveling Warriors",
+            "Mission Execution"
+        ],
         "roles": [
             "TANK"
         ]
@@ -3446,7 +4931,16 @@ const dokkanCharacters = [
             18,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Dragon Ball Seekers",
+            "DB Saga",
+            "Siblings' Bond",
+            "Target: Goku",
+            "Earthlings",
+            "Sworn Enemies",
+            "Earth-Bred Fighters",
+            "Mission Execution"
+        ],
         "roles": [
             "TANK",
             "DPS / NUKER"
@@ -3473,7 +4967,15 @@ const dokkanCharacters = [
             73,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Dragon Ball Seekers",
+            "DB Saga",
+            "Terrifying Conquerors",
+            "Inhuman Deeds",
+            "Earthlings",
+            "Earth-Bred Fighters",
+            "Mission Execution"
+        ],
         "roles": [
             "TANK",
             "SUPPORT",
@@ -3501,7 +5003,25 @@ const dokkanCharacters = [
             97,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Peppy Gals",
+            "Universe Survival Saga",
+            "Potara",
+            "Pure Saiyans",
+            "Full Power",
+            "Universe 6",
+            "Joined Forces",
+            "Super Saiyan 2",
+            "Final Trump Card",
+            "Rapid Growth",
+            "Time Limit",
+            "Bond of Friendship",
+            "Accelerated Battle",
+            "Power Beyond Super Saiyan",
+            "Fused Fighters",
+            "Tournament Participants",
+            "Super Bosses"
+        ],
         "roles": []
     },
     {
@@ -3525,7 +5045,24 @@ const dokkanCharacters = [
             109,
             125
         ],
-        "categories": [],
+        "categories": [
+            "Peppy Gals",
+            "Universe Survival Saga",
+            "Pure Saiyans",
+            "Full Power",
+            "Universe 6",
+            "Super Saiyan 2",
+            "Exploding Rage",
+            "Rapid Growth",
+            "Miraculous Awakening",
+            "Gifted Warriors",
+            "Mastered Evolution",
+            "Bond of Friendship",
+            "Power Beyond Super Saiyan",
+            "Tournament Participants",
+            "Super Bosses",
+            "Uncontrollable Power"
+        ],
         "roles": [
             "TANK",
             "SUPPORT",
@@ -3553,7 +5090,16 @@ const dokkanCharacters = [
             118,
             125
         ],
-        "categories": [],
+        "categories": [
+            "Dragon Ball Seekers",
+            "DB Saga",
+            "Siblings' Bond",
+            "Target: Goku",
+            "Earthlings",
+            "Sworn Enemies",
+            "Earth-Bred Fighters",
+            "Mission Execution"
+        ],
         "roles": []
     },
     {
@@ -3577,7 +5123,16 @@ const dokkanCharacters = [
             60,
             118
         ],
-        "categories": [],
+        "categories": [
+            "World Tournament",
+            "DB Saga",
+            "Bond of Master and Disciple",
+            "Final Trump Card",
+            "Earthlings",
+            "Bond of Friendship",
+            "Earth-Bred Fighters",
+            "Tournament Participants"
+        ],
         "roles": []
     },
     {
@@ -3601,7 +5156,19 @@ const dokkanCharacters = [
             120,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Resurrected Warriors",
+            "Transformation Boost",
+            "Wicked Bloodline",
+            "Androids/Cell Saga",
+            "Terrifying Conquerors",
+            "Target: Goku",
+            "Revenge",
+            "Inhuman Deeds",
+            "Gifted Warriors",
+            "Sworn Enemies",
+            "Successors"
+        ],
         "roles": [
             "TANK",
             "DPS / NUKER"
@@ -3628,7 +5195,17 @@ const dokkanCharacters = [
             1004,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Resurrected Warriors",
+            "Movie Bosses",
+            "Time Travelers",
+            "Terrifying Conquerors",
+            "Inhuman Deeds",
+            "Space-Traveling Warriors",
+            "Storied Figures",
+            "Legendary Existence",
+            "Tournament Participants"
+        ],
         "roles": [
             "TANK",
             "SUPPORT",
@@ -3656,7 +5233,19 @@ const dokkanCharacters = [
             66,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Hybrid Saiyans",
+            "Future Saga",
+            "Goku's Family",
+            "Super Saiyans",
+            "Androids/Cell Saga",
+            "Bond of Master and Disciple",
+            "All-Out Struggle",
+            "Connected Hope",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters",
+            "Demonic Power"
+        ],
         "roles": [
             "DPS / NUKER"
         ]
@@ -3682,7 +5271,13 @@ const dokkanCharacters = [
             109,
             125
         ],
-        "categories": [],
+        "categories": [
+            "Universe Survival Saga",
+            "Joined Forces",
+            "Legendary Existence",
+            "Accelerated Battle",
+            "Tournament Participants"
+        ],
         "roles": [
             "TANK"
         ]
@@ -3708,7 +5303,25 @@ const dokkanCharacters = [
             60,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Realm of Gods",
+            "Pure Saiyans",
+            "Full Power",
+            "Representatives of Universe 7",
+            "Goku's Family",
+            "Kamehameha",
+            "Bond of Master and Disciple",
+            "Final Trump Card",
+            "Turtle School",
+            "Mastered Evolution",
+            "Bond of Friendship",
+            "Accelerated Battle",
+            "Power Beyond Super Saiyan",
+            "Bond of Parent and Child",
+            "Super Heroes",
+            "Earth-Bred Fighters",
+            "Tournament Participants"
+        ],
         "roles": []
     },
     {
@@ -3732,7 +5345,20 @@ const dokkanCharacters = [
             56,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Namekians",
+            "Representatives of Universe 7",
+            "Worthy Rivals",
+            "Bond of Master and Disciple",
+            "Battle of Wits",
+            "Gifted Warriors",
+            "Fused Fighters",
+            "Super Heroes",
+            "Earth-Bred Fighters",
+            "Tournament Participants",
+            "Demonic Power",
+            "Successors"
+        ],
         "roles": [
             "TANK",
             "DPS / NUKER"
@@ -3759,7 +5385,16 @@ const dokkanCharacters = [
             126,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Universe 6",
+            "Rapid Growth",
+            "Space-Traveling Warriors",
+            "Legendary Existence",
+            "Accelerated Battle",
+            "Tournament Participants",
+            "Super Bosses",
+            "Mission Execution"
+        ],
         "roles": [
             "DPS / NUKER"
         ]
@@ -3784,7 +5419,10 @@ const dokkanCharacters = [
             126,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Universe 6",
+            "Tournament Participants"
+        ],
         "roles": [
             "TANK",
             "SUPPORT",
@@ -3812,7 +5450,26 @@ const dokkanCharacters = [
             60,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Realm of Gods",
+            "Pure Saiyans",
+            "Full Power",
+            "Representatives of Universe 7",
+            "Goku's Family",
+            "Kamehameha",
+            "Bond of Master and Disciple",
+            "Final Trump Card",
+            "Turtle School",
+            "Powerful Comeback",
+            "Mastered Evolution",
+            "Bond of Friendship",
+            "Accelerated Battle",
+            "Power Beyond Super Saiyan",
+            "Bond of Parent and Child",
+            "Super Heroes",
+            "Earth-Bred Fighters",
+            "Tournament Participants"
+        ],
         "roles": [
             "TANK",
             "DPS / NUKER"
@@ -3839,7 +5496,15 @@ const dokkanCharacters = [
             109,
             125
         ],
-        "categories": [],
+        "categories": [
+            "Worthy Rivals",
+            "Otherworld Warriors",
+            "Saviors",
+            "Battle of Wits",
+            "Storied Figures",
+            "Tournament Participants",
+            "Mission Execution"
+        ],
         "roles": [
             "TANK",
             "SUPPORT",
@@ -3867,7 +5532,17 @@ const dokkanCharacters = [
             129,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Movie Heroes",
+            "Worthy Rivals",
+            "Otherworld Warriors",
+            "Saviors",
+            "Battle of Wits",
+            "Connected Hope",
+            "Storied Figures",
+            "Tournament Participants",
+            "Mission Execution"
+        ],
         "roles": [
             "SUPPORT"
         ]
@@ -3893,7 +5568,15 @@ const dokkanCharacters = [
             129,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Worthy Rivals",
+            "Otherworld Warriors",
+            "Saviors",
+            "Battle of Wits",
+            "Storied Figures",
+            "Tournament Participants",
+            "Mission Execution"
+        ],
         "roles": []
     },
     {
@@ -3917,7 +5600,13 @@ const dokkanCharacters = [
             50,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Movie Bosses",
+            "Transformation Boost",
+            "Corroded Body and Mind",
+            "Accelerated Battle",
+            "Uncontrollable Power"
+        ],
         "roles": [
             "TANK",
             "SUPPORT"
@@ -3944,7 +5633,21 @@ const dokkanCharacters = [
             129,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Pure Saiyans",
+            "Full Power",
+            "Goku's Family",
+            "Super Saiyans",
+            "Kamehameha",
+            "Otherworld Warriors",
+            "Final Trump Card",
+            "Turtle School",
+            "Bond of Friendship",
+            "Accelerated Battle",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters",
+            "Tournament Participants"
+        ],
         "roles": []
     },
     {
@@ -3968,7 +5671,20 @@ const dokkanCharacters = [
             1004,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Androids",
+            "Transformation Boost",
+            "Time Travelers",
+            "Artificial Life Forms",
+            "Androids/Cell Saga",
+            "Target: Goku",
+            "Exploding Rage",
+            "Power Absorption",
+            "Sworn Enemies",
+            "Accelerated Battle",
+            "Worldwide Chaos",
+            "Tournament Participants"
+        ],
         "roles": [
             "DPS / NUKER"
         ]
@@ -3994,7 +5710,23 @@ const dokkanCharacters = [
             97,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Pure Saiyans",
+            "Full Power",
+            "Goku's Family",
+            "Super Saiyans",
+            "Androids/Cell Saga",
+            "Kamehameha",
+            "Bond of Master and Disciple",
+            "Turtle School",
+            "Heavenly Events",
+            "Bond of Friendship",
+            "Accelerated Battle",
+            "Entrusted Will",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters",
+            "Tournament Participants"
+        ],
         "roles": []
     },
     {
@@ -4018,7 +5750,12 @@ const dokkanCharacters = [
             95,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Dragon Ball Seekers",
+            "Joined Forces",
+            "Special Pose",
+            "Mission Execution"
+        ],
         "roles": [
             "SUPPORT"
         ]
@@ -4044,7 +5781,16 @@ const dokkanCharacters = [
             110,
             109
         ],
-        "categories": [],
+        "categories": [
+            "World Tournament",
+            "Peppy Gals",
+            "Majin Buu Saga",
+            "Androids",
+            "Siblings' Bond",
+            "Worthy Rivals",
+            "Battle of Wits",
+            "Tournament Participants"
+        ],
         "roles": [
             "SUPPORT",
             "DPS / NUKER"
@@ -4071,7 +5817,21 @@ const dokkanCharacters = [
             108,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Androids",
+            "Transformation Boost",
+            "Time Travelers",
+            "Artificial Life Forms",
+            "Androids/Cell Saga",
+            "Kamehameha",
+            "Target: Goku",
+            "Power Absorption",
+            "Powerful Comeback",
+            "Sworn Enemies",
+            "Accelerated Battle",
+            "Worldwide Chaos",
+            "Tournament Participants"
+        ],
         "roles": [
             "TANK",
             "DPS / NUKER"
@@ -4097,7 +5857,19 @@ const dokkanCharacters = [
             90,
             102
         ],
-        "categories": [],
+        "categories": [
+            "World Tournament",
+            "Youth",
+            "DB Saga",
+            "Kamehameha",
+            "Bond of Master and Disciple",
+            "Earthlings",
+            "Battle of Wits",
+            "Turtle School",
+            "Bond of Friendship",
+            "Earth-Bred Fighters",
+            "Tournament Participants"
+        ],
         "roles": [
             "SUPPORT"
         ]
@@ -4123,7 +5895,21 @@ const dokkanCharacters = [
             89,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Fusion",
+            "Hybrid Saiyans",
+            "Majin Buu Saga",
+            "Youth",
+            "Special Pose",
+            "Rapid Growth",
+            "Connected Hope",
+            "Gifted Warriors",
+            "Heavenly Events",
+            "Time Limit",
+            "Entrusted Will",
+            "Fused Fighters",
+            "Earth-Bred Fighters"
+        ],
         "roles": [
             "SUPPORT",
             "DPS / NUKER"
@@ -4150,7 +5936,18 @@ const dokkanCharacters = [
             50,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Realm of Gods",
+            "Potara",
+            "Future Saga",
+            "Time Travelers",
+            "Inhuman Deeds",
+            "Corroded Body and Mind",
+            "Worldwide Chaos",
+            "Power of Wishes",
+            "Super Bosses",
+            "Successors"
+        ],
         "roles": [
             "SUPPORT"
         ]
@@ -4176,7 +5973,17 @@ const dokkanCharacters = [
             47,
             118
         ],
-        "categories": [],
+        "categories": [
+            "World Tournament",
+            "Full Power",
+            "DB Saga",
+            "Kamehameha",
+            "Earthlings",
+            "Battle of Wits",
+            "Planetary Destruction",
+            "Earth-Bred Fighters",
+            "Tournament Participants"
+        ],
         "roles": [
             "SUPPORT"
         ]
@@ -4227,7 +6034,21 @@ const dokkanCharacters = [
             118,
             125
         ],
-        "categories": [],
+        "categories": [
+            "Resurrected Warriors",
+            "Low-Class Warrior",
+            "Pure Saiyans",
+            "Time Travelers",
+            "Goku's Family",
+            "Super Saiyans",
+            "Exploding Rage",
+            "Revenge",
+            "Team Bardock",
+            "Miraculous Awakening",
+            "Powerful Comeback",
+            "Storied Figures",
+            "Bond of Parent and Child"
+        ],
         "roles": [
             "TANK",
             "SUPPORT",
@@ -4255,7 +6076,20 @@ const dokkanCharacters = [
             102,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Low-Class Warrior",
+            "Pure Saiyans",
+            "Dragon Ball Seekers",
+            "Movie Heroes",
+            "Goku's Family",
+            "Youth",
+            "DB Saga",
+            "Kamehameha",
+            "Exploding Rage",
+            "Bond of Friendship",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters"
+        ],
         "roles": [
             "TANK",
             "SUPPORT",
@@ -4283,7 +6117,16 @@ const dokkanCharacters = [
             102,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Low-Class Warrior",
+            "Pure Saiyans",
+            "Dragon Ball Seekers",
+            "Goku's Family",
+            "Youth",
+            "DB Saga",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters"
+        ],
         "roles": [
             "TANK",
             "HEALER",
@@ -4311,7 +6154,13 @@ const dokkanCharacters = [
             42,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Youth",
+            "DB Saga",
+            "Earthlings",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters"
+        ],
         "roles": [
             "TANK",
             "SUPPORT",
@@ -4339,7 +6188,21 @@ const dokkanCharacters = [
             97,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Pure Saiyans",
+            "Goku's Family",
+            "Super Saiyans",
+            "Kamehameha",
+            "Giant Ape Power",
+            "Turtle School",
+            "GT Heroes",
+            "Bond of Friendship",
+            "Accelerated Battle",
+            "Power Beyond Super Saiyan",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters",
+            "Earth-Protecting Heroes"
+        ],
         "roles": [
             "DPS / NUKER"
         ]
@@ -4364,7 +6227,17 @@ const dokkanCharacters = [
             116,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Super Saiyan 3",
+            "Pure Saiyans",
+            "Vegeta's Family",
+            "Worthy Rivals",
+            "Crossover",
+            "Gifted Warriors",
+            "Power Beyond Super Saiyan",
+            "Bond of Parent and Child",
+            "Successors"
+        ],
         "roles": [
             "TANK"
         ]
@@ -4390,7 +6263,19 @@ const dokkanCharacters = [
             97,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Pure Saiyans",
+            "Vegeta's Family",
+            "Super Saiyans",
+            "Worthy Rivals",
+            "Giant Ape Power",
+            "Gifted Warriors",
+            "GT Heroes",
+            "Power Beyond Super Saiyan",
+            "Bond of Parent and Child",
+            "Earth-Protecting Heroes",
+            "Successors"
+        ],
         "roles": [
             "DPS / NUKER"
         ]
@@ -4416,7 +6301,23 @@ const dokkanCharacters = [
             116,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Super Saiyan 3",
+            "Pure Saiyans",
+            "Full Power",
+            "Transformation Boost",
+            "Dragon Ball Seekers",
+            "Time Travelers",
+            "Vegeta's Family",
+            "Worthy Rivals",
+            "Gifted Warriors",
+            "Mastered Evolution",
+            "Accelerated Battle",
+            "Power Beyond Super Saiyan",
+            "Bond of Parent and Child",
+            "Successors",
+            "DAIMA"
+        ],
         "roles": [
             "TANK",
             "DPS / NUKER"
@@ -4443,7 +6344,23 @@ const dokkanCharacters = [
             109,
             125
         ],
-        "categories": [],
+        "categories": [
+            "Fusion",
+            "Realm of Gods",
+            "Pure Saiyans",
+            "Transformation Boost",
+            "Joined Forces",
+            "Movie Heroes",
+            "Kamehameha",
+            "Final Trump Card",
+            "Time Limit",
+            "Mastered Evolution",
+            "Power Beyond Super Saiyan",
+            "Fused Fighters",
+            "Bond of Parent and Child",
+            "Super Heroes",
+            "Earth-Protecting Heroes"
+        ],
         "roles": [
             "TANK",
             "DPS / NUKER"
@@ -4470,7 +6387,23 @@ const dokkanCharacters = [
             109,
             125
         ],
-        "categories": [],
+        "categories": [
+            "Fusion",
+            "Shadow Dragon Saga",
+            "Pure Saiyans",
+            "Joined Forces",
+            "Kamehameha",
+            "Final Trump Card",
+            "Giant Ape Power",
+            "GT Heroes",
+            "Time Limit",
+            "Accelerated Battle",
+            "Battle of Fate",
+            "Power Beyond Super Saiyan",
+            "Fused Fighters",
+            "Bond of Parent and Child",
+            "Earth-Protecting Heroes"
+        ],
         "roles": [
             "TANK",
             "DPS / NUKER"
@@ -4497,7 +6430,23 @@ const dokkanCharacters = [
             118,
             125
         ],
-        "categories": [],
+        "categories": [
+            "Pure Saiyans",
+            "Full Power",
+            "Goku's Family",
+            "Kamehameha",
+            "Final Trump Card",
+            "All-Out Struggle",
+            "Turtle School",
+            "Bond of Friendship",
+            "Accelerated Battle",
+            "Battle of Fate",
+            "Saiyan Saga",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters",
+            "Power of Wishes",
+            "Earth-Protecting Heroes"
+        ],
         "roles": [
             "DPS / NUKER"
         ]
@@ -4523,7 +6472,25 @@ const dokkanCharacters = [
             118,
             125
         ],
-        "categories": [],
+        "categories": [
+            "Resurrected Warriors",
+            "Namekians",
+            "Full Power",
+            "Dragon Ball Seekers",
+            "Time Travelers",
+            "DB Saga",
+            "Terrifying Conquerors",
+            "Gifted Warriors",
+            "Storied Figures",
+            "Legendary Existence",
+            "Sworn Enemies",
+            "Accelerated Battle",
+            "Worldwide Chaos",
+            "Battle of Fate",
+            "Power of Wishes",
+            "Demonic Power",
+            "Successors"
+        ],
         "roles": [
             "TANK",
             "SUPPORT"
@@ -4550,7 +6517,23 @@ const dokkanCharacters = [
             118,
             125
         ],
-        "categories": [],
+        "categories": [
+            "Giant Form",
+            "Pure Saiyans",
+            "Dragon Ball Seekers",
+            "Vegeta's Family",
+            "Terrifying Conquerors",
+            "Final Trump Card",
+            "Inhuman Deeds",
+            "Giant Ape Power",
+            "Space-Traveling Warriors",
+            "Gifted Warriors",
+            "Planetary Destruction",
+            "Accelerated Battle",
+            "Battle of Fate",
+            "Saiyan Saga",
+            "Successors"
+        ],
         "roles": [
             "TANK"
         ]
@@ -4576,7 +6559,25 @@ const dokkanCharacters = [
             40,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Fusion",
+            "Hybrid Saiyans",
+            "Majin Buu Saga",
+            "Goku's Family",
+            "Vegeta's Family",
+            "Youth",
+            "Siblings' Bond",
+            "Kamehameha",
+            "Special Pose",
+            "Gifted Warriors",
+            "Heavenly Events",
+            "Time Limit",
+            "Bond of Friendship",
+            "Entrusted Will",
+            "Fused Fighters",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters"
+        ],
         "roles": [
             "TANK"
         ]
@@ -4602,7 +6603,27 @@ const dokkanCharacters = [
             109,
             125
         ],
-        "categories": [],
+        "categories": [
+            "Hybrid Saiyans",
+            "Full Power",
+            "Goku's Family",
+            "Youth",
+            "Androids/Cell Saga",
+            "Kamehameha",
+            "Bond of Master and Disciple",
+            "Super Saiyan 2",
+            "Exploding Rage",
+            "All-Out Struggle",
+            "Miraculous Awakening",
+            "Entrusted Will",
+            "Battle of Fate",
+            "Power Beyond Super Saiyan",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters",
+            "Tournament Participants",
+            "Demonic Power",
+            "Earth-Protecting Heroes"
+        ],
         "roles": []
     },
     {
@@ -4626,7 +6647,24 @@ const dokkanCharacters = [
             108,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Resurrected Warriors",
+            "Full Power",
+            "Androids",
+            "Transformation Boost",
+            "Time Travelers",
+            "Artificial Life Forms",
+            "Androids/Cell Saga",
+            "Kamehameha",
+            "Revenge",
+            "Miraculous Awakening",
+            "Planetary Destruction",
+            "Sworn Enemies",
+            "Accelerated Battle",
+            "Worldwide Chaos",
+            "Battle of Fate",
+            "Tournament Participants"
+        ],
         "roles": []
     },
     {
@@ -4650,7 +6688,28 @@ const dokkanCharacters = [
             109,
             125
         ],
-        "categories": [],
+        "categories": [
+            "Hybrid Saiyans",
+            "Full Power",
+            "Transformation Boost",
+            "Goku's Family",
+            "Youth",
+            "Androids/Cell Saga",
+            "Kamehameha",
+            "Bond of Master and Disciple",
+            "Super Saiyan 2",
+            "Exploding Rage",
+            "All-Out Struggle",
+            "Miraculous Awakening",
+            "Entrusted Will",
+            "Battle of Fate",
+            "Power Beyond Super Saiyan",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters",
+            "Tournament Participants",
+            "Demonic Power",
+            "Earth-Protecting Heroes"
+        ],
         "roles": [
             "TANK",
             "DPS / NUKER"
@@ -4677,7 +6736,32 @@ const dokkanCharacters = [
             109,
             125
         ],
-        "categories": [],
+        "categories": [
+            "Universe Survival Saga",
+            "Resurrected Warriors",
+            "Pure Saiyans",
+            "Full Power",
+            "Representatives of Universe 7",
+            "Transformation Boost",
+            "Wicked Bloodline",
+            "Goku's Family",
+            "Kamehameha",
+            "Otherworld Warriors",
+            "All-Out Struggle",
+            "Turtle School",
+            "Powerful Comeback",
+            "Gifted Warriors",
+            "Time Limit",
+            "Sworn Enemies",
+            "Bond of Friendship",
+            "Accelerated Battle",
+            "Battle of Fate",
+            "Bond of Parent and Child",
+            "Super Heroes",
+            "Earth-Bred Fighters",
+            "Tournament Participants",
+            "Successors"
+        ],
         "roles": [
             "TANK",
             "SUPPORT",
@@ -4705,7 +6789,30 @@ const dokkanCharacters = [
             109,
             125
         ],
-        "categories": [],
+        "categories": [
+            "Fusion",
+            "Pure Saiyans",
+            "Movie Heroes",
+            "Goku's Family",
+            "Vegeta's Family",
+            "Super Saiyans",
+            "Worthy Rivals",
+            "Otherworld Warriors",
+            "Final Trump Card",
+            "Connected Hope",
+            "Turtle School",
+            "Powerful Comeback",
+            "Gifted Warriors",
+            "Time Limit",
+            "Mastered Evolution",
+            "Bond of Friendship",
+            "Accelerated Battle",
+            "Fused Fighters",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters",
+            "Earth-Protecting Heroes",
+            "Successors"
+        ],
         "roles": [
             "TANK",
             "SUPPORT"
@@ -4732,7 +6839,18 @@ const dokkanCharacters = [
             80,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Realm of Gods",
+            "Movie Bosses",
+            "Siblings' Bond",
+            "Worthy Rivals",
+            "Bond of Master and Disciple",
+            "Exploding Rage",
+            "Space-Traveling Warriors",
+            "Planetary Destruction",
+            "Legendary Existence",
+            "Successors"
+        ],
         "roles": [
             "TANK",
             "SUPPORT",
@@ -4760,7 +6878,25 @@ const dokkanCharacters = [
             109,
             125
         ],
-        "categories": [],
+        "categories": [
+            "Planet Namek Saga",
+            "Pure Saiyans",
+            "Full Power",
+            "Goku's Family",
+            "Super Saiyans",
+            "Kamehameha",
+            "Exploding Rage",
+            "Saviors",
+            "Turtle School",
+            "Miraculous Awakening",
+            "Powerful Comeback",
+            "Legendary Existence",
+            "Bond of Friendship",
+            "Entrusted Will",
+            "Battle of Fate",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters"
+        ],
         "roles": [
             "DPS / NUKER"
         ]
@@ -4786,7 +6922,22 @@ const dokkanCharacters = [
             109,
             125
         ],
-        "categories": [],
+        "categories": [
+            "Planet Namek Saga",
+            "Full Power",
+            "Transformation Boost",
+            "Wicked Bloodline",
+            "Terrifying Conquerors",
+            "Final Trump Card",
+            "Exploding Rage",
+            "Inhuman Deeds",
+            "Space-Traveling Warriors",
+            "Gifted Warriors",
+            "Planetary Destruction",
+            "Sworn Enemies",
+            "Battle of Fate",
+            "Successors"
+        ],
         "roles": [
             "DPS / NUKER"
         ]
@@ -4812,7 +6963,13 @@ const dokkanCharacters = [
             120,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Movie Bosses",
+            "Transformation Boost",
+            "Corroded Body and Mind",
+            "Accelerated Battle",
+            "Uncontrollable Power"
+        ],
         "roles": [
             "TANK"
         ]
@@ -4837,7 +6994,18 @@ const dokkanCharacters = [
             112,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Fusion",
+            "Movie Heroes",
+            "Super Saiyans",
+            "Otherworld Warriors",
+            "Final Trump Card",
+            "Connected Hope",
+            "Powerful Comeback",
+            "Time Limit",
+            "Fused Fighters",
+            "Earth-Protecting Heroes"
+        ],
         "roles": []
     },
     {
@@ -4861,7 +7029,15 @@ const dokkanCharacters = [
             60,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Majin Buu Saga",
+            "Potara",
+            "Super Saiyans",
+            "Final Trump Card",
+            "Battle of Wits",
+            "Accelerated Battle",
+            "Fused Fighters"
+        ],
         "roles": [
             "TANK"
         ]
@@ -4887,7 +7063,19 @@ const dokkanCharacters = [
             1004,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Majin Buu Saga",
+            "Transformation Boost",
+            "Artificial Life Forms",
+            "Kamehameha",
+            "Final Trump Card",
+            "Majin Power",
+            "Power Absorption",
+            "Sworn Enemies",
+            "Worldwide Chaos",
+            "Demonic Power",
+            "Uncontrollable Power"
+        ],
         "roles": [
             "HEALER"
         ]
@@ -4913,7 +7101,30 @@ const dokkanCharacters = [
             109,
             125
         ],
-        "categories": [],
+        "categories": [
+            "Super Saiyan 3",
+            "Giant Form",
+            "Pure Saiyans",
+            "Transformation Boost",
+            "Goku's Family",
+            "Kamehameha",
+            "Revenge",
+            "All-Out Struggle",
+            "Giant Ape Power",
+            "Turtle School",
+            "Miraculous Awakening",
+            "GT Heroes",
+            "Bond of Friendship",
+            "Accelerated Battle",
+            "Entrusted Will",
+            "Battle of Fate",
+            "Power Beyond Super Saiyan",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters",
+            "Power of Wishes",
+            "Uncontrollable Power",
+            "Earth-Protecting Heroes"
+        ],
         "roles": [
             "TANK",
             "SUPPORT",
@@ -4941,7 +7152,26 @@ const dokkanCharacters = [
             109,
             125
         ],
-        "categories": [],
+        "categories": [
+            "Universe Survival Saga",
+            "Realm of Gods",
+            "Pure Saiyans",
+            "Full Power",
+            "Representatives of Universe 7",
+            "Vegeta's Family",
+            "Siblings' Bond",
+            "Worthy Rivals",
+            "Bond of Master and Disciple",
+            "All-Out Struggle",
+            "Miraculous Awakening",
+            "Powerful Comeback",
+            "Gifted Warriors",
+            "Power Beyond Super Saiyan",
+            "Bond of Parent and Child",
+            "Super Heroes",
+            "Tournament Participants",
+            "Successors"
+        ],
         "roles": [
             "TANK",
             "DPS / NUKER"
@@ -4968,7 +7198,31 @@ const dokkanCharacters = [
             109,
             125
         ],
-        "categories": [],
+        "categories": [
+            "Resurrected Warriors",
+            "Majin Buu Saga",
+            "Potara",
+            "Pure Saiyans",
+            "Goku's Family",
+            "Vegeta's Family",
+            "Super Saiyans",
+            "Worthy Rivals",
+            "Kamehameha",
+            "Otherworld Warriors",
+            "Final Trump Card",
+            "Battle of Wits",
+            "Turtle School",
+            "Gifted Warriors",
+            "Time Limit",
+            "Mastered Evolution",
+            "Bond of Friendship",
+            "Accelerated Battle",
+            "Fused Fighters",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters",
+            "Earth-Protecting Heroes",
+            "Successors"
+        ],
         "roles": [
             "TANK"
         ]
@@ -4994,7 +7248,20 @@ const dokkanCharacters = [
             44,
             109
         ],
-        "categories": [],
+        "categories": [
+            "World Tournament",
+            "Majin Buu Saga",
+            "Potara",
+            "Final Trump Card",
+            "Earthlings",
+            "Saviors",
+            "Bond of Friendship",
+            "Fused Fighters",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters",
+            "Tournament Participants",
+            "Earth-Protecting Heroes"
+        ],
         "roles": [
             "TANK",
             "SUPPORT",
@@ -5022,7 +7289,24 @@ const dokkanCharacters = [
             97,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Majin Buu Saga",
+            "Super Saiyan 3",
+            "Pure Saiyans",
+            "Transformation Boost",
+            "Goku's Family",
+            "Kamehameha",
+            "Super Saiyan 2",
+            "Turtle School",
+            "Mastered Evolution",
+            "Bond of Friendship",
+            "Accelerated Battle",
+            "Battle of Fate",
+            "Power Beyond Super Saiyan",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters",
+            "Earth-Protecting Heroes"
+        ],
         "roles": [
             "DPS / NUKER"
         ]
@@ -5048,7 +7332,22 @@ const dokkanCharacters = [
             1004,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Resurrected Warriors",
+            "Majin Buu Saga",
+            "Transformation Boost",
+            "Artificial Life Forms",
+            "Majin Power",
+            "Planetary Destruction",
+            "Storied Figures",
+            "Legendary Existence",
+            "Sworn Enemies",
+            "Accelerated Battle",
+            "Worldwide Chaos",
+            "Battle of Fate",
+            "Demonic Power",
+            "Uncontrollable Power"
+        ],
         "roles": [
             "HEALER"
         ]
@@ -5090,7 +7389,15 @@ const dokkanCharacters = [
             76,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Dragon Ball Seekers",
+            "Battle of Wits",
+            "Heavenly Events",
+            "Accelerated Battle",
+            "Demonic Power",
+            "Mission Execution",
+            "DAIMA"
+        ],
         "roles": [
             "SUPPORT"
         ]
@@ -5116,7 +7423,23 @@ const dokkanCharacters = [
             97,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Pure Saiyans",
+            "Transformation Boost",
+            "Dragon Ball Seekers",
+            "Time Travelers",
+            "Goku's Family",
+            "Super Saiyans",
+            "Kamehameha",
+            "Super Saiyan 2",
+            "Turtle School",
+            "Bond of Friendship",
+            "Accelerated Battle",
+            "Power Beyond Super Saiyan",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters",
+            "DAIMA"
+        ],
         "roles": [
             "TANK"
         ]
@@ -5142,7 +7465,24 @@ const dokkanCharacters = [
             109,
             125
         ],
-        "categories": [],
+        "categories": [
+            "Resurrected Warriors",
+            "Majin Buu Saga",
+            "Pure Saiyans",
+            "Vegeta's Family",
+            "Worthy Rivals",
+            "Otherworld Warriors",
+            "Super Saiyan 2",
+            "All-Out Struggle",
+            "Connected Hope",
+            "Gifted Warriors",
+            "Time Limit",
+            "Mastered Evolution",
+            "Battle of Fate",
+            "Power Beyond Super Saiyan",
+            "Bond of Parent and Child",
+            "Successors"
+        ],
         "roles": []
     },
     {
@@ -5166,7 +7506,21 @@ const dokkanCharacters = [
             82,
             109
         ],
-        "categories": [],
+        "categories": [
+            "World Tournament",
+            "Hybrid Saiyans",
+            "Majin Buu Saga",
+            "Goku's Family",
+            "Youth",
+            "Siblings' Bond",
+            "Super Saiyans",
+            "Kamehameha",
+            "Gifted Warriors",
+            "Bond of Friendship",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters",
+            "Tournament Participants"
+        ],
         "roles": [
             "SUPPORT"
         ]
@@ -5192,7 +7546,14 @@ const dokkanCharacters = [
             110,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Peppy Gals",
+            "Majin Buu Saga",
+            "Androids",
+            "Siblings' Bond",
+            "Worthy Rivals",
+            "Battle of Wits"
+        ],
         "roles": []
     },
     {
@@ -5216,7 +7577,19 @@ const dokkanCharacters = [
             102,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Goku's Family",
+            "DB Saga",
+            "Kamehameha",
+            "Bond of Master and Disciple",
+            "Otherworld Warriors",
+            "Earthlings",
+            "Turtle School",
+            "Time Limit",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters",
+            "Mission Execution"
+        ],
         "roles": []
     },
     {
@@ -5240,7 +7613,16 @@ const dokkanCharacters = [
             20,
             118
         ],
-        "categories": [],
+        "categories": [
+            "World Tournament",
+            "Hybrid Saiyans",
+            "Majin Buu Saga",
+            "Goku's Family",
+            "Youth",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters",
+            "Tournament Participants"
+        ],
         "roles": [
             "DPS / NUKER"
         ]
@@ -5292,7 +7674,27 @@ const dokkanCharacters = [
             109,
             125
         ],
-        "categories": [],
+        "categories": [
+            "Fusion",
+            "Hybrid Saiyans",
+            "Majin Buu Saga",
+            "Super Saiyan 3",
+            "Youth",
+            "Kamehameha",
+            "Final Trump Card",
+            "Special Pose",
+            "Rapid Growth",
+            "Saviors",
+            "Connected Hope",
+            "Gifted Warriors",
+            "Heavenly Events",
+            "Time Limit",
+            "Mastered Evolution",
+            "Entrusted Will",
+            "Power Beyond Super Saiyan",
+            "Fused Fighters",
+            "Earth-Bred Fighters"
+        ],
         "roles": [
             "TANK",
             "DPS / NUKER"
@@ -5319,7 +7721,19 @@ const dokkanCharacters = [
             109,
             125
         ],
-        "categories": [],
+        "categories": [
+            "Universe Survival Saga",
+            "Realm of Gods",
+            "Full Power",
+            "Transformation Boost",
+            "Universe 11",
+            "Space-Traveling Warriors",
+            "Powerful Comeback",
+            "Defenders of Justice",
+            "Battle of Fate",
+            "Tournament Participants",
+            "Super Bosses"
+        ],
         "roles": [
             "TANK",
             "DPS / NUKER"
@@ -5346,7 +7760,19 @@ const dokkanCharacters = [
             1003,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Resurrected Warriors",
+            "Majin Buu Saga",
+            "Pure Saiyans",
+            "Vegeta's Family",
+            "Worthy Rivals",
+            "Super Saiyan 2",
+            "Corroded Body and Mind",
+            "Gifted Warriors",
+            "Mastered Evolution",
+            "Power Beyond Super Saiyan",
+            "Uncontrollable Power"
+        ],
         "roles": []
     },
     {
@@ -5370,7 +7796,26 @@ const dokkanCharacters = [
             1003,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Resurrected Warriors",
+            "Majin Buu Saga",
+            "Super Saiyan 3",
+            "Pure Saiyans",
+            "Transformation Boost",
+            "Goku's Family",
+            "Kamehameha",
+            "Otherworld Warriors",
+            "Super Saiyan 2",
+            "Connected Hope",
+            "Turtle School",
+            "Time Limit",
+            "Mastered Evolution",
+            "Bond of Friendship",
+            "Accelerated Battle",
+            "Power Beyond Super Saiyan",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters"
+        ],
         "roles": []
     },
     {
@@ -5393,7 +7838,21 @@ const dokkanCharacters = [
             103,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Hybrid Saiyans",
+            "Majin Buu Saga",
+            "Goku's Family",
+            "Siblings' Bond",
+            "Revenge",
+            "Rapid Growth",
+            "Saviors",
+            "Powerful Comeback",
+            "Entrusted Will",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters",
+            "Power of Wishes",
+            "Demonic Power"
+        ],
         "roles": []
     },
     {
@@ -5417,7 +7876,13 @@ const dokkanCharacters = [
             125,
             130
         ],
-        "categories": [],
+        "categories": [
+            "Universe Survival Saga",
+            "Final Trump Card",
+            "Fused Fighters",
+            "Tournament Participants",
+            "Super Bosses"
+        ],
         "roles": [
             "TANK",
             "DPS / NUKER"
@@ -5444,7 +7909,12 @@ const dokkanCharacters = [
             1003,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Realm of Gods",
+            "Majin Buu Saga",
+            "Potara",
+            "Storied Figures"
+        ],
         "roles": [
             "TANK",
             "SUPPORT",
@@ -5472,7 +7942,18 @@ const dokkanCharacters = [
             1004,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Majin Buu Saga",
+            "Transformation Boost",
+            "Artificial Life Forms",
+            "Final Trump Card",
+            "Majin Power",
+            "Power Absorption",
+            "Sworn Enemies",
+            "Worldwide Chaos",
+            "Demonic Power",
+            "Uncontrollable Power"
+        ],
         "roles": [
             "TANK",
             "SUPPORT",
@@ -5500,7 +7981,20 @@ const dokkanCharacters = [
             117,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Namekians",
+            "Representatives of Universe 7",
+            "Worthy Rivals",
+            "Bond of Master and Disciple",
+            "Battle of Wits",
+            "Gifted Warriors",
+            "Fused Fighters",
+            "Super Heroes",
+            "Earth-Bred Fighters",
+            "Tournament Participants",
+            "Demonic Power",
+            "Successors"
+        ],
         "roles": []
     },
     {
@@ -5524,7 +8018,17 @@ const dokkanCharacters = [
             130,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Universe Survival Saga",
+            "Androids",
+            "Representatives of Universe 7",
+            "Siblings' Bond",
+            "Worthy Rivals",
+            "Battle of Wits",
+            "Defenders of Justice",
+            "Super Heroes",
+            "Tournament Participants"
+        ],
         "roles": []
     },
     {
@@ -5548,7 +8052,18 @@ const dokkanCharacters = [
             130,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Peppy Gals",
+            "Universe Survival Saga",
+            "Androids",
+            "Representatives of Universe 7",
+            "Siblings' Bond",
+            "Worthy Rivals",
+            "Battle of Wits",
+            "Bond of Parent and Child",
+            "Super Heroes",
+            "Tournament Participants"
+        ],
         "roles": [
             "DPS / NUKER"
         ]
@@ -5574,7 +8089,20 @@ const dokkanCharacters = [
             60,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Universe Survival Saga",
+            "Resurrected Warriors",
+            "Representatives of Universe 7",
+            "Transformation Boost",
+            "Artificial Life Forms",
+            "Worthy Rivals",
+            "Majin Power",
+            "Power Absorption",
+            "Mastered Evolution",
+            "Bond of Friendship",
+            "Super Heroes",
+            "Demonic Power"
+        ],
         "roles": []
     },
     {
@@ -5598,7 +8126,18 @@ const dokkanCharacters = [
             60,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Universe Survival Saga",
+            "Universe 6",
+            "Target: Goku",
+            "Rapid Growth",
+            "Space-Traveling Warriors",
+            "Legendary Existence",
+            "Accelerated Battle",
+            "Tournament Participants",
+            "Super Bosses",
+            "Mission Execution"
+        ],
         "roles": [
             "DPS / NUKER"
         ]
@@ -5624,7 +8163,17 @@ const dokkanCharacters = [
             60,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Universe Survival Saga",
+            "Realm of Gods",
+            "Dragon Ball Seekers",
+            "Universe 6",
+            "Siblings' Bond",
+            "Bond of Master and Disciple",
+            "Space-Traveling Warriors",
+            "Planetary Destruction",
+            "Successors"
+        ],
         "roles": []
     },
     {
@@ -5648,7 +8197,17 @@ const dokkanCharacters = [
             15,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Universe Survival Saga",
+            "Namekians",
+            "Universe 6",
+            "Joined Forces",
+            "All-Out Struggle",
+            "Entrusted Will",
+            "Fused Fighters",
+            "Tournament Participants",
+            "Demonic Power"
+        ],
         "roles": [
             "TANK",
             "HEALER"
@@ -5675,7 +8234,18 @@ const dokkanCharacters = [
             60,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Transformation Boost",
+            "Wicked Bloodline",
+            "Time Travelers",
+            "Terrifying Conquerors",
+            "Inhuman Deeds",
+            "Space-Traveling Warriors",
+            "Gifted Warriors",
+            "Planetary Destruction",
+            "Sworn Enemies",
+            "Successors"
+        ],
         "roles": [
             "TANK",
             "DPS / NUKER"
@@ -5701,7 +8271,19 @@ const dokkanCharacters = [
             60,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Realm of Gods",
+            "Movie Bosses",
+            "Siblings' Bond",
+            "Worthy Rivals",
+            "Bond of Master and Disciple",
+            "Exploding Rage",
+            "Space-Traveling Warriors",
+            "Planetary Destruction",
+            "Legendary Existence",
+            "Battle of Fate",
+            "Successors"
+        ],
         "roles": []
     },
     {
@@ -5725,7 +8307,21 @@ const dokkanCharacters = [
             97,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Realm of Gods",
+            "Pure Saiyans",
+            "Time Travelers",
+            "Goku's Family",
+            "Kamehameha",
+            "Dragon Ball Heroes",
+            "Crossover",
+            "Turtle School",
+            "Bond of Friendship",
+            "Accelerated Battle",
+            "Power Beyond Super Saiyan",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters"
+        ],
         "roles": [
             "TANK",
             "DPS / NUKER"
@@ -5752,7 +8348,18 @@ const dokkanCharacters = [
             120,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Realm of Gods",
+            "Transformation Boost",
+            "Time Travelers",
+            "Youth",
+            "Dragon Ball Heroes",
+            "Battle of Wits",
+            "Power Absorption",
+            "Crossover",
+            "Accelerated Battle",
+            "Demonic Power"
+        ],
         "roles": [
             "TANK",
             "DPS / NUKER"
@@ -5779,7 +8386,15 @@ const dokkanCharacters = [
             80,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Realm of Gods",
+            "Potara",
+            "Time Travelers",
+            "Dragon Ball Heroes",
+            "Crossover",
+            "Storied Figures",
+            "Successors"
+        ],
         "roles": [
             "HEALER",
             "SUPPORT"
@@ -5806,7 +8421,15 @@ const dokkanCharacters = [
             120,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Resurrected Warriors",
+            "Realm of Gods",
+            "Time Travelers",
+            "Dragon Ball Heroes",
+            "Crossover",
+            "Storied Figures",
+            "Demonic Power"
+        ],
         "roles": [
             "TANK",
             "SUPPORT",
@@ -5834,7 +8457,17 @@ const dokkanCharacters = [
             97,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Pure Saiyans",
+            "Dragon Ball Seekers",
+            "Time Travelers",
+            "Goku's Family",
+            "Super Saiyans",
+            "Dragon Ball Heroes",
+            "Crossover",
+            "Bond of Parent and Child",
+            "Mission Execution"
+        ],
         "roles": [
             "TANK",
             "DPS / NUKER"
@@ -5861,7 +8494,19 @@ const dokkanCharacters = [
             65,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Resurrected Warriors",
+            "Movie Bosses",
+            "Full Power",
+            "Transformation Boost",
+            "Time Travelers",
+            "Terrifying Conquerors",
+            "Inhuman Deeds",
+            "Space-Traveling Warriors",
+            "Storied Figures",
+            "Legendary Existence",
+            "Tournament Participants"
+        ],
         "roles": [
             "SUPPORT"
         ]
@@ -5887,7 +8532,17 @@ const dokkanCharacters = [
             114,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Peppy Gals",
+            "Resurrected Warriors",
+            "Time Travelers",
+            "Siblings' Bond",
+            "Terrifying Conquerors",
+            "Dragon Ball Heroes",
+            "Battle of Wits",
+            "Crossover",
+            "Demonic Power"
+        ],
         "roles": [
             "SUPPORT",
             "DPS / NUKER"
@@ -5914,7 +8569,17 @@ const dokkanCharacters = [
             50,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Resurrected Warriors",
+            "Realm of Gods",
+            "Time Travelers",
+            "Terrifying Conquerors",
+            "Dragon Ball Heroes",
+            "Crossover",
+            "Storied Figures",
+            "Power of Wishes",
+            "Demonic Power"
+        ],
         "roles": [
             "HEALER"
         ]
@@ -5940,7 +8605,25 @@ const dokkanCharacters = [
             80,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Hybrid Saiyans",
+            "Realm of Gods",
+            "Time Travelers",
+            "Vegeta's Family",
+            "Bond of Master and Disciple",
+            "Dragon Ball Heroes",
+            "Battle of Wits",
+            "Crossover",
+            "Miraculous Awakening",
+            "Defenders of Justice",
+            "Legendary Existence",
+            "Entrusted Will",
+            "Power Beyond Super Saiyan",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters",
+            "Power of Wishes",
+            "Mission Execution"
+        ],
         "roles": [
             "DPS / NUKER"
         ]
@@ -5966,7 +8649,18 @@ const dokkanCharacters = [
             14,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Hybrid Saiyans",
+            "Time Travelers",
+            "Goku's Family",
+            "Youth",
+            "Dragon Ball Heroes",
+            "Crossover",
+            "Defenders of Justice",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters",
+            "Mission Execution"
+        ],
         "roles": [
             "SUPPORT",
             "DPS / NUKER"
@@ -5993,7 +8687,20 @@ const dokkanCharacters = [
             97,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Pure Saiyans",
+            "Time Travelers",
+            "Goku's Family",
+            "Super Saiyans",
+            "Kamehameha",
+            "Dragon Ball Heroes",
+            "Crossover",
+            "Turtle School",
+            "Defenders of Justice",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters",
+            "Mission Execution"
+        ],
         "roles": [
             "SUPPORT"
         ]
@@ -6019,7 +8726,20 @@ const dokkanCharacters = [
             97,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Pure Saiyans",
+            "Time Travelers",
+            "Vegeta's Family",
+            "Super Saiyans",
+            "Worthy Rivals",
+            "Dragon Ball Heroes",
+            "Crossover",
+            "Gifted Warriors",
+            "Defenders of Justice",
+            "Bond of Parent and Child",
+            "Successors",
+            "Mission Execution"
+        ],
         "roles": [
             "SUPPORT"
         ]
@@ -6045,7 +8765,17 @@ const dokkanCharacters = [
             103,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Potara",
+            "Time Travelers",
+            "Super Saiyans",
+            "Dragon Ball Heroes",
+            "Crossover",
+            "Defenders of Justice",
+            "Time Limit",
+            "Fused Fighters",
+            "Mission Execution"
+        ],
         "roles": [
             "DPS / NUKER"
         ]
@@ -6071,7 +8801,20 @@ const dokkanCharacters = [
             39,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Fusion",
+            "Hybrid Saiyans",
+            "Super Saiyan 3",
+            "Time Travelers",
+            "Dragon Ball Heroes",
+            "Crossover",
+            "Defenders of Justice",
+            "Time Limit",
+            "Power Beyond Super Saiyan",
+            "Fused Fighters",
+            "Earth-Bred Fighters",
+            "Mission Execution"
+        ],
         "roles": []
     },
     {
@@ -6095,7 +8838,21 @@ const dokkanCharacters = [
             47,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Fusion",
+            "Hybrid Saiyans",
+            "Super Saiyan 3",
+            "Time Travelers",
+            "Kamehameha",
+            "Dragon Ball Heroes",
+            "Crossover",
+            "Defenders of Justice",
+            "Time Limit",
+            "Power Beyond Super Saiyan",
+            "Fused Fighters",
+            "Earth-Bred Fighters",
+            "Mission Execution"
+        ],
         "roles": []
     },
     {
@@ -6118,7 +8875,14 @@ const dokkanCharacters = [
             73,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Peppy Gals",
+            "Time Travelers",
+            "Dragon Ball Heroes",
+            "Crossover",
+            "Tournament Participants",
+            "Mission Execution"
+        ],
         "roles": [
             "SUPPORT",
             "DPS / NUKER"
@@ -6144,7 +8908,17 @@ const dokkanCharacters = [
             45,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Hybrid Saiyans",
+            "Movie Heroes",
+            "Goku's Family",
+            "Youth",
+            "Bond of Master and Disciple",
+            "Bond of Friendship",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters",
+            "Demonic Power"
+        ],
         "roles": [
             "TANK",
             "SUPPORT"
@@ -6171,7 +8945,16 @@ const dokkanCharacters = [
             119,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Movie Bosses",
+            "Namekians",
+            "Dragon Ball Seekers",
+            "Terrifying Conquerors",
+            "Inhuman Deeds",
+            "Space-Traveling Warriors",
+            "Power of Wishes",
+            "Demonic Power"
+        ],
         "roles": [
             "TANK",
             "HEALER",
@@ -6199,7 +8982,13 @@ const dokkanCharacters = [
             54,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Joined Forces",
+            "Terrifying Conquerors",
+            "Space-Traveling Warriors",
+            "Demonic Power",
+            "Mission Execution"
+        ],
         "roles": [
             "SUPPORT"
         ]
@@ -6225,7 +9014,12 @@ const dokkanCharacters = [
             102,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Joined Forces",
+            "DB Saga",
+            "Earthlings",
+            "Earth-Bred Fighters"
+        ],
         "roles": [
             "HEALER"
         ]
@@ -6251,7 +9045,11 @@ const dokkanCharacters = [
             130,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Peppy Gals",
+            "Universe Survival Saga",
+            "Tournament Participants"
+        ],
         "roles": [
             "DPS / NUKER"
         ]
@@ -6277,7 +9075,14 @@ const dokkanCharacters = [
             80,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Universe Survival Saga",
+            "Realm of Gods",
+            "Siblings' Bond",
+            "Bond of Master and Disciple",
+            "Universe 11",
+            "Space-Traveling Warriors"
+        ],
         "roles": [
             "SUPPORT",
             "DPS / NUKER"
@@ -6304,7 +9109,14 @@ const dokkanCharacters = [
             109,
             125
         ],
-        "categories": [],
+        "categories": [
+            "Planet Namek Saga",
+            "Dragon Ball Seekers",
+            "Joined Forces",
+            "Kamehameha",
+            "Rapid Growth",
+            "Earth-Bred Fighters"
+        ],
         "roles": []
     },
     {
@@ -6328,7 +9140,18 @@ const dokkanCharacters = [
             109,
             125
         ],
-        "categories": [],
+        "categories": [
+            "Planet Namek Saga",
+            "Pure Saiyans",
+            "Dragon Ball Seekers",
+            "Vegeta's Family",
+            "Inhuman Deeds",
+            "Powerful Comeback",
+            "Gifted Warriors",
+            "Planetary Destruction",
+            "Entrusted Will",
+            "Successors"
+        ],
         "roles": []
     },
     {
@@ -6352,7 +9175,16 @@ const dokkanCharacters = [
             90,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Full Power",
+            "DB Saga",
+            "Kamehameha",
+            "Bond of Master and Disciple",
+            "Earthlings",
+            "Battle of Wits",
+            "Turtle School",
+            "Earth-Bred Fighters"
+        ],
         "roles": [
             "TANK",
             "HEALER",
@@ -6381,7 +9213,14 @@ const dokkanCharacters = [
             64,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Peppy Gals",
+            "Majin Buu Saga",
+            "Earthlings",
+            "Defenders of Justice",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters"
+        ],
         "roles": []
     },
     {
@@ -6405,7 +9244,13 @@ const dokkanCharacters = [
             102,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Peppy Gals",
+            "Dragon Ball Seekers",
+            "DB Saga",
+            "Earthlings",
+            "Earth-Bred Fighters"
+        ],
         "roles": [
             "SUPPORT",
             "DPS / NUKER"
@@ -6432,7 +9277,15 @@ const dokkanCharacters = [
             130,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Peppy Gals",
+            "Universe Survival Saga",
+            "Special Pose",
+            "Universe 11",
+            "Space-Traveling Warriors",
+            "Defenders of Justice",
+            "Tournament Participants"
+        ],
         "roles": [
             "TANK",
             "DPS / NUKER"
@@ -6459,7 +9312,15 @@ const dokkanCharacters = [
             37,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Peppy Gals",
+            "Dragon Ball Seekers",
+            "DB Saga",
+            "Terrifying Conquerors",
+            "Earthlings",
+            "Earth-Bred Fighters",
+            "Mission Execution"
+        ],
         "roles": [
             "SUPPORT"
         ]
@@ -6485,7 +9346,20 @@ const dokkanCharacters = [
             118,
             125
         ],
-        "categories": [],
+        "categories": [
+            "Low-Class Warrior",
+            "Pure Saiyans",
+            "Full Power",
+            "Goku's Family",
+            "Kamehameha",
+            "Turtle School",
+            "Bond of Friendship",
+            "Accelerated Battle",
+            "Saiyan Saga",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters",
+            "Power of Wishes"
+        ],
         "roles": [
             "SUPPORT"
         ]
@@ -6511,7 +9385,14 @@ const dokkanCharacters = [
             8,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Earthlings",
+            "Battle of Wits",
+            "Turtle School",
+            "Bond of Friendship",
+            "Saiyan Saga",
+            "Earth-Bred Fighters"
+        ],
         "roles": [
             "SUPPORT",
             "DPS / NUKER"
@@ -6538,7 +9419,13 @@ const dokkanCharacters = [
             24,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Worthy Rivals",
+            "Earthlings",
+            "Bond of Friendship",
+            "Saiyan Saga",
+            "Earth-Bred Fighters"
+        ],
         "roles": [
             "TANK",
             "DPS / NUKER"
@@ -6565,7 +9452,13 @@ const dokkanCharacters = [
             24,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Worthy Rivals",
+            "Earthlings",
+            "Bond of Friendship",
+            "Saiyan Saga",
+            "Earth-Bred Fighters"
+        ],
         "roles": [
             "SUPPORT",
             "DPS / NUKER"
@@ -6592,7 +9485,13 @@ const dokkanCharacters = [
             60,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Worthy Rivals",
+            "Earthlings",
+            "Turtle School",
+            "Saiyan Saga",
+            "Earth-Bred Fighters"
+        ],
         "roles": [
             "TANK",
             "DPS / NUKER"
@@ -6619,7 +9518,14 @@ const dokkanCharacters = [
             8,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Joined Forces",
+            "Bond of Master and Disciple",
+            "Exploding Rage",
+            "Saiyan Saga",
+            "Earth-Bred Fighters",
+            "Demonic Power"
+        ],
         "roles": [
             "TANK",
             "DPS / NUKER"
@@ -6646,7 +9552,19 @@ const dokkanCharacters = [
             118,
             125
         ],
-        "categories": [],
+        "categories": [
+            "Goku's Family",
+            "DB Saga",
+            "Kamehameha",
+            "Bond of Master and Disciple",
+            "Otherworld Warriors",
+            "Earthlings",
+            "Turtle School",
+            "Time Limit",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters",
+            "Mission Execution"
+        ],
         "roles": [
             "SUPPORT"
         ]
@@ -6672,7 +9590,25 @@ const dokkanCharacters = [
             118,
             125
         ],
-        "categories": [],
+        "categories": [
+            "Resurrected Warriors",
+            "Namekians",
+            "Full Power",
+            "Dragon Ball Seekers",
+            "Time Travelers",
+            "DB Saga",
+            "Terrifying Conquerors",
+            "Gifted Warriors",
+            "Storied Figures",
+            "Legendary Existence",
+            "Sworn Enemies",
+            "Accelerated Battle",
+            "Worldwide Chaos",
+            "Battle of Fate",
+            "Power of Wishes",
+            "Demonic Power",
+            "Successors"
+        ],
         "roles": [
             "TANK",
             "DPS / NUKER"
@@ -6699,7 +9635,12 @@ const dokkanCharacters = [
             12,
             118
         ],
-        "categories": [],
+        "categories": [
+            "World Tournament",
+            "Majin Buu Saga",
+            "Earth-Bred Fighters",
+            "Tournament Participants"
+        ],
         "roles": []
     },
     {
@@ -6723,7 +9664,18 @@ const dokkanCharacters = [
             126,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Universe Survival Saga",
+            "Universe 6",
+            "Target: Goku",
+            "Rapid Growth",
+            "Space-Traveling Warriors",
+            "Legendary Existence",
+            "Accelerated Battle",
+            "Tournament Participants",
+            "Super Bosses",
+            "Mission Execution"
+        ],
         "roles": []
     },
     {
@@ -6747,7 +9699,12 @@ const dokkanCharacters = [
             17,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Androids",
+            "DB Saga",
+            "Exploding Rage",
+            "Bond of Friendship"
+        ],
         "roles": [
             "TANK"
         ]
@@ -6773,7 +9730,21 @@ const dokkanCharacters = [
             109,
             125
         ],
-        "categories": [],
+        "categories": [
+            "Hybrid Saiyans",
+            "Planet Namek Saga",
+            "Dragon Ball Seekers",
+            "Goku's Family",
+            "Youth",
+            "Bond of Master and Disciple",
+            "Rapid Growth",
+            "Saviors",
+            "Connected Hope",
+            "Entrusted Will",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters",
+            "Demonic Power"
+        ],
         "roles": [
             "TANK",
             "HEALER",
@@ -6800,7 +9771,19 @@ const dokkanCharacters = [
             61,
             125
         ],
-        "categories": [],
+        "categories": [
+            "Pure Saiyans",
+            "Goku's Family",
+            "Super Saiyans",
+            "Kamehameha",
+            "Final Trump Card",
+            "Turtle School",
+            "Bond of Friendship",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters",
+            "Power of Wishes",
+            "Earth-Protecting Heroes"
+        ],
         "roles": []
     },
     {
@@ -6824,7 +9807,25 @@ const dokkanCharacters = [
             97,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Planet Namek Saga",
+            "Pure Saiyans",
+            "Full Power",
+            "Goku's Family",
+            "Super Saiyans",
+            "Kamehameha",
+            "Exploding Rage",
+            "Saviors",
+            "Turtle School",
+            "Miraculous Awakening",
+            "Powerful Comeback",
+            "Legendary Existence",
+            "Bond of Friendship",
+            "Entrusted Will",
+            "Battle of Fate",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters"
+        ],
         "roles": []
     },
     {
@@ -6848,7 +9849,13 @@ const dokkanCharacters = [
             60,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Planet Namek Saga",
+            "Namekians",
+            "Connected Hope",
+            "Demonic Power",
+            "Mission Execution"
+        ],
         "roles": [
             "TANK",
             "DPS / NUKER"
@@ -6875,7 +9882,22 @@ const dokkanCharacters = [
             89,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Planet Namek Saga",
+            "Full Power",
+            "Transformation Boost",
+            "Wicked Bloodline",
+            "Terrifying Conquerors",
+            "Final Trump Card",
+            "Exploding Rage",
+            "Inhuman Deeds",
+            "Space-Traveling Warriors",
+            "Gifted Warriors",
+            "Planetary Destruction",
+            "Sworn Enemies",
+            "Battle of Fate",
+            "Successors"
+        ],
         "roles": []
     },
     {
@@ -6899,7 +9921,16 @@ const dokkanCharacters = [
             97,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Planet Namek Saga",
+            "Pure Saiyans",
+            "Dragon Ball Seekers",
+            "Vegeta's Family",
+            "Inhuman Deeds",
+            "Gifted Warriors",
+            "Planetary Destruction",
+            "Successors"
+        ],
         "roles": [
             "TANK",
             "DPS / NUKER"
@@ -6926,7 +9957,12 @@ const dokkanCharacters = [
             86,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Planet Namek Saga",
+            "Terrifying Conquerors",
+            "Space-Traveling Warriors",
+            "Mission Execution"
+        ],
         "roles": [
             "DPS / NUKER"
         ]
@@ -6952,7 +9988,14 @@ const dokkanCharacters = [
             109,
             125
         ],
-        "categories": [],
+        "categories": [
+            "Movie Bosses",
+            "Transformation Boost",
+            "Exploding Rage",
+            "Corroded Body and Mind",
+            "Accelerated Battle",
+            "Uncontrollable Power"
+        ],
         "roles": [
             "TANK"
         ]
@@ -6978,7 +10021,22 @@ const dokkanCharacters = [
             109,
             125
         ],
-        "categories": [],
+        "categories": [
+            "Fusion",
+            "Pure Saiyans",
+            "Joined Forces",
+            "Movie Heroes",
+            "Super Saiyans",
+            "Kamehameha",
+            "Otherworld Warriors",
+            "Final Trump Card",
+            "Connected Hope",
+            "Powerful Comeback",
+            "Time Limit",
+            "Fused Fighters",
+            "Bond of Parent and Child",
+            "Earth-Protecting Heroes"
+        ],
         "roles": [
             "TANK"
         ]
@@ -7003,7 +10061,18 @@ const dokkanCharacters = [
             49,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Movie Bosses",
+            "Pure Saiyans",
+            "Full Power",
+            "Target: Goku",
+            "Exploding Rage",
+            "Inhuman Deeds",
+            "Planetary Destruction",
+            "Legendary Existence",
+            "Power Beyond Super Saiyan",
+            "Uncontrollable Power"
+        ],
         "roles": []
     },
     {
@@ -7027,7 +10096,20 @@ const dokkanCharacters = [
             97,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Hybrid Saiyans",
+            "Majin Buu Saga",
+            "Joined Forces",
+            "Movie Heroes",
+            "Youth",
+            "Super Saiyans",
+            "Kamehameha",
+            "Gifted Warriors",
+            "Bond of Friendship",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters",
+            "Earth-Protecting Heroes"
+        ],
         "roles": []
     },
     {
@@ -7051,7 +10133,12 @@ const dokkanCharacters = [
             118,
             125
         ],
-        "categories": [],
+        "categories": [
+            "Resurrected Warriors",
+            "Movie Bosses",
+            "Artificial Life Forms",
+            "Uncontrollable Power"
+        ],
         "roles": [
             "TANK",
             "HEALER"
@@ -7077,7 +10164,12 @@ const dokkanCharacters = [
             119,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Resurrected Warriors",
+            "Movie Bosses",
+            "Artificial Life Forms",
+            "Uncontrollable Power"
+        ],
         "roles": []
     },
     {
@@ -7101,7 +10193,23 @@ const dokkanCharacters = [
             109,
             125
         ],
-        "categories": [],
+        "categories": [
+            "Hybrid Saiyans",
+            "Majin Buu Saga",
+            "Full Power",
+            "Movie Heroes",
+            "Goku's Family",
+            "Siblings' Bond",
+            "Super Saiyans",
+            "Kamehameha",
+            "Saviors",
+            "Defenders of Justice",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters",
+            "Power of Wishes",
+            "Demonic Power",
+            "Earth-Protecting Heroes"
+        ],
         "roles": [
             "TANK"
         ]
@@ -7127,7 +10235,22 @@ const dokkanCharacters = [
             109,
             125
         ],
-        "categories": [],
+        "categories": [
+            "Resurrected Warriors",
+            "Movie Bosses",
+            "Pure Saiyans",
+            "Full Power",
+            "Transformation Boost",
+            "Target: Goku",
+            "Exploding Rage",
+            "Revenge",
+            "Inhuman Deeds",
+            "Powerful Comeback",
+            "Planetary Destruction",
+            "Legendary Existence",
+            "Power Beyond Super Saiyan",
+            "Uncontrollable Power"
+        ],
         "roles": [
             "TANK",
             "HEALER",
@@ -7156,7 +10279,15 @@ const dokkanCharacters = [
             10,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Peppy Gals",
+            "Dragon Ball Seekers",
+            "Movie Heroes",
+            "Earthlings",
+            "Defenders of Justice",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters"
+        ],
         "roles": [
             "TANK",
             "SUPPORT",
@@ -7184,7 +10315,22 @@ const dokkanCharacters = [
             109,
             125
         ],
-        "categories": [],
+        "categories": [
+            "Resurrected Warriors",
+            "Movie Bosses",
+            "Pure Saiyans",
+            "Full Power",
+            "Transformation Boost",
+            "Super Saiyans",
+            "Target: Goku",
+            "Exploding Rage",
+            "Revenge",
+            "Inhuman Deeds",
+            "Planetary Destruction",
+            "Legendary Existence",
+            "Power Beyond Super Saiyan",
+            "Uncontrollable Power"
+        ],
         "roles": []
     },
     {
@@ -7208,7 +10354,15 @@ const dokkanCharacters = [
             10,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Peppy Gals",
+            "Dragon Ball Seekers",
+            "Movie Heroes",
+            "Earthlings",
+            "Defenders of Justice",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters"
+        ],
         "roles": [
             "SUPPORT"
         ]
@@ -7234,7 +10388,19 @@ const dokkanCharacters = [
             45,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Hybrid Saiyans",
+            "Majin Buu Saga",
+            "Dragon Ball Seekers",
+            "Movie Heroes",
+            "Vegeta's Family",
+            "Youth",
+            "Super Saiyans",
+            "Gifted Warriors",
+            "Bond of Friendship",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters"
+        ],
         "roles": [
             "SUPPORT",
             "DPS / NUKER"
@@ -7261,7 +10427,18 @@ const dokkanCharacters = [
             104,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Movie Bosses",
+            "Pure Saiyans",
+            "Full Power",
+            "Target: Goku",
+            "Exploding Rage",
+            "Inhuman Deeds",
+            "Planetary Destruction",
+            "Legendary Existence",
+            "Power Beyond Super Saiyan",
+            "Uncontrollable Power"
+        ],
         "roles": [
             "TANK",
             "DPS / NUKER"
@@ -7288,7 +10465,19 @@ const dokkanCharacters = [
             109,
             125
         ],
-        "categories": [],
+        "categories": [
+            "Movie Bosses",
+            "Pure Saiyans",
+            "Full Power",
+            "Transformation Boost",
+            "Target: Goku",
+            "Exploding Rage",
+            "Inhuman Deeds",
+            "Planetary Destruction",
+            "Legendary Existence",
+            "Power Beyond Super Saiyan",
+            "Uncontrollable Power"
+        ],
         "roles": [
             "TANK",
             "SUPPORT",
@@ -7316,7 +10505,17 @@ const dokkanCharacters = [
             109,
             125
         ],
-        "categories": [],
+        "categories": [
+            "Joined Forces",
+            "Movie Heroes",
+            "Super Saiyans",
+            "Kamehameha",
+            "All-Out Struggle",
+            "Connected Hope",
+            "Entrusted Will",
+            "Earth-Bred Fighters",
+            "Power of Wishes"
+        ],
         "roles": [
             "TANK",
             "SUPPORT",
@@ -7344,7 +10543,12 @@ const dokkanCharacters = [
             97,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Pure Saiyans",
+            "Terrifying Conquerors",
+            "Revenge",
+            "Inhuman Deeds"
+        ],
         "roles": [
             "SUPPORT",
             "DPS / NUKER"
@@ -7371,7 +10575,20 @@ const dokkanCharacters = [
             56,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Namekians",
+            "Movie Heroes",
+            "Worthy Rivals",
+            "Bond of Master and Disciple",
+            "All-Out Struggle",
+            "Battle of Wits",
+            "Powerful Comeback",
+            "Gifted Warriors",
+            "Fused Fighters",
+            "Earth-Bred Fighters",
+            "Demonic Power",
+            "Successors"
+        ],
         "roles": [
             "HEALER",
             "SUPPORT"
@@ -7398,7 +10615,14 @@ const dokkanCharacters = [
             109,
             125
         ],
-        "categories": [],
+        "categories": [
+            "Movie Bosses",
+            "Joined Forces",
+            "Terrifying Conquerors",
+            "Final Trump Card",
+            "Space-Traveling Warriors",
+            "Planetary Destruction"
+        ],
         "roles": [
             "SUPPORT"
         ]
@@ -7424,7 +10648,15 @@ const dokkanCharacters = [
             109,
             125
         ],
-        "categories": [],
+        "categories": [
+            "Movie Bosses",
+            "Androids",
+            "Artificial Life Forms",
+            "Final Trump Card",
+            "Battle of Fate",
+            "Super Bosses",
+            "Uncontrollable Power"
+        ],
         "roles": [
             "TANK",
             "DPS / NUKER"
@@ -7450,7 +10682,14 @@ const dokkanCharacters = [
             102,
             118
         ],
-        "categories": [],
+        "categories": [
+            "World Tournament",
+            "DB Saga",
+            "Earthlings",
+            "Tournament Participants",
+            "Demonic Power",
+            "Mission Execution"
+        ],
         "roles": [
             "DPS / NUKER"
         ]
@@ -7476,7 +10715,17 @@ const dokkanCharacters = [
             18,
             118
         ],
-        "categories": [],
+        "categories": [
+            "World Tournament",
+            "Resurrected Warriors",
+            "Siblings' Bond",
+            "Revenge",
+            "Earthlings",
+            "Sworn Enemies",
+            "Earth-Bred Fighters",
+            "Tournament Participants",
+            "Mission Execution"
+        ],
         "roles": []
     },
     {
@@ -7500,7 +10749,20 @@ const dokkanCharacters = [
             108,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Androids",
+            "Transformation Boost",
+            "Time Travelers",
+            "Artificial Life Forms",
+            "Androids/Cell Saga",
+            "Kamehameha",
+            "Target: Goku",
+            "Power Absorption",
+            "Sworn Enemies",
+            "Accelerated Battle",
+            "Worldwide Chaos",
+            "Tournament Participants"
+        ],
         "roles": [
             "SUPPORT"
         ]
@@ -7526,7 +10788,18 @@ const dokkanCharacters = [
             112,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Fusion",
+            "Hybrid Saiyans",
+            "Movie Heroes",
+            "Youth",
+            "Super Saiyans",
+            "Special Pose",
+            "Gifted Warriors",
+            "Time Limit",
+            "Fused Fighters",
+            "Earth-Bred Fighters"
+        ],
         "roles": [
             "SUPPORT",
             "DPS / NUKER"
@@ -7553,7 +10826,23 @@ const dokkanCharacters = [
             34,
             118
         ],
-        "categories": [],
+        "categories": [
+            "World Tournament",
+            "Hybrid Saiyans",
+            "Majin Buu Saga",
+            "Goku's Family",
+            "Siblings' Bond",
+            "Kamehameha",
+            "Super Saiyan 2",
+            "Exploding Rage",
+            "Special Pose",
+            "Defenders of Justice",
+            "Power Beyond Super Saiyan",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters",
+            "Tournament Participants",
+            "Demonic Power"
+        ],
         "roles": [
             "SUPPORT"
         ]
@@ -7579,7 +10868,23 @@ const dokkanCharacters = [
             47,
             118
         ],
-        "categories": [],
+        "categories": [
+            "World Tournament",
+            "Hybrid Saiyans",
+            "Majin Buu Saga",
+            "Goku's Family",
+            "Siblings' Bond",
+            "Kamehameha",
+            "Super Saiyan 2",
+            "Exploding Rage",
+            "Special Pose",
+            "Defenders of Justice",
+            "Power Beyond Super Saiyan",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters",
+            "Tournament Participants",
+            "Demonic Power"
+        ],
         "roles": []
     },
     {
@@ -7603,7 +10908,17 @@ const dokkanCharacters = [
             130,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Peppy Gals",
+            "Universe Survival Saga",
+            "Giant Form",
+            "Transformation Boost",
+            "Special Pose",
+            "Space-Traveling Warriors",
+            "Power of Wishes",
+            "Tournament Participants",
+            "Super Bosses"
+        ],
         "roles": []
     },
     {
@@ -7627,7 +10942,15 @@ const dokkanCharacters = [
             130,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Universe Survival Saga",
+            "Joined Forces",
+            "Special Pose",
+            "Universe 11",
+            "Space-Traveling Warriors",
+            "Defenders of Justice",
+            "Tournament Participants"
+        ],
         "roles": [
             "TANK",
             "SUPPORT"
@@ -7654,7 +10977,20 @@ const dokkanCharacters = [
             130,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Universe Survival Saga",
+            "Realm of Gods",
+            "Transformation Boost",
+            "Final Trump Card",
+            "Special Pose",
+            "Universe 11",
+            "Space-Traveling Warriors",
+            "Defenders of Justice",
+            "Mastered Evolution",
+            "Tournament Participants",
+            "Super Bosses",
+            "Successors"
+        ],
         "roles": [
             "TANK",
             "SUPPORT",
@@ -7681,7 +11017,14 @@ const dokkanCharacters = [
             130,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Universe Survival Saga",
+            "Transformation Boost",
+            "Special Pose",
+            "Defenders of Justice",
+            "Accelerated Battle",
+            "Tournament Participants"
+        ],
         "roles": [
             "DPS / NUKER"
         ]
@@ -7707,7 +11050,18 @@ const dokkanCharacters = [
             109,
             125
         ],
-        "categories": [],
+        "categories": [
+            "Universe Survival Saga",
+            "Realm of Gods",
+            "Full Power",
+            "Universe 11",
+            "Space-Traveling Warriors",
+            "Powerful Comeback",
+            "Defenders of Justice",
+            "Battle of Fate",
+            "Tournament Participants",
+            "Super Bosses"
+        ],
         "roles": [
             "DPS / NUKER"
         ]
@@ -7733,7 +11087,14 @@ const dokkanCharacters = [
             109,
             125
         ],
-        "categories": [],
+        "categories": [
+            "Universe Survival Saga",
+            "Representatives of Universe 7",
+            "Joined Forces",
+            "Battle of Wits",
+            "Battle of Fate",
+            "Tournament Participants"
+        ],
         "roles": [
             "TANK",
             "DPS / NUKER"
@@ -7760,7 +11121,12 @@ const dokkanCharacters = [
             109,
             125
         ],
-        "categories": [],
+        "categories": [
+            "Universe Survival Saga",
+            "Representatives of Universe 7",
+            "Joined Forces",
+            "Tournament Participants"
+        ],
         "roles": [
             "SUPPORT",
             "DPS / NUKER"
@@ -7787,7 +11153,27 @@ const dokkanCharacters = [
             109,
             125
         ],
-        "categories": [],
+        "categories": [
+            "Universe Survival Saga",
+            "Realm of Gods",
+            "Pure Saiyans",
+            "Representatives of Universe 7",
+            "Transformation Boost",
+            "Goku's Family",
+            "Kamehameha",
+            "Turtle School",
+            "Miraculous Awakening",
+            "Powerful Comeback",
+            "Legendary Existence",
+            "Bond of Friendship",
+            "Accelerated Battle",
+            "Entrusted Will",
+            "Battle of Fate",
+            "Bond of Parent and Child",
+            "Super Heroes",
+            "Earth-Bred Fighters",
+            "Tournament Participants"
+        ],
         "roles": [
             "TANK",
             "SUPPORT",
@@ -7815,7 +11201,15 @@ const dokkanCharacters = [
             130,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Universe Survival Saga",
+            "Special Pose",
+            "Universe 11",
+            "Space-Traveling Warriors",
+            "Defenders of Justice",
+            "Accelerated Battle",
+            "Tournament Participants"
+        ],
         "roles": [
             "DPS / NUKER"
         ]
@@ -7841,7 +11235,26 @@ const dokkanCharacters = [
             109,
             125
         ],
-        "categories": [],
+        "categories": [
+            "Universe Survival Saga",
+            "Realm of Gods",
+            "Pure Saiyans",
+            "Representatives of Universe 7",
+            "Goku's Family",
+            "Kamehameha",
+            "Turtle School",
+            "Miraculous Awakening",
+            "Powerful Comeback",
+            "Legendary Existence",
+            "Bond of Friendship",
+            "Accelerated Battle",
+            "Entrusted Will",
+            "Battle of Fate",
+            "Bond of Parent and Child",
+            "Super Heroes",
+            "Earth-Bred Fighters",
+            "Tournament Participants"
+        ],
         "roles": []
     },
     {
@@ -7865,7 +11278,26 @@ const dokkanCharacters = [
             109,
             125
         ],
-        "categories": [],
+        "categories": [
+            "Universe Survival Saga",
+            "Realm of Gods",
+            "Pure Saiyans",
+            "Full Power",
+            "Representatives of Universe 7",
+            "Vegeta's Family",
+            "Siblings' Bond",
+            "Worthy Rivals",
+            "Bond of Master and Disciple",
+            "All-Out Struggle",
+            "Miraculous Awakening",
+            "Powerful Comeback",
+            "Gifted Warriors",
+            "Power Beyond Super Saiyan",
+            "Bond of Parent and Child",
+            "Super Heroes",
+            "Tournament Participants",
+            "Successors"
+        ],
         "roles": [
             "TANK"
         ]
@@ -7891,7 +11323,17 @@ const dokkanCharacters = [
             118,
             125
         ],
-        "categories": [],
+        "categories": [
+            "Realm of Gods",
+            "Siblings' Bond",
+            "Worthy Rivals",
+            "Bond of Master and Disciple",
+            "Space-Traveling Warriors",
+            "Planetary Destruction",
+            "Legendary Existence",
+            "Super Bosses",
+            "Successors"
+        ],
         "roles": [
             "TANK",
             "SUPPORT",
@@ -7919,7 +11361,16 @@ const dokkanCharacters = [
             120,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Wicked Bloodline",
+            "Terrifying Conquerors",
+            "Inhuman Deeds",
+            "Space-Traveling Warriors",
+            "Gifted Warriors",
+            "Planetary Destruction",
+            "Super Bosses",
+            "Successors"
+        ],
         "roles": [
             "SUPPORT"
         ]
@@ -7945,7 +11396,24 @@ const dokkanCharacters = [
             109,
             125
         ],
-        "categories": [],
+        "categories": [
+            "Hybrid Saiyans",
+            "Full Power",
+            "Movie Heroes",
+            "Goku's Family",
+            "Siblings' Bond",
+            "Bond of Master and Disciple",
+            "Exploding Rage",
+            "Connected Hope",
+            "Miraculous Awakening",
+            "Entrusted Will",
+            "Battle of Fate",
+            "Bond of Parent and Child",
+            "Super Heroes",
+            "Earth-Bred Fighters",
+            "Demonic Power",
+            "Earth-Protecting Heroes"
+        ],
         "roles": [
             "TANK",
             "SUPPORT",
@@ -7973,7 +11441,24 @@ const dokkanCharacters = [
             109,
             125
         ],
-        "categories": [],
+        "categories": [
+            "Full Power",
+            "Androids",
+            "Joined Forces",
+            "Movie Heroes",
+            "Artificial Life Forms",
+            "Worthy Rivals",
+            "Final Trump Card",
+            "Special Pose",
+            "All-Out Struggle",
+            "Connected Hope",
+            "Defenders of Justice",
+            "Accelerated Battle",
+            "Entrusted Will",
+            "Battle of Fate",
+            "Super Heroes",
+            "Mission Execution"
+        ],
         "roles": [
             "TANK",
             "SUPPORT",
@@ -8001,7 +11486,14 @@ const dokkanCharacters = [
             8,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Joined Forces",
+            "Movie Heroes",
+            "Battle of Wits",
+            "Battle of Fate",
+            "Bond of Parent and Child",
+            "Super Heroes"
+        ],
         "roles": [
             "SUPPORT",
             "DPS / NUKER"
@@ -8028,7 +11520,21 @@ const dokkanCharacters = [
             109,
             125
         ],
-        "categories": [],
+        "categories": [
+            "Universe Survival Saga",
+            "Realm of Gods",
+            "Pure Saiyans",
+            "Full Power",
+            "Representatives of Universe 7",
+            "Joined Forces",
+            "Kamehameha",
+            "All-Out Struggle",
+            "Powerful Comeback",
+            "Power Beyond Super Saiyan",
+            "Bond of Parent and Child",
+            "Super Heroes",
+            "Tournament Participants"
+        ],
         "roles": [
             "DPS / NUKER"
         ]
@@ -8054,7 +11560,15 @@ const dokkanCharacters = [
             39,
             118
         ],
-        "categories": [],
+        "categories": [
+            "World Tournament",
+            "DB Saga",
+            "Bond of Master and Disciple",
+            "Earthlings",
+            "Bond of Friendship",
+            "Earth-Bred Fighters",
+            "Tournament Participants"
+        ],
         "roles": []
     },
     {
@@ -8078,7 +11592,15 @@ const dokkanCharacters = [
             2,
             118
         ],
-        "categories": [],
+        "categories": [
+            "World Tournament",
+            "Peppy Gals",
+            "Goku's Family",
+            "Earthlings",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters",
+            "Tournament Participants"
+        ],
         "roles": []
     },
     {
@@ -8102,7 +11624,18 @@ const dokkanCharacters = [
             60,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Hybrid Saiyans",
+            "Goku's Family",
+            "Youth",
+            "Androids/Cell Saga",
+            "Bond of Master and Disciple",
+            "Rapid Growth",
+            "Heavenly Events",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters",
+            "Demonic Power"
+        ],
         "roles": [
             "SUPPORT"
         ]
@@ -8128,7 +11661,13 @@ const dokkanCharacters = [
             8,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Majin Buu Saga",
+            "Potara",
+            "Final Trump Card",
+            "Battle of Wits",
+            "Fused Fighters"
+        ],
         "roles": [
             "SUPPORT"
         ]
@@ -8154,7 +11693,13 @@ const dokkanCharacters = [
             109,
             125
         ],
-        "categories": [],
+        "categories": [
+            "Movie Bosses",
+            "Joined Forces",
+            "Bond of Friendship",
+            "Power of Wishes",
+            "Super Bosses"
+        ],
         "roles": [
             "SUPPORT"
         ]
@@ -8180,7 +11725,11 @@ const dokkanCharacters = [
             97,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Pure Saiyans",
+            "Joined Forces",
+            "Mission Execution"
+        ],
         "roles": [
             "SUPPORT"
         ]
@@ -8206,7 +11755,14 @@ const dokkanCharacters = [
             30,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Pure Saiyans",
+            "Joined Forces",
+            "Movie Heroes",
+            "Goku's Family",
+            "Bond of Parent and Child",
+            "Super Heroes"
+        ],
         "roles": [
             "SUPPORT",
             "DPS / NUKER"
@@ -8233,7 +11789,17 @@ const dokkanCharacters = [
             60,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Fusion",
+            "Movie Heroes",
+            "Kamehameha",
+            "Final Trump Card",
+            "Powerful Comeback",
+            "Time Limit",
+            "Accelerated Battle",
+            "Fused Fighters",
+            "Super Heroes"
+        ],
         "roles": [
             "DPS / NUKER"
         ]
@@ -8259,7 +11825,19 @@ const dokkanCharacters = [
             109,
             125
         ],
-        "categories": [],
+        "categories": [
+            "Movie Bosses",
+            "Pure Saiyans",
+            "Full Power",
+            "Transformation Boost",
+            "Super Saiyans",
+            "Exploding Rage",
+            "Miraculous Awakening",
+            "Gifted Warriors",
+            "Power Beyond Super Saiyan",
+            "Super Bosses",
+            "Uncontrollable Power"
+        ],
         "roles": [
             "TANK",
             "SUPPORT"
@@ -8286,7 +11864,21 @@ const dokkanCharacters = [
             109,
             125
         ],
-        "categories": [],
+        "categories": [
+            "Fusion",
+            "Realm of Gods",
+            "Transformation Boost",
+            "Movie Heroes",
+            "Super Saiyans",
+            "Final Trump Card",
+            "Powerful Comeback",
+            "Time Limit",
+            "Accelerated Battle",
+            "Power Beyond Super Saiyan",
+            "Fused Fighters",
+            "Super Heroes",
+            "Earth-Protecting Heroes"
+        ],
         "roles": [
             "TANK",
             "DPS / NUKER"
@@ -8313,7 +11905,23 @@ const dokkanCharacters = [
             86,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Movie Bosses",
+            "Full Power",
+            "Transformation Boost",
+            "Wicked Bloodline",
+            "Dragon Ball Seekers",
+            "Terrifying Conquerors",
+            "Target: Goku",
+            "Revenge",
+            "Inhuman Deeds",
+            "Space-Traveling Warriors",
+            "Gifted Warriors",
+            "Mastered Evolution",
+            "Sworn Enemies",
+            "Super Bosses",
+            "Successors"
+        ],
         "roles": [
             "TANK",
             "SUPPORT",
@@ -8341,7 +11949,24 @@ const dokkanCharacters = [
             109,
             125
         ],
-        "categories": [],
+        "categories": [
+            "Universe Survival Saga",
+            "Realm of Gods",
+            "Pure Saiyans",
+            "Representatives of Universe 7",
+            "Goku's Family",
+            "Kamehameha",
+            "Turtle School",
+            "Miraculous Awakening",
+            "Powerful Comeback",
+            "Legendary Existence",
+            "Bond of Friendship",
+            "Accelerated Battle",
+            "Bond of Parent and Child",
+            "Super Heroes",
+            "Earth-Bred Fighters",
+            "Tournament Participants"
+        ],
         "roles": []
     },
     {
@@ -8365,7 +11990,15 @@ const dokkanCharacters = [
             118,
             125
         ],
-        "categories": [],
+        "categories": [
+            "Dragon Ball Seekers",
+            "Joined Forces",
+            "DB Saga",
+            "Worthy Rivals",
+            "Earthlings",
+            "Bond of Friendship",
+            "Earth-Bred Fighters"
+        ],
         "roles": []
     },
     {
@@ -8389,7 +12022,17 @@ const dokkanCharacters = [
             34,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Pure Saiyans",
+            "Vegeta's Family",
+            "Super Saiyans",
+            "Worthy Rivals",
+            "Androids/Cell Saga",
+            "Battle of Wits",
+            "Gifted Warriors",
+            "Mastered Evolution",
+            "Successors"
+        ],
         "roles": []
     },
     {
@@ -8413,7 +12056,14 @@ const dokkanCharacters = [
             102,
             118
         ],
-        "categories": [],
+        "categories": [
+            "World Tournament",
+            "Realm of Gods",
+            "Earth-Bred Fighters",
+            "Tournament Participants",
+            "Demonic Power",
+            "Successors"
+        ],
         "roles": []
     },
     {
@@ -8437,7 +12087,16 @@ const dokkanCharacters = [
             17,
             118
         ],
-        "categories": [],
+        "categories": [
+            "World Tournament",
+            "DB Saga",
+            "Earthlings",
+            "Battle of Wits",
+            "Planetary Destruction",
+            "Accelerated Battle",
+            "Earth-Bred Fighters",
+            "Tournament Participants"
+        ],
         "roles": []
     },
     {
@@ -8461,7 +12120,17 @@ const dokkanCharacters = [
             93,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Hybrid Saiyans",
+            "Majin Buu Saga",
+            "Goku's Family",
+            "Siblings' Bond",
+            "Super Saiyans",
+            "Defenders of Justice",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters",
+            "Demonic Power"
+        ],
         "roles": [
             "TANK",
             "SUPPORT"
@@ -8488,7 +12157,19 @@ const dokkanCharacters = [
             60,
             118
         ],
-        "categories": [],
+        "categories": [
+            "World Tournament",
+            "Resurrected Warriors",
+            "Majin Buu Saga",
+            "Transformation Boost",
+            "Artificial Life Forms",
+            "Worthy Rivals",
+            "Majin Power",
+            "Power Absorption",
+            "Bond of Friendship",
+            "Tournament Participants",
+            "Demonic Power"
+        ],
         "roles": [
             "HEALER",
             "DPS / NUKER"
@@ -8515,7 +12196,16 @@ const dokkanCharacters = [
             68,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Movie Heroes",
+            "Earthlings",
+            "Battle of Wits",
+            "Turtle School",
+            "Defenders of Justice",
+            "Bond of Friendship",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters"
+        ],
         "roles": [
             "TANK",
             "HEALER",
@@ -8543,7 +12233,26 @@ const dokkanCharacters = [
             4,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Fusion",
+            "Hybrid Saiyans",
+            "Majin Buu Saga",
+            "Super Saiyan 3",
+            "Youth",
+            "Final Trump Card",
+            "Special Pose",
+            "Rapid Growth",
+            "Saviors",
+            "Connected Hope",
+            "Gifted Warriors",
+            "Heavenly Events",
+            "Time Limit",
+            "Mastered Evolution",
+            "Entrusted Will",
+            "Power Beyond Super Saiyan",
+            "Fused Fighters",
+            "Earth-Bred Fighters"
+        ],
         "roles": []
     },
     {
@@ -8567,7 +12276,16 @@ const dokkanCharacters = [
             109,
             125
         ],
-        "categories": [],
+        "categories": [
+            "Planet Namek Saga",
+            "Ginyu Force",
+            "Dragon Ball Seekers",
+            "Joined Forces",
+            "Terrifying Conquerors",
+            "Special Pose",
+            "Space-Traveling Warriors",
+            "Mission Execution"
+        ],
         "roles": [
             "TANK",
             "SUPPORT",
@@ -8595,7 +12313,19 @@ const dokkanCharacters = [
             50,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Realm of Gods",
+            "Potara",
+            "Future Saga",
+            "Time Travelers",
+            "Kamehameha",
+            "Inhuman Deeds",
+            "Corroded Body and Mind",
+            "Worldwide Chaos",
+            "Power of Wishes",
+            "Super Bosses",
+            "Successors"
+        ],
         "roles": [
             "SUPPORT"
         ]
@@ -8621,7 +12351,23 @@ const dokkanCharacters = [
             97,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Resurrected Warriors",
+            "Low-Class Warrior",
+            "Pure Saiyans",
+            "Transformation Boost",
+            "Time Travelers",
+            "Goku's Family",
+            "Super Saiyans",
+            "Exploding Rage",
+            "Revenge",
+            "Crossover",
+            "Miraculous Awakening",
+            "Powerful Comeback",
+            "Storied Figures",
+            "Legendary Existence",
+            "Bond of Parent and Child"
+        ],
         "roles": []
     },
     {
@@ -8645,7 +12391,14 @@ const dokkanCharacters = [
             122,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Wicked Bloodline",
+            "Terrifying Conquerors",
+            "Inhuman Deeds",
+            "Crossover",
+            "Space-Traveling Warriors",
+            "Storied Figures"
+        ],
         "roles": [
             "DPS / NUKER"
         ]
@@ -8671,7 +12424,12 @@ const dokkanCharacters = [
             120,
             125
         ],
-        "categories": [],
+        "categories": [
+            "Majin Buu Saga",
+            "Joined Forces",
+            "Terrifying Conquerors",
+            "Demonic Power"
+        ],
         "roles": [
             "SUPPORT",
             "DPS / NUKER"
@@ -8698,7 +12456,17 @@ const dokkanCharacters = [
             97,
             125
         ],
-        "categories": [],
+        "categories": [
+            "Low-Class Warrior",
+            "Pure Saiyans",
+            "Joined Forces",
+            "Team Bardock",
+            "Giant Ape Power",
+            "Space-Traveling Warriors",
+            "Storied Figures",
+            "Uncontrollable Power",
+            "Mission Execution"
+        ],
         "roles": [
             "SUPPORT"
         ]
@@ -8724,7 +12492,13 @@ const dokkanCharacters = [
             118,
             125
         ],
-        "categories": [],
+        "categories": [
+            "Dragon Ball Seekers",
+            "Joined Forces",
+            "Youth",
+            "DB Saga",
+            "Earth-Bred Fighters"
+        ],
         "roles": [
             "SUPPORT",
             "DPS / NUKER"
@@ -8751,7 +12525,16 @@ const dokkanCharacters = [
             120,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Wicked Bloodline",
+            "Terrifying Conquerors",
+            "Inhuman Deeds",
+            "Space-Traveling Warriors",
+            "Gifted Warriors",
+            "Planetary Destruction",
+            "Sworn Enemies",
+            "Successors"
+        ],
         "roles": [
             "DPS / NUKER"
         ]
@@ -8777,7 +12560,12 @@ const dokkanCharacters = [
             119,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Terrifying Conquerors",
+            "Inhuman Deeds",
+            "Space-Traveling Warriors",
+            "Mission Execution"
+        ],
         "roles": [
             "TANK",
             "SUPPORT",
@@ -8805,7 +12593,21 @@ const dokkanCharacters = [
             97,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Hybrid Saiyans",
+            "Future Saga",
+            "Time Travelers",
+            "Vegeta's Family",
+            "Bond of Master and Disciple",
+            "Super Saiyan 2",
+            "Revenge",
+            "Battle of Wits",
+            "Entrusted Will",
+            "Power Beyond Super Saiyan",
+            "Bond of Parent and Child",
+            "Super Heroes",
+            "Earth-Bred Fighters"
+        ],
         "roles": [
             "DPS / NUKER"
         ]
@@ -8831,7 +12633,22 @@ const dokkanCharacters = [
             109,
             1004
         ],
-        "categories": [],
+        "categories": [
+            "Resurrected Warriors",
+            "Majin Buu Saga",
+            "Transformation Boost",
+            "Artificial Life Forms",
+            "Majin Power",
+            "Planetary Destruction",
+            "Storied Figures",
+            "Legendary Existence",
+            "Sworn Enemies",
+            "Accelerated Battle",
+            "Worldwide Chaos",
+            "Battle of Fate",
+            "Demonic Power",
+            "Uncontrollable Power"
+        ],
         "roles": [
             "SUPPORT"
         ]
@@ -8857,7 +12674,22 @@ const dokkanCharacters = [
             109,
             125
         ],
-        "categories": [],
+        "categories": [
+            "Hybrid Saiyans",
+            "Majin Buu Saga",
+            "Goku's Family",
+            "Siblings' Bond",
+            "Kamehameha",
+            "Revenge",
+            "Rapid Growth",
+            "Saviors",
+            "Powerful Comeback",
+            "Entrusted Will",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters",
+            "Power of Wishes",
+            "Demonic Power"
+        ],
         "roles": [
             "TANK",
             "SUPPORT",
@@ -8885,7 +12717,18 @@ const dokkanCharacters = [
             1003,
             109
         ],
-        "categories": [],
+        "categories": [
+            "World Tournament",
+            "Majin Buu Saga",
+            "Final Trump Card",
+            "Earthlings",
+            "Saviors",
+            "Bond of Friendship",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters",
+            "Tournament Participants",
+            "Earth-Protecting Heroes"
+        ],
         "roles": [
             "TANK"
         ]
@@ -8911,7 +12754,26 @@ const dokkanCharacters = [
             1004,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Resurrected Warriors",
+            "Majin Buu Saga",
+            "Full Power",
+            "Transformation Boost",
+            "Time Travelers",
+            "Artificial Life Forms",
+            "Exploding Rage",
+            "Inhuman Deeds",
+            "Majin Power",
+            "Power Absorption",
+            "Gifted Warriors",
+            "Storied Figures",
+            "Legendary Existence",
+            "Sworn Enemies",
+            "Worldwide Chaos",
+            "Demonic Power",
+            "Uncontrollable Power",
+            "Mission Execution"
+        ],
         "roles": [
             "DPS / NUKER"
         ]
@@ -8937,7 +12799,21 @@ const dokkanCharacters = [
             97,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Hybrid Saiyans",
+            "Majin Buu Saga",
+            "Movie Heroes",
+            "Vegeta's Family",
+            "Youth",
+            "Super Saiyans",
+            "Kamehameha",
+            "Battle of Wits",
+            "Gifted Warriors",
+            "Bond of Friendship",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters",
+            "Earth-Protecting Heroes"
+        ],
         "roles": [
             "TANK"
         ]
@@ -8963,7 +12839,21 @@ const dokkanCharacters = [
             97,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Hybrid Saiyans",
+            "Majin Buu Saga",
+            "Movie Heroes",
+            "Goku's Family",
+            "Youth",
+            "Siblings' Bond",
+            "Super Saiyans",
+            "Kamehameha",
+            "Gifted Warriors",
+            "Bond of Friendship",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters",
+            "Earth-Protecting Heroes"
+        ],
         "roles": [
             "TANK"
         ]
@@ -8989,7 +12879,20 @@ const dokkanCharacters = [
             1004,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Majin Buu Saga",
+            "Transformation Boost",
+            "Artificial Life Forms",
+            "Kamehameha",
+            "Final Trump Card",
+            "Majin Power",
+            "Power Absorption",
+            "Time Limit",
+            "Sworn Enemies",
+            "Worldwide Chaos",
+            "Demonic Power",
+            "Uncontrollable Power"
+        ],
         "roles": []
     },
     {
@@ -9013,7 +12916,11 @@ const dokkanCharacters = [
             102,
             118
         ],
-        "categories": [],
+        "categories": [
+            "DB Saga",
+            "Terrifying Conquerors",
+            "Mission Execution"
+        ],
         "roles": [
             "TANK"
         ]
@@ -9039,7 +12946,14 @@ const dokkanCharacters = [
             118,
             125
         ],
-        "categories": [],
+        "categories": [
+            "Majin Buu Saga",
+            "Joined Forces",
+            "Terrifying Conquerors",
+            "Inhuman Deeds",
+            "Worldwide Chaos",
+            "Demonic Power"
+        ],
         "roles": [
             "HEALER"
         ]
@@ -9065,7 +12979,23 @@ const dokkanCharacters = [
             103,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Hybrid Saiyans",
+            "Resurrected Warriors",
+            "Majin Buu Saga",
+            "Goku's Family",
+            "Siblings' Bond",
+            "Revenge",
+            "Rapid Growth",
+            "Saviors",
+            "Powerful Comeback",
+            "Defenders of Justice",
+            "Entrusted Will",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters",
+            "Power of Wishes",
+            "Demonic Power"
+        ],
         "roles": [
             "TANK"
         ]
@@ -9091,7 +13021,25 @@ const dokkanCharacters = [
             1004,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Resurrected Warriors",
+            "Majin Buu Saga",
+            "Transformation Boost",
+            "Time Travelers",
+            "Artificial Life Forms",
+            "Kamehameha",
+            "Majin Power",
+            "Power Absorption",
+            "Gifted Warriors",
+            "Storied Figures",
+            "Heavenly Events",
+            "Legendary Existence",
+            "Sworn Enemies",
+            "Bond of Friendship",
+            "Worldwide Chaos",
+            "Demonic Power",
+            "Uncontrollable Power"
+        ],
         "roles": [
             "TANK"
         ]
@@ -9117,7 +13065,15 @@ const dokkanCharacters = [
             129,
             125
         ],
-        "categories": [],
+        "categories": [
+            "Transformation Boost",
+            "Joined Forces",
+            "Target: Goku",
+            "Otherworld Warriors",
+            "Revenge",
+            "GT Bosses",
+            "Sworn Enemies"
+        ],
         "roles": [
             "SUPPORT",
             "DPS / NUKER"
@@ -9144,7 +13100,24 @@ const dokkanCharacters = [
             1000,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Resurrected Warriors",
+            "Majin Buu Saga",
+            "Super Saiyan 3",
+            "Pure Saiyans",
+            "Goku's Family",
+            "Kamehameha",
+            "Otherworld Warriors",
+            "Connected Hope",
+            "Turtle School",
+            "Time Limit",
+            "Mastered Evolution",
+            "Bond of Friendship",
+            "Accelerated Battle",
+            "Power Beyond Super Saiyan",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters"
+        ],
         "roles": []
     },
     {
@@ -9168,7 +13141,20 @@ const dokkanCharacters = [
             109,
             125
         ],
-        "categories": [],
+        "categories": [
+            "Majin Buu Saga",
+            "Transformation Boost",
+            "Artificial Life Forms",
+            "Kamehameha",
+            "Final Trump Card",
+            "Majin Power",
+            "Power Absorption",
+            "Time Limit",
+            "Sworn Enemies",
+            "Worldwide Chaos",
+            "Demonic Power",
+            "Uncontrollable Power"
+        ],
         "roles": [
             "HEALER"
         ]
@@ -9194,7 +13180,19 @@ const dokkanCharacters = [
             109,
             125
         ],
-        "categories": [],
+        "categories": [
+            "Majin Buu Saga",
+            "Potara",
+            "Pure Saiyans",
+            "Joined Forces",
+            "Super Saiyans",
+            "Kamehameha",
+            "Final Trump Card",
+            "Battle of Wits",
+            "Accelerated Battle",
+            "Fused Fighters",
+            "Bond of Parent and Child"
+        ],
         "roles": [
             "TANK"
         ]
@@ -9220,7 +13218,25 @@ const dokkanCharacters = [
             1004,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Resurrected Warriors",
+            "Majin Buu Saga",
+            "Transformation Boost",
+            "Time Travelers",
+            "Artificial Life Forms",
+            "Kamehameha",
+            "Majin Power",
+            "Power Absorption",
+            "Powerful Comeback",
+            "Gifted Warriors",
+            "Storied Figures",
+            "Legendary Existence",
+            "Sworn Enemies",
+            "Worldwide Chaos",
+            "Demonic Power",
+            "Uncontrollable Power",
+            "Mission Execution"
+        ],
         "roles": [
             "TANK",
             "HEALER"
@@ -9247,7 +13263,18 @@ const dokkanCharacters = [
             1004,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Majin Buu Saga",
+            "Transformation Boost",
+            "Artificial Life Forms",
+            "Kamehameha",
+            "Majin Power",
+            "Power Absorption",
+            "Sworn Enemies",
+            "Worldwide Chaos",
+            "Demonic Power",
+            "Uncontrollable Power"
+        ],
         "roles": [
             "HEALER",
             "DPS / NUKER"
@@ -9274,7 +13301,21 @@ const dokkanCharacters = [
             89,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Fusion",
+            "Hybrid Saiyans",
+            "Majin Buu Saga",
+            "Youth",
+            "Special Pose",
+            "Rapid Growth",
+            "Connected Hope",
+            "Gifted Warriors",
+            "Heavenly Events",
+            "Time Limit",
+            "Entrusted Will",
+            "Fused Fighters",
+            "Earth-Bred Fighters"
+        ],
         "roles": [
             "DPS / NUKER"
         ]
@@ -9300,7 +13341,23 @@ const dokkanCharacters = [
             47,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Resurrected Warriors",
+            "Majin Buu Saga",
+            "Super Saiyan 3",
+            "Pure Saiyans",
+            "Goku's Family",
+            "Kamehameha",
+            "Otherworld Warriors",
+            "Turtle School",
+            "Time Limit",
+            "Mastered Evolution",
+            "Bond of Friendship",
+            "Accelerated Battle",
+            "Power Beyond Super Saiyan",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters"
+        ],
         "roles": [
             "TANK",
             "DPS / NUKER"
@@ -9327,7 +13384,24 @@ const dokkanCharacters = [
             118,
             125
         ],
-        "categories": [],
+        "categories": [
+            "Majin Buu Saga",
+            "Super Saiyan 3",
+            "Pure Saiyans",
+            "Full Power",
+            "Movie Heroes",
+            "Goku's Family",
+            "Kamehameha",
+            "Final Trump Card",
+            "Turtle School",
+            "Mastered Evolution",
+            "Bond of Friendship",
+            "Accelerated Battle",
+            "Power Beyond Super Saiyan",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters",
+            "Earth-Protecting Heroes"
+        ],
         "roles": []
     },
     {
@@ -9351,7 +13425,19 @@ const dokkanCharacters = [
             117,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Pure Saiyans",
+            "Goku's Family",
+            "Super Saiyans",
+            "Bond of Master and Disciple",
+            "Turtle School",
+            "Bond of Friendship",
+            "Accelerated Battle",
+            "Bond of Parent and Child",
+            "Super Heroes",
+            "Earth-Bred Fighters",
+            "Tournament Participants"
+        ],
         "roles": []
     },
     {
@@ -9375,7 +13461,21 @@ const dokkanCharacters = [
             36,
             118
         ],
-        "categories": [],
+        "categories": [
+            "World Tournament",
+            "Low-Class Warrior",
+            "Pure Saiyans",
+            "Goku's Family",
+            "Kamehameha",
+            "Turtle School",
+            "Powerful Comeback",
+            "Bond of Friendship",
+            "Battle of Fate",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters",
+            "Tournament Participants",
+            "Earth-Protecting Heroes"
+        ],
         "roles": []
     },
     {
@@ -9399,7 +13499,18 @@ const dokkanCharacters = [
             23,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Hybrid Saiyans",
+            "Movie Heroes",
+            "Goku's Family",
+            "Youth",
+            "Super Saiyans",
+            "Bond of Master and Disciple",
+            "Mastered Evolution",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters",
+            "Demonic Power"
+        ],
         "roles": [
             "SUPPORT"
         ]
@@ -9425,7 +13536,28 @@ const dokkanCharacters = [
             1003,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Fusion",
+            "Hybrid Saiyans",
+            "Majin Buu Saga",
+            "Super Saiyan 3",
+            "Transformation Boost",
+            "Youth",
+            "Super Saiyans",
+            "Final Trump Card",
+            "Special Pose",
+            "Rapid Growth",
+            "Saviors",
+            "Connected Hope",
+            "Gifted Warriors",
+            "Heavenly Events",
+            "Time Limit",
+            "Mastered Evolution",
+            "Entrusted Will",
+            "Power Beyond Super Saiyan",
+            "Fused Fighters",
+            "Earth-Bred Fighters"
+        ],
         "roles": []
     },
     {
@@ -9449,7 +13581,22 @@ const dokkanCharacters = [
             123,
             118
         ],
-        "categories": [],
+        "categories": [
+            "World Tournament",
+            "Giant Form",
+            "Namekians",
+            "Terrifying Conquerors",
+            "Target: Goku",
+            "Revenge",
+            "Gifted Warriors",
+            "Entrusted Will",
+            "Worldwide Chaos",
+            "Battle of Fate",
+            "Earth-Bred Fighters",
+            "Tournament Participants",
+            "Demonic Power",
+            "Successors"
+        ],
         "roles": []
     },
     {
@@ -9473,7 +13620,16 @@ const dokkanCharacters = [
             18,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Planet Namek Saga",
+            "Pure Saiyans",
+            "Dragon Ball Seekers",
+            "Vegeta's Family",
+            "Inhuman Deeds",
+            "Gifted Warriors",
+            "Planetary Destruction",
+            "Successors"
+        ],
         "roles": [
             "SUPPORT",
             "DPS / NUKER"
@@ -9500,7 +13656,18 @@ const dokkanCharacters = [
             97,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Hybrid Saiyans",
+            "Planet Namek Saga",
+            "Dragon Ball Seekers",
+            "Goku's Family",
+            "Youth",
+            "Bond of Master and Disciple",
+            "Exploding Rage",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters",
+            "Demonic Power"
+        ],
         "roles": [
             "SUPPORT",
             "DPS / NUKER"
@@ -9527,7 +13694,17 @@ const dokkanCharacters = [
             89,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Worthy Rivals",
+            "Androids/Cell Saga",
+            "Final Trump Card",
+            "Earthlings",
+            "All-Out Struggle",
+            "Saviors",
+            "Connected Hope",
+            "Bond of Friendship",
+            "Earth-Bred Fighters"
+        ],
         "roles": [
             "SUPPORT",
             "DPS / NUKER"
@@ -9554,7 +13731,18 @@ const dokkanCharacters = [
             18,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Androids",
+            "Transformation Boost",
+            "Time Travelers",
+            "Artificial Life Forms",
+            "Androids/Cell Saga",
+            "Target: Goku",
+            "Power Absorption",
+            "Sworn Enemies",
+            "Accelerated Battle",
+            "Worldwide Chaos"
+        ],
         "roles": [
             "SUPPORT",
             "DPS / NUKER"
@@ -9581,7 +13769,19 @@ const dokkanCharacters = [
             8,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Hybrid Saiyans",
+            "Resurrected Warriors",
+            "Majin Buu Saga",
+            "Goku's Family",
+            "Siblings' Bond",
+            "Saviors",
+            "Defenders of Justice",
+            "Entrusted Will",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters",
+            "Demonic Power"
+        ],
         "roles": [
             "SUPPORT",
             "DPS / NUKER"
@@ -9608,7 +13808,17 @@ const dokkanCharacters = [
             60,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Hybrid Saiyans",
+            "Dragon Ball Seekers",
+            "Goku's Family",
+            "Youth",
+            "Space-Traveling Warriors",
+            "GT Heroes",
+            "Bond of Friendship",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters"
+        ],
         "roles": [
             "SUPPORT",
             "DPS / NUKER"
@@ -9635,7 +13845,18 @@ const dokkanCharacters = [
             1004,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Majin Buu Saga",
+            "Transformation Boost",
+            "Artificial Life Forms",
+            "Majin Power",
+            "Power Absorption",
+            "Heavenly Events",
+            "Sworn Enemies",
+            "Worldwide Chaos",
+            "Demonic Power",
+            "Uncontrollable Power"
+        ],
         "roles": [
             "SUPPORT",
             "DPS / NUKER"
@@ -9662,7 +13883,12 @@ const dokkanCharacters = [
             60,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Artificial Life Forms",
+            "Terrifying Conquerors",
+            "GT Bosses",
+            "Mission Execution"
+        ],
         "roles": [
             "SUPPORT",
             "DPS / NUKER"
@@ -9689,7 +13915,18 @@ const dokkanCharacters = [
             130,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Universe Survival Saga",
+            "Universe 6",
+            "Target: Goku",
+            "Rapid Growth",
+            "Space-Traveling Warriors",
+            "Legendary Existence",
+            "Accelerated Battle",
+            "Tournament Participants",
+            "Super Bosses",
+            "Mission Execution"
+        ],
         "roles": [
             "SUPPORT",
             "DPS / NUKER"
@@ -9716,7 +13953,16 @@ const dokkanCharacters = [
             97,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Universe Survival Saga",
+            "Pure Saiyans",
+            "Universe 6",
+            "Super Saiyans",
+            "Bond of Master and Disciple",
+            "Exploding Rage",
+            "Defenders of Justice",
+            "Tournament Participants"
+        ],
         "roles": [
             "SUPPORT",
             "DPS / NUKER"
@@ -9743,7 +13989,17 @@ const dokkanCharacters = [
             37,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Hybrid Saiyans",
+            "Movie Heroes",
+            "Vegeta's Family",
+            "Youth",
+            "Gifted Warriors",
+            "Bond of Friendship",
+            "Entrusted Will",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters"
+        ],
         "roles": [
             "SUPPORT",
             "DPS / NUKER"
@@ -9770,7 +14026,15 @@ const dokkanCharacters = [
             37,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Resurrected Warriors",
+            "Time Travelers",
+            "Movie Heroes",
+            "Siblings' Bond",
+            "Storied Figures",
+            "Legendary Existence",
+            "Power of Wishes"
+        ],
         "roles": [
             "DPS / NUKER"
         ]
@@ -9796,7 +14060,21 @@ const dokkanCharacters = [
             97,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Pure Saiyans",
+            "Goku's Family",
+            "Super Saiyans",
+            "Androids/Cell Saga",
+            "Bond of Master and Disciple",
+            "Rapid Growth",
+            "Turtle School",
+            "Heavenly Events",
+            "Bond of Friendship",
+            "Accelerated Battle",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters",
+            "Tournament Participants"
+        ],
         "roles": [
             "TANK",
             "HEALER",
@@ -9824,7 +14102,24 @@ const dokkanCharacters = [
             116,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Majin Buu Saga",
+            "Super Saiyan 3",
+            "Pure Saiyans",
+            "Full Power",
+            "Movie Heroes",
+            "Goku's Family",
+            "Kamehameha",
+            "Final Trump Card",
+            "Turtle School",
+            "Mastered Evolution",
+            "Bond of Friendship",
+            "Accelerated Battle",
+            "Power Beyond Super Saiyan",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters",
+            "Earth-Protecting Heroes"
+        ],
         "roles": [
             "DPS / NUKER"
         ]
@@ -9850,7 +14145,17 @@ const dokkanCharacters = [
             120,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Resurrected Warriors",
+            "Movie Bosses",
+            "Transformation Boost",
+            "Time Travelers",
+            "Planetary Destruction",
+            "Storied Figures",
+            "Legendary Existence",
+            "Demonic Power",
+            "Uncontrollable Power"
+        ],
         "roles": [
             "DPS / NUKER"
         ]
@@ -9876,7 +14181,16 @@ const dokkanCharacters = [
             37,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Androids",
+            "Artificial Life Forms",
+            "Androids/Cell Saga",
+            "Revenge",
+            "Powerful Comeback",
+            "Tournament Participants",
+            "Uncontrollable Power",
+            "Mission Execution"
+        ],
         "roles": [
             "TANK",
             "SUPPORT"
@@ -9903,7 +14217,13 @@ const dokkanCharacters = [
             60,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Androids",
+            "Artificial Life Forms",
+            "Androids/Cell Saga",
+            "Tournament Participants",
+            "Mission Execution"
+        ],
         "roles": []
     },
     {
@@ -9927,7 +14247,20 @@ const dokkanCharacters = [
             97,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Pure Saiyans",
+            "Full Power",
+            "Vegeta's Family",
+            "Super Saiyans",
+            "Worthy Rivals",
+            "Androids/Cell Saga",
+            "Rapid Growth",
+            "Gifted Warriors",
+            "Heavenly Events",
+            "Mastered Evolution",
+            "Power Beyond Super Saiyan",
+            "Successors"
+        ],
         "roles": []
     },
     {
@@ -9951,7 +14284,20 @@ const dokkanCharacters = [
             1001,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Pure Saiyans",
+            "Full Power",
+            "Vegeta's Family",
+            "Super Saiyans",
+            "Worthy Rivals",
+            "Androids/Cell Saga",
+            "Rapid Growth",
+            "Gifted Warriors",
+            "Heavenly Events",
+            "Mastered Evolution",
+            "Power Beyond Super Saiyan",
+            "Successors"
+        ],
         "roles": [
             "SUPPORT"
         ]
@@ -9977,7 +14323,15 @@ const dokkanCharacters = [
             118,
             125
         ],
-        "categories": [],
+        "categories": [
+            "Dragon Ball Seekers",
+            "Joined Forces",
+            "DB Saga",
+            "Terrifying Conquerors",
+            "Revenge",
+            "Earthlings",
+            "Earth-Bred Fighters"
+        ],
         "roles": [
             "DPS / NUKER"
         ]
@@ -10003,7 +14357,24 @@ const dokkanCharacters = [
             1001,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Hybrid Saiyans",
+            "Future Saga",
+            "Full Power",
+            "Time Travelers",
+            "Vegeta's Family",
+            "Super Saiyans",
+            "Androids/Cell Saga",
+            "Bond of Master and Disciple",
+            "Rapid Growth",
+            "Saviors",
+            "Connected Hope",
+            "Heavenly Events",
+            "Mastered Evolution",
+            "Entrusted Will",
+            "Power Beyond Super Saiyan",
+            "Earth-Bred Fighters"
+        ],
         "roles": []
     },
     {
@@ -10027,7 +14398,16 @@ const dokkanCharacters = [
             28,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Movie Bosses",
+            "Transformation Boost",
+            "Wicked Bloodline",
+            "Terrifying Conquerors",
+            "Target: Goku",
+            "Final Trump Card",
+            "Space-Traveling Warriors",
+            "Planetary Destruction"
+        ],
         "roles": [
             "SUPPORT"
         ]
@@ -10053,7 +14433,21 @@ const dokkanCharacters = [
             45,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Hybrid Saiyans",
+            "Majin Buu Saga",
+            "Goku's Family",
+            "Siblings' Bond",
+            "Revenge",
+            "Rapid Growth",
+            "Saviors",
+            "Powerful Comeback",
+            "Entrusted Will",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters",
+            "Power of Wishes",
+            "Demonic Power"
+        ],
         "roles": []
     },
     {
@@ -10077,7 +14471,22 @@ const dokkanCharacters = [
             47,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Low-Class Warrior",
+            "Giant Form",
+            "Pure Saiyans",
+            "Dragon Ball Seekers",
+            "Goku's Family",
+            "Youth",
+            "DB Saga",
+            "Kamehameha",
+            "Giant Ape Power",
+            "Turtle School",
+            "Bond of Friendship",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters",
+            "Uncontrollable Power"
+        ],
         "roles": []
     },
     {
@@ -10100,7 +14509,23 @@ const dokkanCharacters = [
             116,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Majin Buu Saga",
+            "Super Saiyan 3",
+            "Pure Saiyans",
+            "Full Power",
+            "Movie Heroes",
+            "Goku's Family",
+            "Final Trump Card",
+            "Turtle School",
+            "Mastered Evolution",
+            "Bond of Friendship",
+            "Accelerated Battle",
+            "Power Beyond Super Saiyan",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters",
+            "Earth-Protecting Heroes"
+        ],
         "roles": []
     },
     {
@@ -10124,7 +14549,18 @@ const dokkanCharacters = [
             19,
             125
         ],
-        "categories": [],
+        "categories": [
+            "Hybrid Saiyans",
+            "Future Saga",
+            "Time Travelers",
+            "Vegeta's Family",
+            "Androids/Cell Saga",
+            "Bond of Master and Disciple",
+            "Battle of Wits",
+            "Entrusted Will",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters"
+        ],
         "roles": [
             "SUPPORT"
         ]
@@ -10150,7 +14586,17 @@ const dokkanCharacters = [
             63,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Pure Saiyans",
+            "Transformation Boost",
+            "Vegeta's Family",
+            "Super Saiyans",
+            "Androids/Cell Saga",
+            "Battle of Wits",
+            "Gifted Warriors",
+            "Mastered Evolution",
+            "Successors"
+        ],
         "roles": [
             "TANK"
         ]
@@ -10176,7 +14622,15 @@ const dokkanCharacters = [
             8,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Pure Saiyans",
+            "Vegeta's Family",
+            "Terrifying Conquerors",
+            "Inhuman Deeds",
+            "Space-Traveling Warriors",
+            "Storied Figures",
+            "Successors"
+        ],
         "roles": [
             "TANK",
             "SUPPORT",
@@ -10204,7 +14658,15 @@ const dokkanCharacters = [
             118,
             125
         ],
-        "categories": [],
+        "categories": [
+            "Hybrid Saiyans",
+            "Goku's Family",
+            "Youth",
+            "Exploding Rage",
+            "Saiyan Saga",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters"
+        ],
         "roles": [
             "TANK",
             "DPS / NUKER"
@@ -10231,7 +14693,14 @@ const dokkanCharacters = [
             118,
             125
         ],
-        "categories": [],
+        "categories": [
+            "Pure Saiyans",
+            "Terrifying Conquerors",
+            "Inhuman Deeds",
+            "Space-Traveling Warriors",
+            "Saiyan Saga",
+            "Mission Execution"
+        ],
         "roles": []
     },
     {
@@ -10255,7 +14724,15 @@ const dokkanCharacters = [
             118,
             125
         ],
-        "categories": [],
+        "categories": [
+            "Full Power",
+            "Time Travelers",
+            "Joined Forces",
+            "Super Saiyans",
+            "Connected Hope",
+            "Entrusted Will",
+            "Power of Wishes"
+        ],
         "roles": [
             "TANK",
             "DPS / NUKER"
@@ -10282,7 +14759,14 @@ const dokkanCharacters = [
             120,
             125
         ],
-        "categories": [],
+        "categories": [
+            "Wicked Bloodline",
+            "Joined Forces",
+            "Androids/Cell Saga",
+            "Terrifying Conquerors",
+            "Target: Goku",
+            "Successors"
+        ],
         "roles": []
     },
     {
@@ -10306,7 +14790,14 @@ const dokkanCharacters = [
             60,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Pure Saiyans",
+            "Joined Forces",
+            "Terrifying Conquerors",
+            "Space-Traveling Warriors",
+            "Planetary Destruction",
+            "Saiyan Saga"
+        ],
         "roles": [
             "TANK"
         ]
@@ -10332,7 +14823,16 @@ const dokkanCharacters = [
             42,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Joined Forces",
+            "Bond of Master and Disciple",
+            "Exploding Rage",
+            "Powerful Comeback",
+            "Entrusted Will",
+            "Saiyan Saga",
+            "Earth-Bred Fighters",
+            "Demonic Power"
+        ],
         "roles": [
             "TANK",
             "SUPPORT"
@@ -10359,7 +14859,18 @@ const dokkanCharacters = [
             60,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Universe Survival Saga",
+            "Universe 6",
+            "Target: Goku",
+            "Rapid Growth",
+            "Space-Traveling Warriors",
+            "Legendary Existence",
+            "Accelerated Battle",
+            "Tournament Participants",
+            "Super Bosses",
+            "Mission Execution"
+        ],
         "roles": [
             "TANK"
         ]
@@ -10385,7 +14896,17 @@ const dokkanCharacters = [
             130,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Peppy Gals",
+            "Universe Survival Saga",
+            "Pure Saiyans",
+            "Universe 6",
+            "Rapid Growth",
+            "Gifted Warriors",
+            "Bond of Friendship",
+            "Tournament Participants",
+            "Super Bosses"
+        ],
         "roles": []
     },
     {
@@ -10409,7 +14930,16 @@ const dokkanCharacters = [
             130,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Peppy Gals",
+            "Universe Survival Saga",
+            "Pure Saiyans",
+            "Universe 6",
+            "Rapid Growth",
+            "Bond of Friendship",
+            "Tournament Participants",
+            "Super Bosses"
+        ],
         "roles": [
             "TANK"
         ]
@@ -10435,7 +14965,13 @@ const dokkanCharacters = [
             80,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Realm of Gods",
+            "Universe 6",
+            "Siblings' Bond",
+            "Bond of Master and Disciple",
+            "Space-Traveling Warriors"
+        ],
         "roles": [
             "SUPPORT",
             "DPS / NUKER"
@@ -10462,7 +14998,24 @@ const dokkanCharacters = [
             130,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Peppy Gals",
+            "Universe Survival Saga",
+            "Potara",
+            "Full Power",
+            "Transformation Boost",
+            "Universe 6",
+            "Super Saiyans",
+            "Super Saiyan 2",
+            "Final Trump Card",
+            "Rapid Growth",
+            "Time Limit",
+            "Accelerated Battle",
+            "Power Beyond Super Saiyan",
+            "Fused Fighters",
+            "Tournament Participants",
+            "Super Bosses"
+        ],
         "roles": []
     },
     {
@@ -10486,7 +15039,21 @@ const dokkanCharacters = [
             120,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Realm of Gods",
+            "Potara",
+            "Future Saga",
+            "Time Travelers",
+            "Exploding Rage",
+            "Inhuman Deeds",
+            "Corroded Body and Mind",
+            "Accelerated Battle",
+            "Worldwide Chaos",
+            "Power Beyond Super Saiyan",
+            "Power of Wishes",
+            "Super Bosses",
+            "Successors"
+        ],
         "roles": [
             "TANK",
             "SUPPORT"
@@ -10513,7 +15080,15 @@ const dokkanCharacters = [
             118,
             125
         ],
-        "categories": [],
+        "categories": [
+            "World Tournament",
+            "Joined Forces",
+            "Worthy Rivals",
+            "Earthlings",
+            "Bond of Friendship",
+            "Saiyan Saga",
+            "Earth-Bred Fighters"
+        ],
         "roles": []
     },
     {
@@ -10537,7 +15112,20 @@ const dokkanCharacters = [
             97,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Resurrected Warriors",
+            "Pure Saiyans",
+            "Time Travelers",
+            "Goku's Family",
+            "Super Saiyans",
+            "Exploding Rage",
+            "Revenge",
+            "Crossover",
+            "Powerful Comeback",
+            "Storied Figures",
+            "Legendary Existence",
+            "Bond of Parent and Child"
+        ],
         "roles": []
     },
     {
@@ -10561,7 +15149,18 @@ const dokkanCharacters = [
             1004,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Majin Buu Saga",
+            "Transformation Boost",
+            "Artificial Life Forms",
+            "Majin Power",
+            "Power Absorption",
+            "Heavenly Events",
+            "Sworn Enemies",
+            "Worldwide Chaos",
+            "Demonic Power",
+            "Uncontrollable Power"
+        ],
         "roles": [
             "HEALER"
         ]
@@ -10587,7 +15186,14 @@ const dokkanCharacters = [
             118,
             119
         ],
-        "categories": [],
+        "categories": [
+            "Low-Class Warrior",
+            "Movie Bosses",
+            "Pure Saiyans",
+            "Terrifying Conquerors",
+            "Space-Traveling Warriors",
+            "Planetary Destruction"
+        ],
         "roles": []
     },
     {
@@ -10610,7 +15216,16 @@ const dokkanCharacters = [
             102,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Realm of Gods",
+            "Namekians",
+            "DB Saga",
+            "Gifted Warriors",
+            "Heavenly Events",
+            "Earth-Bred Fighters",
+            "Demonic Power",
+            "Successors"
+        ],
         "roles": [
             "SUPPORT"
         ]
@@ -10636,7 +15251,18 @@ const dokkanCharacters = [
             109,
             125
         ],
-        "categories": [],
+        "categories": [
+            "Peppy Gals",
+            "Universe Survival Saga",
+            "Giant Form",
+            "Transformation Boost",
+            "Joined Forces",
+            "Special Pose",
+            "Space-Traveling Warriors",
+            "Power of Wishes",
+            "Tournament Participants",
+            "Super Bosses"
+        ],
         "roles": [
             "TANK",
             "DPS / NUKER"
@@ -10663,7 +15289,16 @@ const dokkanCharacters = [
             60,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Realm of Gods",
+            "Dragon Ball Seekers",
+            "Universe 6",
+            "Siblings' Bond",
+            "Bond of Master and Disciple",
+            "Space-Traveling Warriors",
+            "Planetary Destruction",
+            "Successors"
+        ],
         "roles": [
             "SUPPORT"
         ]
@@ -10689,7 +15324,15 @@ const dokkanCharacters = [
             130,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Universe Survival Saga",
+            "Realm of Gods",
+            "Universe 11",
+            "Space-Traveling Warriors",
+            "Defenders of Justice",
+            "Tournament Participants",
+            "Super Bosses"
+        ],
         "roles": [
             "DPS / NUKER"
         ]
@@ -10715,7 +15358,13 @@ const dokkanCharacters = [
             126,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Universe Survival Saga",
+            "Universe 6",
+            "Joined Forces",
+            "Revenge",
+            "Tournament Participants"
+        ],
         "roles": [
             "TANK"
         ]
@@ -10741,7 +15390,13 @@ const dokkanCharacters = [
             126,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Universe Survival Saga",
+            "Full Power",
+            "Transformation Boost",
+            "Universe 6",
+            "Tournament Participants"
+        ],
         "roles": []
     },
     {
@@ -10765,7 +15420,17 @@ const dokkanCharacters = [
             37,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Universe Survival Saga",
+            "Androids",
+            "Representatives of Universe 7",
+            "Siblings' Bond",
+            "Worthy Rivals",
+            "Battle of Wits",
+            "Defenders of Justice",
+            "Super Heroes",
+            "Tournament Participants"
+        ],
         "roles": [
             "SUPPORT"
         ]
@@ -10791,7 +15456,18 @@ const dokkanCharacters = [
             37,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Peppy Gals",
+            "Universe Survival Saga",
+            "Androids",
+            "Representatives of Universe 7",
+            "Siblings' Bond",
+            "Worthy Rivals",
+            "Battle of Wits",
+            "Bond of Parent and Child",
+            "Super Heroes",
+            "Tournament Participants"
+        ],
         "roles": [
             "TANK",
             "SUPPORT"
@@ -10818,7 +15494,18 @@ const dokkanCharacters = [
             102,
             118
         ],
-        "categories": [],
+        "categories": [
+            "World Tournament",
+            "Youth",
+            "DB Saga",
+            "Bond of Master and Disciple",
+            "Earthlings",
+            "Battle of Wits",
+            "Turtle School",
+            "Bond of Friendship",
+            "Earth-Bred Fighters",
+            "Tournament Participants"
+        ],
         "roles": [
             "SUPPORT"
         ]
@@ -10844,7 +15531,16 @@ const dokkanCharacters = [
             4,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Universe Survival Saga",
+            "Androids",
+            "Representatives of Universe 7",
+            "Joined Forces",
+            "Siblings' Bond",
+            "Worthy Rivals",
+            "Super Heroes",
+            "Tournament Participants"
+        ],
         "roles": [
             "TANK",
             "SUPPORT",
@@ -10872,7 +15568,12 @@ const dokkanCharacters = [
             95,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Androids",
+            "Artificial Life Forms",
+            "Target: Goku",
+            "Mission Execution"
+        ],
         "roles": []
     },
     {
@@ -10896,7 +15597,13 @@ const dokkanCharacters = [
             95,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Androids",
+            "Siblings' Bond",
+            "Worthy Rivals",
+            "Battle of Wits",
+            "GT Heroes"
+        ],
         "roles": []
     },
     {
@@ -10920,7 +15627,15 @@ const dokkanCharacters = [
             42,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Universe Survival Saga",
+            "Transformation Boost",
+            "Joined Forces",
+            "Final Trump Card",
+            "Special Pose",
+            "Power of Wishes",
+            "Tournament Participants"
+        ],
         "roles": []
     },
     {
@@ -10944,7 +15659,21 @@ const dokkanCharacters = [
             118,
             125
         ],
-        "categories": [],
+        "categories": [
+            "Giant Form",
+            "Transformation Boost",
+            "Artificial Life Forms",
+            "Terrifying Conquerors",
+            "Target: Goku",
+            "Final Trump Card",
+            "Revenge",
+            "Inhuman Deeds",
+            "Giant Ape Power",
+            "Space-Traveling Warriors",
+            "Corroded Body and Mind",
+            "GT Bosses",
+            "Battle of Fate"
+        ],
         "roles": []
     },
     {
@@ -10968,7 +15697,16 @@ const dokkanCharacters = [
             109,
             125
         ],
-        "categories": [],
+        "categories": [
+            "Shadow Dragon Saga",
+            "Full Power",
+            "Transformation Boost",
+            "Inhuman Deeds",
+            "Power Absorption",
+            "Powerful Comeback",
+            "GT Bosses",
+            "Battle of Fate"
+        ],
         "roles": [
             "TANK",
             "DPS / NUKER"
@@ -10995,7 +15733,21 @@ const dokkanCharacters = [
             95,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Pure Saiyans",
+            "Full Power",
+            "Goku's Family",
+            "Final Trump Card",
+            "Battle of Wits",
+            "Turtle School",
+            "GT Heroes",
+            "Bond of Friendship",
+            "Accelerated Battle",
+            "Battle of Fate",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters",
+            "Earth-Protecting Heroes"
+        ],
         "roles": []
     },
     {
@@ -11019,7 +15771,17 @@ const dokkanCharacters = [
             95,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Transformation Boost",
+            "Wicked Bloodline",
+            "Target: Goku",
+            "Otherworld Warriors",
+            "Revenge",
+            "Gifted Warriors",
+            "GT Bosses",
+            "Sworn Enemies",
+            "Successors"
+        ],
         "roles": []
     },
     {
@@ -11043,7 +15805,17 @@ const dokkanCharacters = [
             95,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Androids",
+            "Transformation Boost",
+            "Time Travelers",
+            "Artificial Life Forms",
+            "Target: Goku",
+            "Otherworld Warriors",
+            "Revenge",
+            "GT Bosses",
+            "Sworn Enemies"
+        ],
         "roles": []
     },
     {
@@ -11067,7 +15839,25 @@ const dokkanCharacters = [
             97,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Realm of Gods",
+            "Pure Saiyans",
+            "Full Power",
+            "Transformation Boost",
+            "Vegeta's Family",
+            "Siblings' Bond",
+            "Super Saiyans",
+            "Worthy Rivals",
+            "Bond of Master and Disciple",
+            "Super Saiyan 2",
+            "Rapid Growth",
+            "Gifted Warriors",
+            "Heavenly Events",
+            "Mastered Evolution",
+            "Power Beyond Super Saiyan",
+            "Bond of Parent and Child",
+            "Successors"
+        ],
         "roles": []
     },
     {
@@ -11091,7 +15881,20 @@ const dokkanCharacters = [
             97,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Pure Saiyans",
+            "Full Power",
+            "Vegeta's Family",
+            "Super Saiyans",
+            "Worthy Rivals",
+            "Androids/Cell Saga",
+            "Rapid Growth",
+            "Gifted Warriors",
+            "Heavenly Events",
+            "Mastered Evolution",
+            "Power Beyond Super Saiyan",
+            "Successors"
+        ],
         "roles": [
             "DPS / NUKER"
         ]
@@ -11117,7 +15920,20 @@ const dokkanCharacters = [
             1003,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Namekians",
+            "Worthy Rivals",
+            "Androids/Cell Saga",
+            "Bond of Master and Disciple",
+            "Battle of Wits",
+            "Gifted Warriors",
+            "Heavenly Events",
+            "Entrusted Will",
+            "Fused Fighters",
+            "Earth-Bred Fighters",
+            "Demonic Power",
+            "Successors"
+        ],
         "roles": [
             "SUPPORT",
             "DPS / NUKER"
@@ -11144,7 +15960,21 @@ const dokkanCharacters = [
             1001,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Hybrid Saiyans",
+            "Goku's Family",
+            "Youth",
+            "Super Saiyans",
+            "Androids/Cell Saga",
+            "Bond of Master and Disciple",
+            "Rapid Growth",
+            "Heavenly Events",
+            "Mastered Evolution",
+            "Entrusted Will",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters",
+            "Demonic Power"
+        ],
         "roles": [
             "HEALER"
         ]
@@ -11170,7 +16000,25 @@ const dokkanCharacters = [
             1001,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Hybrid Saiyans",
+            "Future Saga",
+            "Full Power",
+            "Transformation Boost",
+            "Time Travelers",
+            "Vegeta's Family",
+            "Super Saiyans",
+            "Androids/Cell Saga",
+            "Bond of Master and Disciple",
+            "Rapid Growth",
+            "Saviors",
+            "Connected Hope",
+            "Heavenly Events",
+            "Mastered Evolution",
+            "Entrusted Will",
+            "Power Beyond Super Saiyan",
+            "Earth-Bred Fighters"
+        ],
         "roles": [
             "TANK"
         ]
@@ -11195,7 +16043,19 @@ const dokkanCharacters = [
             60,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Realm of Gods",
+            "Movie Bosses",
+            "Siblings' Bond",
+            "Worthy Rivals",
+            "Bond of Master and Disciple",
+            "Exploding Rage",
+            "Space-Traveling Warriors",
+            "Planetary Destruction",
+            "Legendary Existence",
+            "Battle of Fate",
+            "Successors"
+        ],
         "roles": []
     },
     {
@@ -11219,7 +16079,23 @@ const dokkanCharacters = [
             119,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Resurrected Warriors",
+            "Namekians",
+            "Full Power",
+            "DB Saga",
+            "Terrifying Conquerors",
+            "Gifted Warriors",
+            "Storied Figures",
+            "Legendary Existence",
+            "Sworn Enemies",
+            "Accelerated Battle",
+            "Worldwide Chaos",
+            "Battle of Fate",
+            "Power of Wishes",
+            "Demonic Power",
+            "Successors"
+        ],
         "roles": [
             "SUPPORT"
         ]
@@ -11245,7 +16121,19 @@ const dokkanCharacters = [
             97,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Pure Saiyans",
+            "Dragon Ball Seekers",
+            "Goku's Family",
+            "Super Saiyans",
+            "Kamehameha",
+            "Space-Traveling Warriors",
+            "Turtle School",
+            "GT Heroes",
+            "Bond of Friendship",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters"
+        ],
         "roles": []
     },
     {
@@ -11269,7 +16157,17 @@ const dokkanCharacters = [
             97,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Shadow Dragon Saga",
+            "Pure Saiyans",
+            "Vegeta's Family",
+            "Super Saiyans",
+            "Worthy Rivals",
+            "Gifted Warriors",
+            "GT Heroes",
+            "Bond of Parent and Child",
+            "Successors"
+        ],
         "roles": []
     },
     {
@@ -11293,7 +16191,20 @@ const dokkanCharacters = [
             123,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Shadow Dragon Saga",
+            "Giant Form",
+            "Pure Saiyans",
+            "Vegeta's Family",
+            "Worthy Rivals",
+            "Giant Ape Power",
+            "Gifted Warriors",
+            "GT Heroes",
+            "Battle of Fate",
+            "Bond of Parent and Child",
+            "Uncontrollable Power",
+            "Successors"
+        ],
         "roles": []
     },
     {
@@ -11317,7 +16228,18 @@ const dokkanCharacters = [
             97,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Hybrid Saiyans",
+            "Future Saga",
+            "Time Travelers",
+            "Movie Heroes",
+            "Vegeta's Family",
+            "Bond of Master and Disciple",
+            "Battle of Wits",
+            "Entrusted Will",
+            "Earth-Bred Fighters",
+            "Earth-Protecting Heroes"
+        ],
         "roles": [
             "DPS / NUKER"
         ]
@@ -11343,7 +16265,14 @@ const dokkanCharacters = [
             66,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Future Saga",
+            "Androids",
+            "Siblings' Bond",
+            "Androids/Cell Saga",
+            "Worldwide Chaos",
+            "Uncontrollable Power"
+        ],
         "roles": [
             "DPS / NUKER"
         ]
@@ -11369,7 +16298,15 @@ const dokkanCharacters = [
             66,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Peppy Gals",
+            "Future Saga",
+            "Androids",
+            "Siblings' Bond",
+            "Androids/Cell Saga",
+            "Worldwide Chaos",
+            "Uncontrollable Power"
+        ],
         "roles": [
             "DPS / NUKER"
         ]
@@ -11395,7 +16332,16 @@ const dokkanCharacters = [
             120,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Movie Bosses",
+            "Androids",
+            "Transformation Boost",
+            "Artificial Life Forms",
+            "Target: Goku",
+            "Power Absorption",
+            "Fused Fighters",
+            "Mission Execution"
+        ],
         "roles": [
             "SUPPORT"
         ]
@@ -11421,7 +16367,17 @@ const dokkanCharacters = [
             109,
             125
         ],
-        "categories": [],
+        "categories": [
+            "Transformation Boost",
+            "Joined Forces",
+            "Movie Heroes",
+            "Super Saiyans",
+            "Kamehameha",
+            "Final Trump Card",
+            "Connected Hope",
+            "Power of Wishes",
+            "Earth-Protecting Heroes"
+        ],
         "roles": [
             "TANK",
             "DPS / NUKER"
@@ -11448,7 +16404,15 @@ const dokkanCharacters = [
             109,
             125
         ],
-        "categories": [],
+        "categories": [
+            "Androids",
+            "Joined Forces",
+            "Siblings' Bond",
+            "Androids/Cell Saga",
+            "Target: Goku",
+            "Uncontrollable Power",
+            "Mission Execution"
+        ],
         "roles": [
             "SUPPORT"
         ]
@@ -11474,7 +16438,16 @@ const dokkanCharacters = [
             114,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Peppy Gals",
+            "Androids",
+            "Transformation Boost",
+            "Majin Power",
+            "Battle of Wits",
+            "Power Absorption",
+            "Crossover",
+            "Demonic Power"
+        ],
         "roles": [
             "SUPPORT",
             "DPS / NUKER"
@@ -11501,7 +16474,16 @@ const dokkanCharacters = [
             50,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Peppy Gals",
+            "Androids",
+            "Transformation Boost",
+            "Majin Power",
+            "Battle of Wits",
+            "Power Absorption",
+            "Crossover",
+            "Demonic Power"
+        ],
         "roles": [
             "SUPPORT"
         ]
@@ -11527,7 +16509,18 @@ const dokkanCharacters = [
             109,
             120
         ],
-        "categories": [],
+        "categories": [
+            "Peppy Gals",
+            "Full Power",
+            "Androids",
+            "Transformation Boost",
+            "Majin Power",
+            "Battle of Wits",
+            "Power Absorption",
+            "Crossover",
+            "Demonic Power",
+            "Uncontrollable Power"
+        ],
         "roles": [
             "TANK",
             "HEALER",
@@ -11555,7 +16548,15 @@ const dokkanCharacters = [
             110,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Peppy Gals",
+            "Androids",
+            "Siblings' Bond",
+            "Worthy Rivals",
+            "Battle of Wits",
+            "Crossover",
+            "Bond of Parent and Child"
+        ],
         "roles": [
             "HEALER",
             "SUPPORT"
@@ -11582,7 +16583,20 @@ const dokkanCharacters = [
             122,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Hybrid Saiyans",
+            "Time Travelers",
+            "Vegeta's Family",
+            "Bond of Master and Disciple",
+            "Battle of Wits",
+            "Crossover",
+            "Defenders of Justice",
+            "Entrusted Will",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters",
+            "Successors",
+            "Mission Execution"
+        ],
         "roles": [
             "SUPPORT",
             "DPS / NUKER"
@@ -11609,7 +16623,17 @@ const dokkanCharacters = [
             120,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Resurrected Warriors",
+            "Androids",
+            "Time Travelers",
+            "Artificial Life Forms",
+            "Dragon Ball Heroes",
+            "Revenge",
+            "Crossover",
+            "Demonic Power",
+            "Mission Execution"
+        ],
         "roles": [
             "TANK",
             "DPS / NUKER"
@@ -11636,7 +16660,15 @@ const dokkanCharacters = [
             80,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Resurrected Warriors",
+            "Realm of Gods",
+            "Time Travelers",
+            "Dragon Ball Heroes",
+            "Crossover",
+            "Storied Figures",
+            "Demonic Power"
+        ],
         "roles": [
             "SUPPORT"
         ]
@@ -11662,7 +16694,16 @@ const dokkanCharacters = [
             97,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Pure Saiyans",
+            "Time Travelers",
+            "Vegeta's Family",
+            "Dragon Ball Heroes",
+            "Crossover",
+            "Corroded Body and Mind",
+            "Storied Figures",
+            "Mission Execution"
+        ],
         "roles": [
             "TANK",
             "HEALER"
@@ -11689,7 +16730,16 @@ const dokkanCharacters = [
             97,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Pure Saiyans",
+            "Time Travelers",
+            "Vegeta's Family",
+            "Dragon Ball Heroes",
+            "Crossover",
+            "Corroded Body and Mind",
+            "Gifted Warriors",
+            "Mission Execution"
+        ],
         "roles": [
             "DPS / NUKER"
         ]
@@ -11715,7 +16765,21 @@ const dokkanCharacters = [
             124,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Potara",
+            "Time Travelers",
+            "Kamehameha",
+            "Dragon Ball Heroes",
+            "Final Trump Card",
+            "Battle of Wits",
+            "Giant Ape Power",
+            "Crossover",
+            "Defenders of Justice",
+            "Time Limit",
+            "Power Beyond Super Saiyan",
+            "Fused Fighters",
+            "Mission Execution"
+        ],
         "roles": [
             "SUPPORT"
         ]
@@ -11741,7 +16805,15 @@ const dokkanCharacters = [
             124,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Pure Saiyans",
+            "Time Travelers",
+            "Dragon Ball Heroes",
+            "Giant Ape Power",
+            "Crossover",
+            "Power Beyond Super Saiyan",
+            "Uncontrollable Power"
+        ],
         "roles": []
     },
     {
@@ -11765,7 +16837,18 @@ const dokkanCharacters = [
             114,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Peppy Gals",
+            "Dragon Ball Seekers",
+            "Time Travelers",
+            "Siblings' Bond",
+            "Terrifying Conquerors",
+            "Dragon Ball Heroes",
+            "Battle of Wits",
+            "Crossover",
+            "Demonic Power",
+            "Mission Execution"
+        ],
         "roles": [
             "HEALER",
             "SUPPORT"
@@ -11792,7 +16875,17 @@ const dokkanCharacters = [
             120,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Dragon Ball Seekers",
+            "Time Travelers",
+            "Siblings' Bond",
+            "Terrifying Conquerors",
+            "Dragon Ball Heroes",
+            "Crossover",
+            "Demonic Power",
+            "Successors",
+            "Mission Execution"
+        ],
         "roles": []
     },
     {
@@ -11816,7 +16909,16 @@ const dokkanCharacters = [
             39,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Resurrected Warriors",
+            "Full Power",
+            "Transformation Boost",
+            "Wicked Bloodline",
+            "Artificial Life Forms",
+            "Dragon Ball Heroes",
+            "Crossover",
+            "Corroded Body and Mind"
+        ],
         "roles": [
             "TANK"
         ]
@@ -11842,7 +16944,12 @@ const dokkanCharacters = [
             120,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Dragon Ball Heroes",
+            "Crossover",
+            "Corroded Body and Mind",
+            "Accelerated Battle"
+        ],
         "roles": [
             "TANK",
             "DPS / NUKER"
@@ -11868,7 +16975,15 @@ const dokkanCharacters = [
             73,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Peppy Gals",
+            "Resurrected Warriors",
+            "Time Travelers",
+            "Dragon Ball Heroes",
+            "Crossover",
+            "Space-Traveling Warriors",
+            "Mission Execution"
+        ],
         "roles": [
             "DPS / NUKER"
         ]
@@ -11894,7 +17009,22 @@ const dokkanCharacters = [
             124,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Potara",
+            "Full Power",
+            "Time Travelers",
+            "Dragon Ball Heroes",
+            "Final Trump Card",
+            "Battle of Wits",
+            "Giant Ape Power",
+            "Crossover",
+            "Defenders of Justice",
+            "Time Limit",
+            "Accelerated Battle",
+            "Power Beyond Super Saiyan",
+            "Fused Fighters",
+            "Mission Execution"
+        ],
         "roles": [
             "TANK",
             "DPS / NUKER"
@@ -11921,7 +17051,16 @@ const dokkanCharacters = [
             124,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Pure Saiyans",
+            "Full Power",
+            "Time Travelers",
+            "Dragon Ball Heroes",
+            "Giant Ape Power",
+            "Crossover",
+            "Power Beyond Super Saiyan",
+            "Uncontrollable Power"
+        ],
         "roles": []
     },
     {
@@ -11945,7 +17084,20 @@ const dokkanCharacters = [
             120,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Realm of Gods",
+            "Super Saiyan 3",
+            "Full Power",
+            "Transformation Boost",
+            "Time Travelers",
+            "Dragon Ball Heroes",
+            "Inhuman Deeds",
+            "Crossover",
+            "Corroded Body and Mind",
+            "Accelerated Battle",
+            "Power Beyond Super Saiyan",
+            "Power of Wishes"
+        ],
         "roles": [
             "TANK"
         ]
@@ -11971,7 +17123,22 @@ const dokkanCharacters = [
             97,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Realm of Gods",
+            "Pure Saiyans",
+            "Time Travelers",
+            "Vegeta's Family",
+            "Siblings' Bond",
+            "Worthy Rivals",
+            "Bond of Master and Disciple",
+            "Dragon Ball Heroes",
+            "Crossover",
+            "Miraculous Awakening",
+            "Gifted Warriors",
+            "Power Beyond Super Saiyan",
+            "Bond of Parent and Child",
+            "Successors"
+        ],
         "roles": [
             "DPS / NUKER"
         ]
@@ -11997,7 +17164,15 @@ const dokkanCharacters = [
             120,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Realm of Gods",
+            "Time Travelers",
+            "Dragon Ball Heroes",
+            "Battle of Wits",
+            "Crossover",
+            "Accelerated Battle",
+            "Demonic Power"
+        ],
         "roles": [
             "SUPPORT",
             "DPS / NUKER"
@@ -12024,7 +17199,19 @@ const dokkanCharacters = [
             49,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Realm of Gods",
+            "Movie Bosses",
+            "Siblings' Bond",
+            "Worthy Rivals",
+            "Bond of Master and Disciple",
+            "Exploding Rage",
+            "Space-Traveling Warriors",
+            "Planetary Destruction",
+            "Legendary Existence",
+            "Battle of Fate",
+            "Successors"
+        ],
         "roles": [
             "DPS / NUKER"
         ]
@@ -12050,7 +17237,28 @@ const dokkanCharacters = [
             109,
             125
         ],
-        "categories": [],
+        "categories": [
+            "Pure Saiyans",
+            "Full Power",
+            "Transformation Boost",
+            "Goku's Family",
+            "Kamehameha",
+            "All-Out Struggle",
+            "Giant Ape Power",
+            "Connected Hope",
+            "Turtle School",
+            "Miraculous Awakening",
+            "GT Heroes",
+            "Bond of Friendship",
+            "Accelerated Battle",
+            "Entrusted Will",
+            "Battle of Fate",
+            "Power Beyond Super Saiyan",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters",
+            "Power of Wishes",
+            "Earth-Protecting Heroes"
+        ],
         "roles": [
             "TANK",
             "DPS / NUKER"
@@ -12077,7 +17285,16 @@ const dokkanCharacters = [
             115,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Transformation Boost",
+            "Artificial Life Forms",
+            "Terrifying Conquerors",
+            "Target: Goku",
+            "Revenge",
+            "Inhuman Deeds",
+            "Space-Traveling Warriors",
+            "GT Bosses"
+        ],
         "roles": [
             "DPS / NUKER"
         ]
@@ -12103,7 +17320,13 @@ const dokkanCharacters = [
             4,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Majin Buu Saga",
+            "Siblings' Bond",
+            "Otherworld Warriors",
+            "Demonic Power",
+            "Successors"
+        ],
         "roles": [
             "HEALER",
             "SUPPORT"
@@ -12130,7 +17353,16 @@ const dokkanCharacters = [
             110,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Peppy Gals",
+            "Androids",
+            "Siblings' Bond",
+            "Androids/Cell Saga",
+            "Target: Goku",
+            "Battle of Wits",
+            "Uncontrollable Power",
+            "Mission Execution"
+        ],
         "roles": []
     },
     {
@@ -12154,7 +17386,13 @@ const dokkanCharacters = [
             102,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Peppy Gals",
+            "Transformation Boost",
+            "DB Saga",
+            "Earthlings",
+            "Earth-Bred Fighters"
+        ],
         "roles": []
     },
     {
@@ -12178,7 +17416,12 @@ const dokkanCharacters = [
             14,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Peppy Gals",
+            "Earthlings",
+            "Battle of Wits",
+            "Mission Execution"
+        ],
         "roles": [
             "SUPPORT",
             "DPS / NUKER"
@@ -12205,7 +17448,11 @@ const dokkanCharacters = [
             95,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Shadow Dragon Saga",
+            "Peppy Gals",
+            "GT Bosses"
+        ],
         "roles": []
     },
     {
@@ -12229,7 +17476,18 @@ const dokkanCharacters = [
             109,
             125
         ],
-        "categories": [],
+        "categories": [
+            "Pure Saiyans",
+            "Movie Heroes",
+            "Goku's Family",
+            "Final Trump Card",
+            "Turtle School",
+            "Bond of Friendship",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters",
+            "Power of Wishes",
+            "Earth-Protecting Heroes"
+        ],
         "roles": []
     },
     {
@@ -12253,7 +17511,20 @@ const dokkanCharacters = [
             122,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Pure Saiyans",
+            "Dragon Ball Seekers",
+            "Vegeta's Family",
+            "Terrifying Conquerors",
+            "Inhuman Deeds",
+            "Space-Traveling Warriors",
+            "Gifted Warriors",
+            "Planetary Destruction",
+            "Accelerated Battle",
+            "Battle of Fate",
+            "Saiyan Saga",
+            "Successors"
+        ],
         "roles": []
     },
     {
@@ -12277,7 +17548,21 @@ const dokkanCharacters = [
             109,
             125
         ],
-        "categories": [],
+        "categories": [
+            "Hybrid Saiyans",
+            "Majin Buu Saga",
+            "Full Power",
+            "Joined Forces",
+            "Movie Heroes",
+            "Goku's Family",
+            "Siblings' Bond",
+            "Super Saiyans",
+            "Kamehameha",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters",
+            "Power of Wishes",
+            "Earth-Protecting Heroes"
+        ],
         "roles": []
     },
     {
@@ -12301,7 +17586,14 @@ const dokkanCharacters = [
             118,
             125
         ],
-        "categories": [],
+        "categories": [
+            "Resurrected Warriors",
+            "Movie Bosses",
+            "Terrifying Conquerors",
+            "Revenge",
+            "Battle of Wits",
+            "Power of Wishes"
+        ],
         "roles": [
             "TANK",
             "DPS / NUKER"
@@ -12328,7 +17620,18 @@ const dokkanCharacters = [
             30,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Pure Saiyans",
+            "Movie Heroes",
+            "Goku's Family",
+            "Final Trump Card",
+            "Turtle School",
+            "Bond of Friendship",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters",
+            "Power of Wishes",
+            "Earth-Protecting Heroes"
+        ],
         "roles": []
     },
     {
@@ -12352,7 +17655,14 @@ const dokkanCharacters = [
             50,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Low-Class Warrior",
+            "Movie Bosses",
+            "Pure Saiyans",
+            "Terrifying Conquerors",
+            "Space-Traveling Warriors",
+            "Planetary Destruction"
+        ],
         "roles": [
             "TANK"
         ]
@@ -12378,7 +17688,15 @@ const dokkanCharacters = [
             98,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Low-Class Warrior",
+            "Movie Bosses",
+            "Pure Saiyans",
+            "Terrifying Conquerors",
+            "Final Trump Card",
+            "Space-Traveling Warriors",
+            "Planetary Destruction"
+        ],
         "roles": [
             "TANK",
             "SUPPORT"
@@ -12405,7 +17723,17 @@ const dokkanCharacters = [
             124,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Low-Class Warrior",
+            "Giant Form",
+            "Movie Bosses",
+            "Pure Saiyans",
+            "Terrifying Conquerors",
+            "Giant Ape Power",
+            "Space-Traveling Warriors",
+            "Planetary Destruction",
+            "Uncontrollable Power"
+        ],
         "roles": []
     },
     {
@@ -12429,7 +17757,13 @@ const dokkanCharacters = [
             52,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Joined Forces",
+            "Terrifying Conquerors",
+            "Space-Traveling Warriors",
+            "Planetary Destruction",
+            "Mission Execution"
+        ],
         "roles": [
             "TANK",
             "SUPPORT",
@@ -12457,7 +17791,13 @@ const dokkanCharacters = [
             37,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Joined Forces",
+            "Terrifying Conquerors",
+            "Space-Traveling Warriors",
+            "Planetary Destruction",
+            "Mission Execution"
+        ],
         "roles": [
             "DPS / NUKER"
         ]
@@ -12483,7 +17823,22 @@ const dokkanCharacters = [
             109,
             125
         ],
-        "categories": [],
+        "categories": [
+            "Realm of Gods",
+            "Potara",
+            "Future Saga",
+            "Time Travelers",
+            "Kamehameha",
+            "Exploding Rage",
+            "Inhuman Deeds",
+            "Corroded Body and Mind",
+            "Accelerated Battle",
+            "Worldwide Chaos",
+            "Power Beyond Super Saiyan",
+            "Power of Wishes",
+            "Super Bosses",
+            "Successors"
+        ],
         "roles": [
             "HEALER"
         ]
@@ -12509,7 +17864,22 @@ const dokkanCharacters = [
             50,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Realm of Gods",
+            "Potara",
+            "Future Saga",
+            "Transformation Boost",
+            "Time Travelers",
+            "Kamehameha",
+            "Inhuman Deeds",
+            "Corroded Body and Mind",
+            "Accelerated Battle",
+            "Worldwide Chaos",
+            "Power Beyond Super Saiyan",
+            "Power of Wishes",
+            "Super Bosses",
+            "Successors"
+        ],
         "roles": [
             "DPS / NUKER"
         ]
@@ -12535,7 +17905,21 @@ const dokkanCharacters = [
             66,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Hybrid Saiyans",
+            "Future Saga",
+            "Time Travelers",
+            "Vegeta's Family",
+            "Super Saiyans",
+            "Bond of Master and Disciple",
+            "Exploding Rage",
+            "Revenge",
+            "Battle of Wits",
+            "Entrusted Will",
+            "Bond of Parent and Child",
+            "Super Heroes",
+            "Earth-Bred Fighters"
+        ],
         "roles": [
             "SUPPORT"
         ]
@@ -12561,7 +17945,20 @@ const dokkanCharacters = [
             1001,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Hybrid Saiyans",
+            "Future Saga",
+            "Time Travelers",
+            "Vegeta's Family",
+            "Androids/Cell Saga",
+            "Bond of Master and Disciple",
+            "Revenge",
+            "Battle of Wits",
+            "Entrusted Will",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters",
+            "Earth-Protecting Heroes"
+        ],
         "roles": [
             "DPS / NUKER"
         ]
@@ -12587,7 +17984,21 @@ const dokkanCharacters = [
             97,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Hybrid Saiyans",
+            "Future Saga",
+            "Time Travelers",
+            "Vegeta's Family",
+            "Super Saiyans",
+            "Bond of Master and Disciple",
+            "Exploding Rage",
+            "Revenge",
+            "Battle of Wits",
+            "Entrusted Will",
+            "Bond of Parent and Child",
+            "Super Heroes",
+            "Earth-Bred Fighters"
+        ],
         "roles": [
             "TANK"
         ]
@@ -12613,7 +18024,20 @@ const dokkanCharacters = [
             66,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Hybrid Saiyans",
+            "Future Saga",
+            "Goku's Family",
+            "Super Saiyans",
+            "Androids/Cell Saga",
+            "Kamehameha",
+            "Bond of Master and Disciple",
+            "All-Out Struggle",
+            "Connected Hope",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters",
+            "Demonic Power"
+        ],
         "roles": []
     },
     {
@@ -12637,7 +18061,18 @@ const dokkanCharacters = [
             120,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Realm of Gods",
+            "Potara",
+            "Future Saga",
+            "Dragon Ball Seekers",
+            "Time Travelers",
+            "Gifted Warriors",
+            "Worldwide Chaos",
+            "Power of Wishes",
+            "Super Bosses",
+            "Successors"
+        ],
         "roles": [
             "TANK"
         ]
@@ -12663,7 +18098,17 @@ const dokkanCharacters = [
             37,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Future Saga",
+            "Time Travelers",
+            "Joined Forces",
+            "Final Trump Card",
+            "Revenge",
+            "Battle of Wits",
+            "Entrusted Will",
+            "Super Heroes",
+            "Earth-Bred Fighters"
+        ],
         "roles": [
             "DPS / NUKER"
         ]
@@ -12689,7 +18134,24 @@ const dokkanCharacters = [
             109,
             125
         ],
-        "categories": [],
+        "categories": [
+            "Hybrid Saiyans",
+            "Future Saga",
+            "Time Travelers",
+            "Vegeta's Family",
+            "Super Saiyans",
+            "Bond of Master and Disciple",
+            "Revenge",
+            "Battle of Wits",
+            "Miraculous Awakening",
+            "Entrusted Will",
+            "Battle of Fate",
+            "Bond of Parent and Child",
+            "Super Heroes",
+            "Earth-Bred Fighters",
+            "Power of Wishes",
+            "Earth-Protecting Heroes"
+        ],
         "roles": [
             "TANK"
         ]
@@ -12715,7 +18177,21 @@ const dokkanCharacters = [
             109,
             125
         ],
-        "categories": [],
+        "categories": [
+            "Hybrid Saiyans",
+            "Future Saga",
+            "Transformation Boost",
+            "Goku's Family",
+            "Super Saiyans",
+            "Androids/Cell Saga",
+            "Bond of Master and Disciple",
+            "All-Out Struggle",
+            "Connected Hope",
+            "Entrusted Will",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters",
+            "Demonic Power"
+        ],
         "roles": [
             "TANK",
             "DPS / NUKER"
@@ -12742,7 +18218,21 @@ const dokkanCharacters = [
             66,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Hybrid Saiyans",
+            "Future Saga",
+            "Time Travelers",
+            "Vegeta's Family",
+            "Super Saiyans",
+            "Androids/Cell Saga",
+            "Bond of Master and Disciple",
+            "Revenge",
+            "Battle of Wits",
+            "Entrusted Will",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters",
+            "Earth-Protecting Heroes"
+        ],
         "roles": [
             "DPS / NUKER"
         ]
@@ -12768,7 +18258,20 @@ const dokkanCharacters = [
             66,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Hybrid Saiyans",
+            "Future Saga",
+            "Transformation Boost",
+            "Goku's Family",
+            "Super Saiyans",
+            "Androids/Cell Saga",
+            "Bond of Master and Disciple",
+            "All-Out Struggle",
+            "Connected Hope",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters",
+            "Demonic Power"
+        ],
         "roles": [
             "TANK",
             "SUPPORT"
@@ -12795,7 +18298,25 @@ const dokkanCharacters = [
             97,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Hybrid Saiyans",
+            "Future Saga",
+            "Transformation Boost",
+            "Time Travelers",
+            "Vegeta's Family",
+            "Super Saiyans",
+            "Bond of Master and Disciple",
+            "Revenge",
+            "Battle of Wits",
+            "Miraculous Awakening",
+            "Entrusted Will",
+            "Battle of Fate",
+            "Bond of Parent and Child",
+            "Super Heroes",
+            "Earth-Bred Fighters",
+            "Power of Wishes",
+            "Earth-Protecting Heroes"
+        ],
         "roles": []
     },
     {
@@ -12819,7 +18340,18 @@ const dokkanCharacters = [
             2,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Peppy Gals",
+            "Future Saga",
+            "Time Travelers",
+            "Revenge",
+            "Earthlings",
+            "Battle of Wits",
+            "Connected Hope",
+            "Super Heroes",
+            "Earth-Bred Fighters",
+            "Power of Wishes"
+        ],
         "roles": [
             "SUPPORT"
         ]
@@ -12845,7 +18377,22 @@ const dokkanCharacters = [
             120,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Realm of Gods",
+            "Potara",
+            "Future Saga",
+            "Transformation Boost",
+            "Time Travelers",
+            "Final Trump Card",
+            "Exploding Rage",
+            "Gifted Warriors",
+            "Worldwide Chaos",
+            "Battle of Fate",
+            "Fused Fighters",
+            "Power of Wishes",
+            "Super Bosses",
+            "Successors"
+        ],
         "roles": [
             "TANK",
             "HEALER"
@@ -12872,7 +18419,15 @@ const dokkanCharacters = [
             8,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Realm of Gods",
+            "Potara",
+            "Future Saga",
+            "Time Travelers",
+            "Joined Forces",
+            "Bond of Master and Disciple",
+            "Successors"
+        ],
         "roles": [
             "SUPPORT"
         ]
@@ -12898,7 +18453,20 @@ const dokkanCharacters = [
             109,
             125
         ],
-        "categories": [],
+        "categories": [
+            "Realm of Gods",
+            "Potara",
+            "Future Saga",
+            "Time Travelers",
+            "Final Trump Card",
+            "Exploding Rage",
+            "Worldwide Chaos",
+            "Battle of Fate",
+            "Fused Fighters",
+            "Power of Wishes",
+            "Super Bosses",
+            "Successors"
+        ],
         "roles": [
             "TANK",
             "SUPPORT",
@@ -12926,7 +18494,25 @@ const dokkanCharacters = [
             47,
             125
         ],
-        "categories": [],
+        "categories": [
+            "Realm of Gods",
+            "Potara",
+            "Pure Saiyans",
+            "Future Saga",
+            "Time Travelers",
+            "Joined Forces",
+            "Kamehameha",
+            "Final Trump Card",
+            "Battle of Wits",
+            "Time Limit",
+            "Mastered Evolution",
+            "Accelerated Battle",
+            "Battle of Fate",
+            "Power Beyond Super Saiyan",
+            "Fused Fighters",
+            "Bond of Parent and Child",
+            "Super Heroes"
+        ],
         "roles": [
             "TANK"
         ]
@@ -12952,7 +18538,18 @@ const dokkanCharacters = [
             66,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Peppy Gals",
+            "Future Saga",
+            "Time Travelers",
+            "Revenge",
+            "Earthlings",
+            "Battle of Wits",
+            "Connected Hope",
+            "Super Heroes",
+            "Earth-Bred Fighters",
+            "Power of Wishes"
+        ],
         "roles": [
             "TANK",
             "SUPPORT",
@@ -12980,7 +18577,16 @@ const dokkanCharacters = [
             18,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Realm of Gods",
+            "Potara",
+            "Future Saga",
+            "Time Travelers",
+            "Inhuman Deeds",
+            "Gifted Warriors",
+            "Super Bosses",
+            "Successors"
+        ],
         "roles": [
             "SUPPORT",
             "DPS / NUKER"
@@ -13007,7 +18613,15 @@ const dokkanCharacters = [
             118,
             125
         ],
-        "categories": [],
+        "categories": [
+            "Full Power",
+            "Earthlings",
+            "Battle of Wits",
+            "Turtle School",
+            "Bond of Friendship",
+            "Saiyan Saga",
+            "Earth-Bred Fighters"
+        ],
         "roles": []
     },
     {
@@ -13031,7 +18645,20 @@ const dokkanCharacters = [
             109,
             125
         ],
-        "categories": [],
+        "categories": [
+            "Peppy Gals",
+            "Universe Survival Saga",
+            "Pure Saiyans",
+            "Full Power",
+            "Universe 6",
+            "Joined Forces",
+            "Super Saiyan 2",
+            "Rapid Growth",
+            "Bond of Friendship",
+            "Power Beyond Super Saiyan",
+            "Tournament Participants",
+            "Super Bosses"
+        ],
         "roles": []
     },
     {
@@ -13055,7 +18682,13 @@ const dokkanCharacters = [
             123,
             125
         ],
-        "categories": [],
+        "categories": [
+            "Giant Form",
+            "Artificial Life Forms",
+            "Revenge",
+            "Crossover",
+            "Mission Execution"
+        ],
         "roles": [
             "TANK",
             "SUPPORT"
@@ -13082,7 +18715,12 @@ const dokkanCharacters = [
             130,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Universe Survival Saga",
+            "Transformation Boost",
+            "Universe 6",
+            "Tournament Participants"
+        ],
         "roles": [
             "SUPPORT",
             "DPS / NUKER"
@@ -13109,7 +18747,23 @@ const dokkanCharacters = [
             130,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Peppy Gals",
+            "Universe Survival Saga",
+            "Pure Saiyans",
+            "Full Power",
+            "Transformation Boost",
+            "Universe 6",
+            "Super Saiyan 2",
+            "Exploding Rage",
+            "Rapid Growth",
+            "Miraculous Awakening",
+            "Bond of Friendship",
+            "Power Beyond Super Saiyan",
+            "Tournament Participants",
+            "Super Bosses",
+            "Uncontrollable Power"
+        ],
         "roles": [
             "TANK"
         ]
@@ -13135,7 +18789,22 @@ const dokkanCharacters = [
             109,
             125
         ],
-        "categories": [],
+        "categories": [
+            "Realm of Gods",
+            "Potara",
+            "Future Saga",
+            "Transformation Boost",
+            "Time Travelers",
+            "Kamehameha",
+            "Final Trump Card",
+            "Battle of Wits",
+            "Time Limit",
+            "Accelerated Battle",
+            "Battle of Fate",
+            "Power Beyond Super Saiyan",
+            "Fused Fighters",
+            "Super Heroes"
+        ],
         "roles": []
     },
     {
@@ -13159,7 +18828,21 @@ const dokkanCharacters = [
             109,
             125
         ],
-        "categories": [],
+        "categories": [
+            "Fusion",
+            "Realm of Gods",
+            "Transformation Boost",
+            "Movie Heroes",
+            "Kamehameha",
+            "Final Trump Card",
+            "Powerful Comeback",
+            "Time Limit",
+            "Accelerated Battle",
+            "Power Beyond Super Saiyan",
+            "Fused Fighters",
+            "Super Heroes",
+            "Earth-Protecting Heroes"
+        ],
         "roles": []
     },
     {
@@ -13183,7 +18866,17 @@ const dokkanCharacters = [
             44,
             118
         ],
-        "categories": [],
+        "categories": [
+            "World Tournament",
+            "Majin Buu Saga",
+            "Earthlings",
+            "Saviors",
+            "Powerful Comeback",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters",
+            "Tournament Participants",
+            "Earth-Protecting Heroes"
+        ],
         "roles": []
     },
     {
@@ -13207,7 +18900,21 @@ const dokkanCharacters = [
             109,
             125
         ],
-        "categories": [],
+        "categories": [
+            "Pure Saiyans",
+            "Movie Heroes",
+            "Goku's Family",
+            "Super Saiyans",
+            "Final Trump Card",
+            "Connected Hope",
+            "Turtle School",
+            "Bond of Friendship",
+            "Accelerated Battle",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters",
+            "Power of Wishes",
+            "Earth-Protecting Heroes"
+        ],
         "roles": [
             "DPS / NUKER"
         ]
@@ -13233,7 +18940,28 @@ const dokkanCharacters = [
             89,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Universe Survival Saga",
+            "Realm of Gods",
+            "Pure Saiyans",
+            "Full Power",
+            "Representatives of Universe 7",
+            "Goku's Family",
+            "Kamehameha",
+            "Bond of Master and Disciple",
+            "Final Trump Card",
+            "All-Out Struggle",
+            "Turtle School",
+            "Mastered Evolution",
+            "Bond of Friendship",
+            "Accelerated Battle",
+            "Power Beyond Super Saiyan",
+            "Bond of Parent and Child",
+            "Super Heroes",
+            "Earth-Bred Fighters",
+            "Power of Wishes",
+            "Tournament Participants"
+        ],
         "roles": [
             "SUPPORT"
         ]
@@ -13259,7 +18987,21 @@ const dokkanCharacters = [
             1004,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Majin Buu Saga",
+            "Transformation Boost",
+            "Artificial Life Forms",
+            "Kamehameha",
+            "Final Trump Card",
+            "Majin Power",
+            "Power Absorption",
+            "Heavenly Events",
+            "Time Limit",
+            "Sworn Enemies",
+            "Worldwide Chaos",
+            "Demonic Power",
+            "Uncontrollable Power"
+        ],
         "roles": []
     },
     {
@@ -13283,7 +19025,15 @@ const dokkanCharacters = [
             112,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Majin Buu Saga",
+            "Potara",
+            "Super Saiyans",
+            "Final Trump Card",
+            "Battle of Wits",
+            "Accelerated Battle",
+            "Fused Fighters"
+        ],
         "roles": [
             "TANK"
         ]
@@ -13309,7 +19059,17 @@ const dokkanCharacters = [
             112,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Majin Buu Saga",
+            "Joined Forces",
+            "Final Trump Card",
+            "Connected Hope",
+            "Gifted Warriors",
+            "Heavenly Events",
+            "Entrusted Will",
+            "Fused Fighters",
+            "Earth-Bred Fighters"
+        ],
         "roles": [
             "HEALER"
         ]
@@ -13335,7 +19095,11 @@ const dokkanCharacters = [
             127,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Shadow Dragon Saga",
+            "Joined Forces",
+            "GT Bosses"
+        ],
         "roles": [
             "DPS / NUKER"
         ]
@@ -13360,7 +19124,20 @@ const dokkanCharacters = [
             45,
             97
         ],
-        "categories": [],
+        "categories": [
+            "Majin Buu Saga",
+            "Pure Saiyans",
+            "Goku's Family",
+            "Final Trump Card",
+            "Connected Hope",
+            "Turtle School",
+            "Bond of Friendship",
+            "Accelerated Battle",
+            "Battle of Fate",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters",
+            "Power of Wishes"
+        ],
         "roles": [
             "DPS / NUKER"
         ]
@@ -13411,7 +19188,20 @@ const dokkanCharacters = [
             47,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Pure Saiyans",
+            "Goku's Family",
+            "Super Saiyans",
+            "Androids/Cell Saga",
+            "Kamehameha",
+            "Bond of Master and Disciple",
+            "Rapid Growth",
+            "Turtle School",
+            "Heavenly Events",
+            "Bond of Friendship",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters"
+        ],
         "roles": [
             "SUPPORT"
         ]
@@ -13436,7 +19226,19 @@ const dokkanCharacters = [
             103,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Hybrid Saiyans",
+            "Resurrected Warriors",
+            "Majin Buu Saga",
+            "Goku's Family",
+            "Siblings' Bond",
+            "Saviors",
+            "Defenders of Justice",
+            "Entrusted Will",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters",
+            "Demonic Power"
+        ],
         "roles": []
     },
     {
@@ -13459,7 +19261,23 @@ const dokkanCharacters = [
             89,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Pure Saiyans",
+            "Full Power",
+            "Goku's Family",
+            "Kamehameha",
+            "Final Trump Card",
+            "All-Out Struggle",
+            "Turtle School",
+            "Bond of Friendship",
+            "Accelerated Battle",
+            "Battle of Fate",
+            "Saiyan Saga",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters",
+            "Power of Wishes",
+            "Earth-Protecting Heroes"
+        ],
         "roles": [
             "DPS / NUKER"
         ]
@@ -13485,7 +19303,21 @@ const dokkanCharacters = [
             119,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Resurrected Warriors",
+            "Namekians",
+            "Dragon Ball Seekers",
+            "Time Travelers",
+            "DB Saga",
+            "Terrifying Conquerors",
+            "Gifted Warriors",
+            "Storied Figures",
+            "Legendary Existence",
+            "Sworn Enemies",
+            "Worldwide Chaos",
+            "Demonic Power",
+            "Successors"
+        ],
         "roles": []
     },
     {
@@ -13509,7 +19341,22 @@ const dokkanCharacters = [
             47,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Fusion",
+            "Hybrid Saiyans",
+            "Majin Buu Saga",
+            "Youth",
+            "Kamehameha",
+            "Special Pose",
+            "Rapid Growth",
+            "Connected Hope",
+            "Gifted Warriors",
+            "Heavenly Events",
+            "Time Limit",
+            "Entrusted Will",
+            "Fused Fighters",
+            "Earth-Bred Fighters"
+        ],
         "roles": []
     },
     {
@@ -13533,7 +19380,22 @@ const dokkanCharacters = [
             1003,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Fusion",
+            "Hybrid Saiyans",
+            "Majin Buu Saga",
+            "Youth",
+            "Super Saiyans",
+            "Special Pose",
+            "Rapid Growth",
+            "Connected Hope",
+            "Gifted Warriors",
+            "Heavenly Events",
+            "Time Limit",
+            "Entrusted Will",
+            "Fused Fighters",
+            "Earth-Bred Fighters"
+        ],
         "roles": []
     },
     {
@@ -13557,7 +19419,19 @@ const dokkanCharacters = [
             109,
             125
         ],
-        "categories": [],
+        "categories": [
+            "Majin Buu Saga",
+            "Transformation Boost",
+            "Artificial Life Forms",
+            "Exploding Rage",
+            "Majin Power",
+            "Power Absorption",
+            "Heavenly Events",
+            "Sworn Enemies",
+            "Worldwide Chaos",
+            "Demonic Power",
+            "Uncontrollable Power"
+        ],
         "roles": [
             "TANK",
             "HEALER"
@@ -13584,7 +19458,17 @@ const dokkanCharacters = [
             118,
             125
         ],
-        "categories": [],
+        "categories": [
+            "Androids",
+            "Transformation Boost",
+            "Time Travelers",
+            "Artificial Life Forms",
+            "Androids/Cell Saga",
+            "Target: Goku",
+            "Power Absorption",
+            "Sworn Enemies",
+            "Worldwide Chaos"
+        ],
         "roles": [
             "DPS / NUKER"
         ]
@@ -13610,7 +19494,19 @@ const dokkanCharacters = [
             130,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Universe Survival Saga",
+            "Androids",
+            "Representatives of Universe 7",
+            "Siblings' Bond",
+            "Worthy Rivals",
+            "Final Trump Card",
+            "Battle of Wits",
+            "Defenders of Justice",
+            "Battle of Fate",
+            "Super Heroes",
+            "Tournament Participants"
+        ],
         "roles": [
             "TANK",
             "SUPPORT"
@@ -13637,7 +19533,17 @@ const dokkanCharacters = [
             93,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Universe Survival Saga",
+            "Joined Forces",
+            "Youth",
+            "Defenders of Justice",
+            "Bond of Friendship",
+            "Bond of Parent and Child",
+            "Super Heroes",
+            "Earth-Bred Fighters",
+            "Mission Execution"
+        ],
         "roles": []
     },
     {
@@ -13661,7 +19567,15 @@ const dokkanCharacters = [
             130,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Universe Survival Saga",
+            "Joined Forces",
+            "Special Pose",
+            "Universe 11",
+            "Space-Traveling Warriors",
+            "Defenders of Justice",
+            "Tournament Participants"
+        ],
         "roles": [
             "SUPPORT"
         ]
@@ -13687,7 +19601,19 @@ const dokkanCharacters = [
             120,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Androids",
+            "Joined Forces",
+            "Artificial Life Forms",
+            "Target: Goku",
+            "Inhuman Deeds",
+            "Power Absorption",
+            "GT Bosses",
+            "Battle of Fate",
+            "Fused Fighters",
+            "Uncontrollable Power",
+            "Mission Execution"
+        ],
         "roles": [
             "DPS / NUKER"
         ]
@@ -13713,7 +19639,12 @@ const dokkanCharacters = [
             120,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Joined Forces",
+            "Terrifying Conquerors",
+            "Target: Goku",
+            "Battle of Wits"
+        ],
         "roles": [
             "TANK",
             "SUPPORT"
@@ -13739,7 +19670,15 @@ const dokkanCharacters = [
             102,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Dragon Ball Seekers",
+            "Movie Heroes",
+            "DB Saga",
+            "Worthy Rivals",
+            "Earthlings",
+            "Bond of Friendship",
+            "Earth-Bred Fighters"
+        ],
         "roles": [
             "SUPPORT"
         ]
@@ -13765,7 +19704,14 @@ const dokkanCharacters = [
             114,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Peppy Gals",
+            "Dragon Ball Seekers",
+            "Youth",
+            "DB Saga",
+            "Earthlings",
+            "Earth-Bred Fighters"
+        ],
         "roles": [
             "TANK",
             "HEALER"
@@ -13792,7 +19738,16 @@ const dokkanCharacters = [
             122,
             118
         ],
-        "categories": [],
+        "categories": [
+            "World Tournament",
+            "DB Saga",
+            "Earthlings",
+            "Battle of Wits",
+            "Planetary Destruction",
+            "Accelerated Battle",
+            "Earth-Bred Fighters",
+            "Tournament Participants"
+        ],
         "roles": [
             "TANK",
             "SUPPORT"
@@ -13819,7 +19774,15 @@ const dokkanCharacters = [
             109,
             125
         ],
-        "categories": [],
+        "categories": [
+            "Peppy Gals",
+            "Dragon Ball Seekers",
+            "Youth",
+            "DB Saga",
+            "Earthlings",
+            "Earth-Bred Fighters",
+            "Power of Wishes"
+        ],
         "roles": [
             "TANK",
             "SUPPORT",
@@ -13847,7 +19810,21 @@ const dokkanCharacters = [
             39,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Namekians",
+            "Worthy Rivals",
+            "Androids/Cell Saga",
+            "Bond of Master and Disciple",
+            "Final Trump Card",
+            "Battle of Wits",
+            "Gifted Warriors",
+            "Heavenly Events",
+            "Entrusted Will",
+            "Fused Fighters",
+            "Earth-Bred Fighters",
+            "Demonic Power",
+            "Successors"
+        ],
         "roles": [
             "HEALER"
         ]
@@ -13873,7 +19850,17 @@ const dokkanCharacters = [
             122,
             118
         ],
-        "categories": [],
+        "categories": [
+            "World Tournament",
+            "Resurrected Warriors",
+            "Siblings' Bond",
+            "Revenge",
+            "Earthlings",
+            "Sworn Enemies",
+            "Earth-Bred Fighters",
+            "Tournament Participants",
+            "Mission Execution"
+        ],
         "roles": []
     },
     {
@@ -13897,7 +19884,22 @@ const dokkanCharacters = [
             102,
             109
         ],
-        "categories": [],
+        "categories": [
+            "World Tournament",
+            "Low-Class Warrior",
+            "Pure Saiyans",
+            "Full Power",
+            "Goku's Family",
+            "Kamehameha",
+            "Turtle School",
+            "Powerful Comeback",
+            "Bond of Friendship",
+            "Battle of Fate",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters",
+            "Tournament Participants",
+            "Earth-Protecting Heroes"
+        ],
         "roles": [
             "TANK"
         ]
@@ -13923,7 +19925,16 @@ const dokkanCharacters = [
             102,
             109
         ],
-        "categories": [],
+        "categories": [
+            "World Tournament",
+            "Kamehameha",
+            "Earthlings",
+            "Battle of Wits",
+            "Turtle School",
+            "Bond of Friendship",
+            "Earth-Bred Fighters",
+            "Tournament Participants"
+        ],
         "roles": [
             "TANK",
             "SUPPORT",
@@ -13951,7 +19962,14 @@ const dokkanCharacters = [
             102,
             109
         ],
-        "categories": [],
+        "categories": [
+            "World Tournament",
+            "Worthy Rivals",
+            "Earthlings",
+            "Bond of Friendship",
+            "Earth-Bred Fighters",
+            "Tournament Participants"
+        ],
         "roles": []
     },
     {
@@ -13975,7 +19993,23 @@ const dokkanCharacters = [
             123,
             109
         ],
-        "categories": [],
+        "categories": [
+            "World Tournament",
+            "Giant Form",
+            "Namekians",
+            "Terrifying Conquerors",
+            "Target: Goku",
+            "Final Trump Card",
+            "Revenge",
+            "Gifted Warriors",
+            "Entrusted Will",
+            "Worldwide Chaos",
+            "Battle of Fate",
+            "Earth-Bred Fighters",
+            "Tournament Participants",
+            "Demonic Power",
+            "Successors"
+        ],
         "roles": []
     },
     {
@@ -13999,7 +20033,18 @@ const dokkanCharacters = [
             117,
             125
         ],
-        "categories": [],
+        "categories": [
+            "Namekians",
+            "Worthy Rivals",
+            "Bond of Master and Disciple",
+            "Battle of Wits",
+            "Gifted Warriors",
+            "Planetary Destruction",
+            "Saiyan Saga",
+            "Earth-Bred Fighters",
+            "Demonic Power",
+            "Successors"
+        ],
         "roles": [
             "SUPPORT"
         ]
@@ -14024,7 +20069,24 @@ const dokkanCharacters = [
             97,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Planet Namek Saga",
+            "Pure Saiyans",
+            "Goku's Family",
+            "Super Saiyans",
+            "Kamehameha",
+            "Exploding Rage",
+            "Saviors",
+            "Turtle School",
+            "Miraculous Awakening",
+            "Powerful Comeback",
+            "Legendary Existence",
+            "Bond of Friendship",
+            "Entrusted Will",
+            "Battle of Fate",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters"
+        ],
         "roles": [
             "SUPPORT"
         ]
@@ -14050,7 +20112,17 @@ const dokkanCharacters = [
             118,
             61
         ],
-        "categories": [],
+        "categories": [
+            "Low-Class Warrior",
+            "Pure Saiyans",
+            "Goku's Family",
+            "Team Bardock",
+            "All-Out Struggle",
+            "Space-Traveling Warriors",
+            "Storied Figures",
+            "Entrusted Will",
+            "Bond of Parent and Child"
+        ],
         "roles": [
             "SUPPORT"
         ]
@@ -14076,7 +20148,27 @@ const dokkanCharacters = [
             97,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Hybrid Saiyans",
+            "Full Power",
+            "Goku's Family",
+            "Youth",
+            "Androids/Cell Saga",
+            "Kamehameha",
+            "Bond of Master and Disciple",
+            "Super Saiyan 2",
+            "Exploding Rage",
+            "All-Out Struggle",
+            "Miraculous Awakening",
+            "Entrusted Will",
+            "Battle of Fate",
+            "Power Beyond Super Saiyan",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters",
+            "Tournament Participants",
+            "Demonic Power",
+            "Earth-Protecting Heroes"
+        ],
         "roles": [
             "SUPPORT"
         ]
@@ -14101,7 +20193,22 @@ const dokkanCharacters = [
             102,
             118
         ],
-        "categories": [],
+        "categories": [
+            "World Tournament",
+            "Low-Class Warrior",
+            "Pure Saiyans",
+            "Dragon Ball Seekers",
+            "Goku's Family",
+            "Youth",
+            "DB Saga",
+            "Kamehameha",
+            "Bond of Master and Disciple",
+            "Turtle School",
+            "Bond of Friendship",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters",
+            "Tournament Participants"
+        ],
         "roles": []
     },
     {
@@ -14125,7 +20232,17 @@ const dokkanCharacters = [
             122,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Fusion",
+            "Hybrid Saiyans",
+            "Majin Buu Saga",
+            "Youth",
+            "Special Pose",
+            "Heavenly Events",
+            "Time Limit",
+            "Fused Fighters",
+            "Earth-Bred Fighters"
+        ],
         "roles": [
             "HEALER"
         ]
@@ -14151,7 +20268,17 @@ const dokkanCharacters = [
             122,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Fusion",
+            "Hybrid Saiyans",
+            "Majin Buu Saga",
+            "Youth",
+            "Special Pose",
+            "Heavenly Events",
+            "Time Limit",
+            "Fused Fighters",
+            "Earth-Bred Fighters"
+        ],
         "roles": [
             "HEALER"
         ]
@@ -14177,7 +20304,19 @@ const dokkanCharacters = [
             1000,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Hybrid Saiyans",
+            "Majin Buu Saga",
+            "Dragon Ball Seekers",
+            "Movie Heroes",
+            "Vegeta's Family",
+            "Youth",
+            "Super Saiyans",
+            "Gifted Warriors",
+            "Bond of Friendship",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters"
+        ],
         "roles": []
     },
     {
@@ -14201,7 +20340,22 @@ const dokkanCharacters = [
             1000,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Hybrid Saiyans",
+            "Majin Buu Saga",
+            "Dragon Ball Seekers",
+            "Movie Heroes",
+            "Goku's Family",
+            "Youth",
+            "Siblings' Bond",
+            "Super Saiyans",
+            "Kamehameha",
+            "Gifted Warriors",
+            "Bond of Friendship",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters",
+            "Earth-Protecting Heroes"
+        ],
         "roles": []
     },
     {
@@ -14225,7 +20379,18 @@ const dokkanCharacters = [
             118,
             125
         ],
-        "categories": [],
+        "categories": [
+            "Resurrected Warriors",
+            "Movie Bosses",
+            "Full Power",
+            "Time Travelers",
+            "Joined Forces",
+            "Terrifying Conquerors",
+            "Space-Traveling Warriors",
+            "Storied Figures",
+            "Legendary Existence",
+            "Tournament Participants"
+        ],
         "roles": []
     },
     {
@@ -14249,7 +20414,20 @@ const dokkanCharacters = [
             95,
             125
         ],
-        "categories": [],
+        "categories": [
+            "Resurrected Warriors",
+            "Transformation Boost",
+            "Kamehameha",
+            "Bond of Master and Disciple",
+            "Earthlings",
+            "Majin Power",
+            "Saviors",
+            "Connected Hope",
+            "GT Heroes",
+            "Fused Fighters",
+            "Earth-Bred Fighters",
+            "Demonic Power"
+        ],
         "roles": []
     },
     {
@@ -14273,7 +20451,12 @@ const dokkanCharacters = [
             14,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Earthlings",
+            "Saviors",
+            "Saiyan Saga",
+            "Earth-Bred Fighters"
+        ],
         "roles": [
             "HEALER",
             "SUPPORT",
@@ -14301,7 +20484,14 @@ const dokkanCharacters = [
             114,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Peppy Gals",
+            "Dragon Ball Seekers",
+            "Youth",
+            "DB Saga",
+            "Earthlings",
+            "Earth-Bred Fighters"
+        ],
         "roles": []
     },
     {
@@ -14325,7 +20515,13 @@ const dokkanCharacters = [
             60,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Joined Forces",
+            "Movie Heroes",
+            "Defenders of Justice",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters"
+        ],
         "roles": [
             "SUPPORT",
             "DPS / NUKER"
@@ -14352,7 +20548,22 @@ const dokkanCharacters = [
             65,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Resurrected Warriors",
+            "Majin Buu Saga",
+            "Super Saiyan 3",
+            "Pure Saiyans",
+            "Movie Heroes",
+            "Goku's Family",
+            "Otherworld Warriors",
+            "Turtle School",
+            "Mastered Evolution",
+            "Bond of Friendship",
+            "Accelerated Battle",
+            "Power Beyond Super Saiyan",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters"
+        ],
         "roles": []
     },
     {
@@ -14376,7 +20587,14 @@ const dokkanCharacters = [
             109,
             125
         ],
-        "categories": [],
+        "categories": [
+            "Realm of Gods",
+            "Movie Bosses",
+            "Joined Forces",
+            "Siblings' Bond",
+            "Bond of Master and Disciple",
+            "Space-Traveling Warriors"
+        ],
         "roles": []
     },
     {
@@ -14400,7 +20618,22 @@ const dokkanCharacters = [
             34,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Realm of Gods",
+            "Pure Saiyans",
+            "Future Saga",
+            "Time Travelers",
+            "Goku's Family",
+            "Kamehameha",
+            "Turtle School",
+            "Mastered Evolution",
+            "Bond of Friendship",
+            "Accelerated Battle",
+            "Power Beyond Super Saiyan",
+            "Bond of Parent and Child",
+            "Super Heroes",
+            "Earth-Bred Fighters"
+        ],
         "roles": []
     },
     {
@@ -14424,7 +20657,19 @@ const dokkanCharacters = [
             49,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Realm of Gods",
+            "Movie Bosses",
+            "Siblings' Bond",
+            "Worthy Rivals",
+            "Bond of Master and Disciple",
+            "Exploding Rage",
+            "Space-Traveling Warriors",
+            "Planetary Destruction",
+            "Legendary Existence",
+            "Battle of Fate",
+            "Successors"
+        ],
         "roles": []
     },
     {
@@ -14447,7 +20692,12 @@ const dokkanCharacters = [
             60,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Realm of Gods",
+            "Siblings' Bond",
+            "Bond of Master and Disciple",
+            "Space-Traveling Warriors"
+        ],
         "roles": []
     },
     {
@@ -14470,7 +20720,12 @@ const dokkanCharacters = [
             60,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Realm of Gods",
+            "Siblings' Bond",
+            "Bond of Master and Disciple",
+            "Space-Traveling Warriors"
+        ],
         "roles": [
             "SUPPORT"
         ]
@@ -14496,7 +20751,23 @@ const dokkanCharacters = [
             117,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Realm of Gods",
+            "Pure Saiyans",
+            "Movie Heroes",
+            "Goku's Family",
+            "Turtle School",
+            "Miraculous Awakening",
+            "Legendary Existence",
+            "Bond of Friendship",
+            "Accelerated Battle",
+            "Battle of Fate",
+            "Power Beyond Super Saiyan",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters",
+            "Power of Wishes",
+            "Earth-Protecting Heroes"
+        ],
         "roles": []
     },
     {
@@ -14520,7 +20791,24 @@ const dokkanCharacters = [
             70,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Universe Survival Saga",
+            "Realm of Gods",
+            "Pure Saiyans",
+            "Representatives of Universe 7",
+            "Goku's Family",
+            "Kamehameha",
+            "Turtle School",
+            "Miraculous Awakening",
+            "Legendary Existence",
+            "Bond of Friendship",
+            "Accelerated Battle",
+            "Power Beyond Super Saiyan",
+            "Bond of Parent and Child",
+            "Super Heroes",
+            "Earth-Bred Fighters",
+            "Tournament Participants"
+        ],
         "roles": []
     },
     {
@@ -14544,7 +20832,24 @@ const dokkanCharacters = [
             34,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Realm of Gods",
+            "Pure Saiyans",
+            "Movie Heroes",
+            "Goku's Family",
+            "Kamehameha",
+            "Turtle School",
+            "Miraculous Awakening",
+            "Legendary Existence",
+            "Bond of Friendship",
+            "Accelerated Battle",
+            "Battle of Fate",
+            "Power Beyond Super Saiyan",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters",
+            "Power of Wishes",
+            "Earth-Protecting Heroes"
+        ],
         "roles": []
     },
     {
@@ -14568,7 +20873,13 @@ const dokkanCharacters = [
             97,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Joined Forces",
+            "Vegeta's Family",
+            "Exploding Rage",
+            "Bond of Parent and Child",
+            "Super Heroes"
+        ],
         "roles": []
     },
     {
@@ -14592,7 +20903,22 @@ const dokkanCharacters = [
             97,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Pure Saiyans",
+            "Transformation Boost",
+            "Movie Heroes",
+            "Vegeta's Family",
+            "Siblings' Bond",
+            "Super Saiyans",
+            "Worthy Rivals",
+            "Super Saiyan 2",
+            "Exploding Rage",
+            "Gifted Warriors",
+            "Mastered Evolution",
+            "Power Beyond Super Saiyan",
+            "Bond of Parent and Child",
+            "Successors"
+        ],
         "roles": [
             "TANK",
             "SUPPORT"
@@ -14619,7 +20945,27 @@ const dokkanCharacters = [
             97,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Realm of Gods",
+            "Pure Saiyans",
+            "Transformation Boost",
+            "Movie Heroes",
+            "Goku's Family",
+            "Super Saiyans",
+            "Kamehameha",
+            "Exploding Rage",
+            "Turtle School",
+            "Miraculous Awakening",
+            "Legendary Existence",
+            "Bond of Friendship",
+            "Accelerated Battle",
+            "Battle of Fate",
+            "Power Beyond Super Saiyan",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters",
+            "Power of Wishes",
+            "Earth-Protecting Heroes"
+        ],
         "roles": [
             "TANK",
             "DPS / NUKER"
@@ -14646,7 +20992,20 @@ const dokkanCharacters = [
             117,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Resurrected Warriors",
+            "Pure Saiyans",
+            "Time Travelers",
+            "Goku's Family",
+            "Super Saiyans",
+            "Exploding Rage",
+            "Revenge",
+            "Crossover",
+            "Powerful Comeback",
+            "Storied Figures",
+            "Legendary Existence",
+            "Bond of Parent and Child"
+        ],
         "roles": [
             "SUPPORT"
         ]
@@ -14672,7 +21031,20 @@ const dokkanCharacters = [
             97,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Resurrected Warriors",
+            "Pure Saiyans",
+            "Time Travelers",
+            "Goku's Family",
+            "Super Saiyans",
+            "Exploding Rage",
+            "Revenge",
+            "Crossover",
+            "Powerful Comeback",
+            "Storied Figures",
+            "Legendary Existence",
+            "Bond of Parent and Child"
+        ],
         "roles": [
             "DPS / NUKER"
         ]
@@ -14698,7 +21070,19 @@ const dokkanCharacters = [
             97,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Resurrected Warriors",
+            "Pure Saiyans",
+            "Time Travelers",
+            "Goku's Family",
+            "Super Saiyan 2",
+            "Revenge",
+            "Crossover",
+            "Powerful Comeback",
+            "Storied Figures",
+            "Power Beyond Super Saiyan",
+            "Bond of Parent and Child"
+        ],
         "roles": [
             "SUPPORT"
         ]
@@ -14724,7 +21108,19 @@ const dokkanCharacters = [
             116,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Resurrected Warriors",
+            "Super Saiyan 3",
+            "Pure Saiyans",
+            "Time Travelers",
+            "Goku's Family",
+            "Revenge",
+            "Crossover",
+            "Powerful Comeback",
+            "Storied Figures",
+            "Power Beyond Super Saiyan",
+            "Bond of Parent and Child"
+        ],
         "roles": [
             "SUPPORT"
         ]
@@ -14750,7 +21146,14 @@ const dokkanCharacters = [
             97,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Low-Class Warrior",
+            "Pure Saiyans",
+            "Team Bardock",
+            "Space-Traveling Warriors",
+            "Storied Figures",
+            "Mission Execution"
+        ],
         "roles": [
             "TANK",
             "SUPPORT",
@@ -14778,7 +21181,18 @@ const dokkanCharacters = [
             97,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Low-Class Warrior",
+            "Pure Saiyans",
+            "Goku's Family",
+            "Team Bardock",
+            "All-Out Struggle",
+            "Space-Traveling Warriors",
+            "Connected Hope",
+            "Storied Figures",
+            "Entrusted Will",
+            "Bond of Parent and Child"
+        ],
         "roles": [
             "DPS / NUKER"
         ]
@@ -14804,7 +21218,32 @@ const dokkanCharacters = [
             109,
             125
         ],
-        "categories": [],
+        "categories": [
+            "Hybrid Saiyans",
+            "Full Power",
+            "Transformation Boost",
+            "Goku's Family",
+            "Youth",
+            "Super Saiyans",
+            "Androids/Cell Saga",
+            "Kamehameha",
+            "Bond of Master and Disciple",
+            "Super Saiyan 2",
+            "Exploding Rage",
+            "Rapid Growth",
+            "All-Out Struggle",
+            "Miraculous Awakening",
+            "Heavenly Events",
+            "Mastered Evolution",
+            "Entrusted Will",
+            "Battle of Fate",
+            "Power Beyond Super Saiyan",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters",
+            "Tournament Participants",
+            "Demonic Power",
+            "Earth-Protecting Heroes"
+        ],
         "roles": []
     },
     {
@@ -14828,7 +21267,26 @@ const dokkanCharacters = [
             109,
             125
         ],
-        "categories": [],
+        "categories": [
+            "Resurrected Warriors",
+            "Full Power",
+            "Androids",
+            "Transformation Boost",
+            "Time Travelers",
+            "Artificial Life Forms",
+            "Androids/Cell Saga",
+            "Kamehameha",
+            "Target: Goku",
+            "Revenge",
+            "Power Absorption",
+            "Miraculous Awakening",
+            "Planetary Destruction",
+            "Sworn Enemies",
+            "Accelerated Battle",
+            "Worldwide Chaos",
+            "Battle of Fate",
+            "Tournament Participants"
+        ],
         "roles": []
     },
     {
@@ -14852,7 +21310,12 @@ const dokkanCharacters = [
             122,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Worthy Rivals",
+            "Earthlings",
+            "Bond of Friendship",
+            "Earth-Bred Fighters"
+        ],
         "roles": []
     },
     {
@@ -14875,7 +21338,23 @@ const dokkanCharacters = [
             97,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Resurrected Warriors",
+            "Majin Buu Saga",
+            "Pure Saiyans",
+            "Goku's Family",
+            "Kamehameha",
+            "Otherworld Warriors",
+            "Super Saiyan 2",
+            "Turtle School",
+            "Time Limit",
+            "Mastered Evolution",
+            "Bond of Friendship",
+            "Accelerated Battle",
+            "Power Beyond Super Saiyan",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters"
+        ],
         "roles": []
     },
     {
@@ -14899,7 +21378,24 @@ const dokkanCharacters = [
             118,
             125
         ],
-        "categories": [],
+        "categories": [
+            "Realm of Gods",
+            "Pure Saiyans",
+            "Goku's Family",
+            "Kamehameha",
+            "Turtle School",
+            "Miraculous Awakening",
+            "Legendary Existence",
+            "Bond of Friendship",
+            "Accelerated Battle",
+            "Battle of Fate",
+            "Power Beyond Super Saiyan",
+            "Bond of Parent and Child",
+            "Super Heroes",
+            "Earth-Bred Fighters",
+            "Power of Wishes",
+            "Earth-Protecting Heroes"
+        ],
         "roles": [
             "DPS / NUKER"
         ]
@@ -14925,7 +21421,29 @@ const dokkanCharacters = [
             36,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Low-Class Warrior",
+            "Pure Saiyans",
+            "Full Power",
+            "Dragon Ball Seekers",
+            "Goku's Family",
+            "Youth",
+            "DB Saga",
+            "Kamehameha",
+            "Bond of Master and Disciple",
+            "Revenge",
+            "Rapid Growth",
+            "Saviors",
+            "Giant Ape Power",
+            "Turtle School",
+            "Powerful Comeback",
+            "Bond of Friendship",
+            "Accelerated Battle",
+            "Battle of Fate",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters",
+            "Earth-Protecting Heroes"
+        ],
         "roles": [
             "DPS / NUKER"
         ]
@@ -14951,7 +21469,15 @@ const dokkanCharacters = [
             37,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Movie Heroes",
+            "Earthlings",
+            "Saviors",
+            "Battle of Wits",
+            "Turtle School",
+            "Bond of Friendship",
+            "Earth-Bred Fighters"
+        ],
         "roles": [
             "SUPPORT"
         ]
@@ -14977,7 +21503,13 @@ const dokkanCharacters = [
             60,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Pure Saiyans",
+            "Terrifying Conquerors",
+            "Space-Traveling Warriors",
+            "Saiyan Saga",
+            "Mission Execution"
+        ],
         "roles": [
             "SUPPORT"
         ]
@@ -15003,7 +21535,16 @@ const dokkanCharacters = [
             42,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Full Power",
+            "DB Saga",
+            "Kamehameha",
+            "Bond of Master and Disciple",
+            "Earthlings",
+            "Battle of Wits",
+            "Turtle School",
+            "Earth-Bred Fighters"
+        ],
         "roles": [
             "SUPPORT"
         ]
@@ -15029,7 +21570,15 @@ const dokkanCharacters = [
             120,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Majin Buu Saga",
+            "Siblings' Bond",
+            "Terrifying Conquerors",
+            "Corroded Body and Mind",
+            "Demonic Power",
+            "Successors",
+            "Mission Execution"
+        ],
         "roles": [
             "SUPPORT"
         ]
@@ -15055,7 +21604,17 @@ const dokkanCharacters = [
             60,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Hybrid Saiyans",
+            "Majin Buu Saga",
+            "Goku's Family",
+            "Siblings' Bond",
+            "Special Pose",
+            "Defenders of Justice",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters",
+            "Demonic Power"
+        ],
         "roles": [
             "SUPPORT"
         ]
@@ -15081,7 +21640,18 @@ const dokkanCharacters = [
             120,
             125
         ],
-        "categories": [],
+        "categories": [
+            "Resurrected Warriors",
+            "Movie Bosses",
+            "Wicked Bloodline",
+            "Joined Forces",
+            "Artificial Life Forms",
+            "Terrifying Conquerors",
+            "Target: Goku",
+            "Revenge",
+            "Corroded Body and Mind",
+            "Accelerated Battle"
+        ],
         "roles": []
     },
     {
@@ -15105,7 +21675,13 @@ const dokkanCharacters = [
             102,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Androids",
+            "Movie Heroes",
+            "Artificial Life Forms",
+            "DB Saga",
+            "Bond of Friendship"
+        ],
         "roles": [
             "TANK",
             "HEALER"
@@ -15131,7 +21707,16 @@ const dokkanCharacters = [
             58,
             60
         ],
-        "categories": [],
+        "categories": [
+            "Realm of Gods",
+            "Dragon Ball Seekers",
+            "Universe 6",
+            "Siblings' Bond",
+            "Bond of Master and Disciple",
+            "Space-Traveling Warriors",
+            "Planetary Destruction",
+            "Successors"
+        ],
         "roles": [
             "DPS / NUKER"
         ]
@@ -15182,7 +21767,18 @@ const dokkanCharacters = [
             122,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Goku's Family",
+            "DB Saga",
+            "Bond of Master and Disciple",
+            "Otherworld Warriors",
+            "Earthlings",
+            "Turtle School",
+            "Time Limit",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters",
+            "Mission Execution"
+        ],
         "roles": [
             "SUPPORT"
         ]
@@ -15208,7 +21804,13 @@ const dokkanCharacters = [
             26,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Joined Forces",
+            "Terrifying Conquerors",
+            "Final Trump Card",
+            "Battle of Wits",
+            "Power of Wishes"
+        ],
         "roles": [
             "TANK",
             "DPS / NUKER"
@@ -15235,7 +21837,19 @@ const dokkanCharacters = [
             47,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Hybrid Saiyans",
+            "Movie Heroes",
+            "Goku's Family",
+            "Siblings' Bond",
+            "Super Saiyans",
+            "Kamehameha",
+            "Bond of Master and Disciple",
+            "Bond of Parent and Child",
+            "Super Heroes",
+            "Earth-Bred Fighters",
+            "Demonic Power"
+        ],
         "roles": [
             "DPS / NUKER"
         ]
@@ -15261,7 +21875,21 @@ const dokkanCharacters = [
             97,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Realm of Gods",
+            "Pure Saiyans",
+            "Movie Heroes",
+            "Vegeta's Family",
+            "Siblings' Bond",
+            "Worthy Rivals",
+            "Bond of Master and Disciple",
+            "Gifted Warriors",
+            "Mastered Evolution",
+            "Battle of Fate",
+            "Power Beyond Super Saiyan",
+            "Bond of Parent and Child",
+            "Successors"
+        ],
         "roles": []
     },
     {
@@ -15285,7 +21913,21 @@ const dokkanCharacters = [
             97,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Realm of Gods",
+            "Pure Saiyans",
+            "Movie Heroes",
+            "Vegeta's Family",
+            "Siblings' Bond",
+            "Worthy Rivals",
+            "Bond of Master and Disciple",
+            "Gifted Warriors",
+            "Mastered Evolution",
+            "Battle of Fate",
+            "Power Beyond Super Saiyan",
+            "Bond of Parent and Child",
+            "Successors"
+        ],
         "roles": [
             "DPS / NUKER"
         ]
@@ -15311,7 +21953,21 @@ const dokkanCharacters = [
             97,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Realm of Gods",
+            "Pure Saiyans",
+            "Movie Heroes",
+            "Vegeta's Family",
+            "Siblings' Bond",
+            "Worthy Rivals",
+            "Bond of Master and Disciple",
+            "Gifted Warriors",
+            "Mastered Evolution",
+            "Battle of Fate",
+            "Power Beyond Super Saiyan",
+            "Bond of Parent and Child",
+            "Successors"
+        ],
         "roles": []
     },
     {
@@ -15335,7 +21991,19 @@ const dokkanCharacters = [
             97,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Movie Bosses",
+            "Pure Saiyans",
+            "Full Power",
+            "Transformation Boost",
+            "Super Saiyans",
+            "Exploding Rage",
+            "Miraculous Awakening",
+            "Gifted Warriors",
+            "Power Beyond Super Saiyan",
+            "Super Bosses",
+            "Uncontrollable Power"
+        ],
         "roles": []
     },
     {
@@ -15359,7 +22027,21 @@ const dokkanCharacters = [
             112,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Fusion",
+            "Realm of Gods",
+            "Transformation Boost",
+            "Movie Heroes",
+            "Super Saiyans",
+            "Final Trump Card",
+            "Powerful Comeback",
+            "Time Limit",
+            "Accelerated Battle",
+            "Power Beyond Super Saiyan",
+            "Fused Fighters",
+            "Super Heroes",
+            "Earth-Protecting Heroes"
+        ],
         "roles": []
     },
     {
@@ -15383,7 +22065,16 @@ const dokkanCharacters = [
             4,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Hybrid Saiyans",
+            "Movie Heroes",
+            "Goku's Family",
+            "Youth",
+            "Bond of Master and Disciple",
+            "Bond of Parent and Child",
+            "Super Heroes",
+            "Earth-Bred Fighters"
+        ],
         "roles": [
             "SUPPORT"
         ]
@@ -15408,7 +22099,17 @@ const dokkanCharacters = [
             93,
             94
         ],
-        "categories": [],
+        "categories": [
+            "Androids",
+            "Movie Heroes",
+            "Artificial Life Forms",
+            "Worthy Rivals",
+            "Special Pose",
+            "Defenders of Justice",
+            "Accelerated Battle",
+            "Super Heroes",
+            "Mission Execution"
+        ],
         "roles": [
             "SUPPORT",
             "DPS / NUKER"
@@ -15434,7 +22135,17 @@ const dokkanCharacters = [
             93,
             94
         ],
-        "categories": [],
+        "categories": [
+            "Androids",
+            "Movie Heroes",
+            "Artificial Life Forms",
+            "Worthy Rivals",
+            "Special Pose",
+            "Defenders of Justice",
+            "Accelerated Battle",
+            "Super Heroes",
+            "Mission Execution"
+        ],
         "roles": [
             "SUPPORT"
         ]
@@ -15460,7 +22171,20 @@ const dokkanCharacters = [
             52,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Fusion",
+            "Hybrid Saiyans",
+            "Joined Forces",
+            "Movie Heroes",
+            "Siblings' Bond",
+            "Time Limit",
+            "Bond of Friendship",
+            "Battle of Fate",
+            "Fused Fighters",
+            "Bond of Parent and Child",
+            "Super Heroes",
+            "Earth-Bred Fighters"
+        ],
         "roles": [
             "DPS / NUKER"
         ]
@@ -15537,7 +22261,17 @@ const dokkanCharacters = [
             109,
             125
         ],
-        "categories": [],
+        "categories": [
+            "Realm of Gods",
+            "Potara",
+            "Future Saga",
+            "Time Travelers",
+            "Joined Forces",
+            "Worldwide Chaos",
+            "Power of Wishes",
+            "Super Bosses",
+            "Successors"
+        ],
         "roles": [
             "HEALER"
         ]
@@ -15563,7 +22297,15 @@ const dokkanCharacters = [
             109,
             125
         ],
-        "categories": [],
+        "categories": [
+            "Future Saga",
+            "Time Travelers",
+            "Joined Forces",
+            "Revenge",
+            "Battle of Wits",
+            "Super Heroes",
+            "Earth-Bred Fighters"
+        ],
         "roles": []
     },
     {
@@ -15587,7 +22329,21 @@ const dokkanCharacters = [
             89,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Realm of Gods",
+            "Potara",
+            "Future Saga",
+            "Time Travelers",
+            "Kamehameha",
+            "Final Trump Card",
+            "Battle of Wits",
+            "Time Limit",
+            "Accelerated Battle",
+            "Battle of Fate",
+            "Power Beyond Super Saiyan",
+            "Fused Fighters",
+            "Super Heroes"
+        ],
         "roles": []
     },
     {
@@ -15611,7 +22367,21 @@ const dokkanCharacters = [
             50,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Realm of Gods",
+            "Potara",
+            "Future Saga",
+            "Time Travelers",
+            "Exploding Rage",
+            "Inhuman Deeds",
+            "Corroded Body and Mind",
+            "Accelerated Battle",
+            "Worldwide Chaos",
+            "Power Beyond Super Saiyan",
+            "Power of Wishes",
+            "Super Bosses",
+            "Successors"
+        ],
         "roles": [
             "SUPPORT"
         ]
@@ -15637,7 +22407,15 @@ const dokkanCharacters = [
             122,
             1000
         ],
-        "categories": [],
+        "categories": [
+            "Pure Saiyans",
+            "Vegeta's Family",
+            "Terrifying Conquerors",
+            "Inhuman Deeds",
+            "Space-Traveling Warriors",
+            "Storied Figures",
+            "Successors"
+        ],
         "roles": [
             "SUPPORT"
         ]
@@ -15663,7 +22441,18 @@ const dokkanCharacters = [
             97,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Realm of Gods",
+            "Potara",
+            "Future Saga",
+            "Time Travelers",
+            "Inhuman Deeds",
+            "Corroded Body and Mind",
+            "Worldwide Chaos",
+            "Power of Wishes",
+            "Super Bosses",
+            "Successors"
+        ],
         "roles": [
             "SUPPORT"
         ]
@@ -15689,7 +22478,22 @@ const dokkanCharacters = [
             116,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Super Saiyan 3",
+            "Pure Saiyans",
+            "Time Travelers",
+            "Goku's Family",
+            "Kamehameha",
+            "Dragon Ball Heroes",
+            "Crossover",
+            "Turtle School",
+            "Defenders of Justice",
+            "Accelerated Battle",
+            "Power Beyond Super Saiyan",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters",
+            "Mission Execution"
+        ],
         "roles": [
             "TANK"
         ]
@@ -15715,7 +22519,21 @@ const dokkanCharacters = [
             116,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Super Saiyan 3",
+            "Pure Saiyans",
+            "Time Travelers",
+            "Vegeta's Family",
+            "Worthy Rivals",
+            "Dragon Ball Heroes",
+            "Crossover",
+            "Gifted Warriors",
+            "Defenders of Justice",
+            "Power Beyond Super Saiyan",
+            "Bond of Parent and Child",
+            "Successors",
+            "Mission Execution"
+        ],
         "roles": [
             "TANK",
             "DPS / NUKER"
@@ -15742,7 +22560,15 @@ const dokkanCharacters = [
             80,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Realm of Gods",
+            "Potara",
+            "Time Travelers",
+            "Dragon Ball Heroes",
+            "Crossover",
+            "Defenders of Justice",
+            "Successors"
+        ],
         "roles": [
             "SUPPORT",
             "DPS / NUKER"
@@ -15769,7 +22595,16 @@ const dokkanCharacters = [
             42,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Transformation Boost",
+            "Time Travelers",
+            "Terrifying Conquerors",
+            "Dragon Ball Heroes",
+            "Final Trump Card",
+            "Battle of Wits",
+            "Crossover",
+            "Fused Fighters"
+        ],
         "roles": [
             "SUPPORT"
         ]
@@ -15795,7 +22630,17 @@ const dokkanCharacters = [
             25,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Hybrid Saiyans",
+            "Time Travelers",
+            "Vegeta's Family",
+            "Dragon Ball Heroes",
+            "Crossover",
+            "Defenders of Justice",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters",
+            "Mission Execution"
+        ],
         "roles": [
             "DPS / NUKER"
         ]
@@ -15821,7 +22666,17 @@ const dokkanCharacters = [
             69,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Time Travelers",
+            "Youth",
+            "Kamehameha",
+            "Dragon Ball Heroes",
+            "Special Pose",
+            "Crossover",
+            "Defenders of Justice",
+            "Earth-Bred Fighters",
+            "Mission Execution"
+        ],
         "roles": [
             "SUPPORT"
         ]
@@ -15847,7 +22702,16 @@ const dokkanCharacters = [
             120,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Transformation Boost",
+            "Time Travelers",
+            "Artificial Life Forms",
+            "Kamehameha",
+            "Dragon Ball Heroes",
+            "Power Absorption",
+            "Crossover",
+            "Mission Execution"
+        ],
         "roles": [
             "SUPPORT"
         ]
@@ -15873,7 +22737,12 @@ const dokkanCharacters = [
             97,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Pure Saiyans",
+            "Time Travelers",
+            "Dragon Ball Heroes",
+            "Crossover"
+        ],
         "roles": [
             "SUPPORT"
         ]
@@ -15899,7 +22768,16 @@ const dokkanCharacters = [
             97,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Giant Form",
+            "Pure Saiyans",
+            "Time Travelers",
+            "Super Saiyans",
+            "Dragon Ball Heroes",
+            "Giant Ape Power",
+            "Crossover",
+            "Uncontrollable Power"
+        ],
         "roles": []
     },
     {
@@ -15923,7 +22801,14 @@ const dokkanCharacters = [
             59,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Full Power",
+            "Transformation Boost",
+            "Wicked Bloodline",
+            "Time Travelers",
+            "Dragon Ball Heroes",
+            "Crossover"
+        ],
         "roles": [
             "SUPPORT"
         ]
@@ -15949,7 +22834,14 @@ const dokkanCharacters = [
             42,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Time Travelers",
+            "Dragon Ball Heroes",
+            "Exploding Rage",
+            "Battle of Wits",
+            "Crossover",
+            "Demonic Power"
+        ],
         "roles": []
     },
     {
@@ -15973,7 +22865,18 @@ const dokkanCharacters = [
             117,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Resurrected Warriors",
+            "Pure Saiyans",
+            "Time Travelers",
+            "Goku's Family",
+            "Dragon Ball Heroes",
+            "Giant Ape Power",
+            "Crossover",
+            "Storied Figures",
+            "Power Beyond Super Saiyan",
+            "Bond of Parent and Child"
+        ],
         "roles": [
             "DPS / NUKER"
         ]
@@ -15999,7 +22902,20 @@ const dokkanCharacters = [
             124,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Hybrid Saiyans",
+            "Time Travelers",
+            "Goku's Family",
+            "Siblings' Bond",
+            "Dragon Ball Heroes",
+            "Giant Ape Power",
+            "Crossover",
+            "Defenders of Justice",
+            "Power Beyond Super Saiyan",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters",
+            "Demonic Power"
+        ],
         "roles": [
             "TANK"
         ]
@@ -16025,7 +22941,15 @@ const dokkanCharacters = [
             60,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Dragon Ball Seekers",
+            "Time Travelers",
+            "Terrifying Conquerors",
+            "Dragon Ball Heroes",
+            "Crossover",
+            "Demonic Power",
+            "Mission Execution"
+        ],
         "roles": []
     },
     {
@@ -16049,7 +22973,15 @@ const dokkanCharacters = [
             64,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Realm of Gods",
+            "Potara",
+            "Time Travelers",
+            "Dragon Ball Heroes",
+            "Crossover",
+            "Corroded Body and Mind",
+            "Mission Execution"
+        ],
         "roles": []
     },
     {
@@ -16073,7 +23005,15 @@ const dokkanCharacters = [
             76,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Peppy Gals",
+            "Time Travelers",
+            "Terrifying Conquerors",
+            "Dragon Ball Heroes",
+            "Crossover",
+            "Demonic Power",
+            "Mission Execution"
+        ],
         "roles": [
             "SUPPORT"
         ]
@@ -16099,7 +23039,14 @@ const dokkanCharacters = [
             76,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Peppy Gals",
+            "Time Travelers",
+            "Dragon Ball Heroes",
+            "Crossover",
+            "Demonic Power",
+            "Mission Execution"
+        ],
         "roles": [
             "HEALER",
             "DPS / NUKER"
@@ -16126,7 +23073,24 @@ const dokkanCharacters = [
             124,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Pure Saiyans",
+            "Full Power",
+            "Time Travelers",
+            "Goku's Family",
+            "Kamehameha",
+            "Dragon Ball Heroes",
+            "Giant Ape Power",
+            "Crossover",
+            "Turtle School",
+            "Defenders of Justice",
+            "Accelerated Battle",
+            "Power Beyond Super Saiyan",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters",
+            "Power of Wishes",
+            "Mission Execution"
+        ],
         "roles": [
             "TANK",
             "SUPPORT",
@@ -16154,7 +23118,23 @@ const dokkanCharacters = [
             124,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Pure Saiyans",
+            "Full Power",
+            "Time Travelers",
+            "Vegeta's Family",
+            "Worthy Rivals",
+            "Dragon Ball Heroes",
+            "Giant Ape Power",
+            "Crossover",
+            "Gifted Warriors",
+            "Defenders of Justice",
+            "Power Beyond Super Saiyan",
+            "Bond of Parent and Child",
+            "Power of Wishes",
+            "Successors",
+            "Mission Execution"
+        ],
         "roles": [
             "TANK",
             "SUPPORT"
@@ -16181,7 +23161,17 @@ const dokkanCharacters = [
             8,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Resurrected Warriors",
+            "Full Power",
+            "Transformation Boost",
+            "Time Travelers",
+            "Dragon Ball Heroes",
+            "Battle of Wits",
+            "Crossover",
+            "Space-Traveling Warriors",
+            "Accelerated Battle"
+        ],
         "roles": [
             "TANK",
             "SUPPORT"
@@ -16206,7 +23196,16 @@ const dokkanCharacters = [
             39,
             60
         ],
-        "categories": [],
+        "categories": [
+            "World Tournament",
+            "Hybrid Saiyans",
+            "Majin Buu Saga",
+            "Vegeta's Family",
+            "Bond of Friendship",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters",
+            "Tournament Participants"
+        ],
         "roles": [
             "DPS / NUKER"
         ]
@@ -16256,7 +23255,21 @@ const dokkanCharacters = [
             130,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Universe Survival Saga",
+            "Resurrected Warriors",
+            "Full Power",
+            "Representatives of Universe 7",
+            "Transformation Boost",
+            "Wicked Bloodline",
+            "Otherworld Warriors",
+            "Gifted Warriors",
+            "Time Limit",
+            "Mastered Evolution",
+            "Sworn Enemies",
+            "Tournament Participants",
+            "Successors"
+        ],
         "roles": [
             "SUPPORT"
         ]
@@ -16282,7 +23295,16 @@ const dokkanCharacters = [
             14,
             125
         ],
-        "categories": [],
+        "categories": [
+            "Planet Namek Saga",
+            "Ginyu Force",
+            "Dragon Ball Seekers",
+            "Joined Forces",
+            "Terrifying Conquerors",
+            "Special Pose",
+            "Space-Traveling Warriors",
+            "Mission Execution"
+        ],
         "roles": [
             "SUPPORT"
         ]
@@ -16308,7 +23330,13 @@ const dokkanCharacters = [
             68,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Movie Heroes",
+            "Special Pose",
+            "Space-Traveling Warriors",
+            "Defenders of Justice",
+            "Mission Execution"
+        ],
         "roles": []
     },
     {
@@ -16332,7 +23360,13 @@ const dokkanCharacters = [
             59,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Wicked Bloodline",
+            "Androids/Cell Saga",
+            "Terrifying Conquerors",
+            "Target: Goku",
+            "Successors"
+        ],
         "roles": [
             "SUPPORT"
         ]
@@ -16358,7 +23392,15 @@ const dokkanCharacters = [
             1001,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Worthy Rivals",
+            "Otherworld Warriors",
+            "Saviors",
+            "Battle of Wits",
+            "Storied Figures",
+            "Tournament Participants",
+            "Mission Execution"
+        ],
         "roles": [
             "SUPPORT"
         ]
@@ -16384,7 +23426,10 @@ const dokkanCharacters = [
             2,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Androids",
+            "Joined Forces"
+        ],
         "roles": [
             "TANK",
             "HEALER",
@@ -16412,7 +23457,19 @@ const dokkanCharacters = [
             122,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Resurrected Warriors",
+            "Transformation Boost",
+            "Wicked Bloodline",
+            "Androids/Cell Saga",
+            "Terrifying Conquerors",
+            "Target: Goku",
+            "Revenge",
+            "Inhuman Deeds",
+            "Gifted Warriors",
+            "Sworn Enemies",
+            "Successors"
+        ],
         "roles": []
     },
     {
@@ -16436,7 +23493,20 @@ const dokkanCharacters = [
             118,
             125
         ],
-        "categories": [],
+        "categories": [
+            "Realm of Gods",
+            "Potara",
+            "Future Saga",
+            "Time Travelers",
+            "Final Trump Card",
+            "Battle of Wits",
+            "Time Limit",
+            "Accelerated Battle",
+            "Battle of Fate",
+            "Power Beyond Super Saiyan",
+            "Fused Fighters",
+            "Super Heroes"
+        ],
         "roles": []
     },
     {
@@ -16460,7 +23530,15 @@ const dokkanCharacters = [
             102,
             118
         ],
-        "categories": [],
+        "categories": [
+            "World Tournament",
+            "Peppy Gals",
+            "Goku's Family",
+            "Earthlings",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters",
+            "Tournament Participants"
+        ],
         "roles": [
             "SUPPORT"
         ]
@@ -16485,7 +23563,13 @@ const dokkanCharacters = [
             102,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Youth",
+            "DB Saga",
+            "Earthlings",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters"
+        ],
         "roles": []
     },
     {
@@ -16509,7 +23593,16 @@ const dokkanCharacters = [
             95,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Peppy Gals",
+            "Hybrid Saiyans",
+            "Vegeta's Family",
+            "Youth",
+            "Siblings' Bond",
+            "GT Heroes",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters"
+        ],
         "roles": [
             "SUPPORT"
         ]
@@ -16535,7 +23628,15 @@ const dokkanCharacters = [
             130,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Peppy Gals",
+            "Universe Survival Saga",
+            "Transformation Boost",
+            "Special Pose",
+            "Space-Traveling Warriors",
+            "Tournament Participants",
+            "Super Bosses"
+        ],
         "roles": []
     },
     {
@@ -16559,7 +23660,15 @@ const dokkanCharacters = [
             118,
             125
         ],
-        "categories": [],
+        "categories": [
+            "Dragon Ball Seekers",
+            "Joined Forces",
+            "Space-Traveling Warriors",
+            "GT Heroes",
+            "Bond of Friendship",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters"
+        ],
         "roles": []
     },
     {
@@ -16583,7 +23692,13 @@ const dokkanCharacters = [
             60,
             125
         ],
-        "categories": [],
+        "categories": [
+            "Joined Forces",
+            "Goku's Family",
+            "Kamehameha",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters"
+        ],
         "roles": [
             "HEALER"
         ]
@@ -16609,7 +23724,16 @@ const dokkanCharacters = [
             122,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Pure Saiyans",
+            "Vegeta's Family",
+            "Youth",
+            "Terrifying Conquerors",
+            "Space-Traveling Warriors",
+            "Gifted Warriors",
+            "Successors",
+            "Mission Execution"
+        ],
         "roles": []
     },
     {
@@ -16633,7 +23757,19 @@ const dokkanCharacters = [
             97,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Pure Saiyans",
+            "Dragon Ball Seekers",
+            "Goku's Family",
+            "Super Saiyans",
+            "Kamehameha",
+            "Space-Traveling Warriors",
+            "Turtle School",
+            "GT Heroes",
+            "Bond of Friendship",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters"
+        ],
         "roles": []
     },
     {
@@ -16657,7 +23793,12 @@ const dokkanCharacters = [
             60,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Artificial Life Forms",
+            "Terrifying Conquerors",
+            "GT Bosses",
+            "Mission Execution"
+        ],
         "roles": []
     },
     {
@@ -16681,7 +23822,13 @@ const dokkanCharacters = [
             2,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Dragon Ball Seekers",
+            "Joined Forces",
+            "Space-Traveling Warriors",
+            "GT Heroes",
+            "Bond of Friendship"
+        ],
         "roles": [
             "SUPPORT",
             "DPS / NUKER"
@@ -16708,7 +23855,16 @@ const dokkanCharacters = [
             59,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Movie Bosses",
+            "Transformation Boost",
+            "Wicked Bloodline",
+            "Terrifying Conquerors",
+            "Target: Goku",
+            "Final Trump Card",
+            "Space-Traveling Warriors",
+            "Planetary Destruction"
+        ],
         "roles": [
             "SUPPORT"
         ]
@@ -16734,7 +23890,17 @@ const dokkanCharacters = [
             85,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Resurrected Warriors",
+            "Movie Bosses",
+            "Wicked Bloodline",
+            "Artificial Life Forms",
+            "Terrifying Conquerors",
+            "Target: Goku",
+            "Revenge",
+            "Corroded Body and Mind",
+            "Accelerated Battle"
+        ],
         "roles": [
             "SUPPORT"
         ]
@@ -16760,7 +23926,17 @@ const dokkanCharacters = [
             85,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Resurrected Warriors",
+            "Movie Bosses",
+            "Wicked Bloodline",
+            "Artificial Life Forms",
+            "Terrifying Conquerors",
+            "Target: Goku",
+            "Revenge",
+            "Corroded Body and Mind",
+            "Accelerated Battle"
+        ],
         "roles": []
     },
     {
@@ -16784,7 +23960,17 @@ const dokkanCharacters = [
             85,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Resurrected Warriors",
+            "Movie Bosses",
+            "Wicked Bloodline",
+            "Artificial Life Forms",
+            "Terrifying Conquerors",
+            "Target: Goku",
+            "Revenge",
+            "Corroded Body and Mind",
+            "Accelerated Battle"
+        ],
         "roles": [
             "HEALER"
         ]
@@ -16810,7 +23996,17 @@ const dokkanCharacters = [
             85,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Resurrected Warriors",
+            "Movie Bosses",
+            "Wicked Bloodline",
+            "Artificial Life Forms",
+            "Terrifying Conquerors",
+            "Target: Goku",
+            "Revenge",
+            "Corroded Body and Mind",
+            "Accelerated Battle"
+        ],
         "roles": [
             "SUPPORT"
         ]
@@ -16836,7 +24032,17 @@ const dokkanCharacters = [
             85,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Resurrected Warriors",
+            "Movie Bosses",
+            "Wicked Bloodline",
+            "Artificial Life Forms",
+            "Terrifying Conquerors",
+            "Target: Goku",
+            "Revenge",
+            "Corroded Body and Mind",
+            "Accelerated Battle"
+        ],
         "roles": [
             "HEALER"
         ]
@@ -16862,7 +24068,14 @@ const dokkanCharacters = [
             8,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Joined Forces",
+            "Terrifying Conquerors",
+            "Target: Goku",
+            "Special Pose",
+            "Space-Traveling Warriors",
+            "Mission Execution"
+        ],
         "roles": []
     },
     {
@@ -16886,7 +24099,19 @@ const dokkanCharacters = [
             109,
             125
         ],
-        "categories": [],
+        "categories": [
+            "Resurrected Warriors",
+            "Movie Bosses",
+            "Wicked Bloodline",
+            "Artificial Life Forms",
+            "Terrifying Conquerors",
+            "Target: Goku",
+            "Revenge",
+            "Power Absorption",
+            "Corroded Body and Mind",
+            "Powerful Comeback",
+            "Accelerated Battle"
+        ],
         "roles": [
             "HEALER"
         ]
@@ -16912,7 +24137,15 @@ const dokkanCharacters = [
             109,
             125
         ],
-        "categories": [],
+        "categories": [
+            "Pure Saiyans",
+            "Full Power",
+            "Joined Forces",
+            "Movie Heroes",
+            "Super Saiyans",
+            "All-Out Struggle",
+            "Powerful Comeback"
+        ],
         "roles": [
             "TANK",
             "DPS / NUKER"
@@ -16939,7 +24172,12 @@ const dokkanCharacters = [
             2,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Joined Forces",
+            "Movie Heroes",
+            "Battle of Wits",
+            "Earth-Bred Fighters"
+        ],
         "roles": [
             "DPS / NUKER"
         ]
@@ -16965,7 +24203,15 @@ const dokkanCharacters = [
             119,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Movie Bosses",
+            "Transformation Boost",
+            "Wicked Bloodline",
+            "Terrifying Conquerors",
+            "Target: Goku",
+            "Space-Traveling Warriors",
+            "Planetary Destruction"
+        ],
         "roles": [
             "SUPPORT"
         ]
@@ -16991,7 +24237,17 @@ const dokkanCharacters = [
             85,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Resurrected Warriors",
+            "Movie Bosses",
+            "Wicked Bloodline",
+            "Artificial Life Forms",
+            "Terrifying Conquerors",
+            "Target: Goku",
+            "Revenge",
+            "Corroded Body and Mind",
+            "Accelerated Battle"
+        ],
         "roles": [
             "SUPPORT",
             "DPS / NUKER"
@@ -17018,7 +24274,18 @@ const dokkanCharacters = [
             56,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Hybrid Saiyans",
+            "Movie Heroes",
+            "Goku's Family",
+            "Youth",
+            "Bond of Master and Disciple",
+            "Powerful Comeback",
+            "Bond of Friendship",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters",
+            "Demonic Power"
+        ],
         "roles": []
     },
     {
@@ -17042,7 +24309,17 @@ const dokkanCharacters = [
             97,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Pure Saiyans",
+            "Movie Heroes",
+            "Vegeta's Family",
+            "Super Saiyans",
+            "Worthy Rivals",
+            "Powerful Comeback",
+            "Gifted Warriors",
+            "Mastered Evolution",
+            "Successors"
+        ],
         "roles": []
     },
     {
@@ -17066,7 +24343,18 @@ const dokkanCharacters = [
             56,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Namekians",
+            "Movie Heroes",
+            "Worthy Rivals",
+            "Bond of Master and Disciple",
+            "Battle of Wits",
+            "Gifted Warriors",
+            "Fused Fighters",
+            "Earth-Bred Fighters",
+            "Demonic Power",
+            "Successors"
+        ],
         "roles": []
     },
     {
@@ -17090,7 +24378,19 @@ const dokkanCharacters = [
             123,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Resurrected Warriors",
+            "Giant Form",
+            "Movie Bosses",
+            "Wicked Bloodline",
+            "Artificial Life Forms",
+            "Terrifying Conquerors",
+            "Target: Goku",
+            "Revenge",
+            "Power Absorption",
+            "Corroded Body and Mind",
+            "Accelerated Battle"
+        ],
         "roles": [
             "HEALER"
         ]
@@ -17116,7 +24416,21 @@ const dokkanCharacters = [
             109,
             125
         ],
-        "categories": [],
+        "categories": [
+            "Planet Namek Saga",
+            "Full Power",
+            "Transformation Boost",
+            "Wicked Bloodline",
+            "Terrifying Conquerors",
+            "Final Trump Card",
+            "Inhuman Deeds",
+            "Space-Traveling Warriors",
+            "Gifted Warriors",
+            "Planetary Destruction",
+            "Sworn Enemies",
+            "Battle of Fate",
+            "Successors"
+        ],
         "roles": [
             "DPS / NUKER"
         ]
@@ -17142,7 +24456,28 @@ const dokkanCharacters = [
             97,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Planet Namek Saga",
+            "Pure Saiyans",
+            "Transformation Boost",
+            "Goku's Family",
+            "Super Saiyans",
+            "Kamehameha",
+            "Final Trump Card",
+            "Exploding Rage",
+            "Saviors",
+            "Connected Hope",
+            "Turtle School",
+            "Miraculous Awakening",
+            "Powerful Comeback",
+            "Legendary Existence",
+            "Bond of Friendship",
+            "Entrusted Will",
+            "Battle of Fate",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters",
+            "Power of Wishes"
+        ],
         "roles": []
     },
     {
@@ -17166,7 +24501,16 @@ const dokkanCharacters = [
             59,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Movie Bosses",
+            "Transformation Boost",
+            "Wicked Bloodline",
+            "Terrifying Conquerors",
+            "Target: Goku",
+            "Final Trump Card",
+            "Space-Traveling Warriors",
+            "Planetary Destruction"
+        ],
         "roles": []
     },
     {
@@ -17190,7 +24534,22 @@ const dokkanCharacters = [
             109,
             125
         ],
-        "categories": [],
+        "categories": [
+            "Pure Saiyans",
+            "Full Power",
+            "Movie Heroes",
+            "Goku's Family",
+            "Super Saiyans",
+            "Kamehameha",
+            "Exploding Rage",
+            "Turtle School",
+            "Powerful Comeback",
+            "Bond of Friendship",
+            "Accelerated Battle",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters",
+            "Earth-Protecting Heroes"
+        ],
         "roles": [
             "TANK",
             "DPS / NUKER"
@@ -17217,7 +24576,16 @@ const dokkanCharacters = [
             109,
             125
         ],
-        "categories": [],
+        "categories": [
+            "Movie Bosses",
+            "Transformation Boost",
+            "Wicked Bloodline",
+            "Terrifying Conquerors",
+            "Target: Goku",
+            "Final Trump Card",
+            "Space-Traveling Warriors",
+            "Planetary Destruction"
+        ],
         "roles": []
     },
     {
@@ -17241,7 +24609,19 @@ const dokkanCharacters = [
             56,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Namekians",
+            "Movie Heroes",
+            "Worthy Rivals",
+            "Bond of Master and Disciple",
+            "Battle of Wits",
+            "Connected Hope",
+            "Gifted Warriors",
+            "Fused Fighters",
+            "Earth-Bred Fighters",
+            "Demonic Power",
+            "Successors"
+        ],
         "roles": [
             "TANK",
             "SUPPORT",
@@ -17269,7 +24649,16 @@ const dokkanCharacters = [
             118,
             125
         ],
-        "categories": [],
+        "categories": [
+            "Pure Saiyans",
+            "Vegeta's Family",
+            "Super Saiyans",
+            "Androids/Cell Saga",
+            "Battle of Wits",
+            "Gifted Warriors",
+            "Mastered Evolution",
+            "Successors"
+        ],
         "roles": []
     },
     {
@@ -17293,7 +24682,15 @@ const dokkanCharacters = [
             50,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Low-Class Warrior",
+            "Movie Bosses",
+            "Pure Saiyans",
+            "Terrifying Conquerors",
+            "Final Trump Card",
+            "Space-Traveling Warriors",
+            "Planetary Destruction"
+        ],
         "roles": [
             "SUPPORT"
         ]
@@ -17319,7 +24716,16 @@ const dokkanCharacters = [
             89,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Fusion",
+            "Hybrid Saiyans",
+            "Youth",
+            "Special Pose",
+            "Gifted Warriors",
+            "Time Limit",
+            "Fused Fighters",
+            "Earth-Bred Fighters"
+        ],
         "roles": []
     },
     {
@@ -17343,7 +24749,12 @@ const dokkanCharacters = [
             39,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Pure Saiyans",
+            "Vegeta's Family",
+            "Siblings' Bond",
+            "Space-Traveling Warriors"
+        ],
         "roles": [
             "SUPPORT",
             "DPS / NUKER"
@@ -17370,7 +24781,15 @@ const dokkanCharacters = [
             119,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Low-Class Warrior",
+            "Pure Saiyans",
+            "Goku's Family",
+            "Terrifying Conquerors",
+            "Space-Traveling Warriors",
+            "Saiyan Saga",
+            "Mission Execution"
+        ],
         "roles": [
             "DPS / NUKER"
         ]
@@ -17396,7 +24815,13 @@ const dokkanCharacters = [
             60,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Pure Saiyans",
+            "Terrifying Conquerors",
+            "Space-Traveling Warriors",
+            "Saiyan Saga",
+            "Mission Execution"
+        ],
         "roles": [
             "SUPPORT"
         ]
@@ -17422,7 +24847,22 @@ const dokkanCharacters = [
             109,
             125
         ],
-        "categories": [],
+        "categories": [
+            "Shadow Dragon Saga",
+            "Pure Saiyans",
+            "Goku's Family",
+            "Kamehameha",
+            "Giant Ape Power",
+            "Turtle School",
+            "GT Heroes",
+            "Bond of Friendship",
+            "Accelerated Battle",
+            "Battle of Fate",
+            "Power Beyond Super Saiyan",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters",
+            "Earth-Protecting Heroes"
+        ],
         "roles": []
     },
     {
@@ -17446,7 +24886,22 @@ const dokkanCharacters = [
             109,
             125
         ],
-        "categories": [],
+        "categories": [
+            "Shadow Dragon Saga",
+            "Pure Saiyans",
+            "Vegeta's Family",
+            "Worthy Rivals",
+            "Saviors",
+            "Giant Ape Power",
+            "Miraculous Awakening",
+            "Gifted Warriors",
+            "GT Heroes",
+            "Battle of Fate",
+            "Power Beyond Super Saiyan",
+            "Bond of Parent and Child",
+            "Earth-Protecting Heroes",
+            "Successors"
+        ],
         "roles": []
     },
     {
@@ -17470,7 +24925,27 @@ const dokkanCharacters = [
             95,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Shadow Dragon Saga",
+            "Pure Saiyans",
+            "Full Power",
+            "Goku's Family",
+            "Final Trump Card",
+            "All-Out Struggle",
+            "Giant Ape Power",
+            "Connected Hope",
+            "Turtle School",
+            "Miraculous Awakening",
+            "GT Heroes",
+            "Bond of Friendship",
+            "Accelerated Battle",
+            "Entrusted Will",
+            "Power Beyond Super Saiyan",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters",
+            "Power of Wishes",
+            "Earth-Protecting Heroes"
+        ],
         "roles": []
     },
     {
@@ -17494,7 +24969,19 @@ const dokkanCharacters = [
             109,
             125
         ],
-        "categories": [],
+        "categories": [
+            "Majin Buu Saga",
+            "Potara",
+            "Pure Saiyans",
+            "Joined Forces",
+            "Super Saiyans",
+            "Kamehameha",
+            "Final Trump Card",
+            "Battle of Wits",
+            "Accelerated Battle",
+            "Fused Fighters",
+            "Bond of Parent and Child"
+        ],
         "roles": []
     },
     {
@@ -17518,7 +25005,22 @@ const dokkanCharacters = [
             109,
             125
         ],
-        "categories": [],
+        "categories": [
+            "Fusion",
+            "Pure Saiyans",
+            "Joined Forces",
+            "Movie Heroes",
+            "Super Saiyans",
+            "Kamehameha",
+            "Otherworld Warriors",
+            "Final Trump Card",
+            "Connected Hope",
+            "Powerful Comeback",
+            "Time Limit",
+            "Fused Fighters",
+            "Bond of Parent and Child",
+            "Earth-Protecting Heroes"
+        ],
         "roles": []
     },
     {
@@ -17542,7 +25044,13 @@ const dokkanCharacters = [
             118,
             125
         ],
-        "categories": [],
+        "categories": [
+            "Hybrid Saiyans",
+            "Majin Buu Saga",
+            "Joined Forces",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters"
+        ],
         "roles": []
     },
     {
@@ -17566,7 +25074,12 @@ const dokkanCharacters = [
             2,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Joined Forces",
+            "Goku's Family",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters"
+        ],
         "roles": []
     },
     {
@@ -17590,7 +25103,12 @@ const dokkanCharacters = [
             37,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Joined Forces",
+            "Vegeta's Family",
+            "Bond of Parent and Child",
+            "Super Heroes"
+        ],
         "roles": [
             "TANK"
         ]
@@ -17616,7 +25134,20 @@ const dokkanCharacters = [
             70,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Realm of Gods",
+            "Pure Saiyans",
+            "Movie Heroes",
+            "Goku's Family",
+            "Turtle School",
+            "Legendary Existence",
+            "Bond of Friendship",
+            "Accelerated Battle",
+            "Power Beyond Super Saiyan",
+            "Bond of Parent and Child",
+            "Super Heroes",
+            "Earth-Bred Fighters"
+        ],
         "roles": [
             "TANK",
             "DPS / NUKER"
@@ -17643,7 +25174,14 @@ const dokkanCharacters = [
             127,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Shadow Dragon Saga",
+            "Full Power",
+            "Inhuman Deeds",
+            "Power Absorption",
+            "GT Bosses",
+            "Battle of Fate"
+        ],
         "roles": []
     },
     {
@@ -17667,7 +25205,20 @@ const dokkanCharacters = [
             95,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Fusion",
+            "Shadow Dragon Saga",
+            "Kamehameha",
+            "Final Trump Card",
+            "Giant Ape Power",
+            "GT Heroes",
+            "Time Limit",
+            "Accelerated Battle",
+            "Battle of Fate",
+            "Power Beyond Super Saiyan",
+            "Fused Fighters",
+            "Earth-Protecting Heroes"
+        ],
         "roles": []
     },
     {
@@ -17691,7 +25242,20 @@ const dokkanCharacters = [
             70,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Realm of Gods",
+            "Pure Saiyans",
+            "Movie Heroes",
+            "Vegeta's Family",
+            "Siblings' Bond",
+            "Worthy Rivals",
+            "Bond of Master and Disciple",
+            "Gifted Warriors",
+            "Power Beyond Super Saiyan",
+            "Bond of Parent and Child",
+            "Super Heroes",
+            "Successors"
+        ],
         "roles": [
             "TANK"
         ]
@@ -17716,7 +25280,12 @@ const dokkanCharacters = [
             60,
             97
         ],
-        "categories": [],
+        "categories": [
+            "Pure Saiyans",
+            "Joined Forces",
+            "Kamehameha",
+            "Bond of Parent and Child"
+        ],
         "roles": [
             "DPS / NUKER"
         ]
@@ -17766,7 +25335,18 @@ const dokkanCharacters = [
             4,
             60
         ],
-        "categories": [],
+        "categories": [
+            "World Tournament",
+            "Hybrid Saiyans",
+            "Majin Buu Saga",
+            "Goku's Family",
+            "Siblings' Bond",
+            "Kamehameha",
+            "Bond of Friendship",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters",
+            "Tournament Participants"
+        ],
         "roles": [
             "DPS / NUKER"
         ]
@@ -17817,7 +25397,16 @@ const dokkanCharacters = [
             109,
             125
         ],
-        "categories": [],
+        "categories": [
+            "Joined Forces",
+            "Final Trump Card",
+            "All-Out Struggle",
+            "Battle of Wits",
+            "Connected Hope",
+            "Saiyan Saga",
+            "Earth-Bred Fighters",
+            "Earth-Protecting Heroes"
+        ],
         "roles": [
             "TANK"
         ]
@@ -17843,7 +25432,16 @@ const dokkanCharacters = [
             97,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Low-Class Warrior",
+            "Pure Saiyans",
+            "Goku's Family",
+            "Team Bardock",
+            "Space-Traveling Warriors",
+            "Storied Figures",
+            "Entrusted Will",
+            "Mission Execution"
+        ],
         "roles": [
             "TANK"
         ]
@@ -17869,7 +25467,16 @@ const dokkanCharacters = [
             122,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Androids",
+            "Artificial Life Forms",
+            "Androids/Cell Saga",
+            "Target: Goku",
+            "Saviors",
+            "Connected Hope",
+            "Uncontrollable Power",
+            "Mission Execution"
+        ],
         "roles": [
             "TANK"
         ]
@@ -17895,7 +25502,14 @@ const dokkanCharacters = [
             97,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Low-Class Warrior",
+            "Pure Saiyans",
+            "Team Bardock",
+            "Space-Traveling Warriors",
+            "Storied Figures",
+            "Mission Execution"
+        ],
         "roles": [
             "HEALER",
             "SUPPORT"
@@ -17922,7 +25536,14 @@ const dokkanCharacters = [
             97,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Low-Class Warrior",
+            "Pure Saiyans",
+            "Team Bardock",
+            "Space-Traveling Warriors",
+            "Storied Figures",
+            "Mission Execution"
+        ],
         "roles": [
             "DPS / NUKER"
         ]
@@ -17948,7 +25569,16 @@ const dokkanCharacters = [
             60,
             125
         ],
-        "categories": [],
+        "categories": [
+            "Planet Namek Saga",
+            "Ginyu Force",
+            "Dragon Ball Seekers",
+            "Joined Forces",
+            "Terrifying Conquerors",
+            "Special Pose",
+            "Space-Traveling Warriors",
+            "Mission Execution"
+        ],
         "roles": [
             "SUPPORT"
         ]
@@ -17974,7 +25604,15 @@ const dokkanCharacters = [
             97,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Peppy Gals",
+            "Low-Class Warrior",
+            "Pure Saiyans",
+            "Team Bardock",
+            "Space-Traveling Warriors",
+            "Storied Figures",
+            "Mission Execution"
+        ],
         "roles": [
             "DPS / NUKER"
         ]
@@ -18000,7 +25638,14 @@ const dokkanCharacters = [
             97,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Low-Class Warrior",
+            "Pure Saiyans",
+            "Team Bardock",
+            "Space-Traveling Warriors",
+            "Storied Figures",
+            "Mission Execution"
+        ],
         "roles": []
     },
     {
@@ -18024,7 +25669,16 @@ const dokkanCharacters = [
             109,
             125
         ],
-        "categories": [],
+        "categories": [
+            "Androids",
+            "Transformation Boost",
+            "Time Travelers",
+            "Joined Forces",
+            "Artificial Life Forms",
+            "Androids/Cell Saga",
+            "Worldwide Chaos",
+            "Tournament Participants"
+        ],
         "roles": []
     },
     {
@@ -18048,7 +25702,17 @@ const dokkanCharacters = [
             109,
             125
         ],
-        "categories": [],
+        "categories": [
+            "Joined Forces",
+            "Goku's Family",
+            "Super Saiyans",
+            "Androids/Cell Saga",
+            "Kamehameha",
+            "Bond of Master and Disciple",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters",
+            "Tournament Participants"
+        ],
         "roles": [
             "DPS / NUKER"
         ]
@@ -18074,7 +25738,19 @@ const dokkanCharacters = [
             122,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Hybrid Saiyans",
+            "Future Saga",
+            "Time Travelers",
+            "Vegeta's Family",
+            "Androids/Cell Saga",
+            "Bond of Master and Disciple",
+            "Saviors",
+            "Battle of Wits",
+            "Entrusted Will",
+            "Earth-Bred Fighters",
+            "Earth-Protecting Heroes"
+        ],
         "roles": [
             "SUPPORT"
         ]
@@ -18100,7 +25776,22 @@ const dokkanCharacters = [
             1003,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Fusion",
+            "Hybrid Saiyans",
+            "Majin Buu Saga",
+            "Goku's Family",
+            "Youth",
+            "Siblings' Bond",
+            "Gifted Warriors",
+            "Heavenly Events",
+            "Time Limit",
+            "Bond of Friendship",
+            "Entrusted Will",
+            "Fused Fighters",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters"
+        ],
         "roles": [
             "SUPPORT"
         ]
@@ -18126,7 +25817,21 @@ const dokkanCharacters = [
             1003,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Hybrid Saiyans",
+            "Majin Buu Saga",
+            "Goku's Family",
+            "Siblings' Bond",
+            "Revenge",
+            "Rapid Growth",
+            "Saviors",
+            "Powerful Comeback",
+            "Entrusted Will",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters",
+            "Power of Wishes",
+            "Demonic Power"
+        ],
         "roles": [
             "SUPPORT"
         ]
@@ -18152,7 +25857,21 @@ const dokkanCharacters = [
             1003,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Resurrected Warriors",
+            "Majin Buu Saga",
+            "Pure Saiyans",
+            "Goku's Family",
+            "Kamehameha",
+            "Otherworld Warriors",
+            "Turtle School",
+            "Heavenly Events",
+            "Time Limit",
+            "Bond of Friendship",
+            "Accelerated Battle",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters"
+        ],
         "roles": [
             "SUPPORT"
         ]
@@ -18178,7 +25897,21 @@ const dokkanCharacters = [
             103,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Hybrid Saiyans",
+            "Majin Buu Saga",
+            "Goku's Family",
+            "Siblings' Bond",
+            "Revenge",
+            "Rapid Growth",
+            "Saviors",
+            "Powerful Comeback",
+            "Entrusted Will",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters",
+            "Power of Wishes",
+            "Demonic Power"
+        ],
         "roles": [
             "TANK",
             "SUPPORT"
@@ -18205,7 +25938,18 @@ const dokkanCharacters = [
             97,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Pure Saiyans",
+            "Vegeta's Family",
+            "Super Saiyans",
+            "Worthy Rivals",
+            "Androids/Cell Saga",
+            "Gifted Warriors",
+            "Mastered Evolution",
+            "Bond of Parent and Child",
+            "Tournament Participants",
+            "Successors"
+        ],
         "roles": []
     },
     {
@@ -18229,7 +25973,14 @@ const dokkanCharacters = [
             1001,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Androids",
+            "Joined Forces",
+            "Androids/Cell Saga",
+            "Target: Goku",
+            "Uncontrollable Power",
+            "Mission Execution"
+        ],
         "roles": [
             "TANK",
             "SUPPORT"
@@ -18256,7 +26007,12 @@ const dokkanCharacters = [
             29,
             122
         ],
-        "categories": [],
+        "categories": [
+            "World Tournament",
+            "Majin Buu Saga",
+            "Earth-Bred Fighters",
+            "Tournament Participants"
+        ],
         "roles": []
     },
     {
@@ -18280,7 +26036,21 @@ const dokkanCharacters = [
             1003,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Majin Buu Saga",
+            "Pure Saiyans",
+            "Goku's Family",
+            "Final Trump Card",
+            "Connected Hope",
+            "Turtle School",
+            "Bond of Friendship",
+            "Accelerated Battle",
+            "Battle of Fate",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters",
+            "Power of Wishes",
+            "Earth-Protecting Heroes"
+        ],
         "roles": [
             "HEALER"
         ]
@@ -18306,7 +26076,18 @@ const dokkanCharacters = [
             1003,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Majin Buu Saga",
+            "Pure Saiyans",
+            "Vegeta's Family",
+            "Worthy Rivals",
+            "All-Out Struggle",
+            "Connected Hope",
+            "Gifted Warriors",
+            "Battle of Fate",
+            "Bond of Parent and Child",
+            "Successors"
+        ],
         "roles": [
             "HEALER"
         ]
@@ -18332,7 +26113,18 @@ const dokkanCharacters = [
             1004,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Majin Buu Saga",
+            "Transformation Boost",
+            "Artificial Life Forms",
+            "Majin Power",
+            "Power Absorption",
+            "Heavenly Events",
+            "Sworn Enemies",
+            "Worldwide Chaos",
+            "Demonic Power",
+            "Uncontrollable Power"
+        ],
         "roles": [
             "HEALER"
         ]
@@ -18357,7 +26149,13 @@ const dokkanCharacters = [
             112,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Majin Buu Saga",
+            "Potara",
+            "Final Trump Card",
+            "Battle of Wits",
+            "Fused Fighters"
+        ],
         "roles": []
     },
     {
@@ -18381,7 +26179,13 @@ const dokkanCharacters = [
             1003,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Majin Buu Saga",
+            "Potara",
+            "Final Trump Card",
+            "Battle of Wits",
+            "Fused Fighters"
+        ],
         "roles": [
             "SUPPORT"
         ]
@@ -18407,7 +26211,11 @@ const dokkanCharacters = [
             1003,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Realm of Gods",
+            "Majin Buu Saga",
+            "Potara"
+        ],
         "roles": []
     },
     {
@@ -18430,7 +26238,13 @@ const dokkanCharacters = [
             1003,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Majin Buu Saga",
+            "Joined Forces",
+            "Defenders of Justice",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters"
+        ],
         "roles": []
     },
     {
@@ -18454,7 +26268,16 @@ const dokkanCharacters = [
             2,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Peppy Gals",
+            "Majin Buu Saga",
+            "Movie Heroes",
+            "Earthlings",
+            "Special Pose",
+            "Defenders of Justice",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters"
+        ],
         "roles": [
             "SUPPORT"
         ]
@@ -18480,7 +26303,28 @@ const dokkanCharacters = [
             130,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Universe Survival Saga",
+            "Realm of Gods",
+            "Pure Saiyans",
+            "Full Power",
+            "Representatives of Universe 7",
+            "Transformation Boost",
+            "Vegeta's Family",
+            "Siblings' Bond",
+            "Worthy Rivals",
+            "Bond of Master and Disciple",
+            "All-Out Struggle",
+            "Miraculous Awakening",
+            "Powerful Comeback",
+            "Gifted Warriors",
+            "Mastered Evolution",
+            "Power Beyond Super Saiyan",
+            "Bond of Parent and Child",
+            "Super Heroes",
+            "Tournament Participants",
+            "Successors"
+        ],
         "roles": []
     },
     {
@@ -18504,7 +26348,16 @@ const dokkanCharacters = [
             118,
             125
         ],
-        "categories": [],
+        "categories": [
+            "World Tournament",
+            "Hybrid Saiyans",
+            "Joined Forces",
+            "Youth",
+            "Super Saiyans",
+            "GT Heroes",
+            "Earth-Bred Fighters",
+            "Tournament Participants"
+        ],
         "roles": [
             "SUPPORT"
         ]
@@ -18530,7 +26383,22 @@ const dokkanCharacters = [
             1003,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Resurrected Warriors",
+            "Majin Buu Saga",
+            "Pure Saiyans",
+            "Vegeta's Family",
+            "Worthy Rivals",
+            "Super Saiyan 2",
+            "Final Trump Card",
+            "All-Out Struggle",
+            "Connected Hope",
+            "Corroded Body and Mind",
+            "Gifted Warriors",
+            "Power Beyond Super Saiyan",
+            "Bond of Parent and Child",
+            "Uncontrollable Power"
+        ],
         "roles": [
             "TANK",
             "DPS / NUKER"
@@ -18557,7 +26425,17 @@ const dokkanCharacters = [
             60,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Hybrid Saiyans",
+            "Majin Buu Saga",
+            "Joined Forces",
+            "Youth",
+            "Super Saiyans",
+            "Gifted Warriors",
+            "Bond of Friendship",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters"
+        ],
         "roles": [
             "DPS / NUKER"
         ]
@@ -18582,7 +26460,16 @@ const dokkanCharacters = [
             115,
             119
         ],
-        "categories": [],
+        "categories": [
+            "Transformation Boost",
+            "Artificial Life Forms",
+            "Terrifying Conquerors",
+            "Target: Goku",
+            "Revenge",
+            "Inhuman Deeds",
+            "Space-Traveling Warriors",
+            "GT Bosses"
+        ],
         "roles": [
             "HEALER"
         ]
@@ -18633,7 +26520,21 @@ const dokkanCharacters = [
             118,
             125
         ],
-        "categories": [],
+        "categories": [
+            "Hybrid Saiyans",
+            "Future Saga",
+            "Time Travelers",
+            "Vegeta's Family",
+            "Super Saiyans",
+            "Androids/Cell Saga",
+            "Bond of Master and Disciple",
+            "Revenge",
+            "Battle of Wits",
+            "Entrusted Will",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters",
+            "Earth-Protecting Heroes"
+        ],
         "roles": []
     },
     {
@@ -18657,7 +26558,13 @@ const dokkanCharacters = [
             119,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Movie Bosses",
+            "Androids",
+            "Artificial Life Forms",
+            "Target: Goku",
+            "Mission Execution"
+        ],
         "roles": [
             "TANK"
         ]
@@ -18683,7 +26590,13 @@ const dokkanCharacters = [
             119,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Androids",
+            "Joined Forces",
+            "Artificial Life Forms",
+            "Target: Goku",
+            "Mission Execution"
+        ],
         "roles": [
             "TANK",
             "SUPPORT"
@@ -18710,7 +26623,17 @@ const dokkanCharacters = [
             60,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Pure Saiyans",
+            "Goku's Family",
+            "Super Saiyans",
+            "Androids/Cell Saga",
+            "Turtle School",
+            "Bond of Friendship",
+            "Accelerated Battle",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters"
+        ],
         "roles": [
             "TANK",
             "DPS / NUKER"
@@ -18737,7 +26660,20 @@ const dokkanCharacters = [
             97,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Hybrid Saiyans",
+            "Future Saga",
+            "Time Travelers",
+            "Vegeta's Family",
+            "Super Saiyans",
+            "Bond of Master and Disciple",
+            "Revenge",
+            "Battle of Wits",
+            "Entrusted Will",
+            "Bond of Parent and Child",
+            "Super Heroes",
+            "Earth-Bred Fighters"
+        ],
         "roles": []
     },
     {
@@ -18761,7 +26697,18 @@ const dokkanCharacters = [
             120,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Realm of Gods",
+            "Potara",
+            "Future Saga",
+            "Dragon Ball Seekers",
+            "Time Travelers",
+            "Gifted Warriors",
+            "Worldwide Chaos",
+            "Power of Wishes",
+            "Super Bosses",
+            "Successors"
+        ],
         "roles": [
             "HEALER"
         ]
@@ -18787,7 +26734,14 @@ const dokkanCharacters = [
             66,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Future Saga",
+            "Androids",
+            "Siblings' Bond",
+            "Androids/Cell Saga",
+            "Worldwide Chaos",
+            "Uncontrollable Power"
+        ],
         "roles": [
             "DPS / NUKER"
         ]
@@ -18813,7 +26767,15 @@ const dokkanCharacters = [
             66,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Peppy Gals",
+            "Future Saga",
+            "Androids",
+            "Siblings' Bond",
+            "Androids/Cell Saga",
+            "Worldwide Chaos",
+            "Uncontrollable Power"
+        ],
         "roles": []
     },
     {
@@ -18836,7 +26798,14 @@ const dokkanCharacters = [
             112,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Fusion",
+            "Earthlings",
+            "Crossover",
+            "Time Limit",
+            "Fused Fighters",
+            "Earth-Bred Fighters"
+        ],
         "roles": []
     },
     {
@@ -18860,7 +26829,14 @@ const dokkanCharacters = [
             28,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Fusion",
+            "Transformation Boost",
+            "Wicked Bloodline",
+            "Terrifying Conquerors",
+            "Crossover",
+            "Fused Fighters"
+        ],
         "roles": [
             "DPS / NUKER"
         ]
@@ -18886,7 +26862,12 @@ const dokkanCharacters = [
             89,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Fusion",
+            "Final Trump Card",
+            "Crossover",
+            "Fused Fighters"
+        ],
         "roles": []
     },
     {
@@ -18910,7 +26891,14 @@ const dokkanCharacters = [
             60,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Fusion",
+            "Transformation Boost",
+            "Majin Power",
+            "Crossover",
+            "Fused Fighters",
+            "Uncontrollable Power"
+        ],
         "roles": []
     },
     {
@@ -18933,7 +26921,15 @@ const dokkanCharacters = [
             42,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Dragon Ball Seekers",
+            "Youth",
+            "Kamehameha",
+            "Earthlings",
+            "Crossover",
+            "Earth-Bred Fighters",
+            "Tournament Participants"
+        ],
         "roles": [
             "SUPPORT"
         ]
@@ -18958,7 +26954,12 @@ const dokkanCharacters = [
             52,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Dragon Ball Seekers",
+            "Youth",
+            "Crossover",
+            "Tournament Participants"
+        ],
         "roles": []
     },
     {
@@ -18982,7 +26983,12 @@ const dokkanCharacters = [
             112,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Fusion",
+            "Realm of Gods",
+            "Crossover",
+            "Fused Fighters"
+        ],
         "roles": [
             "DPS / NUKER"
         ]
@@ -19008,7 +27014,12 @@ const dokkanCharacters = [
             112,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Fusion",
+            "Transformation Boost",
+            "Crossover",
+            "Fused Fighters"
+        ],
         "roles": [
             "HEALER"
         ]
@@ -19034,7 +27045,19 @@ const dokkanCharacters = [
             66,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Hybrid Saiyans",
+            "Future Saga",
+            "Goku's Family",
+            "Super Saiyans",
+            "Androids/Cell Saga",
+            "Bond of Master and Disciple",
+            "All-Out Struggle",
+            "Connected Hope",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters",
+            "Demonic Power"
+        ],
         "roles": [
             "TANK"
         ]
@@ -19059,7 +27082,11 @@ const dokkanCharacters = [
             112,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Fusion",
+            "Crossover",
+            "Fused Fighters"
+        ],
         "roles": []
     },
     {
@@ -19082,7 +27109,14 @@ const dokkanCharacters = [
             112,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Fusion",
+            "Peppy Gals",
+            "Hybrid Saiyans",
+            "Crossover",
+            "Fused Fighters",
+            "Earth-Bred Fighters"
+        ],
         "roles": [
             "SUPPORT"
         ]
@@ -19108,7 +27142,11 @@ const dokkanCharacters = [
             30,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Fusion",
+            "Crossover",
+            "Fused Fighters"
+        ],
         "roles": []
     },
     {
@@ -19132,7 +27170,15 @@ const dokkanCharacters = [
             34,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Fusion",
+            "Peppy Gals",
+            "Hybrid Saiyans",
+            "Youth",
+            "Crossover",
+            "Fused Fighters",
+            "Earth-Bred Fighters"
+        ],
         "roles": [
             "SUPPORT"
         ]
@@ -19158,7 +27204,14 @@ const dokkanCharacters = [
             110,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Androids",
+            "Siblings' Bond",
+            "Target: Goku",
+            "Corroded Body and Mind",
+            "Uncontrollable Power",
+            "Mission Execution"
+        ],
         "roles": [
             "SUPPORT"
         ]
@@ -19184,7 +27237,12 @@ const dokkanCharacters = [
             95,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Androids",
+            "Artificial Life Forms",
+            "Target: Goku",
+            "Mission Execution"
+        ],
         "roles": []
     },
     {
@@ -19208,7 +27266,15 @@ const dokkanCharacters = [
             60,
             125
         ],
-        "categories": [],
+        "categories": [
+            "Androids",
+            "Joined Forces",
+            "Siblings' Bond",
+            "Androids/Cell Saga",
+            "Target: Goku",
+            "Uncontrollable Power",
+            "Mission Execution"
+        ],
         "roles": []
     },
     {
@@ -19232,7 +27298,24 @@ const dokkanCharacters = [
             1001,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Hybrid Saiyans",
+            "Future Saga",
+            "Full Power",
+            "Time Travelers",
+            "Vegeta's Family",
+            "Super Saiyans",
+            "Androids/Cell Saga",
+            "Bond of Master and Disciple",
+            "Rapid Growth",
+            "Saviors",
+            "Connected Hope",
+            "Heavenly Events",
+            "Mastered Evolution",
+            "Entrusted Will",
+            "Power Beyond Super Saiyan",
+            "Earth-Bred Fighters"
+        ],
         "roles": []
     },
     {
@@ -19256,7 +27339,24 @@ const dokkanCharacters = [
             1001,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Hybrid Saiyans",
+            "Future Saga",
+            "Full Power",
+            "Time Travelers",
+            "Vegeta's Family",
+            "Super Saiyans",
+            "Androids/Cell Saga",
+            "Bond of Master and Disciple",
+            "Rapid Growth",
+            "Saviors",
+            "Connected Hope",
+            "Heavenly Events",
+            "Mastered Evolution",
+            "Entrusted Will",
+            "Power Beyond Super Saiyan",
+            "Earth-Bred Fighters"
+        ],
         "roles": []
     },
     {
@@ -19279,7 +27379,16 @@ const dokkanCharacters = [
             110,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Peppy Gals",
+            "Androids",
+            "Siblings' Bond",
+            "Androids/Cell Saga",
+            "Target: Goku",
+            "Battle of Wits",
+            "Uncontrollable Power",
+            "Mission Execution"
+        ],
         "roles": []
     },
     {
@@ -19302,7 +27411,14 @@ const dokkanCharacters = [
             64,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Peppy Gals",
+            "Majin Buu Saga",
+            "Earthlings",
+            "Defenders of Justice",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters"
+        ],
         "roles": [
             "HEALER"
         ]
@@ -19328,7 +27444,18 @@ const dokkanCharacters = [
             47,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Hybrid Saiyans",
+            "Dragon Ball Seekers",
+            "Goku's Family",
+            "Youth",
+            "Kamehameha",
+            "Space-Traveling Warriors",
+            "GT Heroes",
+            "Bond of Friendship",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters"
+        ],
         "roles": []
     },
     {
@@ -19352,7 +27479,14 @@ const dokkanCharacters = [
             114,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Peppy Gals",
+            "Dragon Ball Seekers",
+            "Youth",
+            "DB Saga",
+            "Earthlings",
+            "Earth-Bred Fighters"
+        ],
         "roles": [
             "HEALER"
         ]
@@ -19377,7 +27511,18 @@ const dokkanCharacters = [
             66,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Peppy Gals",
+            "Future Saga",
+            "Time Travelers",
+            "Revenge",
+            "Earthlings",
+            "Battle of Wits",
+            "Connected Hope",
+            "Super Heroes",
+            "Earth-Bred Fighters",
+            "Power of Wishes"
+        ],
         "roles": [
             "SUPPORT"
         ]
@@ -19403,7 +27548,18 @@ const dokkanCharacters = [
             18,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Androids",
+            "Transformation Boost",
+            "Time Travelers",
+            "Artificial Life Forms",
+            "Androids/Cell Saga",
+            "Target: Goku",
+            "Power Absorption",
+            "Sworn Enemies",
+            "Accelerated Battle",
+            "Worldwide Chaos"
+        ],
         "roles": [
             "TANK",
             "SUPPORT",
@@ -19431,7 +27587,18 @@ const dokkanCharacters = [
             60,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Pure Saiyans",
+            "Goku's Family",
+            "Super Saiyans",
+            "Androids/Cell Saga",
+            "Kamehameha",
+            "Turtle School",
+            "Bond of Friendship",
+            "Accelerated Battle",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters"
+        ],
         "roles": [
             "TANK"
         ]
@@ -19457,7 +27624,16 @@ const dokkanCharacters = [
             60,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Peppy Gals",
+            "Androids",
+            "Siblings' Bond",
+            "Androids/Cell Saga",
+            "Target: Goku",
+            "Battle of Wits",
+            "Uncontrollable Power",
+            "Mission Execution"
+        ],
         "roles": [
             "SUPPORT"
         ]
@@ -19482,7 +27658,12 @@ const dokkanCharacters = [
             58,
             60
         ],
-        "categories": [],
+        "categories": [
+            "Pure Saiyans",
+            "Terrifying Conquerors",
+            "Space-Traveling Warriors",
+            "Mission Execution"
+        ],
         "roles": [
             "TANK"
         ]
@@ -19533,7 +27714,22 @@ const dokkanCharacters = [
             130,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Peppy Gals",
+            "Universe Survival Saga",
+            "Potara",
+            "Full Power",
+            "Universe 6",
+            "Super Saiyan 2",
+            "Final Trump Card",
+            "Rapid Growth",
+            "Time Limit",
+            "Accelerated Battle",
+            "Power Beyond Super Saiyan",
+            "Fused Fighters",
+            "Tournament Participants",
+            "Super Bosses"
+        ],
         "roles": [
             "DPS / NUKER"
         ]
@@ -19559,7 +27755,13 @@ const dokkanCharacters = [
             37,
             125
         ],
-        "categories": [],
+        "categories": [
+            "Dragon Ball Seekers",
+            "Joined Forces",
+            "Youth",
+            "DB Saga",
+            "Earth-Bred Fighters"
+        ],
         "roles": []
     },
     {
@@ -19583,7 +27785,21 @@ const dokkanCharacters = [
             130,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Peppy Gals",
+            "Universe Survival Saga",
+            "Pure Saiyans",
+            "Full Power",
+            "Universe 6",
+            "Super Saiyan 2",
+            "Rapid Growth",
+            "Gifted Warriors",
+            "Mastered Evolution",
+            "Bond of Friendship",
+            "Power Beyond Super Saiyan",
+            "Tournament Participants",
+            "Super Bosses"
+        ],
         "roles": []
     },
     {
@@ -19607,7 +27823,20 @@ const dokkanCharacters = [
             130,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Peppy Gals",
+            "Universe Survival Saga",
+            "Pure Saiyans",
+            "Full Power",
+            "Universe 6",
+            "Super Saiyan 2",
+            "Rapid Growth",
+            "Miraculous Awakening",
+            "Bond of Friendship",
+            "Power Beyond Super Saiyan",
+            "Tournament Participants",
+            "Super Bosses"
+        ],
         "roles": [
             "SUPPORT"
         ]
@@ -19633,7 +27862,19 @@ const dokkanCharacters = [
             130,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Universe Survival Saga",
+            "Pure Saiyans",
+            "Full Power",
+            "Universe 6",
+            "Bond of Master and Disciple",
+            "Super Saiyan 2",
+            "Rapid Growth",
+            "Miraculous Awakening",
+            "Defenders of Justice",
+            "Power Beyond Super Saiyan",
+            "Tournament Participants"
+        ],
         "roles": [
             "DPS / NUKER"
         ]
@@ -19659,7 +27900,18 @@ const dokkanCharacters = [
             126,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Universe Survival Saga",
+            "Universe 6",
+            "Target: Goku",
+            "Rapid Growth",
+            "Space-Traveling Warriors",
+            "Legendary Existence",
+            "Accelerated Battle",
+            "Tournament Participants",
+            "Super Bosses",
+            "Mission Execution"
+        ],
         "roles": []
     },
     {
@@ -19683,7 +27935,15 @@ const dokkanCharacters = [
             29,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Universe Survival Saga",
+            "Pure Saiyans",
+            "Universe 6",
+            "Super Saiyans",
+            "Bond of Master and Disciple",
+            "Defenders of Justice",
+            "Tournament Participants"
+        ],
         "roles": [
             "SUPPORT"
         ]
@@ -19709,7 +27969,13 @@ const dokkanCharacters = [
             52,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Resurrected Warriors",
+            "Androids",
+            "Artificial Life Forms",
+            "Crossover",
+            "Mission Execution"
+        ],
         "roles": [
             "TANK"
         ]
@@ -19735,7 +28001,17 @@ const dokkanCharacters = [
             116,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Super Saiyan 3",
+            "Pure Saiyans",
+            "Vegeta's Family",
+            "Worthy Rivals",
+            "Crossover",
+            "Gifted Warriors",
+            "Power Beyond Super Saiyan",
+            "Bond of Parent and Child",
+            "Successors"
+        ],
         "roles": [
             "TANK",
             "DPS / NUKER"
@@ -19762,7 +28038,18 @@ const dokkanCharacters = [
             97,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Hybrid Saiyans",
+            "Time Travelers",
+            "Vegeta's Family",
+            "Bond of Master and Disciple",
+            "Super Saiyan 2",
+            "Battle of Wits",
+            "Crossover",
+            "Entrusted Will",
+            "Power Beyond Super Saiyan",
+            "Earth-Bred Fighters"
+        ],
         "roles": [
             "SUPPORT",
             "DPS / NUKER"
@@ -19789,7 +28076,13 @@ const dokkanCharacters = [
             16,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Worthy Rivals",
+            "Dragon Ball Heroes",
+            "Battle of Wits",
+            "Crossover",
+            "Storied Figures"
+        ],
         "roles": []
     },
     {
@@ -19813,7 +28106,14 @@ const dokkanCharacters = [
             115,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Transformation Boost",
+            "Artificial Life Forms",
+            "Terrifying Conquerors",
+            "Dragon Ball Heroes",
+            "Crossover",
+            "Corroded Body and Mind"
+        ],
         "roles": [
             "HEALER"
         ]
@@ -19839,7 +28139,16 @@ const dokkanCharacters = [
             119,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Transformation Boost",
+            "Artificial Life Forms",
+            "Dragon Ball Heroes",
+            "Majin Power",
+            "Power Absorption",
+            "Crossover",
+            "Demonic Power",
+            "Uncontrollable Power"
+        ],
         "roles": [
             "HEALER",
             "SUPPORT"
@@ -19866,7 +28175,17 @@ const dokkanCharacters = [
             95,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Super Saiyan 3",
+            "Pure Saiyans",
+            "Vegeta's Family",
+            "Worthy Rivals",
+            "Crossover",
+            "Gifted Warriors",
+            "Power Beyond Super Saiyan",
+            "Bond of Parent and Child",
+            "Successors"
+        ],
         "roles": [
             "DPS / NUKER"
         ]
@@ -19892,7 +28211,18 @@ const dokkanCharacters = [
             47,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Fusion",
+            "Hybrid Saiyans",
+            "Super Saiyan 3",
+            "Kamehameha",
+            "Dragon Ball Heroes",
+            "Crossover",
+            "Time Limit",
+            "Power Beyond Super Saiyan",
+            "Fused Fighters",
+            "Earth-Bred Fighters"
+        ],
         "roles": []
     },
     {
@@ -19916,7 +28246,17 @@ const dokkanCharacters = [
             86,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Peppy Gals",
+            "Resurrected Warriors",
+            "Time Travelers",
+            "Siblings' Bond",
+            "Dragon Ball Heroes",
+            "Revenge",
+            "Battle of Wits",
+            "Crossover",
+            "Demonic Power"
+        ],
         "roles": [
             "HEALER",
             "SUPPORT"
@@ -19943,7 +28283,19 @@ const dokkanCharacters = [
             116,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Hybrid Saiyans",
+            "Super Saiyan 3",
+            "Time Travelers",
+            "Vegeta's Family",
+            "Bond of Master and Disciple",
+            "Dragon Ball Heroes",
+            "Battle of Wits",
+            "Crossover",
+            "Entrusted Will",
+            "Power Beyond Super Saiyan",
+            "Earth-Bred Fighters"
+        ],
         "roles": [
             "TANK"
         ]
@@ -19969,7 +28321,16 @@ const dokkanCharacters = [
             116,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Hybrid Saiyans",
+            "Super Saiyan 3",
+            "Goku's Family",
+            "Dragon Ball Heroes",
+            "Crossover",
+            "Power Beyond Super Saiyan",
+            "Earth-Bred Fighters",
+            "Demonic Power"
+        ],
         "roles": []
     },
     {
@@ -19993,7 +28354,18 @@ const dokkanCharacters = [
             50,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Peppy Gals",
+            "Full Power",
+            "Androids",
+            "Transformation Boost",
+            "Majin Power",
+            "Battle of Wits",
+            "Power Absorption",
+            "Crossover",
+            "Demonic Power",
+            "Uncontrollable Power"
+        ],
         "roles": []
     },
     {
@@ -20017,7 +28389,15 @@ const dokkanCharacters = [
             118,
             125
         ],
-        "categories": [],
+        "categories": [
+            "Majin Buu Saga",
+            "Joined Forces",
+            "Movie Heroes",
+            "Special Pose",
+            "Defenders of Justice",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters"
+        ],
         "roles": [
             "SUPPORT"
         ]
@@ -20042,7 +28422,15 @@ const dokkanCharacters = [
             97,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Pure Saiyans",
+            "Vegeta's Family",
+            "Super Saiyans",
+            "Androids/Cell Saga",
+            "Gifted Warriors",
+            "Mastered Evolution",
+            "Successors"
+        ],
         "roles": []
     },
     {
@@ -20066,7 +28454,19 @@ const dokkanCharacters = [
             47,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Hybrid Saiyans",
+            "Majin Buu Saga",
+            "Goku's Family",
+            "Siblings' Bond",
+            "Kamehameha",
+            "Super Saiyan 2",
+            "Defenders of Justice",
+            "Power Beyond Super Saiyan",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters",
+            "Demonic Power"
+        ],
         "roles": [
             "SUPPORT"
         ]
@@ -20092,7 +28492,22 @@ const dokkanCharacters = [
             65,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Resurrected Warriors",
+            "Majin Buu Saga",
+            "Super Saiyan 3",
+            "Pure Saiyans",
+            "Movie Heroes",
+            "Goku's Family",
+            "Otherworld Warriors",
+            "Turtle School",
+            "Mastered Evolution",
+            "Bond of Friendship",
+            "Accelerated Battle",
+            "Power Beyond Super Saiyan",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters"
+        ],
         "roles": []
     },
     {
@@ -20116,7 +28531,18 @@ const dokkanCharacters = [
             112,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Shadow Dragon Saga",
+            "Bond of Master and Disciple",
+            "Earthlings",
+            "Majin Power",
+            "Saviors",
+            "Connected Hope",
+            "GT Heroes",
+            "Fused Fighters",
+            "Earth-Bred Fighters",
+            "Demonic Power"
+        ],
         "roles": []
     },
     {
@@ -20140,7 +28566,18 @@ const dokkanCharacters = [
             97,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Pure Saiyans",
+            "Goku's Family",
+            "Super Saiyan 2",
+            "Turtle School",
+            "GT Heroes",
+            "Bond of Friendship",
+            "Accelerated Battle",
+            "Power Beyond Super Saiyan",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters"
+        ],
         "roles": []
     },
     {
@@ -20164,7 +28601,15 @@ const dokkanCharacters = [
             37,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Worthy Rivals",
+            "Otherworld Warriors",
+            "Saviors",
+            "Battle of Wits",
+            "Storied Figures",
+            "Tournament Participants",
+            "Mission Execution"
+        ],
         "roles": []
     },
     {
@@ -20188,7 +28633,17 @@ const dokkanCharacters = [
             47,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Pure Saiyans",
+            "Goku's Family",
+            "Super Saiyans",
+            "Kamehameha",
+            "Turtle School",
+            "Bond of Friendship",
+            "Accelerated Battle",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters"
+        ],
         "roles": [
             "SUPPORT"
         ]
@@ -20213,7 +28668,17 @@ const dokkanCharacters = [
             97,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Pure Saiyans",
+            "Vegeta's Family",
+            "Worthy Rivals",
+            "Super Saiyan 2",
+            "Gifted Warriors",
+            "Mastered Evolution",
+            "Power Beyond Super Saiyan",
+            "Bond of Parent and Child",
+            "Successors"
+        ],
         "roles": []
     },
     {
@@ -20237,7 +28702,13 @@ const dokkanCharacters = [
             26,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Resurrected Warriors",
+            "Joined Forces",
+            "Terrifying Conquerors",
+            "Otherworld Warriors",
+            "Revenge"
+        ],
         "roles": [
             "SUPPORT",
             "DPS / NUKER"
@@ -20263,7 +28734,21 @@ const dokkanCharacters = [
             45,
             23
         ],
-        "categories": [],
+        "categories": [
+            "Hybrid Saiyans",
+            "Goku's Family",
+            "Youth",
+            "Super Saiyans",
+            "Androids/Cell Saga",
+            "Bond of Master and Disciple",
+            "Rapid Growth",
+            "Heavenly Events",
+            "Mastered Evolution",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters",
+            "Tournament Participants",
+            "Demonic Power"
+        ],
         "roles": [
             "TANK"
         ]
@@ -20313,7 +28798,11 @@ const dokkanCharacters = [
             127,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Shadow Dragon Saga",
+            "Inhuman Deeds",
+            "GT Bosses"
+        ],
         "roles": []
     },
     {
@@ -20337,7 +28826,14 @@ const dokkanCharacters = [
             109,
             125
         ],
-        "categories": [],
+        "categories": [
+            "Full Power",
+            "Joined Forces",
+            "Movie Heroes",
+            "Saviors",
+            "Earth-Bred Fighters",
+            "Earth-Protecting Heroes"
+        ],
         "roles": []
     },
     {
@@ -20361,7 +28857,13 @@ const dokkanCharacters = [
             60,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Joined Forces",
+            "Kamehameha",
+            "Battle of Wits",
+            "Heavenly Events",
+            "Earth-Bred Fighters"
+        ],
         "roles": [
             "SUPPORT"
         ]
@@ -20387,7 +28889,16 @@ const dokkanCharacters = [
             59,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Movie Bosses",
+            "Transformation Boost",
+            "Wicked Bloodline",
+            "Terrifying Conquerors",
+            "Target: Goku",
+            "Final Trump Card",
+            "Space-Traveling Warriors",
+            "Planetary Destruction"
+        ],
         "roles": []
     },
     {
@@ -20411,7 +28922,24 @@ const dokkanCharacters = [
             124,
             118
         ],
-        "categories": [],
+        "categories": [
+            "World Tournament",
+            "Low-Class Warrior",
+            "Giant Form",
+            "Pure Saiyans",
+            "Dragon Ball Seekers",
+            "Goku's Family",
+            "Youth",
+            "DB Saga",
+            "Kamehameha",
+            "Giant Ape Power",
+            "Turtle School",
+            "Bond of Friendship",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters",
+            "Tournament Participants",
+            "Uncontrollable Power"
+        ],
         "roles": []
     },
     {
@@ -20435,7 +28963,23 @@ const dokkanCharacters = [
             124,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Giant Form",
+            "Pure Saiyans",
+            "Dragon Ball Seekers",
+            "Vegeta's Family",
+            "Terrifying Conquerors",
+            "Final Trump Card",
+            "Inhuman Deeds",
+            "Giant Ape Power",
+            "Space-Traveling Warriors",
+            "Gifted Warriors",
+            "Planetary Destruction",
+            "Accelerated Battle",
+            "Battle of Fate",
+            "Saiyan Saga",
+            "Successors"
+        ],
         "roles": []
     },
     {
@@ -20459,7 +29003,18 @@ const dokkanCharacters = [
             124,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Low-Class Warrior",
+            "Giant Form",
+            "Pure Saiyans",
+            "Goku's Family",
+            "Terrifying Conquerors",
+            "Giant Ape Power",
+            "Space-Traveling Warriors",
+            "Saiyan Saga",
+            "Uncontrollable Power",
+            "Mission Execution"
+        ],
         "roles": []
     },
     {
@@ -20483,7 +29038,18 @@ const dokkanCharacters = [
             119,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Resurrected Warriors",
+            "Transformation Boost",
+            "Dragon Ball Seekers",
+            "Time Travelers",
+            "Terrifying Conquerors",
+            "Revenge",
+            "Heavenly Events",
+            "Entrusted Will",
+            "Power of Wishes",
+            "Demonic Power"
+        ],
         "roles": [
             "HEALER",
             "SUPPORT"
@@ -20510,7 +29076,18 @@ const dokkanCharacters = [
             118,
             125
         ],
-        "categories": [],
+        "categories": [
+            "Low-Class Warrior",
+            "Pure Saiyans",
+            "Goku's Family",
+            "Team Bardock",
+            "All-Out Struggle",
+            "Space-Traveling Warriors",
+            "Connected Hope",
+            "Storied Figures",
+            "Entrusted Will",
+            "Bond of Parent and Child"
+        ],
         "roles": []
     },
     {
@@ -20534,7 +29111,18 @@ const dokkanCharacters = [
             97,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Low-Class Warrior",
+            "Planet Namek Saga",
+            "Pure Saiyans",
+            "Goku's Family",
+            "Kamehameha",
+            "Saviors",
+            "Turtle School",
+            "Bond of Friendship",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters"
+        ],
         "roles": [
             "HEALER"
         ]
@@ -20559,7 +29147,15 @@ const dokkanCharacters = [
             73,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Planet Namek Saga",
+            "Ginyu Force",
+            "Dragon Ball Seekers",
+            "Terrifying Conquerors",
+            "Special Pose",
+            "Space-Traveling Warriors",
+            "Mission Execution"
+        ],
         "roles": [
             "TANK"
         ]
@@ -20585,7 +29181,14 @@ const dokkanCharacters = [
             60,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Planet Namek Saga",
+            "Dragon Ball Seekers",
+            "Joined Forces",
+            "Terrifying Conquerors",
+            "Space-Traveling Warriors",
+            "Mission Execution"
+        ],
         "roles": [
             "SUPPORT"
         ]
@@ -20611,7 +29214,16 @@ const dokkanCharacters = [
             1,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Planet Namek Saga",
+            "Dragon Ball Seekers",
+            "Earthlings",
+            "Rapid Growth",
+            "Battle of Wits",
+            "Turtle School",
+            "Bond of Friendship",
+            "Earth-Bred Fighters"
+        ],
         "roles": []
     },
     {
@@ -20635,7 +29247,25 @@ const dokkanCharacters = [
             97,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Realm of Gods",
+            "Super Saiyan 3",
+            "Pure Saiyans",
+            "Full Power",
+            "Transformation Boost",
+            "Goku's Family",
+            "Super Saiyans",
+            "Kamehameha",
+            "Super Saiyan 2",
+            "Turtle School",
+            "Mastered Evolution",
+            "Legendary Existence",
+            "Bond of Friendship",
+            "Accelerated Battle",
+            "Power Beyond Super Saiyan",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters"
+        ],
         "roles": [
             "TANK"
         ]
@@ -20660,7 +29290,16 @@ const dokkanCharacters = [
             50,
             120
         ],
-        "categories": [],
+        "categories": [
+            "Transformation Boost",
+            "Wicked Bloodline",
+            "Terrifying Conquerors",
+            "Inhuman Deeds",
+            "Space-Traveling Warriors",
+            "Gifted Warriors",
+            "Planetary Destruction",
+            "Successors"
+        ],
         "roles": [
             "DPS / NUKER"
         ]
@@ -20685,7 +29324,16 @@ const dokkanCharacters = [
             60,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Planet Namek Saga",
+            "Ginyu Force",
+            "Dragon Ball Seekers",
+            "Terrifying Conquerors",
+            "Special Pose",
+            "Space-Traveling Warriors",
+            "Accelerated Battle",
+            "Mission Execution"
+        ],
         "roles": []
     },
     {
@@ -20708,7 +29356,15 @@ const dokkanCharacters = [
             12,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Planet Namek Saga",
+            "Ginyu Force",
+            "Dragon Ball Seekers",
+            "Terrifying Conquerors",
+            "Special Pose",
+            "Space-Traveling Warriors",
+            "Mission Execution"
+        ],
         "roles": [
             "SUPPORT"
         ]
@@ -20733,7 +29389,17 @@ const dokkanCharacters = [
             97,
             61
         ],
-        "categories": [],
+        "categories": [
+            "Low-Class Warrior",
+            "Pure Saiyans",
+            "Goku's Family",
+            "Team Bardock",
+            "All-Out Struggle",
+            "Space-Traveling Warriors",
+            "Storied Figures",
+            "Entrusted Will",
+            "Bond of Parent and Child"
+        ],
         "roles": []
     },
     {
@@ -20805,7 +29471,25 @@ const dokkanCharacters = [
             120,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Resurrected Warriors",
+            "Movie Bosses",
+            "Full Power",
+            "Transformation Boost",
+            "Wicked Bloodline",
+            "Dragon Ball Seekers",
+            "Terrifying Conquerors",
+            "Target: Goku",
+            "Revenge",
+            "Inhuman Deeds",
+            "Gifted Warriors",
+            "Planetary Destruction",
+            "Mastered Evolution",
+            "Sworn Enemies",
+            "Accelerated Battle",
+            "Power of Wishes",
+            "Successors"
+        ],
         "roles": [
             "HEALER"
         ]
@@ -20829,7 +29513,16 @@ const dokkanCharacters = [
             47,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Pure Saiyans",
+            "Goku's Family",
+            "Super Saiyans",
+            "Kamehameha",
+            "Turtle School",
+            "Bond of Friendship",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters"
+        ],
         "roles": []
     },
     {
@@ -20853,7 +29546,23 @@ const dokkanCharacters = [
             56,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Resurrected Warriors",
+            "Planet Namek Saga",
+            "Namekians",
+            "Worthy Rivals",
+            "Bond of Master and Disciple",
+            "Saviors",
+            "Battle of Wits",
+            "Connected Hope",
+            "Gifted Warriors",
+            "Entrusted Will",
+            "Fused Fighters",
+            "Earth-Bred Fighters",
+            "Power of Wishes",
+            "Demonic Power",
+            "Successors"
+        ],
         "roles": [
             "HEALER",
             "SUPPORT"
@@ -20880,7 +29589,19 @@ const dokkanCharacters = [
             50,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Planet Namek Saga",
+            "Transformation Boost",
+            "Wicked Bloodline",
+            "Terrifying Conquerors",
+            "Inhuman Deeds",
+            "Space-Traveling Warriors",
+            "Gifted Warriors",
+            "Planetary Destruction",
+            "Sworn Enemies",
+            "Accelerated Battle",
+            "Successors"
+        ],
         "roles": [
             "SUPPORT"
         ]
@@ -20905,7 +29626,15 @@ const dokkanCharacters = [
             42,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Planet Namek Saga",
+            "Ginyu Force",
+            "Dragon Ball Seekers",
+            "Terrifying Conquerors",
+            "Special Pose",
+            "Space-Traveling Warriors",
+            "Mission Execution"
+        ],
         "roles": []
     },
     {
@@ -20928,7 +29657,15 @@ const dokkanCharacters = [
             8,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Planet Namek Saga",
+            "Ginyu Force",
+            "Dragon Ball Seekers",
+            "Terrifying Conquerors",
+            "Special Pose",
+            "Space-Traveling Warriors",
+            "Mission Execution"
+        ],
         "roles": []
     },
     {
@@ -20952,7 +29689,18 @@ const dokkanCharacters = [
             1003,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Hybrid Saiyans",
+            "Majin Buu Saga",
+            "Transformation Boost",
+            "Goku's Family",
+            "Siblings' Bond",
+            "Special Pose",
+            "Defenders of Justice",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters",
+            "Demonic Power"
+        ],
         "roles": []
     },
     {
@@ -20976,7 +29724,17 @@ const dokkanCharacters = [
             32,
             118
         ],
-        "categories": [],
+        "categories": [
+            "World Tournament",
+            "Majin Buu Saga",
+            "Joined Forces",
+            "Terrifying Conquerors",
+            "Earthlings",
+            "Corroded Body and Mind",
+            "Earth-Bred Fighters",
+            "Tournament Participants",
+            "Mission Execution"
+        ],
         "roles": []
     },
     {
@@ -21000,7 +29758,23 @@ const dokkanCharacters = [
             118,
             125
         ],
-        "categories": [],
+        "categories": [
+            "Universe Survival Saga",
+            "Full Power",
+            "Representatives of Universe 7",
+            "Kamehameha",
+            "Bond of Master and Disciple",
+            "Final Trump Card",
+            "Earthlings",
+            "All-Out Struggle",
+            "Battle of Wits",
+            "Turtle School",
+            "Powerful Comeback",
+            "Super Heroes",
+            "Earth-Bred Fighters",
+            "Power of Wishes",
+            "Tournament Participants"
+        ],
         "roles": [
             "SUPPORT"
         ]
@@ -21026,7 +29800,15 @@ const dokkanCharacters = [
             109,
             125
         ],
-        "categories": [],
+        "categories": [
+            "Universe Survival Saga",
+            "Full Power",
+            "Representatives of Universe 7",
+            "Joined Forces",
+            "All-Out Struggle",
+            "Battle of Fate",
+            "Tournament Participants"
+        ],
         "roles": []
     },
     {
@@ -21050,7 +29832,24 @@ const dokkanCharacters = [
             117,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Universe Survival Saga",
+            "Realm of Gods",
+            "Pure Saiyans",
+            "Representatives of Universe 7",
+            "Goku's Family",
+            "Kamehameha",
+            "Turtle School",
+            "Miraculous Awakening",
+            "Powerful Comeback",
+            "Legendary Existence",
+            "Bond of Friendship",
+            "Accelerated Battle",
+            "Bond of Parent and Child",
+            "Super Heroes",
+            "Earth-Bred Fighters",
+            "Tournament Participants"
+        ],
         "roles": [
             "SUPPORT"
         ]
@@ -21076,7 +29875,15 @@ const dokkanCharacters = [
             130,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Universe Survival Saga",
+            "Representatives of Universe 7",
+            "Joined Forces",
+            "Battle of Wits",
+            "Bond of Parent and Child",
+            "Super Heroes",
+            "Tournament Participants"
+        ],
         "roles": [
             "DPS / NUKER"
         ]
@@ -21102,7 +29909,16 @@ const dokkanCharacters = [
             130,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Universe Survival Saga",
+            "Representatives of Universe 7",
+            "Joined Forces",
+            "Earthlings",
+            "Battle of Wits",
+            "Super Heroes",
+            "Earth-Bred Fighters",
+            "Tournament Participants"
+        ],
         "roles": [
             "SUPPORT"
         ]
@@ -21128,7 +29944,19 @@ const dokkanCharacters = [
             130,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Universe Survival Saga",
+            "Representatives of Universe 7",
+            "Joined Forces",
+            "Kamehameha",
+            "Bond of Master and Disciple",
+            "Battle of Wits",
+            "Powerful Comeback",
+            "Super Heroes",
+            "Earth-Bred Fighters",
+            "Tournament Participants",
+            "Demonic Power"
+        ],
         "roles": [
             "TANK",
             "SUPPORT",
@@ -21156,7 +29984,14 @@ const dokkanCharacters = [
             130,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Universe Survival Saga",
+            "Representatives of Universe 7",
+            "Joined Forces",
+            "Battle of Wits",
+            "Mastered Evolution",
+            "Tournament Participants"
+        ],
         "roles": [
             "TANK",
             "SUPPORT"
@@ -21182,7 +30017,26 @@ const dokkanCharacters = [
             117,
             130
         ],
-        "categories": [],
+        "categories": [
+            "Universe Survival Saga",
+            "Realm of Gods",
+            "Pure Saiyans",
+            "Representatives of Universe 7",
+            "Goku's Family",
+            "Kamehameha",
+            "Turtle School",
+            "Miraculous Awakening",
+            "Powerful Comeback",
+            "Legendary Existence",
+            "Bond of Friendship",
+            "Accelerated Battle",
+            "Entrusted Will",
+            "Battle of Fate",
+            "Bond of Parent and Child",
+            "Super Heroes",
+            "Earth-Bred Fighters",
+            "Tournament Participants"
+        ],
         "roles": []
     },
     {
@@ -21228,7 +30082,16 @@ const dokkanCharacters = [
             97,
             40
         ],
-        "categories": [],
+        "categories": [
+            "Pure Saiyans",
+            "Vegeta's Family",
+            "Youth",
+            "Terrifying Conquerors",
+            "Space-Traveling Warriors",
+            "Gifted Warriors",
+            "Successors",
+            "Mission Execution"
+        ],
         "roles": []
     },
     {
@@ -21275,7 +30138,13 @@ const dokkanCharacters = [
             109,
             125
         ],
-        "categories": [],
+        "categories": [
+            "Joined Forces",
+            "Movie Heroes",
+            "Siblings' Bond",
+            "Storied Figures",
+            "Legendary Existence"
+        ],
         "roles": [
             "TANK",
             "SUPPORT"
@@ -21302,7 +30171,19 @@ const dokkanCharacters = [
             37,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Resurrected Warriors",
+            "Giant Form",
+            "Movie Bosses",
+            "Time Travelers",
+            "Movie Heroes",
+            "Siblings' Bond",
+            "Storied Figures",
+            "Legendary Existence",
+            "Power of Wishes",
+            "Demonic Power",
+            "Uncontrollable Power"
+        ],
         "roles": [
             "TANK"
         ]
@@ -21328,7 +30209,26 @@ const dokkanCharacters = [
             82,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Fusion",
+            "Hybrid Saiyans",
+            "Majin Buu Saga",
+            "Super Saiyan 3",
+            "Youth",
+            "Final Trump Card",
+            "Special Pose",
+            "Rapid Growth",
+            "Saviors",
+            "Connected Hope",
+            "Gifted Warriors",
+            "Heavenly Events",
+            "Time Limit",
+            "Mastered Evolution",
+            "Entrusted Will",
+            "Power Beyond Super Saiyan",
+            "Fused Fighters",
+            "Earth-Bred Fighters"
+        ],
         "roles": []
     },
     {
@@ -21352,7 +30252,18 @@ const dokkanCharacters = [
             47,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Majin Buu Saga",
+            "Movie Heroes",
+            "Kamehameha",
+            "Earthlings",
+            "Saviors",
+            "Battle of Wits",
+            "Turtle School",
+            "Bond of Friendship",
+            "Earth-Bred Fighters",
+            "Earth-Protecting Heroes"
+        ],
         "roles": [
             "TANK",
             "SUPPORT",
@@ -21380,7 +30291,16 @@ const dokkanCharacters = [
             10,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Peppy Gals",
+            "Majin Buu Saga",
+            "Androids",
+            "Movie Heroes",
+            "Siblings' Bond",
+            "Worthy Rivals",
+            "Battle of Wits",
+            "Earth-Protecting Heroes"
+        ],
         "roles": []
     },
     {
@@ -21404,7 +30324,20 @@ const dokkanCharacters = [
             97,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Hybrid Saiyans",
+            "Majin Buu Saga",
+            "Movie Heroes",
+            "Vegeta's Family",
+            "Youth",
+            "Super Saiyans",
+            "Battle of Wits",
+            "Gifted Warriors",
+            "Bond of Friendship",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters",
+            "Earth-Protecting Heroes"
+        ],
         "roles": []
     },
     {
@@ -21428,7 +30361,21 @@ const dokkanCharacters = [
             97,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Hybrid Saiyans",
+            "Majin Buu Saga",
+            "Movie Heroes",
+            "Goku's Family",
+            "Youth",
+            "Siblings' Bond",
+            "Super Saiyans",
+            "Kamehameha",
+            "Gifted Warriors",
+            "Bond of Friendship",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters",
+            "Earth-Protecting Heroes"
+        ],
         "roles": []
     },
     {
@@ -21452,7 +30399,17 @@ const dokkanCharacters = [
             118,
             125
         ],
-        "categories": [],
+        "categories": [
+            "Hybrid Saiyans",
+            "Dragon Ball Seekers",
+            "Goku's Family",
+            "Youth",
+            "Space-Traveling Warriors",
+            "GT Heroes",
+            "Bond of Friendship",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters"
+        ],
         "roles": [
             "TANK",
             "HEALER",
@@ -21479,7 +30436,13 @@ const dokkanCharacters = [
             95,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Dragon Ball Seekers",
+            "Artificial Life Forms",
+            "Space-Traveling Warriors",
+            "GT Heroes",
+            "Bond of Friendship"
+        ],
         "roles": [
             "SUPPORT"
         ]
@@ -21505,7 +30468,16 @@ const dokkanCharacters = [
             2,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Hybrid Saiyans",
+            "Vegeta's Family",
+            "Youth",
+            "Gifted Warriors",
+            "Defenders of Justice",
+            "Bond of Friendship",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters"
+        ],
         "roles": [
             "HEALER",
             "DPS / NUKER"
@@ -21531,7 +30503,13 @@ const dokkanCharacters = [
             39,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Joined Forces",
+            "Goku's Family",
+            "Kamehameha",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters"
+        ],
         "roles": [
             "HEALER"
         ]
@@ -21557,7 +30535,14 @@ const dokkanCharacters = [
             2,
             125
         ],
-        "categories": [],
+        "categories": [
+            "Pure Saiyans",
+            "Goku's Family",
+            "Turtle School",
+            "Bond of Friendship",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters"
+        ],
         "roles": [
             "SUPPORT"
         ]
@@ -21583,7 +30568,12 @@ const dokkanCharacters = [
             120,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Artificial Life Forms",
+            "Terrifying Conquerors",
+            "GT Bosses",
+            "Mission Execution"
+        ],
         "roles": [
             "HEALER",
             "SUPPORT"
@@ -21610,7 +30600,15 @@ const dokkanCharacters = [
             95,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Hybrid Saiyans",
+            "Joined Forces",
+            "Goku's Family",
+            "Siblings' Bond",
+            "GT Heroes",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters"
+        ],
         "roles": [
             "SUPPORT"
         ]
@@ -21636,7 +30634,15 @@ const dokkanCharacters = [
             95,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Hybrid Saiyans",
+            "Joined Forces",
+            "Siblings' Bond",
+            "GT Heroes",
+            "Bond of Friendship",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters"
+        ],
         "roles": [
             "SUPPORT"
         ]
@@ -21661,7 +30667,20 @@ const dokkanCharacters = [
             90,
             47
         ],
-        "categories": [],
+        "categories": [
+            "Low-Class Warrior",
+            "Pure Saiyans",
+            "Dragon Ball Seekers",
+            "Goku's Family",
+            "Youth",
+            "DB Saga",
+            "Kamehameha",
+            "Bond of Master and Disciple",
+            "Turtle School",
+            "Bond of Friendship",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters"
+        ],
         "roles": []
     },
     {
@@ -21708,7 +30727,20 @@ const dokkanCharacters = [
             58,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Pure Saiyans",
+            "Dragon Ball Seekers",
+            "Vegeta's Family",
+            "Terrifying Conquerors",
+            "Inhuman Deeds",
+            "Space-Traveling Warriors",
+            "Gifted Warriors",
+            "Planetary Destruction",
+            "Accelerated Battle",
+            "Battle of Fate",
+            "Saiyan Saga",
+            "Successors"
+        ],
         "roles": []
     },
     {
@@ -21732,7 +30764,23 @@ const dokkanCharacters = [
             89,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Pure Saiyans",
+            "Full Power",
+            "Goku's Family",
+            "Kamehameha",
+            "Final Trump Card",
+            "All-Out Struggle",
+            "Turtle School",
+            "Bond of Friendship",
+            "Accelerated Battle",
+            "Battle of Fate",
+            "Saiyan Saga",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters",
+            "Power of Wishes",
+            "Earth-Protecting Heroes"
+        ],
         "roles": []
     },
     {
@@ -21756,7 +30804,13 @@ const dokkanCharacters = [
             120,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Movie Bosses",
+            "Transformation Boost",
+            "Corroded Body and Mind",
+            "Accelerated Battle",
+            "Uncontrollable Power"
+        ],
         "roles": [
             "TANK"
         ]
@@ -21782,7 +30836,13 @@ const dokkanCharacters = [
             129,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Fusion",
+            "Movie Heroes",
+            "Otherworld Warriors",
+            "Time Limit",
+            "Fused Fighters"
+        ],
         "roles": [
             "DPS / NUKER"
         ]
@@ -21808,7 +30868,22 @@ const dokkanCharacters = [
             47,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Low-Class Warrior",
+            "Pure Saiyans",
+            "Full Power",
+            "Goku's Family",
+            "Kamehameha",
+            "Turtle School",
+            "Bond of Friendship",
+            "Accelerated Battle",
+            "Battle of Fate",
+            "Saiyan Saga",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters",
+            "Power of Wishes",
+            "Earth-Protecting Heroes"
+        ],
         "roles": []
     },
     {
@@ -21832,7 +30907,20 @@ const dokkanCharacters = [
             58,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Pure Saiyans",
+            "Dragon Ball Seekers",
+            "Vegeta's Family",
+            "Terrifying Conquerors",
+            "Inhuman Deeds",
+            "Space-Traveling Warriors",
+            "Gifted Warriors",
+            "Planetary Destruction",
+            "Accelerated Battle",
+            "Battle of Fate",
+            "Saiyan Saga",
+            "Successors"
+        ],
         "roles": []
     },
     {
@@ -21855,7 +30943,19 @@ const dokkanCharacters = [
             89,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Pure Saiyans",
+            "Full Power",
+            "Goku's Family",
+            "Kamehameha",
+            "Final Trump Card",
+            "All-Out Struggle",
+            "Turtle School",
+            "Bond of Friendship",
+            "Accelerated Battle",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters"
+        ],
         "roles": []
     },
     {
@@ -21878,7 +30978,18 @@ const dokkanCharacters = [
             47,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Hybrid Saiyans",
+            "Majin Buu Saga",
+            "Goku's Family",
+            "Siblings' Bond",
+            "Super Saiyans",
+            "Kamehameha",
+            "Defenders of Justice",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters",
+            "Demonic Power"
+        ],
         "roles": []
     },
     {
@@ -21902,7 +31013,18 @@ const dokkanCharacters = [
             66,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Hybrid Saiyans",
+            "Future Saga",
+            "Time Travelers",
+            "Movie Heroes",
+            "Vegeta's Family",
+            "Super Saiyans",
+            "Bond of Master and Disciple",
+            "Battle of Wits",
+            "Entrusted Will",
+            "Earth-Bred Fighters"
+        ],
         "roles": [
             "SUPPORT"
         ]
@@ -21928,7 +31050,23 @@ const dokkanCharacters = [
             97,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Realm of Gods",
+            "Pure Saiyans",
+            "Movie Heroes",
+            "Goku's Family",
+            "Kamehameha",
+            "Bond of Master and Disciple",
+            "Turtle School",
+            "Mastered Evolution",
+            "Bond of Friendship",
+            "Accelerated Battle",
+            "Battle of Fate",
+            "Power Beyond Super Saiyan",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters",
+            "Earth-Protecting Heroes"
+        ],
         "roles": [
             "DPS / NUKER"
         ]
@@ -21954,7 +31092,23 @@ const dokkanCharacters = [
             97,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Realm of Gods",
+            "Pure Saiyans",
+            "Movie Heroes",
+            "Goku's Family",
+            "Kamehameha",
+            "Bond of Master and Disciple",
+            "Turtle School",
+            "Mastered Evolution",
+            "Bond of Friendship",
+            "Accelerated Battle",
+            "Battle of Fate",
+            "Power Beyond Super Saiyan",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters",
+            "Earth-Protecting Heroes"
+        ],
         "roles": []
     },
     {
@@ -21978,7 +31132,18 @@ const dokkanCharacters = [
             30,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Fusion",
+            "Movie Heroes",
+            "Super Saiyans",
+            "Otherworld Warriors",
+            "Final Trump Card",
+            "Connected Hope",
+            "Powerful Comeback",
+            "Time Limit",
+            "Fused Fighters",
+            "Earth-Protecting Heroes"
+        ],
         "roles": []
     },
     {
@@ -22002,7 +31167,12 @@ const dokkanCharacters = [
             39,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Realm of Gods",
+            "Siblings' Bond",
+            "Bond of Master and Disciple",
+            "Space-Traveling Warriors"
+        ],
         "roles": [
             "HEALER"
         ]
@@ -22028,7 +31198,16 @@ const dokkanCharacters = [
             60,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Peppy Gals",
+            "Resurrected Warriors",
+            "Time Travelers",
+            "Terrifying Conquerors",
+            "Space-Traveling Warriors",
+            "Storied Figures",
+            "Tournament Participants",
+            "Mission Execution"
+        ],
         "roles": [
             "HEALER"
         ]
@@ -22054,7 +31233,12 @@ const dokkanCharacters = [
             120,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Artificial Life Forms",
+            "Revenge",
+            "Crossover",
+            "Mission Execution"
+        ],
         "roles": [
             "HEALER"
         ]
@@ -22080,7 +31264,19 @@ const dokkanCharacters = [
             120,
             125
         ],
-        "categories": [],
+        "categories": [
+            "Planet Namek Saga",
+            "Transformation Boost",
+            "Wicked Bloodline",
+            "Dragon Ball Seekers",
+            "Terrifying Conquerors",
+            "Inhuman Deeds",
+            "Space-Traveling Warriors",
+            "Gifted Warriors",
+            "Planetary Destruction",
+            "Sworn Enemies",
+            "Successors"
+        ],
         "roles": []
     },
     {
@@ -22104,7 +31300,14 @@ const dokkanCharacters = [
             121,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Peppy Gals",
+            "Time Travelers",
+            "Siblings' Bond",
+            "Battle of Wits",
+            "Crossover",
+            "Demonic Power"
+        ],
         "roles": [
             "SUPPORT"
         ]
@@ -22130,7 +31333,19 @@ const dokkanCharacters = [
             121,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Resurrected Warriors",
+            "Androids",
+            "Transformation Boost",
+            "Time Travelers",
+            "Artificial Life Forms",
+            "Kamehameha",
+            "Power Absorption",
+            "Crossover",
+            "Demonic Power",
+            "Uncontrollable Power",
+            "Mission Execution"
+        ],
         "roles": []
     },
     {
@@ -22154,7 +31369,16 @@ const dokkanCharacters = [
             121,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Resurrected Warriors",
+            "Realm of Gods",
+            "Giant Form",
+            "Time Travelers",
+            "Final Trump Card",
+            "Crossover",
+            "Storied Figures",
+            "Demonic Power"
+        ],
         "roles": []
     },
     {
@@ -22178,7 +31402,15 @@ const dokkanCharacters = [
             97,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Pure Saiyans",
+            "Time Travelers",
+            "Goku's Family",
+            "Crossover",
+            "Corroded Body and Mind",
+            "Storied Figures",
+            "Mission Execution"
+        ],
         "roles": []
     },
     {
@@ -22202,7 +31434,13 @@ const dokkanCharacters = [
             65,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Shadow Dragon Saga",
+            "Resurrected Warriors",
+            "Worthy Rivals",
+            "GT Bosses",
+            "Accelerated Battle"
+        ],
         "roles": [
             "SUPPORT",
             "DPS / NUKER"
@@ -22229,7 +31467,14 @@ const dokkanCharacters = [
             8,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Earthlings",
+            "Battle of Wits",
+            "Turtle School",
+            "Bond of Friendship",
+            "Saiyan Saga",
+            "Earth-Bred Fighters"
+        ],
         "roles": [
             "TANK"
         ]
@@ -22255,7 +31500,20 @@ const dokkanCharacters = [
             123,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Low-Class Warrior",
+            "Giant Form",
+            "Pure Saiyans",
+            "Goku's Family",
+            "Team Bardock",
+            "All-Out Struggle",
+            "Giant Ape Power",
+            "Space-Traveling Warriors",
+            "Storied Figures",
+            "Entrusted Will",
+            "Bond of Parent and Child",
+            "Uncontrollable Power"
+        ],
         "roles": []
     },
     {
@@ -22279,7 +31537,18 @@ const dokkanCharacters = [
             130,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Universe Survival Saga",
+            "Realm of Gods",
+            "Final Trump Card",
+            "Special Pose",
+            "Universe 11",
+            "Space-Traveling Warriors",
+            "Mastered Evolution",
+            "Tournament Participants",
+            "Super Bosses",
+            "Successors"
+        ],
         "roles": [
             "SUPPORT"
         ]
@@ -22305,7 +31574,15 @@ const dokkanCharacters = [
             130,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Universe Survival Saga",
+            "Special Pose",
+            "Universe 11",
+            "Space-Traveling Warriors",
+            "Defenders of Justice",
+            "Accelerated Battle",
+            "Tournament Participants"
+        ],
         "roles": []
     },
     {
@@ -22329,7 +31606,22 @@ const dokkanCharacters = [
             1004,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Resurrected Warriors",
+            "Majin Buu Saga",
+            "Transformation Boost",
+            "Artificial Life Forms",
+            "Majin Power",
+            "Planetary Destruction",
+            "Storied Figures",
+            "Legendary Existence",
+            "Sworn Enemies",
+            "Accelerated Battle",
+            "Worldwide Chaos",
+            "Battle of Fate",
+            "Demonic Power",
+            "Uncontrollable Power"
+        ],
         "roles": []
     },
     {
@@ -22353,7 +31645,16 @@ const dokkanCharacters = [
             129,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Androids",
+            "Transformation Boost",
+            "Time Travelers",
+            "Artificial Life Forms",
+            "Kamehameha",
+            "Otherworld Warriors",
+            "Miraculous Awakening",
+            "Sworn Enemies"
+        ],
         "roles": [
             "SUPPORT"
         ]
@@ -22379,7 +31680,14 @@ const dokkanCharacters = [
             129,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Transformation Boost",
+            "Wicked Bloodline",
+            "Otherworld Warriors",
+            "Gifted Warriors",
+            "Sworn Enemies",
+            "Successors"
+        ],
         "roles": [
             "TANK",
             "DPS / NUKER"
@@ -22406,7 +31714,21 @@ const dokkanCharacters = [
             130,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Universe Survival Saga",
+            "Resurrected Warriors",
+            "Full Power",
+            "Representatives of Universe 7",
+            "Transformation Boost",
+            "Wicked Bloodline",
+            "Otherworld Warriors",
+            "Gifted Warriors",
+            "Time Limit",
+            "Mastered Evolution",
+            "Sworn Enemies",
+            "Tournament Participants",
+            "Successors"
+        ],
         "roles": []
     },
     {
@@ -22429,7 +31751,16 @@ const dokkanCharacters = [
             56,
             23
         ],
-        "categories": [],
+        "categories": [
+            "Hybrid Saiyans",
+            "Goku's Family",
+            "Youth",
+            "Bond of Master and Disciple",
+            "Saiyan Saga",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters",
+            "Demonic Power"
+        ],
         "roles": []
     },
     {
@@ -22476,7 +31807,16 @@ const dokkanCharacters = [
             130,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Universe Survival Saga",
+            "Pure Saiyans",
+            "Universe 6",
+            "Exploding Rage",
+            "Power Beyond Super Saiyan",
+            "Tournament Participants",
+            "Super Bosses",
+            "Uncontrollable Power"
+        ],
         "roles": []
     },
     {
@@ -22500,7 +31840,21 @@ const dokkanCharacters = [
             130,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Peppy Gals",
+            "Universe Survival Saga",
+            "Pure Saiyans",
+            "Full Power",
+            "Universe 6",
+            "Super Saiyan 2",
+            "Rapid Growth",
+            "Gifted Warriors",
+            "Mastered Evolution",
+            "Bond of Friendship",
+            "Power Beyond Super Saiyan",
+            "Tournament Participants",
+            "Super Bosses"
+        ],
         "roles": []
     },
     {
@@ -22524,7 +31878,16 @@ const dokkanCharacters = [
             130,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Peppy Gals",
+            "Universe Survival Saga",
+            "Transformation Boost",
+            "Special Pose",
+            "Space-Traveling Warriors",
+            "Power of Wishes",
+            "Tournament Participants",
+            "Super Bosses"
+        ],
         "roles": [
             "HEALER"
         ]
@@ -22550,7 +31913,15 @@ const dokkanCharacters = [
             130,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Peppy Gals",
+            "Universe Survival Saga",
+            "Transformation Boost",
+            "Special Pose",
+            "Space-Traveling Warriors",
+            "Accelerated Battle",
+            "Tournament Participants"
+        ],
         "roles": [
             "SUPPORT"
         ]
@@ -22576,7 +31947,14 @@ const dokkanCharacters = [
             130,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Peppy Gals",
+            "Universe Survival Saga",
+            "Transformation Boost",
+            "Special Pose",
+            "Space-Traveling Warriors",
+            "Tournament Participants"
+        ],
         "roles": [
             "SUPPORT"
         ]
@@ -22618,7 +31996,19 @@ const dokkanCharacters = [
             130,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Universe Survival Saga",
+            "Representatives of Universe 7",
+            "Earthlings",
+            "Battle of Wits",
+            "Turtle School",
+            "Defenders of Justice",
+            "Bond of Friendship",
+            "Bond of Parent and Child",
+            "Super Heroes",
+            "Earth-Bred Fighters",
+            "Tournament Participants"
+        ],
         "roles": []
     },
     {
@@ -22642,7 +32032,13 @@ const dokkanCharacters = [
             116,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Super Saiyan 3",
+            "Pure Saiyans",
+            "Crossover",
+            "Power Beyond Super Saiyan",
+            "Uncontrollable Power"
+        ],
         "roles": []
     },
     {
@@ -22665,7 +32061,22 @@ const dokkanCharacters = [
             89,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Pure Saiyans",
+            "Full Power",
+            "Movie Heroes",
+            "Goku's Family",
+            "Final Trump Card",
+            "All-Out Struggle",
+            "Turtle School",
+            "Bond of Friendship",
+            "Accelerated Battle",
+            "Entrusted Will",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters",
+            "Power of Wishes",
+            "Earth-Protecting Heroes"
+        ],
         "roles": []
     },
     {
@@ -22689,7 +32100,16 @@ const dokkanCharacters = [
             6,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Movie Bosses",
+            "Namekians",
+            "Dragon Ball Seekers",
+            "Terrifying Conquerors",
+            "Inhuman Deeds",
+            "Space-Traveling Warriors",
+            "Power of Wishes",
+            "Demonic Power"
+        ],
         "roles": [
             "HEALER"
         ]
@@ -22715,7 +32135,24 @@ const dokkanCharacters = [
             1004,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Resurrected Warriors",
+            "Majin Buu Saga",
+            "Transformation Boost",
+            "Time Travelers",
+            "Artificial Life Forms",
+            "Inhuman Deeds",
+            "Majin Power",
+            "Power Absorption",
+            "Gifted Warriors",
+            "Storied Figures",
+            "Legendary Existence",
+            "Sworn Enemies",
+            "Worldwide Chaos",
+            "Demonic Power",
+            "Uncontrollable Power",
+            "Mission Execution"
+        ],
         "roles": [
             "HEALER"
         ]
@@ -22741,7 +32178,22 @@ const dokkanCharacters = [
             1003,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Resurrected Warriors",
+            "Majin Buu Saga",
+            "Pure Saiyans",
+            "Vegeta's Family",
+            "Worthy Rivals",
+            "Super Saiyan 2",
+            "Final Trump Card",
+            "All-Out Struggle",
+            "Connected Hope",
+            "Corroded Body and Mind",
+            "Gifted Warriors",
+            "Power Beyond Super Saiyan",
+            "Bond of Parent and Child",
+            "Uncontrollable Power"
+        ],
         "roles": []
     },
     {
@@ -22765,7 +32217,20 @@ const dokkanCharacters = [
             111,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Planet Namek Saga",
+            "Transformation Boost",
+            "Wicked Bloodline",
+            "Dragon Ball Seekers",
+            "Terrifying Conquerors",
+            "Inhuman Deeds",
+            "Space-Traveling Warriors",
+            "Gifted Warriors",
+            "Planetary Destruction",
+            "Sworn Enemies",
+            "Accelerated Battle",
+            "Successors"
+        ],
         "roles": [
             "TANK"
         ]
@@ -22790,7 +32255,15 @@ const dokkanCharacters = [
             119,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Movie Bosses",
+            "Transformation Boost",
+            "Wicked Bloodline",
+            "Terrifying Conquerors",
+            "Target: Goku",
+            "Space-Traveling Warriors",
+            "Planetary Destruction"
+        ],
         "roles": []
     },
     {
@@ -22814,7 +32287,18 @@ const dokkanCharacters = [
             60,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Androids",
+            "Artificial Life Forms",
+            "Target: Goku",
+            "Inhuman Deeds",
+            "Power Absorption",
+            "GT Bosses",
+            "Battle of Fate",
+            "Fused Fighters",
+            "Uncontrollable Power",
+            "Mission Execution"
+        ],
         "roles": [
             "TANK"
         ]
@@ -22840,7 +32324,13 @@ const dokkanCharacters = [
             1003,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Majin Buu Saga",
+            "Potara",
+            "Final Trump Card",
+            "Battle of Wits",
+            "Fused Fighters"
+        ],
         "roles": [
             "TANK",
             "HEALER"
@@ -22867,7 +32357,18 @@ const dokkanCharacters = [
             34,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Fusion",
+            "Hybrid Saiyans",
+            "Joined Forces",
+            "Youth",
+            "Super Saiyans",
+            "Special Pose",
+            "Gifted Warriors",
+            "Time Limit",
+            "Fused Fighters",
+            "Earth-Bred Fighters"
+        ],
         "roles": [
             "HEALER",
             "DPS / NUKER"
@@ -22894,7 +32395,15 @@ const dokkanCharacters = [
             97,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Low-Class Warrior",
+            "Pure Saiyans",
+            "Goku's Family",
+            "Terrifying Conquerors",
+            "Space-Traveling Warriors",
+            "Saiyan Saga",
+            "Mission Execution"
+        ],
         "roles": []
     },
     {
@@ -22918,7 +32427,21 @@ const dokkanCharacters = [
             1004,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Resurrected Warriors",
+            "Majin Buu Saga",
+            "Transformation Boost",
+            "Artificial Life Forms",
+            "Majin Power",
+            "Power Absorption",
+            "Planetary Destruction",
+            "Storied Figures",
+            "Legendary Existence",
+            "Sworn Enemies",
+            "Worldwide Chaos",
+            "Demonic Power",
+            "Uncontrollable Power"
+        ],
         "roles": []
     },
     {
@@ -22942,7 +32465,12 @@ const dokkanCharacters = [
             1003,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Realm of Gods",
+            "Majin Buu Saga",
+            "Potara",
+            "Storied Figures"
+        ],
         "roles": [
             "TANK",
             "SUPPORT",
@@ -22970,7 +32498,13 @@ const dokkanCharacters = [
             1003,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Realm of Gods",
+            "Majin Buu Saga",
+            "Potara",
+            "Joined Forces",
+            "Fused Fighters"
+        ],
         "roles": [
             "HEALER"
         ]
@@ -22996,7 +32530,16 @@ const dokkanCharacters = [
             1003,
             118
         ],
-        "categories": [],
+        "categories": [
+            "World Tournament",
+            "Resurrected Warriors",
+            "Majin Buu Saga",
+            "Youth",
+            "Bond of Master and Disciple",
+            "Earthlings",
+            "Earth-Bred Fighters",
+            "Tournament Participants"
+        ],
         "roles": []
     },
     {
@@ -23019,7 +32562,20 @@ const dokkanCharacters = [
             47,
             97
         ],
-        "categories": [],
+        "categories": [
+            "Majin Buu Saga",
+            "Pure Saiyans",
+            "Goku's Family",
+            "Super Saiyans",
+            "Kamehameha",
+            "Turtle School",
+            "Bond of Friendship",
+            "Accelerated Battle",
+            "Battle of Fate",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters",
+            "Earth-Protecting Heroes"
+        ],
         "roles": []
     },
     {
@@ -23042,7 +32598,21 @@ const dokkanCharacters = [
             26,
             97
         ],
-        "categories": [],
+        "categories": [
+            "Resurrected Warriors",
+            "Majin Buu Saga",
+            "Pure Saiyans",
+            "Vegeta's Family",
+            "Super Saiyans",
+            "Worthy Rivals",
+            "Otherworld Warriors",
+            "Gifted Warriors",
+            "Time Limit",
+            "Mastered Evolution",
+            "Battle of Fate",
+            "Bond of Parent and Child",
+            "Successors"
+        ],
         "roles": []
     },
     {
@@ -23112,7 +32682,16 @@ const dokkanCharacters = [
             49,
             125
         ],
-        "categories": [],
+        "categories": [
+            "Hybrid Saiyans",
+            "Goku's Family",
+            "Youth",
+            "Bond of Master and Disciple",
+            "Giant Ape Power",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters",
+            "Uncontrollable Power"
+        ],
         "roles": []
     },
     {
@@ -23136,7 +32715,17 @@ const dokkanCharacters = [
             118,
             125
         ],
-        "categories": [],
+        "categories": [
+            "World Tournament",
+            "Majin Buu Saga",
+            "Earthlings",
+            "Saviors",
+            "Bond of Friendship",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters",
+            "Tournament Participants",
+            "Earth-Protecting Heroes"
+        ],
         "roles": []
     },
     {
@@ -23160,7 +32749,25 @@ const dokkanCharacters = [
             1003,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Majin Buu Saga",
+            "Super Saiyan 3",
+            "Pure Saiyans",
+            "Goku's Family",
+            "Kamehameha",
+            "Final Trump Card",
+            "Connected Hope",
+            "Turtle School",
+            "Mastered Evolution",
+            "Bond of Friendship",
+            "Accelerated Battle",
+            "Battle of Fate",
+            "Power Beyond Super Saiyan",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters",
+            "Power of Wishes",
+            "Earth-Protecting Heroes"
+        ],
         "roles": []
     },
     {
@@ -23184,7 +32791,19 @@ const dokkanCharacters = [
             1003,
             118
         ],
-        "categories": [],
+        "categories": [
+            "World Tournament",
+            "Majin Buu Saga",
+            "Earthlings",
+            "Saviors",
+            "Gifted Warriors",
+            "Bond of Friendship",
+            "Battle of Fate",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters",
+            "Tournament Participants",
+            "Earth-Protecting Heroes"
+        ],
         "roles": [
             "TANK",
             "SUPPORT"
@@ -23211,7 +32830,15 @@ const dokkanCharacters = [
             2,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Majin Buu Saga",
+            "Worthy Rivals",
+            "Earthlings",
+            "Saviors",
+            "Connected Hope",
+            "Bond of Friendship",
+            "Earth-Bred Fighters"
+        ],
         "roles": [
             "SUPPORT"
         ]
@@ -23237,7 +32864,17 @@ const dokkanCharacters = [
             1004,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Majin Buu Saga",
+            "Transformation Boost",
+            "Artificial Life Forms",
+            "Majin Power",
+            "Power Absorption",
+            "Sworn Enemies",
+            "Worldwide Chaos",
+            "Demonic Power",
+            "Uncontrollable Power"
+        ],
         "roles": [
             "HEALER",
             "SUPPORT"
@@ -23264,7 +32901,12 @@ const dokkanCharacters = [
             97,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Pure Saiyans",
+            "Youth",
+            "Gifted Warriors",
+            "Bond of Friendship"
+        ],
         "roles": []
     },
     {
@@ -23288,7 +32930,14 @@ const dokkanCharacters = [
             97,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Pure Saiyans",
+            "Joined Forces",
+            "Youth",
+            "Terrifying Conquerors",
+            "Space-Traveling Warriors",
+            "Mission Execution"
+        ],
         "roles": []
     },
     {
@@ -23310,7 +32959,13 @@ const dokkanCharacters = [
             26,
             58
         ],
-        "categories": [],
+        "categories": [
+            "Pure Saiyans",
+            "Vegeta's Family",
+            "Androids/Cell Saga",
+            "Gifted Warriors",
+            "Successors"
+        ],
         "roles": []
     },
     {
@@ -23332,7 +32987,20 @@ const dokkanCharacters = [
             85,
             119
         ],
-        "categories": [],
+        "categories": [
+            "Planet Namek Saga",
+            "Transformation Boost",
+            "Wicked Bloodline",
+            "Terrifying Conquerors",
+            "Exploding Rage",
+            "Inhuman Deeds",
+            "Space-Traveling Warriors",
+            "Gifted Warriors",
+            "Planetary Destruction",
+            "Sworn Enemies",
+            "Accelerated Battle",
+            "Successors"
+        ],
         "roles": []
     },
     {
@@ -23355,7 +33023,19 @@ const dokkanCharacters = [
             60,
             97
         ],
-        "categories": [],
+        "categories": [
+            "Realm of Gods",
+            "Pure Saiyans",
+            "Goku's Family",
+            "Kamehameha",
+            "Turtle School",
+            "Mastered Evolution",
+            "Bond of Friendship",
+            "Accelerated Battle",
+            "Power Beyond Super Saiyan",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters"
+        ],
         "roles": []
     },
     {
@@ -23446,7 +33126,24 @@ const dokkanCharacters = [
             85,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Resurrected Warriors",
+            "Movie Bosses",
+            "Full Power",
+            "Transformation Boost",
+            "Wicked Bloodline",
+            "Terrifying Conquerors",
+            "Target: Goku",
+            "Revenge",
+            "Inhuman Deeds",
+            "Gifted Warriors",
+            "Planetary Destruction",
+            "Mastered Evolution",
+            "Sworn Enemies",
+            "Battle of Fate",
+            "Power of Wishes",
+            "Successors"
+        ],
         "roles": []
     },
     {
@@ -23470,7 +33167,24 @@ const dokkanCharacters = [
             85,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Resurrected Warriors",
+            "Movie Bosses",
+            "Full Power",
+            "Transformation Boost",
+            "Wicked Bloodline",
+            "Terrifying Conquerors",
+            "Target: Goku",
+            "Revenge",
+            "Inhuman Deeds",
+            "Gifted Warriors",
+            "Planetary Destruction",
+            "Mastered Evolution",
+            "Sworn Enemies",
+            "Battle of Fate",
+            "Power of Wishes",
+            "Successors"
+        ],
         "roles": [
             "TANK"
         ]
@@ -23496,7 +33210,24 @@ const dokkanCharacters = [
             97,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Hybrid Saiyans",
+            "Future Saga",
+            "Time Travelers",
+            "Vegeta's Family",
+            "Super Saiyans",
+            "Bond of Master and Disciple",
+            "Revenge",
+            "Battle of Wits",
+            "Miraculous Awakening",
+            "Entrusted Will",
+            "Battle of Fate",
+            "Bond of Parent and Child",
+            "Super Heroes",
+            "Earth-Bred Fighters",
+            "Power of Wishes",
+            "Earth-Protecting Heroes"
+        ],
         "roles": [
             "DPS / NUKER"
         ]
@@ -23522,7 +33253,25 @@ const dokkanCharacters = [
             60,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Realm of Gods",
+            "Pure Saiyans",
+            "Goku's Family",
+            "Super Saiyans",
+            "Kamehameha",
+            "Turtle School",
+            "Miraculous Awakening",
+            "Legendary Existence",
+            "Bond of Friendship",
+            "Accelerated Battle",
+            "Battle of Fate",
+            "Power Beyond Super Saiyan",
+            "Bond of Parent and Child",
+            "Super Heroes",
+            "Earth-Bred Fighters",
+            "Power of Wishes",
+            "Earth-Protecting Heroes"
+        ],
         "roles": [
             "HEALER"
         ]
@@ -23548,7 +33297,12 @@ const dokkanCharacters = [
             37,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Realm of Gods",
+            "Siblings' Bond",
+            "Bond of Master and Disciple",
+            "Space-Traveling Warriors"
+        ],
         "roles": [
             "HEALER",
             "SUPPORT"
@@ -23574,7 +33328,20 @@ const dokkanCharacters = [
             97,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Majin Buu Saga",
+            "Pure Saiyans",
+            "Goku's Family",
+            "Kamehameha",
+            "Super Saiyan 2",
+            "Turtle School",
+            "Mastered Evolution",
+            "Bond of Friendship",
+            "Accelerated Battle",
+            "Power Beyond Super Saiyan",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters"
+        ],
         "roles": [
             "SUPPORT"
         ]
@@ -23599,7 +33366,20 @@ const dokkanCharacters = [
             61,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Majin Buu Saga",
+            "Pure Saiyans",
+            "Goku's Family",
+            "Kamehameha",
+            "Super Saiyan 2",
+            "Turtle School",
+            "Mastered Evolution",
+            "Bond of Friendship",
+            "Accelerated Battle",
+            "Power Beyond Super Saiyan",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters"
+        ],
         "roles": [
             "SUPPORT"
         ]
@@ -23625,7 +33405,20 @@ const dokkanCharacters = [
             97,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Majin Buu Saga",
+            "Pure Saiyans",
+            "Goku's Family",
+            "Kamehameha",
+            "Super Saiyan 2",
+            "Turtle School",
+            "Mastered Evolution",
+            "Bond of Friendship",
+            "Accelerated Battle",
+            "Power Beyond Super Saiyan",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters"
+        ],
         "roles": [
             "SUPPORT"
         ]
@@ -23651,7 +33444,18 @@ const dokkanCharacters = [
             1003,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Resurrected Warriors",
+            "Majin Buu Saga",
+            "Pure Saiyans",
+            "Vegeta's Family",
+            "Worthy Rivals",
+            "Super Saiyan 2",
+            "Corroded Body and Mind",
+            "Gifted Warriors",
+            "Power Beyond Super Saiyan",
+            "Uncontrollable Power"
+        ],
         "roles": [
             "DPS / NUKER"
         ]
@@ -23677,7 +33481,22 @@ const dokkanCharacters = [
             1003,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Resurrected Warriors",
+            "Majin Buu Saga",
+            "Pure Saiyans",
+            "Goku's Family",
+            "Otherworld Warriors",
+            "Super Saiyan 2",
+            "Turtle School",
+            "Time Limit",
+            "Mastered Evolution",
+            "Bond of Friendship",
+            "Accelerated Battle",
+            "Power Beyond Super Saiyan",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters"
+        ],
         "roles": [
             "HEALER",
             "DPS / NUKER"
@@ -23704,7 +33523,15 @@ const dokkanCharacters = [
             120,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Majin Buu Saga",
+            "Siblings' Bond",
+            "Terrifying Conquerors",
+            "Corroded Body and Mind",
+            "Demonic Power",
+            "Successors",
+            "Mission Execution"
+        ],
         "roles": [
             "SUPPORT"
         ]
@@ -23730,7 +33557,19 @@ const dokkanCharacters = [
             1003,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Hybrid Saiyans",
+            "Majin Buu Saga",
+            "Goku's Family",
+            "Siblings' Bond",
+            "Super Saiyans",
+            "Kamehameha",
+            "Special Pose",
+            "Defenders of Justice",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters",
+            "Demonic Power"
+        ],
         "roles": [
             "SUPPORT"
         ]
@@ -23755,7 +33594,20 @@ const dokkanCharacters = [
             9,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Hybrid Saiyans",
+            "Future Saga",
+            "Time Travelers",
+            "Vegeta's Family",
+            "Super Saiyans",
+            "Androids/Cell Saga",
+            "Bond of Master and Disciple",
+            "Saviors",
+            "Battle of Wits",
+            "Entrusted Will",
+            "Earth-Bred Fighters",
+            "Earth-Protecting Heroes"
+        ],
         "roles": []
     },
     {
@@ -23779,7 +33631,20 @@ const dokkanCharacters = [
             50,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Realm of Gods",
+            "Potara",
+            "Future Saga",
+            "Time Travelers",
+            "Final Trump Card",
+            "Exploding Rage",
+            "Worldwide Chaos",
+            "Battle of Fate",
+            "Fused Fighters",
+            "Power of Wishes",
+            "Super Bosses",
+            "Successors"
+        ],
         "roles": [
             "SUPPORT"
         ]
@@ -23805,7 +33670,15 @@ const dokkanCharacters = [
             1000,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Pure Saiyans",
+            "Vegeta's Family",
+            "Super Saiyans",
+            "Androids/Cell Saga",
+            "Gifted Warriors",
+            "Mastered Evolution",
+            "Successors"
+        ],
         "roles": []
     },
     {
@@ -23829,7 +33702,14 @@ const dokkanCharacters = [
             120,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Androids",
+            "Siblings' Bond",
+            "Androids/Cell Saga",
+            "Target: Goku",
+            "Uncontrollable Power",
+            "Mission Execution"
+        ],
         "roles": [
             "DPS / NUKER"
         ]
@@ -23855,7 +33735,16 @@ const dokkanCharacters = [
             119,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Peppy Gals",
+            "Androids",
+            "Siblings' Bond",
+            "Androids/Cell Saga",
+            "Target: Goku",
+            "Battle of Wits",
+            "Uncontrollable Power",
+            "Mission Execution"
+        ],
         "roles": [
             "DPS / NUKER"
         ]
@@ -23881,7 +33770,15 @@ const dokkanCharacters = [
             97,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Low-Class Warrior",
+            "Pure Saiyans",
+            "Goku's Family",
+            "Terrifying Conquerors",
+            "Space-Traveling Warriors",
+            "Saiyan Saga",
+            "Mission Execution"
+        ],
         "roles": [
             "TANK",
             "DPS / NUKER"
@@ -23908,7 +33805,16 @@ const dokkanCharacters = [
             1001,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Namekians",
+            "Worthy Rivals",
+            "Bond of Master and Disciple",
+            "Battle of Wits",
+            "Gifted Warriors",
+            "Earth-Bred Fighters",
+            "Demonic Power",
+            "Successors"
+        ],
         "roles": [
             "SUPPORT"
         ]
@@ -23931,7 +33837,11 @@ const dokkanCharacters = [
             90,
             102
         ],
-        "categories": [],
+        "categories": [
+            "DB Saga",
+            "Earthlings",
+            "Mission Execution"
+        ],
         "roles": [
             "TANK"
         ]
@@ -23979,7 +33889,23 @@ const dokkanCharacters = [
             47,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Hybrid Saiyans",
+            "Goku's Family",
+            "Youth",
+            "Super Saiyans",
+            "Androids/Cell Saga",
+            "Kamehameha",
+            "Bond of Master and Disciple",
+            "Rapid Growth",
+            "Heavenly Events",
+            "Mastered Evolution",
+            "Entrusted Will",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters",
+            "Tournament Participants",
+            "Demonic Power"
+        ],
         "roles": []
     },
     {
@@ -24003,7 +33929,17 @@ const dokkanCharacters = [
             1000,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Pure Saiyans",
+            "Goku's Family",
+            "Super Saiyans",
+            "Kamehameha",
+            "Turtle School",
+            "Bond of Friendship",
+            "Accelerated Battle",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters"
+        ],
         "roles": []
     },
     {
@@ -24026,7 +33962,19 @@ const dokkanCharacters = [
             60,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Realm of Gods",
+            "Movie Bosses",
+            "Siblings' Bond",
+            "Worthy Rivals",
+            "Bond of Master and Disciple",
+            "Exploding Rage",
+            "Space-Traveling Warriors",
+            "Planetary Destruction",
+            "Legendary Existence",
+            "Battle of Fate",
+            "Successors"
+        ],
         "roles": []
     },
     {
@@ -24050,7 +33998,22 @@ const dokkanCharacters = [
             34,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Fusion",
+            "Hybrid Saiyans",
+            "Majin Buu Saga",
+            "Youth",
+            "Super Saiyans",
+            "Special Pose",
+            "Rapid Growth",
+            "Connected Hope",
+            "Gifted Warriors",
+            "Heavenly Events",
+            "Time Limit",
+            "Entrusted Will",
+            "Fused Fighters",
+            "Earth-Bred Fighters"
+        ],
         "roles": []
     },
     {
@@ -24074,7 +34037,22 @@ const dokkanCharacters = [
             34,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Fusion",
+            "Hybrid Saiyans",
+            "Majin Buu Saga",
+            "Youth",
+            "Super Saiyans",
+            "Special Pose",
+            "Rapid Growth",
+            "Connected Hope",
+            "Gifted Warriors",
+            "Heavenly Events",
+            "Time Limit",
+            "Entrusted Will",
+            "Fused Fighters",
+            "Earth-Bred Fighters"
+        ],
         "roles": []
     },
     {
@@ -24098,7 +34076,21 @@ const dokkanCharacters = [
             66,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Hybrid Saiyans",
+            "Future Saga",
+            "Time Travelers",
+            "Vegeta's Family",
+            "Super Saiyans",
+            "Androids/Cell Saga",
+            "Bond of Master and Disciple",
+            "Revenge",
+            "Battle of Wits",
+            "Entrusted Will",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters",
+            "Earth-Protecting Heroes"
+        ],
         "roles": []
     },
     {
@@ -24121,7 +34113,18 @@ const dokkanCharacters = [
             97,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Pure Saiyans",
+            "Movie Heroes",
+            "Goku's Family",
+            "Super Saiyans",
+            "Turtle School",
+            "Powerful Comeback",
+            "Bond of Friendship",
+            "Accelerated Battle",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters"
+        ],
         "roles": []
     },
     {
@@ -24145,7 +34148,18 @@ const dokkanCharacters = [
             1004,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Majin Buu Saga",
+            "Transformation Boost",
+            "Artificial Life Forms",
+            "Kamehameha",
+            "Majin Power",
+            "Power Absorption",
+            "Sworn Enemies",
+            "Worldwide Chaos",
+            "Demonic Power",
+            "Uncontrollable Power"
+        ],
         "roles": []
     },
     {
@@ -24169,7 +34183,23 @@ const dokkanCharacters = [
             97,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Resurrected Warriors",
+            "Majin Buu Saga",
+            "Pure Saiyans",
+            "Vegeta's Family",
+            "Worthy Rivals",
+            "Super Saiyan 2",
+            "All-Out Struggle",
+            "Connected Hope",
+            "Gifted Warriors",
+            "Mastered Evolution",
+            "Battle of Fate",
+            "Power Beyond Super Saiyan",
+            "Bond of Parent and Child",
+            "Power of Wishes",
+            "Successors"
+        ],
         "roles": []
     },
     {
@@ -24193,7 +34223,15 @@ const dokkanCharacters = [
             120,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Movie Bosses",
+            "Androids",
+            "Artificial Life Forms",
+            "Target: Goku",
+            "Power Absorption",
+            "Fused Fighters",
+            "Mission Execution"
+        ],
         "roles": []
     },
     {
@@ -24217,7 +34255,15 @@ const dokkanCharacters = [
             120,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Movie Bosses",
+            "Androids",
+            "Artificial Life Forms",
+            "Target: Goku",
+            "Power Absorption",
+            "Fused Fighters",
+            "Mission Execution"
+        ],
         "roles": [
             "DPS / NUKER"
         ]
@@ -24243,7 +34289,17 @@ const dokkanCharacters = [
             120,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Resurrected Warriors",
+            "Movie Bosses",
+            "Wicked Bloodline",
+            "Artificial Life Forms",
+            "Terrifying Conquerors",
+            "Target: Goku",
+            "Revenge",
+            "Corroded Body and Mind",
+            "Accelerated Battle"
+        ],
         "roles": [
             "SUPPORT"
         ]
@@ -24269,7 +34325,20 @@ const dokkanCharacters = [
             47,
             66
         ],
-        "categories": [],
+        "categories": [
+            "Hybrid Saiyans",
+            "Future Saga",
+            "Goku's Family",
+            "Super Saiyans",
+            "Androids/Cell Saga",
+            "Kamehameha",
+            "Bond of Master and Disciple",
+            "All-Out Struggle",
+            "Connected Hope",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters",
+            "Demonic Power"
+        ],
         "roles": [
             "DPS / NUKER"
         ]
@@ -24294,7 +34363,11 @@ const dokkanCharacters = [
             127,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Shadow Dragon Saga",
+            "GT Bosses",
+            "Accelerated Battle"
+        ],
         "roles": []
     },
     {
@@ -24344,7 +34417,24 @@ const dokkanCharacters = [
             60,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Resurrected Warriors",
+            "Full Power",
+            "Androids",
+            "Transformation Boost",
+            "Time Travelers",
+            "Artificial Life Forms",
+            "Androids/Cell Saga",
+            "Kamehameha",
+            "Revenge",
+            "Miraculous Awakening",
+            "Planetary Destruction",
+            "Sworn Enemies",
+            "Accelerated Battle",
+            "Worldwide Chaos",
+            "Battle of Fate",
+            "Tournament Participants"
+        ],
         "roles": []
     },
     {
@@ -24368,7 +34458,17 @@ const dokkanCharacters = [
             60,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Hybrid Saiyans",
+            "Movie Heroes",
+            "Goku's Family",
+            "Youth",
+            "Bond of Master and Disciple",
+            "Bond of Friendship",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters",
+            "Demonic Power"
+        ],
         "roles": [
             "HEALER",
             "DPS / NUKER"
@@ -24394,7 +34494,25 @@ const dokkanCharacters = [
             45,
             97
         ],
-        "categories": [],
+        "categories": [
+            "Hybrid Saiyans",
+            "Full Power",
+            "Movie Heroes",
+            "Goku's Family",
+            "Youth",
+            "Bond of Master and Disciple",
+            "Super Saiyan 2",
+            "Exploding Rage",
+            "All-Out Struggle",
+            "Powerful Comeback",
+            "Entrusted Will",
+            "Power Beyond Super Saiyan",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters",
+            "Tournament Participants",
+            "Demonic Power",
+            "Earth-Protecting Heroes"
+        ],
         "roles": []
     },
     {
@@ -24418,7 +34536,24 @@ const dokkanCharacters = [
             60,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Resurrected Warriors",
+            "Movie Bosses",
+            "Full Power",
+            "Transformation Boost",
+            "Wicked Bloodline",
+            "Terrifying Conquerors",
+            "Target: Goku",
+            "Revenge",
+            "Inhuman Deeds",
+            "Gifted Warriors",
+            "Planetary Destruction",
+            "Mastered Evolution",
+            "Sworn Enemies",
+            "Battle of Fate",
+            "Power of Wishes",
+            "Successors"
+        ],
         "roles": [
             "TANK"
         ]
@@ -24467,7 +34602,23 @@ const dokkanCharacters = [
             97,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Realm of Gods",
+            "Pure Saiyans",
+            "Movie Heroes",
+            "Goku's Family",
+            "Kamehameha",
+            "Bond of Master and Disciple",
+            "Turtle School",
+            "Mastered Evolution",
+            "Bond of Friendship",
+            "Accelerated Battle",
+            "Battle of Fate",
+            "Power Beyond Super Saiyan",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters",
+            "Earth-Protecting Heroes"
+        ],
         "roles": [
             "DPS / NUKER"
         ]
@@ -24493,7 +34644,21 @@ const dokkanCharacters = [
             97,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Realm of Gods",
+            "Pure Saiyans",
+            "Movie Heroes",
+            "Vegeta's Family",
+            "Siblings' Bond",
+            "Worthy Rivals",
+            "Bond of Master and Disciple",
+            "Gifted Warriors",
+            "Mastered Evolution",
+            "Battle of Fate",
+            "Power Beyond Super Saiyan",
+            "Bond of Parent and Child",
+            "Successors"
+        ],
         "roles": [
             "DPS / NUKER"
         ]
@@ -24519,7 +34684,12 @@ const dokkanCharacters = [
             130,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Universe Survival Saga",
+            "Giant Form",
+            "Siblings' Bond",
+            "Tournament Participants"
+        ],
         "roles": []
     },
     {
@@ -24543,7 +34713,13 @@ const dokkanCharacters = [
             80,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Realm of Gods",
+            "Universe 6",
+            "Siblings' Bond",
+            "Bond of Master and Disciple",
+            "Space-Traveling Warriors"
+        ],
         "roles": [
             "SUPPORT"
         ]
@@ -24585,7 +34761,18 @@ const dokkanCharacters = [
             47,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Fusion",
+            "Movie Heroes",
+            "Kamehameha",
+            "Final Trump Card",
+            "Powerful Comeback",
+            "Time Limit",
+            "Accelerated Battle",
+            "Fused Fighters",
+            "Super Heroes",
+            "Earth-Protecting Heroes"
+        ],
         "roles": []
     },
     {
@@ -24608,7 +34795,21 @@ const dokkanCharacters = [
             4,
             82
         ],
-        "categories": [],
+        "categories": [
+            "Fusion",
+            "Hybrid Saiyans",
+            "Super Saiyan 3",
+            "Youth",
+            "Final Trump Card",
+            "Special Pose",
+            "Gifted Warriors",
+            "Time Limit",
+            "Mastered Evolution",
+            "Power Beyond Super Saiyan",
+            "Fused Fighters",
+            "Super Heroes",
+            "Earth-Bred Fighters"
+        ],
         "roles": []
     },
     {
@@ -24632,7 +34833,12 @@ const dokkanCharacters = [
             97,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Transformation Boost",
+            "Artificial Life Forms",
+            "Power Beyond Super Saiyan",
+            "Super Bosses"
+        ],
         "roles": []
     },
     {
@@ -24679,7 +34885,18 @@ const dokkanCharacters = [
             97,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Movie Bosses",
+            "Pure Saiyans",
+            "Full Power",
+            "Target: Goku",
+            "Exploding Rage",
+            "Inhuman Deeds",
+            "Planetary Destruction",
+            "Legendary Existence",
+            "Power Beyond Super Saiyan",
+            "Uncontrollable Power"
+        ],
         "roles": []
     },
     {
@@ -24703,7 +34920,19 @@ const dokkanCharacters = [
             50,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Planet Namek Saga",
+            "Transformation Boost",
+            "Wicked Bloodline",
+            "Terrifying Conquerors",
+            "Inhuman Deeds",
+            "Space-Traveling Warriors",
+            "Gifted Warriors",
+            "Planetary Destruction",
+            "Sworn Enemies",
+            "Accelerated Battle",
+            "Successors"
+        ],
         "roles": []
     },
     {
@@ -24727,7 +34956,19 @@ const dokkanCharacters = [
             60,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Planet Namek Saga",
+            "Transformation Boost",
+            "Wicked Bloodline",
+            "Terrifying Conquerors",
+            "Inhuman Deeds",
+            "Space-Traveling Warriors",
+            "Gifted Warriors",
+            "Planetary Destruction",
+            "Sworn Enemies",
+            "Accelerated Battle",
+            "Successors"
+        ],
         "roles": []
     },
     {
@@ -24749,7 +34990,14 @@ const dokkanCharacters = [
             90,
             36
         ],
-        "categories": [],
+        "categories": [
+            "DB Saga",
+            "Bond of Master and Disciple",
+            "Earthlings",
+            "Turtle School",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters"
+        ],
         "roles": [
             "SUPPORT"
         ]
@@ -24799,7 +35047,27 @@ const dokkanCharacters = [
             97,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Hybrid Saiyans",
+            "Full Power",
+            "Goku's Family",
+            "Youth",
+            "Androids/Cell Saga",
+            "Kamehameha",
+            "Bond of Master and Disciple",
+            "Super Saiyan 2",
+            "Exploding Rage",
+            "All-Out Struggle",
+            "Miraculous Awakening",
+            "Entrusted Will",
+            "Battle of Fate",
+            "Power Beyond Super Saiyan",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters",
+            "Tournament Participants",
+            "Demonic Power",
+            "Earth-Protecting Heroes"
+        ],
         "roles": []
     },
     {
@@ -24823,7 +35091,21 @@ const dokkanCharacters = [
             97,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Pure Saiyans",
+            "Full Power",
+            "Vegeta's Family",
+            "Super Saiyans",
+            "Worthy Rivals",
+            "Androids/Cell Saga",
+            "Bond of Master and Disciple",
+            "Rapid Growth",
+            "Gifted Warriors",
+            "Heavenly Events",
+            "Mastered Evolution",
+            "Power Beyond Super Saiyan",
+            "Successors"
+        ],
         "roles": []
     },
     {
@@ -24847,7 +35129,21 @@ const dokkanCharacters = [
             47,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Pure Saiyans",
+            "Goku's Family",
+            "Super Saiyans",
+            "Androids/Cell Saga",
+            "Kamehameha",
+            "Bond of Master and Disciple",
+            "Rapid Growth",
+            "Turtle School",
+            "Heavenly Events",
+            "Bond of Friendship",
+            "Accelerated Battle",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters"
+        ],
         "roles": [
             "SUPPORT"
         ]
@@ -24873,7 +35169,14 @@ const dokkanCharacters = [
             37,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Androids/Cell Saga",
+            "Earthlings",
+            "Battle of Wits",
+            "Turtle School",
+            "Bond of Friendship",
+            "Earth-Bred Fighters"
+        ],
         "roles": []
     },
     {
@@ -24897,7 +35200,16 @@ const dokkanCharacters = [
             67,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Peppy Gals",
+            "Androids",
+            "Siblings' Bond",
+            "Androids/Cell Saga",
+            "Target: Goku",
+            "Battle of Wits",
+            "Uncontrollable Power",
+            "Mission Execution"
+        ],
         "roles": [
             "DPS / NUKER"
         ]
@@ -24922,7 +35234,14 @@ const dokkanCharacters = [
             10,
             1001
         ],
-        "categories": [],
+        "categories": [
+            "World Tournament",
+            "Androids/Cell Saga",
+            "Earthlings",
+            "Earth-Bred Fighters",
+            "Tournament Participants",
+            "Earth-Protecting Heroes"
+        ],
         "roles": []
     },
     {
@@ -24945,7 +35264,19 @@ const dokkanCharacters = [
             119,
             108
         ],
-        "categories": [],
+        "categories": [
+            "Androids",
+            "Transformation Boost",
+            "Time Travelers",
+            "Artificial Life Forms",
+            "Androids/Cell Saga",
+            "Target: Goku",
+            "Power Absorption",
+            "Sworn Enemies",
+            "Accelerated Battle",
+            "Worldwide Chaos",
+            "Tournament Participants"
+        ],
         "roles": []
     },
     {
@@ -25014,7 +35345,21 @@ const dokkanCharacters = [
             103,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Hybrid Saiyans",
+            "Majin Buu Saga",
+            "Goku's Family",
+            "Siblings' Bond",
+            "Revenge",
+            "Rapid Growth",
+            "Saviors",
+            "Powerful Comeback",
+            "Entrusted Will",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters",
+            "Power of Wishes",
+            "Demonic Power"
+        ],
         "roles": []
     },
     {
@@ -25038,7 +35383,22 @@ const dokkanCharacters = [
             1003,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Hybrid Saiyans",
+            "Majin Buu Saga",
+            "Goku's Family",
+            "Siblings' Bond",
+            "Kamehameha",
+            "Revenge",
+            "Rapid Growth",
+            "Saviors",
+            "Powerful Comeback",
+            "Entrusted Will",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters",
+            "Power of Wishes",
+            "Demonic Power"
+        ],
         "roles": []
     },
     {
@@ -25062,7 +35422,23 @@ const dokkanCharacters = [
             95,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Shadow Dragon Saga",
+            "Pure Saiyans",
+            "Goku's Family",
+            "Final Trump Card",
+            "Connected Hope",
+            "Turtle School",
+            "Powerful Comeback",
+            "GT Heroes",
+            "Bond of Friendship",
+            "Accelerated Battle",
+            "Battle of Fate",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters",
+            "Power of Wishes",
+            "Earth-Protecting Heroes"
+        ],
         "roles": []
     },
     {
@@ -25086,7 +35462,16 @@ const dokkanCharacters = [
             9,
             118
         ],
-        "categories": [],
+        "categories": [
+            "World Tournament",
+            "Hybrid Saiyans",
+            "Vegeta's Family",
+            "Youth",
+            "Super Saiyans",
+            "GT Heroes",
+            "Earth-Bred Fighters",
+            "Tournament Participants"
+        ],
         "roles": []
     },
     {
@@ -25110,7 +35495,20 @@ const dokkanCharacters = [
             97,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Hybrid Saiyans",
+            "Dragon Ball Seekers",
+            "Vegeta's Family",
+            "Siblings' Bond",
+            "Super Saiyans",
+            "Battle of Wits",
+            "Space-Traveling Warriors",
+            "GT Heroes",
+            "Bond of Friendship",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters",
+            "Successors"
+        ],
         "roles": []
     },
     {
@@ -25134,7 +35532,18 @@ const dokkanCharacters = [
             97,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Pure Saiyans",
+            "Goku's Family",
+            "Super Saiyan 2",
+            "Turtle School",
+            "GT Heroes",
+            "Bond of Friendship",
+            "Accelerated Battle",
+            "Power Beyond Super Saiyan",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters"
+        ],
         "roles": [
             "DPS / NUKER"
         ]
@@ -25158,7 +35567,19 @@ const dokkanCharacters = [
             39,
             95
         ],
-        "categories": [],
+        "categories": [
+            "Shadow Dragon Saga",
+            "Hybrid Saiyans",
+            "Vegeta's Family",
+            "Siblings' Bond",
+            "Super Saiyans",
+            "Battle of Wits",
+            "GT Heroes",
+            "Bond of Friendship",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters",
+            "Successors"
+        ],
         "roles": [
             "SUPPORT"
         ]
@@ -25208,7 +35629,16 @@ const dokkanCharacters = [
             9,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Hybrid Saiyans",
+            "Dragon Ball Seekers",
+            "Goku's Family",
+            "Youth",
+            "Super Saiyans",
+            "Miraculous Awakening",
+            "GT Heroes",
+            "Earth-Bred Fighters"
+        ],
         "roles": []
     },
     {
@@ -25231,7 +35661,20 @@ const dokkanCharacters = [
             97,
             124
         ],
-        "categories": [],
+        "categories": [
+            "Pure Saiyans",
+            "Goku's Family",
+            "Kamehameha",
+            "Giant Ape Power",
+            "Turtle School",
+            "GT Heroes",
+            "Bond of Friendship",
+            "Accelerated Battle",
+            "Battle of Fate",
+            "Power Beyond Super Saiyan",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters"
+        ],
         "roles": [
             "SUPPORT"
         ]
@@ -25281,7 +35724,20 @@ const dokkanCharacters = [
             20,
             30
         ],
-        "categories": [],
+        "categories": [
+            "World Tournament",
+            "Majin Buu Saga",
+            "Pure Saiyans",
+            "Goku's Family",
+            "Kamehameha",
+            "Bond of Master and Disciple",
+            "Turtle School",
+            "Bond of Friendship",
+            "Accelerated Battle",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters",
+            "Tournament Participants"
+        ],
         "roles": [
             "SUPPORT"
         ]
@@ -25332,7 +35788,18 @@ const dokkanCharacters = [
             1003,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Resurrected Warriors",
+            "Majin Buu Saga",
+            "Pure Saiyans",
+            "Vegeta's Family",
+            "Worthy Rivals",
+            "Super Saiyan 2",
+            "Corroded Body and Mind",
+            "Gifted Warriors",
+            "Power Beyond Super Saiyan",
+            "Uncontrollable Power"
+        ],
         "roles": []
     },
     {
@@ -25356,7 +35823,22 @@ const dokkanCharacters = [
             1003,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Resurrected Warriors",
+            "Majin Buu Saga",
+            "Pure Saiyans",
+            "Goku's Family",
+            "Otherworld Warriors",
+            "Super Saiyan 2",
+            "Turtle School",
+            "Time Limit",
+            "Mastered Evolution",
+            "Bond of Friendship",
+            "Accelerated Battle",
+            "Power Beyond Super Saiyan",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters"
+        ],
         "roles": []
     },
     {
@@ -25380,7 +35862,17 @@ const dokkanCharacters = [
             90,
             109
         ],
-        "categories": [],
+        "categories": [
+            "DB Saga",
+            "Bond of Master and Disciple",
+            "Final Trump Card",
+            "Earthlings",
+            "All-Out Struggle",
+            "Battle of Wits",
+            "Connected Hope",
+            "Turtle School",
+            "Earth-Bred Fighters"
+        ],
         "roles": [
             "DPS / NUKER"
         ]
@@ -25406,7 +35898,23 @@ const dokkanCharacters = [
             119,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Resurrected Warriors",
+            "Namekians",
+            "Full Power",
+            "DB Saga",
+            "Terrifying Conquerors",
+            "Gifted Warriors",
+            "Storied Figures",
+            "Legendary Existence",
+            "Sworn Enemies",
+            "Accelerated Battle",
+            "Worldwide Chaos",
+            "Battle of Fate",
+            "Power of Wishes",
+            "Demonic Power",
+            "Successors"
+        ],
         "roles": []
     },
     {
@@ -25430,7 +35938,14 @@ const dokkanCharacters = [
             118,
             125
         ],
-        "categories": [],
+        "categories": [
+            "Dragon Ball Seekers",
+            "Joined Forces",
+            "Movie Heroes",
+            "Youth",
+            "DB Saga",
+            "Crossover"
+        ],
         "roles": [
             "TANK",
             "DPS / NUKER"
@@ -25457,7 +35972,19 @@ const dokkanCharacters = [
             1000,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Hybrid Saiyans",
+            "Majin Buu Saga",
+            "Movie Heroes",
+            "Goku's Family",
+            "Siblings' Bond",
+            "Super Saiyans",
+            "Defenders of Justice",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters",
+            "Demonic Power",
+            "Earth-Protecting Heroes"
+        ],
         "roles": [
             "SUPPORT"
         ]
@@ -25483,7 +36010,17 @@ const dokkanCharacters = [
             116,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Super Saiyan 3",
+            "Pure Saiyans",
+            "Vegeta's Family",
+            "Worthy Rivals",
+            "Crossover",
+            "Gifted Warriors",
+            "Power Beyond Super Saiyan",
+            "Bond of Parent and Child",
+            "Successors"
+        ],
         "roles": []
     },
     {
@@ -25507,7 +36044,24 @@ const dokkanCharacters = [
             108,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Resurrected Warriors",
+            "Full Power",
+            "Androids",
+            "Transformation Boost",
+            "Time Travelers",
+            "Artificial Life Forms",
+            "Androids/Cell Saga",
+            "Kamehameha",
+            "Revenge",
+            "Miraculous Awakening",
+            "Planetary Destruction",
+            "Sworn Enemies",
+            "Accelerated Battle",
+            "Worldwide Chaos",
+            "Battle of Fate",
+            "Tournament Participants"
+        ],
         "roles": []
     },
     {
@@ -25530,7 +36084,11 @@ const dokkanCharacters = [
             119,
             120
         ],
-        "categories": [],
+        "categories": [
+            "Artificial Life Forms",
+            "Terrifying Conquerors",
+            "Mission Execution"
+        ],
         "roles": [
             "TANK",
             "SUPPORT"
@@ -25582,7 +36140,12 @@ const dokkanCharacters = [
             42,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Worthy Rivals",
+            "Earthlings",
+            "Turtle School",
+            "Earth-Bred Fighters"
+        ],
         "roles": []
     },
     {
@@ -25606,7 +36169,23 @@ const dokkanCharacters = [
             97,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Realm of Gods",
+            "Pure Saiyans",
+            "Future Saga",
+            "Time Travelers",
+            "Vegeta's Family",
+            "Siblings' Bond",
+            "Worthy Rivals",
+            "Bond of Master and Disciple",
+            "Gifted Warriors",
+            "Mastered Evolution",
+            "Battle of Fate",
+            "Power Beyond Super Saiyan",
+            "Bond of Parent and Child",
+            "Super Heroes",
+            "Successors"
+        ],
         "roles": []
     },
     {
@@ -25630,7 +36209,21 @@ const dokkanCharacters = [
             97,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Hybrid Saiyans",
+            "Future Saga",
+            "Time Travelers",
+            "Vegeta's Family",
+            "Super Saiyans",
+            "Bond of Master and Disciple",
+            "Revenge",
+            "Battle of Wits",
+            "Entrusted Will",
+            "Battle of Fate",
+            "Bond of Parent and Child",
+            "Super Heroes",
+            "Earth-Bred Fighters"
+        ],
         "roles": [
             "SUPPORT"
         ]
@@ -25656,7 +36249,22 @@ const dokkanCharacters = [
             109,
             1004
         ],
-        "categories": [],
+        "categories": [
+            "Resurrected Warriors",
+            "Majin Buu Saga",
+            "Transformation Boost",
+            "Artificial Life Forms",
+            "Majin Power",
+            "Planetary Destruction",
+            "Storied Figures",
+            "Legendary Existence",
+            "Sworn Enemies",
+            "Accelerated Battle",
+            "Worldwide Chaos",
+            "Battle of Fate",
+            "Demonic Power",
+            "Uncontrollable Power"
+        ],
         "roles": [
             "HEALER"
         ]
@@ -25681,7 +36289,14 @@ const dokkanCharacters = [
             102,
             90
         ],
-        "categories": [],
+        "categories": [
+            "Peppy Gals",
+            "Dragon Ball Seekers",
+            "DB Saga",
+            "Earthlings",
+            "Earth-Bred Fighters",
+            "Mission Execution"
+        ],
         "roles": []
     },
     {
@@ -25728,7 +36343,21 @@ const dokkanCharacters = [
             97,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Realm of Gods",
+            "Pure Saiyans",
+            "Movie Heroes",
+            "Goku's Family",
+            "Kamehameha",
+            "Turtle School",
+            "Mastered Evolution",
+            "Bond of Friendship",
+            "Accelerated Battle",
+            "Power Beyond Super Saiyan",
+            "Bond of Parent and Child",
+            "Super Heroes",
+            "Earth-Bred Fighters"
+        ],
         "roles": []
     },
     {
@@ -25752,7 +36381,21 @@ const dokkanCharacters = [
             97,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Realm of Gods",
+            "Pure Saiyans",
+            "Movie Heroes",
+            "Vegeta's Family",
+            "Siblings' Bond",
+            "Worthy Rivals",
+            "Bond of Master and Disciple",
+            "Gifted Warriors",
+            "Mastered Evolution",
+            "Power Beyond Super Saiyan",
+            "Bond of Parent and Child",
+            "Super Heroes",
+            "Successors"
+        ],
         "roles": []
     },
     {
@@ -25776,7 +36419,23 @@ const dokkanCharacters = [
             18,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Movie Bosses",
+            "Full Power",
+            "Transformation Boost",
+            "Wicked Bloodline",
+            "Dragon Ball Seekers",
+            "Terrifying Conquerors",
+            "Target: Goku",
+            "Revenge",
+            "Inhuman Deeds",
+            "Space-Traveling Warriors",
+            "Gifted Warriors",
+            "Mastered Evolution",
+            "Sworn Enemies",
+            "Super Bosses",
+            "Successors"
+        ],
         "roles": [
             "TANK",
             "SUPPORT"
@@ -25803,7 +36462,16 @@ const dokkanCharacters = [
             97,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Movie Bosses",
+            "Pure Saiyans",
+            "Super Saiyans",
+            "Exploding Rage",
+            "Miraculous Awakening",
+            "Gifted Warriors",
+            "Super Bosses",
+            "Uncontrollable Power"
+        ],
         "roles": []
     },
     {
@@ -25827,7 +36495,17 @@ const dokkanCharacters = [
             97,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Movie Bosses",
+            "Pure Saiyans",
+            "Exploding Rage",
+            "Rapid Growth",
+            "Giant Ape Power",
+            "Gifted Warriors",
+            "Super Bosses",
+            "Uncontrollable Power",
+            "Mission Execution"
+        ],
         "roles": []
     },
     {
@@ -25851,7 +36529,23 @@ const dokkanCharacters = [
             109,
             1003
         ],
-        "categories": [],
+        "categories": [
+            "Majin Buu Saga",
+            "Super Saiyan 3",
+            "Pure Saiyans",
+            "Full Power",
+            "Movie Heroes",
+            "Goku's Family",
+            "Final Trump Card",
+            "Turtle School",
+            "Mastered Evolution",
+            "Bond of Friendship",
+            "Accelerated Battle",
+            "Power Beyond Super Saiyan",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters",
+            "Earth-Protecting Heroes"
+        ],
         "roles": []
     },
     {
@@ -25875,7 +36569,17 @@ const dokkanCharacters = [
             1004,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Majin Buu Saga",
+            "Transformation Boost",
+            "Artificial Life Forms",
+            "Majin Power",
+            "Power Absorption",
+            "Sworn Enemies",
+            "Worldwide Chaos",
+            "Demonic Power",
+            "Uncontrollable Power"
+        ],
         "roles": []
     },
     {
@@ -25898,7 +36602,12 @@ const dokkanCharacters = [
             80,
             1003
         ],
-        "categories": [],
+        "categories": [
+            "Realm of Gods",
+            "Majin Buu Saga",
+            "Potara",
+            "Storied Figures"
+        ],
         "roles": [
             "DPS / NUKER"
         ]
@@ -25973,7 +36682,13 @@ const dokkanCharacters = [
             130,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Universe Survival Saga",
+            "Universe 6",
+            "Joined Forces",
+            "Revenge",
+            "Tournament Participants"
+        ],
         "roles": [
             "TANK"
         ]
@@ -25999,7 +36714,13 @@ const dokkanCharacters = [
             130,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Universe Survival Saga",
+            "Universe 6",
+            "Joined Forces",
+            "Revenge",
+            "Tournament Participants"
+        ],
         "roles": []
     },
     {
@@ -26088,7 +36809,17 @@ const dokkanCharacters = [
             119,
             95
         ],
-        "categories": [],
+        "categories": [
+            "Transformation Boost",
+            "Wicked Bloodline",
+            "Target: Goku",
+            "Otherworld Warriors",
+            "Revenge",
+            "Gifted Warriors",
+            "GT Bosses",
+            "Sworn Enemies",
+            "Successors"
+        ],
         "roles": [
             "TANK",
             "SUPPORT"
@@ -26114,7 +36845,17 @@ const dokkanCharacters = [
             119,
             95
         ],
-        "categories": [],
+        "categories": [
+            "Androids",
+            "Transformation Boost",
+            "Time Travelers",
+            "Artificial Life Forms",
+            "Target: Goku",
+            "Otherworld Warriors",
+            "Revenge",
+            "GT Bosses",
+            "Sworn Enemies"
+        ],
         "roles": [
             "HEALER",
             "SUPPORT"
@@ -26193,7 +36934,14 @@ const dokkanCharacters = [
             42,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Realm of Gods",
+            "Representatives of Universe 7",
+            "Worthy Rivals",
+            "Space-Traveling Warriors",
+            "Super Bosses",
+            "Successors"
+        ],
         "roles": []
     },
     {
@@ -26217,7 +36965,17 @@ const dokkanCharacters = [
             123,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Giant Form",
+            "Movie Bosses",
+            "Namekians",
+            "Dragon Ball Seekers",
+            "Terrifying Conquerors",
+            "Inhuman Deeds",
+            "Space-Traveling Warriors",
+            "Power of Wishes",
+            "Demonic Power"
+        ],
         "roles": []
     },
     {
@@ -26239,7 +36997,17 @@ const dokkanCharacters = [
             27,
             36
         ],
-        "categories": [],
+        "categories": [
+            "World Tournament",
+            "Low-Class Warrior",
+            "Pure Saiyans",
+            "Goku's Family",
+            "Turtle School",
+            "Bond of Friendship",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters",
+            "Tournament Participants"
+        ],
         "roles": []
     },
     {
@@ -26260,7 +37028,16 @@ const dokkanCharacters = [
             1,
             47
         ],
-        "categories": [],
+        "categories": [
+            "World Tournament",
+            "Kamehameha",
+            "Earthlings",
+            "Battle of Wits",
+            "Turtle School",
+            "Bond of Friendship",
+            "Earth-Bred Fighters",
+            "Tournament Participants"
+        ],
         "roles": [
             "TANK"
         ]
@@ -26283,7 +37060,15 @@ const dokkanCharacters = [
             90,
             102
         ],
-        "categories": [],
+        "categories": [
+            "World Tournament",
+            "Worthy Rivals",
+            "Final Trump Card",
+            "Earthlings",
+            "Turtle School",
+            "Earth-Bred Fighters",
+            "Tournament Participants"
+        ],
         "roles": []
     },
     {
@@ -26370,7 +37155,12 @@ const dokkanCharacters = [
             32,
             12
         ],
-        "categories": [],
+        "categories": [
+            "World Tournament",
+            "Earthlings",
+            "Earth-Bred Fighters",
+            "Tournament Participants"
+        ],
         "roles": []
     },
     {
@@ -26415,7 +37205,17 @@ const dokkanCharacters = [
             124,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Low-Class Warrior",
+            "Giant Form",
+            "Pure Saiyans",
+            "Team Bardock",
+            "Giant Ape Power",
+            "Space-Traveling Warriors",
+            "Storied Figures",
+            "Uncontrollable Power",
+            "Mission Execution"
+        ],
         "roles": [
             "HEALER",
             "SUPPORT"
@@ -26442,7 +37242,17 @@ const dokkanCharacters = [
             124,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Low-Class Warrior",
+            "Giant Form",
+            "Pure Saiyans",
+            "Team Bardock",
+            "Giant Ape Power",
+            "Space-Traveling Warriors",
+            "Storied Figures",
+            "Uncontrollable Power",
+            "Mission Execution"
+        ],
         "roles": [
             "SUPPORT"
         ]
@@ -26468,7 +37278,17 @@ const dokkanCharacters = [
             124,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Low-Class Warrior",
+            "Giant Form",
+            "Pure Saiyans",
+            "Team Bardock",
+            "Giant Ape Power",
+            "Space-Traveling Warriors",
+            "Storied Figures",
+            "Uncontrollable Power",
+            "Mission Execution"
+        ],
         "roles": []
     },
     {
@@ -26490,7 +37310,15 @@ const dokkanCharacters = [
             80,
             130
         ],
-        "categories": [],
+        "categories": [
+            "Universe Survival Saga",
+            "Realm of Gods",
+            "Universe 11",
+            "Space-Traveling Warriors",
+            "Defenders of Justice",
+            "Tournament Participants",
+            "Super Bosses"
+        ],
         "roles": [
             "TANK"
         ]
@@ -26540,7 +37368,23 @@ const dokkanCharacters = [
             56,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Resurrected Warriors",
+            "Planet Namek Saga",
+            "Namekians",
+            "Worthy Rivals",
+            "Bond of Master and Disciple",
+            "Saviors",
+            "Battle of Wits",
+            "Connected Hope",
+            "Gifted Warriors",
+            "Entrusted Will",
+            "Fused Fighters",
+            "Earth-Bred Fighters",
+            "Power of Wishes",
+            "Demonic Power",
+            "Successors"
+        ],
         "roles": []
     },
     {
@@ -26562,7 +37406,24 @@ const dokkanCharacters = [
             29,
             47
         ],
-        "categories": [],
+        "categories": [
+            "Planet Namek Saga",
+            "Pure Saiyans",
+            "Goku's Family",
+            "Super Saiyans",
+            "Kamehameha",
+            "Exploding Rage",
+            "Saviors",
+            "Turtle School",
+            "Miraculous Awakening",
+            "Powerful Comeback",
+            "Legendary Existence",
+            "Bond of Friendship",
+            "Entrusted Will",
+            "Battle of Fate",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters"
+        ],
         "roles": []
     },
     {
@@ -26608,7 +37469,20 @@ const dokkanCharacters = [
             60,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Planet Namek Saga",
+            "Transformation Boost",
+            "Wicked Bloodline",
+            "Terrifying Conquerors",
+            "Exploding Rage",
+            "Inhuman Deeds",
+            "Space-Traveling Warriors",
+            "Gifted Warriors",
+            "Planetary Destruction",
+            "Sworn Enemies",
+            "Accelerated Battle",
+            "Successors"
+        ],
         "roles": []
     },
     {
@@ -26632,7 +37506,23 @@ const dokkanCharacters = [
             97,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Planet Namek Saga",
+            "Pure Saiyans",
+            "Full Power",
+            "Goku's Family",
+            "Kamehameha",
+            "Final Trump Card",
+            "All-Out Struggle",
+            "Saviors",
+            "Turtle School",
+            "Powerful Comeback",
+            "Bond of Friendship",
+            "Accelerated Battle",
+            "Entrusted Will",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters"
+        ],
         "roles": []
     },
     {
@@ -26654,7 +37544,16 @@ const dokkanCharacters = [
             90,
             102
         ],
-        "categories": [],
+        "categories": [
+            "World Tournament",
+            "Youth",
+            "DB Saga",
+            "Bond of Master and Disciple",
+            "Earthlings",
+            "Bond of Friendship",
+            "Earth-Bred Fighters",
+            "Tournament Participants"
+        ],
         "roles": []
     },
     {
@@ -26698,7 +37597,13 @@ const dokkanCharacters = [
             90,
             102
         ],
-        "categories": [],
+        "categories": [
+            "World Tournament",
+            "DB Saga",
+            "Earthlings",
+            "Earth-Bred Fighters",
+            "Tournament Participants"
+        ],
         "roles": []
     },
     {
@@ -26719,7 +37624,13 @@ const dokkanCharacters = [
             90,
             102
         ],
-        "categories": [],
+        "categories": [
+            "World Tournament",
+            "DB Saga",
+            "Earthlings",
+            "Earth-Bred Fighters",
+            "Tournament Participants"
+        ],
         "roles": []
     },
     {
@@ -26785,7 +37696,22 @@ const dokkanCharacters = [
             47,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Majin Buu Saga",
+            "Pure Saiyans",
+            "Full Power",
+            "Movie Heroes",
+            "Goku's Family",
+            "Super Saiyans",
+            "Kamehameha",
+            "Turtle School",
+            "Bond of Friendship",
+            "Accelerated Battle",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters",
+            "Power of Wishes",
+            "Earth-Protecting Heroes"
+        ],
         "roles": []
     },
     {
@@ -26808,7 +37734,22 @@ const dokkanCharacters = [
             47,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Hybrid Saiyans",
+            "Majin Buu Saga",
+            "Full Power",
+            "Movie Heroes",
+            "Goku's Family",
+            "Siblings' Bond",
+            "Super Saiyans",
+            "Kamehameha",
+            "Defenders of Justice",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters",
+            "Power of Wishes",
+            "Demonic Power",
+            "Earth-Protecting Heroes"
+        ],
         "roles": []
     },
     {
@@ -26831,7 +37772,24 @@ const dokkanCharacters = [
             47,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Hybrid Saiyans",
+            "Majin Buu Saga",
+            "Full Power",
+            "Dragon Ball Seekers",
+            "Movie Heroes",
+            "Goku's Family",
+            "Youth",
+            "Siblings' Bond",
+            "Super Saiyans",
+            "Kamehameha",
+            "Gifted Warriors",
+            "Bond of Friendship",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters",
+            "Power of Wishes",
+            "Earth-Protecting Heroes"
+        ],
         "roles": [
             "DPS / NUKER"
         ]
@@ -26856,7 +37814,12 @@ const dokkanCharacters = [
             8,
             37
         ],
-        "categories": [],
+        "categories": [
+            "Realm of Gods",
+            "Siblings' Bond",
+            "Bond of Master and Disciple",
+            "Space-Traveling Warriors"
+        ],
         "roles": [
             "HEALER"
         ]
@@ -26939,7 +37902,18 @@ const dokkanCharacters = [
             4,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Hybrid Saiyans",
+            "Planet Namek Saga",
+            "Dragon Ball Seekers",
+            "Goku's Family",
+            "Youth",
+            "Bond of Master and Disciple",
+            "Rapid Growth",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters",
+            "Demonic Power"
+        ],
         "roles": []
     },
     {
@@ -26962,7 +37936,19 @@ const dokkanCharacters = [
             89,
             116
         ],
-        "categories": [],
+        "categories": [
+            "Super Saiyan 3",
+            "Pure Saiyans",
+            "Goku's Family",
+            "Kamehameha",
+            "Turtle School",
+            "Mastered Evolution",
+            "Bond of Friendship",
+            "Accelerated Battle",
+            "Power Beyond Super Saiyan",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters"
+        ],
         "roles": [
             "SUPPORT"
         ]
@@ -27011,7 +37997,14 @@ const dokkanCharacters = [
             102,
             90
         ],
-        "categories": [],
+        "categories": [
+            "World Tournament",
+            "DB Saga",
+            "Worthy Rivals",
+            "Earthlings",
+            "Earth-Bred Fighters",
+            "Tournament Participants"
+        ],
         "roles": []
     },
     {
@@ -27033,7 +38026,14 @@ const dokkanCharacters = [
             102,
             90
         ],
-        "categories": [],
+        "categories": [
+            "World Tournament",
+            "Peppy Gals",
+            "DB Saga",
+            "Earthlings",
+            "Earth-Bred Fighters",
+            "Tournament Participants"
+        ],
         "roles": [
             "TANK"
         ]
@@ -27105,7 +38105,17 @@ const dokkanCharacters = [
             95,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Super Saiyan 3",
+            "Pure Saiyans",
+            "Vegeta's Family",
+            "Worthy Rivals",
+            "Crossover",
+            "Gifted Warriors",
+            "Power Beyond Super Saiyan",
+            "Bond of Parent and Child",
+            "Successors"
+        ],
         "roles": []
     },
     {
@@ -27129,7 +38139,19 @@ const dokkanCharacters = [
             116,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Resurrected Warriors",
+            "Super Saiyan 3",
+            "Pure Saiyans",
+            "Time Travelers",
+            "Goku's Family",
+            "Revenge",
+            "Crossover",
+            "Powerful Comeback",
+            "Storied Figures",
+            "Power Beyond Super Saiyan",
+            "Bond of Parent and Child"
+        ],
         "roles": []
     },
     {
@@ -27176,7 +38198,19 @@ const dokkanCharacters = [
             60,
             47
         ],
-        "categories": [],
+        "categories": [
+            "Hybrid Saiyans",
+            "Majin Buu Saga",
+            "Movie Heroes",
+            "Goku's Family",
+            "Siblings' Bond",
+            "Kamehameha",
+            "Special Pose",
+            "Defenders of Justice",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters",
+            "Demonic Power"
+        ],
         "roles": [
             "SUPPORT"
         ]
@@ -27200,7 +38234,16 @@ const dokkanCharacters = [
             94,
             42
         ],
-        "categories": [],
+        "categories": [
+            "Peppy Gals",
+            "Majin Buu Saga",
+            "Movie Heroes",
+            "Earthlings",
+            "Special Pose",
+            "Defenders of Justice",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters"
+        ],
         "roles": [
             "SUPPORT"
         ]
@@ -27225,7 +38268,15 @@ const dokkanCharacters = [
             8,
             37
         ],
-        "categories": [],
+        "categories": [
+            "Resurrected Warriors",
+            "Time Travelers",
+            "Movie Heroes",
+            "Siblings' Bond",
+            "Storied Figures",
+            "Legendary Existence",
+            "Power of Wishes"
+        ],
         "roles": []
     },
     {
@@ -27319,7 +38370,12 @@ const dokkanCharacters = [
             12,
             76
         ],
-        "categories": [],
+        "categories": [
+            "Dragon Ball Seekers",
+            "Terrifying Conquerors",
+            "Space-Traveling Warriors",
+            "Demonic Power"
+        ],
         "roles": [
             "SUPPORT"
         ]
@@ -27343,7 +38399,13 @@ const dokkanCharacters = [
             8,
             37
         ],
-        "categories": [],
+        "categories": [
+            "Movie Heroes",
+            "Youth",
+            "Siblings' Bond",
+            "Storied Figures",
+            "Legendary Existence"
+        ],
         "roles": [
             "TANK"
         ]
@@ -27416,7 +38478,20 @@ const dokkanCharacters = [
             66,
             97
         ],
-        "categories": [],
+        "categories": [
+            "Hybrid Saiyans",
+            "Future Saga",
+            "Time Travelers",
+            "Vegeta's Family",
+            "Super Saiyans",
+            "Bond of Master and Disciple",
+            "Revenge",
+            "Battle of Wits",
+            "Entrusted Will",
+            "Bond of Parent and Child",
+            "Super Heroes",
+            "Earth-Bred Fighters"
+        ],
         "roles": [
             "SUPPORT"
         ]
@@ -27441,7 +38516,18 @@ const dokkanCharacters = [
             66,
             120
         ],
-        "categories": [],
+        "categories": [
+            "Realm of Gods",
+            "Potara",
+            "Future Saga",
+            "Dragon Ball Seekers",
+            "Time Travelers",
+            "Gifted Warriors",
+            "Worldwide Chaos",
+            "Power of Wishes",
+            "Super Bosses",
+            "Successors"
+        ],
         "roles": [
             "HEALER"
         ]
@@ -27516,7 +38602,15 @@ const dokkanCharacters = [
             60,
             119
         ],
-        "categories": [],
+        "categories": [
+            "Resurrected Warriors",
+            "Time Travelers",
+            "Terrifying Conquerors",
+            "Space-Traveling Warriors",
+            "Storied Figures",
+            "Tournament Participants",
+            "Mission Execution"
+        ],
         "roles": [
             "DPS / NUKER"
         ]
@@ -27566,7 +38660,19 @@ const dokkanCharacters = [
             18,
             130
         ],
-        "categories": [],
+        "categories": [
+            "Universe Survival Saga",
+            "Resurrected Warriors",
+            "Representatives of Universe 7",
+            "Transformation Boost",
+            "Wicked Bloodline",
+            "Otherworld Warriors",
+            "Gifted Warriors",
+            "Time Limit",
+            "Sworn Enemies",
+            "Tournament Participants",
+            "Successors"
+        ],
         "roles": []
     },
     {
@@ -27613,7 +38719,21 @@ const dokkanCharacters = [
             18,
             130
         ],
-        "categories": [],
+        "categories": [
+            "Universe Survival Saga",
+            "Resurrected Warriors",
+            "Full Power",
+            "Representatives of Universe 7",
+            "Transformation Boost",
+            "Wicked Bloodline",
+            "Otherworld Warriors",
+            "Gifted Warriors",
+            "Time Limit",
+            "Mastered Evolution",
+            "Sworn Enemies",
+            "Tournament Participants",
+            "Successors"
+        ],
         "roles": []
     },
     {
@@ -27659,7 +38779,12 @@ const dokkanCharacters = [
             42,
             8
         ],
-        "categories": [],
+        "categories": [
+            "Peppy Gals",
+            "Universe Survival Saga",
+            "Earthlings",
+            "Earth-Bred Fighters"
+        ],
         "roles": []
     },
     {
@@ -27682,7 +38807,22 @@ const dokkanCharacters = [
             47,
             130
         ],
-        "categories": [],
+        "categories": [
+            "Hybrid Saiyans",
+            "Universe Survival Saga",
+            "Representatives of Universe 7",
+            "Goku's Family",
+            "Siblings' Bond",
+            "Kamehameha",
+            "Bond of Master and Disciple",
+            "Battle of Wits",
+            "Mastered Evolution",
+            "Bond of Parent and Child",
+            "Super Heroes",
+            "Earth-Bred Fighters",
+            "Tournament Participants",
+            "Demonic Power"
+        ],
         "roles": []
     },
     {
@@ -27831,7 +38971,13 @@ const dokkanCharacters = [
             111,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Super Saiyan 3",
+            "Pure Saiyans",
+            "Crossover",
+            "Power Beyond Super Saiyan",
+            "Uncontrollable Power"
+        ],
         "roles": []
     },
     {
@@ -27855,7 +39001,20 @@ const dokkanCharacters = [
             97,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Hybrid Saiyans",
+            "Dragon Ball Seekers",
+            "Vegeta's Family",
+            "Siblings' Bond",
+            "Super Saiyans",
+            "Battle of Wits",
+            "Space-Traveling Warriors",
+            "GT Heroes",
+            "Bond of Friendship",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters",
+            "Successors"
+        ],
         "roles": [
             "SUPPORT"
         ]
@@ -27881,7 +39040,21 @@ const dokkanCharacters = [
             121,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Hybrid Saiyans",
+            "Time Travelers",
+            "Vegeta's Family",
+            "Super Saiyans",
+            "Bond of Master and Disciple",
+            "Battle of Wits",
+            "Crossover",
+            "Defenders of Justice",
+            "Entrusted Will",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters",
+            "Successors",
+            "Mission Execution"
+        ],
         "roles": []
     },
     {
@@ -27904,7 +39077,13 @@ const dokkanCharacters = [
             112,
             1003
         ],
-        "categories": [],
+        "categories": [
+            "Majin Buu Saga",
+            "Potara",
+            "Final Trump Card",
+            "Battle of Wits",
+            "Fused Fighters"
+        ],
         "roles": [
             "SUPPORT"
         ]
@@ -27954,7 +39133,13 @@ const dokkanCharacters = [
             49,
             97
         ],
-        "categories": [],
+        "categories": [
+            "Joined Forces",
+            "Vegeta's Family",
+            "Exploding Rage",
+            "Bond of Parent and Child",
+            "Super Heroes"
+        ],
         "roles": []
     },
     {
@@ -28000,7 +39185,13 @@ const dokkanCharacters = [
             4,
             64
         ],
-        "categories": [],
+        "categories": [
+            "Peppy Gals",
+            "Androids",
+            "Siblings' Bond",
+            "Worthy Rivals",
+            "Battle of Wits"
+        ],
         "roles": [
             "SUPPORT"
         ]
@@ -28050,7 +39241,22 @@ const dokkanCharacters = [
             103,
             47
         ],
-        "categories": [],
+        "categories": [
+            "Hybrid Saiyans",
+            "Majin Buu Saga",
+            "Goku's Family",
+            "Siblings' Bond",
+            "Kamehameha",
+            "Revenge",
+            "Rapid Growth",
+            "Saviors",
+            "Powerful Comeback",
+            "Entrusted Will",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters",
+            "Power of Wishes",
+            "Demonic Power"
+        ],
         "roles": []
     },
     {
@@ -28096,7 +39302,17 @@ const dokkanCharacters = [
             26,
             97
         ],
-        "categories": [],
+        "categories": [
+            "Pure Saiyans",
+            "Vegeta's Family",
+            "Worthy Rivals",
+            "Super Saiyan 2",
+            "Gifted Warriors",
+            "Mastered Evolution",
+            "Power Beyond Super Saiyan",
+            "Bond of Parent and Child",
+            "Successors"
+        ],
         "roles": []
     },
     {
@@ -28143,7 +39359,13 @@ const dokkanCharacters = [
             120,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Movie Bosses",
+            "Transformation Boost",
+            "Corroded Body and Mind",
+            "Accelerated Battle",
+            "Uncontrollable Power"
+        ],
         "roles": [
             "DPS / NUKER"
         ]
@@ -28169,7 +39391,14 @@ const dokkanCharacters = [
             127,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Shadow Dragon Saga",
+            "Full Power",
+            "Inhuman Deeds",
+            "Power Absorption",
+            "GT Bosses",
+            "Battle of Fate"
+        ],
         "roles": [
             "SUPPORT"
         ]
@@ -28247,7 +39476,20 @@ const dokkanCharacters = [
             116,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Shadow Dragon Saga",
+            "Super Saiyan 3",
+            "Pure Saiyans",
+            "Goku's Family",
+            "Kamehameha",
+            "Turtle School",
+            "GT Heroes",
+            "Bond of Friendship",
+            "Accelerated Battle",
+            "Power Beyond Super Saiyan",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters"
+        ],
         "roles": [
             "SUPPORT"
         ]
@@ -28298,7 +39540,18 @@ const dokkanCharacters = [
             37,
             47
         ],
-        "categories": [],
+        "categories": [
+            "Majin Buu Saga",
+            "Movie Heroes",
+            "Kamehameha",
+            "Earthlings",
+            "Saviors",
+            "Battle of Wits",
+            "Turtle School",
+            "Bond of Friendship",
+            "Earth-Bred Fighters",
+            "Earth-Protecting Heroes"
+        ],
         "roles": []
     },
     {
@@ -28345,7 +39598,22 @@ const dokkanCharacters = [
             1004,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Resurrected Warriors",
+            "Majin Buu Saga",
+            "Transformation Boost",
+            "Artificial Life Forms",
+            "Majin Power",
+            "Planetary Destruction",
+            "Storied Figures",
+            "Legendary Existence",
+            "Sworn Enemies",
+            "Accelerated Battle",
+            "Worldwide Chaos",
+            "Battle of Fate",
+            "Demonic Power",
+            "Uncontrollable Power"
+        ],
         "roles": [
             "TANK"
         ]
@@ -28397,7 +39665,20 @@ const dokkanCharacters = [
             124,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Low-Class Warrior",
+            "Giant Form",
+            "Pure Saiyans",
+            "Goku's Family",
+            "Team Bardock",
+            "All-Out Struggle",
+            "Giant Ape Power",
+            "Space-Traveling Warriors",
+            "Storied Figures",
+            "Entrusted Will",
+            "Bond of Parent and Child",
+            "Uncontrollable Power"
+        ],
         "roles": []
     },
     {
@@ -28421,7 +39702,18 @@ const dokkanCharacters = [
             124,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Peppy Gals",
+            "Low-Class Warrior",
+            "Giant Form",
+            "Pure Saiyans",
+            "Team Bardock",
+            "Giant Ape Power",
+            "Space-Traveling Warriors",
+            "Storied Figures",
+            "Uncontrollable Power",
+            "Mission Execution"
+        ],
         "roles": [
             "DPS / NUKER"
         ]
@@ -28447,7 +39739,18 @@ const dokkanCharacters = [
             95,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Androids",
+            "Artificial Life Forms",
+            "Target: Goku",
+            "Inhuman Deeds",
+            "Power Absorption",
+            "GT Bosses",
+            "Battle of Fate",
+            "Fused Fighters",
+            "Uncontrollable Power",
+            "Mission Execution"
+        ],
         "roles": [
             "DPS / NUKER"
         ]
@@ -28473,7 +39776,18 @@ const dokkanCharacters = [
             95,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Androids",
+            "Artificial Life Forms",
+            "Target: Goku",
+            "Inhuman Deeds",
+            "Power Absorption",
+            "GT Bosses",
+            "Battle of Fate",
+            "Fused Fighters",
+            "Uncontrollable Power",
+            "Mission Execution"
+        ],
         "roles": [
             "DPS / NUKER"
         ]
@@ -28550,7 +39864,13 @@ const dokkanCharacters = [
             60,
             111
         ],
-        "categories": [],
+        "categories": [
+            "Terrifying Conquerors",
+            "Target: Goku",
+            "Special Pose",
+            "Space-Traveling Warriors",
+            "Mission Execution"
+        ],
         "roles": [
             "SUPPORT"
         ]
@@ -28576,7 +39896,24 @@ const dokkanCharacters = [
             34,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Realm of Gods",
+            "Pure Saiyans",
+            "Movie Heroes",
+            "Goku's Family",
+            "Kamehameha",
+            "Turtle School",
+            "Miraculous Awakening",
+            "Legendary Existence",
+            "Bond of Friendship",
+            "Accelerated Battle",
+            "Battle of Fate",
+            "Power Beyond Super Saiyan",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters",
+            "Power of Wishes",
+            "Earth-Protecting Heroes"
+        ],
         "roles": [
             "SUPPORT"
         ]
@@ -28600,7 +39937,13 @@ const dokkanCharacters = [
             10,
             20
         ],
-        "categories": [],
+        "categories": [
+            "Earthlings",
+            "Bond of Friendship",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters",
+            "Earth-Protecting Heroes"
+        ],
         "roles": []
     },
     {
@@ -28646,7 +39989,17 @@ const dokkanCharacters = [
             117,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Pure Saiyans",
+            "Goku's Family",
+            "Super Saiyans",
+            "Kamehameha",
+            "Turtle School",
+            "Bond of Friendship",
+            "Accelerated Battle",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters"
+        ],
         "roles": [
             "DPS / NUKER"
         ]
@@ -28671,7 +40024,26 @@ const dokkanCharacters = [
             97,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Hybrid Saiyans",
+            "Full Power",
+            "Movie Heroes",
+            "Goku's Family",
+            "Youth",
+            "Kamehameha",
+            "Bond of Master and Disciple",
+            "Super Saiyan 2",
+            "Exploding Rage",
+            "All-Out Struggle",
+            "Powerful Comeback",
+            "Entrusted Will",
+            "Power Beyond Super Saiyan",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters",
+            "Tournament Participants",
+            "Demonic Power",
+            "Earth-Protecting Heroes"
+        ],
         "roles": [
             "SUPPORT"
         ]
@@ -28697,7 +40069,18 @@ const dokkanCharacters = [
             1004,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Resurrected Warriors",
+            "Movie Bosses",
+            "Full Power",
+            "Time Travelers",
+            "Terrifying Conquerors",
+            "Inhuman Deeds",
+            "Space-Traveling Warriors",
+            "Storied Figures",
+            "Legendary Existence",
+            "Tournament Participants"
+        ],
         "roles": []
     },
     {
@@ -28721,7 +40104,18 @@ const dokkanCharacters = [
             1004,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Resurrected Warriors",
+            "Movie Bosses",
+            "Full Power",
+            "Time Travelers",
+            "Terrifying Conquerors",
+            "Inhuman Deeds",
+            "Space-Traveling Warriors",
+            "Storied Figures",
+            "Legendary Existence",
+            "Tournament Participants"
+        ],
         "roles": []
     },
     {
@@ -28744,7 +40138,16 @@ const dokkanCharacters = [
             73,
             60
         ],
-        "categories": [],
+        "categories": [
+            "Peppy Gals",
+            "Resurrected Warriors",
+            "Time Travelers",
+            "Terrifying Conquerors",
+            "Space-Traveling Warriors",
+            "Storied Figures",
+            "Tournament Participants",
+            "Mission Execution"
+        ],
         "roles": [
             "HEALER"
         ]
@@ -28795,7 +40198,22 @@ const dokkanCharacters = [
             1003,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Majin Buu Saga",
+            "Pure Saiyans",
+            "Goku's Family",
+            "Super Saiyans",
+            "Final Trump Card",
+            "Connected Hope",
+            "Turtle School",
+            "Bond of Friendship",
+            "Accelerated Battle",
+            "Battle of Fate",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters",
+            "Power of Wishes",
+            "Earth-Protecting Heroes"
+        ],
         "roles": []
     },
     {
@@ -28817,7 +40235,13 @@ const dokkanCharacters = [
             42,
             37
         ],
-        "categories": [],
+        "categories": [
+            "Worthy Rivals",
+            "Androids/Cell Saga",
+            "Earthlings",
+            "Turtle School",
+            "Earth-Bred Fighters"
+        ],
         "roles": []
     },
     {
@@ -28862,7 +40286,19 @@ const dokkanCharacters = [
             47,
             129
         ],
-        "categories": [],
+        "categories": [
+            "Pure Saiyans",
+            "Goku's Family",
+            "Super Saiyans",
+            "Kamehameha",
+            "Otherworld Warriors",
+            "Turtle School",
+            "Bond of Friendship",
+            "Accelerated Battle",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters",
+            "Tournament Participants"
+        ],
         "roles": []
     },
     {
@@ -28907,7 +40343,11 @@ const dokkanCharacters = [
             86,
             129
         ],
-        "categories": [],
+        "categories": [
+            "Wicked Bloodline",
+            "Otherworld Warriors",
+            "Successors"
+        ],
         "roles": []
     },
     {
@@ -28953,7 +40393,17 @@ const dokkanCharacters = [
             119,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Transformation Boost",
+            "Artificial Life Forms",
+            "Terrifying Conquerors",
+            "Target: Goku",
+            "Revenge",
+            "Inhuman Deeds",
+            "Space-Traveling Warriors",
+            "Corroded Body and Mind",
+            "GT Bosses"
+        ],
         "roles": []
     },
     {
@@ -28977,7 +40427,19 @@ const dokkanCharacters = [
             61,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Pure Saiyans",
+            "Goku's Family",
+            "Kamehameha",
+            "Super Saiyan 2",
+            "Turtle School",
+            "Mastered Evolution",
+            "Bond of Friendship",
+            "Accelerated Battle",
+            "Power Beyond Super Saiyan",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters"
+        ],
         "roles": [
             "SUPPORT"
         ]
@@ -29001,7 +40463,19 @@ const dokkanCharacters = [
             102,
             90
         ],
-        "categories": [],
+        "categories": [
+            "Low-Class Warrior",
+            "Pure Saiyans",
+            "Dragon Ball Seekers",
+            "Goku's Family",
+            "Youth",
+            "DB Saga",
+            "Bond of Master and Disciple",
+            "Turtle School",
+            "Bond of Friendship",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters"
+        ],
         "roles": []
     },
     {
@@ -29047,7 +40521,18 @@ const dokkanCharacters = [
             1004,
             111
         ],
-        "categories": [],
+        "categories": [
+            "Androids",
+            "Transformation Boost",
+            "Time Travelers",
+            "Artificial Life Forms",
+            "Androids/Cell Saga",
+            "Kamehameha",
+            "Target: Goku",
+            "Power Absorption",
+            "Sworn Enemies",
+            "Worldwide Chaos"
+        ],
         "roles": [
             "HEALER"
         ]
@@ -29097,7 +40582,18 @@ const dokkanCharacters = [
             85,
             86
         ],
-        "categories": [],
+        "categories": [
+            "Planet Namek Saga",
+            "Transformation Boost",
+            "Wicked Bloodline",
+            "Terrifying Conquerors",
+            "Inhuman Deeds",
+            "Space-Traveling Warriors",
+            "Gifted Warriors",
+            "Planetary Destruction",
+            "Sworn Enemies",
+            "Successors"
+        ],
         "roles": []
     },
     {
@@ -29141,7 +40637,19 @@ const dokkanCharacters = [
             39,
             50
         ],
-        "categories": [],
+        "categories": [
+            "Realm of Gods",
+            "Potara",
+            "Future Saga",
+            "Time Travelers",
+            "Final Trump Card",
+            "Worldwide Chaos",
+            "Battle of Fate",
+            "Fused Fighters",
+            "Power of Wishes",
+            "Super Bosses",
+            "Successors"
+        ],
         "roles": []
     },
     {
@@ -29186,7 +40694,14 @@ const dokkanCharacters = [
             102,
             114
         ],
-        "categories": [],
+        "categories": [
+            "Peppy Gals",
+            "Dragon Ball Seekers",
+            "Youth",
+            "DB Saga",
+            "Earthlings",
+            "Earth-Bred Fighters"
+        ],
         "roles": [
             "SUPPORT"
         ]
@@ -29211,7 +40726,13 @@ const dokkanCharacters = [
             102,
             114
         ],
-        "categories": [],
+        "categories": [
+            "Peppy Gals",
+            "Dragon Ball Seekers",
+            "DB Saga",
+            "Earthlings",
+            "Earth-Bred Fighters"
+        ],
         "roles": [
             "SUPPORT"
         ]
@@ -29235,7 +40756,12 @@ const dokkanCharacters = [
             102,
             14
         ],
-        "categories": [],
+        "categories": [
+            "DB Saga",
+            "Terrifying Conquerors",
+            "Earthlings",
+            "Earth-Bred Fighters"
+        ],
         "roles": []
     },
     {
@@ -29330,7 +40856,19 @@ const dokkanCharacters = [
             102,
             128
         ],
-        "categories": [],
+        "categories": [
+            "Movie Bosses",
+            "Dragon Ball Seekers",
+            "DB Saga",
+            "Siblings' Bond",
+            "Target: Goku",
+            "Inhuman Deeds",
+            "Earthlings",
+            "Crossover",
+            "Sworn Enemies",
+            "Earth-Bred Fighters",
+            "Mission Execution"
+        ],
         "roles": []
     },
     {
@@ -29353,7 +40891,16 @@ const dokkanCharacters = [
             102,
             128
         ],
-        "categories": [],
+        "categories": [
+            "Dragon Ball Seekers",
+            "DB Saga",
+            "Terrifying Conquerors",
+            "Inhuman Deeds",
+            "Earthlings",
+            "Crossover",
+            "Earth-Bred Fighters",
+            "Mission Execution"
+        ],
         "roles": []
     },
     {
@@ -29377,7 +40924,12 @@ const dokkanCharacters = [
             128,
             111
         ],
-        "categories": [],
+        "categories": [
+            "Artificial Life Forms",
+            "Youth",
+            "DB Saga",
+            "Crossover"
+        ],
         "roles": []
     },
     {
@@ -29401,7 +40953,12 @@ const dokkanCharacters = [
             128,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Artificial Life Forms",
+            "Youth",
+            "DB Saga",
+            "Crossover"
+        ],
         "roles": []
     },
     {
@@ -29425,7 +40982,12 @@ const dokkanCharacters = [
             128,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Artificial Life Forms",
+            "Youth",
+            "DB Saga",
+            "Crossover"
+        ],
         "roles": []
     },
     {
@@ -29449,7 +41011,12 @@ const dokkanCharacters = [
             128,
             109
         ],
-        "categories": [],
+        "categories": [
+            "Artificial Life Forms",
+            "Youth",
+            "DB Saga",
+            "Crossover"
+        ],
         "roles": []
     },
     {
@@ -29472,7 +41039,12 @@ const dokkanCharacters = [
             60,
             128
         ],
-        "categories": [],
+        "categories": [
+            "Artificial Life Forms",
+            "Youth",
+            "DB Saga",
+            "Crossover"
+        ],
         "roles": []
     },
     {
@@ -29495,7 +41067,12 @@ const dokkanCharacters = [
             94,
             128
         ],
-        "categories": [],
+        "categories": [
+            "DB Saga",
+            "Special Pose",
+            "Crossover",
+            "Defenders of Justice"
+        ],
         "roles": []
     },
     {
@@ -29655,7 +41232,19 @@ const dokkanCharacters = [
             119,
             50
         ],
-        "categories": [],
+        "categories": [
+            "Realm of Gods",
+            "Potara",
+            "Future Saga",
+            "Time Travelers",
+            "Kamehameha",
+            "Inhuman Deeds",
+            "Corroded Body and Mind",
+            "Worldwide Chaos",
+            "Power of Wishes",
+            "Super Bosses",
+            "Successors"
+        ],
         "roles": []
     },
     {
@@ -29699,7 +41288,13 @@ const dokkanCharacters = [
             53,
             42
         ],
-        "categories": [],
+        "categories": [
+            "Worthy Rivals",
+            "Earthlings",
+            "Turtle School",
+            "Saiyan Saga",
+            "Earth-Bred Fighters"
+        ],
         "roles": []
     },
     {
@@ -29722,7 +41317,17 @@ const dokkanCharacters = [
             42,
             47
         ],
-        "categories": [],
+        "categories": [
+            "World Tournament",
+            "DB Saga",
+            "Worthy Rivals",
+            "Kamehameha",
+            "Bond of Master and Disciple",
+            "Earthlings",
+            "Turtle School",
+            "Earth-Bred Fighters",
+            "Tournament Participants"
+        ],
         "roles": []
     },
     {
@@ -29769,7 +41374,10 @@ const dokkanCharacters = [
             95,
             127
         ],
-        "categories": [],
+        "categories": [
+            "Shadow Dragon Saga",
+            "GT Bosses"
+        ],
         "roles": []
     },
     {
@@ -29813,7 +41421,10 @@ const dokkanCharacters = [
             8,
             127
         ],
-        "categories": [],
+        "categories": [
+            "Shadow Dragon Saga",
+            "GT Bosses"
+        ],
         "roles": []
     },
     {
@@ -29834,7 +41445,10 @@ const dokkanCharacters = [
             95,
             127
         ],
-        "categories": [],
+        "categories": [
+            "Shadow Dragon Saga",
+            "GT Bosses"
+        ],
         "roles": [
             "TANK"
         ]
@@ -29857,7 +41471,10 @@ const dokkanCharacters = [
             95,
             127
         ],
-        "categories": [],
+        "categories": [
+            "Shadow Dragon Saga",
+            "GT Bosses"
+        ],
         "roles": []
     },
     {
@@ -29878,7 +41495,10 @@ const dokkanCharacters = [
             95,
             127
         ],
-        "categories": [],
+        "categories": [
+            "Shadow Dragon Saga",
+            "GT Bosses"
+        ],
         "roles": []
     },
     {
@@ -29988,7 +41608,12 @@ const dokkanCharacters = [
             126,
             130
         ],
-        "categories": [],
+        "categories": [
+            "Universe Survival Saga",
+            "Transformation Boost",
+            "Universe 6",
+            "Tournament Participants"
+        ],
         "roles": []
     },
     {
@@ -30035,7 +41660,17 @@ const dokkanCharacters = [
             1004,
             111
         ],
-        "categories": [],
+        "categories": [
+            "Majin Buu Saga",
+            "Transformation Boost",
+            "Artificial Life Forms",
+            "Majin Power",
+            "Power Absorption",
+            "Sworn Enemies",
+            "Worldwide Chaos",
+            "Demonic Power",
+            "Uncontrollable Power"
+        ],
         "roles": [
             "HEALER"
         ]
@@ -30061,7 +41696,19 @@ const dokkanCharacters = [
             1004,
             111
         ],
-        "categories": [],
+        "categories": [
+            "Majin Buu Saga",
+            "Transformation Boost",
+            "Artificial Life Forms",
+            "Final Trump Card",
+            "Majin Power",
+            "Power Absorption",
+            "Time Limit",
+            "Sworn Enemies",
+            "Worldwide Chaos",
+            "Demonic Power",
+            "Uncontrollable Power"
+        ],
         "roles": []
     },
     {
@@ -30133,7 +41780,19 @@ const dokkanCharacters = [
             47,
             1004
         ],
-        "categories": [],
+        "categories": [
+            "Majin Buu Saga",
+            "Transformation Boost",
+            "Artificial Life Forms",
+            "Kamehameha",
+            "Final Trump Card",
+            "Majin Power",
+            "Power Absorption",
+            "Sworn Enemies",
+            "Worldwide Chaos",
+            "Demonic Power",
+            "Uncontrollable Power"
+        ],
         "roles": [
             "SUPPORT"
         ]
@@ -30182,7 +41841,16 @@ const dokkanCharacters = [
             23,
             47
         ],
-        "categories": [],
+        "categories": [
+            "Pure Saiyans",
+            "Goku's Family",
+            "Kamehameha",
+            "Turtle School",
+            "Bond of Friendship",
+            "Saiyan Saga",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters"
+        ],
         "roles": [
             "HEALER"
         ]
@@ -30231,7 +41899,12 @@ const dokkanCharacters = [
             32,
             126
         ],
-        "categories": [],
+        "categories": [
+            "Universe Survival Saga",
+            "Transformation Boost",
+            "Universe 6",
+            "Tournament Participants"
+        ],
         "roles": [
             "SUPPORT"
         ]
@@ -30255,7 +41928,12 @@ const dokkanCharacters = [
             32,
             126
         ],
-        "categories": [],
+        "categories": [
+            "Universe Survival Saga",
+            "Transformation Boost",
+            "Universe 6",
+            "Tournament Participants"
+        ],
         "roles": []
     },
     {
@@ -30339,7 +42017,16 @@ const dokkanCharacters = [
             65,
             49
         ],
-        "categories": [],
+        "categories": [
+            "World Tournament",
+            "Resurrected Warriors",
+            "Majin Buu Saga",
+            "Youth",
+            "Bond of Master and Disciple",
+            "Earthlings",
+            "Earth-Bred Fighters",
+            "Tournament Participants"
+        ],
         "roles": []
     },
     {
@@ -30383,7 +42070,17 @@ const dokkanCharacters = [
             102,
             90
         ],
-        "categories": [],
+        "categories": [
+            "Low-Class Warrior",
+            "Pure Saiyans",
+            "Dragon Ball Seekers",
+            "Goku's Family",
+            "Youth",
+            "DB Saga",
+            "Bond of Master and Disciple",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters"
+        ],
         "roles": [
             "SUPPORT"
         ]
@@ -30407,7 +42104,23 @@ const dokkanCharacters = [
             71,
             68
         ],
-        "categories": [],
+        "categories": [
+            "Realm of Gods",
+            "Pure Saiyans",
+            "Movie Heroes",
+            "Goku's Family",
+            "Kamehameha",
+            "Bond of Master and Disciple",
+            "Turtle School",
+            "Mastered Evolution",
+            "Bond of Friendship",
+            "Accelerated Battle",
+            "Battle of Fate",
+            "Power Beyond Super Saiyan",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters",
+            "Earth-Protecting Heroes"
+        ],
         "roles": [
             "SUPPORT"
         ]
@@ -30431,7 +42144,18 @@ const dokkanCharacters = [
             47,
             95
         ],
-        "categories": [],
+        "categories": [
+            "Pure Saiyans",
+            "Dragon Ball Seekers",
+            "Goku's Family",
+            "Kamehameha",
+            "Space-Traveling Warriors",
+            "Turtle School",
+            "GT Heroes",
+            "Bond of Friendship",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters"
+        ],
         "roles": [
             "SUPPORT"
         ]
@@ -30456,7 +42180,14 @@ const dokkanCharacters = [
             50,
             118
         ],
-        "categories": [],
+        "categories": [
+            "Low-Class Warrior",
+            "Movie Bosses",
+            "Pure Saiyans",
+            "Terrifying Conquerors",
+            "Space-Traveling Warriors",
+            "Planetary Destruction"
+        ],
         "roles": [
             "SUPPORT"
         ]
@@ -30551,7 +42282,12 @@ const dokkanCharacters = [
             14,
             13
         ],
-        "categories": [],
+        "categories": [
+            "Realm of Gods",
+            "Majin Buu Saga",
+            "Potara",
+            "Storied Figures"
+        ],
         "roles": [
             "HEALER"
         ]
@@ -30599,7 +42335,22 @@ const dokkanCharacters = [
             112,
             111
         ],
-        "categories": [],
+        "categories": [
+            "Fusion",
+            "Hybrid Saiyans",
+            "Majin Buu Saga",
+            "Youth",
+            "Super Saiyans",
+            "Special Pose",
+            "Rapid Growth",
+            "Connected Hope",
+            "Gifted Warriors",
+            "Heavenly Events",
+            "Time Limit",
+            "Entrusted Will",
+            "Fused Fighters",
+            "Earth-Bred Fighters"
+        ],
         "roles": [
             "SUPPORT"
         ]
@@ -30624,7 +42375,22 @@ const dokkanCharacters = [
             112,
             111
         ],
-        "categories": [],
+        "categories": [
+            "Fusion",
+            "Hybrid Saiyans",
+            "Majin Buu Saga",
+            "Youth",
+            "Super Saiyans",
+            "Special Pose",
+            "Rapid Growth",
+            "Connected Hope",
+            "Gifted Warriors",
+            "Heavenly Events",
+            "Time Limit",
+            "Entrusted Will",
+            "Fused Fighters",
+            "Earth-Bred Fighters"
+        ],
         "roles": [
             "DPS / NUKER"
         ]
@@ -30699,7 +42465,20 @@ const dokkanCharacters = [
             118,
             97
         ],
-        "categories": [],
+        "categories": [
+            "Hybrid Saiyans",
+            "Time Travelers",
+            "Vegeta's Family",
+            "Bond of Master and Disciple",
+            "Battle of Wits",
+            "Crossover",
+            "Defenders of Justice",
+            "Entrusted Will",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters",
+            "Successors",
+            "Mission Execution"
+        ],
         "roles": []
     },
     {
@@ -30721,7 +42500,20 @@ const dokkanCharacters = [
             47,
             23
         ],
-        "categories": [],
+        "categories": [
+            "Pure Saiyans",
+            "Goku's Family",
+            "Super Saiyans",
+            "Androids/Cell Saga",
+            "Kamehameha",
+            "Turtle School",
+            "Heavenly Events",
+            "Bond of Friendship",
+            "Accelerated Battle",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters",
+            "Tournament Participants"
+        ],
         "roles": [
             "SUPPORT"
         ]
@@ -30771,7 +42563,15 @@ const dokkanCharacters = [
             123,
             124
         ],
-        "categories": [],
+        "categories": [
+            "Giant Form",
+            "Pure Saiyans",
+            "Terrifying Conquerors",
+            "Giant Ape Power",
+            "Space-Traveling Warriors",
+            "Saiyan Saga",
+            "Mission Execution"
+        ],
         "roles": [
             "SUPPORT"
         ]
@@ -30795,7 +42595,20 @@ const dokkanCharacters = [
             26,
             58
         ],
-        "categories": [],
+        "categories": [
+            "Pure Saiyans",
+            "Dragon Ball Seekers",
+            "Vegeta's Family",
+            "Terrifying Conquerors",
+            "Inhuman Deeds",
+            "Space-Traveling Warriors",
+            "Gifted Warriors",
+            "Planetary Destruction",
+            "Accelerated Battle",
+            "Battle of Fate",
+            "Saiyan Saga",
+            "Successors"
+        ],
         "roles": []
     },
     {
@@ -30866,7 +42679,19 @@ const dokkanCharacters = [
             60,
             111
         ],
-        "categories": [],
+        "categories": [
+            "Realm of Gods",
+            "Movie Bosses",
+            "Siblings' Bond",
+            "Worthy Rivals",
+            "Bond of Master and Disciple",
+            "Exploding Rage",
+            "Space-Traveling Warriors",
+            "Planetary Destruction",
+            "Legendary Existence",
+            "Battle of Fate",
+            "Successors"
+        ],
         "roles": []
     },
     {
@@ -30911,7 +42736,15 @@ const dokkanCharacters = [
             8,
             95
         ],
-        "categories": [],
+        "categories": [
+            "Hybrid Saiyans",
+            "Goku's Family",
+            "Siblings' Bond",
+            "GT Heroes",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters",
+            "Demonic Power"
+        ],
         "roles": []
     },
     {
@@ -30932,7 +42765,16 @@ const dokkanCharacters = [
             95,
             47
         ],
-        "categories": [],
+        "categories": [
+            "Hybrid Saiyans",
+            "Goku's Family",
+            "Siblings' Bond",
+            "Kamehameha",
+            "GT Heroes",
+            "Bond of Friendship",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters"
+        ],
         "roles": []
     },
     {
@@ -30997,7 +42839,17 @@ const dokkanCharacters = [
             86,
             65
         ],
-        "categories": [],
+        "categories": [
+            "Resurrected Warriors",
+            "Movie Bosses",
+            "Time Travelers",
+            "Terrifying Conquerors",
+            "Inhuman Deeds",
+            "Space-Traveling Warriors",
+            "Storied Figures",
+            "Legendary Existence",
+            "Tournament Participants"
+        ],
         "roles": []
     },
     {
@@ -31042,7 +42894,22 @@ const dokkanCharacters = [
             40,
             111
         ],
-        "categories": [],
+        "categories": [
+            "Resurrected Warriors",
+            "Majin Buu Saga",
+            "Pure Saiyans",
+            "Vegeta's Family",
+            "Super Saiyans",
+            "Worthy Rivals",
+            "Otherworld Warriors",
+            "All-Out Struggle",
+            "Connected Hope",
+            "Gifted Warriors",
+            "Time Limit",
+            "Mastered Evolution",
+            "Bond of Parent and Child",
+            "Successors"
+        ],
         "roles": []
     },
     {
@@ -31087,7 +42954,12 @@ const dokkanCharacters = [
             34,
             25
         ],
-        "categories": [],
+        "categories": [
+            "Pure Saiyans",
+            "Vegeta's Family",
+            "Siblings' Bond",
+            "Space-Traveling Warriors"
+        ],
         "roles": [
             "SUPPORT"
         ]
@@ -31134,7 +43006,17 @@ const dokkanCharacters = [
             64,
             95
         ],
-        "categories": [],
+        "categories": [
+            "Hybrid Saiyans",
+            "Dragon Ball Seekers",
+            "Goku's Family",
+            "Youth",
+            "Space-Traveling Warriors",
+            "GT Heroes",
+            "Bond of Friendship",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters"
+        ],
         "roles": [
             "SUPPORT"
         ]
@@ -31157,7 +43039,16 @@ const dokkanCharacters = [
             32,
             95
         ],
-        "categories": [],
+        "categories": [
+            "Transformation Boost",
+            "Artificial Life Forms",
+            "Terrifying Conquerors",
+            "Target: Goku",
+            "Revenge",
+            "Inhuman Deeds",
+            "Space-Traveling Warriors",
+            "GT Bosses"
+        ],
         "roles": [
             "HEALER"
         ]
@@ -31228,7 +43119,13 @@ const dokkanCharacters = [
             46,
             2
         ],
-        "categories": [],
+        "categories": [
+            "Worthy Rivals",
+            "Earthlings",
+            "Bond of Friendship",
+            "Saiyan Saga",
+            "Earth-Bred Fighters"
+        ],
         "roles": []
     },
     {
@@ -31250,7 +43147,13 @@ const dokkanCharacters = [
             42,
             37
         ],
-        "categories": [],
+        "categories": [
+            "Worthy Rivals",
+            "Earthlings",
+            "Turtle School",
+            "Saiyan Saga",
+            "Earth-Bred Fighters"
+        ],
         "roles": []
     },
     {
@@ -31272,7 +43175,27 @@ const dokkanCharacters = [
             97,
             47
         ],
-        "categories": [],
+        "categories": [
+            "Hybrid Saiyans",
+            "Full Power",
+            "Goku's Family",
+            "Youth",
+            "Androids/Cell Saga",
+            "Kamehameha",
+            "Bond of Master and Disciple",
+            "Super Saiyan 2",
+            "Exploding Rage",
+            "All-Out Struggle",
+            "Miraculous Awakening",
+            "Entrusted Will",
+            "Battle of Fate",
+            "Power Beyond Super Saiyan",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters",
+            "Tournament Participants",
+            "Demonic Power",
+            "Earth-Protecting Heroes"
+        ],
         "roles": []
     },
     {
@@ -31362,7 +43285,16 @@ const dokkanCharacters = [
             94,
             14
         ],
-        "categories": [],
+        "categories": [
+            "Planet Namek Saga",
+            "Ginyu Force",
+            "Dragon Ball Seekers",
+            "Terrifying Conquerors",
+            "Special Pose",
+            "Space-Traveling Warriors",
+            "Corroded Body and Mind",
+            "Mission Execution"
+        ],
         "roles": [
             "DPS / NUKER"
         ]
@@ -31412,7 +43344,14 @@ const dokkanCharacters = [
             102,
             114
         ],
-        "categories": [],
+        "categories": [
+            "Peppy Gals",
+            "Dragon Ball Seekers",
+            "Youth",
+            "DB Saga",
+            "Earthlings",
+            "Earth-Bred Fighters"
+        ],
         "roles": [
             "SUPPORT"
         ]
@@ -31436,7 +43375,13 @@ const dokkanCharacters = [
             90,
             102
         ],
-        "categories": [],
+        "categories": [
+            "World Tournament",
+            "DB Saga",
+            "Earthlings",
+            "Earth-Bred Fighters",
+            "Tournament Participants"
+        ],
         "roles": []
     },
     {
@@ -31504,7 +43449,13 @@ const dokkanCharacters = [
             90,
             102
         ],
-        "categories": [],
+        "categories": [
+            "World Tournament",
+            "DB Saga",
+            "Earthlings",
+            "Earth-Bred Fighters",
+            "Tournament Participants"
+        ],
         "roles": []
     },
     {
@@ -31547,7 +43498,14 @@ const dokkanCharacters = [
             14,
             121
         ],
-        "categories": [],
+        "categories": [
+            "Realm of Gods",
+            "Potara",
+            "Time Travelers",
+            "Crossover",
+            "Defenders of Justice",
+            "Successors"
+        ],
         "roles": []
     },
     {
@@ -31591,7 +43549,14 @@ const dokkanCharacters = [
             113,
             112
         ],
-        "categories": [],
+        "categories": [
+            "Fusion",
+            "Movie Heroes",
+            "Kamehameha",
+            "Otherworld Warriors",
+            "Time Limit",
+            "Fused Fighters"
+        ],
         "roles": [
             "TANK"
         ]
@@ -31639,7 +43604,13 @@ const dokkanCharacters = [
             16,
             30
         ],
-        "categories": [],
+        "categories": [
+            "Planet Namek Saga",
+            "Namekians",
+            "Connected Hope",
+            "Demonic Power",
+            "Mission Execution"
+        ],
         "roles": []
     },
     {
@@ -31661,7 +43632,15 @@ const dokkanCharacters = [
             39,
             119
         ],
-        "categories": [],
+        "categories": [
+            "Planet Namek Saga",
+            "Transformation Boost",
+            "Dragon Ball Seekers",
+            "Terrifying Conquerors",
+            "Final Trump Card",
+            "Space-Traveling Warriors",
+            "Mission Execution"
+        ],
         "roles": []
     },
     {
@@ -31727,7 +43706,15 @@ const dokkanCharacters = [
             90,
             102
         ],
-        "categories": [],
+        "categories": [
+            "DB Saga",
+            "Bond of Master and Disciple",
+            "Final Trump Card",
+            "Earthlings",
+            "Storied Figures",
+            "Earth-Bred Fighters",
+            "Earth-Protecting Heroes"
+        ],
         "roles": []
     },
     {
@@ -31772,7 +43759,20 @@ const dokkanCharacters = [
             40,
             1001
         ],
-        "categories": [],
+        "categories": [
+            "Pure Saiyans",
+            "Full Power",
+            "Vegeta's Family",
+            "Super Saiyans",
+            "Worthy Rivals",
+            "Androids/Cell Saga",
+            "Rapid Growth",
+            "Gifted Warriors",
+            "Heavenly Events",
+            "Mastered Evolution",
+            "Power Beyond Super Saiyan",
+            "Successors"
+        ],
         "roles": []
     },
     {
@@ -31817,7 +43817,12 @@ const dokkanCharacters = [
             37,
             39
         ],
-        "categories": [],
+        "categories": [
+            "Realm of Gods",
+            "Majin Buu Saga",
+            "Potara",
+            "Fused Fighters"
+        ],
         "roles": [
             "SUPPORT"
         ]
@@ -31865,7 +43870,16 @@ const dokkanCharacters = [
             48,
             56
         ],
-        "categories": [],
+        "categories": [
+            "Namekians",
+            "Worthy Rivals",
+            "Bond of Master and Disciple",
+            "Battle of Wits",
+            "Gifted Warriors",
+            "Earth-Bred Fighters",
+            "Demonic Power",
+            "Successors"
+        ],
         "roles": [
             "TANK"
         ]
@@ -31890,7 +43904,23 @@ const dokkanCharacters = [
             47,
             45
         ],
-        "categories": [],
+        "categories": [
+            "Hybrid Saiyans",
+            "Goku's Family",
+            "Youth",
+            "Super Saiyans",
+            "Androids/Cell Saga",
+            "Kamehameha",
+            "Bond of Master and Disciple",
+            "Rapid Growth",
+            "Heavenly Events",
+            "Mastered Evolution",
+            "Entrusted Will",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters",
+            "Tournament Participants",
+            "Demonic Power"
+        ],
         "roles": []
     },
     {
@@ -31959,7 +43989,12 @@ const dokkanCharacters = [
             1003,
             1002
         ],
-        "categories": [],
+        "categories": [
+            "World Tournament",
+            "Majin Buu Saga",
+            "Potara",
+            "Tournament Participants"
+        ],
         "roles": [
             "HEALER"
         ]
@@ -32007,7 +44042,17 @@ const dokkanCharacters = [
             45,
             1
         ],
-        "categories": [],
+        "categories": [
+            "Planet Namek Saga",
+            "Pure Saiyans",
+            "Goku's Family",
+            "Saviors",
+            "Turtle School",
+            "Bond of Friendship",
+            "Accelerated Battle",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters"
+        ],
         "roles": []
     },
     {
@@ -32029,7 +44074,17 @@ const dokkanCharacters = [
             34,
             1002
         ],
-        "categories": [],
+        "categories": [
+            "Hybrid Saiyans",
+            "Goku's Family",
+            "Youth",
+            "Androids/Cell Saga",
+            "Bond of Master and Disciple",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters",
+            "Tournament Participants",
+            "Demonic Power"
+        ],
         "roles": [
             "SUPPORT"
         ]
@@ -32052,7 +44107,12 @@ const dokkanCharacters = [
             65,
             8
         ],
-        "categories": [],
+        "categories": [
+            "Resurrected Warriors",
+            "Revenge",
+            "Battle of Wits",
+            "Crossover"
+        ],
         "roles": []
     },
     {
@@ -32143,7 +44203,20 @@ const dokkanCharacters = [
             111,
             1004
         ],
-        "categories": [],
+        "categories": [
+            "Resurrected Warriors",
+            "Majin Buu Saga",
+            "Transformation Boost",
+            "Time Travelers",
+            "Artificial Life Forms",
+            "Majin Power",
+            "Power Absorption",
+            "Heavenly Events",
+            "Sworn Enemies",
+            "Worldwide Chaos",
+            "Demonic Power",
+            "Uncontrollable Power"
+        ],
         "roles": []
     },
     {
@@ -32166,7 +44239,15 @@ const dokkanCharacters = [
             47,
             1003
         ],
-        "categories": [],
+        "categories": [
+            "Majin Buu Saga",
+            "Kamehameha",
+            "Earthlings",
+            "Battle of Wits",
+            "Turtle School",
+            "Bond of Friendship",
+            "Earth-Bred Fighters"
+        ],
         "roles": [
             "HEALER"
         ]
@@ -32215,7 +44296,15 @@ const dokkanCharacters = [
             1003,
             95
         ],
-        "categories": [],
+        "categories": [
+            "Resurrected Warriors",
+            "Kamehameha",
+            "Bond of Master and Disciple",
+            "Earthlings",
+            "Saviors",
+            "GT Heroes",
+            "Earth-Bred Fighters"
+        ],
         "roles": [
             "HEALER"
         ]
@@ -32289,7 +44378,17 @@ const dokkanCharacters = [
             74,
             68
         ],
-        "categories": [],
+        "categories": [
+            "Hybrid Saiyans",
+            "Movie Heroes",
+            "Goku's Family",
+            "Siblings' Bond",
+            "Super Saiyans",
+            "Kamehameha",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters",
+            "Demonic Power"
+        ],
         "roles": []
     },
     {
@@ -32311,7 +44410,13 @@ const dokkanCharacters = [
             69,
             68
         ],
-        "categories": [],
+        "categories": [
+            "Movie Heroes",
+            "Special Pose",
+            "Space-Traveling Warriors",
+            "Defenders of Justice",
+            "Mission Execution"
+        ],
         "roles": []
     },
     {
@@ -32333,7 +44438,16 @@ const dokkanCharacters = [
             16,
             68
         ],
-        "categories": [],
+        "categories": [
+            "Full Power",
+            "Movie Heroes",
+            "Kamehameha",
+            "Bond of Master and Disciple",
+            "Earthlings",
+            "Battle of Wits",
+            "Turtle School",
+            "Earth-Bred Fighters"
+        ],
         "roles": []
     },
     {
@@ -32355,7 +44469,13 @@ const dokkanCharacters = [
             76,
             1003
         ],
-        "categories": [],
+        "categories": [
+            "World Tournament",
+            "Realm of Gods",
+            "Majin Buu Saga",
+            "Potara",
+            "Tournament Participants"
+        ],
         "roles": [
             "SUPPORT"
         ]
@@ -32471,7 +44591,20 @@ const dokkanCharacters = [
             108,
             111
         ],
-        "categories": [],
+        "categories": [
+            "Androids",
+            "Transformation Boost",
+            "Time Travelers",
+            "Artificial Life Forms",
+            "Androids/Cell Saga",
+            "Kamehameha",
+            "Target: Goku",
+            "Power Absorption",
+            "Sworn Enemies",
+            "Accelerated Battle",
+            "Worldwide Chaos",
+            "Tournament Participants"
+        ],
         "roles": []
     },
     {
@@ -32492,7 +44625,18 @@ const dokkanCharacters = [
             33,
             1004
         ],
-        "categories": [],
+        "categories": [
+            "Androids",
+            "Transformation Boost",
+            "Time Travelers",
+            "Artificial Life Forms",
+            "Androids/Cell Saga",
+            "Target: Goku",
+            "Power Absorption",
+            "Sworn Enemies",
+            "Accelerated Battle",
+            "Worldwide Chaos"
+        ],
         "roles": [
             "HEALER"
         ]
@@ -32563,7 +44707,24 @@ const dokkanCharacters = [
             71,
             68
         ],
-        "categories": [],
+        "categories": [
+            "Resurrected Warriors",
+            "Movie Bosses",
+            "Full Power",
+            "Transformation Boost",
+            "Wicked Bloodline",
+            "Terrifying Conquerors",
+            "Target: Goku",
+            "Revenge",
+            "Inhuman Deeds",
+            "Gifted Warriors",
+            "Planetary Destruction",
+            "Mastered Evolution",
+            "Sworn Enemies",
+            "Battle of Fate",
+            "Power of Wishes",
+            "Successors"
+        ],
         "roles": []
     },
     {
@@ -32585,7 +44746,24 @@ const dokkanCharacters = [
             71,
             68
         ],
-        "categories": [],
+        "categories": [
+            "Resurrected Warriors",
+            "Movie Bosses",
+            "Full Power",
+            "Transformation Boost",
+            "Wicked Bloodline",
+            "Terrifying Conquerors",
+            "Target: Goku",
+            "Revenge",
+            "Inhuman Deeds",
+            "Gifted Warriors",
+            "Planetary Destruction",
+            "Mastered Evolution",
+            "Sworn Enemies",
+            "Battle of Fate",
+            "Power of Wishes",
+            "Successors"
+        ],
         "roles": []
     },
     {
@@ -32607,7 +44785,24 @@ const dokkanCharacters = [
             71,
             68
         ],
-        "categories": [],
+        "categories": [
+            "Resurrected Warriors",
+            "Movie Bosses",
+            "Full Power",
+            "Transformation Boost",
+            "Wicked Bloodline",
+            "Terrifying Conquerors",
+            "Target: Goku",
+            "Revenge",
+            "Inhuman Deeds",
+            "Gifted Warriors",
+            "Planetary Destruction",
+            "Mastered Evolution",
+            "Sworn Enemies",
+            "Battle of Fate",
+            "Power of Wishes",
+            "Successors"
+        ],
         "roles": []
     },
     {
@@ -32629,7 +44824,26 @@ const dokkanCharacters = [
             71,
             68
         ],
-        "categories": [],
+        "categories": [
+            "Resurrected Warriors",
+            "Planet Namek Saga",
+            "Movie Bosses",
+            "Full Power",
+            "Transformation Boost",
+            "Wicked Bloodline",
+            "Terrifying Conquerors",
+            "Target: Goku",
+            "Revenge",
+            "Inhuman Deeds",
+            "Space-Traveling Warriors",
+            "Gifted Warriors",
+            "Planetary Destruction",
+            "Mastered Evolution",
+            "Sworn Enemies",
+            "Battle of Fate",
+            "Power of Wishes",
+            "Successors"
+        ],
         "roles": []
     },
     {
@@ -32651,7 +44865,26 @@ const dokkanCharacters = [
             71,
             68
         ],
-        "categories": [],
+        "categories": [
+            "Resurrected Warriors",
+            "Planet Namek Saga",
+            "Movie Bosses",
+            "Full Power",
+            "Transformation Boost",
+            "Wicked Bloodline",
+            "Terrifying Conquerors",
+            "Target: Goku",
+            "Revenge",
+            "Inhuman Deeds",
+            "Space-Traveling Warriors",
+            "Gifted Warriors",
+            "Planetary Destruction",
+            "Mastered Evolution",
+            "Sworn Enemies",
+            "Battle of Fate",
+            "Power of Wishes",
+            "Successors"
+        ],
         "roles": [
             "SUPPORT"
         ]
@@ -32675,7 +44908,26 @@ const dokkanCharacters = [
             71,
             68
         ],
-        "categories": [],
+        "categories": [
+            "Resurrected Warriors",
+            "Planet Namek Saga",
+            "Movie Bosses",
+            "Full Power",
+            "Transformation Boost",
+            "Wicked Bloodline",
+            "Terrifying Conquerors",
+            "Target: Goku",
+            "Revenge",
+            "Inhuman Deeds",
+            "Space-Traveling Warriors",
+            "Gifted Warriors",
+            "Planetary Destruction",
+            "Mastered Evolution",
+            "Sworn Enemies",
+            "Battle of Fate",
+            "Power of Wishes",
+            "Successors"
+        ],
         "roles": [
             "TANK"
         ]
@@ -32699,7 +44951,24 @@ const dokkanCharacters = [
             71,
             68
         ],
-        "categories": [],
+        "categories": [
+            "Resurrected Warriors",
+            "Movie Bosses",
+            "Full Power",
+            "Transformation Boost",
+            "Wicked Bloodline",
+            "Terrifying Conquerors",
+            "Target: Goku",
+            "Revenge",
+            "Inhuman Deeds",
+            "Gifted Warriors",
+            "Planetary Destruction",
+            "Mastered Evolution",
+            "Sworn Enemies",
+            "Battle of Fate",
+            "Power of Wishes",
+            "Successors"
+        ],
         "roles": []
     },
     {
@@ -32721,7 +44990,26 @@ const dokkanCharacters = [
             71,
             68
         ],
-        "categories": [],
+        "categories": [
+            "Resurrected Warriors",
+            "Planet Namek Saga",
+            "Movie Bosses",
+            "Full Power",
+            "Transformation Boost",
+            "Wicked Bloodline",
+            "Terrifying Conquerors",
+            "Target: Goku",
+            "Revenge",
+            "Inhuman Deeds",
+            "Space-Traveling Warriors",
+            "Gifted Warriors",
+            "Planetary Destruction",
+            "Mastered Evolution",
+            "Sworn Enemies",
+            "Battle of Fate",
+            "Power of Wishes",
+            "Successors"
+        ],
         "roles": []
     },
     {
@@ -32743,7 +45031,26 @@ const dokkanCharacters = [
             71,
             68
         ],
-        "categories": [],
+        "categories": [
+            "Resurrected Warriors",
+            "Planet Namek Saga",
+            "Movie Bosses",
+            "Full Power",
+            "Transformation Boost",
+            "Wicked Bloodline",
+            "Terrifying Conquerors",
+            "Target: Goku",
+            "Revenge",
+            "Inhuman Deeds",
+            "Space-Traveling Warriors",
+            "Gifted Warriors",
+            "Planetary Destruction",
+            "Mastered Evolution",
+            "Sworn Enemies",
+            "Battle of Fate",
+            "Power of Wishes",
+            "Successors"
+        ],
         "roles": []
     },
     {
@@ -32765,7 +45072,17 @@ const dokkanCharacters = [
             16,
             3
         ],
-        "categories": [],
+        "categories": [
+            "Full Power",
+            "Movie Heroes",
+            "DB Saga",
+            "Kamehameha",
+            "Bond of Master and Disciple",
+            "Earthlings",
+            "Battle of Wits",
+            "Turtle School",
+            "Earth-Bred Fighters"
+        ],
         "roles": [
             "SUPPORT"
         ]
@@ -32789,7 +45106,17 @@ const dokkanCharacters = [
             16,
             3
         ],
-        "categories": [],
+        "categories": [
+            "Full Power",
+            "Movie Heroes",
+            "DB Saga",
+            "Kamehameha",
+            "Bond of Master and Disciple",
+            "Earthlings",
+            "Battle of Wits",
+            "Turtle School",
+            "Earth-Bred Fighters"
+        ],
         "roles": []
     },
     {
@@ -32810,7 +45137,16 @@ const dokkanCharacters = [
             26,
             50
         ],
-        "categories": [],
+        "categories": [
+            "Movie Bosses",
+            "Transformation Boost",
+            "Wicked Bloodline",
+            "Terrifying Conquerors",
+            "Target: Goku",
+            "Final Trump Card",
+            "Space-Traveling Warriors",
+            "Planetary Destruction"
+        ],
         "roles": []
     },
     {
@@ -32833,7 +45169,20 @@ const dokkanCharacters = [
             94,
             1003
         ],
-        "categories": [],
+        "categories": [
+            "World Tournament",
+            "Hybrid Saiyans",
+            "Majin Buu Saga",
+            "Movie Heroes",
+            "Goku's Family",
+            "Siblings' Bond",
+            "Special Pose",
+            "Defenders of Justice",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters",
+            "Tournament Participants",
+            "Demonic Power"
+        ],
         "roles": []
     },
     {
@@ -32857,7 +45206,16 @@ const dokkanCharacters = [
             69,
             1003
         ],
-        "categories": [],
+        "categories": [
+            "Peppy Gals",
+            "Majin Buu Saga",
+            "Movie Heroes",
+            "Earthlings",
+            "Special Pose",
+            "Defenders of Justice",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters"
+        ],
         "roles": [
             "SUPPORT"
         ]
@@ -32883,7 +45241,16 @@ const dokkanCharacters = [
             69,
             1003
         ],
-        "categories": [],
+        "categories": [
+            "Peppy Gals",
+            "Majin Buu Saga",
+            "Movie Heroes",
+            "Earthlings",
+            "Special Pose",
+            "Defenders of Justice",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters"
+        ],
         "roles": []
     },
     {
@@ -32905,7 +45272,16 @@ const dokkanCharacters = [
             26,
             97
         ],
-        "categories": [],
+        "categories": [
+            "Pure Saiyans",
+            "Vegeta's Family",
+            "Super Saiyans",
+            "Worthy Rivals",
+            "Androids/Cell Saga",
+            "Gifted Warriors",
+            "Mastered Evolution",
+            "Successors"
+        ],
         "roles": []
     },
     {
@@ -32927,7 +45303,15 @@ const dokkanCharacters = [
             9,
             40
         ],
-        "categories": [],
+        "categories": [
+            "Pure Saiyans",
+            "Vegeta's Family",
+            "Super Saiyans",
+            "Androids/Cell Saga",
+            "Gifted Warriors",
+            "Mastered Evolution",
+            "Successors"
+        ],
         "roles": []
     },
     {
@@ -32949,7 +45333,17 @@ const dokkanCharacters = [
             75,
             68
         ],
-        "categories": [],
+        "categories": [
+            "Pure Saiyans",
+            "Goku's Family",
+            "Kamehameha",
+            "Bond of Master and Disciple",
+            "Turtle School",
+            "Bond of Friendship",
+            "Accelerated Battle",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters"
+        ],
         "roles": []
     },
     {
@@ -32971,7 +45365,17 @@ const dokkanCharacters = [
             75,
             68
         ],
-        "categories": [],
+        "categories": [
+            "Pure Saiyans",
+            "Goku's Family",
+            "Kamehameha",
+            "Bond of Master and Disciple",
+            "Turtle School",
+            "Bond of Friendship",
+            "Accelerated Battle",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters"
+        ],
         "roles": []
     },
     {
@@ -32993,7 +45397,17 @@ const dokkanCharacters = [
             47,
             30
         ],
-        "categories": [],
+        "categories": [
+            "Low-Class Warrior",
+            "Pure Saiyans",
+            "Goku's Family",
+            "Kamehameha",
+            "Turtle School",
+            "Bond of Friendship",
+            "Saiyan Saga",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters"
+        ],
         "roles": []
     },
     {
@@ -33015,7 +45429,18 @@ const dokkanCharacters = [
             47,
             1
         ],
-        "categories": [],
+        "categories": [
+            "Low-Class Warrior",
+            "Planet Namek Saga",
+            "Pure Saiyans",
+            "Goku's Family",
+            "Kamehameha",
+            "Saviors",
+            "Turtle School",
+            "Bond of Friendship",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters"
+        ],
         "roles": []
     },
     {
@@ -33036,7 +45461,13 @@ const dokkanCharacters = [
             63,
             26
         ],
-        "categories": [],
+        "categories": [
+            "Pure Saiyans",
+            "Vegeta's Family",
+            "Worthy Rivals",
+            "Gifted Warriors",
+            "Successors"
+        ],
         "roles": []
     },
     {
@@ -33058,7 +45489,17 @@ const dokkanCharacters = [
             26,
             68
         ],
-        "categories": [],
+        "categories": [
+            "Pure Saiyans",
+            "Movie Heroes",
+            "Vegeta's Family",
+            "Siblings' Bond",
+            "Worthy Rivals",
+            "Bond of Master and Disciple",
+            "Gifted Warriors",
+            "Bond of Parent and Child",
+            "Successors"
+        ],
         "roles": []
     },
     {
@@ -33079,7 +45520,20 @@ const dokkanCharacters = [
             50,
             26
         ],
-        "categories": [],
+        "categories": [
+            "Pure Saiyans",
+            "Dragon Ball Seekers",
+            "Vegeta's Family",
+            "Terrifying Conquerors",
+            "Inhuman Deeds",
+            "Space-Traveling Warriors",
+            "Gifted Warriors",
+            "Planetary Destruction",
+            "Accelerated Battle",
+            "Battle of Fate",
+            "Saiyan Saga",
+            "Successors"
+        ],
         "roles": []
     },
     {
@@ -33100,7 +45554,20 @@ const dokkanCharacters = [
             50,
             26
         ],
-        "categories": [],
+        "categories": [
+            "Pure Saiyans",
+            "Dragon Ball Seekers",
+            "Vegeta's Family",
+            "Terrifying Conquerors",
+            "Inhuman Deeds",
+            "Space-Traveling Warriors",
+            "Gifted Warriors",
+            "Planetary Destruction",
+            "Accelerated Battle",
+            "Battle of Fate",
+            "Saiyan Saga",
+            "Successors"
+        ],
         "roles": []
     },
     {
@@ -33123,7 +45590,18 @@ const dokkanCharacters = [
             33,
             1004
         ],
-        "categories": [],
+        "categories": [
+            "Androids",
+            "Transformation Boost",
+            "Time Travelers",
+            "Artificial Life Forms",
+            "Androids/Cell Saga",
+            "Kamehameha",
+            "Target: Goku",
+            "Power Absorption",
+            "Sworn Enemies",
+            "Worldwide Chaos"
+        ],
         "roles": []
     },
     {
@@ -33143,7 +45621,17 @@ const dokkanCharacters = [
             45,
             34
         ],
-        "categories": [],
+        "categories": [
+            "Hybrid Saiyans",
+            "Planet Namek Saga",
+            "Dragon Ball Seekers",
+            "Goku's Family",
+            "Youth",
+            "Bond of Master and Disciple",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters",
+            "Demonic Power"
+        ],
         "roles": []
     },
     {
@@ -33163,7 +45651,16 @@ const dokkanCharacters = [
             45,
             49
         ],
-        "categories": [],
+        "categories": [
+            "Hybrid Saiyans",
+            "Goku's Family",
+            "Youth",
+            "Bond of Master and Disciple",
+            "Saiyan Saga",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters",
+            "Demonic Power"
+        ],
         "roles": []
     },
     {
@@ -33183,7 +45680,16 @@ const dokkanCharacters = [
             45,
             49
         ],
-        "categories": [],
+        "categories": [
+            "Hybrid Saiyans",
+            "Goku's Family",
+            "Youth",
+            "Bond of Master and Disciple",
+            "Saiyan Saga",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters",
+            "Demonic Power"
+        ],
         "roles": []
     },
     {
@@ -33205,7 +45711,19 @@ const dokkanCharacters = [
             45,
             1001
         ],
-        "categories": [],
+        "categories": [
+            "Hybrid Saiyans",
+            "Future Saga",
+            "Time Travelers",
+            "Vegeta's Family",
+            "Androids/Cell Saga",
+            "Bond of Master and Disciple",
+            "Rapid Growth",
+            "Battle of Wits",
+            "Heavenly Events",
+            "Entrusted Will",
+            "Earth-Bred Fighters"
+        ],
         "roles": []
     },
     {
@@ -33226,7 +45744,19 @@ const dokkanCharacters = [
             19,
             45
         ],
-        "categories": [],
+        "categories": [
+            "Hybrid Saiyans",
+            "Future Saga",
+            "Time Travelers",
+            "Vegeta's Family",
+            "Androids/Cell Saga",
+            "Bond of Master and Disciple",
+            "Saviors",
+            "Battle of Wits",
+            "Entrusted Will",
+            "Earth-Bred Fighters",
+            "Earth-Protecting Heroes"
+        ],
         "roles": []
     },
     {
@@ -33247,7 +45777,19 @@ const dokkanCharacters = [
             19,
             45
         ],
-        "categories": [],
+        "categories": [
+            "Hybrid Saiyans",
+            "Future Saga",
+            "Time Travelers",
+            "Vegeta's Family",
+            "Androids/Cell Saga",
+            "Bond of Master and Disciple",
+            "Saviors",
+            "Battle of Wits",
+            "Entrusted Will",
+            "Earth-Bred Fighters",
+            "Earth-Protecting Heroes"
+        ],
         "roles": []
     },
     {
@@ -33268,7 +45810,19 @@ const dokkanCharacters = [
             19,
             45
         ],
-        "categories": [],
+        "categories": [
+            "Hybrid Saiyans",
+            "Future Saga",
+            "Time Travelers",
+            "Vegeta's Family",
+            "Androids/Cell Saga",
+            "Bond of Master and Disciple",
+            "Saviors",
+            "Battle of Wits",
+            "Entrusted Will",
+            "Earth-Bred Fighters",
+            "Earth-Protecting Heroes"
+        ],
         "roles": []
     },
     {
@@ -33289,7 +45843,13 @@ const dokkanCharacters = [
             2,
             1
         ],
-        "categories": [],
+        "categories": [
+            "Earthlings",
+            "Battle of Wits",
+            "Turtle School",
+            "Bond of Friendship",
+            "Earth-Bred Fighters"
+        ],
         "roles": []
     },
     {
@@ -33310,7 +45870,14 @@ const dokkanCharacters = [
             2,
             1
         ],
-        "categories": [],
+        "categories": [
+            "Earthlings",
+            "Battle of Wits",
+            "Turtle School",
+            "Bond of Friendship",
+            "Saiyan Saga",
+            "Earth-Bred Fighters"
+        ],
         "roles": [
             "SUPPORT"
         ]
@@ -33334,7 +45901,16 @@ const dokkanCharacters = [
             48,
             33
         ],
-        "categories": [],
+        "categories": [
+            "Namekians",
+            "Worthy Rivals",
+            "Bond of Master and Disciple",
+            "Battle of Wits",
+            "Gifted Warriors",
+            "Earth-Bred Fighters",
+            "Demonic Power",
+            "Successors"
+        ],
         "roles": []
     },
     {
@@ -33355,7 +45931,16 @@ const dokkanCharacters = [
             8,
             48
         ],
-        "categories": [],
+        "categories": [
+            "Namekians",
+            "Worthy Rivals",
+            "Bond of Master and Disciple",
+            "Battle of Wits",
+            "Gifted Warriors",
+            "Earth-Bred Fighters",
+            "Demonic Power",
+            "Successors"
+        ],
         "roles": [
             "HEALER"
         ]
@@ -33379,7 +45964,17 @@ const dokkanCharacters = [
             48,
             8
         ],
-        "categories": [],
+        "categories": [
+            "Namekians",
+            "Worthy Rivals",
+            "Bond of Master and Disciple",
+            "Battle of Wits",
+            "Gifted Warriors",
+            "Saiyan Saga",
+            "Earth-Bred Fighters",
+            "Demonic Power",
+            "Successors"
+        ],
         "roles": [
             "SUPPORT"
         ]
@@ -33403,7 +45998,13 @@ const dokkanCharacters = [
             2,
             68
         ],
-        "categories": [],
+        "categories": [
+            "Movie Heroes",
+            "Worthy Rivals",
+            "Earthlings",
+            "Bond of Friendship",
+            "Earth-Bred Fighters"
+        ],
         "roles": []
     },
     {
@@ -33425,7 +46026,15 @@ const dokkanCharacters = [
             90,
             102
         ],
-        "categories": [],
+        "categories": [
+            "World Tournament",
+            "DB Saga",
+            "Bond of Master and Disciple",
+            "Earthlings",
+            "Bond of Friendship",
+            "Earth-Bred Fighters",
+            "Tournament Participants"
+        ],
         "roles": [
             "SUPPORT"
         ]
@@ -33449,7 +46058,12 @@ const dokkanCharacters = [
             46,
             37
         ],
-        "categories": [],
+        "categories": [
+            "Worthy Rivals",
+            "Earthlings",
+            "Bond of Friendship",
+            "Earth-Bred Fighters"
+        ],
         "roles": []
     },
     {
@@ -33471,7 +46085,12 @@ const dokkanCharacters = [
             2,
             37
         ],
-        "categories": [],
+        "categories": [
+            "Worthy Rivals",
+            "Earthlings",
+            "Bond of Friendship",
+            "Earth-Bred Fighters"
+        ],
         "roles": []
     },
     {
@@ -33493,7 +46112,12 @@ const dokkanCharacters = [
             39,
             37
         ],
-        "categories": [],
+        "categories": [
+            "Worthy Rivals",
+            "Earthlings",
+            "Bond of Friendship",
+            "Earth-Bred Fighters"
+        ],
         "roles": []
     },
     {
@@ -33515,7 +46139,13 @@ const dokkanCharacters = [
             13,
             46
         ],
-        "categories": [],
+        "categories": [
+            "Worthy Rivals",
+            "Earthlings",
+            "Bond of Friendship",
+            "Saiyan Saga",
+            "Earth-Bred Fighters"
+        ],
         "roles": [
             "SUPPORT"
         ]
@@ -33539,7 +46169,13 @@ const dokkanCharacters = [
             13,
             2
         ],
-        "categories": [],
+        "categories": [
+            "Worthy Rivals",
+            "Earthlings",
+            "Bond of Friendship",
+            "Saiyan Saga",
+            "Earth-Bred Fighters"
+        ],
         "roles": []
     },
     {
@@ -33561,7 +46197,13 @@ const dokkanCharacters = [
             13,
             46
         ],
-        "categories": [],
+        "categories": [
+            "Worthy Rivals",
+            "Earthlings",
+            "Bond of Friendship",
+            "Saiyan Saga",
+            "Earth-Bred Fighters"
+        ],
         "roles": []
     },
     {
@@ -33583,7 +46225,13 @@ const dokkanCharacters = [
             90,
             102
         ],
-        "categories": [],
+        "categories": [
+            "Dragon Ball Seekers",
+            "DB Saga",
+            "Worthy Rivals",
+            "Earthlings",
+            "Earth-Bred Fighters"
+        ],
         "roles": [
             "SUPPORT"
         ]
@@ -33607,7 +46255,14 @@ const dokkanCharacters = [
             53,
             47
         ],
-        "categories": [],
+        "categories": [
+            "Worthy Rivals",
+            "Kamehameha",
+            "Earthlings",
+            "Turtle School",
+            "Saiyan Saga",
+            "Earth-Bred Fighters"
+        ],
         "roles": []
     },
     {
@@ -33629,7 +46284,13 @@ const dokkanCharacters = [
             53,
             42
         ],
-        "categories": [],
+        "categories": [
+            "Worthy Rivals",
+            "Earthlings",
+            "Turtle School",
+            "Saiyan Saga",
+            "Earth-Bred Fighters"
+        ],
         "roles": [
             "SUPPORT"
         ]
@@ -33652,7 +46313,13 @@ const dokkanCharacters = [
             36,
             53
         ],
-        "categories": [],
+        "categories": [
+            "Worthy Rivals",
+            "Earthlings",
+            "Turtle School",
+            "Saiyan Saga",
+            "Earth-Bred Fighters"
+        ],
         "roles": []
     },
     {
@@ -33673,7 +46340,15 @@ const dokkanCharacters = [
             32,
             18
         ],
-        "categories": [],
+        "categories": [
+            "Low-Class Warrior",
+            "Pure Saiyans",
+            "Goku's Family",
+            "Terrifying Conquerors",
+            "Space-Traveling Warriors",
+            "Saiyan Saga",
+            "Mission Execution"
+        ],
         "roles": []
     },
     {
@@ -33693,7 +46368,15 @@ const dokkanCharacters = [
             22,
             32
         ],
-        "categories": [],
+        "categories": [
+            "Low-Class Warrior",
+            "Pure Saiyans",
+            "Goku's Family",
+            "Terrifying Conquerors",
+            "Space-Traveling Warriors",
+            "Saiyan Saga",
+            "Mission Execution"
+        ],
         "roles": [
             "SUPPORT"
         ]
@@ -33717,7 +46400,13 @@ const dokkanCharacters = [
             49,
             42
         ],
-        "categories": [],
+        "categories": [
+            "Pure Saiyans",
+            "Terrifying Conquerors",
+            "Space-Traveling Warriors",
+            "Saiyan Saga",
+            "Mission Execution"
+        ],
         "roles": []
     },
     {
@@ -33739,7 +46428,13 @@ const dokkanCharacters = [
             49,
             42
         ],
-        "categories": [],
+        "categories": [
+            "Pure Saiyans",
+            "Terrifying Conquerors",
+            "Space-Traveling Warriors",
+            "Saiyan Saga",
+            "Mission Execution"
+        ],
         "roles": []
     },
     {
@@ -33761,7 +46456,13 @@ const dokkanCharacters = [
             49,
             42
         ],
-        "categories": [],
+        "categories": [
+            "Pure Saiyans",
+            "Terrifying Conquerors",
+            "Space-Traveling Warriors",
+            "Saiyan Saga",
+            "Mission Execution"
+        ],
         "roles": []
     },
     {
@@ -33781,7 +46482,14 @@ const dokkanCharacters = [
             51,
             43
         ],
-        "categories": [],
+        "categories": [
+            "Planet Namek Saga",
+            "Transformation Boost",
+            "Dragon Ball Seekers",
+            "Terrifying Conquerors",
+            "Space-Traveling Warriors",
+            "Mission Execution"
+        ],
         "roles": [
             "SUPPORT"
         ]
@@ -33803,7 +46511,14 @@ const dokkanCharacters = [
             51,
             43
         ],
-        "categories": [],
+        "categories": [
+            "Planet Namek Saga",
+            "Transformation Boost",
+            "Dragon Ball Seekers",
+            "Terrifying Conquerors",
+            "Space-Traveling Warriors",
+            "Mission Execution"
+        ],
         "roles": []
     },
     {
@@ -33825,7 +46540,15 @@ const dokkanCharacters = [
             73,
             94
         ],
-        "categories": [],
+        "categories": [
+            "Planet Namek Saga",
+            "Ginyu Force",
+            "Dragon Ball Seekers",
+            "Terrifying Conquerors",
+            "Special Pose",
+            "Space-Traveling Warriors",
+            "Mission Execution"
+        ],
         "roles": []
     },
     {
@@ -33847,7 +46570,15 @@ const dokkanCharacters = [
             73,
             94
         ],
-        "categories": [],
+        "categories": [
+            "Planet Namek Saga",
+            "Ginyu Force",
+            "Dragon Ball Seekers",
+            "Terrifying Conquerors",
+            "Special Pose",
+            "Space-Traveling Warriors",
+            "Mission Execution"
+        ],
         "roles": []
     },
     {
@@ -33868,7 +46599,14 @@ const dokkanCharacters = [
             18,
             12
         ],
-        "categories": [],
+        "categories": [
+            "Androids",
+            "Artificial Life Forms",
+            "Androids/Cell Saga",
+            "Target: Goku",
+            "Power Absorption",
+            "Mission Execution"
+        ],
         "roles": []
     },
     {
@@ -33889,7 +46627,14 @@ const dokkanCharacters = [
             73,
             81
         ],
-        "categories": [],
+        "categories": [
+            "Androids",
+            "Artificial Life Forms",
+            "Androids/Cell Saga",
+            "Target: Goku",
+            "Power Absorption",
+            "Mission Execution"
+        ],
         "roles": [
             "HEALER"
         ]
@@ -33914,7 +46659,15 @@ const dokkanCharacters = [
             86,
             114
         ],
-        "categories": [],
+        "categories": [
+            "Androids",
+            "Androids/Cell Saga",
+            "Terrifying Conquerors",
+            "Target: Goku",
+            "Revenge",
+            "Battle of Wits",
+            "Power Absorption"
+        ],
         "roles": [
             "HEALER"
         ]
@@ -33940,7 +46693,15 @@ const dokkanCharacters = [
             114,
             81
         ],
-        "categories": [],
+        "categories": [
+            "Androids",
+            "Androids/Cell Saga",
+            "Terrifying Conquerors",
+            "Target: Goku",
+            "Revenge",
+            "Battle of Wits",
+            "Power Absorption"
+        ],
         "roles": [
             "HEALER"
         ]
@@ -33966,7 +46727,15 @@ const dokkanCharacters = [
             114,
             81
         ],
-        "categories": [],
+        "categories": [
+            "Androids",
+            "Androids/Cell Saga",
+            "Terrifying Conquerors",
+            "Target: Goku",
+            "Revenge",
+            "Battle of Wits",
+            "Power Absorption"
+        ],
         "roles": [
             "HEALER"
         ]
@@ -33989,7 +46758,14 @@ const dokkanCharacters = [
             4,
             110
         ],
-        "categories": [],
+        "categories": [
+            "Androids",
+            "Siblings' Bond",
+            "Androids/Cell Saga",
+            "Target: Goku",
+            "Uncontrollable Power",
+            "Mission Execution"
+        ],
         "roles": []
     },
     {
@@ -34011,7 +46787,14 @@ const dokkanCharacters = [
             1001,
             110
         ],
-        "categories": [],
+        "categories": [
+            "Androids",
+            "Siblings' Bond",
+            "Androids/Cell Saga",
+            "Target: Goku",
+            "Uncontrollable Power",
+            "Mission Execution"
+        ],
         "roles": []
     },
     {
@@ -34033,7 +46816,16 @@ const dokkanCharacters = [
             64,
             110
         ],
-        "categories": [],
+        "categories": [
+            "Peppy Gals",
+            "Androids",
+            "Siblings' Bond",
+            "Androids/Cell Saga",
+            "Target: Goku",
+            "Battle of Wits",
+            "Uncontrollable Power",
+            "Mission Execution"
+        ],
         "roles": []
     },
     {
@@ -34056,7 +46848,16 @@ const dokkanCharacters = [
             1001,
             110
         ],
-        "categories": [],
+        "categories": [
+            "Peppy Gals",
+            "Androids",
+            "Siblings' Bond",
+            "Androids/Cell Saga",
+            "Target: Goku",
+            "Battle of Wits",
+            "Uncontrollable Power",
+            "Mission Execution"
+        ],
         "roles": []
     },
     {
@@ -34076,7 +46877,15 @@ const dokkanCharacters = [
             38,
             17
         ],
-        "categories": [],
+        "categories": [
+            "Androids",
+            "Artificial Life Forms",
+            "Androids/Cell Saga",
+            "Target: Goku",
+            "Saviors",
+            "Uncontrollable Power",
+            "Mission Execution"
+        ],
         "roles": []
     },
     {
@@ -34096,7 +46905,15 @@ const dokkanCharacters = [
             38,
             17
         ],
-        "categories": [],
+        "categories": [
+            "Androids",
+            "Artificial Life Forms",
+            "Androids/Cell Saga",
+            "Target: Goku",
+            "Saviors",
+            "Uncontrollable Power",
+            "Mission Execution"
+        ],
         "roles": []
     },
     {
@@ -34119,7 +46936,15 @@ const dokkanCharacters = [
             16,
             3
         ],
-        "categories": [],
+        "categories": [
+            "DB Saga",
+            "Kamehameha",
+            "Bond of Master and Disciple",
+            "Earthlings",
+            "Battle of Wits",
+            "Turtle School",
+            "Earth-Bred Fighters"
+        ],
         "roles": [
             "SUPPORT"
         ]
@@ -34143,7 +46968,16 @@ const dokkanCharacters = [
             32,
             90
         ],
-        "categories": [],
+        "categories": [
+            "Dragon Ball Seekers",
+            "DB Saga",
+            "Siblings' Bond",
+            "Target: Goku",
+            "Earthlings",
+            "Sworn Enemies",
+            "Earth-Bred Fighters",
+            "Mission Execution"
+        ],
         "roles": []
     },
     {
@@ -34162,7 +46996,15 @@ const dokkanCharacters = [
             23,
             64
         ],
-        "categories": [],
+        "categories": [
+            "World Tournament",
+            "Peppy Gals",
+            "Goku's Family",
+            "Earthlings",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters",
+            "Tournament Participants"
+        ],
         "roles": []
     },
     {
@@ -34183,7 +47025,14 @@ const dokkanCharacters = [
             43,
             73
         ],
-        "categories": [],
+        "categories": [
+            "Planet Namek Saga",
+            "Dragon Ball Seekers",
+            "Terrifying Conquerors",
+            "Inhuman Deeds",
+            "Space-Traveling Warriors",
+            "Mission Execution"
+        ],
         "roles": []
     },
     {
@@ -34205,7 +47054,15 @@ const dokkanCharacters = [
             42,
             94
         ],
-        "categories": [],
+        "categories": [
+            "Planet Namek Saga",
+            "Ginyu Force",
+            "Dragon Ball Seekers",
+            "Terrifying Conquerors",
+            "Special Pose",
+            "Space-Traveling Warriors",
+            "Mission Execution"
+        ],
         "roles": []
     },
     {
@@ -34227,7 +47084,15 @@ const dokkanCharacters = [
             8,
             94
         ],
-        "categories": [],
+        "categories": [
+            "Planet Namek Saga",
+            "Ginyu Force",
+            "Dragon Ball Seekers",
+            "Terrifying Conquerors",
+            "Special Pose",
+            "Space-Traveling Warriors",
+            "Mission Execution"
+        ],
         "roles": []
     },
     {
@@ -34248,7 +47113,16 @@ const dokkanCharacters = [
             54,
             94
         ],
-        "categories": [],
+        "categories": [
+            "Planet Namek Saga",
+            "Ginyu Force",
+            "Dragon Ball Seekers",
+            "Terrifying Conquerors",
+            "Special Pose",
+            "Space-Traveling Warriors",
+            "Accelerated Battle",
+            "Mission Execution"
+        ],
         "roles": []
     },
     {
@@ -34268,7 +47142,15 @@ const dokkanCharacters = [
             54,
             94
         ],
-        "categories": [],
+        "categories": [
+            "Planet Namek Saga",
+            "Ginyu Force",
+            "Dragon Ball Seekers",
+            "Terrifying Conquerors",
+            "Special Pose",
+            "Space-Traveling Warriors",
+            "Mission Execution"
+        ],
         "roles": [
             "SUPPORT"
         ]
@@ -34290,7 +47172,13 @@ const dokkanCharacters = [
             39,
             15
         ],
-        "categories": [],
+        "categories": [
+            "Planet Namek Saga",
+            "Namekians",
+            "Connected Hope",
+            "Demonic Power",
+            "Mission Execution"
+        ],
         "roles": [
             "HEALER"
         ]
@@ -34314,7 +47202,17 @@ const dokkanCharacters = [
             10,
             20
         ],
-        "categories": [],
+        "categories": [
+            "World Tournament",
+            "Majin Buu Saga",
+            "Earthlings",
+            "Saviors",
+            "Bond of Friendship",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters",
+            "Tournament Participants",
+            "Earth-Protecting Heroes"
+        ],
         "roles": []
     },
     {
@@ -34333,7 +47231,12 @@ const dokkanCharacters = [
             32,
             43
         ],
-        "categories": [],
+        "categories": [
+            "Planet Namek Saga",
+            "Terrifying Conquerors",
+            "Space-Traveling Warriors",
+            "Mission Execution"
+        ],
         "roles": []
     },
     {
@@ -34354,7 +47257,13 @@ const dokkanCharacters = [
             3,
             90
         ],
-        "categories": [],
+        "categories": [
+            "DB Saga",
+            "Siblings' Bond",
+            "Bond of Master and Disciple",
+            "Earthlings",
+            "Earth-Bred Fighters"
+        ],
         "roles": []
     },
     {
@@ -34375,7 +47284,20 @@ const dokkanCharacters = [
             19,
             121
         ],
-        "categories": [],
+        "categories": [
+            "Hybrid Saiyans",
+            "Time Travelers",
+            "Vegeta's Family",
+            "Bond of Master and Disciple",
+            "Battle of Wits",
+            "Crossover",
+            "Defenders of Justice",
+            "Entrusted Will",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters",
+            "Successors",
+            "Mission Execution"
+        ],
         "roles": []
     },
     {
@@ -34396,7 +47318,15 @@ const dokkanCharacters = [
             63,
             64
         ],
-        "categories": [],
+        "categories": [
+            "Peppy Gals",
+            "Low-Class Warrior",
+            "Pure Saiyans",
+            "Team Bardock",
+            "Space-Traveling Warriors",
+            "Storied Figures",
+            "Mission Execution"
+        ],
         "roles": []
     },
     {
@@ -34417,7 +47347,14 @@ const dokkanCharacters = [
             66,
             67
         ],
-        "categories": [],
+        "categories": [
+            "Future Saga",
+            "Androids",
+            "Siblings' Bond",
+            "Androids/Cell Saga",
+            "Worldwide Chaos",
+            "Uncontrollable Power"
+        ],
         "roles": []
     },
     {
@@ -34439,7 +47376,15 @@ const dokkanCharacters = [
             66,
             67
         ],
-        "categories": [],
+        "categories": [
+            "Peppy Gals",
+            "Future Saga",
+            "Androids",
+            "Siblings' Bond",
+            "Androids/Cell Saga",
+            "Worldwide Chaos",
+            "Uncontrollable Power"
+        ],
         "roles": []
     },
     {
@@ -34461,7 +47406,20 @@ const dokkanCharacters = [
             47,
             90
         ],
-        "categories": [],
+        "categories": [
+            "Low-Class Warrior",
+            "Pure Saiyans",
+            "Dragon Ball Seekers",
+            "Goku's Family",
+            "Youth",
+            "DB Saga",
+            "Kamehameha",
+            "Bond of Master and Disciple",
+            "Turtle School",
+            "Bond of Friendship",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters"
+        ],
         "roles": []
     },
     {
@@ -34483,7 +47441,23 @@ const dokkanCharacters = [
             71,
             68
         ],
-        "categories": [],
+        "categories": [
+            "Realm of Gods",
+            "Pure Saiyans",
+            "Movie Heroes",
+            "Goku's Family",
+            "Kamehameha",
+            "Bond of Master and Disciple",
+            "Turtle School",
+            "Mastered Evolution",
+            "Bond of Friendship",
+            "Accelerated Battle",
+            "Battle of Fate",
+            "Power Beyond Super Saiyan",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters",
+            "Earth-Protecting Heroes"
+        ],
         "roles": []
     },
     {
@@ -34706,7 +47680,19 @@ const dokkanCharacters = [
             79,
             4
         ],
-        "categories": [],
+        "categories": [
+            "Realm of Gods",
+            "Movie Bosses",
+            "Siblings' Bond",
+            "Worthy Rivals",
+            "Bond of Master and Disciple",
+            "Exploding Rage",
+            "Space-Traveling Warriors",
+            "Planetary Destruction",
+            "Legendary Existence",
+            "Battle of Fate",
+            "Successors"
+        ],
         "roles": [
             "SUPPORT"
         ]
@@ -34730,7 +47716,17 @@ const dokkanCharacters = [
             74,
             68
         ],
-        "categories": [],
+        "categories": [
+            "Hybrid Saiyans",
+            "Movie Heroes",
+            "Goku's Family",
+            "Siblings' Bond",
+            "Super Saiyans",
+            "Kamehameha",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters",
+            "Demonic Power"
+        ],
         "roles": []
     },
     {
@@ -34752,7 +47748,13 @@ const dokkanCharacters = [
             69,
             68
         ],
-        "categories": [],
+        "categories": [
+            "Movie Heroes",
+            "Special Pose",
+            "Space-Traveling Warriors",
+            "Defenders of Justice",
+            "Mission Execution"
+        ],
         "roles": []
     },
     {
@@ -34820,7 +47822,16 @@ const dokkanCharacters = [
             16,
             68
         ],
-        "categories": [],
+        "categories": [
+            "Full Power",
+            "Movie Heroes",
+            "Kamehameha",
+            "Bond of Master and Disciple",
+            "Earthlings",
+            "Battle of Wits",
+            "Turtle School",
+            "Earth-Bred Fighters"
+        ],
         "roles": []
     },
     {
@@ -34843,7 +47854,15 @@ const dokkanCharacters = [
             77,
             119
         ],
-        "categories": [],
+        "categories": [
+            "Majin Buu Saga",
+            "Siblings' Bond",
+            "Terrifying Conquerors",
+            "Corroded Body and Mind",
+            "Demonic Power",
+            "Successors",
+            "Mission Execution"
+        ],
         "roles": []
     },
     {
@@ -34866,7 +47885,15 @@ const dokkanCharacters = [
             77,
             119
         ],
-        "categories": [],
+        "categories": [
+            "Majin Buu Saga",
+            "Siblings' Bond",
+            "Terrifying Conquerors",
+            "Corroded Body and Mind",
+            "Demonic Power",
+            "Successors",
+            "Mission Execution"
+        ],
         "roles": []
     },
     {
@@ -34886,7 +47913,13 @@ const dokkanCharacters = [
             76,
             77
         ],
-        "categories": [],
+        "categories": [
+            "Majin Buu Saga",
+            "Terrifying Conquerors",
+            "Inhuman Deeds",
+            "Worldwide Chaos",
+            "Demonic Power"
+        ],
         "roles": [
             "SUPPORT"
         ]
@@ -34910,7 +47943,20 @@ const dokkanCharacters = [
             27,
             45
         ],
-        "categories": [],
+        "categories": [
+            "World Tournament",
+            "Hybrid Saiyans",
+            "Majin Buu Saga",
+            "Vegeta's Family",
+            "Youth",
+            "Gifted Warriors",
+            "Heavenly Events",
+            "Bond of Friendship",
+            "Entrusted Will",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters",
+            "Tournament Participants"
+        ],
         "roles": []
     },
     {
@@ -34932,7 +47978,15 @@ const dokkanCharacters = [
             90,
             102
         ],
-        "categories": [],
+        "categories": [
+            "Dragon Ball Seekers",
+            "DB Saga",
+            "Terrifying Conquerors",
+            "Inhuman Deeds",
+            "Earthlings",
+            "Earth-Bred Fighters",
+            "Mission Execution"
+        ],
         "roles": []
     },
     {
@@ -34954,7 +48008,20 @@ const dokkanCharacters = [
             47,
             1004
         ],
-        "categories": [],
+        "categories": [
+            "Androids",
+            "Transformation Boost",
+            "Time Travelers",
+            "Artificial Life Forms",
+            "Androids/Cell Saga",
+            "Kamehameha",
+            "Target: Goku",
+            "Power Absorption",
+            "Sworn Enemies",
+            "Accelerated Battle",
+            "Worldwide Chaos",
+            "Tournament Participants"
+        ],
         "roles": []
     },
     {
@@ -34976,7 +48043,20 @@ const dokkanCharacters = [
             45,
             9
         ],
-        "categories": [],
+        "categories": [
+            "Hybrid Saiyans",
+            "Future Saga",
+            "Time Travelers",
+            "Vegeta's Family",
+            "Super Saiyans",
+            "Androids/Cell Saga",
+            "Bond of Master and Disciple",
+            "Saviors",
+            "Battle of Wits",
+            "Entrusted Will",
+            "Earth-Bred Fighters",
+            "Earth-Protecting Heroes"
+        ],
         "roles": []
     },
     {
@@ -34998,7 +48078,19 @@ const dokkanCharacters = [
             29,
             40
         ],
-        "categories": [],
+        "categories": [
+            "Hybrid Saiyans",
+            "Majin Buu Saga",
+            "Dragon Ball Seekers",
+            "Movie Heroes",
+            "Vegeta's Family",
+            "Youth",
+            "Super Saiyans",
+            "Gifted Warriors",
+            "Bond of Friendship",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters"
+        ],
         "roles": [
             "DPS / NUKER"
         ]
@@ -35022,7 +48114,19 @@ const dokkanCharacters = [
             45,
             82
         ],
-        "categories": [],
+        "categories": [
+            "Hybrid Saiyans",
+            "Majin Buu Saga",
+            "Vegeta's Family",
+            "Youth",
+            "Super Saiyans",
+            "Gifted Warriors",
+            "Heavenly Events",
+            "Bond of Friendship",
+            "Entrusted Will",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters"
+        ],
         "roles": []
     },
     {
@@ -35044,7 +48148,21 @@ const dokkanCharacters = [
             45,
             82
         ],
-        "categories": [],
+        "categories": [
+            "Hybrid Saiyans",
+            "Majin Buu Saga",
+            "Goku's Family",
+            "Youth",
+            "Siblings' Bond",
+            "Super Saiyans",
+            "Kamehameha",
+            "Gifted Warriors",
+            "Heavenly Events",
+            "Bond of Friendship",
+            "Entrusted Will",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters"
+        ],
         "roles": []
     },
     {
@@ -35066,7 +48184,21 @@ const dokkanCharacters = [
             6,
             84
         ],
-        "categories": [],
+        "categories": [
+            "World Tournament",
+            "Namekians",
+            "Terrifying Conquerors",
+            "Target: Goku",
+            "Revenge",
+            "Gifted Warriors",
+            "Entrusted Will",
+            "Worldwide Chaos",
+            "Battle of Fate",
+            "Earth-Bred Fighters",
+            "Tournament Participants",
+            "Demonic Power",
+            "Successors"
+        ],
         "roles": []
     },
     {
@@ -35087,7 +48219,14 @@ const dokkanCharacters = [
             85,
             86
         ],
-        "categories": [],
+        "categories": [
+            "Wicked Bloodline",
+            "Terrifying Conquerors",
+            "Inhuman Deeds",
+            "Crossover",
+            "Space-Traveling Warriors",
+            "Storied Figures"
+        ],
         "roles": []
     },
     {
@@ -35107,7 +48246,15 @@ const dokkanCharacters = [
             64,
             90
         ],
-        "categories": [],
+        "categories": [
+            "World Tournament",
+            "Peppy Gals",
+            "Youth",
+            "DB Saga",
+            "Earthlings",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters"
+        ],
         "roles": [
             "HEALER"
         ]
@@ -35129,7 +48276,15 @@ const dokkanCharacters = [
             64,
             90
         ],
-        "categories": [],
+        "categories": [
+            "World Tournament",
+            "Peppy Gals",
+            "Youth",
+            "DB Saga",
+            "Earthlings",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters"
+        ],
         "roles": []
     },
     {
@@ -35150,7 +48305,17 @@ const dokkanCharacters = [
             64,
             95
         ],
-        "categories": [],
+        "categories": [
+            "Hybrid Saiyans",
+            "Dragon Ball Seekers",
+            "Goku's Family",
+            "Youth",
+            "Space-Traveling Warriors",
+            "GT Heroes",
+            "Bond of Friendship",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters"
+        ],
         "roles": [
             "HEALER"
         ]
@@ -35195,7 +48360,16 @@ const dokkanCharacters = [
             65,
             49
         ],
-        "categories": [],
+        "categories": [
+            "World Tournament",
+            "Resurrected Warriors",
+            "Majin Buu Saga",
+            "Youth",
+            "Bond of Master and Disciple",
+            "Earthlings",
+            "Earth-Bred Fighters",
+            "Tournament Participants"
+        ],
         "roles": []
     },
     {
@@ -35216,7 +48390,17 @@ const dokkanCharacters = [
             93,
             94
         ],
-        "categories": [],
+        "categories": [
+            "Hybrid Saiyans",
+            "Majin Buu Saga",
+            "Goku's Family",
+            "Siblings' Bond",
+            "Special Pose",
+            "Defenders of Justice",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters",
+            "Demonic Power"
+        ],
         "roles": []
     },
     {
@@ -35262,7 +48446,20 @@ const dokkanCharacters = [
             94,
             1003
         ],
-        "categories": [],
+        "categories": [
+            "World Tournament",
+            "Hybrid Saiyans",
+            "Majin Buu Saga",
+            "Movie Heroes",
+            "Goku's Family",
+            "Siblings' Bond",
+            "Special Pose",
+            "Defenders of Justice",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters",
+            "Tournament Participants",
+            "Demonic Power"
+        ],
         "roles": []
     },
     {
@@ -35333,7 +48530,19 @@ const dokkanCharacters = [
             2,
             47
         ],
-        "categories": [],
+        "categories": [
+            "World Tournament",
+            "Youth",
+            "DB Saga",
+            "Kamehameha",
+            "Bond of Master and Disciple",
+            "Earthlings",
+            "Battle of Wits",
+            "Turtle School",
+            "Bond of Friendship",
+            "Earth-Bred Fighters",
+            "Tournament Participants"
+        ],
         "roles": []
     },
     {
@@ -35355,7 +48564,18 @@ const dokkanCharacters = [
             96,
             1003
         ],
-        "categories": [],
+        "categories": [
+            "World Tournament",
+            "Majin Buu Saga",
+            "Transformation Boost",
+            "Artificial Life Forms",
+            "Worthy Rivals",
+            "Majin Power",
+            "Power Absorption",
+            "Bond of Friendship",
+            "Tournament Participants",
+            "Demonic Power"
+        ],
         "roles": [
             "HEALER"
         ]
@@ -35379,7 +48599,13 @@ const dokkanCharacters = [
             53,
             38
         ],
-        "categories": [],
+        "categories": [
+            "Terrifying Conquerors",
+            "Space-Traveling Warriors",
+            "Planetary Destruction",
+            "Accelerated Battle",
+            "Mission Execution"
+        ],
         "roles": []
     },
     {
@@ -35400,7 +48626,12 @@ const dokkanCharacters = [
             73,
             37
         ],
-        "categories": [],
+        "categories": [
+            "Terrifying Conquerors",
+            "Space-Traveling Warriors",
+            "Planetary Destruction",
+            "Mission Execution"
+        ],
         "roles": []
     },
     {
@@ -35421,7 +48652,12 @@ const dokkanCharacters = [
             73,
             52
         ],
-        "categories": [],
+        "categories": [
+            "Terrifying Conquerors",
+            "Space-Traveling Warriors",
+            "Planetary Destruction",
+            "Mission Execution"
+        ],
         "roles": [
             "SUPPORT"
         ]
@@ -35445,7 +48681,14 @@ const dokkanCharacters = [
             90,
             102
         ],
-        "categories": [],
+        "categories": [
+            "World Tournament",
+            "DB Saga",
+            "Earthlings",
+            "Tournament Participants",
+            "Demonic Power",
+            "Mission Execution"
+        ],
         "roles": []
     },
     {
@@ -35467,7 +48710,14 @@ const dokkanCharacters = [
             90,
             102
         ],
-        "categories": [],
+        "categories": [
+            "Dragon Ball Seekers",
+            "DB Saga",
+            "Earthlings",
+            "Time Limit",
+            "Earth-Bred Fighters",
+            "Earth-Protecting Heroes"
+        ],
         "roles": []
     },
     {
@@ -35489,7 +48739,15 @@ const dokkanCharacters = [
             40,
             95
         ],
-        "categories": [],
+        "categories": [
+            "Pure Saiyans",
+            "Vegeta's Family",
+            "Worthy Rivals",
+            "Gifted Warriors",
+            "GT Heroes",
+            "Bond of Parent and Child",
+            "Successors"
+        ],
         "roles": [
             "SUPPORT"
         ]
@@ -35513,7 +48771,17 @@ const dokkanCharacters = [
             47,
             95
         ],
-        "categories": [],
+        "categories": [
+            "Hybrid Saiyans",
+            "Goku's Family",
+            "Siblings' Bond",
+            "Super Saiyans",
+            "Kamehameha",
+            "GT Heroes",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters",
+            "Demonic Power"
+        ],
         "roles": [
             "SUPPORT"
         ]
@@ -35552,7 +48820,10 @@ const dokkanCharacters = [
             86,
             32
         ],
-        "categories": [],
+        "categories": [
+            "Pure Saiyans",
+            "Revenge"
+        ],
         "roles": []
     },
     {
@@ -35572,7 +48843,12 @@ const dokkanCharacters = [
             90,
             12
         ],
-        "categories": [],
+        "categories": [
+            "Peppy Gals",
+            "DB Saga",
+            "Earthlings",
+            "Earth-Bred Fighters"
+        ],
         "roles": [
             "SUPPORT"
         ]
@@ -35684,7 +48960,17 @@ const dokkanCharacters = [
             47,
             30
         ],
-        "categories": [],
+        "categories": [
+            "Pure Saiyans",
+            "Goku's Family",
+            "Androids/Cell Saga",
+            "Kamehameha",
+            "Turtle School",
+            "Bond of Friendship",
+            "Accelerated Battle",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters"
+        ],
         "roles": []
     },
     {
@@ -35856,7 +49142,15 @@ const dokkanCharacters = [
             45,
             34
         ],
-        "categories": [],
+        "categories": [
+            "Hybrid Saiyans",
+            "Goku's Family",
+            "Youth",
+            "Exploding Rage",
+            "Saiyan Saga",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters"
+        ],
         "roles": [
             "SUPPORT"
         ]
@@ -35899,7 +49193,16 @@ const dokkanCharacters = [
             49,
             6
         ],
-        "categories": [],
+        "categories": [
+            "Hybrid Saiyans",
+            "Goku's Family",
+            "Youth",
+            "Bond of Master and Disciple",
+            "Saiyan Saga",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters",
+            "Demonic Power"
+        ],
         "roles": []
     },
     {
@@ -35940,7 +49243,16 @@ const dokkanCharacters = [
             49,
             6
         ],
-        "categories": [],
+        "categories": [
+            "Hybrid Saiyans",
+            "Goku's Family",
+            "Youth",
+            "Bond of Master and Disciple",
+            "Saiyan Saga",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters",
+            "Demonic Power"
+        ],
         "roles": []
     },
     {
@@ -36046,7 +49358,19 @@ const dokkanCharacters = [
             19,
             45
         ],
-        "categories": [],
+        "categories": [
+            "Hybrid Saiyans",
+            "Future Saga",
+            "Time Travelers",
+            "Vegeta's Family",
+            "Androids/Cell Saga",
+            "Bond of Master and Disciple",
+            "Saviors",
+            "Battle of Wits",
+            "Entrusted Will",
+            "Earth-Bred Fighters",
+            "Earth-Protecting Heroes"
+        ],
         "roles": []
     },
     {
@@ -36089,7 +49413,16 @@ const dokkanCharacters = [
             1,
             47
         ],
-        "categories": [],
+        "categories": [
+            "Planet Namek Saga",
+            "Dragon Ball Seekers",
+            "Kamehameha",
+            "Earthlings",
+            "Battle of Wits",
+            "Turtle School",
+            "Bond of Friendship",
+            "Earth-Bred Fighters"
+        ],
         "roles": [
             "SUPPORT"
         ]
@@ -36112,7 +49445,14 @@ const dokkanCharacters = [
             2,
             1
         ],
-        "categories": [],
+        "categories": [
+            "Earthlings",
+            "Battle of Wits",
+            "Turtle School",
+            "Bond of Friendship",
+            "Saiyan Saga",
+            "Earth-Bred Fighters"
+        ],
         "roles": []
     },
     {
@@ -36155,7 +49495,13 @@ const dokkanCharacters = [
             2,
             1
         ],
-        "categories": [],
+        "categories": [
+            "Earthlings",
+            "Battle of Wits",
+            "Turtle School",
+            "Bond of Friendship",
+            "Earth-Bred Fighters"
+        ],
         "roles": []
     },
     {
@@ -36222,7 +49568,17 @@ const dokkanCharacters = [
             74,
             68
         ],
-        "categories": [],
+        "categories": [
+            "Namekians",
+            "Worthy Rivals",
+            "Bond of Master and Disciple",
+            "Battle of Wits",
+            "Gifted Warriors",
+            "Fused Fighters",
+            "Earth-Bred Fighters",
+            "Demonic Power",
+            "Successors"
+        ],
         "roles": []
     },
     {
@@ -36244,7 +49600,17 @@ const dokkanCharacters = [
             6,
             48
         ],
-        "categories": [],
+        "categories": [
+            "Namekians",
+            "Worthy Rivals",
+            "Bond of Master and Disciple",
+            "Battle of Wits",
+            "Gifted Warriors",
+            "Saiyan Saga",
+            "Earth-Bred Fighters",
+            "Demonic Power",
+            "Successors"
+        ],
         "roles": []
     },
     {
@@ -36289,7 +49655,16 @@ const dokkanCharacters = [
             48,
             33
         ],
-        "categories": [],
+        "categories": [
+            "Namekians",
+            "Worthy Rivals",
+            "Bond of Master and Disciple",
+            "Battle of Wits",
+            "Gifted Warriors",
+            "Earth-Bred Fighters",
+            "Demonic Power",
+            "Successors"
+        ],
         "roles": []
     },
     {
@@ -36419,7 +49794,12 @@ const dokkanCharacters = [
             2,
             37
         ],
-        "categories": [],
+        "categories": [
+            "Worthy Rivals",
+            "Earthlings",
+            "Bond of Friendship",
+            "Earth-Bred Fighters"
+        ],
         "roles": [
             "TANK"
         ]
@@ -36465,7 +49845,13 @@ const dokkanCharacters = [
             39,
             37
         ],
-        "categories": [],
+        "categories": [
+            "Worthy Rivals",
+            "Earthlings",
+            "Bond of Friendship",
+            "Saiyan Saga",
+            "Earth-Bred Fighters"
+        ],
         "roles": []
     },
     {
@@ -36533,7 +49919,13 @@ const dokkanCharacters = [
             13,
             46
         ],
-        "categories": [],
+        "categories": [
+            "Worthy Rivals",
+            "Earthlings",
+            "Bond of Friendship",
+            "Saiyan Saga",
+            "Earth-Bred Fighters"
+        ],
         "roles": [
             "TANK"
         ]
@@ -36579,7 +49971,13 @@ const dokkanCharacters = [
             13,
             2
         ],
-        "categories": [],
+        "categories": [
+            "Worthy Rivals",
+            "Earthlings",
+            "Bond of Friendship",
+            "Saiyan Saga",
+            "Earth-Bred Fighters"
+        ],
         "roles": []
     },
     {
@@ -36624,7 +50022,13 @@ const dokkanCharacters = [
             37,
             1001
         ],
-        "categories": [],
+        "categories": [
+            "Worthy Rivals",
+            "Androids/Cell Saga",
+            "Earthlings",
+            "Turtle School",
+            "Earth-Bred Fighters"
+        ],
         "roles": [
             "TANK"
         ]
@@ -36694,7 +50098,13 @@ const dokkanCharacters = [
             42,
             37
         ],
-        "categories": [],
+        "categories": [
+            "Worthy Rivals",
+            "Earthlings",
+            "Turtle School",
+            "Saiyan Saga",
+            "Earth-Bred Fighters"
+        ],
         "roles": []
     },
     {
@@ -36740,7 +50150,13 @@ const dokkanCharacters = [
             42,
             37
         ],
-        "categories": [],
+        "categories": [
+            "Worthy Rivals",
+            "Earthlings",
+            "Turtle School",
+            "Saiyan Saga",
+            "Earth-Bred Fighters"
+        ],
         "roles": []
     },
     {
@@ -36802,7 +50218,15 @@ const dokkanCharacters = [
             22,
             32
         ],
-        "categories": [],
+        "categories": [
+            "Low-Class Warrior",
+            "Pure Saiyans",
+            "Goku's Family",
+            "Terrifying Conquerors",
+            "Space-Traveling Warriors",
+            "Saiyan Saga",
+            "Mission Execution"
+        ],
         "roles": []
     },
     {
@@ -36822,7 +50246,15 @@ const dokkanCharacters = [
             22,
             32
         ],
-        "categories": [],
+        "categories": [
+            "Low-Class Warrior",
+            "Pure Saiyans",
+            "Goku's Family",
+            "Terrifying Conquerors",
+            "Space-Traveling Warriors",
+            "Saiyan Saga",
+            "Mission Execution"
+        ],
         "roles": [
             "TANK"
         ]
@@ -36890,7 +50322,13 @@ const dokkanCharacters = [
             21,
             42
         ],
-        "categories": [],
+        "categories": [
+            "Pure Saiyans",
+            "Terrifying Conquerors",
+            "Space-Traveling Warriors",
+            "Saiyan Saga",
+            "Mission Execution"
+        ],
         "roles": []
     },
     {
@@ -36934,7 +50372,13 @@ const dokkanCharacters = [
             49,
             42
         ],
-        "categories": [],
+        "categories": [
+            "Pure Saiyans",
+            "Terrifying Conquerors",
+            "Space-Traveling Warriors",
+            "Saiyan Saga",
+            "Mission Execution"
+        ],
         "roles": []
     },
     {
@@ -36976,7 +50420,14 @@ const dokkanCharacters = [
             51,
             43
         ],
-        "categories": [],
+        "categories": [
+            "Planet Namek Saga",
+            "Transformation Boost",
+            "Dragon Ball Seekers",
+            "Terrifying Conquerors",
+            "Space-Traveling Warriors",
+            "Mission Execution"
+        ],
         "roles": []
     },
     {
@@ -37018,7 +50469,14 @@ const dokkanCharacters = [
             51,
             43
         ],
-        "categories": [],
+        "categories": [
+            "Planet Namek Saga",
+            "Transformation Boost",
+            "Dragon Ball Seekers",
+            "Terrifying Conquerors",
+            "Space-Traveling Warriors",
+            "Mission Execution"
+        ],
         "roles": []
     },
     {
@@ -37060,7 +50518,15 @@ const dokkanCharacters = [
             73,
             94
         ],
-        "categories": [],
+        "categories": [
+            "Planet Namek Saga",
+            "Ginyu Force",
+            "Dragon Ball Seekers",
+            "Terrifying Conquerors",
+            "Special Pose",
+            "Space-Traveling Warriors",
+            "Mission Execution"
+        ],
         "roles": []
     },
     {
@@ -37104,7 +50570,15 @@ const dokkanCharacters = [
             73,
             94
         ],
-        "categories": [],
+        "categories": [
+            "Planet Namek Saga",
+            "Ginyu Force",
+            "Dragon Ball Seekers",
+            "Terrifying Conquerors",
+            "Special Pose",
+            "Space-Traveling Warriors",
+            "Mission Execution"
+        ],
         "roles": [
             "SUPPORT"
         ]
@@ -37170,7 +50644,14 @@ const dokkanCharacters = [
             73,
             81
         ],
-        "categories": [],
+        "categories": [
+            "Androids",
+            "Artificial Life Forms",
+            "Androids/Cell Saga",
+            "Target: Goku",
+            "Power Absorption",
+            "Mission Execution"
+        ],
         "roles": []
     },
     {
@@ -37191,7 +50672,14 @@ const dokkanCharacters = [
             73,
             81
         ],
-        "categories": [],
+        "categories": [
+            "Androids",
+            "Artificial Life Forms",
+            "Androids/Cell Saga",
+            "Target: Goku",
+            "Power Absorption",
+            "Mission Execution"
+        ],
         "roles": []
     },
     {
@@ -37212,7 +50700,14 @@ const dokkanCharacters = [
             73,
             81
         ],
-        "categories": [],
+        "categories": [
+            "Androids",
+            "Artificial Life Forms",
+            "Androids/Cell Saga",
+            "Target: Goku",
+            "Power Absorption",
+            "Mission Execution"
+        ],
         "roles": []
     },
     {
@@ -37283,7 +50778,15 @@ const dokkanCharacters = [
             114,
             81
         ],
-        "categories": [],
+        "categories": [
+            "Androids",
+            "Androids/Cell Saga",
+            "Terrifying Conquerors",
+            "Target: Goku",
+            "Revenge",
+            "Battle of Wits",
+            "Power Absorption"
+        ],
         "roles": []
     },
     {
@@ -37332,7 +50835,15 @@ const dokkanCharacters = [
             114,
             81
         ],
-        "categories": [],
+        "categories": [
+            "Androids",
+            "Androids/Cell Saga",
+            "Terrifying Conquerors",
+            "Target: Goku",
+            "Revenge",
+            "Battle of Wits",
+            "Power Absorption"
+        ],
         "roles": [
             "HEALER"
         ]
@@ -37381,7 +50892,14 @@ const dokkanCharacters = [
             4,
             67
         ],
-        "categories": [],
+        "categories": [
+            "Androids",
+            "Siblings' Bond",
+            "Androids/Cell Saga",
+            "Target: Goku",
+            "Uncontrollable Power",
+            "Mission Execution"
+        ],
         "roles": []
     },
     {
@@ -37423,7 +50941,14 @@ const dokkanCharacters = [
             4,
             110
         ],
-        "categories": [],
+        "categories": [
+            "Androids",
+            "Siblings' Bond",
+            "Androids/Cell Saga",
+            "Target: Goku",
+            "Uncontrollable Power",
+            "Mission Execution"
+        ],
         "roles": [
             "TANK"
         ]
@@ -37469,7 +50994,16 @@ const dokkanCharacters = [
             64,
             67
         ],
-        "categories": [],
+        "categories": [
+            "Peppy Gals",
+            "Androids",
+            "Siblings' Bond",
+            "Androids/Cell Saga",
+            "Target: Goku",
+            "Battle of Wits",
+            "Uncontrollable Power",
+            "Mission Execution"
+        ],
         "roles": []
     },
     {
@@ -37513,7 +51047,16 @@ const dokkanCharacters = [
             64,
             110
         ],
-        "categories": [],
+        "categories": [
+            "Peppy Gals",
+            "Androids",
+            "Siblings' Bond",
+            "Androids/Cell Saga",
+            "Target: Goku",
+            "Battle of Wits",
+            "Uncontrollable Power",
+            "Mission Execution"
+        ],
         "roles": [
             "TANK"
         ]
@@ -37559,7 +51102,15 @@ const dokkanCharacters = [
             17,
             1001
         ],
-        "categories": [],
+        "categories": [
+            "Androids",
+            "Artificial Life Forms",
+            "Androids/Cell Saga",
+            "Target: Goku",
+            "Saviors",
+            "Uncontrollable Power",
+            "Mission Execution"
+        ],
         "roles": []
     },
     {
@@ -37599,7 +51150,15 @@ const dokkanCharacters = [
             38,
             17
         ],
-        "categories": [],
+        "categories": [
+            "Androids",
+            "Artificial Life Forms",
+            "Androids/Cell Saga",
+            "Target: Goku",
+            "Saviors",
+            "Uncontrollable Power",
+            "Mission Execution"
+        ],
         "roles": []
     },
     {
@@ -37666,7 +51225,16 @@ const dokkanCharacters = [
             18,
             46
         ],
-        "categories": [],
+        "categories": [
+            "Dragon Ball Seekers",
+            "DB Saga",
+            "Siblings' Bond",
+            "Target: Goku",
+            "Earthlings",
+            "Sworn Enemies",
+            "Earth-Bred Fighters",
+            "Mission Execution"
+        ],
         "roles": []
     },
     {
@@ -37687,7 +51255,16 @@ const dokkanCharacters = [
             32,
             90
         ],
-        "categories": [],
+        "categories": [
+            "Dragon Ball Seekers",
+            "DB Saga",
+            "Siblings' Bond",
+            "Target: Goku",
+            "Earthlings",
+            "Sworn Enemies",
+            "Earth-Bred Fighters",
+            "Mission Execution"
+        ],
         "roles": []
     },
     {
@@ -37731,7 +51308,11 @@ const dokkanCharacters = [
             86,
             90
         ],
-        "categories": [],
+        "categories": [
+            "Dragon Ball Seekers",
+            "DB Saga",
+            "Terrifying Conquerors"
+        ],
         "roles": []
     },
     {
@@ -37751,7 +51332,15 @@ const dokkanCharacters = [
             17,
             84
         ],
-        "categories": [],
+        "categories": [
+            "World Tournament",
+            "Realm of Gods",
+            "Final Trump Card",
+            "Earth-Bred Fighters",
+            "Tournament Participants",
+            "Demonic Power",
+            "Successors"
+        ],
         "roles": []
     },
     {
@@ -37771,7 +51360,13 @@ const dokkanCharacters = [
             18,
             90
         ],
-        "categories": [],
+        "categories": [
+            "Dragon Ball Seekers",
+            "DB Saga",
+            "Terrifying Conquerors",
+            "Demonic Power",
+            "Mission Execution"
+        ],
         "roles": []
     },
     {
@@ -37790,7 +51385,13 @@ const dokkanCharacters = [
             6,
             90
         ],
-        "categories": [],
+        "categories": [
+            "Dragon Ball Seekers",
+            "DB Saga",
+            "Terrifying Conquerors",
+            "Demonic Power",
+            "Mission Execution"
+        ],
         "roles": []
     },
     {
@@ -37810,7 +51411,12 @@ const dokkanCharacters = [
             14,
             90
         ],
-        "categories": [],
+        "categories": [
+            "DB Saga",
+            "Terrifying Conquerors",
+            "Demonic Power",
+            "Mission Execution"
+        ],
         "roles": []
     },
     {
@@ -37850,7 +51456,14 @@ const dokkanCharacters = [
             43,
             73
         ],
-        "categories": [],
+        "categories": [
+            "Planet Namek Saga",
+            "Dragon Ball Seekers",
+            "Terrifying Conquerors",
+            "Inhuman Deeds",
+            "Space-Traveling Warriors",
+            "Mission Execution"
+        ],
         "roles": []
     },
     {
@@ -37892,7 +51505,14 @@ const dokkanCharacters = [
             43,
             73
         ],
-        "categories": [],
+        "categories": [
+            "Planet Namek Saga",
+            "Dragon Ball Seekers",
+            "Terrifying Conquerors",
+            "Inhuman Deeds",
+            "Space-Traveling Warriors",
+            "Mission Execution"
+        ],
         "roles": []
     },
     {
@@ -37914,7 +51534,15 @@ const dokkanCharacters = [
             42,
             94
         ],
-        "categories": [],
+        "categories": [
+            "Planet Namek Saga",
+            "Ginyu Force",
+            "Dragon Ball Seekers",
+            "Terrifying Conquerors",
+            "Special Pose",
+            "Space-Traveling Warriors",
+            "Mission Execution"
+        ],
         "roles": []
     },
     {
@@ -37957,7 +51585,15 @@ const dokkanCharacters = [
             42,
             94
         ],
-        "categories": [],
+        "categories": [
+            "Planet Namek Saga",
+            "Ginyu Force",
+            "Dragon Ball Seekers",
+            "Terrifying Conquerors",
+            "Special Pose",
+            "Space-Traveling Warriors",
+            "Mission Execution"
+        ],
         "roles": []
     },
     {
@@ -37979,7 +51615,15 @@ const dokkanCharacters = [
             8,
             94
         ],
-        "categories": [],
+        "categories": [
+            "Planet Namek Saga",
+            "Ginyu Force",
+            "Dragon Ball Seekers",
+            "Terrifying Conquerors",
+            "Special Pose",
+            "Space-Traveling Warriors",
+            "Mission Execution"
+        ],
         "roles": []
     },
     {
@@ -38001,7 +51645,15 @@ const dokkanCharacters = [
             8,
             94
         ],
-        "categories": [],
+        "categories": [
+            "Planet Namek Saga",
+            "Ginyu Force",
+            "Dragon Ball Seekers",
+            "Terrifying Conquerors",
+            "Special Pose",
+            "Space-Traveling Warriors",
+            "Mission Execution"
+        ],
         "roles": []
     },
     {
@@ -38045,7 +51697,15 @@ const dokkanCharacters = [
             8,
             94
         ],
-        "categories": [],
+        "categories": [
+            "Planet Namek Saga",
+            "Ginyu Force",
+            "Dragon Ball Seekers",
+            "Terrifying Conquerors",
+            "Special Pose",
+            "Space-Traveling Warriors",
+            "Mission Execution"
+        ],
         "roles": []
     },
     {
@@ -38066,7 +51726,16 @@ const dokkanCharacters = [
             54,
             94
         ],
-        "categories": [],
+        "categories": [
+            "Planet Namek Saga",
+            "Ginyu Force",
+            "Dragon Ball Seekers",
+            "Terrifying Conquerors",
+            "Special Pose",
+            "Space-Traveling Warriors",
+            "Accelerated Battle",
+            "Mission Execution"
+        ],
         "roles": []
     },
     {
@@ -38108,7 +51777,16 @@ const dokkanCharacters = [
             54,
             94
         ],
-        "categories": [],
+        "categories": [
+            "Planet Namek Saga",
+            "Ginyu Force",
+            "Dragon Ball Seekers",
+            "Terrifying Conquerors",
+            "Special Pose",
+            "Space-Traveling Warriors",
+            "Accelerated Battle",
+            "Mission Execution"
+        ],
         "roles": []
     },
     {
@@ -38128,7 +51806,15 @@ const dokkanCharacters = [
             54,
             94
         ],
-        "categories": [],
+        "categories": [
+            "Planet Namek Saga",
+            "Ginyu Force",
+            "Dragon Ball Seekers",
+            "Terrifying Conquerors",
+            "Special Pose",
+            "Space-Traveling Warriors",
+            "Mission Execution"
+        ],
         "roles": []
     },
     {
@@ -38170,7 +51856,15 @@ const dokkanCharacters = [
             54,
             94
         ],
-        "categories": [],
+        "categories": [
+            "Planet Namek Saga",
+            "Ginyu Force",
+            "Dragon Ball Seekers",
+            "Terrifying Conquerors",
+            "Special Pose",
+            "Space-Traveling Warriors",
+            "Mission Execution"
+        ],
         "roles": []
     },
     {
@@ -38191,7 +51885,11 @@ const dokkanCharacters = [
             32,
             12
         ],
-        "categories": [],
+        "categories": [
+            "Earthlings",
+            "Saiyan Saga",
+            "Earth-Bred Fighters"
+        ],
         "roles": [
             "SUPPORT"
         ]
@@ -38214,7 +51912,11 @@ const dokkanCharacters = [
             32,
             12
         ],
-        "categories": [],
+        "categories": [
+            "Earthlings",
+            "Saiyan Saga",
+            "Earth-Bred Fighters"
+        ],
         "roles": []
     },
     {
@@ -38234,7 +51936,13 @@ const dokkanCharacters = [
             39,
             15
         ],
-        "categories": [],
+        "categories": [
+            "Planet Namek Saga",
+            "Namekians",
+            "Connected Hope",
+            "Demonic Power",
+            "Mission Execution"
+        ],
         "roles": []
     },
     {
@@ -38254,7 +51962,13 @@ const dokkanCharacters = [
             39,
             15
         ],
-        "categories": [],
+        "categories": [
+            "Planet Namek Saga",
+            "Namekians",
+            "Connected Hope",
+            "Demonic Power",
+            "Mission Execution"
+        ],
         "roles": []
     },
     {
@@ -38296,7 +52010,13 @@ const dokkanCharacters = [
             39,
             15
         ],
-        "categories": [],
+        "categories": [
+            "Planet Namek Saga",
+            "Namekians",
+            "Connected Hope",
+            "Demonic Power",
+            "Mission Execution"
+        ],
         "roles": []
     },
     {
@@ -38340,7 +52060,17 @@ const dokkanCharacters = [
             10,
             20
         ],
-        "categories": [],
+        "categories": [
+            "World Tournament",
+            "Majin Buu Saga",
+            "Earthlings",
+            "Saviors",
+            "Bond of Friendship",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters",
+            "Tournament Participants",
+            "Earth-Protecting Heroes"
+        ],
         "roles": []
     },
     {
@@ -38362,7 +52092,14 @@ const dokkanCharacters = [
             42,
             64
         ],
-        "categories": [],
+        "categories": [
+            "Peppy Gals",
+            "Majin Buu Saga",
+            "Earthlings",
+            "Defenders of Justice",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters"
+        ],
         "roles": []
     },
     {
@@ -38384,7 +52121,14 @@ const dokkanCharacters = [
             2,
             64
         ],
-        "categories": [],
+        "categories": [
+            "Peppy Gals",
+            "Majin Buu Saga",
+            "Earthlings",
+            "Defenders of Justice",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters"
+        ],
         "roles": [
             "SUPPORT"
         ]
@@ -38407,7 +52151,14 @@ const dokkanCharacters = [
             4,
             47
         ],
-        "categories": [],
+        "categories": [
+            "Androids",
+            "Artificial Life Forms",
+            "Androids/Cell Saga",
+            "Kamehameha",
+            "Tournament Participants",
+            "Mission Execution"
+        ],
         "roles": [
             "TANK"
         ]
@@ -38430,7 +52181,16 @@ const dokkanCharacters = [
             11,
             7
         ],
-        "categories": [],
+        "categories": [
+            "World Tournament",
+            "Majin Buu Saga",
+            "Terrifying Conquerors",
+            "Earthlings",
+            "Corroded Body and Mind",
+            "Earth-Bred Fighters",
+            "Tournament Participants",
+            "Mission Execution"
+        ],
         "roles": []
     },
     {
@@ -38450,7 +52210,16 @@ const dokkanCharacters = [
             7,
             49
         ],
-        "categories": [],
+        "categories": [
+            "World Tournament",
+            "Majin Buu Saga",
+            "Terrifying Conquerors",
+            "Earthlings",
+            "Corroded Body and Mind",
+            "Earth-Bred Fighters",
+            "Tournament Participants",
+            "Mission Execution"
+        ],
         "roles": []
     },
     {
@@ -38471,7 +52240,14 @@ const dokkanCharacters = [
             60,
             77
         ],
-        "categories": [],
+        "categories": [
+            "Majin Buu Saga",
+            "Terrifying Conquerors",
+            "Inhuman Deeds",
+            "Corroded Body and Mind",
+            "Demonic Power",
+            "Mission Execution"
+        ],
         "roles": [
             "TANK"
         ]
@@ -38494,7 +52270,14 @@ const dokkanCharacters = [
             60,
             77
         ],
-        "categories": [],
+        "categories": [
+            "Majin Buu Saga",
+            "Terrifying Conquerors",
+            "Inhuman Deeds",
+            "Corroded Body and Mind",
+            "Demonic Power",
+            "Mission Execution"
+        ],
         "roles": []
     },
     {
@@ -38514,7 +52297,13 @@ const dokkanCharacters = [
             73,
             77
         ],
-        "categories": [],
+        "categories": [
+            "Majin Buu Saga",
+            "Terrifying Conquerors",
+            "Inhuman Deeds",
+            "Corroded Body and Mind",
+            "Mission Execution"
+        ],
         "roles": []
     },
     {
@@ -38533,7 +52322,12 @@ const dokkanCharacters = [
             32,
             43
         ],
-        "categories": [],
+        "categories": [
+            "Planet Namek Saga",
+            "Terrifying Conquerors",
+            "Space-Traveling Warriors",
+            "Mission Execution"
+        ],
         "roles": []
     },
     {
@@ -38635,7 +52429,14 @@ const dokkanCharacters = [
             62,
             63
         ],
-        "categories": [],
+        "categories": [
+            "Low-Class Warrior",
+            "Pure Saiyans",
+            "Team Bardock",
+            "Space-Traveling Warriors",
+            "Storied Figures",
+            "Mission Execution"
+        ],
         "roles": []
     },
     {
@@ -38656,7 +52457,14 @@ const dokkanCharacters = [
             63,
             42
         ],
-        "categories": [],
+        "categories": [
+            "Low-Class Warrior",
+            "Pure Saiyans",
+            "Team Bardock",
+            "Space-Traveling Warriors",
+            "Storied Figures",
+            "Mission Execution"
+        ],
         "roles": []
     },
     {
@@ -38677,7 +52485,14 @@ const dokkanCharacters = [
             63,
             52
         ],
-        "categories": [],
+        "categories": [
+            "Low-Class Warrior",
+            "Pure Saiyans",
+            "Team Bardock",
+            "Space-Traveling Warriors",
+            "Storied Figures",
+            "Mission Execution"
+        ],
         "roles": []
     },
     {
@@ -38809,7 +52624,12 @@ const dokkanCharacters = [
             73,
             68
         ],
-        "categories": [],
+        "categories": [
+            "Dragon Ball Seekers",
+            "Terrifying Conquerors",
+            "Space-Traveling Warriors",
+            "Mission Execution"
+        ],
         "roles": [
             "SUPPORT"
         ]
@@ -38832,7 +52652,12 @@ const dokkanCharacters = [
             73,
             68
         ],
-        "categories": [],
+        "categories": [
+            "Dragon Ball Seekers",
+            "Terrifying Conquerors",
+            "Space-Traveling Warriors",
+            "Mission Execution"
+        ],
         "roles": []
     },
     {
@@ -38854,7 +52679,17 @@ const dokkanCharacters = [
             69,
             68
         ],
-        "categories": [],
+        "categories": [
+            "Movie Heroes",
+            "Earthlings",
+            "Battle of Wits",
+            "Turtle School",
+            "Defenders of Justice",
+            "Bond of Friendship",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters",
+            "Mission Execution"
+        ],
         "roles": [
             "HEALER"
         ]
@@ -38878,7 +52713,15 @@ const dokkanCharacters = [
             34,
             68
         ],
-        "categories": [],
+        "categories": [
+            "Hybrid Saiyans",
+            "Movie Heroes",
+            "Goku's Family",
+            "Siblings' Bond",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters",
+            "Demonic Power"
+        ],
         "roles": []
     },
     {
@@ -38965,7 +52808,11 @@ const dokkanCharacters = [
             73,
             68
         ],
-        "categories": [],
+        "categories": [
+            "Terrifying Conquerors",
+            "Space-Traveling Warriors",
+            "Mission Execution"
+        ],
         "roles": []
     },
     {
@@ -39076,7 +52923,20 @@ const dokkanCharacters = [
             47,
             1003
         ],
-        "categories": [],
+        "categories": [
+            "World Tournament",
+            "Hybrid Saiyans",
+            "Majin Buu Saga",
+            "Goku's Family",
+            "Youth",
+            "Siblings' Bond",
+            "Kamehameha",
+            "Gifted Warriors",
+            "Bond of Friendship",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters",
+            "Tournament Participants"
+        ],
         "roles": [
             "SUPPORT"
         ]
@@ -39100,7 +52960,14 @@ const dokkanCharacters = [
             90,
             102
         ],
-        "categories": [],
+        "categories": [
+            "Dragon Ball Seekers",
+            "DB Saga",
+            "Terrifying Conquerors",
+            "Earthlings",
+            "Earth-Bred Fighters",
+            "Mission Execution"
+        ],
         "roles": []
     },
     {
@@ -39298,7 +53165,15 @@ const dokkanCharacters = [
             42,
             73
         ],
-        "categories": [],
+        "categories": [
+            "Resurrected Warriors",
+            "Time Travelers",
+            "Terrifying Conquerors",
+            "Space-Traveling Warriors",
+            "Storied Figures",
+            "Tournament Participants",
+            "Mission Execution"
+        ],
         "roles": [
             "SUPPORT"
         ]
@@ -39321,7 +53196,15 @@ const dokkanCharacters = [
             52,
             73
         ],
-        "categories": [],
+        "categories": [
+            "Resurrected Warriors",
+            "Time Travelers",
+            "Terrifying Conquerors",
+            "Space-Traveling Warriors",
+            "Storied Figures",
+            "Tournament Participants",
+            "Mission Execution"
+        ],
         "roles": [
             "SUPPORT"
         ]
@@ -39344,7 +53227,15 @@ const dokkanCharacters = [
             13,
             73
         ],
-        "categories": [],
+        "categories": [
+            "Resurrected Warriors",
+            "Time Travelers",
+            "Terrifying Conquerors",
+            "Space-Traveling Warriors",
+            "Storied Figures",
+            "Tournament Participants",
+            "Mission Execution"
+        ],
         "roles": [
             "SUPPORT"
         ]
@@ -39432,7 +53323,13 @@ const dokkanCharacters = [
             73,
             42
         ],
-        "categories": [],
+        "categories": [
+            "Terrifying Conquerors",
+            "Target: Goku",
+            "Special Pose",
+            "Space-Traveling Warriors",
+            "Mission Execution"
+        ],
         "roles": [
             "SUPPORT"
         ]
@@ -39455,7 +53352,13 @@ const dokkanCharacters = [
             73,
             37
         ],
-        "categories": [],
+        "categories": [
+            "Terrifying Conquerors",
+            "Target: Goku",
+            "Special Pose",
+            "Space-Traveling Warriors",
+            "Mission Execution"
+        ],
         "roles": [
             "SUPPORT"
         ]
@@ -39545,7 +53448,13 @@ const dokkanCharacters = [
             37,
             114
         ],
-        "categories": [],
+        "categories": [
+            "Peppy Gals",
+            "Planet Namek Saga",
+            "Dragon Ball Seekers",
+            "Earthlings",
+            "Earth-Bred Fighters"
+        ],
         "roles": [
             "HEALER"
         ]
@@ -39679,7 +53588,13 @@ const dokkanCharacters = [
             73,
             33
         ],
-        "categories": [],
+        "categories": [
+            "Siblings' Bond",
+            "Terrifying Conquerors",
+            "Space-Traveling Warriors",
+            "Planetary Destruction",
+            "Mission Execution"
+        ],
         "roles": [
             "TANK"
         ]
@@ -39702,7 +53617,13 @@ const dokkanCharacters = [
             73,
             33
         ],
-        "categories": [],
+        "categories": [
+            "Siblings' Bond",
+            "Terrifying Conquerors",
+            "Space-Traveling Warriors",
+            "Planetary Destruction",
+            "Mission Execution"
+        ],
         "roles": [
             "TANK"
         ]
@@ -39769,7 +53690,13 @@ const dokkanCharacters = [
             90,
             102
         ],
-        "categories": [],
+        "categories": [
+            "World Tournament",
+            "DB Saga",
+            "Earthlings",
+            "Earth-Bred Fighters",
+            "Tournament Participants"
+        ],
         "roles": []
     },
     {
@@ -39791,7 +53718,11 @@ const dokkanCharacters = [
             90,
             102
         ],
-        "categories": [],
+        "categories": [
+            "DB Saga",
+            "Earthlings",
+            "Mission Execution"
+        ],
         "roles": [
             "HEALER"
         ]
@@ -39815,7 +53746,11 @@ const dokkanCharacters = [
             90,
             102
         ],
-        "categories": [],
+        "categories": [
+            "DB Saga",
+            "Earthlings",
+            "Mission Execution"
+        ],
         "roles": [
             "TANK"
         ]
@@ -39887,7 +53822,16 @@ const dokkanCharacters = [
             10,
             95
         ],
-        "categories": [],
+        "categories": [
+            "World Tournament",
+            "Earthlings",
+            "GT Heroes",
+            "Bond of Friendship",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters",
+            "Tournament Participants",
+            "Earth-Protecting Heroes"
+        ],
         "roles": [
             "TANK"
         ]
@@ -39910,7 +53854,16 @@ const dokkanCharacters = [
             64,
             1003
         ],
-        "categories": [],
+        "categories": [
+            "World Tournament",
+            "Hybrid Saiyans",
+            "Majin Buu Saga",
+            "Goku's Family",
+            "Youth",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters",
+            "Tournament Participants"
+        ],
         "roles": []
     },
     {
@@ -39950,7 +53903,11 @@ const dokkanCharacters = [
             38,
             18
         ],
-        "categories": [],
+        "categories": [
+            "Artificial Life Forms",
+            "Terrifying Conquerors",
+            "Mission Execution"
+        ],
         "roles": [
             "SUPPORT"
         ]
@@ -39995,7 +53952,15 @@ const dokkanCharacters = [
             55,
             8
         ],
-        "categories": [],
+        "categories": [
+            "Dragon Ball Seekers",
+            "DB Saga",
+            "Terrifying Conquerors",
+            "Inhuman Deeds",
+            "Earthlings",
+            "Earth-Bred Fighters",
+            "Mission Execution"
+        ],
         "roles": []
     },
     {
@@ -40016,7 +53981,11 @@ const dokkanCharacters = [
             14,
             32
         ],
-        "categories": [],
+        "categories": [
+            "World Tournament",
+            "DB Saga",
+            "Tournament Participants"
+        ],
         "roles": [
             "SUPPORT"
         ]
@@ -40326,7 +54295,12 @@ const dokkanCharacters = [
             5,
             45
         ],
-        "categories": [],
+        "categories": [
+            "Worthy Rivals",
+            "Earthlings",
+            "Bond of Friendship",
+            "Earth-Bred Fighters"
+        ],
         "roles": []
     },
     {
@@ -40391,7 +54365,13 @@ const dokkanCharacters = [
             5,
             45
         ],
-        "categories": [],
+        "categories": [
+            "Worthy Rivals",
+            "Earthlings",
+            "Bond of Friendship",
+            "Saiyan Saga",
+            "Earth-Bred Fighters"
+        ],
         "roles": []
     },
     {
@@ -40481,7 +54461,13 @@ const dokkanCharacters = [
             45,
             36
         ],
-        "categories": [],
+        "categories": [
+            "Worthy Rivals",
+            "Earthlings",
+            "Turtle School",
+            "Saiyan Saga",
+            "Earth-Bred Fighters"
+        ],
         "roles": []
     },
     {
@@ -41474,7 +55460,17 @@ const dokkanCharacters = [
             10,
             20
         ],
-        "categories": [],
+        "categories": [
+            "World Tournament",
+            "Majin Buu Saga",
+            "Earthlings",
+            "Saviors",
+            "Bond of Friendship",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters",
+            "Tournament Participants",
+            "Earth-Protecting Heroes"
+        ],
         "roles": []
     },
     {
@@ -41540,7 +55536,14 @@ const dokkanCharacters = [
             42,
             64
         ],
-        "categories": [],
+        "categories": [
+            "Peppy Gals",
+            "Majin Buu Saga",
+            "Earthlings",
+            "Defenders of Justice",
+            "Bond of Parent and Child",
+            "Earth-Bred Fighters"
+        ],
         "roles": []
     },
     {
@@ -41664,7 +55667,14 @@ const dokkanCharacters = [
             18,
             4
         ],
-        "categories": [],
+        "categories": [
+            "Androids",
+            "Artificial Life Forms",
+            "Androids/Cell Saga",
+            "Kamehameha",
+            "Tournament Participants",
+            "Mission Execution"
+        ],
         "roles": []
     },
     {
@@ -41707,7 +55717,16 @@ const dokkanCharacters = [
             52,
             11
         ],
-        "categories": [],
+        "categories": [
+            "World Tournament",
+            "Majin Buu Saga",
+            "Terrifying Conquerors",
+            "Earthlings",
+            "Corroded Body and Mind",
+            "Earth-Bred Fighters",
+            "Tournament Participants",
+            "Mission Execution"
+        ],
         "roles": []
     },
     {
@@ -41747,7 +55766,16 @@ const dokkanCharacters = [
             11,
             7
         ],
-        "categories": [],
+        "categories": [
+            "World Tournament",
+            "Majin Buu Saga",
+            "Terrifying Conquerors",
+            "Earthlings",
+            "Corroded Body and Mind",
+            "Earth-Bred Fighters",
+            "Tournament Participants",
+            "Mission Execution"
+        ],
         "roles": []
     },
     {
@@ -41808,7 +55836,14 @@ const dokkanCharacters = [
         "links": [
             11
         ],
-        "categories": [],
+        "categories": [
+            "Majin Buu Saga",
+            "Terrifying Conquerors",
+            "Inhuman Deeds",
+            "Corroded Body and Mind",
+            "Demonic Power",
+            "Mission Execution"
+        ],
         "roles": []
     },
     {
@@ -41867,7 +55902,13 @@ const dokkanCharacters = [
         "links": [
             11
         ],
-        "categories": [],
+        "categories": [
+            "Majin Buu Saga",
+            "Terrifying Conquerors",
+            "Inhuman Deeds",
+            "Corroded Body and Mind",
+            "Mission Execution"
+        ],
         "roles": []
     },
     {
@@ -41885,7 +55926,12 @@ const dokkanCharacters = [
         "links": [
             43
         ],
-        "categories": [],
+        "categories": [
+            "Planet Namek Saga",
+            "Terrifying Conquerors",
+            "Space-Traveling Warriors",
+            "Mission Execution"
+        ],
         "roles": []
     },
     {
@@ -41923,7 +55969,12 @@ const dokkanCharacters = [
             32,
             43
         ],
-        "categories": [],
+        "categories": [
+            "Planet Namek Saga",
+            "Terrifying Conquerors",
+            "Space-Traveling Warriors",
+            "Mission Execution"
+        ],
         "roles": []
     },
     {
@@ -41941,7 +55992,11 @@ const dokkanCharacters = [
         "links": [
             11
         ],
-        "categories": [],
+        "categories": [
+            "Majin Buu Saga",
+            "Terrifying Conquerors",
+            "Mission Execution"
+        ],
         "roles": []
     },
     {
@@ -41960,7 +56015,13 @@ const dokkanCharacters = [
             20,
             14
         ],
-        "categories": [],
+        "categories": [
+            "World Tournament",
+            "Majin Buu Saga",
+            "Earthlings",
+            "Earth-Bred Fighters",
+            "Tournament Participants"
+        ],
         "roles": []
     },
     {
@@ -41978,7 +56039,13 @@ const dokkanCharacters = [
         "links": [
             20
         ],
-        "categories": [],
+        "categories": [
+            "World Tournament",
+            "Majin Buu Saga",
+            "Earthlings",
+            "Earth-Bred Fighters",
+            "Tournament Participants"
+        ],
         "roles": []
     },
     {
@@ -41996,7 +56063,13 @@ const dokkanCharacters = [
         "links": [
             20
         ],
-        "categories": [],
+        "categories": [
+            "World Tournament",
+            "Majin Buu Saga",
+            "Earthlings",
+            "Earth-Bred Fighters",
+            "Tournament Participants"
+        ],
         "roles": []
     },
     {
@@ -42014,7 +56087,10 @@ const dokkanCharacters = [
         "links": [
             38
         ],
-        "categories": [],
+        "categories": [
+            "Artificial Life Forms",
+            "DB Saga"
+        ],
         "roles": []
     },
     {
@@ -42109,7 +56185,10 @@ const dokkanCharacters = [
             42,
             21
         ],
-        "categories": [],
+        "categories": [
+            "Saiyan Saga",
+            "Mission Execution"
+        ],
         "roles": []
     },
     {
@@ -42199,7 +56278,12 @@ const dokkanCharacters = [
         "links": [
             43
         ],
-        "categories": [],
+        "categories": [
+            "Planet Namek Saga",
+            "Terrifying Conquerors",
+            "Space-Traveling Warriors",
+            "Mission Execution"
+        ],
         "roles": []
     },
     {
@@ -42289,7 +56373,13 @@ const dokkanCharacters = [
         "links": [
             55
         ],
-        "categories": [],
+        "categories": [
+            "DB Saga",
+            "Terrifying Conquerors",
+            "Earthlings",
+            "Earth-Bred Fighters",
+            "Mission Execution"
+        ],
         "roles": []
     },
     {

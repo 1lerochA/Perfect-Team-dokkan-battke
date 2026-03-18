@@ -74,6 +74,9 @@ try {
     const rawData = fs.readFileSync('./fyi_data_full.json', 'utf8');
     const personnagesBruts = JSON.parse(rawData);
 
+    // 🎯 AJOUT UNIQUE N°1 : Chargement de ton dictionnaire de catégories
+    const catDict = JSON.parse(fs.readFileSync('./wiki_categories_dict.json', 'utf8'));
+
     const formattedCharacters = personnagesBruts.map(char => {
         const imageUrl = `https://cdn.dokkan.fyi/assets/en/character/thumb/card_${char.thumbnail_id}_thumb.png`;
         const typeTraduction = { 0: "AGI", 1: "TEC", 2: "INT", 3: "PUI", 4: "END" };
@@ -124,7 +127,8 @@ try {
             activeSkill: activeText,
             
             links: char.link_skill_ids || [], 
-            categories: char.category_ids || [],
+            // 🎯 AJOUT UNIQUE N°2 : Injection des catégories !
+            categories: catDict[char.id] || [],
             roles: detectRoles(passiveText, activeText) 
         };
     });
