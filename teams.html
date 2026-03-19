@@ -415,11 +415,9 @@
             return getsBoost;
         }
 
-        // --- NOUVEL ALGORITHME : AMI PARFAIT & BONUS SURVIE ---
         function calculateSynergy(existingTeamObjects, candidateUnit, leader, isFriendSlot) {
             let score = 0;
 
-            // 1. Synergie des Liens
             if (existingTeamObjects.length > 0) {
                 let totalLinks = 0;
                 existingTeamObjects.forEach(member => {
@@ -428,20 +426,18 @@
                     }
                 });
                 let avgLinks = totalLinks / existingTeamObjects.length;
-                score += (avgLinks * 5); // +5 pts par lien en moyenne
+                score += (avgLinks * 5); 
             }
 
-            // 2. BONUS AMI : Si on choisit le dernier slot (Ami), on veut proposer le doublon du Leader en priorité n°1 !
             if (isFriendSlot && leader && candidateUnit.id === leader.id) {
-                score += 500; // Un score massif pour le forcer à apparaître en premier
+                score += 500; 
             }
 
-            // 3. BONUS MÉCANIQUE PÉTÉE (Survie / Standby / Revive) - Un tout petit bonus
             const textToCheck = ((candidateUnit.passive || "") + " " + (candidateUnit.activeSkill || "")).toLowerCase();
             if (/\b(revive|revives|survives|survive|k\.o\.|standby|domain)\b/i.test(textToCheck)) {
-                score += 3; // Petit avantage pour la capacité à survivre ou poser un domaine
+                score += 3; 
             } else if (candidateUnit.activeSkill && candidateUnit.activeSkill !== "Aucun Active Skill") {
-                score += 1; // Avantage minimal juste pour avoir un active skill
+                score += 1;
             }
 
             return score;
@@ -459,29 +455,23 @@
             const currentMemberIds = team ? [team.leaderId, ...(team.memberIds || [])].filter(Boolean) : [];
             const isFriendSlot = team && team.memberIds && team.memberIds.length === 5;
 
-            // Objets complets de l'équipe pour calculer les liens globaux
             const existingTeamObjects = currentMemberIds.map(id => dokkanCharacters.find(c => c.id === id)).filter(Boolean);
 
             let pool = query.length > 1
                 ? dokkanCharacters.filter(c => c.name.toLowerCase().includes(query.toLowerCase()))
                 : [...dokkanCharacters];
 
-            // 1. Filtrer les doublons (SAUF si on choisit le slot Ami)
             if (!isFriendSlot) {
                 pool = pool.filter(c => !currentMemberIds.includes(c.id));
             }
 
-            // 2. Filtrer STRICTEMENT par le Leader Skill (Seulement si un Leader existe)
             if (leader) {
                 pool = pool.filter(c => checkLeaderBoost(leader, c) || c.id === leader.id); 
             }
 
-            // 3. Tri intelligent
             if (leader) {
-                // S'IL Y A UN LEADER : On utilise la Synergie complète
                 pool.sort((a, b) => calculateSynergy(existingTeamObjects, b, leader, isFriendSlot) - calculateSynergy(existingTeamObjects, a, leader, isFriendSlot));
             } else {
-                // S'IL N'Y A PAS DE LEADER : Nouveaux persos en avant
                 pool.sort((a, b) => {
                     let scoreA = a.rarity === 'LR' ? 10000 : (a.rarity === 'UR' ? 5000 : 0);
                     let scoreB = b.rarity === 'LR' ? 10000 : (b.rarity === 'UR' ? 5000 : 0);
@@ -511,7 +501,6 @@
                 
                 wrapper.appendChild(cardEl);
 
-                // 4. Affichage de la MOYENNE des liens avec l'équipe (Si l'équipe n'est pas vide)
                 if (existingTeamObjects.length > 0) {
                     let totalSharedLinks = 0;
                     existingTeamObjects.forEach(member => {
@@ -557,19 +546,16 @@
                 team.leaderId = charId;
             } else {
                 if (!team.memberIds) team.memberIds = [];
-                // Dans Dokkan, 1 Leader + 5 membres normaux + 1 Ami. 
-                // Quand on a déjà 5 membres, le prochain est le 6ème (l'Ami).
                 const isFriendSlot = team.memberIds.length === 5; 
                 
                 if (team.memberIds.length < 6) {
                     const isDuplicate = team.memberIds.includes(charId) || charId === team.leaderId;
                     
-                    // On ajoute SEULEMENT si ce n'est pas un doublon OU si c'est le slot Ami
                     if (!isDuplicate || isFriendSlot) {
                         team.memberIds.push(charId);
                     } else {
                         alert("Pas de doublon autorisé dans l'équipe principale ! (Seul le dernier emplacement 'Ami' peut être un doublon)");
-                        return; // Empêche la fenêtre de se fermer
+                        return;
                     }
                 }
             }
@@ -638,7 +624,6 @@
                 }
             }
 
-            // Vérification ultra-robuste de TOUTE l'équipe
             fullTeam.forEach(m => {
                 let isCovered = false;
                 
@@ -654,7 +639,7 @@
                     if (leader.leaderSkill.includes("All Types")) isCovered = true;
                 } 
                 else {
-                    isCovered = true; // On pardonne pour éviter les fausses alertes sur les vieux leaders
+                    isCovered = true; 
                 }
 
                 if (!isCovered) offLeaderCatCount++; 
@@ -688,39 +673,64 @@
             }
 
             let commentsHTML = "";
+            let modeConseille = "";
+            let modeCouleur = "";
+            let modeTitre = "";
 
             if (offLeaderCatCount > 0) {
-                commentsHTML += createAnalysisBlock("C", "ERREUR DE LEADER SKILL", `Alerte rouge ! <b>${offLeaderCatCount} personnage(s)</b> ne bénéficient d'aucun bonus du leader. Cette équipe va se faire écraser.`, "#e74c3c");
+                modeTitre = "Mode Histoire & Quêtes";
+                modeConseille = "Cette équipe n'est pas optimisée. Reste sur les événements très faciles pour le moment.";
+                modeCouleur = "#888";
+            } else if (tankCount >= 3 && totalLinks >= 80) {
+                modeTitre = "💥 Red Zone, Supreme Spectacle & All-Out Battles";
+                modeConseille = "Tu as une défense de fer et une énorme synergie. Cette équipe est taillée pour détruire le contenu le plus difficile du jeu actuel !";
+                modeCouleur = "#e74c3c";
+            } else if (totalLinks >= 100 && tankCount <= 1) {
+                modeTitre = "⚡ Super Battle Road (SBR / ESBR)";
+                modeConseille = "Une équipe 'Blitz' ! Tu vas frapper extrêmement fort d'entrée de jeu, parfait pour les combats courts du SBR, mais trop fragile pour les combats longs.";
+                modeCouleur = "#9b59b6";
+            } else if (tankCount >= 2 && totalLinks >= 50) {
+                modeTitre = "🐉 Rush de Boss & Événements Dokkan";
+                modeConseille = "Une équipe très solide. Elle passera tous les événements classiques et les niveaux de difficulté intermédiaires sans transpirer.";
+                modeCouleur = "#f39c12";
             } else {
-                commentsHTML += createAnalysisBlock("Z", "Cohésion d'Équipe", `Tous les membres de l'équipe bénéficient du Leader Skill. C'est la base d'une équipe gagnante !`, "#e74c3c");
+                modeTitre = "⚔️ Niveaux Z-Hard / Super";
+                modeConseille = "L'équipe manque un peu de liant ou de défense pour le vrai Endgame, mais fera largement l'affaire pour farmer des médailles.";
+                modeCouleur = "#2ecc71";
+            }
+
+            commentsHTML += createAnalysisBlock("🎯", "Radar de Difficulté", `<b>Événement recommandé : ${modeTitre}</b><br>${modeConseille}`, modeCouleur);
+
+            if (offLeaderCatCount > 0) {
+                commentsHTML += createAnalysisBlock("C", "Alerte de Commandement", `Catastrophe ! <b>${offLeaderCatCount} personnage(s)</b> joue hors du Leader Skill. Ils vont se faire pulvériser au premier tour.`, "#e74c3c");
+            } else {
+                commentsHTML += createAnalysisBlock("Z", "Cohésion Parfaite", `Le Leader Skill enveloppe toute l'équipe. Tout le monde part au combat avec le maximum de statistiques !`, "#2ecc71");
             }
 
             if (totalLinks >= 120) {
-                commentsHTML += createAnalysisBlock("Z", "Synergie Divine", `L'équipe partage la somme folle de <b>${totalLinks} liens</b>. C'est le sommet de la méta Dokkan, les attaques spéciales vont pleuvoir.`, "#e74c3c");
+                commentsHTML += createAnalysisBlock("Z", "Toile de Ki Absolue", `<b>${totalLinks} liens partagés.</b> C'est effrayant. Les Attaques Spéciales Ultimes vont partir toutes seules sans même toucher de sphères de Ki !`, "#e74c3c");
             } else if (totalLinks >= 80) {
-                commentsHTML += createAnalysisBlock("S", "Synergie Parfaite", `L'équipe partage <b>${totalLinks} liens</b>. La cohésion est absolue !`, "#f39c12");
+                commentsHTML += createAnalysisBlock("S", "Excellente Synergie", `<b>${totalLinks} liens partagés.</b> L'équipe tourne comme une horloge suisse. Garde tes meilleures paires en rotation.`, "#f39c12");
             } else if (totalLinks >= 50) {
-                commentsHTML += createAnalysisBlock("A", "Bonne Synergie", `L'équipe partage <b>${totalLinks} liens</b>. C'est solide, mais gère bien tes rotations.`, "#2ecc71");
+                commentsHTML += createAnalysisBlock("A", "Synergie Correcte", `<b>${totalLinks} liens partagés.</b> C'est ok, mais il faudra parfois faire attention aux sphères de Ki pour partir en Spé.`, "#3498db");
             } else {
-                commentsHTML += createAnalysisBlock("B", "Problème de Ki", `L'équipe ne partage que <b>${totalLinks} liens</b>. Tu vas galérer à rassembler assez de Ki.`, "#bdc3c7");
+                commentsHTML += createAnalysisBlock("B", "Problème de Moteur", `Seulement <b>${totalLinks} liens partagés.</b> Tes personnages ne se parlent pas. Prépare des objets de soutien pour le Ki.`, "#888");
             }
 
             if (tankCount >= 4) {
-                commentsHTML += createAnalysisBlock("Z", "Forteresse Imprenable", `Tu as <b>${tankCount} personnages défensifs (Tanks)</b>. Tu es littéralement immortel face aux pires Red Zones.`, "#e74c3c");
+                commentsHTML += createAnalysisBlock("Z", "Le Mur de l'Infini", `<b>${tankCount} Tanks/Esquiveurs !</b> Tu pourrais encaisser une Spéciale de Gogeta Blue Red Zone en souriant. Increvable.`, "#e74c3c");
             } else if (tankCount >= 2) {
-                commentsHTML += createAnalysisBlock("S", "Mur de Fer", `Tu as <b>${tankCount} personnages défensifs</b>. C'est un excellent équilibre pour la survie.`, "#f39c12");
+                commentsHTML += createAnalysisBlock("S", "Défense Équilibrée", `<b>${tankCount} personnages défensifs.</b> Place-les intelligemment en Slot 1 pour encaisser les coups, et laisse tes DPS faire le reste.`, "#f39c12");
             } else if (tankCount === 1) {
-                commentsHTML += createAnalysisBlock("A", "Défense Légère", `Tu n'as qu'<b>un seul vrai Tank</b>. Il va falloir le placer en première position pour protéger la rotation.`, "#2ecc71");
+                commentsHTML += createAnalysisBlock("A", "Défense Critique", `<b>Un seul Tank !</b> Il va falloir le prier pour qu'il soit dans la bonne rotation quand le Boss s'énervera.`, "#e67e22");
             } else {
-                commentsHTML += createAnalysisBlock("C", "Danger de Mort", `<b>Aucun Tank détecté !</b> C'est une équipe kamikaze, tu n'as pas le droit à l'erreur.`, "#e74c3c");
+                commentsHTML += createAnalysisBlock("C", "Kamikaze", `<b>0 Tank.</b> C'est une stratégie "Tuer ou être tué". Un item Whis (réduction de dégâts) est obligatoire !`, "#888");
             }
 
             if (supportCount >= 3) {
-                commentsHTML += createAnalysisBlock("Z", "Soutien Divin", `Avec <b>${supportCount} Support(s)</b>, tes attaquants vont atteindre des valeurs de dégâts astronomiques.`, "#e74c3c");
+                commentsHTML += createAnalysisBlock("Z", "Soutien Massif", `<b>${supportCount} Supports !</b> Les statistiques de tes attaquants principaux vont atteindre des valeurs astronomiques !`, "#e74c3c");
             } else if (supportCount >= 1) {
-                commentsHTML += createAnalysisBlock("S", "Soutien Actif", `Tu as <b>${supportCount} Support(s)</b> dans l'équipe pour fluidifier la rotation. Excellent choix.`, "#f39c12");
-            } else {
-                commentsHTML += createAnalysisBlock("A", "Force Brute", `Tu n'as <b>aucun Support</b>. L'équipe est centrée sur la performance pure de chaque personnage.`, "#2ecc71");
+                commentsHTML += createAnalysisBlock("A", "Bonne Huile de Coude", `<b>${supportCount} Support(s).</b> Utile pour gonfler la défense des autres et sécuriser le Ki en 3ème position.`, "#2ecc71");
             }
 
             document.getElementById('analyzer-content').innerHTML = commentsHTML;

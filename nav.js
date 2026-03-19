@@ -2,8 +2,9 @@ const navHTML = `
     <nav>
         <a href="index.html" id="link-index">🔮 Générateur</a>
         <a href="box.html" id="link-box">🎒 Ma Box</a>
-        <a href="teams.html" id="link-teams">⭐ Mes Équipes</a>
         <a href="characters.html" id="link-characters">📖 Personnages</a>
+        <a href="teams.html" id="link-teams">⭐ Mes Équipes</a>
+        <a href="tierlist.html" class="nav-link">🏆 Tier List</a>
     </nav>
 `;
 

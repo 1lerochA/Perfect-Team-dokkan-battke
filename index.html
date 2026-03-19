@@ -280,14 +280,13 @@
             document.getElementById('btn-all')
         ];
 
-        // Écouteur sur les menus déroulants pour régénérer automatiquement
         document.getElementById('category-filter').addEventListener('change', () => {
             if (generatedTeams.length > 0) generateTeam(lastUsedMode);
         });
         document.getElementById('build-mode-filter').addEventListener('change', (e) => {
             const catContainer = document.getElementById('category-selector-container');
             if (e.target.value === 'MEMBER') {
-                catContainer.style.display = 'none'; // On cache les catégories si on cherche un Leader
+                catContainer.style.display = 'none';
             } else {
                 catContainer.style.display = 'block';
             }
@@ -383,13 +382,13 @@
                     const addRegex = /additional HP, ATK & DEF \+\d+% for characters who also belong to the "([^"]+)"/i;
                     const addMatch = leader.leaderSkill.match(addRegex);
                     if (addMatch && addMatch[1] && character.categories.includes(addMatch[1])) {
-                        score += 2000; // Donne le fameux 200% !
+                        score += 2000;
                     }
                 }
 
-                if (!givesBoost) return null; // S'il ne booste pas, on l'élimine
+                if (!givesBoost) return null;
                 
-                score += 5000; // Base valid leader
+                score += 5000;
                 if (leader.rarity === 'LR') score += 500;
                 if (leader.hasSEZA) score += 300;
 
@@ -397,7 +396,7 @@
                 if (leader.links && character.links) {
                     sharedLinks = leader.links.filter(l => character.links.includes(l)).length;
                 }
-                score += sharedLinks * 150; // On valorise les leaders qui linkent bien avec lui
+                score += sharedLinks * 150;
 
                 return { leader, score };
             }).filter(item => item !== null);
@@ -477,7 +476,7 @@
                 let config = buildMode === 'LEADER' ? teamConfigs[i] : { type: 'REVERSE', name: "LEADER IDÉAL" };
 
                 if (buildMode === 'MEMBER') {
-                    if (i >= bestLeadersForMember.length) break; // S'il n'y a que 3 leaders valides, on s'arrête
+                    if (i >= bestLeadersForMember.length) break;
                     currentLeader = bestLeadersForMember[i];
                     config.name = "LEADER : " + currentLeader.name.toUpperCase();
                 }
@@ -498,7 +497,6 @@
                 let members = [];
                 let usedIds = new Set([currentLeader.id]); 
 
-                // Si on cherche un Leader, on FORCE notre personnage initial dans la team !
                 if (buildMode === 'MEMBER' && selectedLeader.id !== currentLeader.id) {
                     members.push(selectedLeader);
                     usedIds.add(selectedLeader.id);
@@ -597,7 +595,7 @@
                 members.forEach(m => { usageTracker[m.id] = (usageTracker[m.id] || 0) + 1; });
 
                 let fullTeam = [currentLeader, ...members];
-                if (currentLeader) fullTeam.push(currentLeader); // Ami leader = Le leader trouvé
+                if (currentLeader) fullTeam.push(currentLeader);
 
                 let teamScore = 0;
                 let finalHasTank = false;
@@ -627,7 +625,6 @@
 
                 let rank = "B";
                 let rankColor = "#bdc3c7"; 
-                // NOUVEAU BARÈME HARDCORE
                 if (teamScore >= 1550) { rank = "Z"; rankColor = "#e74c3c"; } 
                 else if (teamScore >= 1200) { rank = "S"; rankColor = "#f39c12"; } 
                 else if (teamScore >= 800) { rank = "A"; rankColor = "#2ecc71"; } 
@@ -642,7 +639,7 @@
                     rankColor: rankColor,  
                     score: teamScore,     
                     leader: currentLeader,
-                    friend: currentLeader, // Le leader trouvé est copié en ami
+                    friend: currentLeader, 
                     members: members,
                     source: useFullGame ? 'Tout le jeu' : 'Ma Box',
                     date: new Date().toLocaleDateString('fr-FR')
@@ -717,7 +714,6 @@
                 unitsRow.innerHTML += `<div style="display:flex;flex-direction:column;align-items:center;gap:8px; animation: fadeIn 0.5s ease-out;">${createDokkanCard(team.leader, { isInBox: isFromBox ? false : myBoxIds.includes(team.leader.id) })}<span style="font-size:0.8rem;color:var(--accent-gold);font-weight:900;letter-spacing:1px;">LEADER</span></div>`;
 
                 team.members.forEach((m, idx) => {
-                    // Mettre en évidence si le personnage est notre personnage central !
                     const isFocusMember = selectedLeader && m.id === selectedLeader.id && document.getElementById('build-mode-filter').value === 'MEMBER';
                     const memberLabel = isFocusMember ? '<span style="font-size:0.8rem;color:var(--accent-gold);font-weight:900;">⭐ FOCUS</span>' : '<span style="font-size:0.8rem;color:#888;font-weight:700;">MEMBRE</span>';
                     
@@ -743,7 +739,7 @@
                     candidates.forEach(c => {
                         let sharedLinks = c.links && mainUnit.links ? c.links.filter(l => mainUnit.links.includes(l)).length : 0;
                         let score = sharedLinks * 10;
-                        if (c.roles && c.roles.includes("TANK")) score += 15; // Un tank en rotation c'est le top
+                        if (c.roles && c.roles.includes("TANK")) score += 15;
                         if (score > maxScore) {
                             maxScore = score;
                             bestPartner = c;
@@ -881,7 +877,6 @@
                 renderGeneratedTeams();
             }
 
-            // --- LA MÉMOIRE DU LEADER RESTAURÉE ---
             const savedLeaderId = sessionStorage.getItem('dokkanTempLeaderId');
             if (savedLeaderId && savedLeaderId !== "null") {
                 selectLeader(parseInt(savedLeaderId));

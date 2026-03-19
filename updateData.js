@@ -160,9 +160,6 @@ function detectRoles(passiveText, activeText) {
     const roles = [];
     const fullText = (passiveText + " " + activeText).toLowerCase();
 
-    // 1. TANK / DEFENSE 
-    // On cible la vraie Garde (pas "disables enemy's guard"), la vraie réduction,
-    // et UNIQUEMENT les grosses esquives (High, Great, Ultra-high) ou esquives garanties ("evades enemy").
     const isTank = /\b(damage reduction|reduces damage|guards all|activates guard|guard activated)\b/i.test(fullText) || 
                    /\b(high|great|ultra-high|supreme) chance of (evading|evasion)\b/i.test(fullText) ||
                    /\b(high|great|ultra-high|supreme) chance to (evade|dodge)\b/i.test(fullText) ||

@@ -232,7 +232,6 @@
             const container = document.createElement('div');
             container.className = 'pagination-container';
             
-            // Previous
             const btnPrev = document.createElement('button');
             btnPrev.className = 'btn-page nav-btn';
             btnPrev.innerHTML = '←';
@@ -240,7 +239,6 @@
             btnPrev.onclick = () => changePage(pageActuelle - 1);
             container.appendChild(btnPrev);
 
-            // Page numbers
             let startPage = Math.max(1, pageActuelle - 2);
             let endPage = Math.min(totalDesPages, startPage + 4);
             
@@ -288,7 +286,6 @@
                 container.appendChild(btnLast);
             }
 
-            // Next
             const btnNext = document.createElement('button');
             btnNext.className = 'btn-page nav-btn';
             btnNext.innerHTML = '→';
