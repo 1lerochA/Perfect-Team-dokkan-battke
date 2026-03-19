@@ -246,6 +246,12 @@
                     GÉNÉRER VIA TOUT LE JEU
                 </button>
             </div>
+
+            <div id="category-selector-container" style="display:none; text-align:center; margin-top:25px; animation: slideUp 0.5s ease-out;">
+                <label for="category-filter" style="color:var(--accent-gold); font-family:'Bangers', cursive; font-size:1.5rem; margin-right:15px; letter-spacing:1px; text-shadow:2px 2px 0 #000;">🎯 FOCUS CATÉGORIE :</label>
+                <select id="category-filter" style="padding:12px 20px; font-size:1.1rem; border-radius:12px; background:rgba(15, 23, 42, 0.9); color:#fff; border:2px solid var(--accent-blue); outline:none; cursor:pointer; font-family:'Nunito', sans-serif; font-weight:700; box-shadow: 0 4px 15px rgba(0,0,0,0.4); min-width: 300px;">
+                    </select>
+            </div>
         </div>
 
         <div id="team-results" class="team-result"></div>
@@ -257,6 +263,7 @@
     <script>
         let selectedLeader    = null;
         let generatedTeams    = [];
+        let lastUsedMode      = false; // NOUVEAU : Mémorise si on utilise la Box ou Tout le jeu
 
         const leaderInput    = document.getElementById('leaderInput');
         const suggestionsDiv = document.getElementById('suggestions');
@@ -265,21 +272,22 @@
             document.getElementById('btn-all')
         ];
 
+        document.getElementById('category-filter').addEventListener('change', () => {
+            if (generatedTeams.length > 0) {
+                // Si on a déjà généré des teams, on relance automatiquement la génération avec la nouvelle catégorie !
+                generateTeam(lastUsedMode);
+            }
+        });
+
         leaderInput.addEventListener('input', e => {
             const q = e.target.value.toLowerCase().trim();
             if (q.length < 2) { suggestionsDiv.style.display = 'none'; return; }
-
-            const matches = dokkanCharacters
-                .filter(c => c.name.toLowerCase().includes(q))
-                .slice(0, 10);
-
+            const matches = dokkanCharacters.filter(c => c.name.toLowerCase().includes(q)).slice(0, 10);
             if (!matches.length) { suggestionsDiv.style.display = 'none'; return; }
 
             suggestionsDiv.innerHTML = matches.map(c => `
                 <div class="suggestion-item" onclick="selectLeader(${c.id})">
-                    <div class="suggestion-thumb">
-                        ${createDokkanCard(c, { size: 'sm' })}
-                    </div>
+                    <div class="suggestion-thumb">${createDokkanCard(c, { size: 'sm' })}</div>
                     <div class="suggestion-info">
                         <div class="s-name">${c.name}</div>
                         <div class="s-meta">${c.rarity} · ${c.type} · ${c.alignment || ''}</div>
@@ -297,17 +305,31 @@
             selectedLeader = dokkanCharacters.find(c => c.id === id);
             if (!selectedLeader) return;
 
-            document.getElementById('leader-card-placeholder').innerHTML =
-                createDokkanCard(selectedLeader, { size: 'md' });
-
+            document.getElementById('leader-card-placeholder').innerHTML = createDokkanCard(selectedLeader, { size: 'md' });
             document.getElementById('display-leader-name').textContent = selectedLeader.name;
-            document.getElementById('display-leader-skill').textContent =
-                'Leader Skill : ' + (selectedLeader.leaderSkill || 'Non disponible');
+            document.getElementById('display-leader-skill').textContent = 'Leader Skill : ' + (selectedLeader.leaderSkill || 'Non disponible');
 
             document.getElementById('search-section').style.display          = 'none';
             document.getElementById('selected-leader-container').style.display = 'flex';
             suggestionsDiv.style.display = 'none';
             actionButtons.forEach(btn => btn.disabled = false);
+
+            // --- NOUVEAU : Remplissage dynamique du menu déroulant ---
+            const catFilter = document.getElementById('category-filter');
+            catFilter.innerHTML = '<option value="ALL">🌟 Toutes les catégories (Génération Auto)</option>';
+            
+            if (selectedLeader.leaderSkill) {
+                const catRegex = /"([^"]+)"/g;
+                let match;
+                const foundCats = [];
+                while ((match = catRegex.exec(selectedLeader.leaderSkill)) !== null) {
+                    if (!foundCats.includes(match[1])) {
+                        foundCats.push(match[1]);
+                        catFilter.innerHTML += `<option value="${match[1]}">🎯 Focus : ${match[1]}</option>`;
+                    }
+                }
+            }
+            document.getElementById('category-selector-container').style.display = 'block';
         };
 
         window.resetLeader = function() {
@@ -315,18 +337,17 @@
             leaderInput.value = '';
             document.getElementById('search-section').style.display            = 'block';
             document.getElementById('selected-leader-container').style.display = 'none';
+            document.getElementById('category-selector-container').style.display = 'none'; // NOUVEAU
             document.getElementById('team-results').innerHTML = '';
             actionButtons.forEach(btn => btn.disabled = true);
         };
 
-
         window.generateTeam = function(useFullGame) {
+            lastUsedMode = useFullGame; 
             const resultsDiv = document.getElementById('team-results');
             resultsDiv.innerHTML = '<div style="text-align:center; padding: 60px 0;"><div class="dokkan-font" style="font-size:2.5rem; color:var(--accent-gold); animation: pulse 1.5s infinite;">⚡ CALCUL DES ÉQUIPES EN COURS… ⚡</div></div>';
 
-            const poolIds = useFullGame
-                ? dokkanCharacters.map(c => c.id)
-                : (JSON.parse(localStorage.getItem('dokkanBox')) || []);
+            const poolIds = useFullGame ? dokkanCharacters.map(c => c.id) : (JSON.parse(localStorage.getItem('dokkanBox')) || []);
 
             if (!useFullGame && !poolIds.length) {
                 resultsDiv.innerHTML = '<div style="background:rgba(231,76,60,0.1); border:1px solid #e74c3c; padding:30px; border-radius:15px; text-align:center; color:#e74c3c; font-size:1.2rem;">Votre box est vide ! Rendez-vous dans "Ma Box" pour ajouter vos personnages.</div>';
@@ -344,31 +365,39 @@
             generatedTeams = [];
 
             const teamConfigs = [];
-            
-            if (categoriesFound.length === 0) {
-                for(let i=0; i<5; i++) teamConfigs.push({ type: 'MIX', name: "TEAM " + selectedLeader.name.toUpperCase() });
-            
-            } else if (categoriesFound.length === 1) {
-                teamConfigs.push({ type: 'CAT', cat: categoriesFound[0], name: "TEAM " + categoriesFound[0].toUpperCase() });
-                teamConfigs.push({ type: 'CAT', cat: categoriesFound[0], name: "TEAM " + categoriesFound[0].toUpperCase() });
-                teamConfigs.push({ type: 'CAT', cat: categoriesFound[0], name: "TEAM " + categoriesFound[0].toUpperCase() });
-                teamConfigs.push({ type: 'MIX', name: "TEAM ALTERNATIVE" });
-                teamConfigs.push({ type: 'MIX', name: "TEAM FULL LIENS" });
-            
-            } else if (categoriesFound.length === 2) {
-                teamConfigs.push({ type: 'CAT', cat: categoriesFound[0], name: "TEAM " + categoriesFound[0].toUpperCase() });
-                teamConfigs.push({ type: 'CAT', cat: categoriesFound[0], name: "TEAM " + categoriesFound[0].toUpperCase() });
-                teamConfigs.push({ type: 'CAT', cat: categoriesFound[1], name: "TEAM " + categoriesFound[1].toUpperCase() });
-                teamConfigs.push({ type: 'CAT', cat: categoriesFound[1], name: "TEAM " + categoriesFound[1].toUpperCase() });
-                teamConfigs.push({ type: 'MIX', name: "TEAM HYBRIDE (MIX)" });
-            
+            const selectedFocus = document.getElementById('category-filter').value;
+
+            if (selectedFocus !== "ALL") {
+                teamConfigs.push({ type: 'CAT', cat: selectedFocus, name: "TEAM " + selectedFocus.toUpperCase() + " (Équilibrée)" });
+                teamConfigs.push({ type: 'CAT', cat: selectedFocus, name: "TEAM " + selectedFocus.toUpperCase() + " (Offensive)" });
+                teamConfigs.push({ type: 'CAT', cat: selectedFocus, name: "TEAM " + selectedFocus.toUpperCase() + " (Défensive)" });
+                teamConfigs.push({ type: 'CAT', cat: selectedFocus, name: "TEAM " + selectedFocus.toUpperCase() + " (Alternative)" });
+                teamConfigs.push({ type: 'CAT', cat: selectedFocus, name: "TEAM " + selectedFocus.toUpperCase() + " (Full Liens)" });
             } else {
-                teamConfigs.push({ type: 'CAT', cat: categoriesFound[0], name: "TEAM " + categoriesFound[0].toUpperCase() });
-                teamConfigs.push({ type: 'CAT', cat: categoriesFound[1], name: "TEAM " + categoriesFound[1].toUpperCase() });
-                teamConfigs.push({ type: 'CAT', cat: categoriesFound[2], name: "TEAM " + categoriesFound[2].toUpperCase() });
-                teamConfigs.push({ type: 'CAT', cat: categoriesFound[categoriesFound.length > 3 ? 3 : 0], name: "TEAM " + categoriesFound[categoriesFound.length > 3 ? 3 : 0].toUpperCase() });
-                teamConfigs.push({ type: 'MIX', name: "TEAM HYBRIDE (MIX)" });
+                if (categoriesFound.length === 0) {
+                    for(let i=0; i<5; i++) teamConfigs.push({ type: 'MIX', name: "TEAM " + selectedLeader.name.toUpperCase() });
+                } else if (categoriesFound.length === 1) {
+                    teamConfigs.push({ type: 'CAT', cat: categoriesFound[0], name: "TEAM " + categoriesFound[0].toUpperCase() });
+                    teamConfigs.push({ type: 'CAT', cat: categoriesFound[0], name: "TEAM " + categoriesFound[0].toUpperCase() });
+                    teamConfigs.push({ type: 'CAT', cat: categoriesFound[0], name: "TEAM " + categoriesFound[0].toUpperCase() });
+                    teamConfigs.push({ type: 'MIX', name: "TEAM ALTERNATIVE" });
+                    teamConfigs.push({ type: 'MIX', name: "TEAM FULL LIENS" });
+                } else if (categoriesFound.length === 2) {
+                    teamConfigs.push({ type: 'CAT', cat: categoriesFound[0], name: "TEAM " + categoriesFound[0].toUpperCase() });
+                    teamConfigs.push({ type: 'CAT', cat: categoriesFound[0], name: "TEAM " + categoriesFound[0].toUpperCase() });
+                    teamConfigs.push({ type: 'CAT', cat: categoriesFound[1], name: "TEAM " + categoriesFound[1].toUpperCase() });
+                    teamConfigs.push({ type: 'CAT', cat: categoriesFound[1], name: "TEAM " + categoriesFound[1].toUpperCase() });
+                    teamConfigs.push({ type: 'MIX', name: "TEAM HYBRIDE (MIX)" });
+                } else {
+                    teamConfigs.push({ type: 'CAT', cat: categoriesFound[0], name: "TEAM " + categoriesFound[0].toUpperCase() });
+                    teamConfigs.push({ type: 'CAT', cat: categoriesFound[1], name: "TEAM " + categoriesFound[1].toUpperCase() });
+                    teamConfigs.push({ type: 'CAT', cat: categoriesFound[2], name: "TEAM " + categoriesFound[2].toUpperCase() });
+                    teamConfigs.push({ type: 'CAT', cat: categoriesFound[categoriesFound.length > 3 ? 3 : 0], name: "TEAM " + categoriesFound[categoriesFound.length > 3 ? 3 : 0].toUpperCase() });
+                    teamConfigs.push({ type: 'MIX', name: "TEAM HYBRIDE (MIX)" });
+                }
             }
+
+            let usageTracker = {};
 
             for (let i = 0; i < 5; i++) {
                 const config = teamConfigs[i];
@@ -376,37 +405,8 @@
                 let teamCandidates = dokkanCharacters
                     .filter(c => poolIds.includes(c.id) && c.id !== selectedLeader.id)
                     .map(char => {
-                        let score = 0;
-                        const sharedLinks = (char.links || []).filter(l => (selectedLeader.links || []).includes(l));
-                        score += sharedLinks.length * 20;
-
-                        if (char.alignment === selectedLeader.alignment) score += 30;
-                        if (char.type === selectedLeader.type) score += 10;
-                        
-                        if (config.type === 'CAT') {
-                            if (char.name.toLowerCase().includes(config.cat.toLowerCase())) score += 80;
-                            if (char.leaderSkill && char.leaderSkill.includes(config.cat)) score += 60;
-                            
-                            categoriesFound.forEach(c => {
-                                if(c !== config.cat) {
-                                   if (char.name.toLowerCase().includes(c.toLowerCase())) score += 15;
-                                   if (char.leaderSkill && char.leaderSkill.includes(c)) score += 10;
-                                }
-                            });
-                        } else {
-                            categoriesFound.forEach(c => {
-                                if (char.name.toLowerCase().includes(c.toLowerCase())) score += 35;
-                                if (char.leaderSkill && char.leaderSkill.includes(c)) score += 25;
-                            });
-                            score += sharedLinks.length * 15; 
-                        }
-
-                        const rngBonus = (i === 1 || i === 3 || config.type === 'MIX') ? Math.random() * 90 : Math.random() * 20;
-
-                        return { ...char, finalScore: score + rngBonus, sharedLinksWithLeader: sharedLinks.length };
+                        return { ...char, finalScore: Math.random() }; 
                     });
-
-                teamCandidates.sort((a, b) => b.finalScore - a.finalScore);
 
                 let members = [];
                 let usedIds = new Set([selectedLeader.id]); 
@@ -418,11 +418,6 @@
                     let hasTank = currentTeam.some(m => m.roles && m.roles.includes("TANK"));
                     let hasSupport = currentTeam.some(m => m.roles && m.roles.includes("SUPPORT"));
                     
-                    let typeCounts = {};
-                    currentTeam.forEach(m => {
-                        typeCounts[m.type] = (typeCounts[m.type] || 0) + 1;
-                    });
-
                     let bestCandidate = null;
                     let bestScore = -99999;
 
@@ -430,7 +425,6 @@
                         if (usedIds.has(candidate.id)) continue;
 
                         let score = 0;
-
                         let isCatMatch = false;
 
                         if (config.type === 'CAT') {
@@ -444,53 +438,66 @@
                             while ((match = catRegex.exec(selectedLeader.leaderSkill)) !== null) {
                                 leaderCategories.push(match[1]);
                             }
-
                             if (selectedLeader.leaderSkill.includes("Super Type") && candidate.alignment === "SUPER") isCatMatch = true;
                             if (selectedLeader.leaderSkill.includes("Extreme Type") && candidate.alignment === "EXTRÊME") isCatMatch = true;
                             if (selectedLeader.leaderSkill.includes("All Types")) isCatMatch = true;
-
                             leaderCategories.forEach(cat => {
-                                if (candidate.categories.includes(cat) || candidate.name.toLowerCase().includes(cat.toLowerCase())) {
-                                    isCatMatch = true;
-                                }
+                                if (candidate.categories.includes(cat) || candidate.name.toLowerCase().includes(cat.toLowerCase())) isCatMatch = true;
                             });
                         }
 
                         if (isCatMatch) {
                             score += 5000;
                         } else {
+                            if (selectedFocus !== "ALL") continue; 
                             score -= 2000; 
                         }
 
                         if (selectedLeader.leaderSkill) {
                             const additionalRegex = /additional HP, ATK & DEF \+\d+% for characters who also belong to the "([^"]+)"/i;
                             const match = selectedLeader.leaderSkill.match(additionalRegex);
-                            if (match && match[1]) {
-                                const bonusCat = match[1];
-                                if (candidate.categories.includes(bonusCat)) {
-                                    score += 1500; 
-                                }
+                            if (match && match[1] && candidate.categories.includes(match[1])) {
+                                score += 1500; 
                             }
                         }
 
                         let sharedLinks = 0;
                         if (candidate.links) {
                             currentTeam.forEach(member => {
-                                if (member.links) {
-                                    sharedLinks += candidate.links.filter(link => member.links.includes(link)).length;
-                                }
+                                if (member.links) sharedLinks += candidate.links.filter(link => member.links.includes(link)).length;
                             });
                         }
                         score += (sharedLinks * 50);
 
-                        if (!hasTank && candidate.roles && candidate.roles.includes("TANK")) {
-                            score += 200; 
-                        }
-                        if (!hasSupport && candidate.roles && candidate.roles.includes("SUPPORT")) {
-                            score += 150; 
-                        }
-                        if (typeCounts[candidate.type] >= 2) {
-                            score -= 100;
+                        // --- LA CORRECTION EST ICI ---
+                        // Pénalité minuscule (30 pts au lieu de 150) : Les monstres resteront, ça changera juste les remplaçants
+                        let penalty = (usageTracker[candidate.id] || 0) * 30; 
+                        if (i === 3) penalty = (usageTracker[candidate.id] || 0) * 150; // Team Alternative : pénalité moyenne
+                        score -= penalty;
+
+                        // Bonus de rôle divisés par 3 pour ne pas écraser la force brute du perso
+                        if (selectedFocus !== "ALL") {
+                            if (i === 0) {
+                                if (!hasTank && candidate.roles && candidate.roles.includes("TANK")) score += 150;
+                                if (!hasSupport && candidate.roles && candidate.roles.includes("SUPPORT")) score += 100;
+                            }
+                            else if (i === 1) {
+                                if (candidate.roles && candidate.roles.includes("DPS / NUKER")) score += 250;
+                            }
+                            else if (i === 2) {
+                                if (candidate.roles && candidate.roles.includes("TANK")) score += 250;
+                                if (candidate.roles && candidate.roles.includes("HEALER")) score += 150;
+                            }
+                            else if (i === 3) {
+                                score += Math.random() * 200;
+                            }
+                            else if (i === 4) {
+                                score += (sharedLinks * 60);
+                            }
+                        } else {
+                            if (!hasTank && candidate.roles && candidate.roles.includes("TANK")) score += 150; 
+                            if (!hasSupport && candidate.roles && candidate.roles.includes("SUPPORT")) score += 100; 
+                            if (i === 3) score += Math.random() * 150;
                         }
 
                         if (score > bestScore) {
@@ -507,25 +514,26 @@
                     }
                 }
 
+                members.forEach(m => {
+                    usageTracker[m.id] = (usageTracker[m.id] || 0) + 1;
+                });
+
                 let fullTeam = [selectedLeader, ...members];
                 if (friendLeader) fullTeam.push(friendLeader);
 
                 let teamScore = 0;
-                let hasTank = false;
-                let hasSupport = false;
+                let finalHasTank = false;
+                let finalHasSupport = false;
                 let count200 = 0;
                 let totalLinks = 0;
 
                 fullTeam.forEach(m => {
-                    if (m.roles && m.roles.includes("TANK")) hasTank = true;
-                    if (m.roles && m.roles.includes("SUPPORT")) hasSupport = true;
-
+                    if (m.roles && m.roles.includes("TANK")) finalHasTank = true;
+                    if (m.roles && m.roles.includes("SUPPORT")) finalHasSupport = true;
                     if (selectedLeader.leaderSkill) {
                         const addRegex = /additional HP, ATK & DEF \+\d+% for characters who also belong to the "([^"]+)"/i;
                         const match = selectedLeader.leaderSkill.match(addRegex);
-                        if (match && match[1] && m.categories.includes(match[1])) {
-                            count200++;
-                        }
+                        if (match && match[1] && m.categories.includes(match[1])) count200++;
                     }
                 });
 
@@ -537,19 +545,17 @@
                     }
                 }
 
-                teamScore = (totalLinks * 10) + (count200 * 50) + (hasTank ? 150 : 0) + (hasSupport ? 100 : 0);
+                teamScore = (totalLinks * 10) + (count200 * 50) + (finalHasTank ? 150 : 0) + (finalHasSupport ? 100 : 0);
 
                 let rank = "B";
                 let rankColor = "#bdc3c7"; 
-                if (teamScore >= 1200) { rank = "Z"; rankColor = "#e74c3c"; } 
-                else if (teamScore >= 900) { rank = "S"; rankColor = "#f39c12"; } 
-                else if (teamScore >= 600) { rank = "A"; rankColor = "#2ecc71"; } 
-
-                let finalTeamName = "TEAM " + (config.type === 'CAT' ? config.cat.toUpperCase() : selectedLeader.name.toUpperCase());
                 
-                if (teamScore < 350) {
-                    finalTeamName = "TEAM ALTERNATIVE (" + selectedLeader.name.toUpperCase() + ")";
-                }
+                if (teamScore >= 1500) { rank = "Z"; rankColor = "#e74c3c"; } 
+                else if (teamScore >= 1200) { rank = "S"; rankColor = "#f39c12"; }
+                else if (teamScore >= 800) { rank = "A"; rankColor = "#2ecc71"; }
+
+                let finalTeamName = config.name; 
+                if (teamScore < 500 && selectedFocus === "ALL") finalTeamName = "TEAM ALTERNATIVE (" + selectedLeader.name.toUpperCase() + ")";
 
                 generatedTeams.push({
                     id: Date.now() + i,
@@ -565,7 +571,9 @@
                 });
             } 
 
-            generatedTeams.sort((a, b) => b.score - a.score);
+            if (selectedFocus === "ALL") {
+                generatedTeams.sort((a, b) => b.score - a.score);
+            }
 
             renderGeneratedTeams();
             sessionStorage.setItem('dokkanTempTeams', JSON.stringify(generatedTeams));
@@ -758,6 +766,7 @@
             sessionStorage.setItem('dokkanTempLeaderId', selectedLeader ? selectedLeader.id : null);
             sessionStorage.setItem('dokkanTempFriendId', friendLeader ? friendLeader.id : null);
         };
+        
         window.addEventListener('DOMContentLoaded', () => {
             const tempTeams = sessionStorage.getItem('dokkanTempTeams');
             if (tempTeams) {

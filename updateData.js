@@ -160,7 +160,6 @@ function detectRoles(passiveText, activeText) {
     const roles = [];
     const fullText = (passiveText + " " + activeText).toLowerCase();
 
-    // Utilisation des \b pour s'assurer qu'on match le mot exact et non une partie d'un autre mot
     if (/\b(guard|damage reduction|reduces damage)\b/i.test(fullText)) {
         roles.push("TANK");
     }
@@ -242,7 +241,12 @@ try {
             
             links: (char.link_skill_ids || []).map(id => linkDictionary[id] || `Lien Inconnu (${id})`),
             categories: catDict[char.id] || [],
-            roles: detectRoles(passiveText, activeText) 
+            roles: detectRoles(passiveText, activeText),
+            hasEZA: char.has_eza || false,
+            hasSEZA: char.has_seza || false,
+            latestUpdateYear: char.release_dates && char.release_dates.latest 
+                ? parseInt(char.release_dates.latest.substring(0, 4)) 
+                : 2015
         };
     });
 

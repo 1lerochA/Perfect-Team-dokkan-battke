@@ -38,7 +38,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "HEALER"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": true,
+        "latestUpdateYear": 2026
     },
     {
         "id": 1026391,
@@ -72,7 +75,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": true,
+        "latestUpdateYear": 2026
     },
     {
         "id": 1032981,
@@ -107,7 +113,10 @@ const dokkanCharacters = [
             "HEALER",
             "SUPPORT",
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2026
     },
     {
         "id": 1033011,
@@ -141,7 +150,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2026
     },
     {
         "id": 1013541,
@@ -185,7 +197,10 @@ const dokkanCharacters = [
             "Earth-Bred Fighters",
             "Tournament Participants"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": true,
+        "hasSEZA": true,
+        "latestUpdateYear": 2026
     },
     {
         "id": 1025731,
@@ -225,7 +240,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2026
     },
     {
         "id": 1025771,
@@ -264,7 +282,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "TANK"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2026
     },
     {
         "id": 1024441,
@@ -303,7 +324,10 @@ const dokkanCharacters = [
             "Earth-Bred Fighters",
             "Earth-Protecting Heroes"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2026
     },
     {
         "id": 1032881,
@@ -357,7 +381,10 @@ const dokkanCharacters = [
             "TANK",
             "SUPPORT",
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2026
     },
     {
         "id": 1032921,
@@ -411,7 +438,10 @@ const dokkanCharacters = [
             "TANK",
             "SUPPORT",
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2026
     },
     {
         "id": 1009591,
@@ -451,7 +481,10 @@ const dokkanCharacters = [
             "Super Heroes",
             "Successors"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": true,
+        "hasSEZA": true,
+        "latestUpdateYear": 2026
     },
     {
         "id": 1024991,
@@ -488,7 +521,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "TANK"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2026
     },
     {
         "id": 1032961,
@@ -518,7 +554,10 @@ const dokkanCharacters = [
         "roles": [
             "TANK",
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2026
     },
     {
         "id": 1032741,
@@ -551,7 +590,10 @@ const dokkanCharacters = [
             "TANK",
             "SUPPORT",
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2026
     },
     {
         "id": 1032811,
@@ -584,7 +626,10 @@ const dokkanCharacters = [
             "TANK",
             "SUPPORT",
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2026
     },
     {
         "id": 1032731,
@@ -615,7 +660,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2026
     },
     {
         "id": 1026161,
@@ -653,7 +701,10 @@ const dokkanCharacters = [
         "roles": [
             "HEALER",
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2026
     },
     {
         "id": 1026131,
@@ -691,7 +742,10 @@ const dokkanCharacters = [
         "roles": [
             "TANK",
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2026
     },
     {
         "id": 1011721,
@@ -730,7 +784,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": true,
+        "latestUpdateYear": 2026
     },
     {
         "id": 1032851,
@@ -768,7 +825,10 @@ const dokkanCharacters = [
             "TANK",
             "SUPPORT",
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2026
     },
     {
         "id": 1032551,
@@ -814,7 +874,10 @@ const dokkanCharacters = [
             "TANK",
             "SUPPORT",
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2026
     },
     {
         "id": 1032581,
@@ -859,7 +922,10 @@ const dokkanCharacters = [
             "TANK",
             "SUPPORT",
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2026
     },
     {
         "id": 1032791,
@@ -896,7 +962,10 @@ const dokkanCharacters = [
             "TANK",
             "SUPPORT",
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2026
     },
     {
         "id": 1032691,
@@ -931,7 +1000,10 @@ const dokkanCharacters = [
             "TANK",
             "HEALER",
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2026
     },
     {
         "id": 1025871,
@@ -971,7 +1043,10 @@ const dokkanCharacters = [
         "roles": [
             "TANK",
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2026
     },
     {
         "id": 1025561,
@@ -1015,7 +1090,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2026
     },
     {
         "id": 1025591,
@@ -1064,7 +1142,10 @@ const dokkanCharacters = [
             "TANK",
             "HEALER",
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2026
     },
     {
         "id": 1025511,
@@ -1102,7 +1183,10 @@ const dokkanCharacters = [
             "TANK",
             "SUPPORT",
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2026
     },
     {
         "id": 1025531,
@@ -1139,7 +1223,10 @@ const dokkanCharacters = [
         "roles": [
             "SUPPORT",
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2026
     },
     {
         "id": 1032361,
@@ -1186,7 +1273,10 @@ const dokkanCharacters = [
             "HEALER",
             "SUPPORT",
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2025
     },
     {
         "id": 1032331,
@@ -1235,7 +1325,10 @@ const dokkanCharacters = [
             "TANK",
             "SUPPORT",
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2025
     },
     {
         "id": 1023421,
@@ -1272,7 +1365,10 @@ const dokkanCharacters = [
         "roles": [
             "TANK",
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2025
     },
     {
         "id": 1032121,
@@ -1314,7 +1410,10 @@ const dokkanCharacters = [
             "TANK",
             "SUPPORT",
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2025
     },
     {
         "id": 1025631,
@@ -1352,7 +1451,10 @@ const dokkanCharacters = [
         "roles": [
             "TANK",
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2025
     },
     {
         "id": 1032451,
@@ -1391,7 +1493,10 @@ const dokkanCharacters = [
         "roles": [
             "SUPPORT",
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2025
     },
     {
         "id": 1027191,
@@ -1429,7 +1534,10 @@ const dokkanCharacters = [
             "Demonic Power",
             "Successors"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2025
     },
     {
         "id": 1023111,
@@ -1467,7 +1575,10 @@ const dokkanCharacters = [
             "Earth-Bred Fighters",
             "Earth-Protecting Heroes"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2025
     },
     {
         "id": 1023361,
@@ -1501,7 +1612,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2025
     },
     {
         "id": 1023381,
@@ -1535,7 +1649,10 @@ const dokkanCharacters = [
             "TANK",
             "HEALER",
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2025
     },
     {
         "id": 1032461,
@@ -1573,7 +1690,10 @@ const dokkanCharacters = [
             "TANK",
             "SUPPORT",
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2025
     },
     {
         "id": 1032091,
@@ -1609,7 +1729,10 @@ const dokkanCharacters = [
             "TANK",
             "SUPPORT",
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2025
     },
     {
         "id": 1032071,
@@ -1645,7 +1768,10 @@ const dokkanCharacters = [
             "TANK",
             "SUPPORT",
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2025
     },
     {
         "id": 1032311,
@@ -1685,7 +1811,10 @@ const dokkanCharacters = [
             "TANK",
             "HEALER",
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2025
     },
     {
         "id": 1032621,
@@ -1725,7 +1854,10 @@ const dokkanCharacters = [
         "roles": [
             "TANK",
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2025
     },
     {
         "id": 1022221,
@@ -1763,7 +1895,10 @@ const dokkanCharacters = [
         "roles": [
             "HEALER",
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2025
     },
     {
         "id": 1032641,
@@ -1803,7 +1938,10 @@ const dokkanCharacters = [
             "TANK",
             "SUPPORT",
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2025
     },
     {
         "id": 1032651,
@@ -1851,7 +1989,10 @@ const dokkanCharacters = [
         "roles": [
             "TANK",
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2025
     },
     {
         "id": 1032661,
@@ -1898,7 +2039,10 @@ const dokkanCharacters = [
             "TANK",
             "HEALER",
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2025
     },
     {
         "id": 1032631,
@@ -1941,7 +2085,10 @@ const dokkanCharacters = [
             "TANK",
             "SUPPORT",
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2025
     },
     {
         "id": 1032611,
@@ -1983,7 +2130,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2025
     },
     {
         "id": 1030671,
@@ -2021,7 +2171,10 @@ const dokkanCharacters = [
         "roles": [
             "SUPPORT",
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2025
     },
     {
         "id": 1030681,
@@ -2058,7 +2211,10 @@ const dokkanCharacters = [
         "roles": [
             "SUPPORT",
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2025
     },
     {
         "id": 1032431,
@@ -2093,7 +2249,10 @@ const dokkanCharacters = [
             "TANK",
             "SUPPORT",
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2025
     },
     {
         "id": 1032391,
@@ -2126,7 +2285,10 @@ const dokkanCharacters = [
         "roles": [
             "SUPPORT",
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2025
     },
     {
         "id": 1032261,
@@ -2173,7 +2335,10 @@ const dokkanCharacters = [
             "TANK",
             "SUPPORT",
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2025
     },
     {
         "id": 1032281,
@@ -2214,7 +2379,10 @@ const dokkanCharacters = [
         "roles": [
             "SUPPORT",
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2025
     },
     {
         "id": 1030211,
@@ -2253,7 +2421,10 @@ const dokkanCharacters = [
             "TANK",
             "HEALER",
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2025
     },
     {
         "id": 1032241,
@@ -2284,7 +2455,10 @@ const dokkanCharacters = [
             "TANK",
             "HEALER",
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2025
     },
     {
         "id": 1032221,
@@ -2317,7 +2491,10 @@ const dokkanCharacters = [
         "roles": [
             "SUPPORT",
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2025
     },
     {
         "id": 1022271,
@@ -2353,7 +2530,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2025
     },
     {
         "id": 1029871,
@@ -2384,7 +2564,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2025
     },
     {
         "id": 1010161,
@@ -2423,7 +2606,10 @@ const dokkanCharacters = [
             "Bond of Parent and Child",
             "Uncontrollable Power"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": true,
+        "hasSEZA": true,
+        "latestUpdateYear": 2025
     },
     {
         "id": 1032011,
@@ -2459,7 +2645,10 @@ const dokkanCharacters = [
         "roles": [
             "SUPPORT",
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2025
     },
     {
         "id": 1032481,
@@ -2495,7 +2684,10 @@ const dokkanCharacters = [
             "TANK",
             "SUPPORT",
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2025
     },
     {
         "id": 1032471,
@@ -2531,7 +2723,10 @@ const dokkanCharacters = [
             "TANK",
             "SUPPORT",
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2025
     },
     {
         "id": 1032491,
@@ -2566,7 +2761,10 @@ const dokkanCharacters = [
             "TANK",
             "SUPPORT",
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2025
     },
     {
         "id": 1022091,
@@ -2603,7 +2801,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "TANK"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2025
     },
     {
         "id": 1031961,
@@ -2643,7 +2844,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2025
     },
     {
         "id": 1032051,
@@ -2676,7 +2880,10 @@ const dokkanCharacters = [
         "roles": [
             "TANK",
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2025
     },
     {
         "id": 1010441,
@@ -2713,7 +2920,10 @@ const dokkanCharacters = [
             "Power Beyond Super Saiyan",
             "Uncontrollable Power"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": true,
+        "hasSEZA": true,
+        "latestUpdateYear": 2025
     },
     {
         "id": 1023571,
@@ -2746,7 +2956,10 @@ const dokkanCharacters = [
             "TANK",
             "HEALER",
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2025
     },
     {
         "id": 1031921,
@@ -2783,7 +2996,10 @@ const dokkanCharacters = [
         "roles": [
             "TANK",
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2025
     },
     {
         "id": 1032031,
@@ -2818,7 +3034,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2025
     },
     {
         "id": 1024511,
@@ -2861,7 +3080,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "TANK"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2025
     },
     {
         "id": 1031721,
@@ -2914,7 +3136,10 @@ const dokkanCharacters = [
         "roles": [
             "TANK",
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2025
     },
     {
         "id": 1031751,
@@ -2952,7 +3177,10 @@ const dokkanCharacters = [
         "roles": [
             "TANK",
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2025
     },
     {
         "id": 1028201,
@@ -2989,7 +3217,10 @@ const dokkanCharacters = [
         "roles": [
             "TANK",
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2025
     },
     {
         "id": 1028081,
@@ -3025,7 +3256,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2025
     },
     {
         "id": 1028091,
@@ -3060,7 +3294,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2025
     },
     {
         "id": 1024171,
@@ -3091,7 +3328,10 @@ const dokkanCharacters = [
         "roles": [
             "HEALER",
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2025
     },
     {
         "id": 1031691,
@@ -3128,7 +3368,10 @@ const dokkanCharacters = [
         "roles": [
             "TANK",
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2025
     },
     {
         "id": 1024801,
@@ -3162,7 +3405,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "TANK"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2025
     },
     {
         "id": 1031641,
@@ -3196,7 +3442,10 @@ const dokkanCharacters = [
         "roles": [
             "TANK",
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2025
     },
     {
         "id": 1024751,
@@ -3228,7 +3477,10 @@ const dokkanCharacters = [
             "HEALER",
             "SUPPORT",
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2025
     },
     {
         "id": 1021141,
@@ -3273,7 +3525,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2025
     },
     {
         "id": 1011641,
@@ -3316,7 +3571,10 @@ const dokkanCharacters = [
             "Earth-Bred Fighters",
             "Tournament Participants"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": true,
+        "hasSEZA": true,
+        "latestUpdateYear": 2025
     },
     {
         "id": 1031591,
@@ -3363,7 +3621,10 @@ const dokkanCharacters = [
             "TANK",
             "SUPPORT",
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2025
     },
     {
         "id": 1031621,
@@ -3399,7 +3660,10 @@ const dokkanCharacters = [
         "roles": [
             "TANK",
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2025
     },
     {
         "id": 1024551,
@@ -3435,7 +3699,10 @@ const dokkanCharacters = [
         "roles": [
             "SUPPORT",
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2025
     },
     {
         "id": 1020991,
@@ -3474,7 +3741,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2025
     },
     {
         "id": 1021881,
@@ -3504,7 +3774,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2025
     },
     {
         "id": 1010001,
@@ -3540,7 +3813,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2025
     },
     {
         "id": 1010021,
@@ -3576,7 +3852,10 @@ const dokkanCharacters = [
             "Earth-Bred Fighters",
             "Successors"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2025
     },
     {
         "id": 1012771,
@@ -3612,7 +3891,10 @@ const dokkanCharacters = [
             "Bond of Parent and Child",
             "Earth-Bred Fighters"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2025
     },
     {
         "id": 1008711,
@@ -3643,7 +3925,10 @@ const dokkanCharacters = [
             "GT Bosses",
             "Battle of Fate"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": true,
+        "hasSEZA": true,
+        "latestUpdateYear": 2025
     },
     {
         "id": 1023591,
@@ -3674,7 +3959,10 @@ const dokkanCharacters = [
         "roles": [
             "TANK",
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2025
     },
     {
         "id": 1009431,
@@ -3713,7 +4001,10 @@ const dokkanCharacters = [
             "Earth-Bred Fighters",
             "Earth-Protecting Heroes"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": true,
+        "hasSEZA": true,
+        "latestUpdateYear": 2025
     },
     {
         "id": 1009831,
@@ -3752,7 +4043,10 @@ const dokkanCharacters = [
             "Earth-Protecting Heroes",
             "Successors"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": true,
+        "hasSEZA": true,
+        "latestUpdateYear": 2025
     },
     {
         "id": 1008291,
@@ -3794,7 +4088,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2025
     },
     {
         "id": 1006521,
@@ -3832,7 +4129,10 @@ const dokkanCharacters = [
             "GT Bosses",
             "Battle of Fate"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2025
     },
     {
         "id": 1031501,
@@ -3868,7 +4168,10 @@ const dokkanCharacters = [
             "TANK",
             "SUPPORT",
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2025
     },
     {
         "id": 1031821,
@@ -3899,7 +4202,10 @@ const dokkanCharacters = [
         "roles": [
             "TANK",
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2025
     },
     {
         "id": 1031471,
@@ -3940,7 +4246,10 @@ const dokkanCharacters = [
             "TANK",
             "SUPPORT",
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2025
     },
     {
         "id": 1031541,
@@ -3977,7 +4286,10 @@ const dokkanCharacters = [
             "TANK",
             "SUPPORT",
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2025
     },
     {
         "id": 1024661,
@@ -4017,7 +4329,10 @@ const dokkanCharacters = [
             "TANK",
             "HEALER",
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2025
     },
     {
         "id": 1009331,
@@ -4057,7 +4372,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "TANK"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": true,
+        "latestUpdateYear": 2025
     },
     {
         "id": 1009351,
@@ -4096,7 +4414,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": true,
+        "latestUpdateYear": 2025
     },
     {
         "id": 1019071,
@@ -4132,7 +4453,10 @@ const dokkanCharacters = [
             "Super Bosses",
             "Successors"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": true,
+        "hasSEZA": true,
+        "latestUpdateYear": 2025
     },
     {
         "id": 1031391,
@@ -4186,7 +4510,10 @@ const dokkanCharacters = [
         "roles": [
             "TANK",
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2025
     },
     {
         "id": 1031431,
@@ -4231,7 +4558,10 @@ const dokkanCharacters = [
         "roles": [
             "TANK",
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2025
     },
     {
         "id": 1031521,
@@ -4268,7 +4598,10 @@ const dokkanCharacters = [
             "TANK",
             "SUPPORT",
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2025
     },
     {
         "id": 1031771,
@@ -4307,7 +4640,10 @@ const dokkanCharacters = [
         "roles": [
             "SUPPORT",
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2025
     },
     {
         "id": 1031761,
@@ -4346,7 +4682,10 @@ const dokkanCharacters = [
         "roles": [
             "SUPPORT",
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2025
     },
     {
         "id": 1032161,
@@ -4385,7 +4724,10 @@ const dokkanCharacters = [
         "roles": [
             "TANK",
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2025
     },
     {
         "id": 1031781,
@@ -4424,7 +4766,10 @@ const dokkanCharacters = [
         "roles": [
             "TANK",
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2025
     },
     {
         "id": 1032171,
@@ -4464,7 +4809,10 @@ const dokkanCharacters = [
             "HEALER",
             "SUPPORT",
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2025
     },
     {
         "id": 1031791,
@@ -4504,7 +4852,10 @@ const dokkanCharacters = [
             "HEALER",
             "SUPPORT",
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2025
     },
     {
         "id": 1032181,
@@ -4543,7 +4894,10 @@ const dokkanCharacters = [
         "roles": [
             "TANK",
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2025
     },
     {
         "id": 1031801,
@@ -4582,7 +4936,10 @@ const dokkanCharacters = [
         "roles": [
             "TANK",
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2025
     },
     {
         "id": 1032191,
@@ -4622,7 +4979,10 @@ const dokkanCharacters = [
             "TANK",
             "SUPPORT",
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2025
     },
     {
         "id": 1031811,
@@ -4662,7 +5022,10 @@ const dokkanCharacters = [
             "TANK",
             "SUPPORT",
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2025
     },
     {
         "id": 1024731,
@@ -4695,7 +5058,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2025
     },
     {
         "id": 1031361,
@@ -4731,7 +5097,10 @@ const dokkanCharacters = [
         "roles": [
             "TANK",
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2025
     },
     {
         "id": 1025801,
@@ -4764,7 +5133,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2025
     },
     {
         "id": 1031281,
@@ -4800,7 +5172,10 @@ const dokkanCharacters = [
         "roles": [
             "TANK",
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2025
     },
     {
         "id": 1023771,
@@ -4836,7 +5211,10 @@ const dokkanCharacters = [
         "roles": [
             "SUPPORT",
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2025
     },
     {
         "id": 1023731,
@@ -4871,7 +5249,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2025
     },
     {
         "id": 1023751,
@@ -4906,7 +5287,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "TANK"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2025
     },
     {
         "id": 1031301,
@@ -4942,7 +5326,10 @@ const dokkanCharacters = [
         "roles": [
             "TANK",
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2025
     },
     {
         "id": 1031341,
@@ -4977,7 +5364,10 @@ const dokkanCharacters = [
         "roles": [
             "SUPPORT",
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2025
     },
     {
         "id": 1022831,
@@ -5019,7 +5409,10 @@ const dokkanCharacters = [
             "Tournament Participants",
             "Super Bosses"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2025
     },
     {
         "id": 1031221,
@@ -5064,7 +5457,10 @@ const dokkanCharacters = [
             "TANK",
             "SUPPORT",
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2025
     },
     {
         "id": 1022341,
@@ -5097,7 +5493,10 @@ const dokkanCharacters = [
             "Earth-Bred Fighters",
             "Mission Execution"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2025
     },
     {
         "id": 1021111,
@@ -5130,7 +5529,10 @@ const dokkanCharacters = [
             "Earth-Bred Fighters",
             "Tournament Participants"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2025
     },
     {
         "id": 1030991,
@@ -5169,7 +5571,10 @@ const dokkanCharacters = [
         "roles": [
             "TANK",
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2025
     },
     {
         "id": 1027691,
@@ -5207,7 +5612,10 @@ const dokkanCharacters = [
             "TANK",
             "SUPPORT",
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2025
     },
     {
         "id": 1026841,
@@ -5245,7 +5653,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2025
     },
     {
         "id": 1023091,
@@ -5277,7 +5688,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "TANK"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2025
     },
     {
         "id": 1008631,
@@ -5319,7 +5733,10 @@ const dokkanCharacters = [
             "Earth-Bred Fighters",
             "Tournament Participants"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": true,
+        "hasSEZA": true,
+        "latestUpdateYear": 2025
     },
     {
         "id": 1031021,
@@ -5359,7 +5776,10 @@ const dokkanCharacters = [
         "roles": [
             "TANK",
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2025
     },
     {
         "id": 1031121,
@@ -5394,7 +5814,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2025
     },
     {
         "id": 1031041,
@@ -5424,7 +5847,10 @@ const dokkanCharacters = [
             "TANK",
             "SUPPORT",
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2025
     },
     {
         "id": 1031181,
@@ -5469,7 +5895,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2025
     },
     {
         "id": 1030971,
@@ -5505,7 +5934,10 @@ const dokkanCharacters = [
             "TANK",
             "SUPPORT",
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2025
     },
     {
         "id": 1021331,
@@ -5541,7 +5973,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2025
     },
     {
         "id": 1011041,
@@ -5573,7 +6008,10 @@ const dokkanCharacters = [
             "Tournament Participants",
             "Mission Execution"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2025
     },
     {
         "id": 1021291,
@@ -5606,7 +6044,10 @@ const dokkanCharacters = [
         "roles": [
             "TANK",
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2025
     },
     {
         "id": 1010661,
@@ -5644,7 +6085,10 @@ const dokkanCharacters = [
             "Earth-Bred Fighters",
             "Tournament Participants"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2025
     },
     {
         "id": 1024381,
@@ -5683,7 +6127,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2025
     },
     {
         "id": 1024291,
@@ -5723,7 +6170,10 @@ const dokkanCharacters = [
             "Earth-Bred Fighters",
             "Tournament Participants"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2025
     },
     {
         "id": 1024111,
@@ -5754,7 +6204,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2025
     },
     {
         "id": 1030921,
@@ -5790,7 +6243,10 @@ const dokkanCharacters = [
         "roles": [
             "SUPPORT",
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2025
     },
     {
         "id": 1030941,
@@ -5831,7 +6287,10 @@ const dokkanCharacters = [
         "roles": [
             "TANK",
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2025
     },
     {
         "id": 1030301,
@@ -5868,7 +6327,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2025
     },
     {
         "id": 1025641,
@@ -5909,7 +6371,10 @@ const dokkanCharacters = [
         "roles": [
             "SUPPORT",
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2025
     },
     {
         "id": 1024631,
@@ -5946,7 +6411,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2025
     },
     {
         "id": 1020041,
@@ -5982,7 +6450,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2025
     },
     {
         "id": 1030300,
@@ -6007,7 +6478,10 @@ const dokkanCharacters = [
         "categories": [],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2025
     },
     {
         "id": 1029831,
@@ -6049,7 +6523,10 @@ const dokkanCharacters = [
             "TANK",
             "SUPPORT",
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2025
     },
     {
         "id": 1025071,
@@ -6090,7 +6567,10 @@ const dokkanCharacters = [
             "TANK",
             "SUPPORT",
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2025
     },
     {
         "id": 1031081,
@@ -6127,7 +6607,10 @@ const dokkanCharacters = [
             "TANK",
             "HEALER",
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2025
     },
     {
         "id": 1031101,
@@ -6160,7 +6643,10 @@ const dokkanCharacters = [
         "roles": [
             "SUPPORT",
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2025
     },
     {
         "id": 1021921,
@@ -6200,7 +6686,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2025
     },
     {
         "id": 1005731,
@@ -6235,7 +6724,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "TANK"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": true,
+        "latestUpdateYear": 2025
     },
     {
         "id": 1021941,
@@ -6273,7 +6765,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2025
     },
     {
         "id": 1031061,
@@ -6316,7 +6811,10 @@ const dokkanCharacters = [
         "roles": [
             "TANK",
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2025
     },
     {
         "id": 1022381,
@@ -6358,7 +6856,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2025
     },
     {
         "id": 1022421,
@@ -6400,7 +6901,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2025
     },
     {
         "id": 1023621,
@@ -6442,7 +6946,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2025
     },
     {
         "id": 1030791,
@@ -6486,7 +6993,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2025
     },
     {
         "id": 1023521,
@@ -6528,7 +7038,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "TANK"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2025
     },
     {
         "id": 1030611,
@@ -6572,7 +7085,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "TANK"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2025
     },
     {
         "id": 1010071,
@@ -6616,7 +7132,10 @@ const dokkanCharacters = [
             "Demonic Power",
             "Earth-Protecting Heroes"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": true,
+        "hasSEZA": true,
+        "latestUpdateYear": 2025
     },
     {
         "id": 1004651,
@@ -6657,7 +7176,10 @@ const dokkanCharacters = [
             "Battle of Fate",
             "Tournament Participants"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": true,
+        "hasSEZA": true,
+        "latestUpdateYear": 2025
     },
     {
         "id": 1030391,
@@ -6705,7 +7227,10 @@ const dokkanCharacters = [
         "roles": [
             "TANK",
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2025
     },
     {
         "id": 1030531,
@@ -6758,7 +7283,10 @@ const dokkanCharacters = [
             "TANK",
             "SUPPORT",
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2025
     },
     {
         "id": 1030481,
@@ -6808,7 +7336,10 @@ const dokkanCharacters = [
         "roles": [
             "SUPPORT",
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2025
     },
     {
         "id": 1030831,
@@ -6846,7 +7377,10 @@ const dokkanCharacters = [
         "roles": [
             "SUPPORT",
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2025
     },
     {
         "id": 1022631,
@@ -6890,7 +7424,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2025
     },
     {
         "id": 1022751,
@@ -6931,7 +7468,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2025
     },
     {
         "id": 1005051,
@@ -6961,7 +7501,10 @@ const dokkanCharacters = [
             "Accelerated Battle",
             "Uncontrollable Power"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": true,
+        "hasSEZA": true,
+        "latestUpdateYear": 2025
     },
     {
         "id": 1005281,
@@ -6997,7 +7540,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": true,
+        "latestUpdateYear": 2025
     },
     {
         "id": 1006791,
@@ -7031,7 +7577,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "TANK"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": true,
+        "latestUpdateYear": 2025
     },
     {
         "id": 1008091,
@@ -7069,7 +7618,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "HEALER"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": true,
+        "latestUpdateYear": 2025
     },
     {
         "id": 1030341,
@@ -7119,7 +7671,10 @@ const dokkanCharacters = [
         "roles": [
             "SUPPORT",
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2025
     },
     {
         "id": 1030571,
@@ -7165,7 +7720,10 @@ const dokkanCharacters = [
         "roles": [
             "TANK",
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2025
     },
     {
         "id": 1030431,
@@ -7216,7 +7774,10 @@ const dokkanCharacters = [
         "roles": [
             "TANK",
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2025
     },
     {
         "id": 1030731,
@@ -7256,7 +7817,10 @@ const dokkanCharacters = [
         "roles": [
             "TANK",
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2025
     },
     {
         "id": 1023461,
@@ -7299,7 +7863,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2025
     },
     {
         "id": 1023491,
@@ -7340,7 +7907,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "HEALER"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2025
     },
     {
         "id": 1030360,
@@ -7356,7 +7926,10 @@ const dokkanCharacters = [
         "activeSkill": "Aucun Active Skill",
         "links": [],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2025
     },
     {
         "id": 1030641,
@@ -7390,7 +7963,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2024
     },
     {
         "id": 1030661,
@@ -7433,7 +8009,10 @@ const dokkanCharacters = [
         "roles": [
             "TANK",
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2024
     },
     {
         "id": 1020221,
@@ -7474,7 +8053,10 @@ const dokkanCharacters = [
             "Bond of Parent and Child",
             "Successors"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2024
     },
     {
         "id": 1021781,
@@ -7514,7 +8096,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2024
     },
     {
         "id": 1023811,
@@ -7545,7 +8130,10 @@ const dokkanCharacters = [
             "Worthy Rivals",
             "Battle of Wits"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2024
     },
     {
         "id": 1019921,
@@ -7581,7 +8169,10 @@ const dokkanCharacters = [
             "Earth-Bred Fighters",
             "Mission Execution"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2024
     },
     {
         "id": 1024161,
@@ -7616,7 +8207,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2024
     },
     {
         "id": 1029870,
@@ -7642,7 +8236,10 @@ const dokkanCharacters = [
         "categories": [],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2024
     },
     {
         "id": 1030021,
@@ -7689,7 +8286,10 @@ const dokkanCharacters = [
         "roles": [
             "TANK",
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2024
     },
     {
         "id": 1029091,
@@ -7728,7 +8328,10 @@ const dokkanCharacters = [
         "roles": [
             "TANK",
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2024
     },
     {
         "id": 1017421,
@@ -7764,7 +8367,10 @@ const dokkanCharacters = [
             "Power Beyond Super Saiyan",
             "Uncontrollable Power"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2024
     },
     {
         "id": 1017411,
@@ -7807,7 +8413,10 @@ const dokkanCharacters = [
             "Bond of Parent and Child",
             "Earth-Bred Fighters"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2024
     },
     {
         "id": 1006701,
@@ -7844,7 +8453,10 @@ const dokkanCharacters = [
             "Power of Wishes",
             "Demonic Power"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": true,
+        "hasSEZA": true,
+        "latestUpdateYear": 2024
     },
     {
         "id": 1029551,
@@ -7877,7 +8489,10 @@ const dokkanCharacters = [
         "roles": [
             "TANK",
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2024
     },
     {
         "id": 1030181,
@@ -7909,7 +8524,10 @@ const dokkanCharacters = [
         "roles": [
             "SUPPORT",
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2024
     },
     {
         "id": 1029981,
@@ -7947,7 +8565,10 @@ const dokkanCharacters = [
         "roles": [
             "SUPPORT",
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2024
     },
     {
         "id": 1011901,
@@ -7984,7 +8605,10 @@ const dokkanCharacters = [
             "Demonic Power",
             "Successors"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2024
     },
     {
         "id": 1013811,
@@ -8018,7 +8642,10 @@ const dokkanCharacters = [
             "Super Heroes",
             "Tournament Participants"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2024
     },
     {
         "id": 1013871,
@@ -8055,7 +8682,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2024
     },
     {
         "id": 1019371,
@@ -8092,7 +8722,10 @@ const dokkanCharacters = [
             "Super Heroes",
             "Demonic Power"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2024
     },
     {
         "id": 1029121,
@@ -8129,7 +8762,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2024
     },
     {
         "id": 1029291,
@@ -8163,7 +8799,10 @@ const dokkanCharacters = [
             "Planetary Destruction",
             "Successors"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2024
     },
     {
         "id": 1029281,
@@ -8199,7 +8838,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "HEALER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2024
     },
     {
         "id": 1029851,
@@ -8237,7 +8879,10 @@ const dokkanCharacters = [
         "roles": [
             "TANK",
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2024
     },
     {
         "id": 1005301,
@@ -8272,7 +8917,10 @@ const dokkanCharacters = [
             "Battle of Fate",
             "Successors"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": true,
+        "hasSEZA": true,
+        "latestUpdateYear": 2024
     },
     {
         "id": 1029951,
@@ -8313,7 +8961,10 @@ const dokkanCharacters = [
         "roles": [
             "TANK",
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2024
     },
     {
         "id": 1029891,
@@ -8351,7 +9002,10 @@ const dokkanCharacters = [
         "roles": [
             "TANK",
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2024
     },
     {
         "id": 1029911,
@@ -8386,7 +9040,10 @@ const dokkanCharacters = [
         "roles": [
             "HEALER",
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2024
     },
     {
         "id": 1029931,
@@ -8422,7 +9079,10 @@ const dokkanCharacters = [
             "TANK",
             "SUPPORT",
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2024
     },
     {
         "id": 1030141,
@@ -8459,7 +9119,10 @@ const dokkanCharacters = [
         "roles": [
             "TANK",
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2024
     },
     {
         "id": 1021051,
@@ -8497,7 +9160,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2024
     },
     {
         "id": 1027801,
@@ -8534,7 +9200,10 @@ const dokkanCharacters = [
         "roles": [
             "SUPPORT",
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2024
     },
     {
         "id": 1023191,
@@ -8570,7 +9239,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "HEALER"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2024
     },
     {
         "id": 1023241,
@@ -8614,7 +9286,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2024
     },
     {
         "id": 1023261,
@@ -8652,7 +9327,10 @@ const dokkanCharacters = [
         "roles": [
             "SUPPORT",
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2024
     },
     {
         "id": 1023301,
@@ -8691,7 +9369,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2024
     },
     {
         "id": 1023311,
@@ -8730,7 +9411,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2024
     },
     {
         "id": 1023271,
@@ -8766,7 +9450,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2024
     },
     {
         "id": 1023291,
@@ -8803,7 +9490,10 @@ const dokkanCharacters = [
             "Earth-Bred Fighters",
             "Mission Execution"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2024
     },
     {
         "id": 1023281,
@@ -8841,7 +9531,10 @@ const dokkanCharacters = [
             "Earth-Bred Fighters",
             "Mission Execution"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2024
     },
     {
         "id": 1030161,
@@ -8874,7 +9567,10 @@ const dokkanCharacters = [
         "roles": [
             "SUPPORT",
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2024
     },
     {
         "id": 1030221,
@@ -8910,7 +9606,10 @@ const dokkanCharacters = [
         "roles": [
             "TANK",
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2024
     },
     {
         "id": 1029731,
@@ -8947,7 +9646,10 @@ const dokkanCharacters = [
             "TANK",
             "HEALER",
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2024
     },
     {
         "id": 1029751,
@@ -8979,7 +9681,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2024
     },
     {
         "id": 1027941,
@@ -9010,7 +9715,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "HEALER"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2024
     },
     {
         "id": 1022721,
@@ -9040,7 +9748,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2024
     },
     {
         "id": 1022681,
@@ -9074,7 +9785,10 @@ const dokkanCharacters = [
         "roles": [
             "SUPPORT",
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2024
     },
     {
         "id": 1022941,
@@ -9105,7 +9819,10 @@ const dokkanCharacters = [
             "Rapid Growth",
             "Earth-Bred Fighters"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2024
     },
     {
         "id": 1023041,
@@ -9140,7 +9857,10 @@ const dokkanCharacters = [
             "Entrusted Will",
             "Successors"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2024
     },
     {
         "id": 1029141,
@@ -9178,7 +9898,10 @@ const dokkanCharacters = [
             "HEALER",
             "SUPPORT",
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2024
     },
     {
         "id": 1021811,
@@ -9211,7 +9934,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2024
     },
     {
         "id": 1029161,
@@ -9244,7 +9970,10 @@ const dokkanCharacters = [
         "roles": [
             "SUPPORT",
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2024
     },
     {
         "id": 1029181,
@@ -9279,7 +10008,10 @@ const dokkanCharacters = [
         "roles": [
             "TANK",
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2024
     },
     {
         "id": 1029201,
@@ -9313,7 +10045,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2024
     },
     {
         "id": 1022781,
@@ -9352,7 +10087,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2024
     },
     {
         "id": 1030061,
@@ -9386,7 +10124,10 @@ const dokkanCharacters = [
         "roles": [
             "SUPPORT",
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2024
     },
     {
         "id": 1030101,
@@ -9419,7 +10160,10 @@ const dokkanCharacters = [
         "roles": [
             "TANK",
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2024
     },
     {
         "id": 1030121,
@@ -9452,7 +10196,10 @@ const dokkanCharacters = [
         "roles": [
             "SUPPORT",
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2024
     },
     {
         "id": 1030081,
@@ -9485,7 +10232,10 @@ const dokkanCharacters = [
         "roles": [
             "TANK",
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2024
     },
     {
         "id": 1030041,
@@ -9519,7 +10269,10 @@ const dokkanCharacters = [
         "roles": [
             "TANK",
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2024
     },
     {
         "id": 1029511,
@@ -9557,7 +10310,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2024
     },
     {
         "id": 1017781,
@@ -9602,7 +10358,10 @@ const dokkanCharacters = [
         "roles": [
             "TANK",
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2024
     },
     {
         "id": 1020071,
@@ -9631,7 +10390,10 @@ const dokkanCharacters = [
             "Earth-Bred Fighters",
             "Tournament Participants"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2024
     },
     {
         "id": 1023171,
@@ -9666,7 +10428,10 @@ const dokkanCharacters = [
             "Super Bosses",
             "Mission Execution"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2024
     },
     {
         "id": 1019681,
@@ -9697,7 +10462,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "TANK"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2024
     },
     {
         "id": 1029701,
@@ -9739,7 +10507,10 @@ const dokkanCharacters = [
             "TANK",
             "HEALER",
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2024
     },
     {
         "id": 1007471,
@@ -9774,7 +10545,10 @@ const dokkanCharacters = [
             "Power of Wishes",
             "Earth-Protecting Heroes"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": true,
+        "hasSEZA": true,
+        "latestUpdateYear": 2024
     },
     {
         "id": 1011381,
@@ -9816,7 +10590,10 @@ const dokkanCharacters = [
             "Bond of Parent and Child",
             "Earth-Bred Fighters"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2024
     },
     {
         "id": 1017471,
@@ -9849,7 +10626,10 @@ const dokkanCharacters = [
         "roles": [
             "TANK",
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2024
     },
     {
         "id": 1004251,
@@ -9888,7 +10668,10 @@ const dokkanCharacters = [
             "Battle of Fate",
             "Successors"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": true,
+        "hasSEZA": true,
+        "latestUpdateYear": 2024
     },
     {
         "id": 1029571,
@@ -9924,7 +10707,10 @@ const dokkanCharacters = [
         "roles": [
             "TANK",
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2024
     },
     {
         "id": 1029591,
@@ -9955,7 +10741,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2024
     },
     {
         "id": 1022591,
@@ -9986,7 +10775,10 @@ const dokkanCharacters = [
             "Accelerated Battle",
             "Uncontrollable Power"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2024
     },
     {
         "id": 1022191,
@@ -10027,7 +10819,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "TANK"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2024
     },
     {
         "id": 1003801,
@@ -10061,7 +10856,10 @@ const dokkanCharacters = [
             "Power Beyond Super Saiyan",
             "Uncontrollable Power"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": true,
+        "hasSEZA": true,
+        "latestUpdateYear": 2024
     },
     {
         "id": 1021691,
@@ -10098,7 +10896,10 @@ const dokkanCharacters = [
             "Earth-Bred Fighters",
             "Earth-Protecting Heroes"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2024
     },
     {
         "id": 1029271,
@@ -10130,7 +10931,10 @@ const dokkanCharacters = [
         "roles": [
             "TANK",
             "HEALER"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2024
     },
     {
         "id": 1005441,
@@ -10158,7 +10962,10 @@ const dokkanCharacters = [
             "Artificial Life Forms",
             "Uncontrollable Power"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2024
     },
     {
         "id": 1029471,
@@ -10200,7 +11007,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2024
     },
     {
         "id": 1029441,
@@ -10244,7 +11054,10 @@ const dokkanCharacters = [
             "HEALER",
             "SUPPORT",
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2024
     },
     {
         "id": 1029621,
@@ -10280,7 +11093,10 @@ const dokkanCharacters = [
             "TANK",
             "SUPPORT",
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2024
     },
     {
         "id": 1016871,
@@ -10319,7 +11135,10 @@ const dokkanCharacters = [
             "Power Beyond Super Saiyan",
             "Uncontrollable Power"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2024
     },
     {
         "id": 1017551,
@@ -10353,7 +11172,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2024
     },
     {
         "id": 1029671,
@@ -10392,7 +11214,10 @@ const dokkanCharacters = [
         "roles": [
             "SUPPORT",
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2024
     },
     {
         "id": 1021671,
@@ -10430,7 +11255,10 @@ const dokkanCharacters = [
         "roles": [
             "TANK",
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2024
     },
     {
         "id": 1029401,
@@ -10470,7 +11298,10 @@ const dokkanCharacters = [
             "TANK",
             "SUPPORT",
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2024
     },
     {
         "id": 1029361,
@@ -10508,7 +11339,10 @@ const dokkanCharacters = [
             "TANK",
             "SUPPORT",
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2024
     },
     {
         "id": 1029641,
@@ -10540,7 +11374,10 @@ const dokkanCharacters = [
         "roles": [
             "SUPPORT",
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2024
     },
     {
         "id": 1029771,
@@ -10580,7 +11417,10 @@ const dokkanCharacters = [
         "roles": [
             "HEALER",
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2024
     },
     {
         "id": 1020751,
@@ -10614,7 +11454,10 @@ const dokkanCharacters = [
         "roles": [
             "SUPPORT",
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2024
     },
     {
         "id": 1028961,
@@ -10649,7 +11492,10 @@ const dokkanCharacters = [
         "roles": [
             "TANK",
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2024
     },
     {
         "id": 1029331,
@@ -10681,7 +11527,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2024
     },
     {
         "id": 1017801,
@@ -10715,7 +11564,10 @@ const dokkanCharacters = [
             "Tournament Participants",
             "Mission Execution"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2024
     },
     {
         "id": 1019951,
@@ -10754,7 +11606,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2024
     },
     {
         "id": 1022161,
@@ -10792,7 +11647,10 @@ const dokkanCharacters = [
         "roles": [
             "SUPPORT",
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2024
     },
     {
         "id": 1020051,
@@ -10834,7 +11692,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2024
     },
     {
         "id": 1009481,
@@ -10874,7 +11735,10 @@ const dokkanCharacters = [
             "Tournament Participants",
             "Demonic Power"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2024
     },
     {
         "id": 1013951,
@@ -10908,7 +11772,10 @@ const dokkanCharacters = [
             "Tournament Participants",
             "Super Bosses"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2024
     },
     {
         "id": 1020011,
@@ -10942,7 +11809,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2024
     },
     {
         "id": 1028681,
@@ -10983,7 +11853,10 @@ const dokkanCharacters = [
             "TANK",
             "SUPPORT",
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2024
     },
     {
         "id": 1028761,
@@ -11015,7 +11888,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2024
     },
     {
         "id": 1019911,
@@ -11052,7 +11928,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2024
     },
     {
         "id": 1021431,
@@ -11086,7 +11965,10 @@ const dokkanCharacters = [
         "roles": [
             "TANK",
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2024
     },
     {
         "id": 1021481,
@@ -11118,7 +12000,10 @@ const dokkanCharacters = [
         "roles": [
             "SUPPORT",
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2024
     },
     {
         "id": 1029051,
@@ -11166,7 +12051,10 @@ const dokkanCharacters = [
             "TANK",
             "SUPPORT",
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2024
     },
     {
         "id": 1029021,
@@ -11200,7 +12088,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2024
     },
     {
         "id": 1020311,
@@ -11243,7 +12134,10 @@ const dokkanCharacters = [
             "Earth-Bred Fighters",
             "Tournament Participants"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2024
     },
     {
         "id": 1020341,
@@ -11288,7 +12182,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "TANK"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2024
     },
     {
         "id": 1028551,
@@ -11326,7 +12223,10 @@ const dokkanCharacters = [
             "TANK",
             "SUPPORT",
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2024
     },
     {
         "id": 1028601,
@@ -11361,7 +12261,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2024
     },
     {
         "id": 1028321,
@@ -11406,7 +12309,10 @@ const dokkanCharacters = [
             "TANK",
             "SUPPORT",
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2024
     },
     {
         "id": 1028371,
@@ -11451,7 +12357,10 @@ const dokkanCharacters = [
             "TANK",
             "SUPPORT",
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2024
     },
     {
         "id": 1028471,
@@ -11485,7 +12394,10 @@ const dokkanCharacters = [
         "roles": [
             "SUPPORT",
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2024
     },
     {
         "id": 1019991,
@@ -11525,7 +12437,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2024
     },
     {
         "id": 1017441,
@@ -11557,7 +12472,10 @@ const dokkanCharacters = [
             "Earth-Bred Fighters",
             "Tournament Participants"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2024
     },
     {
         "id": 1019931,
@@ -11591,7 +12509,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2024
     },
     {
         "id": 1019791,
@@ -11628,7 +12549,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2024
     },
     {
         "id": 1019691,
@@ -11660,7 +12584,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2024
     },
     {
         "id": 1019001,
@@ -11692,7 +12619,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2024
     },
     {
         "id": 1016081,
@@ -11722,7 +12652,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2024
     },
     {
         "id": 1019041,
@@ -11756,7 +12689,10 @@ const dokkanCharacters = [
         "roles": [
             "SUPPORT",
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2024
     },
     {
         "id": 1028331,
@@ -11792,7 +12728,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2024
     },
     {
         "id": 1028021,
@@ -11830,7 +12769,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2024
     },
     {
         "id": 1027981,
@@ -11870,7 +12812,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2024
     },
     {
         "id": 1028231,
@@ -11914,7 +12859,10 @@ const dokkanCharacters = [
             "TANK",
             "SUPPORT",
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2024
     },
     {
         "id": 1019821,
@@ -11955,7 +12903,10 @@ const dokkanCharacters = [
             "Earth-Bred Fighters",
             "Tournament Participants"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2024
     },
     {
         "id": 1015181,
@@ -11987,7 +12938,10 @@ const dokkanCharacters = [
             "Bond of Friendship",
             "Earth-Bred Fighters"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2024
     },
     {
         "id": 1017961,
@@ -12021,7 +12975,10 @@ const dokkanCharacters = [
             "Mastered Evolution",
             "Successors"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2024
     },
     {
         "id": 1024691,
@@ -12052,7 +13009,10 @@ const dokkanCharacters = [
             "Demonic Power",
             "Successors"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2024
     },
     {
         "id": 1011211,
@@ -12085,7 +13045,10 @@ const dokkanCharacters = [
             "Earth-Bred Fighters",
             "Tournament Participants"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2024
     },
     {
         "id": 1018841,
@@ -12122,7 +13085,10 @@ const dokkanCharacters = [
         "roles": [
             "TANK",
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2024
     },
     {
         "id": 1018661,
@@ -12161,7 +13127,10 @@ const dokkanCharacters = [
         "roles": [
             "HEALER",
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2024
     },
     {
         "id": 1029001,
@@ -12198,7 +13167,10 @@ const dokkanCharacters = [
             "HEALER",
             "SUPPORT",
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2024
     },
     {
         "id": 1006211,
@@ -12240,7 +13212,10 @@ const dokkanCharacters = [
             "Fused Fighters",
             "Earth-Bred Fighters"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": true,
+        "hasSEZA": true,
+        "latestUpdateYear": 2024
     },
     {
         "id": 1028721,
@@ -12277,7 +13252,10 @@ const dokkanCharacters = [
             "TANK",
             "SUPPORT",
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2024
     },
     {
         "id": 1008851,
@@ -12315,7 +13293,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": true,
+        "latestUpdateYear": 2024
     },
     {
         "id": 1019141,
@@ -12357,7 +13338,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2024
     },
     {
         "id": 1028771,
@@ -12390,7 +13374,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2024
     },
     {
         "id": 1018591,
@@ -12422,7 +13409,10 @@ const dokkanCharacters = [
         "roles": [
             "SUPPORT",
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2024
     },
     {
         "id": 1019101,
@@ -12458,7 +13448,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2024
     },
     {
         "id": 1028921,
@@ -12491,7 +13484,10 @@ const dokkanCharacters = [
         "roles": [
             "SUPPORT",
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2024
     },
     {
         "id": 1028571,
@@ -12526,7 +13522,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2024
     },
     {
         "id": 1028591,
@@ -12558,7 +13557,10 @@ const dokkanCharacters = [
         "roles": [
             "SUPPORT",
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2024
     },
     {
         "id": 1028981,
@@ -12598,7 +13600,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2024
     },
     {
         "id": 1003311,
@@ -12639,7 +13644,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": true,
+        "latestUpdateYear": 2024
     },
     {
         "id": 1028891,
@@ -12681,7 +13689,10 @@ const dokkanCharacters = [
         "roles": [
             "SUPPORT",
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2024
     },
     {
         "id": 1015101,
@@ -12718,7 +13729,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "TANK"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2024
     },
     {
         "id": 1015111,
@@ -12763,7 +13777,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2024
     },
     {
         "id": 1019471,
@@ -12803,7 +13820,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "TANK"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2024
     },
     {
         "id": 1019461,
@@ -12843,7 +13863,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "TANK"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2024
     },
     {
         "id": 1012001,
@@ -12880,7 +13903,10 @@ const dokkanCharacters = [
             "Demonic Power",
             "Uncontrollable Power"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2024
     },
     {
         "id": 1028631,
@@ -12910,7 +13936,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "TANK"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2024
     },
     {
         "id": 1021011,
@@ -12943,7 +13972,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "HEALER"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2024
     },
     {
         "id": 1020091,
@@ -12985,7 +14017,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "TANK"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2024
     },
     {
         "id": 1019591,
@@ -13029,7 +14064,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "TANK"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2024
     },
     {
         "id": 1027471,
@@ -13064,7 +14102,10 @@ const dokkanCharacters = [
         "roles": [
             "SUPPORT",
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2024
     },
     {
         "id": 1008891,
@@ -13105,7 +14146,10 @@ const dokkanCharacters = [
             "Bond of Parent and Child",
             "Earth-Bred Fighters"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2024
     },
     {
         "id": 1020371,
@@ -13144,7 +14188,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "HEALER"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2024
     },
     {
         "id": 1020461,
@@ -13182,7 +14229,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "TANK"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2024
     },
     {
         "id": 1028811,
@@ -13226,7 +14276,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "HEALER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2024
     },
     {
         "id": 1028851,
@@ -13264,7 +14317,10 @@ const dokkanCharacters = [
         "roles": [
             "HEALER",
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2024
     },
     {
         "id": 1028831,
@@ -13304,7 +14360,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2024
     },
     {
         "id": 1028791,
@@ -13347,7 +14406,10 @@ const dokkanCharacters = [
         "roles": [
             "TANK",
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2024
     },
     {
         "id": 1012721,
@@ -13388,7 +14450,10 @@ const dokkanCharacters = [
             "Earth-Bred Fighters",
             "Earth-Protecting Heroes"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2024
     },
     {
         "id": 1015651,
@@ -13424,7 +14489,10 @@ const dokkanCharacters = [
             "Earth-Bred Fighters",
             "Tournament Participants"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2024
     },
     {
         "id": 1013111,
@@ -13462,7 +14530,10 @@ const dokkanCharacters = [
             "Tournament Participants",
             "Earth-Protecting Heroes"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2024
     },
     {
         "id": 1017431,
@@ -13499,7 +14570,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2024
     },
     {
         "id": 1019631,
@@ -13544,7 +14618,10 @@ const dokkanCharacters = [
             "Fused Fighters",
             "Earth-Bred Fighters"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2024
     },
     {
         "id": 1013121,
@@ -13583,7 +14660,10 @@ const dokkanCharacters = [
             "Demonic Power",
             "Successors"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2024
     },
     {
         "id": 1014991,
@@ -13619,7 +14699,10 @@ const dokkanCharacters = [
         "roles": [
             "SUPPORT",
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2024
     },
     {
         "id": 1015001,
@@ -13657,7 +14740,10 @@ const dokkanCharacters = [
         "roles": [
             "SUPPORT",
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2024
     },
     {
         "id": 1015141,
@@ -13694,7 +14780,10 @@ const dokkanCharacters = [
         "roles": [
             "SUPPORT",
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2024
     },
     {
         "id": 1015131,
@@ -13732,7 +14821,10 @@ const dokkanCharacters = [
         "roles": [
             "SUPPORT",
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2024
     },
     {
         "id": 1015261,
@@ -13771,7 +14863,10 @@ const dokkanCharacters = [
         "roles": [
             "SUPPORT",
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2024
     },
     {
         "id": 1015231,
@@ -13808,7 +14903,10 @@ const dokkanCharacters = [
         "roles": [
             "SUPPORT",
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2024
     },
     {
         "id": 1015251,
@@ -13846,7 +14944,10 @@ const dokkanCharacters = [
         "roles": [
             "SUPPORT",
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2024
     },
     {
         "id": 1015241,
@@ -13878,7 +14979,10 @@ const dokkanCharacters = [
         "roles": [
             "SUPPORT",
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2024
     },
     {
         "id": 1015211,
@@ -13916,7 +15020,10 @@ const dokkanCharacters = [
         "roles": [
             "SUPPORT",
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2024
     },
     {
         "id": 1015221,
@@ -13952,7 +15059,10 @@ const dokkanCharacters = [
         "roles": [
             "SUPPORT",
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2024
     },
     {
         "id": 1022011,
@@ -13989,7 +15099,10 @@ const dokkanCharacters = [
         "roles": [
             "SUPPORT",
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2024
     },
     {
         "id": 1012461,
@@ -14023,7 +15136,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2024
     },
     {
         "id": 1028731,
@@ -14065,7 +15181,10 @@ const dokkanCharacters = [
             "TANK",
             "HEALER",
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2024
     },
     {
         "id": 1027621,
@@ -14108,7 +15227,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2024
     },
     {
         "id": 1028161,
@@ -14144,7 +15266,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2024
     },
     {
         "id": 1017591,
@@ -14179,7 +15304,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2024
     },
     {
         "id": 1017571,
@@ -14209,7 +15337,10 @@ const dokkanCharacters = [
             "Tournament Participants",
             "Mission Execution"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2024
     },
     {
         "id": 1022651,
@@ -14246,7 +15377,10 @@ const dokkanCharacters = [
             "Power Beyond Super Saiyan",
             "Successors"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2024
     },
     {
         "id": 1010751,
@@ -14285,7 +15419,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2024
     },
     {
         "id": 1027581,
@@ -14319,7 +15456,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2024
     },
     {
         "id": 1014711,
@@ -14360,7 +15500,10 @@ const dokkanCharacters = [
             "Power Beyond Super Saiyan",
             "Earth-Bred Fighters"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2024
     },
     {
         "id": 1013341,
@@ -14395,7 +15538,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2024
     },
     {
         "id": 1014721,
@@ -14433,7 +15579,10 @@ const dokkanCharacters = [
             "Power of Wishes",
             "Demonic Power"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2024
     },
     {
         "id": 1011111,
@@ -14472,7 +15621,10 @@ const dokkanCharacters = [
             "Earth-Bred Fighters",
             "Uncontrollable Power"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2024
     },
     {
         "id": 1003211,
@@ -14511,7 +15663,10 @@ const dokkanCharacters = [
             "Earth-Bred Fighters",
             "Earth-Protecting Heroes"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": true,
+        "hasSEZA": true,
+        "latestUpdateYear": 2024
     },
     {
         "id": 1021651,
@@ -14548,7 +15703,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2024
     },
     {
         "id": 1028491,
@@ -14584,7 +15742,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "TANK"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2024
     },
     {
         "id": 1028521,
@@ -14620,7 +15781,10 @@ const dokkanCharacters = [
             "TANK",
             "SUPPORT",
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2024
     },
     {
         "id": 1022811,
@@ -14655,7 +15819,10 @@ const dokkanCharacters = [
         "roles": [
             "TANK",
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2024
     },
     {
         "id": 1019401,
@@ -14686,7 +15853,10 @@ const dokkanCharacters = [
             "Saiyan Saga",
             "Mission Execution"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2024
     },
     {
         "id": 1027601,
@@ -14721,7 +15891,10 @@ const dokkanCharacters = [
         "roles": [
             "TANK",
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2024
     },
     {
         "id": 1017321,
@@ -14752,7 +15925,10 @@ const dokkanCharacters = [
             "Target: Goku",
             "Successors"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2024
     },
     {
         "id": 1028111,
@@ -14786,7 +15962,10 @@ const dokkanCharacters = [
         "roles": [
             "TANK",
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2024
     },
     {
         "id": 1028131,
@@ -14822,7 +16001,10 @@ const dokkanCharacters = [
         "roles": [
             "TANK",
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2024
     },
     {
         "id": 1007101,
@@ -14859,7 +16041,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "TANK"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2024
     },
     {
         "id": 1019711,
@@ -14893,7 +16078,10 @@ const dokkanCharacters = [
             "Tournament Participants",
             "Super Bosses"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2024
     },
     {
         "id": 1019721,
@@ -14926,7 +16114,10 @@ const dokkanCharacters = [
             "Tournament Participants",
             "Super Bosses"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2024
     },
     {
         "id": 1019841,
@@ -14959,7 +16150,10 @@ const dokkanCharacters = [
         "roles": [
             "SUPPORT",
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2024
     },
     {
         "id": 1019741,
@@ -15000,7 +16194,10 @@ const dokkanCharacters = [
             "Tournament Participants",
             "Super Bosses"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2024
     },
     {
         "id": 1028281,
@@ -15041,7 +16238,10 @@ const dokkanCharacters = [
         "roles": [
             "TANK",
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2024
     },
     {
         "id": 1012131,
@@ -15073,7 +16273,10 @@ const dokkanCharacters = [
             "Saiyan Saga",
             "Earth-Bred Fighters"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2024
     },
     {
         "id": 1007141,
@@ -15110,7 +16313,10 @@ const dokkanCharacters = [
             "Legendary Existence",
             "Bond of Parent and Child"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2024
     },
     {
         "id": 1013301,
@@ -15147,7 +16353,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "HEALER"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2024
     },
     {
         "id": 1009981,
@@ -15178,7 +16387,10 @@ const dokkanCharacters = [
             "Space-Traveling Warriors",
             "Planetary Destruction"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2024
     },
     {
         "id": 1011101,
@@ -15212,7 +16424,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2024
     },
     {
         "id": 1027461,
@@ -15250,7 +16465,10 @@ const dokkanCharacters = [
         "roles": [
             "TANK",
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2024
     },
     {
         "id": 1015841,
@@ -15285,7 +16503,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2024
     },
     {
         "id": 1013941,
@@ -15319,7 +16540,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2024
     },
     {
         "id": 1015811,
@@ -15349,7 +16573,10 @@ const dokkanCharacters = [
             "Revenge",
             "Tournament Participants"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2024
     },
     {
         "id": 1015791,
@@ -15379,7 +16606,10 @@ const dokkanCharacters = [
             "Universe 6",
             "Tournament Participants"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2024
     },
     {
         "id": 1027841,
@@ -15416,7 +16646,10 @@ const dokkanCharacters = [
         "roles": [
             "SUPPORT",
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2024
     },
     {
         "id": 1027851,
@@ -15454,7 +16687,10 @@ const dokkanCharacters = [
         "roles": [
             "SUPPORT",
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2024
     },
     {
         "id": 1027541,
@@ -15491,7 +16727,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2024
     },
     {
         "id": 1027431,
@@ -15528,7 +16767,10 @@ const dokkanCharacters = [
             "TANK",
             "SUPPORT",
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2024
     },
     {
         "id": 1027521,
@@ -15557,7 +16799,10 @@ const dokkanCharacters = [
             "Target: Goku",
             "Mission Execution"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2024
     },
     {
         "id": 1027511,
@@ -15587,7 +16832,10 @@ const dokkanCharacters = [
             "Battle of Wits",
             "GT Heroes"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2024
     },
     {
         "id": 1027501,
@@ -15621,7 +16869,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2024
     },
     {
         "id": 1016401,
@@ -15659,7 +16910,10 @@ const dokkanCharacters = [
             "GT Bosses",
             "Battle of Fate"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2024
     },
     {
         "id": 1027041,
@@ -15695,7 +16949,10 @@ const dokkanCharacters = [
         "roles": [
             "TANK",
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2024
     },
     {
         "id": 1014491,
@@ -15733,7 +16990,10 @@ const dokkanCharacters = [
             "Earth-Bred Fighters",
             "Earth-Protecting Heroes"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2024
     },
     {
         "id": 1014331,
@@ -15769,7 +17029,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2024
     },
     {
         "id": 1014351,
@@ -15805,7 +17068,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2024
     },
     {
         "id": 1016511,
@@ -15847,7 +17113,10 @@ const dokkanCharacters = [
             "Bond of Parent and Child",
             "Successors"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2024
     },
     {
         "id": 1016611,
@@ -15886,7 +17155,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2024
     },
     {
         "id": 1024001,
@@ -15926,7 +17198,10 @@ const dokkanCharacters = [
         "roles": [
             "SUPPORT",
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2024
     },
     {
         "id": 1027061,
@@ -15966,7 +17241,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "HEALER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2024
     },
     {
         "id": 1027001,
@@ -16010,7 +17288,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2024
     },
     {
         "id": 1009971,
@@ -16045,7 +17326,10 @@ const dokkanCharacters = [
             "Battle of Fate",
             "Successors"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2023
     },
     {
         "id": 1007971,
@@ -16087,7 +17371,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2023
     },
     {
         "id": 1009951,
@@ -16123,7 +17410,10 @@ const dokkanCharacters = [
             "Bond of Parent and Child",
             "Earth-Bred Fighters"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2023
     },
     {
         "id": 1010031,
@@ -16157,7 +17447,10 @@ const dokkanCharacters = [
             "Bond of Parent and Child",
             "Successors"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2023
     },
     {
         "id": 1021391,
@@ -16194,7 +17487,10 @@ const dokkanCharacters = [
             "Uncontrollable Power",
             "Successors"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2023
     },
     {
         "id": 1018101,
@@ -16231,7 +17527,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2023
     },
     {
         "id": 1011451,
@@ -16264,7 +17563,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2023
     },
     {
         "id": 1011461,
@@ -16298,7 +17600,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2023
     },
     {
         "id": 1018271,
@@ -16333,7 +17638,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2023
     },
     {
         "id": 1028061,
@@ -16370,7 +17678,10 @@ const dokkanCharacters = [
         "roles": [
             "TANK",
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2023
     },
     {
         "id": 1018031,
@@ -16404,7 +17715,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2023
     },
     {
         "id": 1027651,
@@ -16440,7 +17754,10 @@ const dokkanCharacters = [
         "roles": [
             "SUPPORT",
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2023
     },
     {
         "id": 1014641,
@@ -16475,7 +17792,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2023
     },
     {
         "id": 1027681,
@@ -16514,7 +17834,10 @@ const dokkanCharacters = [
             "TANK",
             "HEALER",
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2023
     },
     {
         "id": 1028421,
@@ -16549,7 +17872,10 @@ const dokkanCharacters = [
         "roles": [
             "HEALER",
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2023
     },
     {
         "id": 1027951,
@@ -16589,7 +17915,10 @@ const dokkanCharacters = [
         "roles": [
             "SUPPORT",
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2023
     },
     {
         "id": 1020851,
@@ -16626,7 +17955,10 @@ const dokkanCharacters = [
         "roles": [
             "TANK",
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2023
     },
     {
         "id": 1020821,
@@ -16660,7 +17992,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2023
     },
     {
         "id": 1020841,
@@ -16695,7 +18030,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "HEALER"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2023
     },
     {
         "id": 1020831,
@@ -16730,7 +18068,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2023
     },
     {
         "id": 1020651,
@@ -16770,7 +18111,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2023
     },
     {
         "id": 1020671,
@@ -16802,7 +18146,10 @@ const dokkanCharacters = [
             "Power Beyond Super Saiyan",
             "Uncontrollable Power"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2023
     },
     {
         "id": 1020551,
@@ -16840,7 +18187,10 @@ const dokkanCharacters = [
         "roles": [
             "HEALER",
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2023
     },
     {
         "id": 1020911,
@@ -16874,7 +18224,10 @@ const dokkanCharacters = [
             "Successors",
             "Mission Execution"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2023
     },
     {
         "id": 1027911,
@@ -16909,7 +18262,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "TANK"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2023
     },
     {
         "id": 1027921,
@@ -16940,7 +18296,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2023
     },
     {
         "id": 1025461,
@@ -16973,7 +18332,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2023
     },
     {
         "id": 1027711,
@@ -17015,7 +18377,10 @@ const dokkanCharacters = [
         "roles": [
             "TANK",
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2023
     },
     {
         "id": 1027731,
@@ -17048,7 +18413,10 @@ const dokkanCharacters = [
             "Power Beyond Super Saiyan",
             "Uncontrollable Power"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2023
     },
     {
         "id": 1027751,
@@ -17085,7 +18453,10 @@ const dokkanCharacters = [
             "Power Beyond Super Saiyan",
             "Power of Wishes"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2023
     },
     {
         "id": 1027781,
@@ -17126,7 +18497,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2023
     },
     {
         "id": 1027901,
@@ -17161,7 +18535,10 @@ const dokkanCharacters = [
         "roles": [
             "SUPPORT",
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2023
     },
     {
         "id": 1019341,
@@ -17199,7 +18576,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2023
     },
     {
         "id": 1026901,
@@ -17247,7 +18627,10 @@ const dokkanCharacters = [
         "roles": [
             "TANK",
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2023
     },
     {
         "id": 1026871,
@@ -17282,7 +18665,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2023
     },
     {
         "id": 1025231,
@@ -17315,7 +18701,10 @@ const dokkanCharacters = [
         "roles": [
             "HEALER",
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2023
     },
     {
         "id": 1027161,
@@ -17350,7 +18739,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2023
     },
     {
         "id": 1016251,
@@ -17380,7 +18772,10 @@ const dokkanCharacters = [
             "Earthlings",
             "Earth-Bred Fighters"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2023
     },
     {
         "id": 1027181,
@@ -17412,7 +18807,10 @@ const dokkanCharacters = [
         "roles": [
             "SUPPORT",
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2023
     },
     {
         "id": 1017701,
@@ -17442,7 +18840,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2023
     },
     {
         "id": 1026821,
@@ -17477,7 +18878,10 @@ const dokkanCharacters = [
             "Power of Wishes",
             "Earth-Protecting Heroes"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2023
     },
     {
         "id": 1026941,
@@ -17514,7 +18918,10 @@ const dokkanCharacters = [
             "Saiyan Saga",
             "Successors"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2023
     },
     {
         "id": 1016811,
@@ -17552,7 +18959,10 @@ const dokkanCharacters = [
             "Power of Wishes",
             "Earth-Protecting Heroes"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2023
     },
     {
         "id": 1026731,
@@ -17585,7 +18995,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2023
     },
     {
         "id": 1013791,
@@ -17620,7 +19033,10 @@ const dokkanCharacters = [
             "Power of Wishes",
             "Earth-Protecting Heroes"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2023
     },
     {
         "id": 1027081,
@@ -17651,7 +19067,10 @@ const dokkanCharacters = [
             "Space-Traveling Warriors",
             "Planetary Destruction"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2023
     },
     {
         "id": 1026751,
@@ -17687,7 +19106,10 @@ const dokkanCharacters = [
             "TANK",
             "SUPPORT",
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2023
     },
     {
         "id": 1013681,
@@ -17721,7 +19143,10 @@ const dokkanCharacters = [
             "Planetary Destruction",
             "Uncontrollable Power"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2023
     },
     {
         "id": 1026771,
@@ -17755,7 +19180,10 @@ const dokkanCharacters = [
             "TANK",
             "SUPPORT",
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2023
     },
     {
         "id": 1026791,
@@ -17787,7 +19215,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2023
     },
     {
         "id": 1018881,
@@ -17828,7 +19259,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "HEALER"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2023
     },
     {
         "id": 1015471,
@@ -17869,7 +19303,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2023
     },
     {
         "id": 1027351,
@@ -17909,7 +19346,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2023
     },
     {
         "id": 1027251,
@@ -17948,7 +19388,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2023
     },
     {
         "id": 1012961,
@@ -17988,7 +19431,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "TANK"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2023
     },
     {
         "id": 1008531,
@@ -18025,7 +19471,10 @@ const dokkanCharacters = [
             "Earth-Bred Fighters",
             "Demonic Power"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2023
     },
     {
         "id": 1012991,
@@ -18062,7 +19511,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "TANK"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2023
     },
     {
         "id": 1019281,
@@ -18098,7 +19550,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2023
     },
     {
         "id": 1027291,
@@ -18141,7 +19596,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "TANK"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2023
     },
     {
         "id": 1027331,
@@ -18182,7 +19640,10 @@ const dokkanCharacters = [
         "roles": [
             "TANK",
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2023
     },
     {
         "id": 1018151,
@@ -18222,7 +19683,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2023
     },
     {
         "id": 1018121,
@@ -18262,7 +19726,10 @@ const dokkanCharacters = [
         "roles": [
             "TANK",
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2023
     },
     {
         "id": 1017081,
@@ -18304,7 +19771,10 @@ const dokkanCharacters = [
             "Power of Wishes",
             "Earth-Protecting Heroes"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2023
     },
     {
         "id": 1017061,
@@ -18341,7 +19811,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2023
     },
     {
         "id": 1017121,
@@ -18383,7 +19856,10 @@ const dokkanCharacters = [
         "roles": [
             "TANK",
             "HEALER"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2023
     },
     {
         "id": 1017021,
@@ -18417,7 +19893,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2023
     },
     {
         "id": 1027221,
@@ -18458,7 +19937,10 @@ const dokkanCharacters = [
             "TANK",
             "SUPPORT",
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2023
     },
     {
         "id": 1027121,
@@ -18502,7 +19984,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2023
     },
     {
         "id": 1027371,
@@ -18541,7 +20026,10 @@ const dokkanCharacters = [
             "TANK",
             "SUPPORT",
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2023
     },
     {
         "id": 1027391,
@@ -18577,7 +20065,10 @@ const dokkanCharacters = [
         "roles": [
             "SUPPORT",
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2023
     },
     {
         "id": 1019531,
@@ -18609,7 +20100,10 @@ const dokkanCharacters = [
             "Saiyan Saga",
             "Earth-Bred Fighters"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2023
     },
     {
         "id": 1016841,
@@ -18646,7 +20140,10 @@ const dokkanCharacters = [
             "Tournament Participants",
             "Super Bosses"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2023
     },
     {
         "id": 1025651,
@@ -18679,7 +20176,10 @@ const dokkanCharacters = [
         "roles": [
             "TANK",
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2023
     },
     {
         "id": 1026511,
@@ -18711,7 +20211,10 @@ const dokkanCharacters = [
         "roles": [
             "SUPPORT",
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2023
     },
     {
         "id": 1026481,
@@ -18753,7 +20256,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "TANK"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2023
     },
     {
         "id": 1018651,
@@ -18792,7 +20298,10 @@ const dokkanCharacters = [
             "Fused Fighters",
             "Super Heroes"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2023
     },
     {
         "id": 1018621,
@@ -18830,7 +20339,10 @@ const dokkanCharacters = [
             "Super Heroes",
             "Earth-Protecting Heroes"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2023
     },
     {
         "id": 1026331,
@@ -18864,7 +20376,10 @@ const dokkanCharacters = [
             "Tournament Participants",
             "Earth-Protecting Heroes"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2023
     },
     {
         "id": 1018491,
@@ -18904,7 +20419,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2023
     },
     {
         "id": 1018541,
@@ -18952,7 +20470,10 @@ const dokkanCharacters = [
         "roles": [
             "SUPPORT",
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2023
     },
     {
         "id": 1015051,
@@ -18990,7 +20511,10 @@ const dokkanCharacters = [
             "Demonic Power",
             "Uncontrollable Power"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2023
     },
     {
         "id": 1012381,
@@ -19024,7 +20548,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "TANK"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2023
     },
     {
         "id": 1025821,
@@ -19060,7 +20587,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "HEALER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2023
     },
     {
         "id": 1025841,
@@ -19090,7 +20620,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2023
     },
     {
         "id": 1025021,
@@ -19128,7 +20661,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2023
     },
     {
         "id": 1025020,
@@ -19153,7 +20689,10 @@ const dokkanCharacters = [
         "categories": [],
         "roles": [
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2023
     },
     {
         "id": 1010711,
@@ -19192,7 +20731,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2023
     },
     {
         "id": 1009961,
@@ -19227,7 +20769,10 @@ const dokkanCharacters = [
             "Earth-Bred Fighters",
             "Demonic Power"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2023
     },
     {
         "id": 1008081,
@@ -19268,7 +20813,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2023
     },
     {
         "id": 1007981,
@@ -19306,7 +20854,10 @@ const dokkanCharacters = [
             "Demonic Power",
             "Successors"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2023
     },
     {
         "id": 1011081,
@@ -19345,7 +20896,10 @@ const dokkanCharacters = [
             "Fused Fighters",
             "Earth-Bred Fighters"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2023
     },
     {
         "id": 1011071,
@@ -19384,7 +20938,10 @@ const dokkanCharacters = [
             "Fused Fighters",
             "Earth-Bred Fighters"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2023
     },
     {
         "id": 1026431,
@@ -19423,7 +20980,10 @@ const dokkanCharacters = [
         "roles": [
             "TANK",
             "HEALER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2023
     },
     {
         "id": 1017351,
@@ -19459,7 +21019,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2023
     },
     {
         "id": 1014911,
@@ -19498,7 +21061,10 @@ const dokkanCharacters = [
         "roles": [
             "TANK",
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2023
     },
     {
         "id": 1014111,
@@ -19532,7 +21098,10 @@ const dokkanCharacters = [
             "Earth-Bred Fighters",
             "Mission Execution"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2023
     },
     {
         "id": 1020171,
@@ -19566,7 +21135,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2023
     },
     {
         "id": 1026201,
@@ -19604,7 +21176,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2023
     },
     {
         "id": 1026231,
@@ -19635,7 +21210,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2023
     },
     {
         "id": 1025251,
@@ -19668,7 +21246,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2023
     },
     {
         "id": 1011431,
@@ -19702,7 +21283,10 @@ const dokkanCharacters = [
         "roles": [
             "TANK",
             "HEALER"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2023
     },
     {
         "id": 1026851,
@@ -19737,7 +21321,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2023
     },
     {
         "id": 1026611,
@@ -19773,7 +21360,10 @@ const dokkanCharacters = [
             "TANK",
             "SUPPORT",
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2023
     },
     {
         "id": 1017491,
@@ -19813,7 +21403,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "HEALER"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2023
     },
     {
         "id": 1026631,
@@ -19847,7 +21440,10 @@ const dokkanCharacters = [
             "Tournament Participants",
             "Mission Execution"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2023
     },
     {
         "id": 1026531,
@@ -19889,7 +21485,10 @@ const dokkanCharacters = [
         "roles": [
             "TANK",
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2023
     },
     {
         "id": 1026581,
@@ -19926,7 +21525,10 @@ const dokkanCharacters = [
             "TANK",
             "SUPPORT",
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2023
     },
     {
         "id": 1021311,
@@ -19957,7 +21559,10 @@ const dokkanCharacters = [
             "Earth-Bred Fighters",
             "Tournament Participants"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2023
     },
     {
         "id": 1026561,
@@ -19999,7 +21604,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2023
     },
     {
         "id": 1009231,
@@ -20036,7 +21644,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2023
     },
     {
         "id": 1009941,
@@ -20078,7 +21689,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2023
     },
     {
         "id": 1011151,
@@ -20114,7 +21728,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2023
     },
     {
         "id": 1011391,
@@ -20160,7 +21777,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2023
     },
     {
         "id": 1013321,
@@ -20198,7 +21818,10 @@ const dokkanCharacters = [
             "Earth-Bred Fighters",
             "Tournament Participants"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2023
     },
     {
         "id": 1026341,
@@ -20234,7 +21857,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "HEALER"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2023
     },
     {
         "id": 1026351,
@@ -20270,7 +21896,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "HEALER"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2023
     },
     {
         "id": 1025901,
@@ -20306,7 +21935,10 @@ const dokkanCharacters = [
             "Bond of Parent and Child",
             "Earth-Bred Fighters"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2023
     },
     {
         "id": 1026001,
@@ -20345,7 +21977,10 @@ const dokkanCharacters = [
             "Earth-Bred Fighters",
             "Earth-Protecting Heroes"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2023
     },
     {
         "id": 1012161,
@@ -20380,7 +22015,10 @@ const dokkanCharacters = [
             "Legendary Existence",
             "Tournament Participants"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2023
     },
     {
         "id": 1016311,
@@ -20417,7 +22055,10 @@ const dokkanCharacters = [
             "Earth-Bred Fighters",
             "Demonic Power"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2023
     },
     {
         "id": 1026031,
@@ -20450,7 +22091,10 @@ const dokkanCharacters = [
             "HEALER",
             "SUPPORT",
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2023
     },
     {
         "id": 1026311,
@@ -20481,7 +22125,10 @@ const dokkanCharacters = [
             "Earthlings",
             "Earth-Bred Fighters"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2023
     },
     {
         "id": 1021851,
@@ -20514,7 +22161,10 @@ const dokkanCharacters = [
         "roles": [
             "SUPPORT",
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2023
     },
     {
         "id": 1010251,
@@ -20553,7 +22203,10 @@ const dokkanCharacters = [
             "Bond of Parent and Child",
             "Earth-Bred Fighters"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2023
     },
     {
         "id": 1013771,
@@ -20584,7 +22237,10 @@ const dokkanCharacters = [
             "Bond of Master and Disciple",
             "Space-Traveling Warriors"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2023
     },
     {
         "id": 1012331,
@@ -20623,7 +22279,10 @@ const dokkanCharacters = [
             "Super Heroes",
             "Earth-Bred Fighters"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2023
     },
     {
         "id": 1012681,
@@ -20659,7 +22318,10 @@ const dokkanCharacters = [
             "Battle of Fate",
             "Successors"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2023
     },
     {
         "id": 1005321,
@@ -20687,7 +22349,10 @@ const dokkanCharacters = [
             "Bond of Master and Disciple",
             "Space-Traveling Warriors"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2023
     },
     {
         "id": 1005311,
@@ -20717,7 +22382,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2023
     },
     {
         "id": 1013601,
@@ -20757,7 +22425,10 @@ const dokkanCharacters = [
             "Power of Wishes",
             "Earth-Protecting Heroes"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2023
     },
     {
         "id": 1013591,
@@ -20798,7 +22469,10 @@ const dokkanCharacters = [
             "Earth-Bred Fighters",
             "Tournament Participants"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2023
     },
     {
         "id": 1010731,
@@ -20839,7 +22513,10 @@ const dokkanCharacters = [
             "Power of Wishes",
             "Earth-Protecting Heroes"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2023
     },
     {
         "id": 1012651,
@@ -20869,7 +22546,10 @@ const dokkanCharacters = [
             "Bond of Parent and Child",
             "Super Heroes"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2023
     },
     {
         "id": 1026281,
@@ -20910,7 +22590,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2023
     },
     {
         "id": 1026251,
@@ -20956,7 +22639,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2023
     },
     {
         "id": 1010311,
@@ -20995,7 +22681,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2023
     },
     {
         "id": 1010301,
@@ -21034,7 +22723,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2023
     },
     {
         "id": 1010321,
@@ -21072,7 +22764,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2023
     },
     {
         "id": 1011781,
@@ -21110,7 +22805,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2023
     },
     {
         "id": 1025671,
@@ -21145,7 +22843,10 @@ const dokkanCharacters = [
             "TANK",
             "SUPPORT",
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2023
     },
     {
         "id": 1025091,
@@ -21182,7 +22883,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2023
     },
     {
         "id": 1017631,
@@ -21231,7 +22935,10 @@ const dokkanCharacters = [
             "Demonic Power",
             "Earth-Protecting Heroes"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2023
     },
     {
         "id": 1017901,
@@ -21274,7 +22981,10 @@ const dokkanCharacters = [
             "Battle of Fate",
             "Tournament Participants"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2023
     },
     {
         "id": 1026051,
@@ -21303,7 +23013,10 @@ const dokkanCharacters = [
             "Bond of Friendship",
             "Earth-Bred Fighters"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2023
     },
     {
         "id": 1010271,
@@ -21342,7 +23055,10 @@ const dokkanCharacters = [
             "Bond of Parent and Child",
             "Earth-Bred Fighters"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2023
     },
     {
         "id": 1018251,
@@ -21385,7 +23101,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2023
     },
     {
         "id": 1016571,
@@ -21433,7 +23152,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2023
     },
     {
         "id": 1010971,
@@ -21467,7 +23189,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2023
     },
     {
         "id": 1010961,
@@ -21499,7 +23224,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2023
     },
     {
         "id": 1010951,
@@ -21534,7 +23262,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2023
     },
     {
         "id": 1010981,
@@ -21568,7 +23299,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2023
     },
     {
         "id": 1010991,
@@ -21604,7 +23338,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2023
     },
     {
         "id": 1014471,
@@ -21639,7 +23376,10 @@ const dokkanCharacters = [
             "Corroded Body and Mind",
             "Accelerated Battle"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2023
     },
     {
         "id": 1025041,
@@ -21672,7 +23412,10 @@ const dokkanCharacters = [
         "roles": [
             "TANK",
             "HEALER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2023
     },
     {
         "id": 1006431,
@@ -21706,7 +23449,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2023
     },
     {
         "id": 1006430,
@@ -21731,7 +23477,10 @@ const dokkanCharacters = [
         "categories": [],
         "roles": [
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2023
     },
     {
         "id": 1024091,
@@ -21768,7 +23517,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2023
     },
     {
         "id": 1021081,
@@ -21801,7 +23553,10 @@ const dokkanCharacters = [
         "roles": [
             "TANK",
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2023
     },
     {
         "id": 1025601,
@@ -21839,7 +23594,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2023
     },
     {
         "id": 1009741,
@@ -21877,7 +23635,10 @@ const dokkanCharacters = [
             "Bond of Parent and Child",
             "Successors"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2023
     },
     {
         "id": 1009731,
@@ -21917,7 +23678,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2023
     },
     {
         "id": 1009721,
@@ -21955,7 +23719,10 @@ const dokkanCharacters = [
             "Bond of Parent and Child",
             "Successors"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2023
     },
     {
         "id": 1016001,
@@ -21991,7 +23758,10 @@ const dokkanCharacters = [
             "Super Bosses",
             "Uncontrollable Power"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2023
     },
     {
         "id": 1015971,
@@ -22031,7 +23801,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2023
     },
     {
         "id": 1026091,
@@ -22066,7 +23839,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2022
     },
     {
         "id": 1026171,
@@ -22102,7 +23878,10 @@ const dokkanCharacters = [
         "roles": [
             "SUPPORT",
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2022
     },
     {
         "id": 1026181,
@@ -22137,7 +23916,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2022
     },
     {
         "id": 1026071,
@@ -22176,7 +23958,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2022
     },
     {
         "id": 1026170,
@@ -22202,7 +23987,10 @@ const dokkanCharacters = [
         "roles": [
             "SUPPORT",
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2022
     },
     {
         "id": 1026180,
@@ -22227,7 +24015,10 @@ const dokkanCharacters = [
         "categories": [],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2022
     },
     {
         "id": 1011141,
@@ -22263,7 +24054,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "HEALER"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2022
     },
     {
         "id": 1014081,
@@ -22295,7 +24089,10 @@ const dokkanCharacters = [
             "Super Heroes",
             "Earth-Bred Fighters"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2022
     },
     {
         "id": 1012741,
@@ -22333,7 +24130,10 @@ const dokkanCharacters = [
             "Fused Fighters",
             "Super Heroes"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2022
     },
     {
         "id": 1012761,
@@ -22373,7 +24173,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2022
     },
     {
         "id": 1024031,
@@ -22407,7 +24210,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2022
     },
     {
         "id": 1024601,
@@ -22445,7 +24251,10 @@ const dokkanCharacters = [
         "roles": [
             "SUPPORT",
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2022
     },
     {
         "id": 1018331,
@@ -22486,7 +24295,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "TANK"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2022
     },
     {
         "id": 1018341,
@@ -22527,7 +24339,10 @@ const dokkanCharacters = [
         "roles": [
             "TANK",
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2022
     },
     {
         "id": 1018361,
@@ -22562,7 +24377,10 @@ const dokkanCharacters = [
         "roles": [
             "SUPPORT",
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2022
     },
     {
         "id": 1017301,
@@ -22597,7 +24415,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2022
     },
     {
         "id": 1017281,
@@ -22633,7 +24454,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2022
     },
     {
         "id": 1017261,
@@ -22669,7 +24493,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2022
     },
     {
         "id": 1017371,
@@ -22704,7 +24531,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2022
     },
     {
         "id": 1018401,
@@ -22735,7 +24565,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2022
     },
     {
         "id": 1018461,
@@ -22768,7 +24601,10 @@ const dokkanCharacters = [
             "Crossover",
             "Uncontrollable Power"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2022
     },
     {
         "id": 1018301,
@@ -22801,7 +24637,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2022
     },
     {
         "id": 1018321,
@@ -22832,7 +24671,10 @@ const dokkanCharacters = [
             "Crossover",
             "Demonic Power"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2022
     },
     {
         "id": 1025341,
@@ -22869,7 +24711,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2022
     },
     {
         "id": 1025351,
@@ -22908,7 +24753,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "TANK"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2022
     },
     {
         "id": 1020891,
@@ -22940,7 +24788,10 @@ const dokkanCharacters = [
             "Demonic Power",
             "Mission Execution"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2022
     },
     {
         "id": 1025371,
@@ -22972,7 +24823,10 @@ const dokkanCharacters = [
             "Corroded Body and Mind",
             "Mission Execution"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2022
     },
     {
         "id": 1023331,
@@ -23006,7 +24860,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2022
     },
     {
         "id": 1025361,
@@ -23040,7 +24897,10 @@ const dokkanCharacters = [
         "roles": [
             "HEALER",
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2022
     },
     {
         "id": 1025311,
@@ -23085,7 +24945,10 @@ const dokkanCharacters = [
             "TANK",
             "SUPPORT",
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2022
     },
     {
         "id": 1025331,
@@ -23128,7 +24991,10 @@ const dokkanCharacters = [
         "roles": [
             "TANK",
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2022
     },
     {
         "id": 1025411,
@@ -23165,7 +25031,10 @@ const dokkanCharacters = [
         "roles": [
             "TANK",
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2022
     },
     {
         "id": 1024221,
@@ -23198,7 +25067,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2022
     },
     {
         "id": 1024220,
@@ -23222,7 +25094,10 @@ const dokkanCharacters = [
         "categories": [],
         "roles": [
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2022
     },
     {
         "id": 1012031,
@@ -23262,7 +25137,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2022
     },
     {
         "id": 1013101,
@@ -23297,7 +25175,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2022
     },
     {
         "id": 1009131,
@@ -23327,7 +25208,10 @@ const dokkanCharacters = [
             "Defenders of Justice",
             "Mission Execution"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2022
     },
     {
         "id": 1024041,
@@ -23359,7 +25243,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2022
     },
     {
         "id": 1025471,
@@ -23393,7 +25280,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2022
     },
     {
         "id": 1023161,
@@ -23424,7 +25314,10 @@ const dokkanCharacters = [
             "TANK",
             "HEALER",
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2022
     },
     {
         "id": 1024271,
@@ -23460,7 +25353,10 @@ const dokkanCharacters = [
             "Sworn Enemies",
             "Successors"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2022
     },
     {
         "id": 1011681,
@@ -23497,7 +25393,10 @@ const dokkanCharacters = [
             "Fused Fighters",
             "Super Heroes"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2022
     },
     {
         "id": 1014181,
@@ -23531,7 +25430,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2022
     },
     {
         "id": 1014191,
@@ -23560,7 +25462,10 @@ const dokkanCharacters = [
             "Bond of Parent and Child",
             "Earth-Bred Fighters"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2022
     },
     {
         "id": 1014461,
@@ -23595,7 +25500,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2022
     },
     {
         "id": 1014061,
@@ -23627,7 +25535,10 @@ const dokkanCharacters = [
             "Tournament Participants",
             "Super Bosses"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2022
     },
     {
         "id": 1016371,
@@ -23659,7 +25570,10 @@ const dokkanCharacters = [
             "Bond of Parent and Child",
             "Earth-Bred Fighters"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2022
     },
     {
         "id": 1019701,
@@ -23691,7 +25605,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "HEALER"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2022
     },
     {
         "id": 1024011,
@@ -23724,7 +25641,10 @@ const dokkanCharacters = [
             "Successors",
             "Mission Execution"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2022
     },
     {
         "id": 1025131,
@@ -23760,7 +25680,10 @@ const dokkanCharacters = [
             "Bond of Parent and Child",
             "Earth-Bred Fighters"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2022
     },
     {
         "id": 1025141,
@@ -23789,7 +25712,10 @@ const dokkanCharacters = [
             "GT Bosses",
             "Mission Execution"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2022
     },
     {
         "id": 1024781,
@@ -23822,7 +25748,10 @@ const dokkanCharacters = [
         "roles": [
             "SUPPORT",
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2022
     },
     {
         "id": 1018191,
@@ -23857,7 +25786,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2022
     },
     {
         "id": 1025161,
@@ -23893,7 +25825,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2022
     },
     {
         "id": 1025171,
@@ -23927,7 +25862,10 @@ const dokkanCharacters = [
             "Corroded Body and Mind",
             "Accelerated Battle"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2022
     },
     {
         "id": 1025181,
@@ -23963,7 +25901,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "HEALER"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2022
     },
     {
         "id": 1025191,
@@ -23999,7 +25940,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2022
     },
     {
         "id": 1025201,
@@ -24035,7 +25979,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "HEALER"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2022
     },
     {
         "id": 1018061,
@@ -24066,7 +26013,10 @@ const dokkanCharacters = [
             "Space-Traveling Warriors",
             "Mission Execution"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2022
     },
     {
         "id": 1024931,
@@ -24104,7 +26054,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "HEALER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2022
     },
     {
         "id": 1024891,
@@ -24139,7 +26092,10 @@ const dokkanCharacters = [
         "roles": [
             "TANK",
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2022
     },
     {
         "id": 1024971,
@@ -24170,7 +26126,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2022
     },
     {
         "id": 1025211,
@@ -24204,7 +26163,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2022
     },
     {
         "id": 1025151,
@@ -24241,7 +26203,10 @@ const dokkanCharacters = [
         "roles": [
             "SUPPORT",
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2022
     },
     {
         "id": 1025111,
@@ -24276,7 +26241,10 @@ const dokkanCharacters = [
             "Earth-Bred Fighters",
             "Demonic Power"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2022
     },
     {
         "id": 1015311,
@@ -24310,7 +26278,10 @@ const dokkanCharacters = [
             "Mastered Evolution",
             "Successors"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2022
     },
     {
         "id": 1015291,
@@ -24345,7 +26316,10 @@ const dokkanCharacters = [
             "Demonic Power",
             "Successors"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2022
     },
     {
         "id": 1015371,
@@ -24383,7 +26357,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "HEALER"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2022
     },
     {
         "id": 1015571,
@@ -24423,7 +26400,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2022
     },
     {
         "id": 1017181,
@@ -24468,7 +26448,10 @@ const dokkanCharacters = [
             "Earth-Bred Fighters",
             "Power of Wishes"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2022
     },
     {
         "id": 1009101,
@@ -24501,7 +26484,10 @@ const dokkanCharacters = [
             "Space-Traveling Warriors",
             "Planetary Destruction"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2022
     },
     {
         "id": 1024861,
@@ -24542,7 +26528,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2022
     },
     {
         "id": 1024831,
@@ -24575,7 +26564,10 @@ const dokkanCharacters = [
             "Space-Traveling Warriors",
             "Planetary Destruction"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2022
     },
     {
         "id": 1024951,
@@ -24615,7 +26607,10 @@ const dokkanCharacters = [
             "TANK",
             "SUPPORT",
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2022
     },
     {
         "id": 1015031,
@@ -24648,7 +26643,10 @@ const dokkanCharacters = [
             "Mastered Evolution",
             "Successors"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2022
     },
     {
         "id": 1013571,
@@ -24682,7 +26680,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2022
     },
     {
         "id": 1019901,
@@ -24715,7 +26716,10 @@ const dokkanCharacters = [
             "Fused Fighters",
             "Earth-Bred Fighters"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2022
     },
     {
         "id": 1019851,
@@ -24747,7 +26751,10 @@ const dokkanCharacters = [
         "roles": [
             "SUPPORT",
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2022
     },
     {
         "id": 1024061,
@@ -24781,7 +26788,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2022
     },
     {
         "id": 1024081,
@@ -24813,7 +26823,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2022
     },
     {
         "id": 1014211,
@@ -24852,7 +26865,10 @@ const dokkanCharacters = [
             "Earth-Bred Fighters",
             "Earth-Protecting Heroes"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2022
     },
     {
         "id": 1014221,
@@ -24891,7 +26907,10 @@ const dokkanCharacters = [
             "Earth-Protecting Heroes",
             "Successors"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2022
     },
     {
         "id": 1014131,
@@ -24935,7 +26954,10 @@ const dokkanCharacters = [
             "Power of Wishes",
             "Earth-Protecting Heroes"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2022
     },
     {
         "id": 1012901,
@@ -24971,7 +26993,10 @@ const dokkanCharacters = [
             "Fused Fighters",
             "Bond of Parent and Child"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2022
     },
     {
         "id": 1012931,
@@ -25010,7 +27035,10 @@ const dokkanCharacters = [
             "Bond of Parent and Child",
             "Earth-Protecting Heroes"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2022
     },
     {
         "id": 1023891,
@@ -25040,7 +27068,10 @@ const dokkanCharacters = [
             "Bond of Parent and Child",
             "Earth-Bred Fighters"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2022
     },
     {
         "id": 1023931,
@@ -25069,7 +27100,10 @@ const dokkanCharacters = [
             "Bond of Parent and Child",
             "Earth-Bred Fighters"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2022
     },
     {
         "id": 1023951,
@@ -25100,7 +27134,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "TANK"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2022
     },
     {
         "id": 1016031,
@@ -25140,7 +27177,10 @@ const dokkanCharacters = [
         "roles": [
             "TANK",
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2022
     },
     {
         "id": 1011321,
@@ -25171,7 +27211,10 @@ const dokkanCharacters = [
             "GT Bosses",
             "Battle of Fate"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2022
     },
     {
         "id": 1011301,
@@ -25208,7 +27251,10 @@ const dokkanCharacters = [
             "Fused Fighters",
             "Earth-Protecting Heroes"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2022
     },
     {
         "id": 1016051,
@@ -25245,7 +27291,10 @@ const dokkanCharacters = [
             "Super Heroes",
             "Successors"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2022
     },
     {
         "id": 1022351,
@@ -25275,7 +27324,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2022
     },
     {
         "id": 1022350,
@@ -25300,7 +27352,10 @@ const dokkanCharacters = [
         "categories": [],
         "roles": [
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2022
     },
     {
         "id": 1024201,
@@ -25336,7 +27391,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2022
     },
     {
         "id": 1024200,
@@ -25361,7 +27419,10 @@ const dokkanCharacters = [
         "categories": [],
         "roles": [
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2022
     },
     {
         "id": 1024141,
@@ -25394,7 +27455,10 @@ const dokkanCharacters = [
             "Earth-Bred Fighters",
             "Earth-Protecting Heroes"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2022
     },
     {
         "id": 1019241,
@@ -25429,7 +27493,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "TANK"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2022
     },
     {
         "id": 1024021,
@@ -25464,7 +27531,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "TANK"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2022
     },
     {
         "id": 1019201,
@@ -25498,7 +27568,10 @@ const dokkanCharacters = [
         "roles": [
             "HEALER",
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2022
     },
     {
         "id": 1019221,
@@ -25531,7 +27604,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2022
     },
     {
         "id": 1009631,
@@ -25566,7 +27642,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2022
     },
     {
         "id": 1019091,
@@ -25600,7 +27679,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2022
     },
     {
         "id": 1019171,
@@ -25631,7 +27713,10 @@ const dokkanCharacters = [
             "Storied Figures",
             "Mission Execution"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2022
     },
     {
         "id": 1014941,
@@ -25664,7 +27749,10 @@ const dokkanCharacters = [
             "Worldwide Chaos",
             "Tournament Participants"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2022
     },
     {
         "id": 1024351,
@@ -25700,7 +27788,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2022
     },
     {
         "id": 1023631,
@@ -25738,7 +27829,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2022
     },
     {
         "id": 1019891,
@@ -25779,7 +27873,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2022
     },
     {
         "id": 1019881,
@@ -25819,7 +27916,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2022
     },
     {
         "id": 1019861,
@@ -25859,7 +27959,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2022
     },
     {
         "id": 1011801,
@@ -25899,7 +28002,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2022
     },
     {
         "id": 1024321,
@@ -25936,7 +28042,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2022
     },
     {
         "id": 1024251,
@@ -25970,7 +28079,10 @@ const dokkanCharacters = [
         "roles": [
             "SUPPORT",
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2022
     },
     {
         "id": 1023911,
@@ -25999,7 +28111,10 @@ const dokkanCharacters = [
             "Earth-Bred Fighters",
             "Tournament Participants"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2022
     },
     {
         "id": 1010571,
@@ -26039,7 +28154,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "HEALER"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2022
     },
     {
         "id": 1010581,
@@ -26076,7 +28194,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "HEALER"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2022
     },
     {
         "id": 1010831,
@@ -26113,7 +28234,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "HEALER"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2022
     },
     {
         "id": 1008431,
@@ -26142,7 +28266,10 @@ const dokkanCharacters = [
             "Battle of Wits",
             "Fused Fighters"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2022
     },
     {
         "id": 1008421,
@@ -26174,7 +28301,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2022
     },
     {
         "id": 1015201,
@@ -26202,7 +28332,10 @@ const dokkanCharacters = [
             "Majin Buu Saga",
             "Potara"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2022
     },
     {
         "id": 1015591,
@@ -26231,7 +28364,10 @@ const dokkanCharacters = [
             "Bond of Parent and Child",
             "Earth-Bred Fighters"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2022
     },
     {
         "id": 1019491,
@@ -26266,7 +28402,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2022
     },
     {
         "id": 1013831,
@@ -26311,7 +28450,10 @@ const dokkanCharacters = [
             "Tournament Participants",
             "Successors"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2022
     },
     {
         "id": 1023861,
@@ -26346,7 +28488,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2022
     },
     {
         "id": 1023981,
@@ -26388,7 +28533,10 @@ const dokkanCharacters = [
         "roles": [
             "TANK",
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2022
     },
     {
         "id": 1023801,
@@ -26424,7 +28572,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2022
     },
     {
         "id": 1007771,
@@ -26458,7 +28609,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "HEALER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2022
     },
     {
         "id": 1007770,
@@ -26483,7 +28637,10 @@ const dokkanCharacters = [
         "categories": [],
         "roles": [
             "HEALER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2022
     },
     {
         "id": 1014051,
@@ -26521,7 +28678,10 @@ const dokkanCharacters = [
             "Earth-Bred Fighters",
             "Earth-Protecting Heroes"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2022
     },
     {
         "id": 1018561,
@@ -26553,7 +28713,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "TANK"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2022
     },
     {
         "id": 1018521,
@@ -26586,7 +28749,10 @@ const dokkanCharacters = [
         "roles": [
             "TANK",
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2022
     },
     {
         "id": 1023061,
@@ -26623,7 +28789,10 @@ const dokkanCharacters = [
         "roles": [
             "TANK",
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2022
     },
     {
         "id": 1008871,
@@ -26660,7 +28829,10 @@ const dokkanCharacters = [
             "Super Heroes",
             "Earth-Bred Fighters"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2022
     },
     {
         "id": 1009511,
@@ -26697,7 +28869,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "HEALER"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2022
     },
     {
         "id": 1017931,
@@ -26730,7 +28905,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2022
     },
     {
         "id": 1017951,
@@ -26762,7 +28940,10 @@ const dokkanCharacters = [
             "Worldwide Chaos",
             "Uncontrollable Power"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2022
     },
     {
         "id": 1023641,
@@ -26792,7 +28973,10 @@ const dokkanCharacters = [
             "Fused Fighters",
             "Earth-Bred Fighters"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2022
     },
     {
         "id": 1023711,
@@ -26825,7 +29009,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2022
     },
     {
         "id": 1023681,
@@ -26854,7 +29041,10 @@ const dokkanCharacters = [
             "Crossover",
             "Fused Fighters"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2022
     },
     {
         "id": 1023671,
@@ -26885,7 +29075,10 @@ const dokkanCharacters = [
             "Fused Fighters",
             "Uncontrollable Power"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2022
     },
     {
         "id": 1023691,
@@ -26918,7 +29111,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2022
     },
     {
         "id": 1023701,
@@ -26946,7 +29142,10 @@ const dokkanCharacters = [
             "Crossover",
             "Tournament Participants"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2022
     },
     {
         "id": 1023661,
@@ -26977,7 +29176,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2022
     },
     {
         "id": 1023651,
@@ -27008,7 +29210,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "HEALER"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2022
     },
     {
         "id": 1013861,
@@ -27046,7 +29251,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "TANK"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2022
     },
     {
         "id": 1009241,
@@ -27073,7 +29281,10 @@ const dokkanCharacters = [
             "Crossover",
             "Fused Fighters"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2022
     },
     {
         "id": 1009251,
@@ -27105,7 +29316,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2022
     },
     {
         "id": 1011851,
@@ -27133,7 +29347,10 @@ const dokkanCharacters = [
             "Crossover",
             "Fused Fighters"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2022
     },
     {
         "id": 1009261,
@@ -27167,7 +29384,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2022
     },
     {
         "id": 1010561,
@@ -27200,7 +29420,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2022
     },
     {
         "id": 1005801,
@@ -27229,7 +29452,10 @@ const dokkanCharacters = [
             "Target: Goku",
             "Mission Execution"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2022
     },
     {
         "id": 1008801,
@@ -27261,7 +29487,10 @@ const dokkanCharacters = [
             "Uncontrollable Power",
             "Mission Execution"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2022
     },
     {
         "id": 1009781,
@@ -27302,7 +29531,10 @@ const dokkanCharacters = [
             "Power Beyond Super Saiyan",
             "Earth-Bred Fighters"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2022
     },
     {
         "id": 1009771,
@@ -27343,7 +29575,10 @@ const dokkanCharacters = [
             "Power Beyond Super Saiyan",
             "Earth-Bred Fighters"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2022
     },
     {
         "id": 1014171,
@@ -27375,7 +29610,10 @@ const dokkanCharacters = [
             "Uncontrollable Power",
             "Mission Execution"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2022
     },
     {
         "id": 1014141,
@@ -27407,7 +29645,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "HEALER"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2022
     },
     {
         "id": 1014151,
@@ -27442,7 +29683,10 @@ const dokkanCharacters = [
             "Bond of Parent and Child",
             "Earth-Bred Fighters"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2022
     },
     {
         "id": 1010331,
@@ -27475,7 +29719,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "HEALER"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2022
     },
     {
         "id": 1014161,
@@ -27511,7 +29758,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2022
     },
     {
         "id": 1022701,
@@ -27550,7 +29800,10 @@ const dokkanCharacters = [
             "TANK",
             "SUPPORT",
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2022
     },
     {
         "id": 1017721,
@@ -27587,7 +29840,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "TANK"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2022
     },
     {
         "id": 1017681,
@@ -27622,7 +29878,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2022
     },
     {
         "id": 1023131,
@@ -27650,7 +29909,10 @@ const dokkanCharacters = [
             "Space-Traveling Warriors",
             "Mission Execution"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2021
     },
     {
         "id": 1023130,
@@ -27673,7 +29935,10 @@ const dokkanCharacters = [
             "Shocking Speed"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2021
     },
     {
         "id": 1013431,
@@ -27714,7 +29979,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2021
     },
     {
         "id": 1017381,
@@ -27744,7 +30012,10 @@ const dokkanCharacters = [
             "DB Saga",
             "Earth-Bred Fighters"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2021
     },
     {
         "id": 1020391,
@@ -27782,7 +30053,10 @@ const dokkanCharacters = [
             "Tournament Participants",
             "Super Bosses"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2021
     },
     {
         "id": 1020401,
@@ -27821,7 +30095,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2021
     },
     {
         "id": 1013531,
@@ -27859,7 +30136,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2021
     },
     {
         "id": 1015671,
@@ -27896,7 +30176,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2021
     },
     {
         "id": 1022861,
@@ -27930,7 +30213,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2021
     },
     {
         "id": 1014741,
@@ -27960,7 +30246,10 @@ const dokkanCharacters = [
             "Crossover",
             "Mission Execution"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2021
     },
     {
         "id": 1021991,
@@ -27997,7 +30286,10 @@ const dokkanCharacters = [
         "roles": [
             "TANK",
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2021
     },
     {
         "id": 1023391,
@@ -28035,7 +30327,10 @@ const dokkanCharacters = [
         "roles": [
             "SUPPORT",
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2021
     },
     {
         "id": 1016751,
@@ -28065,7 +30360,10 @@ const dokkanCharacters = [
             "Crossover",
             "Storied Figures"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2021
     },
     {
         "id": 1016731,
@@ -28098,7 +30396,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "HEALER"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2021
     },
     {
         "id": 1016781,
@@ -28134,7 +30435,10 @@ const dokkanCharacters = [
         "roles": [
             "HEALER",
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2021
     },
     {
         "id": 1021981,
@@ -28170,7 +30474,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2021
     },
     {
         "id": 1007741,
@@ -28205,7 +30512,10 @@ const dokkanCharacters = [
             "Fused Fighters",
             "Earth-Bred Fighters"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2021
     },
     {
         "id": 1016761,
@@ -28242,7 +30552,10 @@ const dokkanCharacters = [
         "roles": [
             "HEALER",
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2021
     },
     {
         "id": 1016741,
@@ -28280,7 +30593,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "TANK"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2021
     },
     {
         "id": 1016771,
@@ -28313,7 +30629,10 @@ const dokkanCharacters = [
             "Earth-Bred Fighters",
             "Demonic Power"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2021
     },
     {
         "id": 1014661,
@@ -28348,7 +30667,10 @@ const dokkanCharacters = [
             "Demonic Power",
             "Uncontrollable Power"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2021
     },
     {
         "id": 1013391,
@@ -28382,7 +30704,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2021
     },
     {
         "id": 1006771,
@@ -28413,7 +30738,10 @@ const dokkanCharacters = [
             "Mastered Evolution",
             "Successors"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2021
     },
     {
         "id": 1011371,
@@ -28451,7 +30779,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2021
     },
     {
         "id": 1010261,
@@ -28490,7 +30821,10 @@ const dokkanCharacters = [
             "Bond of Parent and Child",
             "Earth-Bred Fighters"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2021
     },
     {
         "id": 1005751,
@@ -28525,7 +30859,10 @@ const dokkanCharacters = [
             "Earth-Bred Fighters",
             "Demonic Power"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2021
     },
     {
         "id": 1006741,
@@ -28560,7 +30897,10 @@ const dokkanCharacters = [
             "Bond of Parent and Child",
             "Earth-Bred Fighters"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2021
     },
     {
         "id": 1010941,
@@ -28592,7 +30932,10 @@ const dokkanCharacters = [
             "Tournament Participants",
             "Mission Execution"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2021
     },
     {
         "id": 1008571,
@@ -28628,7 +30971,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2021
     },
     {
         "id": 1008551,
@@ -28661,7 +31007,10 @@ const dokkanCharacters = [
             "Bond of Parent and Child",
             "Successors"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2021
     },
     {
         "id": 1021901,
@@ -28694,7 +31043,10 @@ const dokkanCharacters = [
         "roles": [
             "SUPPORT",
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2021
     },
     {
         "id": 1022281,
@@ -28733,7 +31085,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "TANK"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2021
     },
     {
         "id": 1022280,
@@ -28758,7 +31113,10 @@ const dokkanCharacters = [
         "categories": [],
         "roles": [
             "TANK"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2021
     },
     {
         "id": 1006331,
@@ -28785,7 +31143,10 @@ const dokkanCharacters = [
             "Inhuman Deeds",
             "GT Bosses"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2021
     },
     {
         "id": 1022121,
@@ -28816,7 +31177,10 @@ const dokkanCharacters = [
             "Earth-Bred Fighters",
             "Earth-Protecting Heroes"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2021
     },
     {
         "id": 1022311,
@@ -28848,7 +31212,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2021
     },
     {
         "id": 1009091,
@@ -28881,7 +31248,10 @@ const dokkanCharacters = [
             "Space-Traveling Warriors",
             "Planetary Destruction"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2021
     },
     {
         "id": 1010811,
@@ -28922,7 +31292,10 @@ const dokkanCharacters = [
             "Tournament Participants",
             "Uncontrollable Power"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2021
     },
     {
         "id": 1007681,
@@ -28962,7 +31335,10 @@ const dokkanCharacters = [
             "Saiyan Saga",
             "Successors"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2021
     },
     {
         "id": 1010781,
@@ -28997,7 +31373,10 @@ const dokkanCharacters = [
             "Uncontrollable Power",
             "Mission Execution"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2021
     },
     {
         "id": 1022061,
@@ -29035,7 +31414,10 @@ const dokkanCharacters = [
         "roles": [
             "HEALER",
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2021
     },
     {
         "id": 1014021,
@@ -29070,7 +31452,10 @@ const dokkanCharacters = [
             "Entrusted Will",
             "Bond of Parent and Child"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2021
     },
     {
         "id": 1013211,
@@ -29107,7 +31492,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "HEALER"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2021
     },
     {
         "id": 1013091,
@@ -29140,7 +31528,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "TANK"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2021
     },
     {
         "id": 1023001,
@@ -29173,7 +31564,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2021
     },
     {
         "id": 1022881,
@@ -29206,7 +31600,10 @@ const dokkanCharacters = [
             "Bond of Friendship",
             "Earth-Bred Fighters"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2021
     },
     {
         "id": 1014761,
@@ -29250,7 +31647,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "TANK"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2021
     },
     {
         "id": 1022981,
@@ -29284,7 +31684,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2021
     },
     {
         "id": 1013051,
@@ -29316,7 +31719,10 @@ const dokkanCharacters = [
             "Accelerated Battle",
             "Mission Execution"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2021
     },
     {
         "id": 1013031,
@@ -29349,7 +31755,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2021
     },
     {
         "id": 1022971,
@@ -29382,7 +31791,10 @@ const dokkanCharacters = [
             "Entrusted Will",
             "Bond of Parent and Child"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2021
     },
     {
         "id": 1022980,
@@ -29407,7 +31819,10 @@ const dokkanCharacters = [
         "categories": [],
         "roles": [
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2021
     },
     {
         "id": 1022970,
@@ -29430,7 +31845,10 @@ const dokkanCharacters = [
             "The First Awakened"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2021
     },
     {
         "id": 1014821,
@@ -29474,7 +31892,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "HEALER"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2021
     },
     {
         "id": 1022961,
@@ -29505,7 +31926,10 @@ const dokkanCharacters = [
             "Bond of Parent and Child",
             "Earth-Bred Fighters"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2021
     },
     {
         "id": 1022451,
@@ -29548,7 +31972,10 @@ const dokkanCharacters = [
         "roles": [
             "HEALER",
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2021
     },
     {
         "id": 1022471,
@@ -29586,7 +32013,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2021
     },
     {
         "id": 1013011,
@@ -29617,7 +32047,10 @@ const dokkanCharacters = [
             "Space-Traveling Warriors",
             "Mission Execution"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2021
     },
     {
         "id": 1013071,
@@ -29648,7 +32081,10 @@ const dokkanCharacters = [
             "Space-Traveling Warriors",
             "Mission Execution"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2021
     },
     {
         "id": 1018721,
@@ -29683,7 +32119,10 @@ const dokkanCharacters = [
             "Earth-Bred Fighters",
             "Demonic Power"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2021
     },
     {
         "id": 1018701,
@@ -29717,7 +32156,10 @@ const dokkanCharacters = [
             "Tournament Participants",
             "Mission Execution"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2021
     },
     {
         "id": 1021621,
@@ -29759,7 +32201,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2021
     },
     {
         "id": 1014971,
@@ -29791,7 +32236,10 @@ const dokkanCharacters = [
             "Battle of Fate",
             "Tournament Participants"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2021
     },
     {
         "id": 1021701,
@@ -29834,7 +32282,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2021
     },
     {
         "id": 1021641,
@@ -29868,7 +32319,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2021
     },
     {
         "id": 1021541,
@@ -29903,7 +32357,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2021
     },
     {
         "id": 1021351,
@@ -29943,7 +32400,10 @@ const dokkanCharacters = [
             "TANK",
             "SUPPORT",
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2021
     },
     {
         "id": 1021371,
@@ -29976,7 +32436,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2021
     },
     {
         "id": 1020231,
@@ -30018,7 +32481,10 @@ const dokkanCharacters = [
             "Earth-Bred Fighters",
             "Tournament Participants"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2021
     },
     {
         "id": 1020230,
@@ -30041,7 +32507,10 @@ const dokkanCharacters = [
             "Tournament of Power"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2021
     },
     {
         "id": 1021751,
@@ -30073,7 +32542,10 @@ const dokkanCharacters = [
             "Successors",
             "Mission Execution"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2021
     },
     {
         "id": 1021750,
@@ -30096,7 +32568,10 @@ const dokkanCharacters = [
             "Royal Lineage"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2021
     },
     {
         "id": 1021971,
@@ -30129,7 +32604,10 @@ const dokkanCharacters = [
         "roles": [
             "TANK",
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2021
     },
     {
         "id": 1012421,
@@ -30167,7 +32645,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "TANK"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2021
     },
     {
         "id": 1011061,
@@ -30210,7 +32691,10 @@ const dokkanCharacters = [
             "Fused Fighters",
             "Earth-Bred Fighters"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2021
     },
     {
         "id": 1021871,
@@ -30249,7 +32733,10 @@ const dokkanCharacters = [
             "TANK",
             "SUPPORT",
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2021
     },
     {
         "id": 1008071,
@@ -30282,7 +32769,10 @@ const dokkanCharacters = [
             "Battle of Wits",
             "Earth-Protecting Heroes"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2021
     },
     {
         "id": 1005671,
@@ -30319,7 +32809,10 @@ const dokkanCharacters = [
             "Earth-Bred Fighters",
             "Earth-Protecting Heroes"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2021
     },
     {
         "id": 1005661,
@@ -30357,7 +32850,10 @@ const dokkanCharacters = [
             "Earth-Bred Fighters",
             "Earth-Protecting Heroes"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2021
     },
     {
         "id": 1015911,
@@ -30395,7 +32891,10 @@ const dokkanCharacters = [
             "TANK",
             "HEALER",
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2021
     },
     {
         "id": 1016301,
@@ -30426,7 +32925,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2021
     },
     {
         "id": 1018221,
@@ -30462,7 +32964,10 @@ const dokkanCharacters = [
         "roles": [
             "HEALER",
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2021
     },
     {
         "id": 1021101,
@@ -30493,7 +32998,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "HEALER"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2021
     },
     {
         "id": 1014501,
@@ -30526,7 +33034,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2021
     },
     {
         "id": 1022001,
@@ -30559,7 +33070,10 @@ const dokkanCharacters = [
             "HEALER",
             "SUPPORT",
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2021
     },
     {
         "id": 1022041,
@@ -30593,7 +33107,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2021
     },
     {
         "id": 1022021,
@@ -30627,7 +33144,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2021
     },
     {
         "id": 1020261,
@@ -30663,7 +33183,10 @@ const dokkanCharacters = [
             "Bond of Parent and Child",
             "Earth-Bred Fighters"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2021
     },
     {
         "id": 1020260,
@@ -30686,7 +33209,10 @@ const dokkanCharacters = [
             "Kamehameha"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2021
     },
     {
         "id": 1016491,
@@ -30723,7 +33249,10 @@ const dokkanCharacters = [
             "Saiyan Saga",
             "Successors"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2021
     },
     {
         "id": 1016461,
@@ -30763,7 +33292,10 @@ const dokkanCharacters = [
             "Power of Wishes",
             "Earth-Protecting Heroes"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2021
     },
     {
         "id": 1010871,
@@ -30793,7 +33325,10 @@ const dokkanCharacters = [
             "Accelerated Battle",
             "Uncontrollable Power"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2021
     },
     {
         "id": 1021561,
@@ -30825,7 +33360,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2021
     },
     {
         "id": 1021491,
@@ -30864,7 +33402,10 @@ const dokkanCharacters = [
             "Power of Wishes",
             "Earth-Protecting Heroes"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2021
     },
     {
         "id": 1021501,
@@ -30901,7 +33442,10 @@ const dokkanCharacters = [
             "Saiyan Saga",
             "Successors"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2021
     },
     {
         "id": 1006661,
@@ -30936,7 +33480,10 @@ const dokkanCharacters = [
             "Bond of Parent and Child",
             "Earth-Bred Fighters"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2021
     },
     {
         "id": 1008541,
@@ -30970,7 +33517,10 @@ const dokkanCharacters = [
             "Earth-Bred Fighters",
             "Demonic Power"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2021
     },
     {
         "id": 1021721,
@@ -31007,7 +33557,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2021
     },
     {
         "id": 1008621,
@@ -31049,7 +33602,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2021
     },
     {
         "id": 1008611,
@@ -31089,7 +33645,10 @@ const dokkanCharacters = [
             "Earth-Bred Fighters",
             "Earth-Protecting Heroes"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2021
     },
     {
         "id": 1010851,
@@ -31126,7 +33685,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2021
     },
     {
         "id": 1019661,
@@ -31157,7 +33719,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "HEALER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2021
     },
     {
         "id": 1021031,
@@ -31192,7 +33757,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "HEALER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2021
     },
     {
         "id": 1020431,
@@ -31223,7 +33791,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "HEALER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2021
     },
     {
         "id": 1009381,
@@ -31259,7 +33830,10 @@ const dokkanCharacters = [
             "Sworn Enemies",
             "Successors"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2021
     },
     {
         "id": 1020931,
@@ -31292,7 +33866,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2021
     },
     {
         "id": 1020941,
@@ -31328,7 +33905,10 @@ const dokkanCharacters = [
             "Uncontrollable Power",
             "Mission Execution"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2021
     },
     {
         "id": 1020921,
@@ -31361,7 +33941,10 @@ const dokkanCharacters = [
             "Storied Figures",
             "Demonic Power"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2021
     },
     {
         "id": 1010291,
@@ -31393,7 +33976,10 @@ const dokkanCharacters = [
             "Storied Figures",
             "Mission Execution"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2021
     },
     {
         "id": 1020971,
@@ -31426,7 +34012,10 @@ const dokkanCharacters = [
         "roles": [
             "SUPPORT",
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2021
     },
     {
         "id": 1021451,
@@ -31459,7 +34048,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "TANK"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2021
     },
     {
         "id": 1021441,
@@ -31496,7 +34088,10 @@ const dokkanCharacters = [
             "Bond of Parent and Child",
             "Uncontrollable Power"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2021
     },
     {
         "id": 1013881,
@@ -31533,7 +34128,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2021
     },
     {
         "id": 1013911,
@@ -31565,7 +34163,10 @@ const dokkanCharacters = [
             "Accelerated Battle",
             "Tournament Participants"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2021
     },
     {
         "id": 1009641,
@@ -31604,7 +34205,10 @@ const dokkanCharacters = [
             "Demonic Power",
             "Uncontrollable Power"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2021
     },
     {
         "id": 1020601,
@@ -31640,7 +34244,10 @@ const dokkanCharacters = [
         "roles": [
             "SUPPORT",
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2021
     },
     {
         "id": 1020591,
@@ -31674,7 +34281,10 @@ const dokkanCharacters = [
         "roles": [
             "TANK",
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2021
     },
     {
         "id": 1020501,
@@ -31712,7 +34322,10 @@ const dokkanCharacters = [
             "Tournament Participants",
             "Successors"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2021
     },
     {
         "id": 1020251,
@@ -31746,7 +34359,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2021
     },
     {
         "id": 1020250,
@@ -31771,7 +34387,10 @@ const dokkanCharacters = [
         "categories": [],
         "roles": [
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2021
     },
     {
         "id": 1013421,
@@ -31804,7 +34423,10 @@ const dokkanCharacters = [
             "Super Bosses",
             "Uncontrollable Power"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2020
     },
     {
         "id": 1013411,
@@ -31842,7 +34464,10 @@ const dokkanCharacters = [
             "Tournament Participants",
             "Super Bosses"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2020
     },
     {
         "id": 1015421,
@@ -31877,7 +34502,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "HEALER"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2020
     },
     {
         "id": 1020181,
@@ -31911,7 +34539,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2020
     },
     {
         "id": 1020191,
@@ -31944,7 +34575,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2020
     },
     {
         "id": 1021510,
@@ -31960,7 +34594,10 @@ const dokkanCharacters = [
         "activeSkill": "Aucun Active Skill",
         "links": [],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2020
     },
     {
         "id": 1020031,
@@ -31998,7 +34635,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2020
     },
     {
         "id": 1011171,
@@ -32028,7 +34668,10 @@ const dokkanCharacters = [
             "Power Beyond Super Saiyan",
             "Uncontrollable Power"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2020
     },
     {
         "id": 1013731,
@@ -32066,7 +34709,10 @@ const dokkanCharacters = [
             "Power of Wishes",
             "Earth-Protecting Heroes"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2020
     },
     {
         "id": 1019871,
@@ -32101,7 +34747,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "HEALER"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2020
     },
     {
         "id": 1007121,
@@ -32144,7 +34793,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "HEALER"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2020
     },
     {
         "id": 1004391,
@@ -32183,7 +34835,10 @@ const dokkanCharacters = [
             "Bond of Parent and Child",
             "Uncontrollable Power"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2020
     },
     {
         "id": 1020151,
@@ -32222,7 +34877,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "TANK"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2020
     },
     {
         "id": 1009111,
@@ -32253,7 +34911,10 @@ const dokkanCharacters = [
             "Space-Traveling Warriors",
             "Planetary Destruction"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2020
     },
     {
         "id": 1007181,
@@ -32290,7 +34951,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "TANK"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2020
     },
     {
         "id": 1018501,
@@ -32323,7 +34987,10 @@ const dokkanCharacters = [
         "roles": [
             "TANK",
             "HEALER"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2020
     },
     {
         "id": 1018411,
@@ -32361,7 +35028,10 @@ const dokkanCharacters = [
         "roles": [
             "HEALER",
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2020
     },
     {
         "id": 1012701,
@@ -32393,7 +35063,10 @@ const dokkanCharacters = [
             "Saiyan Saga",
             "Mission Execution"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2020
     },
     {
         "id": 1008131,
@@ -32431,7 +35104,10 @@ const dokkanCharacters = [
             "Demonic Power",
             "Uncontrollable Power"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2020
     },
     {
         "id": 1020111,
@@ -32463,7 +35139,10 @@ const dokkanCharacters = [
         "roles": [
             "SUPPORT",
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2020
     },
     {
         "id": 1020131,
@@ -32495,7 +35174,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "HEALER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2020
     },
     {
         "id": 1020811,
@@ -32528,7 +35210,10 @@ const dokkanCharacters = [
             "Earth-Bred Fighters",
             "Tournament Participants"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2020
     },
     {
         "id": 1020861,
@@ -32564,7 +35249,10 @@ const dokkanCharacters = [
             "Earth-Bred Fighters",
             "Earth-Protecting Heroes"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2020
     },
     {
         "id": 1020871,
@@ -32601,7 +35289,10 @@ const dokkanCharacters = [
             "Bond of Parent and Child",
             "Successors"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2020
     },
     {
         "id": 1020860,
@@ -32624,7 +35315,10 @@ const dokkanCharacters = [
             "Prepared for Battle"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2020
     },
     {
         "id": 1020870,
@@ -32647,7 +35341,10 @@ const dokkanCharacters = [
             "Prepared for Battle"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2020
     },
     {
         "id": 1012401,
@@ -32680,7 +35377,10 @@ const dokkanCharacters = [
             "Earth-Bred Fighters",
             "Uncontrollable Power"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2020
     },
     {
         "id": 1010901,
@@ -32714,7 +35414,10 @@ const dokkanCharacters = [
             "Tournament Participants",
             "Earth-Protecting Heroes"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2020
     },
     {
         "id": 1020621,
@@ -32756,7 +35459,10 @@ const dokkanCharacters = [
             "Power of Wishes",
             "Earth-Protecting Heroes"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2020
     },
     {
         "id": 1020771,
@@ -32795,7 +35501,10 @@ const dokkanCharacters = [
         "roles": [
             "TANK",
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2020
     },
     {
         "id": 1020281,
@@ -32829,7 +35538,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2020
     },
     {
         "id": 1020531,
@@ -32866,7 +35578,10 @@ const dokkanCharacters = [
         "roles": [
             "HEALER",
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2020
     },
     {
         "id": 1018931,
@@ -32895,7 +35610,10 @@ const dokkanCharacters = [
             "Gifted Warriors",
             "Bond of Friendship"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2020
     },
     {
         "id": 1018951,
@@ -32926,7 +35644,10 @@ const dokkanCharacters = [
             "Space-Traveling Warriors",
             "Mission Execution"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2020
     },
     {
         "id": 1011401,
@@ -32954,7 +35675,10 @@ const dokkanCharacters = [
             "Gifted Warriors",
             "Successors"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2020
     },
     {
         "id": 1014431,
@@ -32989,7 +35713,10 @@ const dokkanCharacters = [
             "Accelerated Battle",
             "Successors"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2020
     },
     {
         "id": 1017451,
@@ -33024,7 +35751,10 @@ const dokkanCharacters = [
             "Bond of Parent and Child",
             "Earth-Bred Fighters"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2020
     },
     {
         "id": 1011400,
@@ -33046,7 +35776,10 @@ const dokkanCharacters = [
             "Over 9000"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2020
     },
     {
         "id": 1014430,
@@ -33068,7 +35801,10 @@ const dokkanCharacters = [
             "Fear and Faith"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2020
     },
     {
         "id": 1017450,
@@ -33091,7 +35827,10 @@ const dokkanCharacters = [
             "Prepared for Battle"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2020
     },
     {
         "id": 1008751,
@@ -33132,7 +35871,10 @@ const dokkanCharacters = [
             "Power of Wishes",
             "Successors"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2020
     },
     {
         "id": 1008741,
@@ -33175,7 +35917,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "TANK"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2020
     },
     {
         "id": 1009581,
@@ -33218,7 +35963,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2020
     },
     {
         "id": 1019261,
@@ -33262,7 +36010,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "HEALER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2020
     },
     {
         "id": 1019361,
@@ -33294,7 +36045,10 @@ const dokkanCharacters = [
         "roles": [
             "HEALER",
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2020
     },
     {
         "id": 1008581,
@@ -33332,7 +36086,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2020
     },
     {
         "id": 1008561,
@@ -33370,7 +36127,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2020
     },
     {
         "id": 1007611,
@@ -33409,7 +36169,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2020
     },
     {
         "id": 1015901,
@@ -33446,7 +36209,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2020
     },
     {
         "id": 1015891,
@@ -33488,7 +36254,10 @@ const dokkanCharacters = [
         "roles": [
             "HEALER",
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2020
     },
     {
         "id": 1018681,
@@ -33522,7 +36291,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2020
     },
     {
         "id": 1018581,
@@ -33560,7 +36332,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2020
     },
     {
         "id": 1005401,
@@ -33596,7 +36371,10 @@ const dokkanCharacters = [
             "Earth-Bred Fighters",
             "Earth-Protecting Heroes"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2020
     },
     {
         "id": 1009791,
@@ -33635,7 +36413,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2020
     },
     {
         "id": 1005551,
@@ -33667,7 +36448,10 @@ const dokkanCharacters = [
             "Mastered Evolution",
             "Successors"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2020
     },
     {
         "id": 1010481,
@@ -33700,7 +36484,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2020
     },
     {
         "id": 1010491,
@@ -33735,7 +36522,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2020
     },
     {
         "id": 1019301,
@@ -33770,7 +36560,10 @@ const dokkanCharacters = [
         "roles": [
             "TANK",
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2020
     },
     {
         "id": 1005581,
@@ -33805,7 +36598,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2020
     },
     {
         "id": 1018171,
@@ -33832,7 +36628,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "TANK"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2020
     },
     {
         "id": 1018170,
@@ -33855,7 +36654,10 @@ const dokkanCharacters = [
         "categories": [],
         "roles": [
             "TANK"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2020
     },
     {
         "id": 1005391,
@@ -33894,7 +36696,10 @@ const dokkanCharacters = [
             "Tournament Participants",
             "Demonic Power"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2020
     },
     {
         "id": 1005541,
@@ -33928,7 +36733,10 @@ const dokkanCharacters = [
             "Bond of Parent and Child",
             "Earth-Bred Fighters"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2020
     },
     {
         "id": 1004881,
@@ -33963,7 +36771,10 @@ const dokkanCharacters = [
             "Battle of Fate",
             "Successors"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2020
     },
     {
         "id": 1009861,
@@ -34002,7 +36813,10 @@ const dokkanCharacters = [
             "Fused Fighters",
             "Earth-Bred Fighters"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2020
     },
     {
         "id": 1007191,
@@ -34041,7 +36855,10 @@ const dokkanCharacters = [
             "Fused Fighters",
             "Earth-Bred Fighters"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2020
     },
     {
         "id": 1011191,
@@ -34079,7 +36896,10 @@ const dokkanCharacters = [
             "Earth-Bred Fighters",
             "Earth-Protecting Heroes"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2020
     },
     {
         "id": 1009921,
@@ -34113,7 +36933,10 @@ const dokkanCharacters = [
             "Bond of Parent and Child",
             "Earth-Bred Fighters"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2020
     },
     {
         "id": 1009901,
@@ -34148,7 +36971,10 @@ const dokkanCharacters = [
             "Demonic Power",
             "Uncontrollable Power"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2020
     },
     {
         "id": 1009891,
@@ -34188,7 +37014,10 @@ const dokkanCharacters = [
             "Power of Wishes",
             "Successors"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2020
     },
     {
         "id": 1010801,
@@ -34220,7 +37049,10 @@ const dokkanCharacters = [
             "Fused Fighters",
             "Mission Execution"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2020
     },
     {
         "id": 1010791,
@@ -34254,7 +37086,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2020
     },
     {
         "id": 1009931,
@@ -34290,7 +37125,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2020
     },
     {
         "id": 1018161,
@@ -34329,7 +37167,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2020
     },
     {
         "id": 1009911,
@@ -34356,7 +37197,10 @@ const dokkanCharacters = [
             "GT Bosses",
             "Accelerated Battle"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2020
     },
     {
         "id": 1018160,
@@ -34382,7 +37226,10 @@ const dokkanCharacters = [
         "categories": [],
         "roles": [
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2020
     },
     {
         "id": 1008821,
@@ -34423,7 +37270,10 @@ const dokkanCharacters = [
             "Battle of Fate",
             "Tournament Participants"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2020
     },
     {
         "id": 1017511,
@@ -34460,7 +37310,10 @@ const dokkanCharacters = [
         "roles": [
             "HEALER",
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2020
     },
     {
         "id": 1016691,
@@ -34501,7 +37354,10 @@ const dokkanCharacters = [
             "Demonic Power",
             "Earth-Protecting Heroes"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2019
     },
     {
         "id": 1007391,
@@ -34544,7 +37400,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "TANK"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2019
     },
     {
         "id": 1016690,
@@ -34567,7 +37426,10 @@ const dokkanCharacters = [
             "Prepared for Battle"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2019
     },
     {
         "id": 1018741,
@@ -34609,7 +37471,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2019
     },
     {
         "id": 1018791,
@@ -34649,7 +37514,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2019
     },
     {
         "id": 1018801,
@@ -34678,7 +37546,10 @@ const dokkanCharacters = [
             "Siblings' Bond",
             "Tournament Participants"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2019
     },
     {
         "id": 1017041,
@@ -34710,7 +37581,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2019
     },
     {
         "id": 1018550,
@@ -34726,7 +37600,10 @@ const dokkanCharacters = [
         "activeSkill": "Aucun Active Skill",
         "links": [],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2019
     },
     {
         "id": 1017241,
@@ -34763,7 +37640,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2019
     },
     {
         "id": 1016211,
@@ -34800,7 +37680,10 @@ const dokkanCharacters = [
             "Super Heroes",
             "Earth-Bred Fighters"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2019
     },
     {
         "id": 1016201,
@@ -34829,7 +37712,10 @@ const dokkanCharacters = [
             "Power Beyond Super Saiyan",
             "Super Bosses"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2019
     },
     {
         "id": 1016210,
@@ -34852,7 +37738,10 @@ const dokkanCharacters = [
             "Kamehameha"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2019
     },
     {
         "id": 1007461,
@@ -34887,7 +37776,10 @@ const dokkanCharacters = [
             "Power Beyond Super Saiyan",
             "Uncontrollable Power"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2019
     },
     {
         "id": 1017161,
@@ -34923,7 +37815,10 @@ const dokkanCharacters = [
             "Accelerated Battle",
             "Successors"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2019
     },
     {
         "id": 1017221,
@@ -34959,7 +37854,10 @@ const dokkanCharacters = [
             "Accelerated Battle",
             "Successors"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2019
     },
     {
         "id": 1006081,
@@ -34990,7 +37888,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2019
     },
     {
         "id": 1006080,
@@ -35014,7 +37915,10 @@ const dokkanCharacters = [
         "categories": [],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2019
     },
     {
         "id": 1009501,
@@ -35058,7 +37962,10 @@ const dokkanCharacters = [
             "Demonic Power",
             "Earth-Protecting Heroes"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2019
     },
     {
         "id": 1017661,
@@ -35096,7 +38003,10 @@ const dokkanCharacters = [
             "Power Beyond Super Saiyan",
             "Successors"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2019
     },
     {
         "id": 1017741,
@@ -35136,7 +38046,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2019
     },
     {
         "id": 1017821,
@@ -35167,7 +38080,10 @@ const dokkanCharacters = [
             "Bond of Friendship",
             "Earth-Bred Fighters"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2019
     },
     {
         "id": 1017841,
@@ -35202,7 +38118,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2019
     },
     {
         "id": 1017861,
@@ -35232,7 +38151,10 @@ const dokkanCharacters = [
             "Tournament Participants",
             "Earth-Protecting Heroes"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2019
     },
     {
         "id": 1017871,
@@ -35267,7 +38189,10 @@ const dokkanCharacters = [
             "Worldwide Chaos",
             "Tournament Participants"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2019
     },
     {
         "id": 1017860,
@@ -35290,7 +38215,10 @@ const dokkanCharacters = [
             "Blazing Battle"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2019
     },
     {
         "id": 1017870,
@@ -35313,7 +38241,10 @@ const dokkanCharacters = [
             "Ultimate Lifeform"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2019
     },
     {
         "id": 1006691,
@@ -35350,7 +38281,10 @@ const dokkanCharacters = [
             "Power of Wishes",
             "Demonic Power"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2019
     },
     {
         "id": 1006671,
@@ -35389,7 +38323,10 @@ const dokkanCharacters = [
             "Power of Wishes",
             "Demonic Power"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2019
     },
     {
         "id": 1016581,
@@ -35429,7 +38366,10 @@ const dokkanCharacters = [
             "Power of Wishes",
             "Earth-Protecting Heroes"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2019
     },
     {
         "id": 1011341,
@@ -35462,7 +38402,10 @@ const dokkanCharacters = [
             "Earth-Bred Fighters",
             "Tournament Participants"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2019
     },
     {
         "id": 1016441,
@@ -35499,7 +38442,10 @@ const dokkanCharacters = [
             "Earth-Bred Fighters",
             "Successors"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2019
     },
     {
         "id": 1016451,
@@ -35536,7 +38482,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2019
     },
     {
         "id": 1016431,
@@ -35572,7 +38521,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2019
     },
     {
         "id": 1016430,
@@ -35596,7 +38548,10 @@ const dokkanCharacters = [
         "categories": [],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2019
     },
     {
         "id": 1010361,
@@ -35629,7 +38584,10 @@ const dokkanCharacters = [
             "GT Heroes",
             "Earth-Bred Fighters"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2019
     },
     {
         "id": 1015851,
@@ -35667,7 +38625,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2019
     },
     {
         "id": 1015850,
@@ -35692,7 +38653,10 @@ const dokkanCharacters = [
         "categories": [],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2019
     },
     {
         "id": 1016331,
@@ -35730,7 +38694,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2019
     },
     {
         "id": 1016330,
@@ -35755,7 +38722,10 @@ const dokkanCharacters = [
         "categories": [],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2019
     },
     {
         "id": 1015881,
@@ -35790,7 +38760,10 @@ const dokkanCharacters = [
             "Power Beyond Super Saiyan",
             "Uncontrollable Power"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2019
     },
     {
         "id": 1015871,
@@ -35829,7 +38802,10 @@ const dokkanCharacters = [
             "Bond of Parent and Child",
             "Earth-Bred Fighters"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2019
     },
     {
         "id": 1016651,
@@ -35865,7 +38841,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2019
     },
     {
         "id": 1016631,
@@ -35905,7 +38884,10 @@ const dokkanCharacters = [
             "Demonic Power",
             "Successors"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2019
     },
     {
         "id": 1016231,
@@ -35939,7 +38921,10 @@ const dokkanCharacters = [
         "roles": [
             "TANK",
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2019
     },
     {
         "id": 1016901,
@@ -35977,7 +38962,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2019
     },
     {
         "id": 1005741,
@@ -36011,7 +38999,10 @@ const dokkanCharacters = [
             "Bond of Parent and Child",
             "Successors"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2019
     },
     {
         "id": 1003761,
@@ -36052,7 +39043,10 @@ const dokkanCharacters = [
             "Battle of Fate",
             "Tournament Participants"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2019
     },
     {
         "id": 1015321,
@@ -36082,7 +39076,10 @@ const dokkanCharacters = [
         "roles": [
             "TANK",
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2019
     },
     {
         "id": 1015320,
@@ -36108,7 +39105,10 @@ const dokkanCharacters = [
         "roles": [
             "TANK",
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2019
     },
     {
         "id": 1010501,
@@ -36136,7 +39136,10 @@ const dokkanCharacters = [
             "Turtle School",
             "Earth-Bred Fighters"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2019
     },
     {
         "id": 1009711,
@@ -36176,7 +39179,10 @@ const dokkanCharacters = [
             "Super Heroes",
             "Successors"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2019
     },
     {
         "id": 1009701,
@@ -36216,7 +39222,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2019
     },
     {
         "id": 1005001,
@@ -36257,7 +39266,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "HEALER"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2019
     },
     {
         "id": 1015351,
@@ -36287,7 +39299,10 @@ const dokkanCharacters = [
             "Earth-Bred Fighters",
             "Mission Execution"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2019
     },
     {
         "id": 1015350,
@@ -36310,7 +39325,10 @@ const dokkanCharacters = [
             "Guidance of the Dragon Balls"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2019
     },
     {
         "id": 1016101,
@@ -36348,7 +39366,10 @@ const dokkanCharacters = [
             "Super Heroes",
             "Earth-Bred Fighters"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2019
     },
     {
         "id": 1016121,
@@ -36386,7 +39407,10 @@ const dokkanCharacters = [
             "Super Heroes",
             "Successors"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2019
     },
     {
         "id": 1016151,
@@ -36429,7 +39453,10 @@ const dokkanCharacters = [
         "roles": [
             "TANK",
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2019
     },
     {
         "id": 1014981,
@@ -36462,7 +39489,10 @@ const dokkanCharacters = [
             "Super Bosses",
             "Uncontrollable Power"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2019
     },
     {
         "id": 1014511,
@@ -36496,7 +39526,10 @@ const dokkanCharacters = [
             "Uncontrollable Power",
             "Mission Execution"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2019
     },
     {
         "id": 1005031,
@@ -36536,7 +39569,10 @@ const dokkanCharacters = [
             "Earth-Bred Fighters",
             "Earth-Protecting Heroes"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2019
     },
     {
         "id": 1006731,
@@ -36570,7 +39606,10 @@ const dokkanCharacters = [
             "Demonic Power",
             "Uncontrollable Power"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2019
     },
     {
         "id": 1008151,
@@ -36600,7 +39639,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2019
     },
     {
         "id": 1006730,
@@ -36624,7 +39666,10 @@ const dokkanCharacters = [
             "Over in a Flash"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2019
     },
     {
         "id": 1008150,
@@ -36649,7 +39694,10 @@ const dokkanCharacters = [
         "categories": [],
         "roles": [
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2019
     },
     {
         "id": 1015831,
@@ -36681,7 +39729,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "TANK"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2018
     },
     {
         "id": 1015821,
@@ -36711,7 +39762,10 @@ const dokkanCharacters = [
             "Revenge",
             "Tournament Participants"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2018
     },
     {
         "id": 1015830,
@@ -36737,7 +39791,10 @@ const dokkanCharacters = [
         "categories": [],
         "roles": [
             "TANK"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2018
     },
     {
         "id": 1015820,
@@ -36761,7 +39818,10 @@ const dokkanCharacters = [
             "Over in a Flash"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2018
     },
     {
         "id": 1015860,
@@ -36777,7 +39837,10 @@ const dokkanCharacters = [
         "activeSkill": "Aucun Active Skill",
         "links": [],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2018
     },
     {
         "id": 1014301,
@@ -36813,7 +39876,10 @@ const dokkanCharacters = [
         "roles": [
             "TANK",
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2018
     },
     {
         "id": 1014311,
@@ -36849,7 +39915,10 @@ const dokkanCharacters = [
         "roles": [
             "HEALER",
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2018
     },
     {
         "id": 1014300,
@@ -36875,7 +39944,10 @@ const dokkanCharacters = [
         "roles": [
             "TANK",
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2018
     },
     {
         "id": 1014310,
@@ -36901,7 +39973,10 @@ const dokkanCharacters = [
         "roles": [
             "HEALER",
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2018
     },
     {
         "id": 1015411,
@@ -36932,7 +40007,10 @@ const dokkanCharacters = [
             "Super Bosses",
             "Successors"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2018
     },
     {
         "id": 1013711,
@@ -36966,7 +40044,10 @@ const dokkanCharacters = [
             "Power of Wishes",
             "Demonic Power"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2018
     },
     {
         "id": 1008501,
@@ -36998,7 +40079,10 @@ const dokkanCharacters = [
             "Earth-Bred Fighters",
             "Tournament Participants"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2018
     },
     {
         "id": 1013311,
@@ -37030,7 +40114,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "TANK"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2018
     },
     {
         "id": 1013351,
@@ -37059,7 +40146,10 @@ const dokkanCharacters = [
             "Earth-Bred Fighters",
             "Tournament Participants"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2018
     },
     {
         "id": 1008500,
@@ -37081,7 +40171,10 @@ const dokkanCharacters = [
             "Turtle School"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2018
     },
     {
         "id": 1013310,
@@ -37104,7 +40197,10 @@ const dokkanCharacters = [
         "categories": [],
         "roles": [
             "TANK"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2018
     },
     {
         "id": 1013350,
@@ -37125,7 +40221,10 @@ const dokkanCharacters = [
             "The Incredible Adventure"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2018
     },
     {
         "id": 1013141,
@@ -37151,7 +40250,10 @@ const dokkanCharacters = [
             "Earth-Bred Fighters",
             "Tournament Participants"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2018
     },
     {
         "id": 1013140,
@@ -37172,7 +40274,10 @@ const dokkanCharacters = [
             "Flee"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2018
     },
     {
         "id": 1013241,
@@ -37209,7 +40314,10 @@ const dokkanCharacters = [
         "roles": [
             "HEALER",
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2018
     },
     {
         "id": 1013251,
@@ -37245,7 +40353,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2018
     },
     {
         "id": 1013261,
@@ -37279,7 +40390,10 @@ const dokkanCharacters = [
             "Uncontrollable Power",
             "Mission Execution"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2018
     },
     {
         "id": 1012711,
@@ -37311,7 +40425,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "TANK"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2018
     },
     {
         "id": 1012710,
@@ -37335,7 +40452,10 @@ const dokkanCharacters = [
         "categories": [],
         "roles": [
             "TANK"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2018
     },
     {
         "id": 1014681,
@@ -37375,7 +40495,10 @@ const dokkanCharacters = [
             "Demonic Power",
             "Successors"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2018
     },
     {
         "id": 1014401,
@@ -37414,7 +40537,10 @@ const dokkanCharacters = [
             "Bond of Parent and Child",
             "Earth-Bred Fighters"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2018
     },
     {
         "id": 1014400,
@@ -37436,7 +40562,10 @@ const dokkanCharacters = [
             "Kamehameha"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2018
     },
     {
         "id": 1014391,
@@ -37473,7 +40602,10 @@ const dokkanCharacters = [
             "Accelerated Battle",
             "Successors"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2018
     },
     {
         "id": 1014371,
@@ -37513,7 +40645,10 @@ const dokkanCharacters = [
             "Bond of Parent and Child",
             "Earth-Bred Fighters"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2018
     },
     {
         "id": 1012561,
@@ -37544,7 +40679,10 @@ const dokkanCharacters = [
             "Earth-Bred Fighters",
             "Tournament Participants"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2018
     },
     {
         "id": 1012560,
@@ -37566,7 +40704,10 @@ const dokkanCharacters = [
             "The Incredible Adventure"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2018
     },
     {
         "id": 1006141,
@@ -37594,7 +40735,10 @@ const dokkanCharacters = [
             "Earth-Bred Fighters",
             "Tournament Participants"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2018
     },
     {
         "id": 1006151,
@@ -37621,7 +40765,10 @@ const dokkanCharacters = [
             "Earth-Bred Fighters",
             "Tournament Participants"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2018
     },
     {
         "id": 1006140,
@@ -37643,7 +40790,10 @@ const dokkanCharacters = [
             "The Incredible Adventure"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2018
     },
     {
         "id": 1006150,
@@ -37664,7 +40814,10 @@ const dokkanCharacters = [
             "The Incredible Adventure"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2018
     },
     {
         "id": 1008921,
@@ -37702,7 +40855,10 @@ const dokkanCharacters = [
             "Power of Wishes",
             "Earth-Protecting Heroes"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2018
     },
     {
         "id": 1008931,
@@ -37740,7 +40896,10 @@ const dokkanCharacters = [
             "Demonic Power",
             "Earth-Protecting Heroes"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2018
     },
     {
         "id": 1008941,
@@ -37782,7 +40941,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2018
     },
     {
         "id": 1013801,
@@ -37812,7 +40974,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "HEALER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2018
     },
     {
         "id": 1013800,
@@ -37837,7 +41002,10 @@ const dokkanCharacters = [
         "categories": [],
         "roles": [
             "HEALER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2018
     },
     {
         "id": 1013401,
@@ -37853,7 +41021,10 @@ const dokkanCharacters = [
         "activeSkill": "Aucun Active Skill",
         "links": [],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2018
     },
     {
         "id": 1013400,
@@ -37869,7 +41040,10 @@ const dokkanCharacters = [
         "activeSkill": "Aucun Active Skill",
         "links": [],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2018
     },
     {
         "id": 1013161,
@@ -37904,7 +41078,10 @@ const dokkanCharacters = [
             "Earth-Bred Fighters",
             "Demonic Power"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": true,
+        "hasSEZA": false,
+        "latestUpdateYear": 2018
     },
     {
         "id": 1012851,
@@ -37941,7 +41118,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2018
     },
     {
         "id": 1012850,
@@ -37966,7 +41146,10 @@ const dokkanCharacters = [
         "categories": [],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2018
     },
     {
         "id": 1011231,
@@ -37995,7 +41178,10 @@ const dokkanCharacters = [
             "Earth-Bred Fighters",
             "Tournament Participants"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2018
     },
     {
         "id": 1011221,
@@ -38026,7 +41212,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "TANK"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2018
     },
     {
         "id": 1011230,
@@ -38048,7 +41237,10 @@ const dokkanCharacters = [
             "Guidance of the Dragon Balls"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2018
     },
     {
         "id": 1011220,
@@ -38072,7 +41264,10 @@ const dokkanCharacters = [
         "categories": [],
         "roles": [
             "TANK"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2018
     },
     {
         "id": 1012781,
@@ -38106,7 +41301,10 @@ const dokkanCharacters = [
             "Bond of Parent and Child",
             "Successors"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2018
     },
     {
         "id": 1008191,
@@ -38142,7 +41340,10 @@ const dokkanCharacters = [
             "Power Beyond Super Saiyan",
             "Bond of Parent and Child"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2018
     },
     {
         "id": 1008190,
@@ -38166,7 +41367,10 @@ const dokkanCharacters = [
             "Over in a Flash"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2018
     },
     {
         "id": 1012491,
@@ -38203,7 +41407,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2018
     },
     {
         "id": 1012501,
@@ -38236,7 +41443,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2018
     },
     {
         "id": 1012451,
@@ -38267,7 +41477,10 @@ const dokkanCharacters = [
             "Legendary Existence",
             "Power of Wishes"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2018
     },
     {
         "id": 1012490,
@@ -38292,7 +41505,10 @@ const dokkanCharacters = [
         "categories": [],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2018
     },
     {
         "id": 1012500,
@@ -38316,7 +41532,10 @@ const dokkanCharacters = [
         "categories": [],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2018
     },
     {
         "id": 1012450,
@@ -38339,7 +41558,10 @@ const dokkanCharacters = [
             "Solid Support"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2018
     },
     {
         "id": 1012471,
@@ -38368,7 +41590,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2018
     },
     {
         "id": 1012481,
@@ -38398,7 +41623,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "TANK"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2018
     },
     {
         "id": 1012470,
@@ -38422,7 +41650,10 @@ const dokkanCharacters = [
         "categories": [],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2018
     },
     {
         "id": 1012480,
@@ -38446,7 +41677,10 @@ const dokkanCharacters = [
         "categories": [],
         "roles": [
             "TANK"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2018
     },
     {
         "id": 1012941,
@@ -38484,7 +41718,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2018
     },
     {
         "id": 1012971,
@@ -38520,7 +41757,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "HEALER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2018
     },
     {
         "id": 1012940,
@@ -38545,7 +41785,10 @@ const dokkanCharacters = [
         "categories": [],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2018
     },
     {
         "id": 1012970,
@@ -38570,7 +41813,10 @@ const dokkanCharacters = [
         "categories": [],
         "roles": [
             "HEALER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2018
     },
     {
         "id": 1012351,
@@ -38603,7 +41849,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2018
     },
     {
         "id": 1012350,
@@ -38628,7 +41877,10 @@ const dokkanCharacters = [
         "categories": [],
         "roles": [
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2018
     },
     {
         "id": 1012221,
@@ -38663,7 +41915,10 @@ const dokkanCharacters = [
             "Tournament Participants",
             "Successors"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2018
     },
     {
         "id": 1012220,
@@ -38686,7 +41941,10 @@ const dokkanCharacters = [
             "Tournament of Power"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2018
     },
     {
         "id": 1011981,
@@ -38724,7 +41982,10 @@ const dokkanCharacters = [
             "Tournament Participants",
             "Successors"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2018
     },
     {
         "id": 1011980,
@@ -38748,7 +42009,10 @@ const dokkanCharacters = [
             "Tournament of Power"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2018
     },
     {
         "id": 1011921,
@@ -38775,7 +42039,10 @@ const dokkanCharacters = [
             "Earthlings",
             "Earth-Bred Fighters"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2018
     },
     {
         "id": 1012011,
@@ -38813,7 +42080,10 @@ const dokkanCharacters = [
             "Tournament Participants",
             "Demonic Power"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2018
     },
     {
         "id": 1011920,
@@ -38835,7 +42105,10 @@ const dokkanCharacters = [
             "Cold Judgment"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2018
     },
     {
         "id": 1012010,
@@ -38858,7 +42131,10 @@ const dokkanCharacters = [
             "Tournament of Power"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2018
     },
     {
         "id": 1012270,
@@ -38874,7 +42150,10 @@ const dokkanCharacters = [
         "activeSkill": "Aucun Active Skill",
         "links": [],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2018
     },
     {
         "id": 1012260,
@@ -38890,7 +42169,10 @@ const dokkanCharacters = [
         "activeSkill": "Aucun Active Skill",
         "links": [],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2018
     },
     {
         "id": 1012250,
@@ -38906,7 +42188,10 @@ const dokkanCharacters = [
         "activeSkill": "Aucun Active Skill",
         "links": [],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2018
     },
     {
         "id": 1012240,
@@ -38922,7 +42207,10 @@ const dokkanCharacters = [
         "activeSkill": "Aucun Active Skill",
         "links": [],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2018
     },
     {
         "id": 1012230,
@@ -38938,7 +42226,10 @@ const dokkanCharacters = [
         "activeSkill": "Aucun Active Skill",
         "links": [],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2018
     },
     {
         "id": 1011181,
@@ -38968,7 +42259,10 @@ const dokkanCharacters = [
             "Power Beyond Super Saiyan",
             "Uncontrollable Power"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2018
     },
     {
         "id": 1010771,
@@ -39007,7 +42301,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2018
     },
     {
         "id": 1011471,
@@ -39045,7 +42342,10 @@ const dokkanCharacters = [
             "Successors",
             "Mission Execution"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2018
     },
     {
         "id": 1012591,
@@ -39076,7 +42376,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2018
     },
     {
         "id": 1012590,
@@ -39101,7 +42404,10 @@ const dokkanCharacters = [
         "categories": [],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2018
     },
     {
         "id": 1012631,
@@ -39130,7 +42436,10 @@ const dokkanCharacters = [
             "Bond of Parent and Child",
             "Super Heroes"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2018
     },
     {
         "id": 1012630,
@@ -39153,7 +42462,10 @@ const dokkanCharacters = [
             "Prepared for Battle"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2018
     },
     {
         "id": 1012541,
@@ -39184,7 +42496,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2018
     },
     {
         "id": 1012540,
@@ -39209,7 +42524,10 @@ const dokkanCharacters = [
         "categories": [],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2018
     },
     {
         "id": 1011791,
@@ -39247,7 +42565,10 @@ const dokkanCharacters = [
             "Power of Wishes",
             "Demonic Power"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2017
     },
     {
         "id": 1011790,
@@ -39270,7 +42591,10 @@ const dokkanCharacters = [
             "Kamehameha"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2017
     },
     {
         "id": 1007621,
@@ -39303,7 +42627,10 @@ const dokkanCharacters = [
             "Bond of Parent and Child",
             "Successors"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2017
     },
     {
         "id": 1007620,
@@ -39326,7 +42653,10 @@ const dokkanCharacters = [
             "Prepared for Battle"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2017
     },
     {
         "id": 1009391,
@@ -39358,7 +42688,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2017
     },
     {
         "id": 1011501,
@@ -39391,7 +42724,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2017
     },
     {
         "id": 1009390,
@@ -39417,7 +42753,10 @@ const dokkanCharacters = [
         "categories": [],
         "roles": [
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2017
     },
     {
         "id": 1011500,
@@ -39443,7 +42782,10 @@ const dokkanCharacters = [
         "categories": [],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2017
     },
     {
         "id": 1011741,
@@ -39482,7 +42824,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2017
     },
     {
         "id": 1011740,
@@ -39508,7 +42853,10 @@ const dokkanCharacters = [
         "categories": [],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2017
     },
     {
         "id": 1007901,
@@ -39542,7 +42890,10 @@ const dokkanCharacters = [
             "Earth-Bred Fighters",
             "Earth-Protecting Heroes"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2017
     },
     {
         "id": 1007900,
@@ -39565,7 +42916,10 @@ const dokkanCharacters = [
             "Kamehameha"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2017
     },
     {
         "id": 1010601,
@@ -39606,7 +42960,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "TANK"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2017
     },
     {
         "id": 1010600,
@@ -39632,7 +42989,10 @@ const dokkanCharacters = [
         "categories": [],
         "roles": [
             "TANK"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2017
     },
     {
         "id": 1011351,
@@ -39669,7 +43029,10 @@ const dokkanCharacters = [
             "Bond of Parent and Child",
             "Uncontrollable Power"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2017
     },
     {
         "id": 1011361,
@@ -39706,7 +43069,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2017
     },
     {
         "id": 1010821,
@@ -39743,7 +43109,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2017
     },
     {
         "id": 1007171,
@@ -39780,7 +43149,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2017
     },
     {
         "id": 1010820,
@@ -39806,7 +43178,10 @@ const dokkanCharacters = [
         "categories": [],
         "roles": [
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2017
     },
     {
         "id": 1007170,
@@ -39832,7 +43207,10 @@ const dokkanCharacters = [
         "categories": [],
         "roles": [
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2017
     },
     {
         "id": 1010191,
@@ -39863,7 +43241,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2017
     },
     {
         "id": 1010741,
@@ -39906,7 +43287,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2017
     },
     {
         "id": 1004101,
@@ -39934,7 +43318,10 @@ const dokkanCharacters = [
             "Earth-Bred Fighters",
             "Earth-Protecting Heroes"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2017
     },
     {
         "id": 1004100,
@@ -39956,7 +43343,10 @@ const dokkanCharacters = [
             "Twin Terrors"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2017
     },
     {
         "id": 1010721,
@@ -39992,7 +43382,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2017
     },
     {
         "id": 1010411,
@@ -40036,7 +43429,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2017
     },
     {
         "id": 1010461,
@@ -40071,7 +43467,10 @@ const dokkanCharacters = [
             "Legendary Existence",
             "Tournament Participants"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2017
     },
     {
         "id": 1010451,
@@ -40106,7 +43505,10 @@ const dokkanCharacters = [
             "Legendary Existence",
             "Tournament Participants"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2017
     },
     {
         "id": 1010471,
@@ -40140,7 +43542,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "HEALER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2017
     },
     {
         "id": 1010470,
@@ -40165,7 +43570,10 @@ const dokkanCharacters = [
         "categories": [],
         "roles": [
             "HEALER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2017
     },
     {
         "id": 1011441,
@@ -40204,7 +43612,10 @@ const dokkanCharacters = [
             "Power of Wishes",
             "Earth-Protecting Heroes"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2017
     },
     {
         "id": 1011411,
@@ -40232,7 +43643,10 @@ const dokkanCharacters = [
             "Turtle School",
             "Earth-Bred Fighters"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2017
     },
     {
         "id": 1011410,
@@ -40254,7 +43668,10 @@ const dokkanCharacters = [
             "Solid Support"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2017
     },
     {
         "id": 1010651,
@@ -40289,7 +43706,10 @@ const dokkanCharacters = [
             "Earth-Bred Fighters",
             "Tournament Participants"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2017
     },
     {
         "id": 1010650,
@@ -40312,7 +43732,10 @@ const dokkanCharacters = [
             "Otherworld Warriors"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2017
     },
     {
         "id": 1010701,
@@ -40338,7 +43761,10 @@ const dokkanCharacters = [
             "Otherworld Warriors",
             "Successors"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2017
     },
     {
         "id": 1010700,
@@ -40360,7 +43786,10 @@ const dokkanCharacters = [
             "Otherworld Warriors"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2017
     },
     {
         "id": 1006021,
@@ -40394,7 +43823,10 @@ const dokkanCharacters = [
             "Corroded Body and Mind",
             "GT Bosses"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2017
     },
     {
         "id": 1009881,
@@ -40432,7 +43864,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2017
     },
     {
         "id": 1009871,
@@ -40466,7 +43901,10 @@ const dokkanCharacters = [
             "Bond of Parent and Child",
             "Earth-Bred Fighters"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2017
     },
     {
         "id": 1009870,
@@ -40488,7 +43926,10 @@ const dokkanCharacters = [
             "Guidance of the Dragon Balls"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2017
     },
     {
         "id": 1008831,
@@ -40525,7 +43966,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "HEALER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2017
     },
     {
         "id": 1008830,
@@ -40551,7 +43995,10 @@ const dokkanCharacters = [
         "categories": [],
         "roles": [
             "HEALER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2017
     },
     {
         "id": 1010041,
@@ -40584,7 +44031,10 @@ const dokkanCharacters = [
             "Sworn Enemies",
             "Successors"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2017
     },
     {
         "id": 1010040,
@@ -40606,7 +44056,10 @@ const dokkanCharacters = [
             "Thirst for Conquest"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2017
     },
     {
         "id": 1009681,
@@ -40640,7 +44093,10 @@ const dokkanCharacters = [
             "Super Bosses",
             "Successors"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2017
     },
     {
         "id": 1009680,
@@ -40662,7 +44118,10 @@ const dokkanCharacters = [
             "Big Bad Bosses"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2017
     },
     {
         "id": 1008491,
@@ -40694,7 +44153,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2017
     },
     {
         "id": 1008481,
@@ -40725,7 +44187,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2017
     },
     {
         "id": 1009801,
@@ -40752,7 +44217,10 @@ const dokkanCharacters = [
             "Earthlings",
             "Earth-Bred Fighters"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2017
     },
     {
         "id": 1008490,
@@ -40777,7 +44245,10 @@ const dokkanCharacters = [
         "categories": [],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2017
     },
     {
         "id": 1008480,
@@ -40802,7 +44273,10 @@ const dokkanCharacters = [
         "categories": [],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2017
     },
     {
         "id": 1009800,
@@ -40824,7 +44298,10 @@ const dokkanCharacters = [
             "More Than Meets the Eye"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2017
     },
     {
         "id": 1009071,
@@ -40859,7 +44336,10 @@ const dokkanCharacters = [
             "Earth-Bred Fighters",
             "Mission Execution"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2017
     },
     {
         "id": 1009061,
@@ -40891,7 +44371,10 @@ const dokkanCharacters = [
             "Earth-Bred Fighters",
             "Mission Execution"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2017
     },
     {
         "id": 1009521,
@@ -40920,7 +44403,10 @@ const dokkanCharacters = [
             "DB Saga",
             "Crossover"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2017
     },
     {
         "id": 1009001,
@@ -40949,7 +44435,10 @@ const dokkanCharacters = [
             "DB Saga",
             "Crossover"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2017
     },
     {
         "id": 1008981,
@@ -40978,7 +44467,10 @@ const dokkanCharacters = [
             "DB Saga",
             "Crossover"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2017
     },
     {
         "id": 1008961,
@@ -41007,7 +44499,10 @@ const dokkanCharacters = [
             "DB Saga",
             "Crossover"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2017
     },
     {
         "id": 1009051,
@@ -41035,7 +44530,10 @@ const dokkanCharacters = [
             "DB Saga",
             "Crossover"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2017
     },
     {
         "id": 1009031,
@@ -41063,7 +44561,10 @@ const dokkanCharacters = [
             "Crossover",
             "Defenders of Justice"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2017
     },
     {
         "id": 1009070,
@@ -41086,7 +44587,10 @@ const dokkanCharacters = [
             "Lien Inconnu (128)"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2017
     },
     {
         "id": 1009060,
@@ -41109,7 +44613,10 @@ const dokkanCharacters = [
             "Lien Inconnu (128)"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2017
     },
     {
         "id": 1009050,
@@ -41132,7 +44639,10 @@ const dokkanCharacters = [
             "Lien Inconnu (128)"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2017
     },
     {
         "id": 1009030,
@@ -41155,7 +44665,10 @@ const dokkanCharacters = [
             "Lien Inconnu (128)"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2017
     },
     {
         "id": 1010511,
@@ -41178,7 +44691,10 @@ const dokkanCharacters = [
             "Shocking Speed"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2017
     },
     {
         "id": 1010510,
@@ -41201,7 +44717,10 @@ const dokkanCharacters = [
             "Shocking Speed"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2017
     },
     {
         "id": 1008601,
@@ -41235,7 +44754,10 @@ const dokkanCharacters = [
             "Super Bosses",
             "Successors"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2017
     },
     {
         "id": 1008600,
@@ -41257,7 +44779,10 @@ const dokkanCharacters = [
             "Big Bad Bosses"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2017
     },
     {
         "id": 1007341,
@@ -41285,7 +44810,10 @@ const dokkanCharacters = [
             "Saiyan Saga",
             "Earth-Bred Fighters"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2017
     },
     {
         "id": 1007321,
@@ -41318,7 +44846,10 @@ const dokkanCharacters = [
             "Earth-Bred Fighters",
             "Tournament Participants"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2017
     },
     {
         "id": 1010190,
@@ -41343,7 +44874,10 @@ const dokkanCharacters = [
         "categories": [],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2017
     },
     {
         "id": 1006351,
@@ -41368,7 +44902,10 @@ const dokkanCharacters = [
             "Shadow Dragon Saga",
             "GT Bosses"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2017
     },
     {
         "id": 1006350,
@@ -41390,7 +44927,10 @@ const dokkanCharacters = [
             "Shadow Dragons"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2017
     },
     {
         "id": 1006341,
@@ -41415,7 +44955,10 @@ const dokkanCharacters = [
             "Shadow Dragon Saga",
             "GT Bosses"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2017
     },
     {
         "id": 1006371,
@@ -41441,7 +44984,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "TANK"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2017
     },
     {
         "id": 1006381,
@@ -41465,7 +45011,10 @@ const dokkanCharacters = [
             "Shadow Dragon Saga",
             "GT Bosses"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2017
     },
     {
         "id": 1006401,
@@ -41489,7 +45038,10 @@ const dokkanCharacters = [
             "Shadow Dragon Saga",
             "GT Bosses"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2017
     },
     {
         "id": 1006340,
@@ -41511,7 +45063,10 @@ const dokkanCharacters = [
             "Shadow Dragons"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2017
     },
     {
         "id": 1006370,
@@ -41534,7 +45089,10 @@ const dokkanCharacters = [
         "categories": [],
         "roles": [
             "TANK"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2017
     },
     {
         "id": 1006380,
@@ -41555,7 +45113,10 @@ const dokkanCharacters = [
             "Shadow Dragons"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2017
     },
     {
         "id": 1006400,
@@ -41576,7 +45137,10 @@ const dokkanCharacters = [
             "Shadow Dragons"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2017
     },
     {
         "id": 1007051,
@@ -41604,7 +45168,10 @@ const dokkanCharacters = [
             "Universe 6",
             "Tournament Participants"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2017
     },
     {
         "id": 1007050,
@@ -41627,7 +45194,10 @@ const dokkanCharacters = [
             "Tournament of Power"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2017
     },
     {
         "id": 1008121,
@@ -41663,7 +45233,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "HEALER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2017
     },
     {
         "id": 1008111,
@@ -41699,7 +45272,10 @@ const dokkanCharacters = [
             "Demonic Power",
             "Uncontrollable Power"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2017
     },
     {
         "id": 1008120,
@@ -41725,7 +45301,10 @@ const dokkanCharacters = [
         "categories": [],
         "roles": [
             "HEALER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2017
     },
     {
         "id": 1008110,
@@ -41749,7 +45328,10 @@ const dokkanCharacters = [
             "Lien Inconnu (111)"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2017
     },
     {
         "id": 1003561,
@@ -41785,7 +45367,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2017
     },
     {
         "id": 1003560,
@@ -41809,7 +45394,10 @@ const dokkanCharacters = [
         "categories": [],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2017
     },
     {
         "id": 1008371,
@@ -41843,7 +45431,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "HEALER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2017
     },
     {
         "id": 1008370,
@@ -41868,7 +45459,10 @@ const dokkanCharacters = [
         "categories": [],
         "roles": [
             "HEALER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2017
     },
     {
         "id": 1007031,
@@ -41897,7 +45491,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2016
     },
     {
         "id": 1007041,
@@ -41924,7 +45521,10 @@ const dokkanCharacters = [
             "Universe 6",
             "Tournament Participants"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2016
     },
     {
         "id": 1009850,
@@ -41940,7 +45540,10 @@ const dokkanCharacters = [
         "activeSkill": "Aucun Active Skill",
         "links": [],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2016
     },
     {
         "id": 1007030,
@@ -41964,7 +45567,10 @@ const dokkanCharacters = [
         "categories": [],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2016
     },
     {
         "id": 1007040,
@@ -41986,7 +45592,10 @@ const dokkanCharacters = [
             "Warriors of Universe 6"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2016
     },
     {
         "id": 1003701,
@@ -42017,7 +45626,10 @@ const dokkanCharacters = [
             "Earth-Bred Fighters",
             "Tournament Participants"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2016
     },
     {
         "id": 1003700,
@@ -42039,7 +45651,10 @@ const dokkanCharacters = [
             "Berserker"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2016
     },
     {
         "id": 1008361,
@@ -42073,7 +45688,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2016
     },
     {
         "id": 1008391,
@@ -42113,7 +45731,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2016
     },
     {
         "id": 1008381,
@@ -42148,7 +45769,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2016
     },
     {
         "id": 1008641,
@@ -42180,7 +45804,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2016
     },
     {
         "id": 1008360,
@@ -42204,7 +45831,10 @@ const dokkanCharacters = [
         "categories": [],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2016
     },
     {
         "id": 1008390,
@@ -42228,7 +45858,10 @@ const dokkanCharacters = [
         "categories": [],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2016
     },
     {
         "id": 1008380,
@@ -42252,7 +45885,10 @@ const dokkanCharacters = [
         "categories": [],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2016
     },
     {
         "id": 1004471,
@@ -42280,7 +45916,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "HEALER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2016
     },
     {
         "id": 1004470,
@@ -42303,7 +45942,10 @@ const dokkanCharacters = [
         "categories": [],
         "roles": [
             "HEALER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2016
     },
     {
         "id": 1007211,
@@ -42343,7 +45985,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2016
     },
     {
         "id": 1007201,
@@ -42383,7 +46028,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2016
     },
     {
         "id": 1007210,
@@ -42408,7 +46056,10 @@ const dokkanCharacters = [
         "categories": [],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2016
     },
     {
         "id": 1007200,
@@ -42433,7 +46084,10 @@ const dokkanCharacters = [
         "categories": [],
         "roles": [
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2016
     },
     {
         "id": 1008031,
@@ -42469,7 +46123,10 @@ const dokkanCharacters = [
             "Successors",
             "Mission Execution"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2016
     },
     {
         "id": 1003991,
@@ -42506,7 +46163,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2016
     },
     {
         "id": 1003990,
@@ -42530,7 +46190,10 @@ const dokkanCharacters = [
         "categories": [],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2016
     },
     {
         "id": 1005131,
@@ -42564,7 +46227,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2016
     },
     {
         "id": 1007751,
@@ -42599,7 +46265,10 @@ const dokkanCharacters = [
             "Saiyan Saga",
             "Successors"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2016
     },
     {
         "id": 1005130,
@@ -42625,7 +46294,10 @@ const dokkanCharacters = [
         "categories": [],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2016
     },
     {
         "id": 1007750,
@@ -42647,7 +46319,10 @@ const dokkanCharacters = [
             "Over 9000"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2016
     },
     {
         "id": 1005841,
@@ -42682,7 +46357,10 @@ const dokkanCharacters = [
             "Battle of Fate",
             "Successors"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2016
     },
     {
         "id": 1005840,
@@ -42705,7 +46383,10 @@ const dokkanCharacters = [
             "Lien Inconnu (111)"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2016
     },
     {
         "id": 1006251,
@@ -42735,7 +46416,10 @@ const dokkanCharacters = [
             "Earth-Bred Fighters",
             "Demonic Power"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2016
     },
     {
         "id": 1004021,
@@ -42765,7 +46449,10 @@ const dokkanCharacters = [
             "Bond of Parent and Child",
             "Earth-Bred Fighters"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2016
     },
     {
         "id": 1006250,
@@ -42787,7 +46474,10 @@ const dokkanCharacters = [
             "Shadow Dragons"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2016
     },
     {
         "id": 1004020,
@@ -42808,7 +46498,10 @@ const dokkanCharacters = [
             "Kamehameha"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2016
     },
     {
         "id": 1004931,
@@ -42840,7 +46533,10 @@ const dokkanCharacters = [
             "Legendary Existence",
             "Tournament Participants"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2016
     },
     {
         "id": 1004930,
@@ -42862,7 +46558,10 @@ const dokkanCharacters = [
             "Revival"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2016
     },
     {
         "id": 1005081,
@@ -42900,7 +46599,10 @@ const dokkanCharacters = [
             "Bond of Parent and Child",
             "Successors"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2016
     },
     {
         "id": 1005080,
@@ -42923,7 +46625,10 @@ const dokkanCharacters = [
             "Lien Inconnu (111)"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2016
     },
     {
         "id": 1005421,
@@ -42952,7 +46657,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2016
     },
     {
         "id": 1005420,
@@ -42976,7 +46684,10 @@ const dokkanCharacters = [
         "categories": [],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2016
     },
     {
         "id": 1005871,
@@ -43009,7 +46720,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2016
     },
     {
         "id": 1006001,
@@ -43041,7 +46755,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "HEALER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2016
     },
     {
         "id": 1005870,
@@ -43064,7 +46781,10 @@ const dokkanCharacters = [
         "categories": [],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2016
     },
     {
         "id": 1006000,
@@ -43087,7 +46807,10 @@ const dokkanCharacters = [
         "categories": [],
         "roles": [
             "HEALER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2016
     },
     {
         "id": 1002911,
@@ -43116,7 +46839,10 @@ const dokkanCharacters = [
             "Saiyan Saga",
             "Earth-Bred Fighters"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2016
     },
     {
         "id": 1002921,
@@ -43144,7 +46870,10 @@ const dokkanCharacters = [
             "Saiyan Saga",
             "Earth-Bred Fighters"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2016
     },
     {
         "id": 1004741,
@@ -43186,7 +46915,10 @@ const dokkanCharacters = [
             "Demonic Power",
             "Earth-Protecting Heroes"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2016
     },
     {
         "id": 1002910,
@@ -43209,7 +46941,10 @@ const dokkanCharacters = [
             "The Saiyan Lineage"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2016
     },
     {
         "id": 1002920,
@@ -43231,7 +46966,10 @@ const dokkanCharacters = [
             "Solid Support"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2016
     },
     {
         "id": 1004740,
@@ -43253,7 +46991,10 @@ const dokkanCharacters = [
             "Kamehameha"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2016
     },
     {
         "id": 1001611,
@@ -43287,7 +47028,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2016
     },
     {
         "id": 1001610,
@@ -43312,7 +47056,10 @@ const dokkanCharacters = [
         "categories": [],
         "roles": [
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2016
     },
     {
         "id": 1005471,
@@ -43344,7 +47091,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2016
     },
     {
         "id": 1005591,
@@ -43372,7 +47122,10 @@ const dokkanCharacters = [
             "Earth-Bred Fighters",
             "Tournament Participants"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2016
     },
     {
         "id": 1005470,
@@ -43397,7 +47150,10 @@ const dokkanCharacters = [
         "categories": [],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2016
     },
     {
         "id": 1005590,
@@ -43419,7 +47175,10 @@ const dokkanCharacters = [
             "The Incredible Adventure"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2016
     },
     {
         "id": 1005601,
@@ -43446,7 +47205,10 @@ const dokkanCharacters = [
             "Earth-Bred Fighters",
             "Tournament Participants"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2016
     },
     {
         "id": 1005600,
@@ -43467,7 +47229,10 @@ const dokkanCharacters = [
             "The Incredible Adventure"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2016
     },
     {
         "id": 1005511,
@@ -43496,7 +47261,10 @@ const dokkanCharacters = [
             "Defenders of Justice",
             "Successors"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2016
     },
     {
         "id": 1005510,
@@ -43518,7 +47286,10 @@ const dokkanCharacters = [
             "Lien Inconnu (121)"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2016
     },
     {
         "id": 1002411,
@@ -43549,7 +47320,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "TANK"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2016
     },
     {
         "id": 1002410,
@@ -43573,7 +47347,10 @@ const dokkanCharacters = [
         "categories": [],
         "roles": [
             "TANK"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2016
     },
     {
         "id": 1005241,
@@ -43601,7 +47378,10 @@ const dokkanCharacters = [
             "Demonic Power",
             "Mission Execution"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2016
     },
     {
         "id": 1001531,
@@ -43631,7 +47411,10 @@ const dokkanCharacters = [
             "Space-Traveling Warriors",
             "Mission Execution"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2016
     },
     {
         "id": 1005240,
@@ -43653,7 +47436,10 @@ const dokkanCharacters = [
             "Experienced Fighters"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2016
     },
     {
         "id": 1001530,
@@ -43675,7 +47461,10 @@ const dokkanCharacters = [
             "Fear and Faith"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2016
     },
     {
         "id": 1003451,
@@ -43705,7 +47494,10 @@ const dokkanCharacters = [
             "Earth-Bred Fighters",
             "Earth-Protecting Heroes"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2016
     },
     {
         "id": 1003450,
@@ -43727,7 +47519,10 @@ const dokkanCharacters = [
             "The Incredible Adventure"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2016
     },
     {
         "id": 1004761,
@@ -43763,7 +47558,10 @@ const dokkanCharacters = [
             "Power Beyond Super Saiyan",
             "Successors"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2016
     },
     {
         "id": 1004760,
@@ -43786,7 +47584,10 @@ const dokkanCharacters = [
             "Blazing Battle"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2016
     },
     {
         "id": 1003471,
@@ -43815,7 +47616,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2016
     },
     {
         "id": 1003470,
@@ -43839,7 +47643,10 @@ const dokkanCharacters = [
         "categories": [],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2016
     },
     {
         "id": 1004701,
@@ -43872,7 +47679,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "TANK"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2016
     },
     {
         "id": 1004691,
@@ -43911,7 +47721,10 @@ const dokkanCharacters = [
             "Tournament Participants",
             "Demonic Power"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2016
     },
     {
         "id": 1004700,
@@ -43935,7 +47748,10 @@ const dokkanCharacters = [
         "categories": [],
         "roles": [
             "TANK"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2016
     },
     {
         "id": 1004690,
@@ -43958,7 +47774,10 @@ const dokkanCharacters = [
             "Z Fighters"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2016
     },
     {
         "id": 1003461,
@@ -43987,7 +47806,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "HEALER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2016
     },
     {
         "id": 1003460,
@@ -44011,7 +47833,10 @@ const dokkanCharacters = [
         "categories": [],
         "roles": [
             "HEALER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2016
     },
     {
         "id": 1002711,
@@ -44043,7 +47868,10 @@ const dokkanCharacters = [
             "Bond of Parent and Child",
             "Earth-Bred Fighters"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2016
     },
     {
         "id": 1002871,
@@ -44077,7 +47905,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2016
     },
     {
         "id": 1003401,
@@ -44103,7 +47934,10 @@ const dokkanCharacters = [
             "Battle of Wits",
             "Crossover"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2016
     },
     {
         "id": 1002710,
@@ -44125,7 +47959,10 @@ const dokkanCharacters = [
             "Royal Lineage"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2016
     },
     {
         "id": 1002870,
@@ -44149,7 +47986,10 @@ const dokkanCharacters = [
         "categories": [],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2016
     },
     {
         "id": 1003400,
@@ -44170,7 +48010,10 @@ const dokkanCharacters = [
             "Cold Judgment"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2016
     },
     {
         "id": 1004411,
@@ -44207,7 +48050,10 @@ const dokkanCharacters = [
             "Demonic Power",
             "Uncontrollable Power"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2016
     },
     {
         "id": 1004461,
@@ -44240,7 +48086,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "HEALER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2016
     },
     {
         "id": 1004410,
@@ -44264,7 +48113,10 @@ const dokkanCharacters = [
             "Fierce Battle"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2016
     },
     {
         "id": 1005251,
@@ -44297,7 +48149,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "HEALER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2016
     },
     {
         "id": 1004460,
@@ -44322,7 +48177,10 @@ const dokkanCharacters = [
         "categories": [],
         "roles": [
             "HEALER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2016
     },
     {
         "id": 1005250,
@@ -44347,7 +48205,10 @@ const dokkanCharacters = [
         "categories": [],
         "roles": [
             "HEALER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2016
     },
     {
         "id": 1004841,
@@ -44379,7 +48240,10 @@ const dokkanCharacters = [
             "Earth-Bred Fighters",
             "Demonic Power"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2016
     },
     {
         "id": 1004871,
@@ -44407,7 +48271,10 @@ const dokkanCharacters = [
             "Defenders of Justice",
             "Mission Execution"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2016
     },
     {
         "id": 1004831,
@@ -44438,7 +48305,10 @@ const dokkanCharacters = [
             "Turtle School",
             "Earth-Bred Fighters"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2016
     },
     {
         "id": 1003481,
@@ -44468,7 +48338,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2016
     },
     {
         "id": 1004840,
@@ -44490,7 +48363,10 @@ const dokkanCharacters = [
             "Godly Power"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2016
     },
     {
         "id": 1004870,
@@ -44512,7 +48388,10 @@ const dokkanCharacters = [
             "Godly Power"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2016
     },
     {
         "id": 1004830,
@@ -44534,7 +48413,10 @@ const dokkanCharacters = [
             "Godly Power"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2016
     },
     {
         "id": 1003480,
@@ -44558,7 +48440,10 @@ const dokkanCharacters = [
         "categories": [],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2016
     },
     {
         "id": 1004401,
@@ -44595,7 +48480,10 @@ const dokkanCharacters = [
             "Worldwide Chaos",
             "Tournament Participants"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2016
     },
     {
         "id": 1001711,
@@ -44629,7 +48517,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "HEALER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2016
     },
     {
         "id": 1004400,
@@ -44653,7 +48544,10 @@ const dokkanCharacters = [
             "Lien Inconnu (111)"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2016
     },
     {
         "id": 1001710,
@@ -44676,7 +48570,10 @@ const dokkanCharacters = [
         "categories": [],
         "roles": [
             "HEALER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2016
     },
     {
         "id": 2000851,
@@ -44715,7 +48612,10 @@ const dokkanCharacters = [
             "Power of Wishes",
             "Successors"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 2000841,
@@ -44754,7 +48654,10 @@ const dokkanCharacters = [
             "Power of Wishes",
             "Successors"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 2000831,
@@ -44793,7 +48696,10 @@ const dokkanCharacters = [
             "Power of Wishes",
             "Successors"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 2000821,
@@ -44834,7 +48740,10 @@ const dokkanCharacters = [
             "Power of Wishes",
             "Successors"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 2000811,
@@ -44877,7 +48786,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 2000801,
@@ -44920,7 +48832,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "TANK"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 2000791,
@@ -44959,7 +48874,10 @@ const dokkanCharacters = [
             "Power of Wishes",
             "Successors"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 2000781,
@@ -45000,7 +48918,10 @@ const dokkanCharacters = [
             "Power of Wishes",
             "Successors"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 2000771,
@@ -45041,7 +48962,10 @@ const dokkanCharacters = [
             "Power of Wishes",
             "Successors"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1003531,
@@ -45075,7 +48999,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1002351,
@@ -45107,7 +49034,10 @@ const dokkanCharacters = [
             "Turtle School",
             "Earth-Bred Fighters"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1002481,
@@ -45137,7 +49067,10 @@ const dokkanCharacters = [
             "Space-Traveling Warriors",
             "Planetary Destruction"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1003581,
@@ -45173,7 +49106,10 @@ const dokkanCharacters = [
             "Tournament Participants",
             "Demonic Power"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1003591,
@@ -45208,7 +49144,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1002951,
@@ -45241,7 +49180,10 @@ const dokkanCharacters = [
             "Bond of Parent and Child",
             "Earth-Bred Fighters"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1004281,
@@ -45272,7 +49214,10 @@ const dokkanCharacters = [
             "Mastered Evolution",
             "Successors"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1003221,
@@ -45302,7 +49247,10 @@ const dokkanCharacters = [
             "Mastered Evolution",
             "Successors"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1002431,
@@ -45334,7 +49282,10 @@ const dokkanCharacters = [
             "Bond of Parent and Child",
             "Earth-Bred Fighters"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1002131,
@@ -45366,7 +49317,10 @@ const dokkanCharacters = [
             "Bond of Parent and Child",
             "Earth-Bred Fighters"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1000851,
@@ -45398,7 +49352,10 @@ const dokkanCharacters = [
             "Bond of Parent and Child",
             "Earth-Bred Fighters"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1000031,
@@ -45431,7 +49388,10 @@ const dokkanCharacters = [
             "Bond of Parent and Child",
             "Earth-Bred Fighters"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1003871,
@@ -45458,7 +49418,10 @@ const dokkanCharacters = [
             "Gifted Warriors",
             "Successors"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1002141,
@@ -45490,7 +49453,10 @@ const dokkanCharacters = [
             "Bond of Parent and Child",
             "Successors"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1000861,
@@ -45524,7 +49490,10 @@ const dokkanCharacters = [
             "Saiyan Saga",
             "Successors"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1000041,
@@ -45558,7 +49527,10 @@ const dokkanCharacters = [
             "Saiyan Saga",
             "Successors"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1000071,
@@ -45592,7 +49564,10 @@ const dokkanCharacters = [
             "Sworn Enemies",
             "Worldwide Chaos"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1001621,
@@ -45622,7 +49597,10 @@ const dokkanCharacters = [
             "Earth-Bred Fighters",
             "Demonic Power"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1000871,
@@ -45651,7 +49629,10 @@ const dokkanCharacters = [
             "Earth-Bred Fighters",
             "Demonic Power"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1000091,
@@ -45680,7 +49661,10 @@ const dokkanCharacters = [
             "Earth-Bred Fighters",
             "Demonic Power"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1001861,
@@ -45714,7 +49698,10 @@ const dokkanCharacters = [
             "Entrusted Will",
             "Earth-Bred Fighters"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1000881,
@@ -45747,7 +49734,10 @@ const dokkanCharacters = [
             "Earth-Bred Fighters",
             "Earth-Protecting Heroes"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1000811,
@@ -45780,7 +49770,10 @@ const dokkanCharacters = [
             "Earth-Bred Fighters",
             "Earth-Protecting Heroes"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1000101,
@@ -45813,7 +49806,10 @@ const dokkanCharacters = [
             "Earth-Bred Fighters",
             "Earth-Protecting Heroes"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1000891,
@@ -45840,7 +49836,10 @@ const dokkanCharacters = [
             "Bond of Friendship",
             "Earth-Bred Fighters"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1000111,
@@ -45870,7 +49869,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1003511,
@@ -45901,7 +49903,10 @@ const dokkanCharacters = [
             "Demonic Power",
             "Successors"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1000901,
@@ -45933,7 +49938,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "HEALER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1000121,
@@ -45967,7 +49975,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1002601,
@@ -45995,7 +50006,10 @@ const dokkanCharacters = [
             "Bond of Friendship",
             "Earth-Bred Fighters"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1001771,
@@ -46027,7 +50041,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1001451,
@@ -46054,7 +50071,10 @@ const dokkanCharacters = [
             "Bond of Friendship",
             "Earth-Bred Fighters"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1000911,
@@ -46081,7 +50101,10 @@ const dokkanCharacters = [
             "Bond of Friendship",
             "Earth-Bred Fighters"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1000131,
@@ -46108,7 +50131,10 @@ const dokkanCharacters = [
             "Bond of Friendship",
             "Earth-Bred Fighters"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1001461,
@@ -46138,7 +50164,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1000921,
@@ -46166,7 +50195,10 @@ const dokkanCharacters = [
             "Saiyan Saga",
             "Earth-Bred Fighters"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1000141,
@@ -46194,7 +50226,10 @@ const dokkanCharacters = [
             "Saiyan Saga",
             "Earth-Bred Fighters"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1002331,
@@ -46224,7 +50259,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1001441,
@@ -46253,7 +50291,10 @@ const dokkanCharacters = [
             "Saiyan Saga",
             "Earth-Bred Fighters"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1000931,
@@ -46283,7 +50324,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1000151,
@@ -46310,7 +50354,10 @@ const dokkanCharacters = [
             "Saiyan Saga",
             "Earth-Bred Fighters"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1001431,
@@ -46339,7 +50386,10 @@ const dokkanCharacters = [
             "Saiyan Saga",
             "Mission Execution"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1000161,
@@ -46369,7 +50419,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1001421,
@@ -46397,7 +50450,10 @@ const dokkanCharacters = [
             "Saiyan Saga",
             "Mission Execution"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1000961,
@@ -46425,7 +50481,10 @@ const dokkanCharacters = [
             "Saiyan Saga",
             "Mission Execution"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1000171,
@@ -46453,7 +50512,10 @@ const dokkanCharacters = [
             "Saiyan Saga",
             "Mission Execution"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1000941,
@@ -46482,7 +50544,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1000181,
@@ -46509,7 +50574,10 @@ const dokkanCharacters = [
             "Space-Traveling Warriors",
             "Mission Execution"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1000951,
@@ -46539,7 +50607,10 @@ const dokkanCharacters = [
             "Space-Traveling Warriors",
             "Mission Execution"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1000191,
@@ -46569,7 +50640,10 @@ const dokkanCharacters = [
             "Space-Traveling Warriors",
             "Mission Execution"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1001831,
@@ -46597,7 +50671,10 @@ const dokkanCharacters = [
             "Power Absorption",
             "Mission Execution"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1000201,
@@ -46627,7 +50704,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "HEALER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1001841,
@@ -46660,7 +50740,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "HEALER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1000981,
@@ -46694,7 +50777,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "HEALER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1000211,
@@ -46728,7 +50814,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "HEALER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1000991,
@@ -46756,7 +50845,10 @@ const dokkanCharacters = [
             "Uncontrollable Power",
             "Mission Execution"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1000221,
@@ -46785,7 +50877,10 @@ const dokkanCharacters = [
             "Uncontrollable Power",
             "Mission Execution"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1001001,
@@ -46816,7 +50911,10 @@ const dokkanCharacters = [
             "Uncontrollable Power",
             "Mission Execution"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1000231,
@@ -46848,7 +50946,10 @@ const dokkanCharacters = [
             "Uncontrollable Power",
             "Mission Execution"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1001011,
@@ -46876,7 +50977,10 @@ const dokkanCharacters = [
             "Uncontrollable Power",
             "Mission Execution"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1000241,
@@ -46904,7 +51008,10 @@ const dokkanCharacters = [
             "Uncontrollable Power",
             "Mission Execution"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1000251,
@@ -46937,7 +51044,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1000261,
@@ -46968,7 +51078,10 @@ const dokkanCharacters = [
             "Earth-Bred Fighters",
             "Mission Execution"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1001041,
@@ -46995,7 +51108,10 @@ const dokkanCharacters = [
             "Earth-Bred Fighters",
             "Tournament Participants"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1001051,
@@ -47023,7 +51139,10 @@ const dokkanCharacters = [
             "Space-Traveling Warriors",
             "Mission Execution"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1001061,
@@ -47053,7 +51172,10 @@ const dokkanCharacters = [
             "Space-Traveling Warriors",
             "Mission Execution"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1001071,
@@ -47083,7 +51205,10 @@ const dokkanCharacters = [
             "Space-Traveling Warriors",
             "Mission Execution"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1001081,
@@ -47113,7 +51238,10 @@ const dokkanCharacters = [
             "Accelerated Battle",
             "Mission Execution"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1001091,
@@ -47143,7 +51271,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1001101,
@@ -47171,7 +51302,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "HEALER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1000821,
@@ -47203,7 +51337,10 @@ const dokkanCharacters = [
             "Tournament Participants",
             "Earth-Protecting Heroes"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1001111,
@@ -47227,7 +51364,10 @@ const dokkanCharacters = [
             "Space-Traveling Warriors",
             "Mission Execution"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1001381,
@@ -47254,7 +51394,10 @@ const dokkanCharacters = [
             "Earthlings",
             "Earth-Bred Fighters"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 2000161,
@@ -47288,7 +51431,10 @@ const dokkanCharacters = [
             "Successors",
             "Mission Execution"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1001501,
@@ -47317,7 +51463,10 @@ const dokkanCharacters = [
             "Storied Figures",
             "Mission Execution"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1001731,
@@ -47345,7 +51494,10 @@ const dokkanCharacters = [
             "Worldwide Chaos",
             "Uncontrollable Power"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1001741,
@@ -47375,7 +51527,10 @@ const dokkanCharacters = [
             "Worldwide Chaos",
             "Uncontrollable Power"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1002241,
@@ -47410,7 +51565,10 @@ const dokkanCharacters = [
             "Bond of Parent and Child",
             "Earth-Bred Fighters"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1002421,
@@ -47448,7 +51606,10 @@ const dokkanCharacters = [
             "Earth-Bred Fighters",
             "Earth-Protecting Heroes"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 2000850,
@@ -47470,7 +51631,10 @@ const dokkanCharacters = [
             "Godly Power"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 2000840,
@@ -47492,7 +51656,10 @@ const dokkanCharacters = [
             "Godly Power"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 2000830,
@@ -47514,7 +51681,10 @@ const dokkanCharacters = [
             "Godly Power"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 2000820,
@@ -47536,7 +51706,10 @@ const dokkanCharacters = [
             "Godly Power"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 2000810,
@@ -47560,7 +51733,10 @@ const dokkanCharacters = [
         "categories": [],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 2000800,
@@ -47584,7 +51760,10 @@ const dokkanCharacters = [
         "categories": [],
         "roles": [
             "TANK"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 2000790,
@@ -47606,7 +51785,10 @@ const dokkanCharacters = [
             "Godly Power"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 2000780,
@@ -47628,7 +51810,10 @@ const dokkanCharacters = [
             "Godly Power"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 2000770,
@@ -47650,7 +51835,10 @@ const dokkanCharacters = [
             "Godly Power"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1003901,
@@ -47685,7 +51873,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1002201,
@@ -47717,7 +51908,10 @@ const dokkanCharacters = [
             "Earth-Bred Fighters",
             "Demonic Power"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1002211,
@@ -47745,7 +51939,10 @@ const dokkanCharacters = [
             "Defenders of Justice",
             "Mission Execution"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1003530,
@@ -47769,7 +51966,10 @@ const dokkanCharacters = [
         "categories": [],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1002350,
@@ -47791,7 +51991,10 @@ const dokkanCharacters = [
             "Ginyu Force"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1002221,
@@ -47822,7 +52025,10 @@ const dokkanCharacters = [
             "Turtle School",
             "Earth-Bred Fighters"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1003821,
@@ -47853,7 +52059,10 @@ const dokkanCharacters = [
             "Successors",
             "Mission Execution"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1001981,
@@ -47884,7 +52093,10 @@ const dokkanCharacters = [
             "Successors",
             "Mission Execution"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1002051,
@@ -47912,7 +52124,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1001761,
@@ -47947,7 +52162,10 @@ const dokkanCharacters = [
             "Earth-Bred Fighters",
             "Tournament Participants"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1002311,
@@ -47977,7 +52195,10 @@ const dokkanCharacters = [
             "Earth-Bred Fighters",
             "Mission Execution"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1001721,
@@ -48012,7 +52233,10 @@ const dokkanCharacters = [
             "Worldwide Chaos",
             "Tournament Participants"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1003281,
@@ -48047,7 +52271,10 @@ const dokkanCharacters = [
             "Earth-Bred Fighters",
             "Earth-Protecting Heroes"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1004441,
@@ -48083,7 +52310,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1002571,
@@ -48117,7 +52347,10 @@ const dokkanCharacters = [
             "Bond of Parent and Child",
             "Earth-Bred Fighters"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1002581,
@@ -48153,7 +52386,10 @@ const dokkanCharacters = [
             "Bond of Parent and Child",
             "Earth-Bred Fighters"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1002281,
@@ -48189,7 +52425,10 @@ const dokkanCharacters = [
             "Demonic Power",
             "Successors"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 2000181,
@@ -48217,7 +52456,10 @@ const dokkanCharacters = [
             "Space-Traveling Warriors",
             "Storied Figures"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1003541,
@@ -48247,7 +52489,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "HEALER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1002321,
@@ -48275,7 +52520,10 @@ const dokkanCharacters = [
             "Bond of Parent and Child",
             "Earth-Bred Fighters"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1002981,
@@ -48308,7 +52556,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "HEALER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1002480,
@@ -48329,7 +52580,10 @@ const dokkanCharacters = [
             "Big Bad Bosses"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1002031,
@@ -48360,7 +52614,10 @@ const dokkanCharacters = [
             "Earth-Bred Fighters",
             "Tournament Participants"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 2000691,
@@ -48391,7 +52648,10 @@ const dokkanCharacters = [
             "Earth-Bred Fighters",
             "Demonic Power"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1003580,
@@ -48414,7 +52674,10 @@ const dokkanCharacters = [
             "Supreme Power"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1002941,
@@ -48450,7 +52713,10 @@ const dokkanCharacters = [
             "Tournament Participants",
             "Demonic Power"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1003590,
@@ -48476,7 +52742,10 @@ const dokkanCharacters = [
         "categories": [],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1002950,
@@ -48500,7 +52769,10 @@ const dokkanCharacters = [
             "Supreme Power"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1002341,
@@ -48533,7 +52805,10 @@ const dokkanCharacters = [
             "Earth-Bred Fighters",
             "Tournament Participants"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1003331,
@@ -48568,7 +52843,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "HEALER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1003921,
@@ -48596,7 +52874,10 @@ const dokkanCharacters = [
             "Accelerated Battle",
             "Mission Execution"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1003931,
@@ -48622,7 +52903,10 @@ const dokkanCharacters = [
             "Planetary Destruction",
             "Mission Execution"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1003941,
@@ -48650,7 +52934,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1002361,
@@ -48679,7 +52966,10 @@ const dokkanCharacters = [
             "Demonic Power",
             "Mission Execution"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1003161,
@@ -48708,7 +52998,10 @@ const dokkanCharacters = [
             "Earth-Bred Fighters",
             "Earth-Protecting Heroes"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1003001,
@@ -48740,7 +53033,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1003131,
@@ -48774,7 +53070,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1003970,
@@ -48790,7 +53089,10 @@ const dokkanCharacters = [
         "activeSkill": "Aucun Active Skill",
         "links": [],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 2000761,
@@ -48814,7 +53116,10 @@ const dokkanCharacters = [
             "Pure Saiyans",
             "Revenge"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1004191,
@@ -48841,7 +53146,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1004280,
@@ -48863,7 +53171,10 @@ const dokkanCharacters = [
             "Prepared for Battle"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1003220,
@@ -48885,7 +53196,10 @@ const dokkanCharacters = [
             "Royal Lineage"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1002430,
@@ -48907,7 +53221,10 @@ const dokkanCharacters = [
             "Godly Power"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1002130,
@@ -48929,7 +53246,10 @@ const dokkanCharacters = [
             "Godly Power"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1001751,
@@ -48961,7 +53281,10 @@ const dokkanCharacters = [
             "Bond of Parent and Child",
             "Earth-Bred Fighters"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1000850,
@@ -48983,7 +53306,10 @@ const dokkanCharacters = [
             "Experienced Fighters"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1000030,
@@ -49005,7 +53331,10 @@ const dokkanCharacters = [
             "Royal Lineage"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1003870,
@@ -49026,7 +53355,10 @@ const dokkanCharacters = [
             "Prodigies"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1002140,
@@ -49048,7 +53380,10 @@ const dokkanCharacters = [
             "Godly Power"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1000860,
@@ -49069,7 +53404,10 @@ const dokkanCharacters = [
             "Prodigies"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1000040,
@@ -49090,7 +53428,10 @@ const dokkanCharacters = [
             "Prodigies"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1000070,
@@ -49113,7 +53454,10 @@ const dokkanCharacters = [
             "Fierce Battle"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 2000021,
@@ -49143,7 +53487,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1001620,
@@ -49163,7 +53510,10 @@ const dokkanCharacters = [
             "Golden Z-Fighter"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1001151,
@@ -49193,7 +53543,10 @@ const dokkanCharacters = [
             "Earth-Bred Fighters",
             "Demonic Power"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1000870,
@@ -49213,7 +53566,10 @@ const dokkanCharacters = [
             "Berserker"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1000271,
@@ -49243,7 +53599,10 @@ const dokkanCharacters = [
             "Earth-Bred Fighters",
             "Demonic Power"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1000090,
@@ -49263,7 +53622,10 @@ const dokkanCharacters = [
             "Berserker"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1001860,
@@ -49285,7 +53647,10 @@ const dokkanCharacters = [
             "Blazing Battle"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1000880,
@@ -49306,7 +53671,10 @@ const dokkanCharacters = [
             "Z Fighters"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1000810,
@@ -49327,7 +53695,10 @@ const dokkanCharacters = [
             "Z Fighters"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1000281,
@@ -49361,7 +53732,10 @@ const dokkanCharacters = [
             "Earth-Bred Fighters",
             "Earth-Protecting Heroes"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1000100,
@@ -49382,7 +53756,10 @@ const dokkanCharacters = [
             "Z Fighters"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1001681,
@@ -49415,7 +53792,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1001161,
@@ -49443,7 +53823,10 @@ const dokkanCharacters = [
             "Saiyan Saga",
             "Earth-Bred Fighters"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1000890,
@@ -49464,7 +53847,10 @@ const dokkanCharacters = [
             "Royal Lineage"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1000291,
@@ -49492,7 +53878,10 @@ const dokkanCharacters = [
             "Bond of Friendship",
             "Earth-Bred Fighters"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1000110,
@@ -49515,7 +53904,10 @@ const dokkanCharacters = [
         "categories": [],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1003510,
@@ -49537,7 +53929,10 @@ const dokkanCharacters = [
             "Attack of the Clones"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1002611,
@@ -49569,7 +53964,10 @@ const dokkanCharacters = [
             "Demonic Power",
             "Successors"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1001171,
@@ -49601,7 +53999,10 @@ const dokkanCharacters = [
             "Demonic Power",
             "Successors"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1000900,
@@ -49624,7 +54025,10 @@ const dokkanCharacters = [
         "categories": [],
         "roles": [
             "HEALER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1000301,
@@ -49655,7 +54059,10 @@ const dokkanCharacters = [
             "Demonic Power",
             "Successors"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1000120,
@@ -49679,7 +54086,10 @@ const dokkanCharacters = [
         "categories": [],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1002600,
@@ -49701,7 +54111,10 @@ const dokkanCharacters = [
             "Godly Power"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1002231,
@@ -49717,7 +54130,10 @@ const dokkanCharacters = [
         "activeSkill": "Aucun Active Skill",
         "links": [],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1001770,
@@ -49741,7 +54157,10 @@ const dokkanCharacters = [
         "categories": [],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1001450,
@@ -49763,7 +54182,10 @@ const dokkanCharacters = [
             "Solid Support"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1001181,
@@ -49792,7 +54214,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "TANK"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1000910,
@@ -49814,7 +54239,10 @@ const dokkanCharacters = [
             "Solid Support"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1000311,
@@ -49842,7 +54270,10 @@ const dokkanCharacters = [
             "Saiyan Saga",
             "Earth-Bred Fighters"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1000130,
@@ -49864,7 +54295,10 @@ const dokkanCharacters = [
             "Solid Support"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1001460,
@@ -49888,7 +54322,10 @@ const dokkanCharacters = [
         "categories": [],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1001191,
@@ -49918,7 +54355,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "TANK"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1000920,
@@ -49940,7 +54380,10 @@ const dokkanCharacters = [
             "The Saiyan Lineage"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1000321,
@@ -49968,7 +54411,10 @@ const dokkanCharacters = [
             "Saiyan Saga",
             "Earth-Bred Fighters"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1000140,
@@ -49990,7 +54436,10 @@ const dokkanCharacters = [
             "Dodon Ray"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1003521,
@@ -50021,7 +54470,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "TANK"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1002330,
@@ -50045,7 +54497,10 @@ const dokkanCharacters = [
         "categories": [],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1001440,
@@ -50067,7 +54522,10 @@ const dokkanCharacters = [
             "Kamehameha"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1001201,
@@ -50095,7 +54553,10 @@ const dokkanCharacters = [
             "Saiyan Saga",
             "Earth-Bred Fighters"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1000930,
@@ -50119,7 +54580,10 @@ const dokkanCharacters = [
         "categories": [],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1000331,
@@ -50147,7 +54611,10 @@ const dokkanCharacters = [
             "Saiyan Saga",
             "Earth-Bred Fighters"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1000150,
@@ -50168,7 +54635,10 @@ const dokkanCharacters = [
             "Fear and Faith"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1001430,
@@ -50189,7 +54659,10 @@ const dokkanCharacters = [
             "Brutal Beatdown"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1001131,
@@ -50217,7 +54690,10 @@ const dokkanCharacters = [
             "Saiyan Saga",
             "Mission Execution"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1000341,
@@ -50247,7 +54723,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "TANK"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1000160,
@@ -50269,7 +54748,10 @@ const dokkanCharacters = [
         "categories": [],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1001420,
@@ -50291,7 +54773,10 @@ const dokkanCharacters = [
             "Thirst for Conquest"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1001141,
@@ -50319,7 +54804,10 @@ const dokkanCharacters = [
             "Saiyan Saga",
             "Mission Execution"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1000960,
@@ -50341,7 +54829,10 @@ const dokkanCharacters = [
             "Thirst for Conquest"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1000351,
@@ -50369,7 +54860,10 @@ const dokkanCharacters = [
             "Saiyan Saga",
             "Mission Execution"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1000170,
@@ -50391,7 +54885,10 @@ const dokkanCharacters = [
             "Thirst for Conquest"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1001211,
@@ -50418,7 +54915,10 @@ const dokkanCharacters = [
             "Space-Traveling Warriors",
             "Mission Execution"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1000940,
@@ -50440,7 +54940,10 @@ const dokkanCharacters = [
         "categories": [],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1000361,
@@ -50467,7 +54970,10 @@ const dokkanCharacters = [
             "Space-Traveling Warriors",
             "Mission Execution"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1000180,
@@ -50487,7 +54993,10 @@ const dokkanCharacters = [
             "Speedy Retribution"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1001221,
@@ -50517,7 +55026,10 @@ const dokkanCharacters = [
             "Space-Traveling Warriors",
             "Mission Execution"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1000950,
@@ -50539,7 +55051,10 @@ const dokkanCharacters = [
             "Signature Pose"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1000371,
@@ -50571,7 +55086,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1000190,
@@ -50593,7 +55111,10 @@ const dokkanCharacters = [
             "Signature Pose"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1001830,
@@ -50614,7 +55135,10 @@ const dokkanCharacters = [
             "Flee"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1001231,
@@ -50642,7 +55166,10 @@ const dokkanCharacters = [
             "Power Absorption",
             "Mission Execution"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1000971,
@@ -50670,7 +55197,10 @@ const dokkanCharacters = [
             "Power Absorption",
             "Mission Execution"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1000381,
@@ -50698,7 +55228,10 @@ const dokkanCharacters = [
             "Power Absorption",
             "Mission Execution"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1000200,
@@ -50721,7 +55254,10 @@ const dokkanCharacters = [
         "categories": [],
         "roles": [
             "HEALER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1001840,
@@ -50746,7 +55282,10 @@ const dokkanCharacters = [
         "categories": [],
         "roles": [
             "HEALER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1001241,
@@ -50777,7 +55316,10 @@ const dokkanCharacters = [
             "Battle of Wits",
             "Power Absorption"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1000980,
@@ -50803,7 +55345,10 @@ const dokkanCharacters = [
         "categories": [],
         "roles": [
             "HEALER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1000391,
@@ -50836,7 +55381,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "HEALER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1000210,
@@ -50862,7 +55410,10 @@ const dokkanCharacters = [
         "categories": [],
         "roles": [
             "HEALER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1001251,
@@ -50890,7 +55441,10 @@ const dokkanCharacters = [
             "Uncontrollable Power",
             "Mission Execution"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1000990,
@@ -50911,7 +55465,10 @@ const dokkanCharacters = [
             "Twin Terrors"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1000401,
@@ -50941,7 +55498,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "TANK"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1000220,
@@ -50963,7 +55523,10 @@ const dokkanCharacters = [
             "Twin Terrors"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1001261,
@@ -50994,7 +55557,10 @@ const dokkanCharacters = [
             "Uncontrollable Power",
             "Mission Execution"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1001000,
@@ -51016,7 +55582,10 @@ const dokkanCharacters = [
             "Twin Terrors"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1000411,
@@ -51049,7 +55618,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "TANK"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1000230,
@@ -51072,7 +55644,10 @@ const dokkanCharacters = [
             "Twin Terrors"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1001271,
@@ -51101,7 +55676,10 @@ const dokkanCharacters = [
             "Uncontrollable Power",
             "Mission Execution"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1001010,
@@ -51121,7 +55699,10 @@ const dokkanCharacters = [
             "Signature Pose"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1000421,
@@ -51149,7 +55730,10 @@ const dokkanCharacters = [
             "Uncontrollable Power",
             "Mission Execution"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1000240,
@@ -51169,7 +55753,10 @@ const dokkanCharacters = [
             "Signature Pose"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1000250,
@@ -51194,7 +55781,10 @@ const dokkanCharacters = [
         "categories": [],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1001031,
@@ -51225,7 +55815,10 @@ const dokkanCharacters = [
             "Earth-Bred Fighters",
             "Mission Execution"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1000441,
@@ -51255,7 +55848,10 @@ const dokkanCharacters = [
             "Earth-Bred Fighters",
             "Mission Execution"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1000260,
@@ -51277,7 +55873,10 @@ const dokkanCharacters = [
             "Guidance of the Dragon Balls"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1000451,
@@ -51303,7 +55902,10 @@ const dokkanCharacters = [
             "DB Saga",
             "Terrifying Conquerors"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1000461,
@@ -51331,7 +55933,10 @@ const dokkanCharacters = [
             "Demonic Power",
             "Successors"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1000471,
@@ -51357,7 +55962,10 @@ const dokkanCharacters = [
             "Demonic Power",
             "Mission Execution"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1000481,
@@ -51382,7 +55990,10 @@ const dokkanCharacters = [
             "Demonic Power",
             "Mission Execution"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1000491,
@@ -51407,7 +56018,10 @@ const dokkanCharacters = [
             "Demonic Power",
             "Mission Execution"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1001040,
@@ -51426,7 +56040,10 @@ const dokkanCharacters = [
             "Battlefield Diva"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1001291,
@@ -51454,7 +56071,10 @@ const dokkanCharacters = [
             "Space-Traveling Warriors",
             "Mission Execution"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1001050,
@@ -51475,7 +56095,10 @@ const dokkanCharacters = [
             "Fused Fighter"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1000511,
@@ -51503,7 +56126,10 @@ const dokkanCharacters = [
             "Space-Traveling Warriors",
             "Mission Execution"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1001301,
@@ -51533,7 +56159,10 @@ const dokkanCharacters = [
             "Space-Traveling Warriors",
             "Mission Execution"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1001060,
@@ -51555,7 +56184,10 @@ const dokkanCharacters = [
             "Signature Pose"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1000521,
@@ -51584,7 +56216,10 @@ const dokkanCharacters = [
             "Space-Traveling Warriors",
             "Mission Execution"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1001671,
@@ -51614,7 +56249,10 @@ const dokkanCharacters = [
             "Space-Traveling Warriors",
             "Mission Execution"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1001311,
@@ -51644,7 +56282,10 @@ const dokkanCharacters = [
             "Space-Traveling Warriors",
             "Mission Execution"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1001070,
@@ -51666,7 +56307,10 @@ const dokkanCharacters = [
             "Signature Pose"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1000531,
@@ -51696,7 +56340,10 @@ const dokkanCharacters = [
             "Space-Traveling Warriors",
             "Mission Execution"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1001321,
@@ -51726,7 +56373,10 @@ const dokkanCharacters = [
             "Accelerated Battle",
             "Mission Execution"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1001080,
@@ -51747,7 +56397,10 @@ const dokkanCharacters = [
             "Signature Pose"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1000541,
@@ -51777,7 +56430,10 @@ const dokkanCharacters = [
             "Accelerated Battle",
             "Mission Execution"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1001331,
@@ -51805,7 +56461,10 @@ const dokkanCharacters = [
             "Space-Traveling Warriors",
             "Mission Execution"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1001090,
@@ -51827,7 +56486,10 @@ const dokkanCharacters = [
         "categories": [],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1000551,
@@ -51855,7 +56517,10 @@ const dokkanCharacters = [
             "Space-Traveling Warriors",
             "Mission Execution"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1001341,
@@ -51882,7 +56547,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1000561,
@@ -51907,7 +56575,10 @@ const dokkanCharacters = [
             "Saiyan Saga",
             "Earth-Bred Fighters"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1001571,
@@ -51933,7 +56604,10 @@ const dokkanCharacters = [
             "Demonic Power",
             "Mission Execution"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1001351,
@@ -51959,7 +56633,10 @@ const dokkanCharacters = [
             "Demonic Power",
             "Mission Execution"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1001100,
@@ -51981,7 +56658,10 @@ const dokkanCharacters = [
         "categories": [],
         "roles": [
             "HEALER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1000571,
@@ -52007,7 +56687,10 @@ const dokkanCharacters = [
             "Demonic Power",
             "Mission Execution"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1000820,
@@ -52029,7 +56712,10 @@ const dokkanCharacters = [
             "Twin Terrors"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1000581,
@@ -52061,7 +56747,10 @@ const dokkanCharacters = [
             "Tournament Participants",
             "Earth-Protecting Heroes"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1001371,
@@ -52090,7 +56779,10 @@ const dokkanCharacters = [
             "Bond of Parent and Child",
             "Earth-Bred Fighters"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1000591,
@@ -52121,7 +56813,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1000601,
@@ -52151,7 +56846,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "TANK"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1000611,
@@ -52181,7 +56879,10 @@ const dokkanCharacters = [
             "Tournament Participants",
             "Mission Execution"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1000621,
@@ -52210,7 +56911,10 @@ const dokkanCharacters = [
             "Tournament Participants",
             "Mission Execution"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1002061,
@@ -52240,7 +56944,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "TANK"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1000631,
@@ -52268,7 +56975,10 @@ const dokkanCharacters = [
             "Demonic Power",
             "Mission Execution"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1002071,
@@ -52294,7 +57004,10 @@ const dokkanCharacters = [
             "Corroded Body and Mind",
             "Mission Execution"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1001361,
@@ -52318,7 +57031,10 @@ const dokkanCharacters = [
             "Space-Traveling Warriors",
             "Mission Execution"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1001110,
@@ -52337,7 +57053,10 @@ const dokkanCharacters = [
             "Speedy Retribution"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1001380,
@@ -52358,7 +57077,10 @@ const dokkanCharacters = [
             "Guidance of the Dragon Balls"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 2000160,
@@ -52379,7 +57101,10 @@ const dokkanCharacters = [
             "Lien Inconnu (121)"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1001500,
@@ -52400,7 +57125,10 @@ const dokkanCharacters = [
             "Battlefield Diva"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1001541,
@@ -52427,7 +57155,10 @@ const dokkanCharacters = [
             "Storied Figures",
             "Mission Execution"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1001551,
@@ -52455,7 +57186,10 @@ const dokkanCharacters = [
             "Storied Figures",
             "Mission Execution"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1001561,
@@ -52483,7 +57217,10 @@ const dokkanCharacters = [
             "Storied Figures",
             "Mission Execution"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1001730,
@@ -52504,7 +57241,10 @@ const dokkanCharacters = [
             "Organic Upgrade"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1001740,
@@ -52526,7 +57266,10 @@ const dokkanCharacters = [
             "Organic Upgrade"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1002240,
@@ -52548,7 +57291,10 @@ const dokkanCharacters = [
             "Guidance of the Dragon Balls"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1002420,
@@ -52570,7 +57316,10 @@ const dokkanCharacters = [
             "Godly Power"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1003900,
@@ -52593,7 +57342,10 @@ const dokkanCharacters = [
         "categories": [],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1002161,
@@ -52622,7 +57374,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1002171,
@@ -52648,7 +57403,10 @@ const dokkanCharacters = [
             "Space-Traveling Warriors",
             "Mission Execution"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1002181,
@@ -52682,7 +57440,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "HEALER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1002191,
@@ -52712,7 +57473,10 @@ const dokkanCharacters = [
             "Earth-Bred Fighters",
             "Demonic Power"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1002200,
@@ -52734,7 +57498,10 @@ const dokkanCharacters = [
             "Godly Power"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1002210,
@@ -52756,7 +57523,10 @@ const dokkanCharacters = [
             "Godly Power"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1002220,
@@ -52778,7 +57548,10 @@ const dokkanCharacters = [
             "Godly Power"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1002591,
@@ -52803,7 +57576,10 @@ const dokkanCharacters = [
             "Space-Traveling Warriors",
             "Mission Execution"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1003820,
@@ -52826,7 +57602,10 @@ const dokkanCharacters = [
             "Fear and Faith"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1001980,
@@ -52849,7 +57628,10 @@ const dokkanCharacters = [
             "Fear and Faith"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1002050,
@@ -52871,7 +57653,10 @@ const dokkanCharacters = [
         "categories": [],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1001760,
@@ -52893,7 +57678,10 @@ const dokkanCharacters = [
             "Z Fighters"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1002001,
@@ -52929,7 +57717,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1002301,
@@ -52958,7 +57749,10 @@ const dokkanCharacters = [
             "Earth-Bred Fighters",
             "Mission Execution"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1002310,
@@ -52980,7 +57774,10 @@ const dokkanCharacters = [
             "The Incredible Adventure"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1001720,
@@ -53002,7 +57799,10 @@ const dokkanCharacters = [
             "Fierce Battle"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1003280,
@@ -53024,7 +57824,10 @@ const dokkanCharacters = [
             "Super Saiyan"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1004440,
@@ -53048,7 +57851,10 @@ const dokkanCharacters = [
         "categories": [],
         "roles": [
             "DPS / NUKER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1002570,
@@ -53070,7 +57876,10 @@ const dokkanCharacters = [
             "Kamehameha"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1002580,
@@ -53092,7 +57901,10 @@ const dokkanCharacters = [
             "Kamehameha"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1002280,
@@ -53114,7 +57926,10 @@ const dokkanCharacters = [
             "Transform"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 2000180,
@@ -53135,7 +57950,10 @@ const dokkanCharacters = [
             "Thirst for Conquest"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 2000721,
@@ -53166,7 +57984,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 2000731,
@@ -53197,7 +58018,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 2000741,
@@ -53228,7 +58052,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1003540,
@@ -53250,7 +58077,10 @@ const dokkanCharacters = [
         "categories": [],
         "roles": [
             "HEALER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1002320,
@@ -53270,7 +58100,10 @@ const dokkanCharacters = [
             "Guidance of the Dragon Balls"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1002980,
@@ -53293,7 +58126,10 @@ const dokkanCharacters = [
         "categories": [],
         "roles": [
             "HEALER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1002501,
@@ -53322,7 +58158,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1002511,
@@ -53351,7 +58190,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1002030,
@@ -53373,7 +58215,10 @@ const dokkanCharacters = [
             "Berserker"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 2000690,
@@ -53394,7 +58239,10 @@ const dokkanCharacters = [
             "Signature Pose"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1002940,
@@ -53417,7 +58265,10 @@ const dokkanCharacters = [
             "Supreme Power"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1003881,
@@ -53447,7 +58298,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "HEALER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1002340,
@@ -53468,7 +58322,10 @@ const dokkanCharacters = [
             "Kamehameha"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1003330,
@@ -53492,7 +58349,10 @@ const dokkanCharacters = [
         "categories": [],
         "roles": [
             "HEALER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1003920,
@@ -53514,7 +58374,10 @@ const dokkanCharacters = [
             "Mechanical Menaces"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1003930,
@@ -53535,7 +58398,10 @@ const dokkanCharacters = [
             "Solid Support"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1003940,
@@ -53558,7 +58424,10 @@ const dokkanCharacters = [
         "categories": [],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1003951,
@@ -53587,7 +58456,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "TANK"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1003961,
@@ -53616,7 +58488,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "TANK"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1002360,
@@ -53638,7 +58513,10 @@ const dokkanCharacters = [
             "The Incredible Adventure"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1003160,
@@ -53660,7 +58538,10 @@ const dokkanCharacters = [
             "The Incredible Adventure"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1003151,
@@ -53687,7 +58568,10 @@ const dokkanCharacters = [
             "Earth-Bred Fighters",
             "Tournament Participants"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1002381,
@@ -53715,7 +58599,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "HEALER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1002371,
@@ -53743,7 +58630,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "TANK"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1003000,
@@ -53767,7 +58657,10 @@ const dokkanCharacters = [
         "categories": [],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1003130,
@@ -53791,7 +58684,10 @@ const dokkanCharacters = [
         "categories": [],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1003061,
@@ -53824,7 +58720,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "TANK"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1002041,
@@ -53854,7 +58753,10 @@ const dokkanCharacters = [
             "Earth-Bred Fighters",
             "Tournament Participants"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 2000760,
@@ -53875,7 +58777,10 @@ const dokkanCharacters = [
             "Coward"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1003651,
@@ -53900,7 +58805,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1004190,
@@ -53922,7 +58830,10 @@ const dokkanCharacters = [
         "categories": [],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1004671,
@@ -53951,7 +58862,10 @@ const dokkanCharacters = [
             "Earth-Bred Fighters",
             "Mission Execution"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1004661,
@@ -53978,7 +58892,10 @@ const dokkanCharacters = [
         ],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1001750,
@@ -54000,7 +58917,10 @@ const dokkanCharacters = [
             "Experienced Fighters"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 2000020,
@@ -54022,7 +58942,10 @@ const dokkanCharacters = [
         "categories": [],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1001150,
@@ -54043,7 +58966,10 @@ const dokkanCharacters = [
             "Demonic Ways"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1000270,
@@ -54064,7 +58990,10 @@ const dokkanCharacters = [
             "Demonic Ways"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1000280,
@@ -54086,7 +59015,10 @@ const dokkanCharacters = [
             "Z Fighters"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1001881,
@@ -54102,7 +59034,10 @@ const dokkanCharacters = [
         "activeSkill": "Aucun Active Skill",
         "links": [],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1001880,
@@ -54118,7 +59053,10 @@ const dokkanCharacters = [
         "activeSkill": "Aucun Active Skill",
         "links": [],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1001680,
@@ -54142,7 +59080,10 @@ const dokkanCharacters = [
         "categories": [],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1001160,
@@ -54163,7 +59104,10 @@ const dokkanCharacters = [
             "Royal Lineage"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1000290,
@@ -54185,7 +59129,10 @@ const dokkanCharacters = [
             "Royal Lineage"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1002610,
@@ -54207,7 +59154,10 @@ const dokkanCharacters = [
             "Godly Power"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1001170,
@@ -54229,7 +59179,10 @@ const dokkanCharacters = [
             "Namekians"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1000300,
@@ -54251,7 +59204,10 @@ const dokkanCharacters = [
             "Attack of the Clones"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1002230,
@@ -54267,7 +59223,10 @@ const dokkanCharacters = [
         "activeSkill": "Aucun Active Skill",
         "links": [],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1001901,
@@ -54291,7 +59250,10 @@ const dokkanCharacters = [
             "Bond of Friendship",
             "Earth-Bred Fighters"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1001180,
@@ -54315,7 +59277,10 @@ const dokkanCharacters = [
         "categories": [],
         "roles": [
             "TANK"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1000310,
@@ -54337,7 +59302,10 @@ const dokkanCharacters = [
             "Solid Support"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1001911,
@@ -54362,7 +59330,10 @@ const dokkanCharacters = [
             "Saiyan Saga",
             "Earth-Bred Fighters"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1001190,
@@ -54386,7 +59357,10 @@ const dokkanCharacters = [
         "categories": [],
         "roles": [
             "TANK"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1000320,
@@ -54408,7 +59382,10 @@ const dokkanCharacters = [
             "The Saiyan Lineage"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1003520,
@@ -54433,7 +59410,10 @@ const dokkanCharacters = [
         "categories": [],
         "roles": [
             "TANK"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1001891,
@@ -54458,7 +59438,10 @@ const dokkanCharacters = [
             "Saiyan Saga",
             "Earth-Bred Fighters"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1001871,
@@ -54474,7 +59457,10 @@ const dokkanCharacters = [
         "activeSkill": "Aucun Active Skill",
         "links": [],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1001870,
@@ -54490,7 +59476,10 @@ const dokkanCharacters = [
         "activeSkill": "Aucun Active Skill",
         "links": [],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1001200,
@@ -54512,7 +59501,10 @@ const dokkanCharacters = [
             "Solid Support"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1000330,
@@ -54534,7 +59526,10 @@ const dokkanCharacters = [
             "Solid Support"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1001130,
@@ -54554,7 +59549,10 @@ const dokkanCharacters = [
             "Coward"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1000340,
@@ -54576,7 +59574,10 @@ const dokkanCharacters = [
         "categories": [],
         "roles": [
             "TANK"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1001140,
@@ -54598,7 +59599,10 @@ const dokkanCharacters = [
             "Thirst for Conquest"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1000350,
@@ -54620,7 +59624,10 @@ const dokkanCharacters = [
             "Thirst for Conquest"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1001210,
@@ -54640,7 +59647,10 @@ const dokkanCharacters = [
             "Speedy Retribution"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1000360,
@@ -54660,7 +59670,10 @@ const dokkanCharacters = [
             "Speedy Retribution"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1001220,
@@ -54682,7 +59695,10 @@ const dokkanCharacters = [
             "Signature Pose"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1000370,
@@ -54706,7 +59722,10 @@ const dokkanCharacters = [
         "categories": [],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1001230,
@@ -54727,7 +59746,10 @@ const dokkanCharacters = [
             "Energy Absorption"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1000970,
@@ -54748,7 +59770,10 @@ const dokkanCharacters = [
             "Energy Absorption"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1000380,
@@ -54769,7 +59794,10 @@ const dokkanCharacters = [
             "Energy Absorption"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1001240,
@@ -54792,7 +59820,10 @@ const dokkanCharacters = [
             "Energy Absorption"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1000390,
@@ -54817,7 +59848,10 @@ const dokkanCharacters = [
         "categories": [],
         "roles": [
             "HEALER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1001250,
@@ -54838,7 +59872,10 @@ const dokkanCharacters = [
             "Organic Upgrade"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1000400,
@@ -54861,7 +59898,10 @@ const dokkanCharacters = [
         "categories": [],
         "roles": [
             "TANK"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1001260,
@@ -54883,7 +59923,10 @@ const dokkanCharacters = [
             "Organic Upgrade"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1000410,
@@ -54907,7 +59950,10 @@ const dokkanCharacters = [
         "categories": [],
         "roles": [
             "TANK"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1001270,
@@ -54928,7 +59974,10 @@ const dokkanCharacters = [
             "Blazing Battle"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1000420,
@@ -54948,7 +59997,10 @@ const dokkanCharacters = [
             "Signature Pose"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1001030,
@@ -54970,7 +60022,10 @@ const dokkanCharacters = [
             "Dodon Ray"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1000440,
@@ -54991,7 +60046,10 @@ const dokkanCharacters = [
             "Guidance of the Dragon Balls"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1000450,
@@ -55013,7 +60071,10 @@ const dokkanCharacters = [
             "Guidance of the Dragon Balls"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1000460,
@@ -55033,7 +60094,10 @@ const dokkanCharacters = [
             "Transform"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1000470,
@@ -55053,7 +60117,10 @@ const dokkanCharacters = [
             "Guidance of the Dragon Balls"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1000480,
@@ -55072,7 +60139,10 @@ const dokkanCharacters = [
             "Guidance of the Dragon Balls"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1000490,
@@ -55092,7 +60162,10 @@ const dokkanCharacters = [
             "Guidance of the Dragon Balls"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1001290,
@@ -55113,7 +60186,10 @@ const dokkanCharacters = [
             "Fused Fighter"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1000510,
@@ -55134,7 +60210,10 @@ const dokkanCharacters = [
             "Fused Fighter"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1001300,
@@ -55156,7 +60235,10 @@ const dokkanCharacters = [
             "Signature Pose"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1000520,
@@ -55177,7 +60259,10 @@ const dokkanCharacters = [
             "Signature Pose"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1001670,
@@ -55199,7 +60284,10 @@ const dokkanCharacters = [
             "Signature Pose"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1001310,
@@ -55221,7 +60309,10 @@ const dokkanCharacters = [
             "Signature Pose"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1000530,
@@ -55243,7 +60334,10 @@ const dokkanCharacters = [
             "Signature Pose"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1001320,
@@ -55264,7 +60358,10 @@ const dokkanCharacters = [
             "Signature Pose"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1000540,
@@ -55285,7 +60382,10 @@ const dokkanCharacters = [
             "Signature Pose"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1001330,
@@ -55305,7 +60405,10 @@ const dokkanCharacters = [
             "Signature Pose"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1000550,
@@ -55325,7 +60428,10 @@ const dokkanCharacters = [
             "Signature Pose"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1001340,
@@ -55348,7 +60454,10 @@ const dokkanCharacters = [
         "categories": [],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1000560,
@@ -55369,7 +60478,10 @@ const dokkanCharacters = [
             "Flee"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1001570,
@@ -55389,7 +60501,10 @@ const dokkanCharacters = [
             "Hero of Justice"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1001350,
@@ -55409,7 +60524,10 @@ const dokkanCharacters = [
             "Hero of Justice"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1000570,
@@ -55429,7 +60547,10 @@ const dokkanCharacters = [
             "Hero of Justice"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1000641,
@@ -55461,7 +60582,10 @@ const dokkanCharacters = [
             "Tournament Participants",
             "Earth-Protecting Heroes"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1000580,
@@ -55483,7 +60607,10 @@ const dokkanCharacters = [
             "Twin Terrors"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1001370,
@@ -55505,7 +60632,10 @@ const dokkanCharacters = [
             "Battlefield Diva"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1000651,
@@ -55534,7 +60664,10 @@ const dokkanCharacters = [
             "Bond of Parent and Child",
             "Earth-Bred Fighters"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1000590,
@@ -55558,7 +60691,10 @@ const dokkanCharacters = [
         "categories": [],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 3000241,
@@ -55578,7 +60714,10 @@ const dokkanCharacters = [
             "Brainiacs"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 3000231,
@@ -55598,7 +60737,10 @@ const dokkanCharacters = [
             "Brainiacs"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 3000221,
@@ -55618,7 +60760,10 @@ const dokkanCharacters = [
             "Brainiacs"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 3000211,
@@ -55638,7 +60783,10 @@ const dokkanCharacters = [
             "Brainiacs"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1000661,
@@ -55665,7 +60813,10 @@ const dokkanCharacters = [
             "Tournament Participants",
             "Mission Execution"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1000600,
@@ -55688,7 +60839,10 @@ const dokkanCharacters = [
         "categories": [],
         "roles": [
             "TANK"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1000671,
@@ -55717,7 +60871,10 @@ const dokkanCharacters = [
             "Tournament Participants",
             "Mission Execution"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1000610,
@@ -55738,7 +60895,10 @@ const dokkanCharacters = [
             "Master of Magic"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1000681,
@@ -55766,7 +60926,10 @@ const dokkanCharacters = [
             "Tournament Participants",
             "Mission Execution"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1000620,
@@ -55786,7 +60949,10 @@ const dokkanCharacters = [
             "Berserker"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1002060,
@@ -55809,7 +60975,10 @@ const dokkanCharacters = [
         "categories": [],
         "roles": [
             "TANK"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1000691,
@@ -55834,7 +61003,10 @@ const dokkanCharacters = [
             "Demonic Power",
             "Mission Execution"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1000630,
@@ -55855,7 +61027,10 @@ const dokkanCharacters = [
             "Master of Magic"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1002070,
@@ -55875,7 +61050,10 @@ const dokkanCharacters = [
             "Master of Magic"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1000701,
@@ -55899,7 +61077,10 @@ const dokkanCharacters = [
             "Corroded Body and Mind",
             "Mission Execution"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1000711,
@@ -55922,7 +61103,10 @@ const dokkanCharacters = [
             "Space-Traveling Warriors",
             "Mission Execution"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1001360,
@@ -55941,7 +61125,10 @@ const dokkanCharacters = [
             "Speedy Retribution"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1000721,
@@ -55965,7 +61152,10 @@ const dokkanCharacters = [
             "Space-Traveling Warriors",
             "Mission Execution"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1000731,
@@ -55987,7 +61177,10 @@ const dokkanCharacters = [
             "Terrifying Conquerors",
             "Mission Execution"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1000741,
@@ -56012,7 +61205,10 @@ const dokkanCharacters = [
             "Earth-Bred Fighters",
             "Tournament Participants"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1000751,
@@ -56036,7 +61232,10 @@ const dokkanCharacters = [
             "Earth-Bred Fighters",
             "Tournament Participants"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1000761,
@@ -56060,7 +61259,10 @@ const dokkanCharacters = [
             "Earth-Bred Fighters",
             "Tournament Participants"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1000771,
@@ -56081,7 +61283,10 @@ const dokkanCharacters = [
             "Artificial Life Forms",
             "DB Saga"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 3000291,
@@ -56100,7 +61305,10 @@ const dokkanCharacters = [
             "Lien Inconnu (21)"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 3000281,
@@ -56119,7 +61327,10 @@ const dokkanCharacters = [
             "Lien Inconnu (21)"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 3000271,
@@ -56138,7 +61349,10 @@ const dokkanCharacters = [
             "Lien Inconnu (21)"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 3000261,
@@ -56157,7 +61371,10 @@ const dokkanCharacters = [
             "Lien Inconnu (21)"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1000781,
@@ -56179,7 +61396,10 @@ const dokkanCharacters = [
             "Saiyan Saga",
             "Mission Execution"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 3000601,
@@ -56197,7 +61417,10 @@ const dokkanCharacters = [
             "Speedy Retribution"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 3000591,
@@ -56215,7 +61438,10 @@ const dokkanCharacters = [
             "Speedy Retribution"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 3000581,
@@ -56233,7 +61459,10 @@ const dokkanCharacters = [
             "Speedy Retribution"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 3000561,
@@ -56251,7 +61480,10 @@ const dokkanCharacters = [
             "Speedy Retribution"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1000791,
@@ -56274,7 +61506,10 @@ const dokkanCharacters = [
             "Space-Traveling Warriors",
             "Mission Execution"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 3001151,
@@ -56292,7 +61527,10 @@ const dokkanCharacters = [
             "RR Army"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 3001141,
@@ -56310,7 +61548,10 @@ const dokkanCharacters = [
             "RR Army"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 3001131,
@@ -56328,7 +61569,10 @@ const dokkanCharacters = [
             "RR Army"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 3001111,
@@ -56346,7 +61590,10 @@ const dokkanCharacters = [
             "RR Army"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1000801,
@@ -56370,7 +61617,10 @@ const dokkanCharacters = [
             "Earth-Bred Fighters",
             "Mission Execution"
         ],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1001540,
@@ -56390,7 +61640,10 @@ const dokkanCharacters = [
             "Saiyan Pride"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1001550,
@@ -56411,7 +61664,10 @@ const dokkanCharacters = [
             "Thirst for Conquest"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1001560,
@@ -56432,7 +61688,10 @@ const dokkanCharacters = [
             "Tough as Nails"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1002160,
@@ -56456,7 +61715,10 @@ const dokkanCharacters = [
         "categories": [],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1002170,
@@ -56477,7 +61739,10 @@ const dokkanCharacters = [
             "Godly Power"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1002180,
@@ -56501,7 +61766,10 @@ const dokkanCharacters = [
         "categories": [],
         "roles": [
             "HEALER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1002190,
@@ -56523,7 +61791,10 @@ const dokkanCharacters = [
             "Godly Power"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1002590,
@@ -56544,7 +61815,10 @@ const dokkanCharacters = [
             "Godly Power"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1002000,
@@ -56567,7 +61841,10 @@ const dokkanCharacters = [
         "categories": [],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1002300,
@@ -56589,7 +61866,10 @@ const dokkanCharacters = [
             "The Incredible Adventure"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 2000720,
@@ -56612,7 +61892,10 @@ const dokkanCharacters = [
         "categories": [],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 2000730,
@@ -56635,7 +61918,10 @@ const dokkanCharacters = [
         "categories": [],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 2000740,
@@ -56658,7 +61944,10 @@ const dokkanCharacters = [
         "categories": [],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1002541,
@@ -56674,7 +61963,10 @@ const dokkanCharacters = [
         "activeSkill": "Aucun Active Skill",
         "links": [],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1002540,
@@ -56690,7 +61982,10 @@ const dokkanCharacters = [
         "activeSkill": "Aucun Active Skill",
         "links": [],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1002551,
@@ -56706,7 +62001,10 @@ const dokkanCharacters = [
         "activeSkill": "Aucun Active Skill",
         "links": [],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1002550,
@@ -56722,7 +62020,10 @@ const dokkanCharacters = [
         "activeSkill": "Aucun Active Skill",
         "links": [],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1002500,
@@ -56745,7 +62046,10 @@ const dokkanCharacters = [
         "categories": [],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1002510,
@@ -56768,7 +62072,10 @@ const dokkanCharacters = [
         "categories": [],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1003880,
@@ -56792,7 +62099,10 @@ const dokkanCharacters = [
         "categories": [],
         "roles": [
             "HEALER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1003950,
@@ -56815,7 +62125,10 @@ const dokkanCharacters = [
         "categories": [],
         "roles": [
             "TANK"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1003960,
@@ -56838,7 +62151,10 @@ const dokkanCharacters = [
         "categories": [],
         "roles": [
             "TANK"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1003150,
@@ -56859,7 +62175,10 @@ const dokkanCharacters = [
             "The Incredible Adventure"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1002380,
@@ -56883,7 +62202,10 @@ const dokkanCharacters = [
         "categories": [],
         "roles": [
             "HEALER"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1002370,
@@ -56907,7 +62229,10 @@ const dokkanCharacters = [
         "categories": [],
         "roles": [
             "TANK"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1003060,
@@ -56931,7 +62256,10 @@ const dokkanCharacters = [
         "categories": [],
         "roles": [
             "TANK"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1002040,
@@ -56952,7 +62280,10 @@ const dokkanCharacters = [
             "Supreme Power"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1003650,
@@ -56973,7 +62304,10 @@ const dokkanCharacters = [
         "categories": [],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1004670,
@@ -56994,7 +62328,10 @@ const dokkanCharacters = [
             "Cold Judgment"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1004660,
@@ -57017,7 +62354,10 @@ const dokkanCharacters = [
         "categories": [],
         "roles": [
             "SUPPORT"
-        ]
+        ],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1001900,
@@ -57036,7 +62376,10 @@ const dokkanCharacters = [
             "Z Fighters"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1001910,
@@ -57055,7 +62398,10 @@ const dokkanCharacters = [
             "Z Fighters"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1001890,
@@ -57074,7 +62420,10 @@ const dokkanCharacters = [
             "Turtle School"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1000640,
@@ -57096,7 +62445,10 @@ const dokkanCharacters = [
             "Twin Terrors"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1000650,
@@ -57118,7 +62470,10 @@ const dokkanCharacters = [
             "Battlefield Diva"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 3000240,
@@ -57138,7 +62493,10 @@ const dokkanCharacters = [
             "Brainiacs"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 3000230,
@@ -57158,7 +62516,10 @@ const dokkanCharacters = [
             "Brainiacs"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 3000220,
@@ -57178,7 +62539,10 @@ const dokkanCharacters = [
             "Brainiacs"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 3000210,
@@ -57198,7 +62562,10 @@ const dokkanCharacters = [
             "Brainiacs"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1000660,
@@ -57218,7 +62585,10 @@ const dokkanCharacters = [
             "Brainiacs"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1000670,
@@ -57238,7 +62608,10 @@ const dokkanCharacters = [
             "The Innocents"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1000680,
@@ -57257,7 +62630,10 @@ const dokkanCharacters = [
             "Master of Magic"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1000690,
@@ -57275,7 +62651,10 @@ const dokkanCharacters = [
             "The Innocents"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1000700,
@@ -57293,7 +62672,10 @@ const dokkanCharacters = [
             "The Innocents"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1000710,
@@ -57311,7 +62693,10 @@ const dokkanCharacters = [
             "Speedy Retribution"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1000720,
@@ -57330,7 +62715,10 @@ const dokkanCharacters = [
             "Speedy Retribution"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1000730,
@@ -57348,7 +62736,10 @@ const dokkanCharacters = [
             "The Innocents"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1000740,
@@ -57367,7 +62758,10 @@ const dokkanCharacters = [
             "More Than Meets the Eye"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1000750,
@@ -57385,7 +62779,10 @@ const dokkanCharacters = [
             "Twin Terrors"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1000760,
@@ -57403,7 +62800,10 @@ const dokkanCharacters = [
             "Twin Terrors"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1000770,
@@ -57421,7 +62821,10 @@ const dokkanCharacters = [
             "Mechanical Menaces"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 3000290,
@@ -57440,7 +62843,10 @@ const dokkanCharacters = [
             "Lien Inconnu (21)"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 3000280,
@@ -57459,7 +62865,10 @@ const dokkanCharacters = [
             "Lien Inconnu (21)"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 3000270,
@@ -57478,7 +62887,10 @@ const dokkanCharacters = [
             "Lien Inconnu (21)"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 3000260,
@@ -57497,7 +62909,10 @@ const dokkanCharacters = [
             "Lien Inconnu (21)"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1000780,
@@ -57516,7 +62931,10 @@ const dokkanCharacters = [
             "Lien Inconnu (21)"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 3000600,
@@ -57534,7 +62952,10 @@ const dokkanCharacters = [
             "Speedy Retribution"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 3000590,
@@ -57552,7 +62973,10 @@ const dokkanCharacters = [
             "Speedy Retribution"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 3000580,
@@ -57570,7 +62994,10 @@ const dokkanCharacters = [
             "Speedy Retribution"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 3000560,
@@ -57588,7 +63015,10 @@ const dokkanCharacters = [
             "Speedy Retribution"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1000790,
@@ -57606,7 +63036,10 @@ const dokkanCharacters = [
             "Speedy Retribution"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 3001150,
@@ -57624,7 +63057,10 @@ const dokkanCharacters = [
             "RR Army"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 3001140,
@@ -57642,7 +63078,10 @@ const dokkanCharacters = [
             "RR Army"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 3001130,
@@ -57660,7 +63099,10 @@ const dokkanCharacters = [
             "RR Army"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 3001110,
@@ -57678,7 +63120,10 @@ const dokkanCharacters = [
             "RR Army"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     },
     {
         "id": 1000800,
@@ -57696,6 +63141,9 @@ const dokkanCharacters = [
             "RR Army"
         ],
         "categories": [],
-        "roles": []
+        "roles": [],
+        "hasEZA": false,
+        "hasSEZA": false,
+        "latestUpdateYear": 2015
     }
 ];
