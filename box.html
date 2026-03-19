@@ -86,17 +86,85 @@
             <div class="stat-item">SSR : <span id="count-ssr">0</span></div>
         </div>
 
-        <div class="controls" style="margin-bottom: 20px;">
-            <input type="text" id="searchInput" class="search-bar" placeholder="🔍 Rechercher dans ma box...">
-            <div class="filter-group">
-                <button class="btn-type active" data-type="ALL" style="background:#333;">TOUT</button>
-                <button class="btn-type bg-agi" data-type="AGI">AGI</button>
-                <button class="btn-type bg-tec" data-type="TEC">TEC</button>
-                <button class="btn-type bg-int" data-type="INT">INT</button>
-                <button class="btn-type bg-pui" data-type="PUI">PUI</button>
-                <button class="btn-type bg-end" data-type="END">END</button>
+        <div class="controls" style="margin-bottom: 30px; background: var(--glass-bg); padding: 25px; border-radius: 20px; border: 1px solid var(--glass-border);">
+            <div style="margin-bottom: 20px;">
+                <input type="text" id="searchInput" class="search-bar" placeholder="🔍 Rechercher dans ma box...">
+            </div>
+            
+            <div style="display: flex; flex-direction: column; gap: 15px;">
+                <div style="display: flex; align-items: center; gap: 15px; flex-wrap: wrap;">
+                    <span style="font-weight: 700; color: #888; text-transform: uppercase; font-size: 0.8rem; min-width: 60px;">Types :</span>
+                    <div class="filter-group" style="margin: 0;">
+                        <button class="btn-type active" data-type="ALL">TOUT</button>
+                        <button class="btn-type filter-agi" data-type="AGI">AGI</button>
+                        <button class="btn-type filter-tec" data-type="TEC">TEC</button>
+                        <button class="btn-type filter-int" data-type="INT">INT</button>
+                        <button class="btn-type filter-pui" data-type="PUI">PUI</button>
+                        <button class="btn-type filter-end" data-type="END">END</button>
+                    </div>
+                </div>
+
+                <div style="display: flex; align-items: center; gap: 15px; flex-wrap: wrap;">
+                    <span style="font-weight: 700; color: #888; text-transform: uppercase; font-size: 0.8rem; min-width: 60px;">Rareté :</span>
+                    <div class="filter-group" style="margin: 0;">
+                        <button class="btn-type active" data-rarity="ALL">TOUTES</button>
+                        <button class="btn-type filter-lr" data-rarity="LR">LR</button>
+                        <button class="btn-type filter-ur" data-rarity="UR">UR</button>
+                        <button class="btn-type filter-ssr" data-rarity="SSR">SSR</button>
+                    </div>
+                </div>
             </div>
         </div>
+
+        <style>
+            /* Couleurs spécifiques aux filtres - SOLIDE & VIF */
+            .btn-type {
+                background: #1a1a1a;
+                border: 2px solid #333;
+                opacity: 0.8;
+                padding: 8px 15px;
+                border-radius: 10px;
+                cursor: pointer;
+                font-weight: 800;
+                color: white;
+                transition: all 0.3s;
+                text-transform: uppercase;
+                font-size: 0.85rem;
+            }
+            .btn-type:hover {
+                opacity: 1;
+                transform: translateY(-2px);
+            }
+
+            .btn-type.filter-agi { border-color: #2980b9; color: #5dade2; background: #0d2d4a; }
+            .btn-type.filter-tec { border-color: #27ae60; color: #58d68d; background: #0d3d20; }
+            .btn-type.filter-int { border-color: #8e44ad; color: #bb8fce; background: #3a0d5a; }
+            .btn-type.filter-pui { border-color: #c0392b; color: #ec7063; background: #4a0d0d; }
+            .btn-type.filter-end { border-color: #e67e22; color: #f0b27a; background: #5a2800; }
+
+            .btn-type.filter-agi.active { background: #2980b9; color: white; border-color: #5dade2; box-shadow: 0 0 15px #2980b9; opacity: 1; }
+            .btn-type.filter-tec.active { background: #27ae60; color: white; border-color: #58d68d; box-shadow: 0 0 15px #27ae60; opacity: 1; }
+            .btn-type.filter-int.active { background: #8e44ad; color: white; border-color: #bb8fce; box-shadow: 0 0 15px #8e44ad; opacity: 1; }
+            .btn-type.filter-pui.active { background: #c0392b; color: white; border-color: #ec7063; box-shadow: 0 0 15px #c0392b; opacity: 1; }
+            .btn-type.filter-end.active { background: #e67e22; color: white; border-color: #f0b27a; box-shadow: 0 0 15px #e67e22; opacity: 1; }
+
+            /* Couleurs Rareté - SOLIDE */
+            .btn-type.filter-lr { border-color: #f1c40f; color: #f1c40f; background: #4e3a00; }
+            .btn-type.filter-lr.active { background: linear-gradient(180deg, #f39c12, #f1c40f); color: black; border-color: #fff; box-shadow: 0 0 15px #f39c12; opacity: 1; }
+            
+            .btn-type.filter-ur { border-color: #bdc3c7; color: #ecf0f1; background: #2c3e50; }
+            .btn-type.filter-ur.active { background: #ecf0f1; color: black; border-color: #fff; box-shadow: 0 0 15px #fff; opacity: 1; }
+
+            .btn-type.filter-ssr { border-color: #b8860b; color: #f39c12; background: #3d2b00; }
+            .btn-type.filter-ssr.active { background: #b8860b; color: white; border-color: #f1c40f; box-shadow: 0 0 15px #b8860b; opacity: 1; }
+
+            .btn-type.active[data-type="ALL"], .btn-type.active[data-rarity="ALL"] {
+                background: #444;
+                border-color: #888;
+                color: white;
+                opacity: 1;
+            }
+        </style>
 
         <div id="dokkan-grid" class="dokkan-grid"></div>
     </div>

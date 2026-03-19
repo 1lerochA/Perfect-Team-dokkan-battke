@@ -23,6 +23,129 @@ const dictionary = {
     "Grandpa Gohan": "Grand-père Gohan"
 };
 
+const linkDictionary = {
+    1: "Royal Lineage",
+    2: "The Saiyan Lineage",
+    3: "Ginyu Force",
+    4: "Brainiacs",
+    5: "Crane School",
+    6: "Demonic Ways",
+    7: "Master of Magic",
+    8: "Cold Judgment",
+    9: "Super Saiyan",
+    10: "Money Money Money",
+    11: "The Innocents",
+    12: "Flee",
+    13: "Telekinesis",
+    14: "More Than Meets the Eye",
+    15: "Hero of Justice",
+    16: "Infighter",
+    17: "Signature Pose",
+    18: "Brutal Beatdown",
+    19: "Messenger from the Future",
+    20: "Twin Terrors",
+    22: "Saiyan Warrior Race",
+    23: "All in the Family",
+    24: "Telepathy",
+    25: "Respect",
+    26: "Prodigies",
+    27: "World Tournament Champion",
+    28: "Metamorphosis",
+    29: "Fierce Battle",
+    30: "Experienced Fighters",
+    31: "Twin Terrors", 
+    32: "Coward",
+    33: "Attack of the Clones",
+    34: "Golden Z-Fighter",
+    35: "Android Assault",
+    36: "Turtle School",
+    37: "Solid Support",
+    38: "Mechanical Menaces",
+    39: "Shocking Speed",
+    40: "Royal Lineage", 
+    41: "Ginyu Force",
+    42: "Thirst for Conquest",
+    43: "Speedy Retribution",
+    44: "GT",
+    45: "Z Fighters", // Historiquement Z Fighters
+    46: "Dodon Ray",
+    47: "Kamehameha",
+    48: "Namekians",
+    49: "Berserker",
+    50: "Big Bad Bosses",
+    51: "Special Pose",
+    52: "Tough as Nails",
+    53: "Fear and Faith",
+    54: "Nightmare",
+    55: "RR Army",
+    56: "Gaze of Respect",
+    57: "Kamehameha",
+    58: "Over 9000",
+    59: "Universe's Most Malevolent",
+    60: "Shocking Speed",
+    61: "The First Awakened",
+    62: "Team Bardock",
+    63: "Saiyan Pride",
+    64: "Battlefield Diva",
+    65: "Revival",
+    66: "Dismal Future",
+    67: "Organic Upgrade",
+    68: "Godly Power",
+    69: "Power Bestowed by God",
+    70: "Warrior Gods",
+    71: "Limit-Breaking Form",
+    72: "Loyalty",
+    73: "Fused Fighter",
+    76: "Majin", 
+    77: "Master of Magic",
+    79: "Connoisseur",
+    80: "Godly Power", // Parfois lié à Godly Power ou Realm of Gods
+    81: "Energy Absorption",
+    82: "Kamehameha",
+    83: "Godly Power",
+    84: "Transform",
+    85: "Strongest Clan in Space",
+    86: "Thirst for Conquest",
+    87: "Galactic Warriors",
+    88: "Boujack Brigade",
+    89: "Over in a Flash",
+    90: "Guidance of the Dragon Balls",
+    93: "Hero of Justice",
+    94: "Signature Pose",
+    95: "Shadow Dragons",
+    96: "Wall Standing Tall",
+    97: "Prepared for Battle",
+    98: "Destroyer of the Universe",
+    101: "The Incredible Adventure",
+    102: "The Incredible Adventure",
+    103: "Power Bestowed by God",
+    104: "Hardened Grudge",
+    105: "Auto Regenerate",
+    108: "Ultimate Lifeform",
+    109: "Over in a Flash", 
+    110: "Twin Terrors",
+    112: "Shattering the Limit",
+    114: "Demonic Ways",
+    115: "Flee",
+    116: "Limit-Breaking Form",
+    117: "The First Awakened",
+    118: "Shattering the Limit", // Autre ID fréquent pour Shattering the Limit (Rebirth)
+    119: "Fear and Faith",
+    120: "Nightmare",
+    122: "Strongest Clan in Space",
+    123: "Giant Form",
+    124: "Tournament of Power",
+    125: "Legendary Power",
+    126: "Warriors of Universe 6",
+    127: "Shadow Dragons",
+    129: "Otherworld Warriors",
+    130: "Tournament of Power", 
+    1000: "Supreme Power",
+    1001: "Blazing Battle",
+    1003: "Supreme Power",
+    1004: "Fierce Battle" // Variable (Parfois utilisé pour d'autres événements Dokkan)
+};
+
 function translateName(name) {
     if (!name) return "";
     let translated = name;
@@ -37,16 +160,17 @@ function detectRoles(passiveText, activeText) {
     const roles = [];
     const fullText = (passiveText + " " + activeText).toLowerCase();
 
-    if (fullText.includes("guard") || fullText.includes("damage reduction") || fullText.includes("reduces damage")) {
+    // Utilisation des \b pour s'assurer qu'on match le mot exact et non une partie d'un autre mot
+    if (/\b(guard|damage reduction|reduces damage)\b/i.test(fullText)) {
         roles.push("TANK");
     }
-    if (fullText.includes("recovers") && fullText.includes("hp")) {
+    if (/\b(recovers|recovery)\b/i.test(fullText) && /\b(hp)\b/i.test(fullText)) {
         roles.push("HEALER");
     }
-    if (fullText.includes("allies' ki") || fullText.includes("allies' atk") || fullText.includes("allies' def")) {
+    if (/\b(allies' ki|allies' atk|allies' def|allies ki)\b/i.test(fullText)) {
         roles.push("SUPPORT");
     }
-    if (fullText.includes("critical hit") || fullText.includes("changes ki spheres")) {
+    if (/\b(critical hit|changes ki spheres|effective against all types)\b/i.test(fullText)) {
         roles.push("DPS / NUKER");
     }
 
@@ -116,7 +240,7 @@ try {
             passive: cleanApiText(passiveText),
             activeSkill: activeText,
             
-            links: char.link_skill_ids || [], 
+            links: (char.link_skill_ids || []).map(id => linkDictionary[id] || `Lien Inconnu (${id})`),
             categories: catDict[char.id] || [],
             roles: detectRoles(passiveText, activeText) 
         };
