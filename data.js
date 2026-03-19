@@ -110,6 +110,7 @@ const dokkanCharacters = [
             "Mission Execution"
         ],
         "roles": [
+            "TANK",
             "HEALER",
             "SUPPORT",
             "DPS / NUKER"
@@ -281,7 +282,8 @@ const dokkanCharacters = [
             "Earth-Protecting Heroes"
         ],
         "roles": [
-            "TANK"
+            "TANK",
+            "DPS / NUKER"
         ],
         "hasEZA": true,
         "hasSEZA": false,
@@ -324,7 +326,9 @@ const dokkanCharacters = [
             "Earth-Bred Fighters",
             "Earth-Protecting Heroes"
         ],
-        "roles": [],
+        "roles": [
+            "DPS / NUKER"
+        ],
         "hasEZA": true,
         "hasSEZA": false,
         "latestUpdateYear": 2026
@@ -520,7 +524,8 @@ const dokkanCharacters = [
             "Earth-Bred Fighters"
         ],
         "roles": [
-            "TANK"
+            "TANK",
+            "DPS / NUKER"
         ],
         "hasEZA": true,
         "hasSEZA": false,
@@ -659,7 +664,8 @@ const dokkanCharacters = [
             "DAIMA"
         ],
         "roles": [
-            "SUPPORT"
+            "SUPPORT",
+            "DPS / NUKER"
         ],
         "hasEZA": false,
         "hasSEZA": false,
@@ -699,6 +705,7 @@ const dokkanCharacters = [
             "Power of Wishes"
         ],
         "roles": [
+            "TANK",
             "HEALER",
             "DPS / NUKER"
         ],
@@ -1042,7 +1049,8 @@ const dokkanCharacters = [
         ],
         "roles": [
             "TANK",
-            "SUPPORT"
+            "SUPPORT",
+            "DPS / NUKER"
         ],
         "hasEZA": true,
         "hasSEZA": false,
@@ -1089,6 +1097,7 @@ const dokkanCharacters = [
             "Earth-Protecting Heroes"
         ],
         "roles": [
+            "TANK",
             "DPS / NUKER"
         ],
         "hasEZA": true,
@@ -1491,6 +1500,7 @@ const dokkanCharacters = [
             "Tournament Participants"
         ],
         "roles": [
+            "TANK",
             "SUPPORT",
             "DPS / NUKER"
         ],
@@ -1534,7 +1544,9 @@ const dokkanCharacters = [
             "Demonic Power",
             "Successors"
         ],
-        "roles": [],
+        "roles": [
+            "DPS / NUKER"
+        ],
         "hasEZA": true,
         "hasSEZA": false,
         "latestUpdateYear": 2025
@@ -1575,7 +1587,9 @@ const dokkanCharacters = [
             "Earth-Bred Fighters",
             "Earth-Protecting Heroes"
         ],
-        "roles": [],
+        "roles": [
+            "DPS / NUKER"
+        ],
         "hasEZA": true,
         "hasSEZA": false,
         "latestUpdateYear": 2025
@@ -1646,7 +1660,6 @@ const dokkanCharacters = [
             "Power Absorption"
         ],
         "roles": [
-            "TANK",
             "HEALER",
             "SUPPORT"
         ],
@@ -1893,6 +1906,7 @@ const dokkanCharacters = [
             "Earth-Protecting Heroes"
         ],
         "roles": [
+            "TANK",
             "HEALER",
             "SUPPORT"
         ],
@@ -2129,7 +2143,8 @@ const dokkanCharacters = [
             "Earth-Protecting Heroes"
         ],
         "roles": [
-            "SUPPORT"
+            "SUPPORT",
+            "DPS / NUKER"
         ],
         "hasEZA": false,
         "hasSEZA": false,
@@ -2209,6 +2224,7 @@ const dokkanCharacters = [
             "DAIMA"
         ],
         "roles": [
+            "TANK",
             "SUPPORT",
             "DPS / NUKER"
         ],
@@ -2377,6 +2393,7 @@ const dokkanCharacters = [
             "DAIMA"
         ],
         "roles": [
+            "TANK",
             "SUPPORT",
             "DPS / NUKER"
         ],
@@ -2420,7 +2437,8 @@ const dokkanCharacters = [
         "roles": [
             "TANK",
             "HEALER",
-            "SUPPORT"
+            "SUPPORT",
+            "DPS / NUKER"
         ],
         "hasEZA": true,
         "hasSEZA": false,
@@ -2454,7 +2472,8 @@ const dokkanCharacters = [
         "roles": [
             "TANK",
             "HEALER",
-            "SUPPORT"
+            "SUPPORT",
+            "DPS / NUKER"
         ],
         "hasEZA": false,
         "hasSEZA": false,
@@ -2563,7 +2582,9 @@ const dokkanCharacters = [
             "Mission Execution"
         ],
         "roles": [
-            "SUPPORT"
+            "TANK",
+            "SUPPORT",
+            "DPS / NUKER"
         ],
         "hasEZA": false,
         "hasSEZA": false,
@@ -2643,6 +2664,7 @@ const dokkanCharacters = [
             "Mission Execution"
         ],
         "roles": [
+            "TANK",
             "SUPPORT",
             "DPS / NUKER"
         ],
@@ -2843,6 +2865,7 @@ const dokkanCharacters = [
             "Battle of Fate"
         ],
         "roles": [
+            "TANK",
             "SUPPORT"
         ],
         "hasEZA": false,
@@ -2879,7 +2902,8 @@ const dokkanCharacters = [
         ],
         "roles": [
             "TANK",
-            "SUPPORT"
+            "SUPPORT",
+            "DPS / NUKER"
         ],
         "hasEZA": false,
         "hasSEZA": false,
@@ -2920,7 +2944,9 @@ const dokkanCharacters = [
             "Power Beyond Super Saiyan",
             "Uncontrollable Power"
         ],
-        "roles": [],
+        "roles": [
+            "DPS / NUKER"
+        ],
         "hasEZA": true,
         "hasSEZA": true,
         "latestUpdateYear": 2025
@@ -2953,7 +2979,6 @@ const dokkanCharacters = [
             "Super Bosses"
         ],
         "roles": [
-            "TANK",
             "HEALER",
             "DPS / NUKER"
         ],
@@ -3079,7 +3104,8 @@ const dokkanCharacters = [
             "Successors"
         ],
         "roles": [
-            "TANK"
+            "TANK",
+            "DPS / NUKER"
         ],
         "hasEZA": true,
         "hasSEZA": false,
@@ -3255,6 +3281,7 @@ const dokkanCharacters = [
             "Super Bosses"
         ],
         "roles": [
+            "TANK",
             "DPS / NUKER"
         ],
         "hasEZA": true,
@@ -3293,7 +3320,8 @@ const dokkanCharacters = [
             "Super Bosses"
         ],
         "roles": [
-            "SUPPORT"
+            "SUPPORT",
+            "DPS / NUKER"
         ],
         "hasEZA": true,
         "hasSEZA": false,
@@ -3404,7 +3432,8 @@ const dokkanCharacters = [
             "Mission Execution"
         ],
         "roles": [
-            "TANK"
+            "TANK",
+            "DPS / NUKER"
         ],
         "hasEZA": true,
         "hasSEZA": false,
@@ -3441,7 +3470,8 @@ const dokkanCharacters = [
         ],
         "roles": [
             "TANK",
-            "SUPPORT"
+            "SUPPORT",
+            "DPS / NUKER"
         ],
         "hasEZA": false,
         "hasSEZA": false,
@@ -3474,6 +3504,7 @@ const dokkanCharacters = [
             "Bond of Friendship"
         ],
         "roles": [
+            "TANK",
             "HEALER",
             "SUPPORT",
             "DPS / NUKER"
@@ -3697,6 +3728,7 @@ const dokkanCharacters = [
             "Super Heroes"
         ],
         "roles": [
+            "TANK",
             "SUPPORT",
             "DPS / NUKER"
         ],
@@ -3957,7 +3989,6 @@ const dokkanCharacters = [
             "GT Bosses"
         ],
         "roles": [
-            "TANK",
             "DPS / NUKER"
         ],
         "hasEZA": true,
@@ -4371,7 +4402,8 @@ const dokkanCharacters = [
             "Super Heroes"
         ],
         "roles": [
-            "TANK"
+            "TANK",
+            "DPS / NUKER"
         ],
         "hasEZA": true,
         "hasSEZA": true,
@@ -4453,7 +4485,9 @@ const dokkanCharacters = [
             "Super Bosses",
             "Successors"
         ],
-        "roles": [],
+        "roles": [
+            "DPS / NUKER"
+        ],
         "hasEZA": true,
         "hasSEZA": true,
         "latestUpdateYear": 2025
@@ -4806,6 +4840,7 @@ const dokkanCharacters = [
             "Successors"
         ],
         "roles": [
+            "TANK",
             "HEALER",
             "SUPPORT",
             "DPS / NUKER"
@@ -4849,6 +4884,7 @@ const dokkanCharacters = [
             "Successors"
         ],
         "roles": [
+            "TANK",
             "HEALER",
             "SUPPORT",
             "DPS / NUKER"
@@ -5132,6 +5168,7 @@ const dokkanCharacters = [
             "Earth-Bred Fighters"
         ],
         "roles": [
+            "TANK",
             "DPS / NUKER"
         ],
         "hasEZA": true,
@@ -5248,7 +5285,9 @@ const dokkanCharacters = [
             "Mission Execution"
         ],
         "roles": [
-            "SUPPORT"
+            "TANK",
+            "SUPPORT",
+            "DPS / NUKER"
         ],
         "hasEZA": true,
         "hasSEZA": false,
@@ -5362,6 +5401,7 @@ const dokkanCharacters = [
             "Mission Execution"
         ],
         "roles": [
+            "TANK",
             "SUPPORT",
             "DPS / NUKER"
         ],
@@ -5409,7 +5449,9 @@ const dokkanCharacters = [
             "Tournament Participants",
             "Super Bosses"
         ],
-        "roles": [],
+        "roles": [
+            "DPS / NUKER"
+        ],
         "hasEZA": true,
         "hasSEZA": false,
         "latestUpdateYear": 2025
@@ -5687,7 +5729,8 @@ const dokkanCharacters = [
             "Tournament Participants"
         ],
         "roles": [
-            "TANK"
+            "TANK",
+            "DPS / NUKER"
         ],
         "hasEZA": true,
         "hasSEZA": false,
@@ -5813,6 +5856,7 @@ const dokkanCharacters = [
             "Mission Execution"
         ],
         "roles": [
+            "TANK",
             "DPS / NUKER"
         ],
         "hasEZA": false,
@@ -5894,6 +5938,7 @@ const dokkanCharacters = [
             "Tournament Participants"
         ],
         "roles": [
+            "TANK",
             "DPS / NUKER"
         ],
         "hasEZA": false,
@@ -5972,6 +6017,7 @@ const dokkanCharacters = [
             "Mission Execution"
         ],
         "roles": [
+            "TANK",
             "SUPPORT"
         ],
         "hasEZA": true,
@@ -6170,7 +6216,9 @@ const dokkanCharacters = [
             "Earth-Bred Fighters",
             "Tournament Participants"
         ],
-        "roles": [],
+        "roles": [
+            "TANK"
+        ],
         "hasEZA": true,
         "hasSEZA": false,
         "latestUpdateYear": 2025
@@ -6241,6 +6289,7 @@ const dokkanCharacters = [
             "Tournament Participants"
         ],
         "roles": [
+            "TANK",
             "SUPPORT",
             "DPS / NUKER"
         ],
@@ -6641,6 +6690,7 @@ const dokkanCharacters = [
             "Earth-Bred Fighters"
         ],
         "roles": [
+            "TANK",
             "SUPPORT",
             "DPS / NUKER"
         ],
@@ -6855,6 +6905,7 @@ const dokkanCharacters = [
             "Earth-Protecting Heroes"
         ],
         "roles": [
+            "TANK",
             "DPS / NUKER"
         ],
         "hasEZA": true,
@@ -6900,6 +6951,7 @@ const dokkanCharacters = [
             "Earth-Protecting Heroes"
         ],
         "roles": [
+            "TANK",
             "DPS / NUKER"
         ],
         "hasEZA": true,
@@ -6992,6 +7044,7 @@ const dokkanCharacters = [
             "Successors"
         ],
         "roles": [
+            "TANK",
             "SUPPORT"
         ],
         "hasEZA": false,
@@ -7084,7 +7137,8 @@ const dokkanCharacters = [
             "Earth-Bred Fighters"
         ],
         "roles": [
-            "TANK"
+            "TANK",
+            "DPS / NUKER"
         ],
         "hasEZA": false,
         "hasSEZA": false,
@@ -7334,6 +7388,7 @@ const dokkanCharacters = [
             "Successors"
         ],
         "roles": [
+            "TANK",
             "SUPPORT",
             "DPS / NUKER"
         ],
@@ -7375,6 +7430,7 @@ const dokkanCharacters = [
             "Successors"
         ],
         "roles": [
+            "TANK",
             "SUPPORT",
             "DPS / NUKER"
         ],
@@ -7501,7 +7557,9 @@ const dokkanCharacters = [
             "Accelerated Battle",
             "Uncontrollable Power"
         ],
-        "roles": [],
+        "roles": [
+            "TANK"
+        ],
         "hasEZA": true,
         "hasSEZA": true,
         "latestUpdateYear": 2025
@@ -7669,6 +7727,7 @@ const dokkanCharacters = [
             "Earth-Protecting Heroes"
         ],
         "roles": [
+            "TANK",
             "SUPPORT",
             "DPS / NUKER"
         ],
@@ -7906,7 +7965,8 @@ const dokkanCharacters = [
             "Uncontrollable Power"
         ],
         "roles": [
-            "HEALER"
+            "HEALER",
+            "DPS / NUKER"
         ],
         "hasEZA": true,
         "hasSEZA": false,
@@ -7962,7 +8022,9 @@ const dokkanCharacters = [
             "DAIMA"
         ],
         "roles": [
-            "SUPPORT"
+            "TANK",
+            "SUPPORT",
+            "DPS / NUKER"
         ],
         "hasEZA": false,
         "hasSEZA": false,
@@ -8130,7 +8192,9 @@ const dokkanCharacters = [
             "Worthy Rivals",
             "Battle of Wits"
         ],
-        "roles": [],
+        "roles": [
+            "TANK"
+        ],
         "hasEZA": true,
         "hasSEZA": false,
         "latestUpdateYear": 2024
@@ -8169,7 +8233,9 @@ const dokkanCharacters = [
             "Earth-Bred Fighters",
             "Mission Execution"
         ],
-        "roles": [],
+        "roles": [
+            "TANK"
+        ],
         "hasEZA": true,
         "hasSEZA": false,
         "latestUpdateYear": 2024
@@ -8206,6 +8272,7 @@ const dokkanCharacters = [
             "Tournament Participants"
         ],
         "roles": [
+            "TANK",
             "DPS / NUKER"
         ],
         "hasEZA": true,
@@ -8235,7 +8302,9 @@ const dokkanCharacters = [
         ],
         "categories": [],
         "roles": [
-            "SUPPORT"
+            "TANK",
+            "SUPPORT",
+            "DPS / NUKER"
         ],
         "hasEZA": false,
         "hasSEZA": false,
@@ -8522,6 +8591,7 @@ const dokkanCharacters = [
             "Storied Figures"
         ],
         "roles": [
+            "TANK",
             "SUPPORT",
             "DPS / NUKER"
         ],
@@ -8563,6 +8633,7 @@ const dokkanCharacters = [
             "Uncontrollable Power"
         ],
         "roles": [
+            "TANK",
             "SUPPORT",
             "DPS / NUKER"
         ],
@@ -8722,7 +8793,9 @@ const dokkanCharacters = [
             "Super Heroes",
             "Demonic Power"
         ],
-        "roles": [],
+        "roles": [
+            "TANK"
+        ],
         "hasEZA": true,
         "hasSEZA": false,
         "latestUpdateYear": 2024
@@ -8761,6 +8834,7 @@ const dokkanCharacters = [
             "Mission Execution"
         ],
         "roles": [
+            "TANK",
             "DPS / NUKER"
         ],
         "hasEZA": false,
@@ -8837,7 +8911,9 @@ const dokkanCharacters = [
             "Demonic Power"
         ],
         "roles": [
-            "HEALER"
+            "TANK",
+            "HEALER",
+            "DPS / NUKER"
         ],
         "hasEZA": false,
         "hasSEZA": false,
@@ -9038,6 +9114,7 @@ const dokkanCharacters = [
             "Successors"
         ],
         "roles": [
+            "TANK",
             "HEALER",
             "SUPPORT"
         ],
@@ -9325,6 +9402,7 @@ const dokkanCharacters = [
             "Mission Execution"
         ],
         "roles": [
+            "TANK",
             "SUPPORT",
             "DPS / NUKER"
         ],
@@ -9490,7 +9568,9 @@ const dokkanCharacters = [
             "Earth-Bred Fighters",
             "Mission Execution"
         ],
-        "roles": [],
+        "roles": [
+            "DPS / NUKER"
+        ],
         "hasEZA": true,
         "hasSEZA": false,
         "latestUpdateYear": 2024
@@ -9531,7 +9611,9 @@ const dokkanCharacters = [
             "Earth-Bred Fighters",
             "Mission Execution"
         ],
-        "roles": [],
+        "roles": [
+            "DPS / NUKER"
+        ],
         "hasEZA": true,
         "hasSEZA": false,
         "latestUpdateYear": 2024
@@ -9605,7 +9687,8 @@ const dokkanCharacters = [
         ],
         "roles": [
             "TANK",
-            "SUPPORT"
+            "SUPPORT",
+            "DPS / NUKER"
         ],
         "hasEZA": false,
         "hasSEZA": false,
@@ -9645,7 +9728,8 @@ const dokkanCharacters = [
         "roles": [
             "TANK",
             "HEALER",
-            "SUPPORT"
+            "SUPPORT",
+            "DPS / NUKER"
         ],
         "hasEZA": false,
         "hasSEZA": false,
@@ -9680,7 +9764,9 @@ const dokkanCharacters = [
             "Mission Execution"
         ],
         "roles": [
-            "SUPPORT"
+            "TANK",
+            "SUPPORT",
+            "DPS / NUKER"
         ],
         "hasEZA": false,
         "hasSEZA": false,
@@ -9714,7 +9800,8 @@ const dokkanCharacters = [
             "Earth-Bred Fighters"
         ],
         "roles": [
-            "HEALER"
+            "HEALER",
+            "DPS / NUKER"
         ],
         "hasEZA": true,
         "hasSEZA": false,
@@ -9819,7 +9906,9 @@ const dokkanCharacters = [
             "Rapid Growth",
             "Earth-Bred Fighters"
         ],
-        "roles": [],
+        "roles": [
+            "DPS / NUKER"
+        ],
         "hasEZA": true,
         "hasSEZA": false,
         "latestUpdateYear": 2024
@@ -9933,6 +10022,7 @@ const dokkanCharacters = [
             "Earth-Bred Fighters"
         ],
         "roles": [
+            "TANK",
             "DPS / NUKER"
         ],
         "hasEZA": true,
@@ -9968,6 +10058,7 @@ const dokkanCharacters = [
             "Earth-Bred Fighters"
         ],
         "roles": [
+            "TANK",
             "SUPPORT",
             "DPS / NUKER"
         ],
@@ -10044,6 +10135,7 @@ const dokkanCharacters = [
             "Mission Execution"
         ],
         "roles": [
+            "TANK",
             "SUPPORT"
         ],
         "hasEZA": false,
@@ -10122,6 +10214,7 @@ const dokkanCharacters = [
             "Earth-Bred Fighters"
         ],
         "roles": [
+            "TANK",
             "SUPPORT",
             "DPS / NUKER"
         ],
@@ -10194,6 +10287,7 @@ const dokkanCharacters = [
             "Earth-Bred Fighters"
         ],
         "roles": [
+            "TANK",
             "SUPPORT",
             "DPS / NUKER"
         ],
@@ -10309,7 +10403,8 @@ const dokkanCharacters = [
             "Mission Execution"
         ],
         "roles": [
-            "SUPPORT"
+            "SUPPORT",
+            "DPS / NUKER"
         ],
         "hasEZA": false,
         "hasSEZA": false,
@@ -10390,7 +10485,9 @@ const dokkanCharacters = [
             "Earth-Bred Fighters",
             "Tournament Participants"
         ],
-        "roles": [],
+        "roles": [
+            "TANK"
+        ],
         "hasEZA": true,
         "hasSEZA": false,
         "latestUpdateYear": 2024
@@ -10740,6 +10837,7 @@ const dokkanCharacters = [
             "Mission Execution"
         ],
         "roles": [
+            "TANK",
             "DPS / NUKER"
         ],
         "hasEZA": false,
@@ -10775,7 +10873,9 @@ const dokkanCharacters = [
             "Accelerated Battle",
             "Uncontrollable Power"
         ],
-        "roles": [],
+        "roles": [
+            "TANK"
+        ],
         "hasEZA": true,
         "hasSEZA": false,
         "latestUpdateYear": 2024
@@ -10818,7 +10918,8 @@ const dokkanCharacters = [
             "Earth-Protecting Heroes"
         ],
         "roles": [
-            "TANK"
+            "TANK",
+            "DPS / NUKER"
         ],
         "hasEZA": true,
         "hasSEZA": false,
@@ -10896,7 +10997,9 @@ const dokkanCharacters = [
             "Earth-Bred Fighters",
             "Earth-Protecting Heroes"
         ],
-        "roles": [],
+        "roles": [
+            "TANK"
+        ],
         "hasEZA": true,
         "hasSEZA": false,
         "latestUpdateYear": 2024
@@ -10930,7 +11033,8 @@ const dokkanCharacters = [
         ],
         "roles": [
             "TANK",
-            "HEALER"
+            "HEALER",
+            "DPS / NUKER"
         ],
         "hasEZA": true,
         "hasSEZA": false,
@@ -11006,6 +11110,7 @@ const dokkanCharacters = [
             "Earth-Protecting Heroes"
         ],
         "roles": [
+            "TANK",
             "DPS / NUKER"
         ],
         "hasEZA": false,
@@ -11135,7 +11240,9 @@ const dokkanCharacters = [
             "Power Beyond Super Saiyan",
             "Uncontrollable Power"
         ],
-        "roles": [],
+        "roles": [
+            "DPS / NUKER"
+        ],
         "hasEZA": true,
         "hasSEZA": false,
         "latestUpdateYear": 2024
@@ -11212,6 +11319,7 @@ const dokkanCharacters = [
             "Earth-Bred Fighters"
         ],
         "roles": [
+            "TANK",
             "SUPPORT",
             "DPS / NUKER"
         ],
@@ -11372,6 +11480,7 @@ const dokkanCharacters = [
             "Inhuman Deeds"
         ],
         "roles": [
+            "TANK",
             "SUPPORT",
             "DPS / NUKER"
         ],
@@ -11526,6 +11635,7 @@ const dokkanCharacters = [
             "Mission Execution"
         ],
         "roles": [
+            "TANK",
             "DPS / NUKER"
         ],
         "hasEZA": false,
@@ -11605,7 +11715,8 @@ const dokkanCharacters = [
             "Tournament Participants"
         ],
         "roles": [
-            "SUPPORT"
+            "SUPPORT",
+            "DPS / NUKER"
         ],
         "hasEZA": true,
         "hasSEZA": false,
@@ -11808,6 +11919,7 @@ const dokkanCharacters = [
             "Tournament Participants"
         ],
         "roles": [
+            "TANK",
             "SUPPORT"
         ],
         "hasEZA": true,
@@ -11887,6 +11999,7 @@ const dokkanCharacters = [
             "Tournament Participants"
         ],
         "roles": [
+            "TANK",
             "DPS / NUKER"
         ],
         "hasEZA": false,
@@ -12087,6 +12200,7 @@ const dokkanCharacters = [
             "Tournament Participants"
         ],
         "roles": [
+            "TANK",
             "DPS / NUKER"
         ],
         "hasEZA": false,
@@ -12134,7 +12248,10 @@ const dokkanCharacters = [
             "Earth-Bred Fighters",
             "Tournament Participants"
         ],
-        "roles": [],
+        "roles": [
+            "TANK",
+            "DPS / NUKER"
+        ],
         "hasEZA": true,
         "hasSEZA": false,
         "latestUpdateYear": 2024
@@ -12181,7 +12298,8 @@ const dokkanCharacters = [
             "Successors"
         ],
         "roles": [
-            "TANK"
+            "TANK",
+            "DPS / NUKER"
         ],
         "hasEZA": true,
         "hasSEZA": false,
@@ -12260,7 +12378,8 @@ const dokkanCharacters = [
             "Successors"
         ],
         "roles": [
-            "SUPPORT"
+            "SUPPORT",
+            "DPS / NUKER"
         ],
         "hasEZA": true,
         "hasSEZA": false,
@@ -12472,7 +12591,9 @@ const dokkanCharacters = [
             "Earth-Bred Fighters",
             "Tournament Participants"
         ],
-        "roles": [],
+        "roles": [
+            "DPS / NUKER"
+        ],
         "hasEZA": true,
         "hasSEZA": false,
         "latestUpdateYear": 2024
@@ -12508,6 +12629,7 @@ const dokkanCharacters = [
             "Tournament Participants"
         ],
         "roles": [
+            "TANK",
             "DPS / NUKER"
         ],
         "hasEZA": true,
@@ -12583,6 +12705,7 @@ const dokkanCharacters = [
             "Fused Fighters"
         ],
         "roles": [
+            "TANK",
             "SUPPORT"
         ],
         "hasEZA": true,
@@ -12618,6 +12741,7 @@ const dokkanCharacters = [
             "Super Bosses"
         ],
         "roles": [
+            "TANK",
             "SUPPORT"
         ],
         "hasEZA": true,
@@ -12768,7 +12892,9 @@ const dokkanCharacters = [
             "Uncontrollable Power"
         ],
         "roles": [
-            "SUPPORT"
+            "TANK",
+            "SUPPORT",
+            "DPS / NUKER"
         ],
         "hasEZA": false,
         "hasSEZA": false,
@@ -12811,6 +12937,7 @@ const dokkanCharacters = [
             "Earth-Protecting Heroes"
         ],
         "roles": [
+            "TANK",
             "DPS / NUKER"
         ],
         "hasEZA": false,
@@ -12903,7 +13030,9 @@ const dokkanCharacters = [
             "Earth-Bred Fighters",
             "Tournament Participants"
         ],
-        "roles": [],
+        "roles": [
+            "TANK"
+        ],
         "hasEZA": true,
         "hasSEZA": false,
         "latestUpdateYear": 2024
@@ -13009,7 +13138,10 @@ const dokkanCharacters = [
             "Demonic Power",
             "Successors"
         ],
-        "roles": [],
+        "roles": [
+            "TANK",
+            "DPS / NUKER"
+        ],
         "hasEZA": false,
         "hasSEZA": false,
         "latestUpdateYear": 2024
@@ -13164,6 +13296,7 @@ const dokkanCharacters = [
             "Earth-Bred Fighters"
         ],
         "roles": [
+            "TANK",
             "HEALER",
             "SUPPORT",
             "DPS / NUKER"
@@ -13555,6 +13688,7 @@ const dokkanCharacters = [
             "Mission Execution"
         ],
         "roles": [
+            "TANK",
             "SUPPORT",
             "DPS / NUKER"
         ],
@@ -13687,6 +13821,7 @@ const dokkanCharacters = [
             "Demonic Power"
         ],
         "roles": [
+            "TANK",
             "SUPPORT",
             "DPS / NUKER"
         ],
@@ -13971,7 +14106,8 @@ const dokkanCharacters = [
             "Demonic Power"
         ],
         "roles": [
-            "HEALER"
+            "HEALER",
+            "DPS / NUKER"
         ],
         "hasEZA": true,
         "hasSEZA": false,
@@ -14187,7 +14323,8 @@ const dokkanCharacters = [
             "Uncontrollable Power"
         ],
         "roles": [
-            "HEALER"
+            "HEALER",
+            "DPS / NUKER"
         ],
         "hasEZA": true,
         "hasSEZA": false,
@@ -14228,7 +14365,8 @@ const dokkanCharacters = [
             "Bond of Parent and Child"
         ],
         "roles": [
-            "TANK"
+            "TANK",
+            "DPS / NUKER"
         ],
         "hasEZA": true,
         "hasSEZA": false,
@@ -14275,7 +14413,9 @@ const dokkanCharacters = [
             "Mission Execution"
         ],
         "roles": [
-            "HEALER"
+            "TANK",
+            "HEALER",
+            "DPS / NUKER"
         ],
         "hasEZA": false,
         "hasSEZA": false,
@@ -14359,6 +14499,7 @@ const dokkanCharacters = [
             "Earth-Bred Fighters"
         ],
         "roles": [
+            "TANK",
             "DPS / NUKER"
         ],
         "hasEZA": false,
@@ -15180,7 +15321,8 @@ const dokkanCharacters = [
         "roles": [
             "TANK",
             "HEALER",
-            "SUPPORT"
+            "SUPPORT",
+            "DPS / NUKER"
         ],
         "hasEZA": true,
         "hasSEZA": false,
@@ -15226,6 +15368,7 @@ const dokkanCharacters = [
             "Earth-Protecting Heroes"
         ],
         "roles": [
+            "TANK",
             "DPS / NUKER"
         ],
         "hasEZA": false,
@@ -15265,6 +15408,7 @@ const dokkanCharacters = [
             "Uncontrollable Power"
         ],
         "roles": [
+            "TANK",
             "DPS / NUKER"
         ],
         "hasEZA": false,
@@ -15337,7 +15481,9 @@ const dokkanCharacters = [
             "Tournament Participants",
             "Mission Execution"
         ],
-        "roles": [],
+        "roles": [
+            "DPS / NUKER"
+        ],
         "hasEZA": true,
         "hasSEZA": false,
         "latestUpdateYear": 2024
@@ -15455,6 +15601,7 @@ const dokkanCharacters = [
             "Earth-Bred Fighters"
         ],
         "roles": [
+            "TANK",
             "DPS / NUKER"
         ],
         "hasEZA": false,
@@ -15537,7 +15684,8 @@ const dokkanCharacters = [
             "Planetary Destruction"
         ],
         "roles": [
-            "SUPPORT"
+            "SUPPORT",
+            "DPS / NUKER"
         ],
         "hasEZA": true,
         "hasSEZA": false,
@@ -15741,7 +15889,8 @@ const dokkanCharacters = [
             "Successors"
         ],
         "roles": [
-            "TANK"
+            "TANK",
+            "DPS / NUKER"
         ],
         "hasEZA": false,
         "hasSEZA": false,
@@ -15853,7 +16002,9 @@ const dokkanCharacters = [
             "Saiyan Saga",
             "Mission Execution"
         ],
-        "roles": [],
+        "roles": [
+            "TANK"
+        ],
         "hasEZA": true,
         "hasSEZA": false,
         "latestUpdateYear": 2024
@@ -16039,9 +16190,7 @@ const dokkanCharacters = [
             "Super Bosses",
             "Mission Execution"
         ],
-        "roles": [
-            "TANK"
-        ],
+        "roles": [],
         "hasEZA": true,
         "hasSEZA": false,
         "latestUpdateYear": 2024
@@ -16078,7 +16227,10 @@ const dokkanCharacters = [
             "Tournament Participants",
             "Super Bosses"
         ],
-        "roles": [],
+        "roles": [
+            "TANK",
+            "DPS / NUKER"
+        ],
         "hasEZA": true,
         "hasSEZA": false,
         "latestUpdateYear": 2024
@@ -16114,7 +16266,10 @@ const dokkanCharacters = [
             "Tournament Participants",
             "Super Bosses"
         ],
-        "roles": [],
+        "roles": [
+            "TANK",
+            "DPS / NUKER"
+        ],
         "hasEZA": true,
         "hasSEZA": false,
         "latestUpdateYear": 2024
@@ -16148,6 +16303,7 @@ const dokkanCharacters = [
             "Space-Traveling Warriors"
         ],
         "roles": [
+            "TANK",
             "SUPPORT",
             "DPS / NUKER"
         ],
@@ -16194,7 +16350,9 @@ const dokkanCharacters = [
             "Tournament Participants",
             "Super Bosses"
         ],
-        "roles": [],
+        "roles": [
+            "TANK"
+        ],
         "hasEZA": true,
         "hasSEZA": false,
         "latestUpdateYear": 2024
@@ -16237,7 +16395,8 @@ const dokkanCharacters = [
         ],
         "roles": [
             "TANK",
-            "SUPPORT"
+            "SUPPORT",
+            "DPS / NUKER"
         ],
         "hasEZA": false,
         "hasSEZA": false,
@@ -16573,7 +16732,9 @@ const dokkanCharacters = [
             "Revenge",
             "Tournament Participants"
         ],
-        "roles": [],
+        "roles": [
+            "TANK"
+        ],
         "hasEZA": true,
         "hasSEZA": false,
         "latestUpdateYear": 2024
@@ -16685,6 +16846,7 @@ const dokkanCharacters = [
             "Tournament Participants"
         ],
         "roles": [
+            "TANK",
             "SUPPORT",
             "DPS / NUKER"
         ],
@@ -16726,7 +16888,8 @@ const dokkanCharacters = [
             "Tournament Participants"
         ],
         "roles": [
-            "SUPPORT"
+            "SUPPORT",
+            "DPS / NUKER"
         ],
         "hasEZA": false,
         "hasSEZA": false,
@@ -16799,7 +16962,9 @@ const dokkanCharacters = [
             "Target: Goku",
             "Mission Execution"
         ],
-        "roles": [],
+        "roles": [
+            "TANK"
+        ],
         "hasEZA": true,
         "hasSEZA": false,
         "latestUpdateYear": 2024
@@ -17240,7 +17405,8 @@ const dokkanCharacters = [
             "Demonic Power"
         ],
         "roles": [
-            "HEALER"
+            "HEALER",
+            "DPS / NUKER"
         ],
         "hasEZA": false,
         "hasSEZA": false,
@@ -17752,6 +17918,7 @@ const dokkanCharacters = [
             "Demonic Power"
         ],
         "roles": [
+            "TANK",
             "SUPPORT",
             "DPS / NUKER"
         ],
@@ -17953,7 +18120,6 @@ const dokkanCharacters = [
             "Mission Execution"
         ],
         "roles": [
-            "TANK",
             "DPS / NUKER"
         ],
         "hasEZA": true,
@@ -18029,6 +18195,7 @@ const dokkanCharacters = [
             "Mission Execution"
         ],
         "roles": [
+            "TANK",
             "HEALER"
         ],
         "hasEZA": true,
@@ -18146,7 +18313,9 @@ const dokkanCharacters = [
             "Power Beyond Super Saiyan",
             "Uncontrollable Power"
         ],
-        "roles": [],
+        "roles": [
+            "DPS / NUKER"
+        ],
         "hasEZA": true,
         "hasSEZA": false,
         "latestUpdateYear": 2023
@@ -18224,7 +18393,9 @@ const dokkanCharacters = [
             "Successors",
             "Mission Execution"
         ],
-        "roles": [],
+        "roles": [
+            "TANK"
+        ],
         "hasEZA": true,
         "hasSEZA": false,
         "latestUpdateYear": 2023
@@ -18261,7 +18432,8 @@ const dokkanCharacters = [
             "Corroded Body and Mind"
         ],
         "roles": [
-            "TANK"
+            "TANK",
+            "DPS / NUKER"
         ],
         "hasEZA": false,
         "hasSEZA": false,
@@ -18295,6 +18467,7 @@ const dokkanCharacters = [
             "Accelerated Battle"
         ],
         "roles": [
+            "TANK",
             "DPS / NUKER"
         ],
         "hasEZA": false,
@@ -18413,7 +18586,9 @@ const dokkanCharacters = [
             "Power Beyond Super Saiyan",
             "Uncontrollable Power"
         ],
-        "roles": [],
+        "roles": [
+            "DPS / NUKER"
+        ],
         "hasEZA": false,
         "hasSEZA": false,
         "latestUpdateYear": 2023
@@ -18453,7 +18628,10 @@ const dokkanCharacters = [
             "Power Beyond Super Saiyan",
             "Power of Wishes"
         ],
-        "roles": [],
+        "roles": [
+            "TANK",
+            "DPS / NUKER"
+        ],
         "hasEZA": false,
         "hasSEZA": false,
         "latestUpdateYear": 2023
@@ -18496,6 +18674,7 @@ const dokkanCharacters = [
             "Successors"
         ],
         "roles": [
+            "TANK",
             "DPS / NUKER"
         ],
         "hasEZA": false,
@@ -18918,7 +19097,9 @@ const dokkanCharacters = [
             "Saiyan Saga",
             "Successors"
         ],
-        "roles": [],
+        "roles": [
+            "DPS / NUKER"
+        ],
         "hasEZA": true,
         "hasSEZA": false,
         "latestUpdateYear": 2023
@@ -18959,7 +19140,9 @@ const dokkanCharacters = [
             "Power of Wishes",
             "Earth-Protecting Heroes"
         ],
-        "roles": [],
+        "roles": [
+            "DPS / NUKER"
+        ],
         "hasEZA": true,
         "hasSEZA": false,
         "latestUpdateYear": 2023
@@ -19595,7 +19778,8 @@ const dokkanCharacters = [
             "Earth-Protecting Heroes"
         ],
         "roles": [
-            "TANK"
+            "TANK",
+            "DPS / NUKER"
         ],
         "hasEZA": false,
         "hasSEZA": false,
@@ -19892,6 +20076,7 @@ const dokkanCharacters = [
             "Successors"
         ],
         "roles": [
+            "TANK",
             "SUPPORT"
         ],
         "hasEZA": true,
@@ -19983,6 +20168,7 @@ const dokkanCharacters = [
             "Super Heroes"
         ],
         "roles": [
+            "TANK",
             "DPS / NUKER"
         ],
         "hasEZA": false,
@@ -20100,7 +20286,9 @@ const dokkanCharacters = [
             "Saiyan Saga",
             "Earth-Bred Fighters"
         ],
-        "roles": [],
+        "roles": [
+            "DPS / NUKER"
+        ],
         "hasEZA": true,
         "hasSEZA": false,
         "latestUpdateYear": 2023
@@ -20140,7 +20328,9 @@ const dokkanCharacters = [
             "Tournament Participants",
             "Super Bosses"
         ],
-        "roles": [],
+        "roles": [
+            "DPS / NUKER"
+        ],
         "hasEZA": true,
         "hasSEZA": false,
         "latestUpdateYear": 2023
@@ -20255,7 +20445,8 @@ const dokkanCharacters = [
             "Uncontrollable Power"
         ],
         "roles": [
-            "TANK"
+            "TANK",
+            "DPS / NUKER"
         ],
         "hasEZA": false,
         "hasSEZA": false,
@@ -20298,7 +20489,10 @@ const dokkanCharacters = [
             "Fused Fighters",
             "Super Heroes"
         ],
-        "roles": [],
+        "roles": [
+            "TANK",
+            "DPS / NUKER"
+        ],
         "hasEZA": true,
         "hasSEZA": false,
         "latestUpdateYear": 2023
@@ -20339,7 +20533,10 @@ const dokkanCharacters = [
             "Super Heroes",
             "Earth-Protecting Heroes"
         ],
-        "roles": [],
+        "roles": [
+            "TANK",
+            "DPS / NUKER"
+        ],
         "hasEZA": true,
         "hasSEZA": false,
         "latestUpdateYear": 2023
@@ -20376,7 +20573,9 @@ const dokkanCharacters = [
             "Tournament Participants",
             "Earth-Protecting Heroes"
         ],
-        "roles": [],
+        "roles": [
+            "DPS / NUKER"
+        ],
         "hasEZA": true,
         "hasSEZA": false,
         "latestUpdateYear": 2023
@@ -20586,7 +20785,8 @@ const dokkanCharacters = [
             "Earth-Bred Fighters"
         ],
         "roles": [
-            "HEALER"
+            "HEALER",
+            "DPS / NUKER"
         ],
         "hasEZA": false,
         "hasSEZA": false,
@@ -20979,7 +21179,8 @@ const dokkanCharacters = [
         ],
         "roles": [
             "TANK",
-            "HEALER"
+            "HEALER",
+            "DPS / NUKER"
         ],
         "hasEZA": false,
         "hasSEZA": false,
@@ -21209,6 +21410,7 @@ const dokkanCharacters = [
             "Battle of Wits"
         ],
         "roles": [
+            "TANK",
             "SUPPORT"
         ],
         "hasEZA": false,
@@ -21245,7 +21447,8 @@ const dokkanCharacters = [
             "Earth-Bred Fighters"
         ],
         "roles": [
-            "SUPPORT"
+            "SUPPORT",
+            "DPS / NUKER"
         ],
         "hasEZA": true,
         "hasSEZA": false,
@@ -21440,7 +21643,9 @@ const dokkanCharacters = [
             "Tournament Participants",
             "Mission Execution"
         ],
-        "roles": [],
+        "roles": [
+            "DPS / NUKER"
+        ],
         "hasEZA": true,
         "hasSEZA": false,
         "latestUpdateYear": 2023
@@ -21559,7 +21764,9 @@ const dokkanCharacters = [
             "Earth-Bred Fighters",
             "Tournament Participants"
         ],
-        "roles": [],
+        "roles": [
+            "TANK"
+        ],
         "hasEZA": false,
         "hasSEZA": false,
         "latestUpdateYear": 2023
@@ -22088,6 +22295,7 @@ const dokkanCharacters = [
             "Earth-Bred Fighters"
         ],
         "roles": [
+            "TANK",
             "HEALER",
             "SUPPORT",
             "DPS / NUKER"
@@ -22125,7 +22333,9 @@ const dokkanCharacters = [
             "Earthlings",
             "Earth-Bred Fighters"
         ],
-        "roles": [],
+        "roles": [
+            "TANK"
+        ],
         "hasEZA": true,
         "hasSEZA": false,
         "latestUpdateYear": 2023
@@ -22589,6 +22799,7 @@ const dokkanCharacters = [
             "Successors"
         ],
         "roles": [
+            "TANK",
             "SUPPORT"
         ],
         "hasEZA": false,
@@ -22638,6 +22849,7 @@ const dokkanCharacters = [
             "Earth-Protecting Heroes"
         ],
         "roles": [
+            "TANK",
             "DPS / NUKER"
         ],
         "hasEZA": false,
@@ -23100,6 +23312,7 @@ const dokkanCharacters = [
             "Earth-Protecting Heroes"
         ],
         "roles": [
+            "TANK",
             "DPS / NUKER"
         ],
         "hasEZA": true,
@@ -23376,7 +23589,9 @@ const dokkanCharacters = [
             "Corroded Body and Mind",
             "Accelerated Battle"
         ],
-        "roles": [],
+        "roles": [
+            "DPS / NUKER"
+        ],
         "hasEZA": true,
         "hasSEZA": false,
         "latestUpdateYear": 2023
@@ -23448,6 +23663,7 @@ const dokkanCharacters = [
             "Successors"
         ],
         "roles": [
+            "TANK",
             "DPS / NUKER"
         ],
         "hasEZA": false,
@@ -23476,6 +23692,7 @@ const dokkanCharacters = [
         ],
         "categories": [],
         "roles": [
+            "TANK",
             "DPS / NUKER"
         ],
         "hasEZA": false,
@@ -23838,7 +24055,8 @@ const dokkanCharacters = [
             "Earth-Bred Fighters"
         ],
         "roles": [
-            "SUPPORT"
+            "SUPPORT",
+            "DPS / NUKER"
         ],
         "hasEZA": false,
         "hasSEZA": false,
@@ -23915,7 +24133,8 @@ const dokkanCharacters = [
             "Mission Execution"
         ],
         "roles": [
-            "SUPPORT"
+            "SUPPORT",
+            "DPS / NUKER"
         ],
         "hasEZA": false,
         "hasSEZA": false,
@@ -24014,7 +24233,8 @@ const dokkanCharacters = [
         ],
         "categories": [],
         "roles": [
-            "SUPPORT"
+            "SUPPORT",
+            "DPS / NUKER"
         ],
         "hasEZA": false,
         "hasSEZA": false,
@@ -24089,7 +24309,9 @@ const dokkanCharacters = [
             "Super Heroes",
             "Earth-Bred Fighters"
         ],
-        "roles": [],
+        "roles": [
+            "TANK"
+        ],
         "hasEZA": true,
         "hasSEZA": false,
         "latestUpdateYear": 2022
@@ -24130,7 +24352,9 @@ const dokkanCharacters = [
             "Fused Fighters",
             "Super Heroes"
         ],
-        "roles": [],
+        "roles": [
+            "DPS / NUKER"
+        ],
         "hasEZA": true,
         "hasSEZA": false,
         "latestUpdateYear": 2022
@@ -24337,7 +24561,6 @@ const dokkanCharacters = [
             "Mission Execution"
         ],
         "roles": [
-            "TANK",
             "DPS / NUKER"
         ],
         "hasEZA": true,
@@ -24564,7 +24787,8 @@ const dokkanCharacters = [
             "Crossover"
         ],
         "roles": [
-            "SUPPORT"
+            "SUPPORT",
+            "DPS / NUKER"
         ],
         "hasEZA": true,
         "hasSEZA": false,
@@ -24636,7 +24860,8 @@ const dokkanCharacters = [
             "Crossover"
         ],
         "roles": [
-            "SUPPORT"
+            "SUPPORT",
+            "DPS / NUKER"
         ],
         "hasEZA": true,
         "hasSEZA": false,
@@ -24895,6 +25120,7 @@ const dokkanCharacters = [
             "Mission Execution"
         ],
         "roles": [
+            "TANK",
             "HEALER",
             "DPS / NUKER"
         ],
@@ -24989,8 +25215,8 @@ const dokkanCharacters = [
             "Mission Execution"
         ],
         "roles": [
-            "TANK",
-            "SUPPORT"
+            "SUPPORT",
+            "DPS / NUKER"
         ],
         "hasEZA": false,
         "hasSEZA": false,
@@ -25208,7 +25434,9 @@ const dokkanCharacters = [
             "Defenders of Justice",
             "Mission Execution"
         ],
-        "roles": [],
+        "roles": [
+            "TANK"
+        ],
         "hasEZA": false,
         "hasSEZA": false,
         "latestUpdateYear": 2022
@@ -26125,6 +26353,7 @@ const dokkanCharacters = [
             "Earth-Bred Fighters"
         ],
         "roles": [
+            "SUPPORT",
             "DPS / NUKER"
         ],
         "hasEZA": false,
@@ -26241,7 +26470,9 @@ const dokkanCharacters = [
             "Earth-Bred Fighters",
             "Demonic Power"
         ],
-        "roles": [],
+        "roles": [
+            "TANK"
+        ],
         "hasEZA": true,
         "hasSEZA": false,
         "latestUpdateYear": 2022
@@ -26527,6 +26758,7 @@ const dokkanCharacters = [
             "Earth-Protecting Heroes"
         ],
         "roles": [
+            "TANK",
             "DPS / NUKER"
         ],
         "hasEZA": false,
@@ -26564,7 +26796,9 @@ const dokkanCharacters = [
             "Space-Traveling Warriors",
             "Planetary Destruction"
         ],
-        "roles": [],
+        "roles": [
+            "DPS / NUKER"
+        ],
         "hasEZA": false,
         "hasSEZA": false,
         "latestUpdateYear": 2022
@@ -26643,7 +26877,9 @@ const dokkanCharacters = [
             "Mastered Evolution",
             "Successors"
         ],
-        "roles": [],
+        "roles": [
+            "DPS / NUKER"
+        ],
         "hasEZA": true,
         "hasSEZA": false,
         "latestUpdateYear": 2022
@@ -26716,7 +26952,9 @@ const dokkanCharacters = [
             "Fused Fighters",
             "Earth-Bred Fighters"
         ],
-        "roles": [],
+        "roles": [
+            "DPS / NUKER"
+        ],
         "hasEZA": true,
         "hasSEZA": false,
         "latestUpdateYear": 2022
@@ -27100,7 +27338,9 @@ const dokkanCharacters = [
             "Bond of Parent and Child",
             "Earth-Bred Fighters"
         ],
-        "roles": [],
+        "roles": [
+            "DPS / NUKER"
+        ],
         "hasEZA": true,
         "hasSEZA": false,
         "latestUpdateYear": 2022
@@ -27211,7 +27451,9 @@ const dokkanCharacters = [
             "GT Bosses",
             "Battle of Fate"
         ],
-        "roles": [],
+        "roles": [
+            "DPS / NUKER"
+        ],
         "hasEZA": true,
         "hasSEZA": false,
         "latestUpdateYear": 2022
@@ -27455,7 +27697,10 @@ const dokkanCharacters = [
             "Earth-Bred Fighters",
             "Earth-Protecting Heroes"
         ],
-        "roles": [],
+        "roles": [
+            "TANK",
+            "DPS / NUKER"
+        ],
         "hasEZA": false,
         "hasSEZA": false,
         "latestUpdateYear": 2022
@@ -27678,6 +27923,7 @@ const dokkanCharacters = [
             "Mission Execution"
         ],
         "roles": [
+            "TANK",
             "DPS / NUKER"
         ],
         "hasEZA": true,
@@ -27713,7 +27959,9 @@ const dokkanCharacters = [
             "Storied Figures",
             "Mission Execution"
         ],
-        "roles": [],
+        "roles": [
+            "DPS / NUKER"
+        ],
         "hasEZA": true,
         "hasSEZA": false,
         "latestUpdateYear": 2022
@@ -27915,7 +28163,8 @@ const dokkanCharacters = [
             "Demonic Power"
         ],
         "roles": [
-            "SUPPORT"
+            "SUPPORT",
+            "DPS / NUKER"
         ],
         "hasEZA": true,
         "hasSEZA": false,
@@ -27958,6 +28207,7 @@ const dokkanCharacters = [
             "Earth-Bred Fighters"
         ],
         "roles": [
+            "TANK",
             "SUPPORT"
         ],
         "hasEZA": true,
@@ -28364,7 +28614,9 @@ const dokkanCharacters = [
             "Bond of Parent and Child",
             "Earth-Bred Fighters"
         ],
-        "roles": [],
+        "roles": [
+            "DPS / NUKER"
+        ],
         "hasEZA": true,
         "hasSEZA": false,
         "latestUpdateYear": 2022
@@ -28450,7 +28702,9 @@ const dokkanCharacters = [
             "Tournament Participants",
             "Successors"
         ],
-        "roles": [],
+        "roles": [
+            "DPS / NUKER"
+        ],
         "hasEZA": true,
         "hasSEZA": false,
         "latestUpdateYear": 2022
@@ -28487,7 +28741,8 @@ const dokkanCharacters = [
             "Tournament Participants"
         ],
         "roles": [
-            "SUPPORT"
+            "SUPPORT",
+            "DPS / NUKER"
         ],
         "hasEZA": true,
         "hasSEZA": false,
@@ -28571,6 +28826,7 @@ const dokkanCharacters = [
             "Earth-Bred Fighters"
         ],
         "roles": [
+            "TANK",
             "DPS / NUKER"
         ],
         "hasEZA": false,
@@ -28608,7 +28864,8 @@ const dokkanCharacters = [
             "GT Bosses"
         ],
         "roles": [
-            "HEALER"
+            "HEALER",
+            "DPS / NUKER"
         ],
         "hasEZA": false,
         "hasSEZA": false,
@@ -28636,7 +28893,8 @@ const dokkanCharacters = [
         ],
         "categories": [],
         "roles": [
-            "HEALER"
+            "HEALER",
+            "DPS / NUKER"
         ],
         "hasEZA": false,
         "hasSEZA": false,
@@ -28940,7 +29198,9 @@ const dokkanCharacters = [
             "Worldwide Chaos",
             "Uncontrollable Power"
         ],
-        "roles": [],
+        "roles": [
+            "DPS / NUKER"
+        ],
         "hasEZA": true,
         "hasSEZA": false,
         "latestUpdateYear": 2022
@@ -28973,7 +29233,9 @@ const dokkanCharacters = [
             "Fused Fighters",
             "Earth-Bred Fighters"
         ],
-        "roles": [],
+        "roles": [
+            "DPS / NUKER"
+        ],
         "hasEZA": true,
         "hasSEZA": false,
         "latestUpdateYear": 2022
@@ -30053,7 +30315,9 @@ const dokkanCharacters = [
             "Tournament Participants",
             "Super Bosses"
         ],
-        "roles": [],
+        "roles": [
+            "DPS / NUKER"
+        ],
         "hasEZA": true,
         "hasSEZA": false,
         "latestUpdateYear": 2021
@@ -30360,7 +30624,9 @@ const dokkanCharacters = [
             "Crossover",
             "Storied Figures"
         ],
-        "roles": [],
+        "roles": [
+            "DPS / NUKER"
+        ],
         "hasEZA": true,
         "hasSEZA": false,
         "latestUpdateYear": 2021
@@ -30395,6 +30661,7 @@ const dokkanCharacters = [
             "Corroded Body and Mind"
         ],
         "roles": [
+            "TANK",
             "HEALER"
         ],
         "hasEZA": true,
@@ -30591,9 +30858,7 @@ const dokkanCharacters = [
             "Power Beyond Super Saiyan",
             "Earth-Bred Fighters"
         ],
-        "roles": [
-            "TANK"
-        ],
+        "roles": [],
         "hasEZA": true,
         "hasSEZA": false,
         "latestUpdateYear": 2021
@@ -31177,7 +31442,9 @@ const dokkanCharacters = [
             "Earth-Bred Fighters",
             "Earth-Protecting Heroes"
         ],
-        "roles": [],
+        "roles": [
+            "DPS / NUKER"
+        ],
         "hasEZA": false,
         "hasSEZA": false,
         "latestUpdateYear": 2021
@@ -31248,7 +31515,9 @@ const dokkanCharacters = [
             "Space-Traveling Warriors",
             "Planetary Destruction"
         ],
-        "roles": [],
+        "roles": [
+            "DPS / NUKER"
+        ],
         "hasEZA": true,
         "hasSEZA": false,
         "latestUpdateYear": 2021
@@ -31719,7 +31988,9 @@ const dokkanCharacters = [
             "Accelerated Battle",
             "Mission Execution"
         ],
-        "roles": [],
+        "roles": [
+            "TANK"
+        ],
         "hasEZA": true,
         "hasSEZA": false,
         "latestUpdateYear": 2021
@@ -31791,7 +32062,9 @@ const dokkanCharacters = [
             "Entrusted Will",
             "Bond of Parent and Child"
         ],
-        "roles": [],
+        "roles": [
+            "DPS / NUKER"
+        ],
         "hasEZA": false,
         "hasSEZA": false,
         "latestUpdateYear": 2021
@@ -31845,7 +32118,9 @@ const dokkanCharacters = [
             "The First Awakened"
         ],
         "categories": [],
-        "roles": [],
+        "roles": [
+            "DPS / NUKER"
+        ],
         "hasEZA": false,
         "hasSEZA": false,
         "latestUpdateYear": 2021
@@ -32012,7 +32287,8 @@ const dokkanCharacters = [
             "Successors"
         ],
         "roles": [
-            "SUPPORT"
+            "SUPPORT",
+            "DPS / NUKER"
         ],
         "hasEZA": false,
         "hasSEZA": false,
@@ -32397,7 +32673,6 @@ const dokkanCharacters = [
             "Demonic Power"
         ],
         "roles": [
-            "TANK",
             "SUPPORT",
             "DPS / NUKER"
         ],
@@ -32481,7 +32756,9 @@ const dokkanCharacters = [
             "Earth-Bred Fighters",
             "Tournament Participants"
         ],
-        "roles": [],
+        "roles": [
+            "TANK"
+        ],
         "hasEZA": false,
         "hasSEZA": false,
         "latestUpdateYear": 2021
@@ -32507,7 +32784,9 @@ const dokkanCharacters = [
             "Tournament of Power"
         ],
         "categories": [],
-        "roles": [],
+        "roles": [
+            "TANK"
+        ],
         "hasEZA": false,
         "hasSEZA": false,
         "latestUpdateYear": 2021
@@ -32542,7 +32821,9 @@ const dokkanCharacters = [
             "Successors",
             "Mission Execution"
         ],
-        "roles": [],
+        "roles": [
+            "DPS / NUKER"
+        ],
         "hasEZA": false,
         "hasSEZA": false,
         "latestUpdateYear": 2021
@@ -32568,7 +32849,9 @@ const dokkanCharacters = [
             "Royal Lineage"
         ],
         "categories": [],
-        "roles": [],
+        "roles": [
+            "DPS / NUKER"
+        ],
         "hasEZA": false,
         "hasSEZA": false,
         "latestUpdateYear": 2021
@@ -32603,7 +32886,8 @@ const dokkanCharacters = [
         ],
         "roles": [
             "TANK",
-            "SUPPORT"
+            "SUPPORT",
+            "DPS / NUKER"
         ],
         "hasEZA": false,
         "hasSEZA": false,
@@ -33106,7 +33390,8 @@ const dokkanCharacters = [
             "Earth-Bred Fighters"
         ],
         "roles": [
-            "SUPPORT"
+            "SUPPORT",
+            "DPS / NUKER"
         ],
         "hasEZA": false,
         "hasSEZA": false,
@@ -33143,7 +33428,8 @@ const dokkanCharacters = [
             "Earth-Bred Fighters"
         ],
         "roles": [
-            "SUPPORT"
+            "SUPPORT",
+            "DPS / NUKER"
         ],
         "hasEZA": false,
         "hasSEZA": false,
@@ -33183,7 +33469,9 @@ const dokkanCharacters = [
             "Bond of Parent and Child",
             "Earth-Bred Fighters"
         ],
-        "roles": [],
+        "roles": [
+            "DPS / NUKER"
+        ],
         "hasEZA": false,
         "hasSEZA": false,
         "latestUpdateYear": 2021
@@ -33209,7 +33497,9 @@ const dokkanCharacters = [
             "Kamehameha"
         ],
         "categories": [],
-        "roles": [],
+        "roles": [
+            "DPS / NUKER"
+        ],
         "hasEZA": false,
         "hasSEZA": false,
         "latestUpdateYear": 2021
@@ -33325,7 +33615,9 @@ const dokkanCharacters = [
             "Accelerated Battle",
             "Uncontrollable Power"
         ],
-        "roles": [],
+        "roles": [
+            "TANK"
+        ],
         "hasEZA": true,
         "hasSEZA": false,
         "latestUpdateYear": 2021
@@ -33556,7 +33848,8 @@ const dokkanCharacters = [
             "Earth-Bred Fighters"
         ],
         "roles": [
-            "SUPPORT"
+            "SUPPORT",
+            "DPS / NUKER"
         ],
         "hasEZA": false,
         "hasSEZA": false,
@@ -33718,7 +34011,9 @@ const dokkanCharacters = [
             "Space-Traveling Warriors"
         ],
         "roles": [
-            "HEALER"
+            "TANK",
+            "HEALER",
+            "DPS / NUKER"
         ],
         "hasEZA": false,
         "hasSEZA": false,
@@ -33756,7 +34051,8 @@ const dokkanCharacters = [
             "Mission Execution"
         ],
         "roles": [
-            "HEALER"
+            "HEALER",
+            "DPS / NUKER"
         ],
         "hasEZA": false,
         "hasSEZA": false,
@@ -34423,7 +34719,9 @@ const dokkanCharacters = [
             "Super Bosses",
             "Uncontrollable Power"
         ],
-        "roles": [],
+        "roles": [
+            "DPS / NUKER"
+        ],
         "hasEZA": true,
         "hasSEZA": false,
         "latestUpdateYear": 2020
@@ -34464,7 +34762,9 @@ const dokkanCharacters = [
             "Tournament Participants",
             "Super Bosses"
         ],
-        "roles": [],
+        "roles": [
+            "TANK"
+        ],
         "hasEZA": true,
         "hasSEZA": false,
         "latestUpdateYear": 2020
@@ -35137,6 +35437,7 @@ const dokkanCharacters = [
             "Storied Figures"
         ],
         "roles": [
+            "TANK",
             "SUPPORT",
             "DPS / NUKER"
         ],
@@ -35173,6 +35474,7 @@ const dokkanCharacters = [
             "Fused Fighters"
         ],
         "roles": [
+            "TANK",
             "HEALER"
         ],
         "hasEZA": false,
@@ -36043,6 +36345,7 @@ const dokkanCharacters = [
             "Space-Traveling Warriors"
         ],
         "roles": [
+            "TANK",
             "HEALER",
             "SUPPORT"
         ],
@@ -37580,6 +37883,7 @@ const dokkanCharacters = [
             "Space-Traveling Warriors"
         ],
         "roles": [
+            "TANK",
             "SUPPORT"
         ],
         "hasEZA": false,
@@ -37776,7 +38080,9 @@ const dokkanCharacters = [
             "Power Beyond Super Saiyan",
             "Uncontrollable Power"
         ],
-        "roles": [],
+        "roles": [
+            "DPS / NUKER"
+        ],
         "hasEZA": true,
         "hasSEZA": false,
         "latestUpdateYear": 2019
@@ -38080,7 +38386,9 @@ const dokkanCharacters = [
             "Bond of Friendship",
             "Earth-Bred Fighters"
         ],
-        "roles": [],
+        "roles": [
+            "DPS / NUKER"
+        ],
         "hasEZA": false,
         "hasSEZA": false,
         "latestUpdateYear": 2019
@@ -42958,9 +43266,7 @@ const dokkanCharacters = [
             "Demonic Power",
             "Uncontrollable Power"
         ],
-        "roles": [
-            "TANK"
-        ],
+        "roles": [],
         "hasEZA": false,
         "hasSEZA": false,
         "latestUpdateYear": 2017
@@ -42987,9 +43293,7 @@ const dokkanCharacters = [
             "Over in a Flash"
         ],
         "categories": [],
-        "roles": [
-            "TANK"
-        ],
+        "roles": [],
         "hasEZA": false,
         "hasSEZA": false,
         "latestUpdateYear": 2017
@@ -48830,9 +49134,7 @@ const dokkanCharacters = [
             "Power of Wishes",
             "Successors"
         ],
-        "roles": [
-            "TANK"
-        ],
+        "roles": [],
         "hasEZA": false,
         "hasSEZA": false,
         "latestUpdateYear": 2015
@@ -51758,9 +52060,7 @@ const dokkanCharacters = [
             "Godly Power"
         ],
         "categories": [],
-        "roles": [
-            "TANK"
-        ],
+        "roles": [],
         "hasEZA": false,
         "hasSEZA": false,
         "latestUpdateYear": 2015
@@ -54353,9 +54653,7 @@ const dokkanCharacters = [
             "Saiyan Saga",
             "Earth-Bred Fighters"
         ],
-        "roles": [
-            "TANK"
-        ],
+        "roles": [],
         "hasEZA": false,
         "hasSEZA": false,
         "latestUpdateYear": 2015
@@ -55496,9 +55794,7 @@ const dokkanCharacters = [
             "Uncontrollable Power",
             "Mission Execution"
         ],
-        "roles": [
-            "TANK"
-        ],
+        "roles": [],
         "hasEZA": false,
         "hasSEZA": false,
         "latestUpdateYear": 2015
@@ -58454,9 +58750,7 @@ const dokkanCharacters = [
             "Planetary Destruction",
             "Mission Execution"
         ],
-        "roles": [
-            "TANK"
-        ],
+        "roles": [],
         "hasEZA": false,
         "hasSEZA": false,
         "latestUpdateYear": 2015
@@ -59355,9 +59649,7 @@ const dokkanCharacters = [
             "Dodon Ray"
         ],
         "categories": [],
-        "roles": [
-            "TANK"
-        ],
+        "roles": [],
         "hasEZA": false,
         "hasSEZA": false,
         "latestUpdateYear": 2015
@@ -59896,9 +60188,7 @@ const dokkanCharacters = [
             "Twin Terrors"
         ],
         "categories": [],
-        "roles": [
-            "TANK"
-        ],
+        "roles": [],
         "hasEZA": false,
         "hasSEZA": false,
         "latestUpdateYear": 2015
@@ -62123,9 +62413,7 @@ const dokkanCharacters = [
             "Attack of the Clones"
         ],
         "categories": [],
-        "roles": [
-            "TANK"
-        ],
+        "roles": [],
         "hasEZA": false,
         "hasSEZA": false,
         "latestUpdateYear": 2015

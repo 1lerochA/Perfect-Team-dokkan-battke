@@ -213,7 +213,7 @@
         <div class="filter-section" style="position:relative;">
             <div id="search-section">
                 <h3 class="dokkan-font" style="text-align:left; margin-bottom:20px; font-size:1.8rem; display:flex; align-items:center;">
-                    <span class="step-badge">1</span> CHOISISSEZ VOTRE LEADER
+                    <span class="step-badge">1</span> CHOISISSEZ UN PERSONNAGE CENTRAL
                 </h3>
                 <div class="search-container" style="position:relative;">
                     <span style="position:absolute; left:25px; top:50%; transform:translateY(-50%); color:#888;">
@@ -252,6 +252,14 @@
                 <select id="category-filter" style="padding:12px 20px; font-size:1.1rem; border-radius:12px; background:rgba(15, 23, 42, 0.9); color:#fff; border:2px solid var(--accent-blue); outline:none; cursor:pointer; font-family:'Nunito', sans-serif; font-weight:700; box-shadow: 0 4px 15px rgba(0,0,0,0.4); min-width: 300px;">
                     </select>
             </div>
+
+            <div id="build-mode-container" style="display:none; text-align:center; margin-top:15px; animation: slideUp 0.5s ease-out;">
+                <label for="build-mode-filter" style="color:var(--accent-blue); font-family:'Bangers', cursive; font-size:1.5rem; margin-right:15px; letter-spacing:1px; text-shadow:2px 2px 0 #000;">⚙️ RÔLE DU PERSONNAGE :</label>
+                <select id="build-mode-filter" style="padding:12px 20px; font-size:1.1rem; border-radius:12px; background:rgba(15, 23, 42, 0.9); color:#fff; border:2px solid var(--accent-blue); outline:none; cursor:pointer; font-family:'Nunito', sans-serif; font-weight:700; box-shadow: 0 4px 15px rgba(0,0,0,0.4); min-width: 300px;">
+                    <option value="LEADER">👑 Créer les équipes autour de son Leader Skill</option>
+                    <option value="MEMBER">🤝 Lui trouver les meilleurs Leaders (Générateur Inversé)</option>
+                </select>
+            </div>
         </div>
 
         <div id="team-results" class="team-result"></div>
@@ -263,7 +271,7 @@
     <script>
         let selectedLeader    = null;
         let generatedTeams    = [];
-        let lastUsedMode      = false; // NOUVEAU : Mémorise si on utilise la Box ou Tout le jeu
+        let lastUsedMode      = false;
 
         const leaderInput    = document.getElementById('leaderInput');
         const suggestionsDiv = document.getElementById('suggestions');
@@ -272,11 +280,18 @@
             document.getElementById('btn-all')
         ];
 
+        // Écouteur sur les menus déroulants pour régénérer automatiquement
         document.getElementById('category-filter').addEventListener('change', () => {
-            if (generatedTeams.length > 0) {
-                // Si on a déjà généré des teams, on relance automatiquement la génération avec la nouvelle catégorie !
-                generateTeam(lastUsedMode);
+            if (generatedTeams.length > 0) generateTeam(lastUsedMode);
+        });
+        document.getElementById('build-mode-filter').addEventListener('change', (e) => {
+            const catContainer = document.getElementById('category-selector-container');
+            if (e.target.value === 'MEMBER') {
+                catContainer.style.display = 'none'; // On cache les catégories si on cherche un Leader
+            } else {
+                catContainer.style.display = 'block';
             }
+            if (generatedTeams.length > 0) generateTeam(lastUsedMode);
         });
 
         leaderInput.addEventListener('input', e => {
@@ -284,7 +299,6 @@
             if (q.length < 2) { suggestionsDiv.style.display = 'none'; return; }
             const matches = dokkanCharacters.filter(c => c.name.toLowerCase().includes(q)).slice(0, 10);
             if (!matches.length) { suggestionsDiv.style.display = 'none'; return; }
-
             suggestionsDiv.innerHTML = matches.map(c => `
                 <div class="suggestion-item" onclick="selectLeader(${c.id})">
                     <div class="suggestion-thumb">${createDokkanCard(c, { size: 'sm' })}</div>
@@ -309,12 +323,11 @@
             document.getElementById('display-leader-name').textContent = selectedLeader.name;
             document.getElementById('display-leader-skill').textContent = 'Leader Skill : ' + (selectedLeader.leaderSkill || 'Non disponible');
 
-            document.getElementById('search-section').style.display          = 'none';
+            document.getElementById('search-section').style.display = 'none';
             document.getElementById('selected-leader-container').style.display = 'flex';
             suggestionsDiv.style.display = 'none';
             actionButtons.forEach(btn => btn.disabled = false);
 
-            // --- NOUVEAU : Remplissage dynamique du menu déroulant ---
             const catFilter = document.getElementById('category-filter');
             catFilter.innerHTML = '<option value="ALL">🌟 Toutes les catégories (Génération Auto)</option>';
             
@@ -330,17 +343,69 @@
                 }
             }
             document.getElementById('category-selector-container').style.display = 'block';
+            document.getElementById('build-mode-container').style.display = 'block';
+            document.getElementById('build-mode-filter').value = 'LEADER';
+            
+            sessionStorage.setItem('dokkanTempLeaderId', id);
         };
 
         window.resetLeader = function() {
             selectedLeader = null; generatedTeams = [];
             leaderInput.value = '';
-            document.getElementById('search-section').style.display            = 'block';
+            document.getElementById('search-section').style.display = 'block';
             document.getElementById('selected-leader-container').style.display = 'none';
-            document.getElementById('category-selector-container').style.display = 'none'; // NOUVEAU
+            document.getElementById('category-selector-container').style.display = 'none';
+            document.getElementById('build-mode-container').style.display = 'none';
             document.getElementById('team-results').innerHTML = '';
             actionButtons.forEach(btn => btn.disabled = true);
+            
+            sessionStorage.removeItem('dokkanTempLeaderId');
+            sessionStorage.removeItem('dokkanTempTeams');
         };
+
+        function getBestLeadersFor(character, poolIds) {
+            let validLeaders = dokkanCharacters.filter(c => poolIds.includes(c.id) && c.id !== character.id);
+            
+            validLeaders = validLeaders.map(leader => {
+                let score = 0;
+                let givesBoost = false;
+
+                if (leader.leaderSkill) {
+                    const catRegex = /"([^"]+)" Category/g;
+                    let match;
+                    while ((match = catRegex.exec(leader.leaderSkill)) !== null) {
+                        if (character.categories.includes(match[1])) givesBoost = true;
+                    }
+                    if (leader.leaderSkill.includes("Super Type") && character.alignment === "SUPER") givesBoost = true;
+                    if (leader.leaderSkill.includes("Extreme Type") && character.alignment === "EXTRÊME") givesBoost = true;
+                    if (leader.leaderSkill.includes("All Types")) givesBoost = true;
+                    
+                    const addRegex = /additional HP, ATK & DEF \+\d+% for characters who also belong to the "([^"]+)"/i;
+                    const addMatch = leader.leaderSkill.match(addRegex);
+                    if (addMatch && addMatch[1] && character.categories.includes(addMatch[1])) {
+                        score += 2000; // Donne le fameux 200% !
+                    }
+                }
+
+                if (!givesBoost) return null; // S'il ne booste pas, on l'élimine
+                
+                score += 5000; // Base valid leader
+                if (leader.rarity === 'LR') score += 500;
+                if (leader.hasSEZA) score += 300;
+
+                let sharedLinks = 0;
+                if (leader.links && character.links) {
+                    sharedLinks = leader.links.filter(l => character.links.includes(l)).length;
+                }
+                score += sharedLinks * 150; // On valorise les leaders qui linkent bien avec lui
+
+                return { leader, score };
+            }).filter(item => item !== null);
+
+            validLeaders.sort((a, b) => b.score - a.score);
+            return validLeaders.map(item => item.leader);
+        }
+
 
         window.generateTeam = function(useFullGame) {
             lastUsedMode = useFullGame; 
@@ -350,71 +415,97 @@
             const poolIds = useFullGame ? dokkanCharacters.map(c => c.id) : (JSON.parse(localStorage.getItem('dokkanBox')) || []);
 
             if (!useFullGame && !poolIds.length) {
-                resultsDiv.innerHTML = '<div style="background:rgba(231,76,60,0.1); border:1px solid #e74c3c; padding:30px; border-radius:15px; text-align:center; color:#e74c3c; font-size:1.2rem;">Votre box est vide ! Rendez-vous dans "Ma Box" pour ajouter vos personnages.</div>';
+                resultsDiv.innerHTML = '<div style="background:rgba(231,76,60,0.1); border:1px solid #e74c3c; padding:30px; border-radius:15px; text-align:center; color:#e74c3c; font-size:1.2rem;">Votre box est vide !</div>';
                 return;
             }
 
-            const catRegex = /"([^"]+)"/g;
-            const categoriesFound = [];
-            let match;
-            while ((match = catRegex.exec(selectedLeader.leaderSkill)) !== null) {
-                if (!categoriesFound.includes(match[1])) categoriesFound.push(match[1]);
+            generatedTeams = [];
+            const buildMode = document.getElementById('build-mode-filter').value;
+            const selectedFocus = document.getElementById('category-filter').value;
+            
+            let bestLeadersForMember = [];
+            if (buildMode === 'MEMBER') {
+                bestLeadersForMember = getBestLeadersFor(selectedLeader, poolIds);
+                if (bestLeadersForMember.length === 0) {
+                    resultsDiv.innerHTML = '<div style="background:rgba(231,76,60,0.1); border:1px solid #e74c3c; padding:30px; border-radius:15px; text-align:center; color:#e74c3c; font-size:1.2rem;">Aucun Leader compatible trouvé dans votre box pour ce personnage !</div>';
+                    return;
+                }
             }
 
-            const friendLeader = selectedLeader;
-            generatedTeams = [];
-
             const teamConfigs = [];
-            const selectedFocus = document.getElementById('category-filter').value;
+            if (buildMode === 'LEADER') {
+                const catRegex = /"([^"]+)"/g;
+                const initialCategories = [];
+                let match;
+                while ((match = catRegex.exec(selectedLeader.leaderSkill)) !== null) {
+                    if (!initialCategories.includes(match[1])) initialCategories.push(match[1]);
+                }
 
-            if (selectedFocus !== "ALL") {
-                teamConfigs.push({ type: 'CAT', cat: selectedFocus, name: "TEAM " + selectedFocus.toUpperCase() + " (Équilibrée)" });
-                teamConfigs.push({ type: 'CAT', cat: selectedFocus, name: "TEAM " + selectedFocus.toUpperCase() + " (Offensive)" });
-                teamConfigs.push({ type: 'CAT', cat: selectedFocus, name: "TEAM " + selectedFocus.toUpperCase() + " (Défensive)" });
-                teamConfigs.push({ type: 'CAT', cat: selectedFocus, name: "TEAM " + selectedFocus.toUpperCase() + " (Alternative)" });
-                teamConfigs.push({ type: 'CAT', cat: selectedFocus, name: "TEAM " + selectedFocus.toUpperCase() + " (Full Liens)" });
-            } else {
-                if (categoriesFound.length === 0) {
-                    for(let i=0; i<5; i++) teamConfigs.push({ type: 'MIX', name: "TEAM " + selectedLeader.name.toUpperCase() });
-                } else if (categoriesFound.length === 1) {
-                    teamConfigs.push({ type: 'CAT', cat: categoriesFound[0], name: "TEAM " + categoriesFound[0].toUpperCase() });
-                    teamConfigs.push({ type: 'CAT', cat: categoriesFound[0], name: "TEAM " + categoriesFound[0].toUpperCase() });
-                    teamConfigs.push({ type: 'CAT', cat: categoriesFound[0], name: "TEAM " + categoriesFound[0].toUpperCase() });
-                    teamConfigs.push({ type: 'MIX', name: "TEAM ALTERNATIVE" });
-                    teamConfigs.push({ type: 'MIX', name: "TEAM FULL LIENS" });
-                } else if (categoriesFound.length === 2) {
-                    teamConfigs.push({ type: 'CAT', cat: categoriesFound[0], name: "TEAM " + categoriesFound[0].toUpperCase() });
-                    teamConfigs.push({ type: 'CAT', cat: categoriesFound[0], name: "TEAM " + categoriesFound[0].toUpperCase() });
-                    teamConfigs.push({ type: 'CAT', cat: categoriesFound[1], name: "TEAM " + categoriesFound[1].toUpperCase() });
-                    teamConfigs.push({ type: 'CAT', cat: categoriesFound[1], name: "TEAM " + categoriesFound[1].toUpperCase() });
-                    teamConfigs.push({ type: 'MIX', name: "TEAM HYBRIDE (MIX)" });
+                if (selectedFocus !== "ALL") {
+                    teamConfigs.push({ type: 'CAT', cat: selectedFocus, name: "TEAM " + selectedFocus.toUpperCase() + " (Équilibrée)" });
+                    teamConfigs.push({ type: 'CAT', cat: selectedFocus, name: "TEAM " + selectedFocus.toUpperCase() + " (Offensive)" });
+                    teamConfigs.push({ type: 'CAT', cat: selectedFocus, name: "TEAM " + selectedFocus.toUpperCase() + " (Défensive)" });
+                    teamConfigs.push({ type: 'CAT', cat: selectedFocus, name: "TEAM " + selectedFocus.toUpperCase() + " (Alternative)" });
+                    teamConfigs.push({ type: 'CAT', cat: selectedFocus, name: "TEAM " + selectedFocus.toUpperCase() + " (Full Liens)" });
                 } else {
-                    teamConfigs.push({ type: 'CAT', cat: categoriesFound[0], name: "TEAM " + categoriesFound[0].toUpperCase() });
-                    teamConfigs.push({ type: 'CAT', cat: categoriesFound[1], name: "TEAM " + categoriesFound[1].toUpperCase() });
-                    teamConfigs.push({ type: 'CAT', cat: categoriesFound[2], name: "TEAM " + categoriesFound[2].toUpperCase() });
-                    teamConfigs.push({ type: 'CAT', cat: categoriesFound[categoriesFound.length > 3 ? 3 : 0], name: "TEAM " + categoriesFound[categoriesFound.length > 3 ? 3 : 0].toUpperCase() });
-                    teamConfigs.push({ type: 'MIX', name: "TEAM HYBRIDE (MIX)" });
+                    if (initialCategories.length === 0) {
+                        for(let i=0; i<5; i++) teamConfigs.push({ type: 'MIX', name: "TEAM " + selectedLeader.name.toUpperCase() });
+                    } else if (initialCategories.length === 1) {
+                        for(let i=0; i<3; i++) teamConfigs.push({ type: 'CAT', cat: initialCategories[0], name: "TEAM " + initialCategories[0].toUpperCase() });
+                        teamConfigs.push({ type: 'MIX', name: "TEAM ALTERNATIVE" });
+                        teamConfigs.push({ type: 'MIX', name: "TEAM FULL LIENS" });
+                    } else if (initialCategories.length === 2) {
+                        teamConfigs.push({ type: 'CAT', cat: initialCategories[0], name: "TEAM " + initialCategories[0].toUpperCase() });
+                        teamConfigs.push({ type: 'CAT', cat: initialCategories[0], name: "TEAM " + initialCategories[0].toUpperCase() });
+                        teamConfigs.push({ type: 'CAT', cat: initialCategories[1], name: "TEAM " + initialCategories[1].toUpperCase() });
+                        teamConfigs.push({ type: 'CAT', cat: initialCategories[1], name: "TEAM " + initialCategories[1].toUpperCase() });
+                        teamConfigs.push({ type: 'MIX', name: "TEAM HYBRIDE (MIX)" });
+                    } else {
+                        teamConfigs.push({ type: 'CAT', cat: initialCategories[0], name: "TEAM " + initialCategories[0].toUpperCase() });
+                        teamConfigs.push({ type: 'CAT', cat: initialCategories[1], name: "TEAM " + initialCategories[1].toUpperCase() });
+                        teamConfigs.push({ type: 'CAT', cat: initialCategories[2], name: "TEAM " + initialCategories[2].toUpperCase() });
+                        teamConfigs.push({ type: 'CAT', cat: initialCategories[initialCategories.length > 3 ? 3 : 0], name: "TEAM " + initialCategories[initialCategories.length > 3 ? 3 : 0].toUpperCase() });
+                        teamConfigs.push({ type: 'MIX', name: "TEAM HYBRIDE (MIX)" });
+                    }
                 }
             }
 
             let usageTracker = {};
 
             for (let i = 0; i < 5; i++) {
-                const config = teamConfigs[i];
+                let currentLeader = selectedLeader;
+                let config = buildMode === 'LEADER' ? teamConfigs[i] : { type: 'REVERSE', name: "LEADER IDÉAL" };
+
+                if (buildMode === 'MEMBER') {
+                    if (i >= bestLeadersForMember.length) break; // S'il n'y a que 3 leaders valides, on s'arrête
+                    currentLeader = bestLeadersForMember[i];
+                    config.name = "LEADER : " + currentLeader.name.toUpperCase();
+                }
+
+                let currentCategoriesFound = [];
+                if (currentLeader.leaderSkill) {
+                    const catRegex = /"([^"]+)"/g;
+                    let match;
+                    while ((match = catRegex.exec(currentLeader.leaderSkill)) !== null) {
+                        if (!currentCategoriesFound.includes(match[1])) currentCategoriesFound.push(match[1]);
+                    }
+                }
 
                 let teamCandidates = dokkanCharacters
-                    .filter(c => poolIds.includes(c.id) && c.id !== selectedLeader.id)
-                    .map(char => {
-                        return { ...char, finalScore: Math.random() }; 
-                    });
+                    .filter(c => poolIds.includes(c.id) && c.id !== currentLeader.id)
+                    .map(char => { return { ...char, finalScore: Math.random() }; });
 
                 let members = [];
-                let usedIds = new Set([selectedLeader.id]); 
-                if (friendLeader) usedIds.add(friendLeader.id);
+                let usedIds = new Set([currentLeader.id]); 
+
+                // Si on cherche un Leader, on FORCE notre personnage initial dans la team !
+                if (buildMode === 'MEMBER' && selectedLeader.id !== currentLeader.id) {
+                    members.push(selectedLeader);
+                    usedIds.add(selectedLeader.id);
+                }
 
                 while (members.length < 5 && teamCandidates.length > 0) {
-                    
-                    let currentTeam = [selectedLeader, ...members];
+                    let currentTeam = [currentLeader, ...members];
                     let hasTank = currentTeam.some(m => m.roles && m.roles.includes("TANK"));
                     let hasSupport = currentTeam.some(m => m.roles && m.roles.includes("SUPPORT"));
                     
@@ -428,19 +519,17 @@
                         let isCatMatch = false;
 
                         if (config.type === 'CAT') {
-                            isCatMatch = candidate.categories.includes(config.cat) || 
-                                         candidate.name.toLowerCase().includes(config.cat.toLowerCase());
-                        } 
-                        else if (selectedLeader.leaderSkill) {
+                            isCatMatch = candidate.categories.includes(config.cat) || candidate.name.toLowerCase().includes(config.cat.toLowerCase());
+                        } else if (currentLeader.leaderSkill) {
                             const catRegex = /"([^"]+)" Category/g;
                             let match;
                             let leaderCategories = [];
-                            while ((match = catRegex.exec(selectedLeader.leaderSkill)) !== null) {
+                            while ((match = catRegex.exec(currentLeader.leaderSkill)) !== null) {
                                 leaderCategories.push(match[1]);
                             }
-                            if (selectedLeader.leaderSkill.includes("Super Type") && candidate.alignment === "SUPER") isCatMatch = true;
-                            if (selectedLeader.leaderSkill.includes("Extreme Type") && candidate.alignment === "EXTRÊME") isCatMatch = true;
-                            if (selectedLeader.leaderSkill.includes("All Types")) isCatMatch = true;
+                            if (currentLeader.leaderSkill.includes("Super Type") && candidate.alignment === "SUPER") isCatMatch = true;
+                            if (currentLeader.leaderSkill.includes("Extreme Type") && candidate.alignment === "EXTRÊME") isCatMatch = true;
+                            if (currentLeader.leaderSkill.includes("All Types")) isCatMatch = true;
                             leaderCategories.forEach(cat => {
                                 if (candidate.categories.includes(cat) || candidate.name.toLowerCase().includes(cat.toLowerCase())) isCatMatch = true;
                             });
@@ -449,16 +538,14 @@
                         if (isCatMatch) {
                             score += 5000;
                         } else {
-                            if (selectedFocus !== "ALL") continue; 
+                            if (buildMode === 'LEADER' && selectedFocus !== "ALL") continue; 
                             score -= 2000; 
                         }
 
-                        if (selectedLeader.leaderSkill) {
+                        if (currentLeader.leaderSkill) {
                             const additionalRegex = /additional HP, ATK & DEF \+\d+% for characters who also belong to the "([^"]+)"/i;
-                            const match = selectedLeader.leaderSkill.match(additionalRegex);
-                            if (match && match[1] && candidate.categories.includes(match[1])) {
-                                score += 1500; 
-                            }
+                            const match = currentLeader.leaderSkill.match(additionalRegex);
+                            if (match && match[1] && candidate.categories.includes(match[1])) score += 1500; 
                         }
 
                         let sharedLinks = 0;
@@ -469,35 +556,28 @@
                         }
                         score += (sharedLinks * 50);
 
-                        // --- LA CORRECTION EST ICI ---
-                        // Pénalité minuscule (30 pts au lieu de 150) : Les monstres resteront, ça changera juste les remplaçants
                         let penalty = (usageTracker[candidate.id] || 0) * 30; 
-                        if (i === 3) penalty = (usageTracker[candidate.id] || 0) * 150; // Team Alternative : pénalité moyenne
+                        if (i === 3 && buildMode === 'LEADER') penalty = (usageTracker[candidate.id] || 0) * 150; 
                         score -= penalty;
 
-                        // Bonus de rôle divisés par 3 pour ne pas écraser la force brute du perso
-                        if (selectedFocus !== "ALL") {
+                        if (buildMode === 'LEADER' && selectedFocus !== "ALL") {
                             if (i === 0) {
                                 if (!hasTank && candidate.roles && candidate.roles.includes("TANK")) score += 150;
                                 if (!hasSupport && candidate.roles && candidate.roles.includes("SUPPORT")) score += 100;
-                            }
-                            else if (i === 1) {
+                            } else if (i === 1) {
                                 if (candidate.roles && candidate.roles.includes("DPS / NUKER")) score += 250;
-                            }
-                            else if (i === 2) {
+                            } else if (i === 2) {
                                 if (candidate.roles && candidate.roles.includes("TANK")) score += 250;
                                 if (candidate.roles && candidate.roles.includes("HEALER")) score += 150;
-                            }
-                            else if (i === 3) {
+                            } else if (i === 3) {
                                 score += Math.random() * 200;
-                            }
-                            else if (i === 4) {
+                            } else if (i === 4) {
                                 score += (sharedLinks * 60);
                             }
                         } else {
-                            if (!hasTank && candidate.roles && candidate.roles.includes("TANK")) score += 150; 
-                            if (!hasSupport && candidate.roles && candidate.roles.includes("SUPPORT")) score += 100; 
-                            if (i === 3) score += Math.random() * 150;
+                            if (!hasTank && candidate.roles && candidate.roles.includes("TANK")) score += 200; 
+                            if (!hasSupport && candidate.roles && candidate.roles.includes("SUPPORT")) score += 150; 
+                            if (i === 3 && buildMode === 'LEADER') score += Math.random() * 150;
                         }
 
                         if (score > bestScore) {
@@ -514,12 +594,10 @@
                     }
                 }
 
-                members.forEach(m => {
-                    usageTracker[m.id] = (usageTracker[m.id] || 0) + 1;
-                });
+                members.forEach(m => { usageTracker[m.id] = (usageTracker[m.id] || 0) + 1; });
 
-                let fullTeam = [selectedLeader, ...members];
-                if (friendLeader) fullTeam.push(friendLeader);
+                let fullTeam = [currentLeader, ...members];
+                if (currentLeader) fullTeam.push(currentLeader); // Ami leader = Le leader trouvé
 
                 let teamScore = 0;
                 let finalHasTank = false;
@@ -530,9 +608,9 @@
                 fullTeam.forEach(m => {
                     if (m.roles && m.roles.includes("TANK")) finalHasTank = true;
                     if (m.roles && m.roles.includes("SUPPORT")) finalHasSupport = true;
-                    if (selectedLeader.leaderSkill) {
+                    if (currentLeader.leaderSkill) {
                         const addRegex = /additional HP, ATK & DEF \+\d+% for characters who also belong to the "([^"]+)"/i;
-                        const match = selectedLeader.leaderSkill.match(addRegex);
+                        const match = currentLeader.leaderSkill.match(addRegex);
                         if (match && match[1] && m.categories.includes(match[1])) count200++;
                     }
                 });
@@ -549,13 +627,13 @@
 
                 let rank = "B";
                 let rankColor = "#bdc3c7"; 
-                
-                if (teamScore >= 1500) { rank = "Z"; rankColor = "#e74c3c"; } 
-                else if (teamScore >= 1200) { rank = "S"; rankColor = "#f39c12"; }
-                else if (teamScore >= 800) { rank = "A"; rankColor = "#2ecc71"; }
+                // NOUVEAU BARÈME HARDCORE
+                if (teamScore >= 1550) { rank = "Z"; rankColor = "#e74c3c"; } 
+                else if (teamScore >= 1200) { rank = "S"; rankColor = "#f39c12"; } 
+                else if (teamScore >= 800) { rank = "A"; rankColor = "#2ecc71"; } 
 
                 let finalTeamName = config.name; 
-                if (teamScore < 500 && selectedFocus === "ALL") finalTeamName = "TEAM ALTERNATIVE (" + selectedLeader.name.toUpperCase() + ")";
+                if (teamScore < 500 && buildMode === 'LEADER' && selectedFocus === "ALL") finalTeamName = "TEAM ALTERNATIVE (" + currentLeader.name.toUpperCase() + ")";
 
                 generatedTeams.push({
                     id: Date.now() + i,
@@ -563,31 +641,26 @@
                     rank: rank,             
                     rankColor: rankColor,  
                     score: teamScore,     
-                    leader: selectedLeader,
-                    friend: friendLeader,
+                    leader: currentLeader,
+                    friend: currentLeader, // Le leader trouvé est copié en ami
                     members: members,
                     source: useFullGame ? 'Tout le jeu' : 'Ma Box',
                     date: new Date().toLocaleDateString('fr-FR')
                 });
             } 
 
-            if (selectedFocus === "ALL") {
+            if (buildMode === 'LEADER' && selectedFocus === "ALL") {
                 generatedTeams.sort((a, b) => b.score - a.score);
             }
 
             renderGeneratedTeams();
             sessionStorage.setItem('dokkanTempTeams', JSON.stringify(generatedTeams));
             sessionStorage.setItem('dokkanTempLeaderId', selectedLeader ? selectedLeader.id : null);
-            sessionStorage.setItem('dokkanTempFriendId', friendLeader ? friendLeader.id : null);
         };
 
         window.toggleDetails = function(teamId) {
             const detailsDiv = document.getElementById('details-' + teamId);
-            if (detailsDiv.style.display === 'none') {
-                detailsDiv.style.display = 'block';
-            } else {
-                detailsDiv.style.display = 'none';
-            }
+            detailsDiv.style.display = detailsDiv.style.display === 'none' ? 'block' : 'none';
         };
 
         function renderGeneratedTeams() {
@@ -611,7 +684,6 @@
                 const btnBg = isSaved ? 'linear-gradient(135deg,#27ae60,#145c33)' : '#e74c3c';
                 headerBar.innerHTML = `
                     <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:25px; border-bottom:1px solid rgba(255,255,255,0.1); padding-bottom:20px; flex-wrap:wrap; gap:20px; width: 100%;">
-                        
                         <div style="display:flex; align-items:center; gap:20px; flex:1; min-width:300px;">
                             <div style="background:linear-gradient(135deg, ${team.rankColor}, #111); color:#fff; font-family:'Bangers', cursive; font-size:2.5rem; width:70px; height:70px; display:flex; align-items:center; justify-content:center; border-radius:15px; border:2px solid ${team.rankColor}; box-shadow:0 0 20px rgba(0,0,0,0.5); text-shadow:2px 2px 0 #000;" title="Score Global : ${team.score} points">
                                 ${team.rank}
@@ -623,10 +695,8 @@
                                 <span style="font-size:0.9rem; color:#888; font-weight: 700;">PROPOSITION #${tIndex + 1} • SCORE: ${team.score}</span>
                             </div>
                         </div>
-
                         <div style="display:flex; gap:12px;">
                             <button style="background:rgba(255,255,255,0.05); border:1px solid rgba(255,255,255,0.1); padding:12px 20px; border-radius:12px; color:#fff; cursor:pointer; font-weight:bold; transition:0.3s;" onmouseover="this.style.background='rgba(255,255,255,0.15)'" onmouseout="this.style.background='rgba(255,255,255,0.05)'" onclick="toggleDetails(${team.id})">🔍 ANALYSER</button>
-                            
                             <button class="btn-like" style="background:${btnBg}; color:#fff; padding:12px 25px; border:none; border-radius:12px; font-weight:bold; cursor:pointer; font-family:'Bangers', cursive; font-size:1.2rem; letter-spacing:1px; box-shadow: 0 4px 10px rgba(0,0,0,0.3);" onclick="likeTeam(${tIndex})">${btnText}</button>
                         </div>
                     </div>
@@ -647,7 +717,11 @@
                 unitsRow.innerHTML += `<div style="display:flex;flex-direction:column;align-items:center;gap:8px; animation: fadeIn 0.5s ease-out;">${createDokkanCard(team.leader, { isInBox: isFromBox ? false : myBoxIds.includes(team.leader.id) })}<span style="font-size:0.8rem;color:var(--accent-gold);font-weight:900;letter-spacing:1px;">LEADER</span></div>`;
 
                 team.members.forEach((m, idx) => {
-                    unitsRow.innerHTML += `<div style="display:flex;flex-direction:column;align-items:center;gap:8px; animation: fadeIn 0.5s ease-out ${0.1 * (idx+1)}s both;">${createDokkanCard(m, { isInBox: isFromBox ? false : myBoxIds.includes(m.id) })}<span style="font-size:0.8rem;color:#888;font-weight:700;">MEMBRE</span></div>`;
+                    // Mettre en évidence si le personnage est notre personnage central !
+                    const isFocusMember = selectedLeader && m.id === selectedLeader.id && document.getElementById('build-mode-filter').value === 'MEMBER';
+                    const memberLabel = isFocusMember ? '<span style="font-size:0.8rem;color:var(--accent-gold);font-weight:900;">⭐ FOCUS</span>' : '<span style="font-size:0.8rem;color:#888;font-weight:700;">MEMBRE</span>';
+                    
+                    unitsRow.innerHTML += `<div style="display:flex;flex-direction:column;align-items:center;gap:8px; animation: fadeIn 0.5s ease-out ${0.1 * (idx+1)}s both;">${createDokkanCard(m, { isInBox: isFromBox ? false : myBoxIds.includes(m.id) })}${memberLabel}</div>`;
                 });
 
                 unitsRow.innerHTML += `<div style="display:flex;flex-direction:column;align-items:center;gap:8px; animation: fadeIn 0.5s ease-out 0.6s both;">${createDokkanCard(team.friend, { isFriend: true, isInBox: isFromBox ? false : myBoxIds.includes(team.friend.id) })}<span style="font-size:0.8rem;color:var(--accent-blue);font-weight:900;letter-spacing:1px;">AMI</span></div>`;
@@ -659,12 +733,69 @@
                 detailsDiv.style.marginTop = '30px';
 
                 let detailsHtml = '';
-
                 const allUnits = [team.leader, ...team.members, team.friend];
+
+                let availableMembers = [...team.members];
+
+                function getBestPartner(mainUnit, candidates) {
+                    let bestPartner = candidates[0];
+                    let maxScore = -1;
+                    candidates.forEach(c => {
+                        let sharedLinks = c.links && mainUnit.links ? c.links.filter(l => mainUnit.links.includes(l)).length : 0;
+                        let score = sharedLinks * 10;
+                        if (c.roles && c.roles.includes("TANK")) score += 15; // Un tank en rotation c'est le top
+                        if (score > maxScore) {
+                            maxScore = score;
+                            bestPartner = c;
+                        }
+                    });
+                    return bestPartner;
+                }
+                let rot1Partner = getBestPartner(team.leader, availableMembers);
+                availableMembers = availableMembers.filter(m => m.id !== rot1Partner.id);
+
+                let rot2Partner = getBestPartner(team.friend, availableMembers);
+                availableMembers = availableMembers.filter(m => m.id !== rot2Partner.id);
+
+                let floaters = availableMembers;
+
+                detailsHtml += `
+                    <div style="margin-bottom: 30px; padding: 25px; background: rgba(0,0,0,0.4); border-radius: 15px; border: 1px solid rgba(255,255,255,0.1); box-shadow: inset 0 0 20px rgba(0,0,0,0.5);">
+                        <h3 style="color: #3498db; font-family: 'Bangers', cursive; font-size: 2rem; margin: 0 0 20px 0; text-align: center; letter-spacing: 1px; text-shadow: 2px 2px 0 #000;">🔄 PLAN DE JEU : ROTATIONS OPTIMALES</h3>
+                        
+                        <div style="display: flex; flex-wrap: wrap; gap: 20px; justify-content: center;">
+                            <div style="background: rgba(255,255,255,0.03); padding: 15px; border-radius: 12px; text-align: center; border-top: 4px solid var(--accent-gold); flex: 1; min-width: 220px;">
+                                <h4 style="color: var(--accent-gold); margin: 0 0 15px 0; font-family: 'Bangers', cursive; font-size: 1.3rem;">ROTATION 1</h4>
+                                <div style="display: flex; justify-content: center; gap: 15px;">
+                                    ${createDokkanCard(team.leader, { size: 'sm', isInBox: isFromBox ? false : myBoxIds.includes(team.leader.id) })}
+                                    ${createDokkanCard(rot1Partner, { size: 'sm', isInBox: isFromBox ? false : myBoxIds.includes(rot1Partner.id) })}
+                                </div>
+                                <p style="font-size: 0.8rem; color:#aaa; margin-top:10px;">(Resteront en Slot 1 et 2)</p>
+                            </div>
+
+                            <div style="background: rgba(255,255,255,0.03); padding: 15px; border-radius: 12px; text-align: center; border-top: 4px solid var(--accent-blue); flex: 1; min-width: 220px;">
+                                <h4 style="color: var(--accent-blue); margin: 0 0 15px 0; font-family: 'Bangers', cursive; font-size: 1.3rem;">ROTATION 2</h4>
+                                <div style="display: flex; justify-content: center; gap: 15px;">
+                                    ${createDokkanCard(team.friend, { size: 'sm', isInBox: isFromBox ? false : myBoxIds.includes(team.friend.id) })}
+                                    ${createDokkanCard(rot2Partner, { size: 'sm', isInBox: isFromBox ? false : myBoxIds.includes(rot2Partner.id) })}
+                                </div>
+                                <p style="font-size: 0.8rem; color:#aaa; margin-top:10px;">(Resteront en Slot 1 et 2)</p>
+                            </div>
+
+                            <div style="background: rgba(255,255,255,0.03); padding: 15px; border-radius: 12px; text-align: center; border-top: 4px solid #888; flex: 1; min-width: 250px;">
+                                <h4 style="color: #bbb; margin: 0 0 15px 0; font-family: 'Bangers', cursive; font-size: 1.3rem;">FLOTTEURS (Slot 3)</h4>
+                                <div style="display: flex; justify-content: center; gap: 10px;">
+                                    ${floaters.map(f => createDokkanCard(f, { size: 'sm', isInBox: isFromBox ? false : myBoxIds.includes(f.id) })).join('')}
+                                </div>
+                                <p style="font-size: 0.8rem; color:#aaa; margin-top:10px;">(Apparaissent tous les 3 tours)</p>
+                            </div>
+                        </div>
+                    </div>
+                    <h3 style="color: #fff; font-family: 'Bangers', cursive; font-size: 1.5rem; margin: 0 0 15px 10px; border-bottom: 2px solid rgba(255,255,255,0.1); padding-bottom: 10px;">Détails de l'équipe :</h3>
+                `;
 
                 allUnits.forEach((m, uIndex) => {
                     if(!m) return;
-
                     const showBadge = isFromBox ? false : myBoxIds.includes(m.id);
                     
                     let roleText = "MEMBRE";
@@ -679,32 +810,24 @@
 
                     detailsHtml += `
                         <div class="member-row" style="border-left-color: ${roleColor};">
-                            <div style="flex-shrink:0;">
-                                ${createDokkanCard(m, { size: 'md', isInBox: showBadge })}
-                            </div>
+                            <div style="flex-shrink:0;">${createDokkanCard(m, { size: 'md', isInBox: showBadge })}</div>
                             <div style="flex:1; margin-left: 20px;">
                                 <h4 style="margin:0 0 8px 0; color:#fff; font-family:'Bangers', cursive; font-size:1.6rem; letter-spacing:1px;">
                                     ${m.name} <span style="font-size:1rem; color:${roleColor};">(${roleText})</span>
                                 </h4>
-                                
                                 <div class="synergy-pills">
                                     ${(m.id !== team.leader.id) 
                                         ? `<span class="pill">🔗 ${sharedLinks} Liens Partagés</span>` 
                                         : `<span class="pill" style="border-color:var(--accent-gold); color:var(--accent-gold);">👑 Référent d'Équipe</span>`
                                     }
-                                    
-                                    ${(m.roles && m.roles.length > 0) 
-                                        ? m.roles.map(r => `<span class="pill" style="border-color:#2ecc71; color:#2ecc71;">${r}</span>`).join('') 
-                                        : ''
-                                    }
+                                    ${(m.roles && m.roles.length > 0) ? m.roles.map(r => `<span class="pill" style="border-color:#2ecc71; color:#2ecc71;">${r}</span>`).join('') : ''}
                                 </div>
                             </div>
                         </div>
                     `;
                 });
-
+                
                 detailsDiv.innerHTML = detailsHtml;
-
                 teamSection.appendChild(unitsRow);
                 teamSection.appendChild(detailsDiv);
                 resultsDiv.appendChild(teamSection);
@@ -714,48 +837,34 @@
         window.likeTeam = function(index) {
             const lastGeneratedTeam = generatedTeams[index];
             if (!lastGeneratedTeam) return;
-            
             let teams = [];
-            try {
-                teams = JSON.parse(localStorage.getItem('dokkanSavedTeams')) || [];
-            } catch(e) {
-                teams = []; 
-            }
-
-            const btns = document.querySelectorAll('.btn-like');
-            const btn = btns[index];
+            try { teams = JSON.parse(localStorage.getItem('dokkanSavedTeams')) || []; } catch(e) { teams = []; }
+            const btn = document.querySelectorAll('.btn-like')[index];
 
             if (!lastGeneratedTeam.savedId) {
                 const allMembers = lastGeneratedTeam.members.map(m => m.id);
                 if (lastGeneratedTeam.friend) allMembers.push(lastGeneratedTeam.friend.id);
-
                 const newTeamId = Date.now() + Math.floor(Math.random() * 1000);
                 
                 teams.push({
-                    id       : newTeamId,
-                    name     : lastGeneratedTeam.teamName,
-                    leaderId : lastGeneratedTeam.leader.id,
+                    id: newTeamId,
+                    name: lastGeneratedTeam.teamName,
+                    leaderId: lastGeneratedTeam.leader.id,
                     memberIds: allMembers,
-                    source   : lastGeneratedTeam.source || 'Générateur',
-                    date     : lastGeneratedTeam.date || new Date().toLocaleDateString('fr-FR')
+                    source: lastGeneratedTeam.source || 'Générateur',
+                    date: lastGeneratedTeam.date || new Date().toLocaleDateString('fr-FR')
                 });
-                
                 localStorage.setItem('dokkanSavedTeams', JSON.stringify(teams));
-                
                 lastGeneratedTeam.savedId = newTeamId; 
-
                 if (btn) {
                     btn.innerHTML = '✅ SAUVEGARDÉE !';
                     btn.style.background = 'linear-gradient(135deg,#27ae60,#145c33)';
                     btn.style.color = '#ffffff';
                 }
-            } 
-            else {
+            } else {
                 teams = teams.filter(t => t.id !== lastGeneratedTeam.savedId);
                 localStorage.setItem('dokkanSavedTeams', JSON.stringify(teams));
-                
                 lastGeneratedTeam.savedId = null;
-
                 if (btn) {
                     btn.innerHTML = '❤️ SAUVEGARDER';
                     btn.style.background = '#e74c3c';
@@ -763,10 +872,8 @@
                 }
             }
             sessionStorage.setItem('dokkanTempTeams', JSON.stringify(generatedTeams));
-            sessionStorage.setItem('dokkanTempLeaderId', selectedLeader ? selectedLeader.id : null);
-            sessionStorage.setItem('dokkanTempFriendId', friendLeader ? friendLeader.id : null);
         };
-        
+
         window.addEventListener('DOMContentLoaded', () => {
             const tempTeams = sessionStorage.getItem('dokkanTempTeams');
             if (tempTeams) {
@@ -774,6 +881,7 @@
                 renderGeneratedTeams();
             }
 
+            // --- LA MÉMOIRE DU LEADER RESTAURÉE ---
             const savedLeaderId = sessionStorage.getItem('dokkanTempLeaderId');
             if (savedLeaderId && savedLeaderId !== "null") {
                 selectLeader(parseInt(savedLeaderId));

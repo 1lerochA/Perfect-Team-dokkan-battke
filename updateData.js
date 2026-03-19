@@ -160,16 +160,30 @@ function detectRoles(passiveText, activeText) {
     const roles = [];
     const fullText = (passiveText + " " + activeText).toLowerCase();
 
-    if (/\b(guard|damage reduction|reduces damage)\b/i.test(fullText)) {
-        roles.push("TANK");
+    // 1. TANK / DEFENSE 
+    // On cible la vraie Garde (pas "disables enemy's guard"), la vraie réduction,
+    // et UNIQUEMENT les grosses esquives (High, Great, Ultra-high) ou esquives garanties ("evades enemy").
+    const isTank = /\b(damage reduction|reduces damage|guards all|activates guard|guard activated)\b/i.test(fullText) || 
+                   /\b(high|great|ultra-high|supreme) chance of (evading|evasion)\b/i.test(fullText) ||
+                   /\b(high|great|ultra-high|supreme) chance to (evade|dodge)\b/i.test(fullText) ||
+                   /\bevades enemy\b/i.test(fullText);
+                   
+    if (isTank) {
+        roles.push("TANK"); 
     }
+    
+    // 2. HEALER
     if (/\b(recovers|recovery)\b/i.test(fullText) && /\b(hp)\b/i.test(fullText)) {
         roles.push("HEALER");
     }
-    if (/\b(allies' ki|allies' atk|allies' def|allies ki)\b/i.test(fullText)) {
+    
+    // 3. SUPPORT
+    if (/\b(allies' ki|allies' atk|allies' def|allies ki|allies' chance of performing a critical hit)\b/i.test(fullText)) {
         roles.push("SUPPORT");
     }
-    if (/\b(critical hit|changes ki spheres|effective against all types)\b/i.test(fullText)) {
+    
+    // 4. DPS / NUKER 
+    if (/\b(critical hit|changes ki spheres|effective against all types|additional attack|additional super attack)\b/i.test(fullText) || /atk[^+]*\+[1-9]\d{2,}%/i.test(fullText)) {
         roles.push("DPS / NUKER");
     }
 
