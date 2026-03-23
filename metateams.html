@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Top Méta - Dokkan Pro</title>
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Nunito:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .meta-header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        
+        .meta-container {
+            max-width: 1050px; 
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+            gap: 20px; /* Moins d'espace entre les équipes */
+            margin-bottom: 50px;
+        }
+
+        .meta-team-card {
+            background: linear-gradient(135deg, rgba(20, 30, 48, 0.9), rgba(36, 59, 85, 0.9));
+            border-radius: 12px; /* Coins moins arrondis pour gagner de la place */
+            border: 2px solid var(--accent-gold);
+            padding: 15px; /* Cadre beaucoup plus serré ! */
+            box-shadow: 0 8px 20px rgba(0,0,0,0.5);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .meta-team-card::before {
+            content: 'TOP MÉTA';
+            position: absolute;
+            top: 15px;
+            right: -35px;
+            background: #e74c3c;
+            color: white;
+            padding: 5px 40px;
+            transform: rotate(45deg);
+            font-family: 'Bangers', cursive;
+            font-size: 1rem;
+            letter-spacing: 2px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+            z-index: 10;
+        }
+
+        .meta-title {
+            color: var(--accent-gold);
+            font-family: 'Bangers', cursive;
+            font-size: 1.6rem; /* Texte un peu plus petit */
+            margin: 0 0 5px 0;
+            text-shadow: 2px 2px 0 #000;
+            letter-spacing: 1px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .meta-desc {
+            color: #ccc;
+            font-size: 0.9rem;
+            line-height: 1.3;
+            margin-bottom: 10px;
+            border-left: 3px solid var(--accent-blue);
+            background: rgba(0,0,0,0.3);
+            border-radius: 0 5px 5px 0;
+            padding: 8px 12px; /* Description très compacte */
+        }
+
+        .meta-units {
+            display: flex;
+            justify-content: center;
+            gap: 15px; 
+            flex-wrap: wrap;
+            padding: 10px; /* Encadré des persos plus serré */
+            background: rgba(255,255,255,0.03);
+            border-radius: 10px;
+            border: 1px solid rgba(255,255,255,0.1);
+        }
+
+        .unit-wrapper {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 6px;
+            transition: transform 0.2s;
+            /* Plus de scale de réduction ! On garde la vraie taille MD des persos */
+        }
+
+        .unit-wrapper:hover {
+            transform: translateY(-5px);
+        }
+
+        .role-badge {
+            font-size: 0.75rem;
+            font-weight: 900;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            background: rgba(0,0,0,0.6);
+            padding: 3px 8px;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header class="meta-header">
+            <h1 class="dokkan-font" style="font-size:3.5rem; margin-bottom:0; color:var(--accent-gold); text-shadow: 3px 3px 0 #000, 0 0 20px rgba(243, 156, 18, 0.4);">ÉQUIPES DE LA MÉTA</h1>
+            <div style="width:100px; height:4px; background:var(--accent-gold); margin: 15px auto; border-radius:2px;"></div>
+            <p style="color:#aaa; font-size:1.1rem; max-width:800px; margin: 0 auto;">Les meilleures compositions actuelles générées automatiquement par l'IA autour des personnages les plus récents du jeu.</p>
+        </header>
+
+        <div class="meta-container" id="meta-teams-container">
+            </div>
+    </div>
+
+    <script src="data.js"></script>
+    <script src="nav.js"></script>
+    <script src="cards.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            generateAutomaticMetaTeams();
+        });
+
+        // 1. Fonction principale qui génère tout automatiquement
+        function generateAutomaticMetaTeams() {
+            const container = document.getElementById('meta-teams-container');
+            container.innerHTML = '<div style="text-align:center; padding:50px;"><h2 class="dokkan-font" style="color:var(--accent-gold); font-size: 2rem; animation: pulse 1.5s infinite;">⚡ ANALYSE DE LA MÉTA EN COURS... ⚡</h2></div>';
+
+            // On met un petit délai pour laisser l'interface s'afficher (effet de chargement)
+            setTimeout(() => {
+                // Étape A : Trouver les 5 LRs les plus récents (Ce sont généralement les boss de la méta)
+                let topLeaders = dokkanCharacters
+                    .filter(c => c.rarity === 'LR' && c.leaderSkill && c.leaderSkill.length > 20)
+                    .sort((a, b) => b.id - a.id) // Tri par ID décroissant = Les plus récents
+                    .slice(0, 5); // On prend le Top 5
+
+                let htmlContent = '';
+                const colors = ['#e74c3c', '#3498db', '#2ecc71', '#9b59b6', '#f39c12'];
+
+                // Étape B : Pour chaque Leader, l'IA construit la meilleure team absolue
+                topLeaders.forEach((leader, index) => {
+                    let members = buildOptimalMetaTeam(leader);
+                    let badgeColor = colors[index % colors.length];
+
+                    htmlContent += `
+                        <div class="meta-team-card" style="border-color: ${badgeColor};">
+                            <h2 class="meta-title" style="color: ${badgeColor};">
+                                <span style="background:${badgeColor}; color:#fff; padding:2px 10px; border-radius:8px; font-size:1.2rem;">#${index + 1}</span> 
+                                TEAM ${leader.name.toUpperCase()}
+                            </h2>
+                            <div class="meta-desc">L'équipe optimale calculée par l'algorithme autour du Leader Skill de ce personnage pour dominer les événements Endgame.</div>
+                            <div class="meta-units">
+                                <div class="unit-wrapper">
+                                    ${createDokkanCard(leader, { size: 'sm' })}
+                                    <span class="role-badge" style="color: var(--accent-gold);">👑 LEADER</span>
+                                </div>
+                                ${members.map(m => `
+                                    <div class="unit-wrapper">
+                                        ${createDokkanCard(m, { size: 'sm' })}
+                                        <span class="role-badge" style="color: #aaa;">MEMBRE</span>
+                                    </div>
+                                `).join('')}
+                                <div class="unit-wrapper">
+                                    ${createDokkanCard(leader, { size: 'sm', isFriend: true })}
+                                    <span class="role-badge" style="color: var(--accent-blue);">🤝 AMI</span>
+                                </div>
+                            </div>
+                        </div>
+                    `;
+                });
+
+                container.innerHTML = htmlContent;
+            }, 500);
+        }
+
+        document.addEventListener('DOMContentLoaded', () => {
+            generateAutomaticMetaTeams();
+        });
+
+        function generateAutomaticMetaTeams() {
+            const container = document.getElementById('meta-teams-container');
+            container.innerHTML = '<div style="text-align:center; padding:50px;"><h2 class="dokkan-font" style="color:var(--accent-gold); font-size: 2rem; animation: pulse 1.5s infinite;">⚡ ANALYSE DE LA MÉTA EN COURS... ⚡</h2></div>';
+
+            setTimeout(() => {
+                // On prend les 5 LRs les plus récents de ton jeu
+                let topLeaders = dokkanCharacters
+                    .filter(c => c.rarity === 'LR' && c.leaderSkill && c.leaderSkill.length > 20)
+                    .sort((a, b) => b.id - a.id)
+                    .slice(0, 5); 
+
+                let htmlContent = '';
+                const colors = ['#e74c3c', '#3498db', '#2ecc71', '#9b59b6', '#f39c12'];
+                let teamCount = 1;
+
+                topLeaders.forEach((leader, index) => {
+                    let badgeColor = colors[index % colors.length];
+
+                    // 1ère Team : Variante ÉQUILIBRÉE
+                    let membersOpti = buildOptimalMetaTeam(leader, "OPTIMAL");
+                    htmlContent += generateTeamHTML(leader, membersOpti, badgeColor, teamCount++, "ÉQUILIBRÉE", "L'équipe optimale calculée pour allier de lourds dégâts et une très bonne synergie de liens.");
+
+                    // 2ème Team : Variante DÉFENSIVE (pour le même Leader !)
+                    let membersDef = buildOptimalMetaTeam(leader, "DEFENSIVE");
+                    
+                    // Petite vérification de sécurité : si ta box de persos est trop petite, 
+                    // l'IA pourrait générer 2 fois la même team. On vérifie ça :
+                    let sameTeam = membersOpti.every((m, i) => m && membersDef[i] && m.id === membersDef[i].id);
+                    
+                    if (!sameTeam) { // S'il y a bien une différence, on l'affiche !
+                        htmlContent += generateTeamHTML(leader, membersDef, badgeColor, teamCount++, "SURVIE / DÉFENSIVE", "Variante Survie : Priorité absolue aux personnages possédant des réductions de dégâts et de la Garde.");
+                    }
+                });
+
+                container.innerHTML = htmlContent;
+            }, 500);
+        }
+
+        // Fonction pour créer le design d'une carte d'équipe
+        function generateTeamHTML(leader, members, badgeColor, rank, typeName, desc) {
+            return `
+                <div class="meta-team-card" style="border-color: ${badgeColor};">
+                    <h2 class="meta-title" style="color: ${badgeColor};">
+                        <span style="background:${badgeColor}; color:#fff; padding:2px 10px; border-radius:8px; font-size:1.2rem;">#${rank}</span> 
+                        TEAM ${leader.name.toUpperCase()} <span style="font-size: 1rem; color: #fff; background: rgba(255,255,255,0.2); padding: 3px 10px; border-radius: 6px; margin-left:10px;">(${typeName})</span>
+                    </h2>
+                    <div class="meta-desc">${desc}</div>
+                    <div class="meta-units">
+                        <div class="unit-wrapper">
+                            ${createDokkanCard(leader, { size: 'md' })} <span class="role-badge" style="color: var(--accent-gold);">👑 LEADER</span>
+                        </div>
+                        ${members.map(m => `
+                            <div class="unit-wrapper">
+                                ${createDokkanCard(m, { size: 'md' })}
+                                <span class="role-badge" style="color: #aaa;">MEMBRE</span>
+                            </div>
+                        `).join('')}
+                        <div class="unit-wrapper">
+                            ${createDokkanCard(leader, { size: 'md', isFriend: true })}
+                            <span class="role-badge" style="color: var(--accent-blue);">🤝 AMI</span>
+                        </div>
+                    </div>
+                </div>
+            `;
+        }
+
+        function buildOptimalMetaTeam(leader, mode) {
+            let candidates = dokkanCharacters.filter(c => c.id !== leader.id);
+            
+            let leaderCategories = [];
+            if (leader.leaderSkill) {
+                const catRegex = /"([^"]+)" Category/g;
+                let match;
+                while ((match = catRegex.exec(leader.leaderSkill)) !== null) {
+                    leaderCategories.push(match[1]);
+                }
+            }
+
+            let scoredCandidates = candidates.map(candidate => {
+                let score = 0;
+                let isCatMatch = false;
+                
+                if (leader.leaderSkill) {
+                    if (leader.leaderSkill.includes("Super Type") && candidate.alignment === "SUPER") isCatMatch = true;
+                    if (leader.leaderSkill.includes("Extreme Type") && candidate.alignment === "EXTRÊME") isCatMatch = true;
+                    if (leader.leaderSkill.includes("All Types")) isCatMatch = true;
+                    
+                    leaderCategories.forEach(cat => {
+                        if (candidate.categories.includes(cat) || candidate.name.toLowerCase().includes(cat.toLowerCase())) isCatMatch = true;
+                    });
+                }
+
+                if (!isCatMatch) return { candidate, score: -99999 };
+                score += 5000;
+
+                if (leader.leaderSkill) {
+                    const addRegex = /additional HP, ATK & DEF \+\d+% for characters who also belong to the "([^"]+)"/i;
+                    const match = leader.leaderSkill.match(addRegex);
+                    if (match && match[1] && candidate.categories.includes(match[1])) score += 2000;
+                }
+
+                if (candidate.links && leader.links) {
+                    score += candidate.links.filter(l => leader.links.includes(l)).length * 100;
+                }
+
+                // --- GESTION DES MODES (Équilibré vs Défensif) ---
+                if (mode === "OPTIMAL") {
+                    if (candidate.roles && candidate.roles.includes("TANK")) score += 500;
+                    if (candidate.roles && candidate.roles.includes("SUPPORT")) score += 300;
+                    if (candidate.roles && candidate.roles.includes("DPS / NUKER")) score += 200;
+                } else if (mode === "DEFENSIVE") {
+                    // Si on cherche de la survie, les Tanks gagnent un boost colossal !
+                    if (candidate.roles && candidate.roles.includes("TANK")) score += 3000; 
+                    if (candidate.roles && candidate.roles.includes("HEALER")) score += 800;
+                }
+
+                score += (candidate.id % 1000000) * 0.001; 
+                if (candidate.rarity === 'LR') score += 400;
+
+                return { candidate, score };
+            });
+
+            scoredCandidates = scoredCandidates.filter(item => item.score > 0).sort((a, b) => b.score - a.score);
+            
+            let team = [];
+            for (let item of scoredCandidates) {
+                if (team.length >= 5) break;
+                team.push(item.candidate);
+            }
+
+            return team;
+        }
+    </script>
+</body>
+</html>

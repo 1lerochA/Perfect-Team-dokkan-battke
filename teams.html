@@ -677,60 +677,86 @@
             let modeCouleur = "";
             let modeTitre = "";
 
+            // --- 1. RADAR DE DIFFICULTÉ (ENDGAME SCOUTER) ---
             if (offLeaderCatCount > 0) {
                 modeTitre = "Mode Histoire & Quêtes";
                 modeConseille = "Cette équipe n'est pas optimisée. Reste sur les événements très faciles pour le moment.";
                 modeCouleur = "#888";
             } else if (tankCount >= 3 && totalLinks >= 80) {
-                modeTitre = "💥 Red Zone, Supreme Spectacle & All-Out Battles";
-                modeConseille = "Tu as une défense de fer et une énorme synergie. Cette équipe est taillée pour détruire le contenu le plus difficile du jeu actuel !";
+                modeTitre = "💥 Red Zone, Supreme Spectacle & Blue Zone";
+                modeConseille = "Une équipe de type 'Endgame'. Avec assez de tanks pour le Slot 1 et d'excellents liens, elle peut terrasser les boss les plus violents du jeu !";
                 modeCouleur = "#e74c3c";
             } else if (totalLinks >= 100 && tankCount <= 1) {
-                modeTitre = "⚡ Super Battle Road (SBR / ESBR)";
-                modeConseille = "Une équipe 'Blitz' ! Tu vas frapper extrêmement fort d'entrée de jeu, parfait pour les combats courts du SBR, mais trop fragile pour les combats longs.";
+                modeTitre = "⚡ Super Battle Road (ESBR) & Clash";
+                modeConseille = "Équipe très agressive ('Blitz'). Vous frappez fort et vite grâce aux liens, mais l'absence de tanks rend les combats longs trop risqués.";
                 modeCouleur = "#9b59b6";
             } else if (tankCount >= 2 && totalLinks >= 50) {
                 modeTitre = "🐉 Rush de Boss & Événements Dokkan";
-                modeConseille = "Une équipe très solide. Elle passera tous les événements classiques et les niveaux de difficulté intermédiaires sans transpirer.";
+                modeConseille = "Un deck très solide. Avec de bonnes rotations et quelques items de soin, vous passerez la majorité des niveaux sans transpirer.";
                 modeCouleur = "#f39c12";
             } else {
                 modeTitre = "⚔️ Niveaux Z-Hard / Super";
-                modeConseille = "L'équipe manque un peu de liant ou de défense pour le vrai Endgame, mais fera largement l'affaire pour farmer des médailles.";
+                modeConseille = "L'équipe manque d'un peu d'optimisation (liens ou tanks) pour le vrai Endgame, mais elle fera le travail pour farmer des médailles.";
                 modeCouleur = "#2ecc71";
             }
 
             commentsHTML += createAnalysisBlock("🎯", "Radar de Difficulté", `<b>Événement recommandé : ${modeTitre}</b><br>${modeConseille}`, modeCouleur);
 
+            // --- 2. ANALYSE DU LEADER SKILL (COHÉSION) ---
             if (offLeaderCatCount > 0) {
-                commentsHTML += createAnalysisBlock("C", "Alerte de Commandement", `Catastrophe ! <b>${offLeaderCatCount} personnage(s)</b> joue hors du Leader Skill. Ils vont se faire pulvériser au premier tour.`, "#e74c3c");
+                commentsHTML += createAnalysisBlock("C", "Alerte Leader Skill", `Catastrophe ! <b>${offLeaderCatCount} personnage(s)</b> joue hors du Leader Skill. Dans Dokkan, un perso sans boost de stats se fait One-Shot sur une simple auto-attaque.`, "#e74c3c");
             } else {
-                commentsHTML += createAnalysisBlock("Z", "Cohésion Parfaite", `Le Leader Skill enveloppe toute l'équipe. Tout le monde part au combat avec le maximum de statistiques !`, "#2ecc71");
+                commentsHTML += createAnalysisBlock("Z", "Cohésion Parfaite", `Tous les membres bénéficient du Leader Skill. C'est la règle d'or d'une équipe gagnante ! Tout le monde part avec un maximum de stats.`, "#e74c3c");
             }
 
+            // --- 3. ANALYSE DES LIENS (KI & SYNERGIE) ---
             if (totalLinks >= 120) {
-                commentsHTML += createAnalysisBlock("Z", "Toile de Ki Absolue", `<b>${totalLinks} liens partagés.</b> C'est effrayant. Les Attaques Spéciales Ultimes vont partir toutes seules sans même toucher de sphères de Ki !`, "#e74c3c");
+                commentsHTML += createAnalysisBlock("Z", "Réseau de Ki Absolu", `<b>${totalLinks} liens partagés.</b> C'est exceptionnel. Les personnages partagent des gros liens (Paré au combat, Combat acharné...). Les Spéciales Ultimes partiront toutes seules à Ki+12 !`, "#e74c3c");
             } else if (totalLinks >= 80) {
-                commentsHTML += createAnalysisBlock("S", "Excellente Synergie", `<b>${totalLinks} liens partagés.</b> L'équipe tourne comme une horloge suisse. Garde tes meilleures paires en rotation.`, "#f39c12");
+                commentsHTML += createAnalysisBlock("S", "Très Bons Liens", `<b>${totalLinks} liens partagés.</b> Les rotations principales se boosteront mutuellement sans problème. Le Ki ne devrait pas être une barrière.`, "#f39c12");
             } else if (totalLinks >= 50) {
-                commentsHTML += createAnalysisBlock("A", "Synergie Correcte", `<b>${totalLinks} liens partagés.</b> C'est ok, mais il faudra parfois faire attention aux sphères de Ki pour partir en Spé.`, "#3498db");
+                commentsHTML += createAnalysisBlock("A", "Synergie Correcte", `<b>${totalLinks} liens partagés.</b> C'est ok, mais il faudra parfois faire attention aux sphères de Ki pour partir en Spéciale.`, "#2ecc71");
             } else {
-                commentsHTML += createAnalysisBlock("B", "Problème de Moteur", `Seulement <b>${totalLinks} liens partagés.</b> Tes personnages ne se parlent pas. Prépare des objets de soutien pour le Ki.`, "#888");
+                commentsHTML += createAnalysisBlock("B", "Problème de Moteur", `Seulement <b>${totalLinks} liens partagés.</b> Tes personnages viennent de catégories trop différentes. Tu risques de rater tes Attaques Spéciales sans changeur de Ki.`, "#888");
             }
 
-            if (tankCount >= 4) {
-                commentsHTML += createAnalysisBlock("Z", "Le Mur de l'Infini", `<b>${tankCount} Tanks/Esquiveurs !</b> Tu pourrais encaisser une Spéciale de Gogeta Blue Red Zone en souriant. Increvable.`, "#e74c3c");
-            } else if (tankCount >= 2) {
-                commentsHTML += createAnalysisBlock("S", "Défense Équilibrée", `<b>${tankCount} personnages défensifs.</b> Place-les intelligemment en Slot 1 pour encaisser les coups, et laisse tes DPS faire le reste.`, "#f39c12");
+            // --- 4. ANALYSE DÉFENSIVE (SLOT 1) ---
+            if (tankCount >= 3) {
+                commentsHTML += createAnalysisBlock("Z", "Muraille Infranchissable", `<b>${tankCount} Tanks/Esquiveurs !</b> Tu as largement de quoi protéger les Slots 1 et 2 face aux pires Spéciales de boss. Une équipe increvable.`, "#e74c3c");
+            } else if (tankCount === 2) {
+                commentsHTML += createAnalysisBlock("S", "Défense Fiable", `<b>${tankCount} Tanks.</b> Juste ce qu'il faut pour sécuriser le Slot 1 de tes deux rotations. Laisse-leur encaisser les grosses attaques.`, "#f39c12");
             } else if (tankCount === 1) {
-                commentsHTML += createAnalysisBlock("A", "Défense Critique", `<b>Un seul Tank !</b> Il va falloir le prier pour qu'il soit dans la bonne rotation quand le Boss s'énervera.`, "#e67e22");
+                commentsHTML += createAnalysisBlock("A", "Défense Légère", `<b>Un seul vrai Tank.</b> Une de tes deux rotations va prendre très cher si le Boss lance une Spéciale. Un item Whis (réduction 40%) sera souvent nécessaire.`, "#2ecc71");
             } else {
-                commentsHTML += createAnalysisBlock("C", "Kamikaze", `<b>0 Tank.</b> C'est une stratégie "Tuer ou être tué". Un item Whis (réduction de dégâts) est obligatoire !`, "#888");
+                commentsHTML += createAnalysisBlock("C", "Full Kamikaze", `<b>0 Tank détecté.</b> Sans Garde, Réduction ou grosse Esquive, la moindre erreur de placement sera fatale. Stratégie du "Tuer avant d'être tué" obligatoire.`, "#888");
             }
 
-            if (supportCount >= 3) {
-                commentsHTML += createAnalysisBlock("Z", "Soutien Massif", `<b>${supportCount} Supports !</b> Les statistiques de tes attaquants principaux vont atteindre des valeurs astronomiques !`, "#e74c3c");
-            } else if (supportCount >= 1) {
-                commentsHTML += createAnalysisBlock("A", "Bonne Huile de Coude", `<b>${supportCount} Support(s).</b> Utile pour gonfler la défense des autres et sécuriser le Ki en 3ème position.`, "#2ecc71");
+            // --- 5. DÉTECTEUR DE FLOTTEURS / MAILLON FAIBLE ---
+            if (fullTeam.length > 1) {
+                let maillonFaible = fullTeam[0];
+                let minLinks = 999;
+                
+                fullTeam.forEach(m => {
+                    let sesLiens = 0;
+                    fullTeam.forEach(other => {
+                        if (m.id !== other.id && m.links && other.links) {
+                            sesLiens += m.links.filter(l => other.links.includes(l)).length;
+                        }
+                    });
+                    if (sesLiens < minLinks) {
+                        minLinks = sesLiens;
+                        maillonFaible = m;
+                    }
+                });
+
+                // Si un perso partage moins de 4 liens au total avec toute l'équipe
+                if (minLinks <= 4 && maillonFaible) {
+                    commentsHTML += createAnalysisBlock("B", "Le Maillon Faible", `Attention à <b>${maillonFaible.name}</b>. Il est isolé en termes de liens. Garde-le impérativement en <b>Slot 3 (Flotteur)</b> pour ne pas briser la synergie de tes rotations !`, "#888");
+                } else if (supportCount >= 2) {
+                    commentsHTML += createAnalysisBlock("S", "Soutien Optimisé", `<b>${supportCount} Support(s) détecté(s).</b> Placés en 3ème position (flotteurs), ils donneront le boost de stats parfait pour finir le boss.`, "#f39c12");
+                } else if (supportCount === 1) {
+                    commentsHTML += createAnalysisBlock("A", "Support Actif", `Tu as un soutien dans l'équipe pour booster les stats de tes gros cogneurs en Flotteur. Toujours utile !`, "#2ecc71");
+                }
             }
 
             document.getElementById('analyzer-content').innerHTML = commentsHTML;
